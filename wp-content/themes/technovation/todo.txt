@@ -1,0 +1,6 @@
+* Site launch on October 1
+* Slack channel to be set up with Maggie, Madhavi, me and Cristal
+
+* Flesh out font family variables - full font stacks
+* Set up and configure header image for each page - BB?
+*

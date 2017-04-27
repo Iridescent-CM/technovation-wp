@@ -1,0 +1,224 @@
+/*
+ * Google Made with Code Landing page
+ */
+
+
+.mwc-header-image {
+	.fl-row-content-wrap {
+		padding-bottom: 0;
+	}
+}
+
+.mwc-supporter {
+	.fl-module-content {
+		margin-bottom: 0 !important;
+	}
+}
+
+.entry-content .mwc-in-partnership-with .fl-heading {
+	color: white !important;
+}
+
+.mwc-how-it-works {
+	.fl-row-content {
+		@include breakpoint($tablet) {
+			position: relative;
+			&::before {
+				background: {
+					image: url(images/mwc/mwc-lightning3.png);
+					position: center center;
+					repeat: no-repeat;
+					size: contain;
+				};
+				content: '';
+				display: block;
+				height: 52px;
+				left: 25%;
+				position: absolute;
+				top: -30px;
+				width: 52px;
+			}
+		}
+	}
+	.fl-row-content-wrap {
+		position: relative;
+		&::before {
+			background: {
+				image: url(images/mwc/mwc-fist.png);
+				position: center center;
+				repeat: no-repeat;
+				size: contain;
+			};
+			content: '';
+			display: block;
+			height: 191px;
+			left: 50%;
+			position: absolute;
+			top: -100px;
+			width: 181px;
+			z-index: 1;
+			@include breakpoint($mobile-lg) {
+				left: 60%;
+			}
+			@include breakpoint($tablet) {
+				left: 75%;
+			}
+		}
+		&::after {
+			background: {
+				image: url(images/mwc/mwc-easel.png);
+				position: center center;
+				repeat: no-repeat;
+				size: contain;
+			};
+			bottom: -75px;
+			content: '';
+			display: block;
+			height: 151px;
+			left: 0;
+			position: absolute;
+			width: 133px;
+			z-index: 1;
+			@include breakpoint($tablet) {
+				left: 50%;
+				margin-left: -60px;
+			}
+		}
+	}
+}
+
+.mwc-how-it-works-heading {
+	background: {
+		image: url(images/mwc/mwc-triangle.png);
+		position: left center;
+		repeat: no-repeat;
+	}
+}
+
+.mwc-how-it-works-1 {
+	background: {
+		image: url(images/mwc/mwc-x.png), url(images/mwc/mwc-heart.png), url(images/mwc/mwc-shining-heart.png);
+		position: left center, 50% top, 90% center;
+		repeat: no-repeat, no-repeat, no-repeat;
+	}
+}
+
+.mwc-how-it-works-2 {
+	background: {
+		image: url(images/mwc/mwc-triangle.png);
+		position: 40% 20%;
+		repeat: no-repeat;
+	}
+}
+
+.mwc-how-it-works-3 {
+	background: {
+		image: url(images/mwc/mwc-heart-arrows.png), url(images/mwc/mwc-x.png), url(images/mwc/mwc-triangle-baby.png);
+		position: 25% 10%, 50% top, 0 100%;
+		repeat: no-repeat, no-repeat, no-repeat;
+	}
+}
+
+.mwc-how-it-works-4 {
+	background: {
+		image: url(images/mwc/mwc-mouth.png), url(images/mwc/mwc-lightning-baby.png);
+		position: 35% 10%, right bottom;
+		repeat: no-repeat, no-repeat;
+	}
+}
+
+.mwc-what-youll-learn {
+	.fl-row-content-wrap {
+		&::after {
+			background: {
+				image: url(images/mwc/mwc-mouth.png);
+				position: center center;
+				repeat: no-repeat;
+				size: contain;
+			};
+			bottom: -25px;
+			content: '';
+			display: block;
+			height: 109px;
+			left: 20%;
+			position: absolute;
+			width: 144px;
+			z-index: 1;
+		}
+	}
+}
+
+.mwc-what-youll-learn-heading {
+	background: {
+		image: url(images/mwc/mwc-lightning3.png);
+		position: 100% center;
+		repeat: no-repeat;
+	}
+}
+
+.entry-content .mwc-what-youll-learn-content {
+	ol {
+		list-style-type: none;
+		margin-left: 0;
+		li {
+			background: {
+				image: url(images/mwc/mwc-bullet-3.png);
+				position: 0 50%;
+				repeat: no-repeat;
+			}
+			padding-left: 40px;
+			&:nth-child(3n-1) {
+				background: {
+					image: url(images/mwc/mwc-bullet-2.png);
+				}
+			}
+			&:nth-child(3n-2) {
+				background: {
+					image: url(images/mwc/mwc-bullet-1.png);
+				}
+			}
+		}
+	}
+}
+
+.mwc-cta {
+	.fl-row-content-wrap {
+		padding: 0;
+		.fl-row-content {
+			background: {
+				image: url(images/mwc/mwc-x-bg.png), url(images/mwc/mwc-heart-arrows.png);
+				position: center center, 90% center;
+				repeat: repeat, no-repeat;
+			}
+			padding: 20px;
+			@include breakpoint($tablet) {
+				position: center, center, 75% center;
+			}
+		}
+	}
+}
+
+.mwc-cta-button {
+	background: {
+		image: url(images/mwc/mwc-button-shine.png);
+		position: center center;
+		repeat: no-repeat;
+		size: contain;
+	}
+}
+
+.mwc-about-bubble-1 {
+	background: {
+		image: url(images/mwc/mwc-triangle.png);
+		position: left 50%;
+		repeat: no-repeat;
+	}
+}
+
+.mwc-about-bubble-2 {
+	background: {
+		image: url(images/mwc/mwc-shining-heart.png), url(images/mwc/mwc-lightning4.png);
+		position: right top, right bottom;
+		repeat: no-repeat, no-repeat;
+	}
+}

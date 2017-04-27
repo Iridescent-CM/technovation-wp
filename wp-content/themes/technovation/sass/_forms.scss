@@ -1,0 +1,59 @@
+.gfield {
+	margin-bottom: 1rem;
+	input[type='text'],
+	input[type='email'] {
+		@include box-sizing(border-box);
+		cursor: pointer;
+		font-family: inherit;
+		font-size: inherit;
+		padding: 0.25rem 0.5rem;
+		@include transition(all 300ms);
+		width: 100%;
+		&:focus {
+			@include box-shadow(0 0 5px rgba($clr-3-lt, 0.9));
+			outline: 0 none;
+		}
+	}
+	.gfield_label_before_complex {
+		display: block;
+		font-size: 0.9rem;
+		margin-bottom: 0.25rem;
+	}
+	.ginput_complex {
+		@include display-flex;
+		margin-left: -0.5rem;
+		& > span {
+			@include box-sizing(border-box);
+			padding-left: 0.5rem;
+			width: 50%;
+			label {
+				font-size: 0.9rem;
+				margin-top: 0.1rem;
+			}
+		}
+	}
+	.gfield_label {
+		display: block;
+		font-size: 0.9rem;
+		margin-bottom: 0.25rem;
+	}
+}
+
+.gform_footer {
+	input[type='submit'] {
+		background: $clr-1;
+		border: 0 none;
+		color: white;
+		cursor: pointer;
+		font-family: $font-title;
+		font-size: inherit;
+		padding: 0.25rem 0.5rem;
+		text-transform: uppercase;
+		@include transform(background 300ms);
+		&:hover,
+		&:focus {
+			background: $clr-1-dk;
+			outline: none;
+		}
+	}
+}

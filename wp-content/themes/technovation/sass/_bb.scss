@@ -1,0 +1,79 @@
+/* Set min height and top padding for first page row */
+.fl-builder-content-primary {
+	.fl-row:first-child .fl-row-content-wrap {
+		min-height: 37.5rem;
+		padding-top: 10rem;
+		@media print {
+			min-height: 0;
+			padding-top: 0;
+		}
+	}
+	.fl-row:first-child {
+		position: relative;
+	}
+}
+
+/* Adjust min height for first row on homepage */
+.home .fl-builder-content-primary {
+	.fl-row:first-child .fl-row-content-wrap {
+		@include breakpoint($tablet) {
+			min-height: 50rem;
+		}
+	}
+}
+
+/* Style the site-content div differently for the homepage and for Beaver Builder pages */
+.site-content {
+	@include box-sizing(border-box);
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 4rem 1rem;
+	width: 100%;
+	@include breakpoint($tablet) {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+	.fl-builder & {
+		max-width: 100%;
+		padding: 0;
+	}
+}
+
+/* Hide the entry-header for pages using Beaver Builder */
+.fl-builder {
+	.entry-header {
+		clip: rect(1px, 1px, 1px, 1px);
+		height: 1px;
+		overflow: hidden;
+		position: absolute !important;
+		width: 1px;
+	}
+}
+
+/* But don't hide the entry-header for search results */
+.search-results,
+.search-results.fl-builder {
+	.entry-header {
+		clip: auto;
+		height: auto;
+		overflow: visible;
+		position: static !important;
+		width: auto;
+	}
+}
+
+/* Add second color to header text */
+.two-color .fl-heading .fl-heading-text span {
+	color: $clr-7;
+}
+
+/* Add an underline to links inside page builder content */
+.fl-builder-content .fl-rich-text a {
+	text-decoration: underline;
+}
+
+@media print {
+	.fl-accordion-content {
+		display: block !important;
+	}
+}

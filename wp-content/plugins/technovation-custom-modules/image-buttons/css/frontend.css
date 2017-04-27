@@ -1,0 +1,68 @@
+.image-button {
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-bottom: 10px solid transparent;
+	display: inline-block;
+	padding: 2.5em 3em;
+	text-align: center;
+	transition: border-color 300ms;
+	white-space: nowrap;
+}
+
+.image-button.green:hover,
+.image-button.green.selected {
+	border-color: #28a880;
+}
+
+.image-button.red:hover,
+.image-button.red.selected {
+	border-color: #7d324d;
+}
+
+.image-button.purple:hover,
+.image-button.purple.selected {
+	border-color: #6e466b;
+}
+
+.image-button.blue:hover,
+.image-button.blue.selected {
+	border-color: #01aaac;
+}
+
+.image-button.yellow:hover,
+.image-button.yellow.selected {
+	border-color: #e9e46f;
+}
+
+.image-button.ltgray:hover,
+.image-button.ltgray.selected {
+	border-color: #cccccc;
+}
+
+.image-button.dkgray:hover,
+.image-button.dkgray.selected {
+	border-color: #444444;
+}
+
+.image-button.white:hover,
+.image-button.white.selected {
+	border-color: #ffffff;
+}
+
+.image-button-wrap.image-button-left {
+	text-align: left;
+}
+
+.image-button-wrap.image-button-right {
+	text-align: right;
+}
+
+.image-button-wrap.image-button-center {
+	text-align: center;
+}
+
+.image-button-wrap.image-button-right .image-button
+.image-button-wrap.image-button-left .image-button {
+	text-align: center;
+}

@@ -1,0 +1,423 @@
+/**
+ * Graphic Tabs ---------------------------------
+ */
+
+ul.graphic-tabs-tabs,
+.entry-content ul.graphic-tabs-tabs {
+	align-items: stretch;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+	list-style-type: none;
+	margin: 0 1rem 2rem;
+}
+
+ul.graphic-tabs-tabs li,
+.entry-content ul.graphic-tabs-tabs li {
+	border-bottom: 0.5rem solid transparent;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	margin-bottom: 1rem;
+	margin-left: 0;
+	transition: border-color 300ms;
+}
+
+ul.graphic-tabs-tabs li.graphic-tab-green:hover,
+ul.graphic-tabs-tabs li.graphic-tab-green:focus,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-green:hover,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-green:focus,
+ul.graphic-tabs-tabs li.graphic-tab-green.current,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-green.current {
+	border-bottom-color: #28a880;
+}
+
+ul.graphic-tabs-tabs li.graphic-tab-red:hover,
+ul.graphic-tabs-tabs li.graphic-tab-red:focus,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-red:hover,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-red:focus,
+ul.graphic-tabs-tabs li.graphic-tab-red.current,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-red.current {
+	border-bottom-color: #7d324d;
+}
+
+ul.graphic-tabs-tabs li.graphic-tab-purple:hover,
+ul.graphic-tabs-tabs li.graphic-tab-purple:focus,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-purple:hover,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-purple:focus,
+ul.graphic-tabs-tabs li.graphic-tab-purple.current,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-purple.current {
+	border-bottom-color: #6e466b;
+}
+
+ul.graphic-tabs-tabs li.graphic-tab-blue:hover,
+ul.graphic-tabs-tabs li.graphic-tab-blue:focus,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-blue:hover,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-blue:focus,
+ul.graphic-tabs-tabs li.graphic-tab-blue.current,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-blue.current {
+	border-bottom-color: #01aaac;
+}
+
+ul.graphic-tabs-tabs li.graphic-tab-yellow:hover,
+ul.graphic-tabs-tabs li.graphic-tab-yellow:focus,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-yellow:hover,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-yellow:focus,
+ul.graphic-tabs-tabs li.graphic-tab-yellow.current,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-yellow.current {
+	border-bottom-color: #e9e46f;
+}
+
+ul.graphic-tabs-tabs li.graphic-tab-ltgray:hover,
+ul.graphic-tabs-tabs li.graphic-tab-ltgray:focus,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-ltgray:hover,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-ltgray:focus,
+ul.graphic-tabs-tabs li.graphic-tab-ltgray.current,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-ltgray.current {
+	border-bottom-color: #cccccc;
+}
+
+ul.graphic-tabs-tabs li.graphic-tab-dkgray:hover,
+ul.graphic-tabs-tabs li.graphic-tab-dkgray:focus,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-dkgray:hover,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-dkgray:focus,
+ul.graphic-tabs-tabs li.graphic-tab-dkgray.current,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-dkgray.current {
+	border-bottom-color: #444444;
+}
+
+ul.graphic-tabs-tabs li.graphic-tab-white:hover,
+ul.graphic-tabs-tabs li.graphic-tab-white:focus,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-white:hover,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-white:focus,
+ul.graphic-tabs-tabs li.graphic-tab-white.current,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-white.current {
+	border-bottom-color: #ffffff;
+}
+
+ul.graphic-tabs-tabs li.graphic-tab-black:hover,
+ul.graphic-tabs-tabs li.graphic-tab-black:focus,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-black:hover,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-black:focus,
+ul.graphic-tabs-tabs li.graphic-tab-black.current,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-black.current {
+	border-bottom-color: #000000;
+}
+
+ul.graphic-tabs-tabs li.graphic-tab-green a,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-green a {
+	background-color: #28a880;
+}
+
+ul.graphic-tabs-tabs li.graphic-tab-red a,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-red a {
+	background-color: #7d324d;
+}
+
+ul.graphic-tabs-tabs li.graphic-tab-purple a,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-purple a {
+	background-color: #6e466b;
+}
+
+ul.graphic-tabs-tabs li.graphic-tab-blue a,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-blue a {
+	background-color: #01aaac;
+}
+
+ul.graphic-tabs-tabs li.graphic-tab-yellow a,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-yellow a {
+	background-color: #e9e46f;
+}
+
+ul.graphic-tabs-tabs li.graphic-tab-ltgray a,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-ltgray a {
+	background-color: #cccccc;
+}
+
+ul.graphic-tabs-tabs li.graphic-tab-dkgray a,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-dkgray a {
+	background-color: #444444;
+}
+
+ul.graphic-tabs-tabs li.graphic-tab-white a,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-white a {
+	background-color: #ffffff;
+}
+
+ul.graphic-tabs-tabs li.graphic-tab-black a,
+.entry-content ul.graphic-tabs-tabs li.graphic-tab-black a {
+	background-color: #000000;
+}
+
+ul.graphic-tabs-tabs li a,
+.entry-content ul.graphic-tabs-tabs li a {
+	background-position: 50% 25%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+	color: white;
+	flex-grow: 1;
+	font-size: 1.5rem;
+	font-family: 'Source Sans', "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	font-weight: normal;
+	display: block;
+	padding: 1rem;
+	text-align: center;
+	width: 100%;
+}
+
+/**
+ * Image Box ------------------------------------
+ */
+
+.graphic-tab-image-box {
+	background: white;
+	color: #444444;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2rem;
+}
+
+.entry-content .graphic-tab-image-box h1,
+.entry-content .graphic-tab-image-box h2,
+.entry-content .graphic-tab-image-box h3,
+.entry-content .graphic-tab-image-box h4,
+.entry-content .graphic-tab-image-box h5,
+.entry-content .graphic-tab-image-box h6 {
+	color: #444444;
+}
+
+.graphic-tabs-content {
+	padding: 2rem;
+}
+
+.graphic-tabs-image {
+	background-position: 50% 50%;
+	background-size: cover;
+	padding-bottom: 60%;
+}
+
+/**
+ * Text Area and Highlight ----------------------
+ */
+
+.graphic-tab-text-area {
+	padding: 2rem;
+}
+
+.more-info-green .graphic-tab-text-area h1,
+.more-info-green .graphic-tab-text-area h2,
+.more-info-green .graphic-tab-text-area h3,
+.more-info-green .graphic-tab-text-area h4,
+.more-info-green .graphic-tab-text-area h5,
+.more-info-green .graphic-tab-text-area h6 {
+	color: #28a880;
+}
+
+.more-info-red .graphic-tab-text-area h1,
+.more-info-red .graphic-tab-text-area h2,
+.more-info-red .graphic-tab-text-area h3,
+.more-info-red .graphic-tab-text-area h4,
+.more-info-red .graphic-tab-text-area h5,
+.more-info-red .graphic-tab-text-area h6 {
+	color: #7d324d;
+}
+
+.more-info-blue .graphic-tab-text-area h1,
+.more-info-blue .graphic-tab-text-area h2,
+.more-info-blue .graphic-tab-text-area h3,
+.more-info-blue .graphic-tab-text-area h4,
+.more-info-blue .graphic-tab-text-area h5,
+.more-info-blue .graphic-tab-text-area h6 {
+	color: #01aaac;
+}
+
+.more-info-yellow .graphic-tab-text-area h1,
+.more-info-yellow .graphic-tab-text-area h2,
+.more-info-yellow .graphic-tab-text-area h3,
+.more-info-yellow .graphic-tab-text-area h4,
+.more-info-yellow .graphic-tab-text-area h5,
+.more-info-yellow .graphic-tab-text-area h6,
+.more-info-dkgray .graphic-tab-text-area h1,
+.more-info-dkgray .graphic-tab-text-area h2,
+.more-info-dkgray .graphic-tab-text-area h3,
+.more-info-dkgray .graphic-tab-text-area h4,
+.more-info-dkgray .graphic-tab-text-area h5,
+.more-info-dkgray .graphic-tab-text-area h6,
+.more-info-white .graphic-tab-text-area h1,
+.more-info-white .graphic-tab-text-area h2,
+.more-info-white .graphic-tab-text-area h3,
+.more-info-white .graphic-tab-text-area h4,
+.more-info-white .graphic-tab-text-area h5,
+.more-info-white .graphic-tab-text-area h6,
+.more-info-black .graphic-tab-text-area h1,
+.more-info-black .graphic-tab-text-area h2,
+.more-info-black .graphic-tab-text-area h3,
+.more-info-black .graphic-tab-text-area h4,
+.more-info-black .graphic-tab-text-area h5,
+.more-info-black .graphic-tab-text-area h6,
+.more-info-ltgray .graphic-tab-text-area h1,
+.more-info-ltgray .graphic-tab-text-area h2,
+.more-info-ltgray .graphic-tab-text-area h3,
+.more-info-ltgray .graphic-tab-text-area h4,
+.more-info-ltgray .graphic-tab-text-area h5,
+.more-info-ltgray .graphic-tab-text-area h6 {
+	color: #444444;
+}
+
+.graphic-tab-highlight {
+	display: none;
+}
+
+
+/**
+ * Media Queries --------------------------------
+ */
+
+@media (min-width: 600px) {
+
+	/* Graphic Tabs */
+	ul.graphic-tabs-tabs,
+	.entry-content ul.graphic-tabs-tabs {
+		flex-direction: row;
+		margin-left: -1rem;
+		margin-right: 0;
+	}
+	ul.graphic-tabs-tabs li,
+	.entry-content ul.graphic-tabs-tabs li {
+		border-bottom-width: 0.75rem;
+		margin-bottom: 0;
+		margin-left: 1rem;
+	}
+	ul.graphic-tabs-tabs li a,
+	.entry-content ul.graphic-tabs-tabs li a {
+		background-position: 50% 50%;
+		font-size: 1rem;
+		padding: 20% 1rem;
+	}
+}
+
+@media (min-width:800px) {
+
+	/* Graphic Tabs */
+	ul.graphic-tabs-tabs li a,
+	.entry-content ul.graphic-tabs-tabs li a {
+		font-size: 1.5rem;
+	}
+
+	/* Image Box */
+	.graphic-tab-image-box {
+		flex-direction: row-reverse;
+		margin-bottom: 0;
+	}
+	.graphic-tabs-content {
+		box-sizing: border-box;
+		min-height: 30rem;
+		width: 33%;
+	}
+	.graphic-tabs-image {
+		flex-grow: 1;
+		padding-bottom: 0;
+	}
+	.graphic-tab-image-box.graphic-tab-image-green {
+		background: #28a880;
+		color: white;
+	}
+	.entry-content .graphic-tab-image-box.graphic-tab-image-green h1,
+	.entry-content .graphic-tab-image-box.graphic-tab-image-green h2,
+	.entry-content .graphic-tab-image-box.graphic-tab-image-green h3,
+	.entry-content .graphic-tab-image-box.graphic-tab-image-green h4,
+	.entry-content .graphic-tab-image-box.graphic-tab-image-green h5,
+	.entry-content .graphic-tab-image-box.graphic-tab-image-green h6 {
+		color: white;
+	}
+	.graphic-tab-image-box.graphic-tab-image-red {
+		background: #7d324d;
+		color: white;
+	}
+	.entry-content .graphic-tab-image-box.graphic-tab-image-red h1,
+	.entry-content .graphic-tab-image-box.graphic-tab-image-red h2,
+	.entry-content .graphic-tab-image-box.graphic-tab-image-red h3,
+	.entry-content .graphic-tab-image-box.graphic-tab-image-red h4,
+	.entry-content .graphic-tab-image-box.graphic-tab-image-red h5,
+	.entry-content .graphic-tab-image-box.graphic-tab-image-red h6 {
+		color: white;
+	}
+	.graphic-tab-image-box.graphic-tab-image-purple {
+		background: #6e466b;
+		color: white;
+	}
+	.entry-content .graphic-tab-image-box.graphic-tab-image-purple h1,
+	.entry-content .graphic-tab-image-box.graphic-tab-image-purple h2,
+	.entry-content .graphic-tab-image-box.graphic-tab-image-purple h3,
+	.entry-content .graphic-tab-image-box.graphic-tab-image-purple h4,
+	.entry-content .graphic-tab-image-box.graphic-tab-image-purple h5,
+	.entry-content .graphic-tab-image-box.graphic-tab-image-purple h6 {
+		color: white;
+	}
+	.graphic-tab-image-box.graphic-tab-image-blue {
+		background: #01aaac;
+		color: white;
+	}
+	.entry-content .graphic-tab-image-box.graphic-tab-image-blue h1,
+	.entry-content .graphic-tab-image-box.graphic-tab-image-blue h2,
+	.entry-content .graphic-tab-image-box.graphic-tab-image-blue h3,
+	.entry-content .graphic-tab-image-box.graphic-tab-image-blue h4,
+	.entry-content .graphic-tab-image-box.graphic-tab-image-blue h5,
+	.entry-content .graphic-tab-image-box.graphic-tab-image-blue h6 {
+		color: white;
+	}
+	.entry-content .graphic-tab-image-box a {
+		color: white;
+		text-decoration: underline;
+	}
+	.graphic-tab-image-box.graphic-tab-image-yellow {
+		background: #e9e46f;
+		color: #444444;
+	}
+	.graphic-tab-image-box.graphic-tab-image-ltgray {
+		background: #cccccc;
+		color: #444444;
+	}
+	.graphic-tab-image-box.graphic-tab-image-dkgray {
+		background: #444444;
+		color: white;
+	}
+	.entry-content .graphic-tab-image-box.graphic-tab-image-dkgray h1,
+	.entry-content .graphic-tab-image-box.graphic-tab-image-dkgray h2,
+	.entry-content .graphic-tab-image-box.graphic-tab-image-dkgray h3,
+	.entry-content .graphic-tab-image-box.graphic-tab-image-dkgray h4,
+	.entry-content .graphic-tab-image-box.graphic-tab-image-dkgray h5,
+	.entry-content .graphic-tab-image-box.graphic-tab-image-dkgray h6 {
+		color: white;
+	}
+	.graphic-tab-image-box.graphic-tab-image-white {
+		background: #ffffff;
+		color: #444444;
+	}
+	.graphic-tab-image-box.graphic-tab-image-black {
+		background: #000000;
+		color: #ffffff;
+	}
+	.entry-content .graphic-tab-image-box.graphic-tab-image-black h1,
+	.entry-content .graphic-tab-image-box.graphic-tab-image-black h2,
+	.entry-content .graphic-tab-image-box.graphic-tab-image-black h3,
+	.entry-content .graphic-tab-image-box.graphic-tab-image-black h4,
+	.entry-content .graphic-tab-image-box.graphic-tab-image-black h5,
+	.entry-content .graphic-tab-image-box.graphic-tab-image-black h6 {
+		color: white;
+	}
+
+	/* Text Area and Highlight */
+	.graphic-tab-text-area {
+		padding: 2rem 0;
+	}
+}

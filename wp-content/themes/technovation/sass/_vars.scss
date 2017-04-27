@@ -1,0 +1,55 @@
+	/* Colors ------------------------------------ */
+/* green */
+$clr-1: #28a880;
+$clr-1-lt: #59bf93;
+$clr-1-dk: #00643f;
+
+/* red */
+$clr-2: #7d324d;
+$clr-2-lt: #903d53;
+$clr-2-dk: #52082d;
+
+/* purple */
+$clr-3: #6e466b;
+$clr-3-lt: #895e85;
+$clr-3-dk: #411b41;
+
+/* blue */
+$clr-4: #01aaac;
+$clr-4-lt: #4cc1c6;
+$clr-4-dk: #016667;
+
+/* light gray */
+$clr-5: #cccccc;
+$clr-5-lt: #ebebeb;
+$clr-5-dk: #878787;
+
+/* dark gray */
+$clr-6: #444444;
+$clr-6-lt: #666666;
+$clr-6-dk: #323232;
+
+/* yellow */
+$clr-7: #e9e46f;
+$clr-7-dk: #c1c320;
+
+
+/* Fonts ------------------------------------- */
+
+$font-title: Eagle, Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
+$font-body: 'Source Sans', "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+$font-semibold: 'Source Sans Semibold', "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+$font-black: 'Source Sans Black', "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+$font-extralight: 'Source Sans ExtraLight', "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+$font-light: 'Source Sans Light', "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+
+/* Break Points ------------------------------ */
+
+$mobile: 400px;
+$mobile-lg: 600px;
+$tablet: 800px;
+$netbook: 1000px;
+$desktop: 1200px;
+
+/* Site maximim width */
+$maxw: 1200px;

@@ -1,0 +1,67 @@
+.post-type-archive-press {
+	.press {
+		@include display-flex;
+		@include flex-direction(column);
+		margin-bottom: 2rem;
+		@include breakpoint($tablet) {
+			@include flex-direction(row);
+		}
+	}
+	.entry-thumb {
+		margin-bottom: 0;
+		img {
+			display: block;
+			height: auto;
+			width: 100%;
+		}
+		@include breakpoint($tablet) {
+			width: 50%;
+		}
+		@include breakpoint($netbook) {
+			width: 33%;
+		}
+	}
+	.entry-container {
+		background: white;
+		@include box-sizing(border-box);
+		padding: 1rem;
+		@include breakpoint($tablet) {
+			width: 50%;
+		}
+		@include breakpoint($netbook) {
+			width: 66%;
+		}
+	}
+	.entry-time {
+		color: $clr-4;
+		display: block;
+		text-transform: uppercase;
+	}
+
+	.entry-title {
+		font-family: $font-body;
+		font-size: 1.5rem;
+		a {
+			color: $clr-6;
+		}
+	}
+	.entry-publication {
+		font-size: 0.75rem;
+		margin-bottom: 0.5rem;
+		margin-top: 0.5rem;
+		text-transform: uppercase;
+		a {
+			color: #878787;
+			text-decoration: none;
+		}
+	}
+	.entry-time + .entry-publication {
+		margin-top: 0rem;
+	}
+	.entry-content {
+		.readmore {
+			font-family: $font-title;
+			text-transform: uppercase;
+		}
+	}
+}

@@ -1,0 +1,252 @@
+.curriculum-listing,
+.entry-content ul.curriculum-listing {
+	list-style-type: none;
+	margin: 0;
+}
+
+.curriculum-item,
+.entry-content li.curriculum-item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1rem;
+}
+
+.curriculum-image {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 47%;
+	position: relative;
+}
+
+.curriculum-heading,
+.entry-content .curriculum-heading {
+	background: #28a880;
+	color: white;
+	font-family: 'Source Sans', "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	font-size: 1rem;
+	left: 0;
+	margin-top: 0;
+	padding: 0.25rem 0.5rem;
+	position: absolute;
+	text-transform: uppercase;
+	top: 1rem;
+}
+
+.curriculum-heading::after {
+	border-bottom: 1rem solid transparent;
+	border-left: 1rem solid #28a880;
+	border-top: 1rem solid transparent;
+	content: '';
+	position: absolute;
+	right: -1rem;
+	top: 0;
+}
+
+.curriculum-item:nth-child(4n) .curriculum-heading,
+.entry-content .curriculum-item:nth-child(4n) .curriculum-heading {
+	background: #01aaac;
+}
+
+.curriculum-item:nth-child(4n) .curriculum-heading::after {
+	border-left-color: #01aaac;
+}
+
+.curriculum-item:nth-child(4n-1) .curriculum-heading,
+.entry-content .curriculum-item:nth-child(4n-1) .curriculum-heading {
+	background: #6e466b;
+}
+
+.curriculum-item:nth-child(4n-1) .curriculum-heading::after {
+	border-left-color: #6e466b;
+}
+
+.curriculum-item:nth-child(4n-2) .curriculum-heading,
+.entry-content .curriculum-item:nth-child(4n-2) .curriculum-heading {
+	background: #7d324d;
+}
+
+.curriculum-item:nth-child(4n-2) .curriculum-heading::after {
+	border-left-color: #7d324d;
+}
+
+.curriculum-content {
+	background: white;
+	padding: 1rem;
+}
+
+.curriculum-modules,
+.entry-content ul.curriculum-modules {
+	list-style-type: none;
+	margin: 0;
+}
+
+.curriculum-modules li,
+.entry-content ul.curriculum-modules li {
+	display: inline-block;
+	line-height: normal;
+	margin: 0 0.5rem 0.5rem 0;
+}
+
+.curriculum-modules a,
+.entry-content .curriculum-modules a,
+.curriculum-modules span {
+	background: #c1c320;
+	color: white;
+	display: block;
+	font-family: 'Source Sans', "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	padding: 0.5rem 0.75rem;
+	position: relative;
+	white-space: nowrap;
+}
+
+.curriculum-modules a.senior-only,
+.entry-content .curriculum-modules a.senior-only,
+.curriculum-modules span.senior-only {
+	padding: 0.25rem 0.75rem 0.75rem;
+}
+
+
+.curriculum-modules a:hover,
+.entry-content .curriculum-modules a:hover {
+	background: #e9e46f;
+	color: #444444;
+}
+
+.curriculum-modules a i,
+.curriculum-modules span i {
+	bottom: 0.2rem;
+	display: block;
+	font-style: normal;
+	font-size: 0.5rem;
+	margin-left: 1.3rem;
+	position: absolute;
+}
+
+
+.curriculum-modules a.code,
+.entry-content .curriculum-modules a.code,
+.curriculum-modules span.code {
+	background-color: #01aaac;
+}
+
+.curriculum-modules a.code:hover,
+.entry-content .curriculum-modules a.code:hover {
+	background-color: #016667;
+	color: white;
+}
+
+.curriculum-modules a.code::before,
+.curriculum-modules span.code::before,
+.curriculum-modules a.pitch::before,
+.curriculum-modules span.pitch::before,
+.curriculum-modules a.market::before,
+.curriculum-modules span.market::before,
+.curriculum-modules a.business::before,
+.curriculum-modules span.business::before {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	content: '';
+	display: inline-block;
+	height: 1rem;
+	margin-right: 0.1rem;
+	position: relative;
+	width: 1rem;
+}
+
+.curriculum-modules a.business,
+.entry-content .curriculum-modules a.business,
+.curriculum-modules span.business {
+	background-color: #28a880;
+}
+
+.curriculum-modules a.business:hover,
+.entry-content .curriculum-modules a.business:hover {
+	background-color: #00643f;
+	color: white;
+}
+
+.curriculum-modules a.business.senior-only,
+.entry-content .curriculum-modules a.business.senior-only,
+.curriculum-modules span.business.senior-only {
+	background-color: #00643f;
+}
+
+.curriculum-modules a.business.senior-only:hover,
+.entry-content .curriculum-modules a.business.senior-only:hover {
+	background-color: #016667;
+	color: white;
+}
+
+.curriculum-modules a.pitch,
+.entry-content .curriculum-modules a.pitch,
+.curriculum-modules span.pitch {
+	background-color: #7d324d;
+}
+
+.curriculum-modules a.pitch:hover,
+.entry-content .curriculum-modules a.pitch:hover {
+	background-color: #52082d;
+	color: white;
+}
+
+.curriculum-modules a.market,
+.entry-content .curriculum-modules a.market,
+.curriculum-modules span.market {
+	background-color: #6e466b;
+}
+
+.curriculum-modules a.market:hover,
+.entry-content .curriculum-modules a.market:hover {
+	background-color: #411b41;
+	color: white;
+}
+
+@media (min-width: 600px) {
+	.curriculum-item,
+	.entry-content li.curriculum-item {
+		flex-direction: row;
+		width: 100%;
+	}
+	.curriculum-image {
+		padding-bottom: 0;
+		width: 40%;
+	}
+	.curriculum-content {
+		padding-left: 2rem;
+		width: 60%;
+	}
+	.curriculum-heading,
+	.entry-content .curriculum-heading {
+		left: auto;
+		right: 0;
+		top: 0.8rem;
+	}
+}
+
+@media (min-width: 800px) {
+	.curriculum-image {
+		padding-bottom: 0;
+		width: 30%;
+	}
+	.curriculum-content {
+		padding-left: 2rem;
+		width: 70%;
+	}
+}
+
+@media (min-width: 1000px) {
+	.curriculum-image {
+		padding-bottom: 0;
+		width: 25%;
+	}
+	.curriculum-content {
+		padding-left: 2rem;
+		width: 75%;
+	}
+}
+

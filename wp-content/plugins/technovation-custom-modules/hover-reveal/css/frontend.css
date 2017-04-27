@@ -1,0 +1,28 @@
+.hover-reveal {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+	webkit-flex-direction: column;
+}
+
+@media (min-width: 800px) {
+	.hover-reveal {
+		flex-direction: row;
+		justify-content: space-between;
+		webkit-flex-direction: row;
+		webkit-justify-content: space-between;
+	}
+}
+
+.hover-reveal .hover-reveal-item {
+	cursor: pointer;
+	text-align: center;
+}
+
+@media (min-width: 800px) {
+	.hover-reveal .hover-reveal-item {
+		flex-grow: 1;
+		padding: 0 1rem;
+		webkit-flex-grow: 1;
+	}
+}

@@ -1,0 +1,45 @@
+.sticky-toc {
+	background: white;
+	border-radius: 0 1rem 1rem 0;
+	box-shadow: 0 0 3px rgba(0,0,0,0.3);
+	left: 0;
+	opacity: 0;
+	padding: 0.5rem 1rem;
+	position: fixed;
+	top: 15%;
+  -moz-transition: opacity 300ms;
+  -o-transition: opacity 300ms;
+  -webkit-transition: opacity 300ms;
+  transition: opacity 300ms;
+}
+
+.sticky-toc.visible {
+	opacity: 0.9;
+}
+
+.toc-toggle {
+	cursor: pointer;
+}
+
+.toc-toggle .open {
+	display: none;
+}
+
+.toc-toggle.open .open {
+	display: block;
+}
+
+.toc-toggle.open .closed {
+	display: none;
+}
+
+.sticky-toc .fl-toc {
+	display: none;
+	list-style-type: none;
+	margin: 0.5rem 0 0 0;
+	padding: 0;
+}
+
+.sticky-toc .fl-toc li {
+	margin: 0;
+}

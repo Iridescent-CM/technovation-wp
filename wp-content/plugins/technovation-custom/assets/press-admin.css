@@ -1,0 +1,13 @@
+#technovation-press-meta,
+#technovation-curriculum-meta {
+	margin-top: 1rem;
+}
+
+.input-full {
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.help {
+	color: #999;
+}

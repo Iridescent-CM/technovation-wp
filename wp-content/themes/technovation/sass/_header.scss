@@ -1,0 +1,124 @@
+.site-header {
+	@include align-items(center);
+	@include box-sizing(border-box);
+	@include display-flex;
+	@include justify-content(space-between);
+	padding: 1rem;
+	position: fixed;
+	@include transition(background-color 300ms, padding 300ms);
+	width: 100%;
+	z-index: 1;
+	&.scrolled {
+		background-color: $clr-2-lt;
+		font-size: 0.9rem;
+		padding: 0.25rem 1rem;
+	}
+	a {
+		color: white;
+	}
+	@media print {
+		display: none;
+	}
+}
+
+.site-header.scrolled .site-branding {
+	img {
+		max-height: 3rem;
+		width: auto;
+	}
+}
+
+.site-branding {
+	max-width: 75%;
+	@include breakpoint($netbook) {
+		display: inline-block;
+		max-width: 25%;
+		padding-right: 1rem;
+		vertical-align: middle;
+	}
+}
+
+.main-navigation,
+.secondary-navigation {
+	display: none;
+	white-space: nowrap;
+	@include breakpoint($netbook) {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	li {
+		display: inline-block;
+		&.button {
+			a {
+				border: 1px solid $clr-7;
+				@include border-radius(1rem);
+				color: $clr-7;
+				padding: 0.5rem 1rem;
+				@include transition(all 300ms);
+				span {
+					border-bottom: 0 none;
+				}
+				&:hover,
+				&:focus {
+					background: $clr-7;
+					border-color: $clr-7-dk;
+					color: $clr-6-dk;
+				}
+			}
+		}
+		&.current_page_item {
+			span {
+				border-bottom: 1px dotted white;
+				display: block;
+				padding-bottom: 0.1rem;
+			}
+		}
+	}
+	a {
+		display: block;
+		padding: 0 0.5rem;
+		text-decoration: none;
+		text-transform: uppercase;
+		@include transition(color 300ms);
+		&:hover,
+		&:focus {
+			color: $clr-7;
+		}
+	}
+}
+
+.nav-toggle {
+	@include breakpoint($netbook) {
+		display: none;
+	}
+}
+
+.page-image-header {
+	background: {
+		color: $clr-2;
+		position: 50% 50%;
+		repeat: no-repeat;
+		size: cover;
+	};
+	@include align-items(center);
+	@include display-flex();
+	@include justify-content(center);
+	min-height: 37.5rem;
+}
+
+.page-image-title {
+	@include box-sizing(border-box);
+	color: white;
+	font-family: $font-title;
+	font-size: 2rem;
+	max-width: $maxw;
+	padding: 0 1rem;
+	text-align: center;
+	@include breakpoint($mobile-lg) {
+		font-size: 4rem;
+	}
+	@include breakpoint($tablet) {
+		font-size: 6rem;
+		padding: 0 2rem;
+	}
+}

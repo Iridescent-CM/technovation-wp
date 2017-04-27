@@ -1,0 +1,73 @@
+.text-bubble-container.text-bubble-left {
+  text-align: left;
+}
+
+.text-bubble-container.text-bubble-center {
+  text-align: center;
+}
+
+.text-bubble-container.text-bubble-right {
+  text-align: right;
+}
+
+.text-bubble-small .text-bubble {
+  font-size: 0.8rem;
+  width: 75%;
+}
+
+.text-bubble-medium .text-bubble {
+  width: 100%;
+}
+
+.text-bubble-large .text-bubble {
+  width: 100%;
+}
+
+.text-bubble {
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.text-bubble::before {
+  content: '';
+  display: block;
+  padding-top: 100%;
+}
+
+.text-bubble-content {
+  border-radius: 50%;
+  border-style: solid;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  left: 0;
+  padding: 1rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.text-bubble-content *:first-child {
+  margin-top: 1rem;
+}
+
+@media (min-width: 800px) {
+  .text-bubble-small .text-bubble {
+    width: 50%;
+  }
+
+  .text-bubble-medium .text-bubble {
+    width: 75%;
+  }
+
+  .text-bubble-large .text-bubble {
+    width: 100%;
+  }
+}

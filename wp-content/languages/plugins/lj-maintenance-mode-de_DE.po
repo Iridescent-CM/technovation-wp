@@ -1,0 +1,109 @@
+# Translation of Development (trunk) in German
+# This file is distributed under the same license as the Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-08-09 11:13:48+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: Development (trunk)\n"
+
+#: lj-maintenance-mode.php:227
+msgid "Advanced Settings"
+msgstr "Erweiterte Einstellungen"
+
+#: lj-maintenance-mode.php:234
+msgid "Overrides default site meta title."
+msgstr "Überschreibt den Standard-Meta-Titel der Seite."
+
+#: lj-maintenance-mode.php:243
+msgid "Tick the ones that can access front-end of your website if maintenance mode is enabled"
+msgstr "Hake diejenigen an, die Zugriff auf das Frontend haben sollen, während der Wartungsmodus aktiv ist."
+
+#: lj-maintenance-mode.php:244
+msgid "Please note that this does NOT apply to admin area"
+msgstr "Bitte beachte, dass sich das NICHT auf den Adminbereich auswirkt."
+
+#: lj-maintenance-mode.php:245
+msgid "Toggle all"
+msgstr "Alle auf-/zuklappen"
+
+#: lj-maintenance-mode.php:263
+msgid "User Role control is currently not avialable on your website. Sorry!"
+msgstr "Die Steuerung über Benutzerrollen ist zur Zeit auf deiner Website leider nicht verfügbar."
+
+#: lj-maintenance-mode.php:230
+msgid "Site Title"
+msgstr "Titel der Website"
+
+#: lj-maintenance-mode.php:66
+msgid "<h1>Website Under Maintenance</h1><p>Our Website is currently undergoing scheduled maintenance. Please check back soon.</p>"
+msgstr "<h1>Die Website wird gerade bearbeitet</h1><p>Unsere Website befindet sich zur Zeit in Arbeit. Bitte schaue demnächst noch einmal vorbei.</p>"
+
+#: lj-maintenance-mode.php:75
+msgid "Maintenance Mode is currently active. To make sure that it works, open your web page in either private / incognito mode, different browser or simply log out. Logged in users are not affected by the Maintenance Mode."
+msgstr "Maintenance Mode ist zur Zeit aktiv. Um die einwandfreie Funktion zu überprüfen, öffne entweder deine Website im privaten/Inkognito-Modus, in einem anderen Browser oder logge dich einfach aus. Der Wartungsmodus hat keinen Einfluß auf angemeldete Benutzer."
+
+#: lj-maintenance-mode.php:304
+msgctxt "Admin bar indicator"
+msgid "Disabled"
+msgstr "Inaktiv"
+
+#: lj-maintenance-mode.php:307
+msgctxt "Admin bar indicator"
+msgid "Enabled"
+msgstr "Aktiv"
+
+#: lj-maintenance-mode.php:314 lj-maintenance-mode.php:318
+msgctxt "Admin bar indicator"
+msgid "Maintenance Mode"
+msgstr "Wartungsmodus"
+
+#: lj-maintenance-mode.php:332
+msgctxt "Plugin Settings link"
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: lj-maintenance-mode.php:69 lj-maintenance-mode.php:72
+msgid "Important: Don't forget to flush your cache using WP Super Cache when enabling or disabling Maintenance Mode."
+msgstr "Wichtig: Falls du WP Super Cache benutzt, darfst du beim Ein- oder Ausschalten von Maintenance Mode nicht vergessen, den Cache zu leeren."
+
+#. #-#-#-#-#  tmp-lj-maintenance-mode.pot (Maintenance Mode 2.0.4)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: lj-maintenance-mode.php:155 lj-maintenance-mode.php:192
+msgid "Maintenance Mode"
+msgstr "Maintenance Mode"
+
+#: lj-maintenance-mode.php:202
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#: lj-maintenance-mode.php:214
+msgid "Preview"
+msgstr "Vorschau"
+
+#: lj-maintenance-mode.php:215
+msgid "Support"
+msgstr "Support"
+
+#: lj-maintenance-mode.php:344
+msgid "Website Under Maintenance"
+msgstr "Website im Wartungsmodus"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/lukasjuhas/lj-maintenance-mode"
+msgstr "https://github.com/lukasjuhas/lj-maintenance-mode"
+
+#. Description of the plugin/theme
+msgid "Very simple Maintenance Mode & Coming soon page. Using default Wordpress markup, No ads, no paid upgrades."
+msgstr "Eine ganz einfache «Wartungs-Seite». Benutzt WordPress-Formatierung. Keine Werbung, keine kostenpflichtigen Upgrades."
+
+#. Author of the plugin/theme
+msgid "Lukas Juhas"
+msgstr "Lukas Juhas"
+
+#. Author URI of the plugin/theme
+msgid "http://lukasjuhas.com"
+msgstr "http://lukasjuhas.com"
