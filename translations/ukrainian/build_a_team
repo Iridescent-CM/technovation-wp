@@ -1,4 +1,3 @@
-<h1>Створення команди</h1>
 <ul>
 <li><strong><a href="#getstarted">З чого почати?</a></strong></li>
 <li><strong><a href="#recruit">Набір команди</a></strong></li>
@@ -13,8 +12,8 @@
 <li style="font-weight: 400">Створити команду на my.technovationchallenge.org</li>
 <li style="font-weight: 400">або приєднатися до команди на my.technovationchallenge.org</li>
 </ul>
-<h3></h3>
-<h3>З чого почати?</h3>
+
+<h3 id="getstarted">З чого почати?</h3>
 <p><b>Зареєструвалися на сайті Technovation? Що далі?</b><br />
 В ході Technovation, ви повинні будете:</p>
 <ul>
@@ -26,11 +25,16 @@
 <p>Ми вважаємо, що краще взяти участь в Technovation в команді. Команди можуть мати до 5 дівчат, віком від 10 до 18, і 1 або 2 ментора (які можуть бути батьками, вчителями, позашкільними координаторами або професіоналами в сфері ІТ чи підприємництва).</p>
 <p>Якщо у вас вже є команда, чудово! Ви можете відразу перейти до підрозділу <strong><a href="#createteam">"Створити команду "</a></strong> цього вступного розділу.</p>
 <p>Якщо у вас ще немає команди, не хвилюйтеся! Ми підкажемо вам, які кроки необхідно зробити для успішного набору команди в вашій місцевості, або приєднання до команди на <a href="https://my.technovationchallenge.org/" target="_blank">my.technovationchallenge.org.</a></p>
-<blockquote>
-<p><em>"Повір, що ти можеш, і ти на півдорозі."</em></p>
-</blockquote>
-<p>- Теодор Рузвельт, 26-й президент Сполучених Штатів Америки</p>
-<h3>Наберіть команду Technovation</h3>
+
+<div style="background-color:#421b41; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
+<blockquote><center>
+<p>"Повір, що ти можеш, і ти на півдорозі."</p>
+	</blockquote>
+<p align="center">- Теодор Рузвельт, 26-й президент Сполучених Штатів Америки</p>
+</center>
+</div>
+
+<h3 id="recruit">Наберіть команду Technovation</h3>
 <p><strong>Давайте почнемо з того, що ми знаємо:</strong></p>
 <ul>
 <li style="font-weight: 400">Ви зацікавлені в участі в Technovation.</li>
@@ -39,8 +43,12 @@
 <li style="font-weight: 400">При формуванні команди, корисно знайти товаришів по команді з широким розмаїттям ідей та навичок, щоб допомогти привнести більше різних точок зору до проекту.</li>
 </ul>
 <p>Давайте знайдемо більше дівчат, які зацікавлені працювати разом, щоб створити щось значуще!</p>
+
+<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px">
 <h3>Мозковий штурм</h3>
-<p><strong><a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/TeamMemberBrainstorm-1.pdf" target="_blank">Заповніть цю таблицю</a></strong>, що допоможе визначити людей та організації у вашій громаді, які можуть допомогти вам створити команду.</p>
+<p><strong><a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/TeamMemberBrainstorm-1.pdf" style="color:#eae46f" target="_blank">Заповніть цю таблицю</a></strong>, що допоможе визначити людей та організації у вашій громаді, які можуть допомогти вам створити команду.</p>
+</div>
+
 <p><b>Почніть набирати команду</b><br />
 Ви можете поділитися цими ресурсами з людьми і групами зі свого списку, щоб знайти потенціальних учасниць:</p>
 <ul>
@@ -78,6 +86,7 @@
 </tr>
 </tbody>
 </table>
+
 <p>Після того як ви набрали команду, попросіть їх отримати підписану заяву про дозвіл від батьків і відвідати<a href="https://my.technovationchallenge.org/" target="_blank">my.technovationchallenge.org</a>, щоб завершити реєстрацію. Після того, як кожен з вас зареєструвався, ви можете створити свою команду! Якщо вам не вдалося набрати команду в вашій місцевості на основі вищезазначених порад, не хвилюйтеся! Ви також можете спробувати <strong><a href="#jointeam">приєднатися до існуючої команди</a>.</strong></p>
 <h3>Отримайте дозвіл від батьків або опікуна</h3>
 <p>Якщо у вас вже є підписаний дозвіл ви можете пропустити цей етап.</p>
@@ -99,7 +108,8 @@
 <p><img style="margin: 10px;padding: 1px;border: 1px solid #cccccc" src="http://www.technovationchallenge.org/wp-content/uploads/2016/10/Slide2.jpg" alt="update parent/guardian email" width="650" /></li>
 <li style="font-weight: 400">Після того, як ваші батьки підписали форму, ви отримаєте електронного листа, з повідомленням, що можна продовжити заповнювати вашу анкету.</li>
 </ol>
-<h3>Створіть команду</h3>
+
+<h3 id="createteam">Створіть команду</h3>
 <p>Якщо ви хочете<strong><a href="#jointeam"> приєднатися до існуючої команди</a></strong>, ви можете пропустити цей крок.</p>
 <ol>
 <li style="font-weight: 400">Після того, як ви відправили форму згоди батьків / опікуна (вище), увійдіть до<a href="https://my.technovationchallenge.org/signin" target="_blank"> my.technovationchallenge.org/signin</a>.</li>
@@ -125,7 +135,8 @@
 <p><img style="margin: 10px;padding: 1px;border: 1px solid #cccccc" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Slide17.png" alt="accept team member request" width="650" /></li>
 <li style="font-weight: 400"><em>Пам'ятайте,</em> що ви можете мати тільки 5 членів команди. Ви можете відкликати запрошення за допомогою кнопки "Відкликати" [“Revoke”] поруч з адресою електронної пошти, в зеленому полі.</li>
 </ol>
-<h3>Приєднайтесь до команди</h3>
+
+<h3 id="jointeam">Приєднайтесь до команди</h3>
 <p>Якщо вам не вдалося набрати команду, не хвилюйтеся! Ви також можете спробувати приєднатися до місцевої або віртуальної команди на my.technovationchallenge.org.<br />
 Все, що вам потрібно зробити, це виконати наступні кроки:</p>
 <ol>
@@ -150,13 +161,23 @@
 </ol>
 </li>
 </ol>
+
+<div style="background-color:#421b41; color:white; padding: 25px; margin-top:25px; margin-bottom:25px;">
+<center>
 <blockquote>
 <p>"Єдність є сила ... в командній роботі та співпраці, дивовижні речі можуть бути досягнуті."</p>
 </blockquote>
 <p>- Метті Дж.T. Штепанек, американський поет і адвокат миру</p>
+	</center>
+</div>
+
+<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
+<center>
 <h3>Готові рухатися далі?</h3>
 <p>В наступному розділі ми розглянемо, як знайти ментора!</p>
-<p><a href="http://www.technovationchallenge.org/curriculum/post-16772-2/" target="_blank"><br />
+<p><a href="http://www.technovationchallenge.org/curriculum/post-16772-2/" style="color:#eae46f" target="_blank"><br />
 Find a Mentor<br />
 </a></p>
+	</center>
+</div>
 
