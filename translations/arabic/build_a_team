@@ -1,4 +1,3 @@
-<h1>تشكيل فريق</h1>
 <ul>
  	<li><a href="#getstarted">البداية</a></li>
  	<li><a href="#recruit">تشكيل فريق</a></li>
@@ -13,8 +12,8 @@
  	<li style="font-weight: 400">إنشاء فريق من خلال  my.technovationchallenge.org</li>
  	<li style="font-weight: 400">أو الانضمام إلى فريق من خلال my.technovationchallenge.org</li>
 </ul>
-<h3></h3>
-<h3>البداية</h3>
+
+<h3 id="getstarted">البداية</h3>
 <b>لقد قمتِ بالتسجيل في Technovation ، ماذا تفعلين الآن؟</b>
 كجزء من Technovation ، سوف تقومين بـ :
 <ul>
@@ -29,9 +28,13 @@
 إذا كان لديك فريق مسبقاً، يمكنك المضي قدما إلى قسم <a href="#createteam">إنشاء فريق</a> الموجود في هذه الوحدة.
 
 إذا لم يكن لديكِ فريق مسبقا! لا تقلقي! في الخمس أو العشر دقائق التالية سنوضح لكِ جميع الخطوات اللازمة لتنجحي في تكوين فريق في منطقتك، أو الانضمام إلى فريق من خلال <a href="https://my.technovationchallenge.org/" target="_blank">my.technovationchallenge.org.</a>
+
+<div style="background-color: #421b41;color: white;padding: 25px;margin-top: 25px;margin-bottom: 25px">
 <blockquote><em>“آمن بأنك تستطيع وستصبح في منتصف الطريق”</em></blockquote>
 - ثيودور روزفلت، الرئيس ال 26 للولايات المتحدة.
-<h3>كوني فريق Technovation</h3>
+</div>
+
+<h3 id="recruit">كوني فريق Technovation</h3>
 <b>دعينا نبدأ مع ما نعرفه :</b>
 <ul>
  	<li style="font-weight: 400">أنتِ مهتمة بالمشاركة في Technovation.</li>
@@ -40,8 +43,11 @@
  	<li style="font-weight: 400">عند تشكيل الفريق، فإنه من المفيد أن تجدي زميلات لديهن مجموعة واسعة من الأفكار والمهارات والذي بدوره يساعد على خلق المزيد من وجهات نظر إضافية للمشروع.</li>
 </ul>
 إذاً لنبدأ بتشكيل فريق من الفتيات لبناء مشروع رائع !
+
+<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
 <h3>نشاط العصف الذهني</h3>
-<a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/TeamMemberBrainstorm-1.pdf" target="_blank">أكملي ورقة العمل هذه </a> لتساعدك في تحديد الأشخاص والمؤسسات في مجتمعك الذين تستطيعن العمل معهم لتشكيل فريقك. سوف تقومين بإنشاء قائمة مذهلة للأشخاص والمجموعات التي ستساعدك في تشكيل فريقك.
+<a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/TeamMemberBrainstorm-1.pdf" target="_blank" style="color:#eae46f">أكملي ورقة العمل هذه </a> لتساعدك في تحديد الأشخاص والمؤسسات في مجتمعك الذين تستطيعن العمل معهم لتشكيل فريقك. سوف تقومين بإنشاء قائمة مذهلة للأشخاص والمجموعات التي ستساعدك في تشكيل فريقك.
+</div>
 
 <b>إبدأي في ضم الأشخاص إلى فريقك</b>
 يمكنكِ مشاركة المصادر التالية مع قائمة الأشخاص والمجموعات:
@@ -83,27 +89,29 @@
 بعد الانتهاء من اختيار الفريق . قومي بدعوتهن لزيارة الموقع <a href="https://my.technovationchallenge.org/" target="_blank">my.technovationchallenge.org</a> لاستكمال التسجيل والحصول على نماذج الموافقة الموقعة.
 ومع قيام الجميع بالتسجيل سيصبح الفريق جاهزا!
 إذا لم تتمكني من اختيار الفريق في منطقتك بناء على الاقتراحات المذكورة أعلاه لا تقلقي ! باستطاعتك محاولة <a href="#jointeam"> الانضمام إلى الفرق الموجودة</a>.
-<h3>الحصول على موافقة من أحد والديك أو ولي الأمر:</h3>
+
+
+<h3 id="consent">الحصول على موافقة من أحد والديك أو ولي الأمر:</h3>
 اذا كنت تملكين الموافقة موقعة يمكنك تجاوز هذه الخطوة.
 <ol>
- 	<li style="font-weight: 400">- قومي بتسجيل الدخول إلى <a href="https://my.technovationchallenge.org/signin" target="_blank">my.technovationchallenge.org/signin</a> سوف يبدو الموقع هكذا :
+ 	<li style="font-weight: 400"> قومي بتسجيل الدخول إلى <a href="https://my.technovationchallenge.org/signin" target="_blank">my.technovationchallenge.org/signin</a> سوف يبدو الموقع هكذا :
 <img style="margin: 10px;padding: 1px;border: 1px solid #cccccc" src="http://www.technovationchallenge.org/wp-content/uploads/2016/10/Slide1.jpg" alt="complete your profile page" width="650" /></li>
- 	<li style="font-weight: 400">احرصي على الحصول على الموافقة من الوالدين أو ولي الأمر.
-<ol type="i">
+	<li style="font-weight: 400">احرصي على الحصول على الموافقة من الوالدين أو ولي الأمر.</li>
  	<li style="font-weight: 400">يمكنك إرسال نموذج موافقة الآباء وأولياء الأمور من لوحة المهام الخاصة بك.</li>
  	<li style="font-weight: 400">اطلبي من ولي أمرك التحقق من البريد الإلكتروني الخاص بهم لتوقيع نموذج الموافقة لتتمكني من إكمال إجراءات التسجيل.</li>
  	<li style="font-weight: 400">إذا أخطأتِ بكتابة البريد الإلكتروني الخاص بالوالدين أو ولي الأمر يمكنكِ:
-<ol type="a">
+<ul>
  	<li style="font-weight: 400">الرجوع والتحقق من العنوان البريدي الموجود في لوحة المهام لديك.</li>
  	<li style="font-weight: 400">أو بإمكانك تعديل البريد في نافذة " حسابي " في أعلى الصفحة .</li>
  	<li style="font-weight: 400">بمجرد تعديل البريد سوف يتم إرسال نموذج الموافقة إلى العنوان الجديد تلقائيا.</li>
-</ol>
+		</ul>
 </li>
 </ol>
 <img style="margin: 10px;padding: 1px;border: 1px solid #cccccc" src="http://www.technovationchallenge.org/wp-content/uploads/2016/10/Slide2.jpg" alt="update parent/guardian email" width="650" /></li>
  	<li style="font-weight: 400">عند توقيع ولي أمرك للنموذج سوف تتلقين رسالة على بريدك الخاص لتتمكني من متابعة إكمال الحساب الخاص بك على Technovation .</li>
 </ol>
-<h3>انشاء فريق</h3>
+
+<h3 id="createteam">انشاء فريق</h3>
 إذا كنت تريدين <a href="#jointeam">الانضمام للفرق الموجودة،</a> يمكنك تخطي هذه الخطوات.
 <ol>
  	<li style="font-weight: 400">بعد حصولك على موافقة ولي الأمر قومي بتسجيل الدخول على الموقع.<a href="https://my.technovationchallenge.org/signin" target="_blank">my.technovationchallenge.org/signin</a>.</li>
@@ -112,24 +120,25 @@
  	<li style="font-weight: 400">ستظهر لك هذه النافذة :
 <img style="margin: 10px;padding: 1px;border: 1px solid #cccccc" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Slide2_v2.jpg" alt="create a team form" width="650" /></li>
  	<li style="font-weight: 400">أكملي المعلومات المطلوبة في هذه الصفحة بإضافة:
-<ol type="i">
+<ul>
  	<li style="font-weight: 400">اسمٍ للفريق .</li>
  	<li style="font-weight: 400">وصفٍ للفريق وكيف تم اللقاء بهم ، وإن كنت ترغبين بعضو جديد يمكنك كتابة وصف مناسب للعضو الذي تبحثين عنه.</li>
-</ol>
+		</ul>
 </li>
  	<li style="font-weight: 400">ثم اضغطي على زر " إنشاء فريق " في أسفل الصفحة . وسوف تظهر صفحة فريقك كفريق" Team Panda Savers" أدناه:
 <img style="margin: 10px;padding: 1px;border: 1px solid #cccccc" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Slide3_v2.jpg" alt="example: team panda savers" width="650" /></li>
  	<li style="font-weight: 400">الآن باستطاعتك دعوة أعضاء آخرين للانضمام لفريقكِ.
-<ol type="i">
+<ul>
  	<li style="font-weight: 400">أضيف صورة لأعضاء فريقك أو صورة تمثل الفريق .</li>
  	<li style="font-weight: 400">حددي إذا كان  الطلاب الآخرون يستطيعون إرسال طلب بالإنضمام لفريقك.</li>
  	<li style="font-weight: 400">حددي إذا كان المشرفون يستطيعون إرسال طلب للإنضمام إلى فريقك</li>
  	<li style="font-weight: 400">إذا اكتمل عدد الأعضاء والمشرفين ، يجب عليك زيارة هذه الصفحة مرة أخرى وإزالة العلامة عن المربعين ؛ حتى لا تستقبلي طلبات إنضمام غير مرغوب بها</li>
-</ol>
+		</ul>
 <img style="margin: 10px;padding: 1px;border: 1px solid #cccccc" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Slide17.png" alt="accept team member request" width="650" /></li>
  	<li style="font-weight: 400"><em>تذكري،</em> الحد الأقصى لعدد الأعضاء هو 5 أعضاء، يمكنك سحب الدعوات عن طريق رابط "سحب" بجانب البريد الإلكتروني في المربع الأخضر</li>
 </ol>
-<h3>الانضمام إلى فريق</h3>
+
+<h3 id="jointeam">الانضمام إلى فريق</h3>
 إذا كنت غير قادرة على إنشاء فرق لا تقلقي !
 يمكنك أيضا محاولة الانضمام لفريق محلي أو افتراضي على <a href="https://my.technovationchallenge.org" target="_blank">my.technovationchallenge.org</a>. كل ما عليك فعله هو اتباع الخطوات الآتية:
 <ol>
@@ -138,26 +147,36 @@
  	<li style="font-weight: 400">سوف تظهر لكِ قائمة بأسماء الفرق التي تحتاج عضواً آخر والتي تبعد عنك 50 ميلاً التي لا تزل تبحث عن أعضاء، تستطعين إيضاً تعديل "الفلتر" في الجانب الأيسر لإظهار فِرق في مدن أخرى تستطيعن الإنضمام إليها مثل:
 <img style="margin: 10px;padding: 1px;border: 1px solid #cccccc" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Slide4_v2.jpg" alt="teams looking for members page" width="650" /></li>
  	<li style="font-weight: 400">يمكنك الضغط على أسماء الفرق والتعرف عليهم .
-<ol type="i">
+<ul>
  	<li style="font-weight: 400"><strong>مهم جداً! </strong> <strong>أقسام الفرق </strong>، يتم سرد أقسام الفرق تحت اسم كل فريق. الفئة العمرية العليا والتي تتكون من عضو واحد على الأقل والذي سيبلغ من العمر15 في أو قبل 1 أغسطس 2017. الفئة العمرية المبتدئة التي جميع أعضائها هم تحت سن 15 قبل 1 أغسطس 2017.</li>
  	<li style="font-weight: 400">سوف ترين وصف الفريق أيضاً.</li>
  	<li style="font-weight: 400">وأخيرا، يمكنكِ رؤية قائمة بأعضاء الفريق والموجهين. سيتم عرض الأسماء الأولى فقط.</li>
-</ol>
+		</ul>
 <img style="margin: 10px;padding: 1px;border: 1px solid #cccccc" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Slide13.jpg" alt="check to see if a team is a good fit" width="650" /></li>
  	<li style="font-weight: 400">إذا كان الفريق ببدو مناسبة لك ،قوم بتقديم طلب للإنضمام بالضغط على زر "طلب للانضمام إلى فريق [اسم الفريق]" في أعلى الصفحة .</li>
  	<li style="font-weight: 400">سوف يتم إشعار الفريق عبر البريد الإلكتروني بطلبك.</li>
  	<li style="font-weight: 400">سوف تتلقين رسالة على البريد الإلكتروني إذا ما تم قبول طلبك أو رفضه.
-<ol>
+<ul>
  	<li style="font-weight: 400">إذا تم قبولك، يمكنك تسجيل الدخول مرة أخرى إلى <a href="https://my.technovationchallenge.org/" target="_blank">my.technovationchallenge.org</a> وانقري فوق علامة التبويب "فريقي" في الجزء العلوي من الصفحة ،سوف تظهر لكِ صفحة الفريق نفسه كما كان من قبل، ولكن هذه المرة سترين الاسم الكامل لكل عضو في الفريق وعنوان البريد الإلكتروني الخاص به. يمكنك الاتصال بهن للمساعدة على إنشاء الاجتماع الأول الخاص بكن.</li>
  	<li style="font-weight: 400">إذا تم رفض طلبك للانضمام للفريق، لا تقلقِ، هناك العديد من الفرق الأخرى التي تتطلع للمزيد من الأعضاء. فمن الممكن أن الفريق الذي طلبتِ الانضمام إليه لديه ما يكفي من أعضاء أو قرّرن المضي قدماً والاكتفاء بعدد أقل من خمسة أعضاء. من المهم أن تستمري في المحاولة، يمكنكِ تكرار الخطوات 3-6 حتى تجدي الفريق المناسب.</li>
-</ol>
+		</ul>
 </li>
 </ol>
+
+<div style="background-color:#421b41; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
 <blockquote>“الإتحاد قوة ... ويمكن تحقيق أشياء رائعة في حال وجود التعاون والعمل الجماعي.”</blockquote>
 - ماتي جيه تي ستيبانيك، الشاعر الأمريكي وداعية السلام
+</div>
+
+<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
 <h3>هل أنت مستعدة للخطوة التالية</h3>
 في الوحدة التحضيرية للوحدة الثانية سنتعرف على كيفية العثور على مشرف لفريقكِ
-
-<a href="http://www.technovationchallenge.org/curriculum/post-16772-2/" target="_blank">
-إيجاد موجه
-</a>
+<table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td align="center" style="border-radius: 28px;">
+                                    <a href="http://www.technovationchallenge.org/curriculum/findamentor/" target="_blank" style="font-size: 18px; font-family: Open Sans, Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; border-radius: 28px; background-color: none; padding: 16px 28px; border: 1px solid #eae46f; display: block;">
+إيجاد موجه</a>
+                                </td>
+                            </tr>
+                        </table>
+</div>
