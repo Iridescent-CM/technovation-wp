@@ -1,0 +1,121 @@
+Seção 1: Introdução a algoritmos de 
+programação
+A maioria das crianças que cresceu na América do Norte gosta de sanduíches de manteiga de amendoim e geleia. É fácil fazer um, é só passar manteiga de amendoim de um lado e geleia do outro! Assista a Lynese e Pablo tentando ensinar seu amigo Jared como fazer um sanduíche.
+16:38-17:20
+7:07-8:50
+Jared age como um computador, ele não faz nada a não ser que seja comandado passo a passo. Uma pessoa comum sabe o que a instrução "passe um pouco de geleia no pão" significa, na verdade, abrir o pote de geleia, colocar a faca, tirar a faca com geleia e usá-la para passar a geleia no pão. No entanto, um computador faria como Jared, passaria o pote de geleia todo no pão e ficaria confuso! 
+Diferentemente dos humanos, os computadores não fazem inferências ou suposições sobre coisa alguma! Eles só fazem aquilo que foi comandado. Lynese e Pablo deram um algoritmo a Jared para fazer um sanduíche. Um algoritmo é uma série de instruções passo a passo. Para fazer um computador fazer algo, é necessário escrever um algoritmo para ele entender. No Technovation, você aprenderá a escrever algoritmos para seu aplicativo fazer aquilo que você quiser!
+Atividade
+Escreva um algoritmo para uma atividade do cotidiano. Pode ser qualquer coisa, como andar de bicicleta, fazer um sanduíche, jogar um jogo ou qualquer outra coisa! Quando terminar, dê seu algoritmo para uma colega de equipe e peça para fazerem exatamente o que pede, assim como Jared fez no vídeo. As coisas aconteceram conforme planejado? 
+Linguagens de programação
+Algoritmos de computador são escritos em linguagens de programação. Linguagens de programação são ferramentas que ajudam a conversar com o computador. Programadores usam linguagens diferentes para fazer coisas diferentes. Algumas são melhores para fazer aplicativos, algumas são melhores para sites, outras são melhores para executar cálculos complexos. Assim como qualquer outra linguagem, você precisa aprender a usá-la para se comunicar!  
+Para o Technovation, você usará o App Inventor, que é uma ótima linguagem de programação para fazer aplicativos mobile. Um "aplicativo mobile" é um software feito para ser utilizado em smartphones e tablets, mas não em computadores. Estas são algumas linguagens de programação comuns e seus usos mais comuns. 
+Linguagem
+Usos mais comuns
+JavaScript
+Criar sites
+Objective C
+Criar aplicativos para Android
+Swift
+Criar aplicativos para iPhones (desenvolvimento de aplicativos para iOS)
+App Inventor
+Desenvolvimento de aplicativos Android (essa você vai conhecer mais nesta aula!)
+Dica: Pesquise pelas palavras que não conhecer aqui. Quando programadores não sabem o que algo significa, eles pesquisam! Como uma nova programadora, é bom perguntar e se familiarizar com algumas das palavras que programadores usam!
+Atividade
+O seu mentor ou outra pessoa que você conhece tem experiência no setor de tecnologia? Pergunte sobre sua experiência e projetos!
+Em quais projetos voltados à tecnologia você já trabalhou e o que você aprendeu? (Seu mentor pode ter ajudado a criar a tecnologia, desenvolver o modelo de negócios ou contribuído de outra maneira).
+Se tiver experiência pessoal com alguma linguagem de programação, para o que ela foi usada?
+Caso não conheça ninguém do setor de tecnologia, veja estas entrevistas com as engenheiras do Facebook e do Google!
+https://www.youtube.com/watch?v=s0JVc4q7d5M&amp;amp;amp;amp;amp;amp;amp;amp;index=13&amp;amp;amp;amp;amp;amp;amp;amp;list=PLB6E628EAA3F649D8
+https://www.youtube.com/watch?v=8UovCe5hEt4&amp;amp;amp;amp;amp;amp;amp;amp;list=PLB6E628EAA3F649D8&amp;amp;amp;amp;amp;amp;amp;amp;index=14
+Seção 2: Introdução ao App Inventor
+Começando a usar o App Inventor
+Você pode pular esta seção se já souber usar o App Inventor ou se for utilizar outra linguagem de programação para fazer o aplicativo.
+O App Inventor é um programa gratuito online que permite aos usuários criar aplicativos para smartphones e tablets Android. Você pode acessar o App Inventor usando um navegador para acessar o link http://appinventor.mit.edu/. Assista a esse vídeo para saber mais como é programar com o App Inventor.
+https://www.youtube.com/watch?v=sNjGAiOrX-o
+Como você viu no vídeo, o App Inventor é realmente fácil de usar! Você pode fazer o design e a programação do aplicativo pelo computador e depois testá-lo com um smartphone ou emulador! Seu trabalho ficará salvo nos servidores do App Inventor, então ele estará lá cada vez que entrar. Para aprender mais sobre o App Inventor, acesse esta página.
+Configuração do App Inventor
+Nesta seção, você aprenderá a usar o App Inventor para escrever um algoritmo que um smartphone com Android possa entender! Para utilizar o App Inventor, você precisará de: 
+Computador
+Acesso à internet
+Conta do Gmail
+Você precisa de uma conta do Gmail para entrar no App Inventor. Para criar uma conta, entre aqui.
+Telefone ou tablet Android (opcional, mas altamente recomendável) Se você não tem um celular Android, aqui estão algumas opções com preço acessível da Amazon que não exigem planos de serviço. Recomendamos a versão de sistema operacional 4.0 Ice Cream Sandwich ou mais recente.
+Android Motorola 
+Android BLU
+Tablet Android
+Com uma conta Gmail, configure sua conta no App Inventor aqui. Depois que configurar sua conta no App Inventor e entrar no site, volte para esta página e siga para a próxima seção.
+Como conectar o App Inventor a um celular Android
+Você pode conectar o celular Android ou um emulador para testar o aplicativo feito no App Inventor de três maneiras. Se tiver um celular, você pode conectá-lo via wifi ou via USB. Se não tiver um celular, você pode usar um emulador, que é um software que permite usar um celular virtual no computador. Com qualquer um desses métodos, o App Inventor permite a testagem ao vivo, que significa que você pode editar seu aplicativo no App Inventor pelo computador e ver as mudanças aparecerem instantaneamente no seu celular ou emulador. Depois de configurar os dispositivos, termine a atividade abaixo antes de começar a fazer seu primeiro aplicativo. 
+Método Wifi
+Essa é a maneira mais fácil de se usar o App Inventor e é altamente recomendada pela equipe Technovation. Use esse método se tiver um smartphone ou tablet com Android e com acesso wifi. Você precisa conectar o computador e o smartphone na mesma rede wifi para esse método funcionar. 
+Através do método wifi, você desenvolverá os aplicativos no computador e os testará no aplicativo complementar do App Inventor, chamado MIT AI2 Companion. Veja as instruções do MIT sobre como fazer a conexão aqui.
+Solução de problemas:
+ Baixe o aplicativo correto MIT AI2 Companion no seu celular aqui: AI Companion App.. A logo se parece com isso:
+Conecte tanto o computador quanto o celular na mesma rede wifi
+Reinicie a conexão caso haja erro
+Se ainda não tiver conseguido, este vídeo pode ajudar: PhilsComputerLab: Conectando a Wi-Fi
+Assim que configurar tudo e fizer tudo funcionar, vá para a atividade
+Método USB
+Esse é o método tecnicamente mais complicado para usar e requer a instalação de software no seu computador. Use esse método se tiver um smartphone ou tablet com Android, mas sem acesso wifi. 
+Através deste método, você desenvolverá os aplicativos no computador e os testará no seu smartphone conectado com um cabo USB. Você precisará baixar um software no seu computador e o aplicativo complementar no seu smartphone para funcionar. Caso esteja utilizando um computador com Windows, você pode precisar baixar um  Driver USB para seu celular. Para Macs, não é necessário baixar Drivers USB. Veja as instruções do MIT para o método USB aqui.
+Solução de problemas:
+ Baixe o aplicativo correto MIT AI2 Companion no seu celular aqui: AI Companion App. A logo se parece com isso:
+Reinicie a conexão caso haja erro
+Você precisa habilitar as opções de desenvolvedor antes que elas apareçam nas suas configurações. Aqui temos um bom artigo que mostra como habilitar as opções de desenvolvedor e resolver problemas com o USB debugging na maioria dos celulares Android: howtogeek.
+Pode ser necessário aceitar a caixa de diálogo no celular para conectar ao computador
+Mac
+Pode ser necessário alterar as preferências de segurança, caso receba um alerta que diz "'MITAppInventorSetup.pkg' não pôde ser aberto porque veio de uma fonte não confiável" Para alterar isso, abra as configurações de segurança e privacidade e clique em "abrir mesmo assim" ou altere as configurações para permitir que aplicativos sejam baixados de qualquer fonte. 
+
+Windows
+Certifique-se de que o aiStarter está funcionando. Você deve procurá-lo e executá-lo.
+É provável que precise de um driver para seu celular funcionar no PC. Aqui está uma documentação do MIT sobre como instalar um driver MIT USB help
+Pesquise qual é o driver correto para seu celular. A documentação do MIT pode ajudar se você tiver um celular Google.
+Pode ser necessário atualizar o driver para o celular no computador, mesmo depois de ter instalado um driver novo. Aqui estão as instruções para fazer isso: Instruções para update do driver
+Vídeos
+Um vídeo para ajudar a configurar seu PC 1:20-3:22 PhilsComputerLab: Configurar seu PC
+Este é um vídeo para ajudar a configurar seu celular sem precisar do aplicativo adicional leitor de códigos QR: 0:00 - 2:01 PhilsComputerLab: Configurar seu celular
+Depois de configurar tudo, veja este vídeo para saber como conectar com um cabo USB: PhilsComputerLab: Como conectar com cabo USB
+Assim que configurar tudo e fazer tudo funcionar, vá para a Atividade
+Método Emulador
+Este método pode ser complicado, especialmente no Windows. Ele não é recomendado pela equipe Technovation. Utilize este método caso não possua um celular ou tablet Android.
+Um emulador é um programa que permite executar um smartphone virtual através do computador. Com este método, você desenvolverá os aplicativos no computador e os testará nele mesmo através do emulador. Veja as instruções do MIT para o método emulador aqui.
+Solução de problemas:
+No Windows, certifique-se de que o aiStarter está funcionando. Você deve procurá-lo e executá-lo.
+O emulador pode demorar para carregar.
+Certifique-se de que seu celular não esteja conectado ao computador.
+Reinicie a conexão caso encontre erros ou se o emulador não estiver respondendo.
+Esta é a página de ajuda do MIT para o emulador: Página de ajuda MIT
+Um vídeo para ajudar a conectar através do emulador: PhilsComputerLab:Como usar o emulador
+Assim que configurar tudo e fazer tudo funcionar, vá para a Atividade
+Atividade
+Complete os dois tutoriais. Eles ajudarão a criar o primeiro aplicativo no App Inventor e a entender melhor a próxima seção. A atividade abaixo ajudará a começar a desenvolver seu primeiro aplicativo. O tutorial presume que você está usando o método wifi. Se estiver usando o método emulador ou USB, consulte as instruções acima para conectar seu celular. Lembre-se, como é seu primeiro aplicativo, não tem problema se ficar presa em alguma etapa! 
+Tutorial 1: Talk to me Parte I
+https://www.youtube.com/watch?v=Vdo8UdkgDD8
+Baixe aqui uma cópia em pdf do tutorial
+Tutorial 2: Talk to me Parte II 
+https://www.youtube.com/watch?v=0hikoCvM3oc
+Baixe aqui uma cópia em pdf do tutorial
+Event Handling
+Ao fazer seu aplicativo "Talk to me", você deve ter usado tanto o lado designer quanto o lado blocks do App Inventor. Quando criar um elemento de design para o aplicativo, você deve dizer ao computador o que ele vai fazer! Essa informação virá em blocos. 
+Por essa razão, o App Inventor é conhecido como uma "linguagem de programação em blocos". Para cada elemento que puser no lado designer, você deve dizer ao computador o que ele deve fazer e quando. Isso é conhecido como "tratar eventos", ou event handling. 
+Um evento é algo que acontece. Você com certeza já ouviu essa palavra descrevendo uma festa de aniversário ou peça de teatro. Na programação, um evento é quando acontece algo que aciona o código. Por exemplo, um evento pode ser um clique em um botão, uma mudança de orientação da tela ou um usuário escrevendo em uma caixa de texto. O computador trata o evento da maneira como você disser que deve acontecer. 
+No seu aplicativo Talk to Me, você disse o que deveria ser feito quando o usuário apertasse um botão, logo, você colocou um "event handler" naquele botão! Foi mais ou menos assim:
+
+O evento foi o clique do botão pelo usuário e o aplicativo tratou ele realizando a função TextToSpeech, que converte texto para fala. É importante lembrar-se disso. Ao programar, você deve pensar sobre o que você quer que seu aplicativo faça e quando.  
+Atividade
+Você consegue pensar em situações de event handling que seu celular faz? Para começar, aqui estão alguns exemplos:
+Ao clicar em "send" (enviar) uma mensagem de texto, ele manda a mensagem e emite um som
+Ao comprar um aplicativo na loja, o celular pede uma senha
+Ao clicar em um ícone de aplicativo, esse aplicativo abre
+Funções
+Ao entrar na tela blocks do App Inventor, você notou todas as categorias de funções embutidas? Pareciam com isso:
+
+Funções são blocos de código que fazem algo. Elas recebem um input e produzem um output. Input é uma informação que entra na função e output é a informação que volta para você. No tutorial do Talk to Me, você deve ter utilizado uma função chamada "Speech to Text", que converte texto escrito em fala! O input é o texto e o output é a fala! Conforme você aprender a programar, funções, inputs e outputs farão cada vez mais sentido. 
+As funções embutidas no App Inventor são a base do que será usado para desenvolver o seu aplicativo. Todas as linguagens de programação possuem funções embutidas, e bons programadores sabem combinar essas funções para que o computador faça exatamente o que eles querem. Assim que conhecer essas funções, você pode combiná-las de diferentes maneiras para fazer seu aplicativo! Aprenderemos sobre essas funções nas Unidades 2: Dados e variáveis e na Unidade 3: Lógica, loops e condicionais.
+Atividade
+Vamos programar mais um pouco antes de continuar! Será que você consegue elevar seu aplicativo Talk to Me para o próximo nível? Ideias para testar!
+Mudar o timbre da voz no componente "speech to text", ou fala para texto. Clique no bloco "speech to text" e busque a propriedade de timbre, ou pitch. Você pode dar um timbre de 0, 1 ou 2 à voz.
+Aqui você aprenderá como: Informações sobre TextToSpeech do App Inventor
+Utilize o sensor Speech Recognizer, ou reconhecimento de fala, para fazer seu celular repetir ou mostrar como texto aquilo que você falar!
+Ao final de cada unidade de programação, você deverá completar um desafio de programação e depois enviá-lo para seu mentor para receber um feedback. Os tutorias ajudarão a desenvolver conceitos importantes de programação e a fazer seu aplicativo final.
