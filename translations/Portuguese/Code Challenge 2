@@ -1,0 +1,132 @@
+<h1>Desafio de programação #2</h1>
+<h1>Como fazer um aplicativo de lista de tarefas</h1>
+<ul>
+ 	<li><a href="#design">Design da tela</a></li>
+ 	<li><a href="#blocks">Como adicionar tarefas à lista</a></li>
+ 	<li><a href="#check1">Checkpoint #1</a></li>
+ 	<li><a href="#delete">Como deletar itens da lista de tarefas</a></li>
+ 	<li><a href="#check2">Checkpoint #2</a></li>
+ 	<li><a href="#reset">Como programar o botão "Reset"</a></li>
+ 	<li><a href="#check3">Checkpoint #3</a></li>
+ 	<li><a href="#tinyDB">Como programar o TinyDB</a></li>
+ 	<li><a href="#final">Checkpoint final</a></li>
+</ul>
+<h3>Description</h3>
+<span style="font-weight: 400;">Descrição</span><span style="font-weight: 400;">: Faça uma lista de tarefas que permita que o usuário adicione e remova itens. Seu aplicativo deve lembrar os itens toda vez que o usuário abrir o aplicativo. Pode ser necessário aprender a usar uma </span><a href="http://ai2.appinventor.mit.edu/reference/components/userinterface.html#ListView" target="_blank" rel="noopener"><span style="font-weight: 400;">ListView</span></a><span style="font-weight: 400;"> antes de tentar o desafio!</span>
+
+<span style="font-weight: 400;">Veja nosso aplicativo de exemplo aqui: </span><a href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.ToDoList" target="_blank" rel="noopener"><span style="font-weight: 400;">Desafio Technovation #2:</span></a>
+
+<span style="font-weight: 400;">Tente fazer o desafio sozinha antes de ler as instruções. Lembre-se, as instruções são apenas uma maneira de solucionar o desafio! </span>
+<h3 id="design"><span style="font-weight: 400;">Design da tela</span></h3>
+<span style="font-weight: 400;">Explicação: Para este aplicativo, seu usuário deve poder criar uma lista de tarefas. Nosso layout tem botões que permitirão ao usuário salvar seus itens para a próxima vez em que abrir o aplicativo e reiniciar a lista. </span>
+<ol>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Adicione um "label", um rótulo, para informar para que serve o aplicativo!</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Adicione uma caixa de texto para digitar a tarefa</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Adicione um botão para o usuário clicar depois de digitar a tarefa</span>
+<ol>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Renomeamos o botão para "Enter", para lembrarmos para que ele serve quando programá-lo com blocos!</span></li>
+</ol>
+</li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Adicione ListView à tela. Dessa forma, o usuário poderá ver sua lista de tarefas.</span>
+<ol>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Definimos a altura e largura para "Fill Parent", mas você pode desenhar a tela como quiser!</span></li>
+</ol>
+</li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Adicione um botão de salvar para o usuário conseguir salvar a lista na base de dados e um botão de "reset" (reiniciar) para apagar a lista.</span>
+<ol>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Nomeamos os botões "Save" e "Reset"</span></li>
+</ol>
+</li>
+ 	<li style="font-weight: 400;"> <i><span style="font-weight: 400;">Opcional: </span></i><span style="font-weight: 400;">Adicionamos duas caixas horizontais para organizar o layout, mas você pode organizar a tela como desejar!</span></li>
+</ol>
+<i style="font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; font-size: medium; font-family: 'Source Sans';"><img style="border: 1px solid #cccccc;" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image07-1024x552.png" alt="steps 1-6" width="1024" height="552" /></i>
+
+7. <span style="font-weight: 400;">Adicione uma TinyDB do menu "storage". Ao arrastá-la para a tela, ela aparecerá como um "componente não visível".</span>
+<h3><img style="border: 1px solid #cccccc;" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image06-1024x555.png" alt="step 7" width="1024" height="555" /></h3>
+<h3 id="blocks"><span style="font-weight: 400;">Como adicionar tarefas à lista</span></h3>
+<span style="font-weight: 400;">Seu aplicativo deve exibir os inputs digitados pelo usuário no aplicativo. Para fazer isso, é necessário armazenar os dados em uma lista de variáveis e depois exibi-la através do ListView. O plano é criar uma lista de variáveis primeiro, para seu usuário adicionar coisas a ela. Ao clicar no botão "Enter", os dados digitados na caixa de texto devem ser adicionados à lista de itens e exibidos no ListView. </span>
+<ol>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Faça uma lista de variáveis chamada </span><i><span style="font-weight: 400;">items</span></i><span style="font-weight: 400;"> para armazenar os dados da lista de tarefas. Inicie a variável como uma lista vazia, já que o usuário ainda não digitou nada.</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Pegue um event handler <strong>button.click</strong> para o botão "Enter".</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">No menu "<strong>Lists</strong>", pegue um bloco "<strong>add items to list</strong>", usado para adicionar itens à lista. Coloque-o dentro do event handler </span><strong>enter.click</strong><span style="font-weight: 400;">. </span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Coloque a variável </span><i><span style="font-weight: 400;">items</span></i><span style="font-weight: 400;"> para o nome da lista e "<strong>TextBox1.Text</strong>", que é o texto digitado na caixa de texto, como o item a ser adicionado à lista.</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Coloque o bloco "<strong>set ListView1.Elements to</strong>" abaixo do bloco "<strong>add items to list</strong>", </span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Adicione a variável </span><i><span style="font-weight: 400;">items</span></i><span style="font-weight: 400;"> ao bloco "<strong>set ListView1.Elements to</strong>";</span></li>
+ 	<li style="font-weight: 400;"><i><span style="font-weight: 400;">Opcional: </span></i><span style="font-weight: 400;">Para deixar o aplicativo mais fácil de usar, vamos comandar que o teclado se esconda quando o usuário apertar "Enter". Para fazer isso, clique em "TextBox1" e pegue o bloco "<strong>TextBox1.HideKeyboard</strong>".</span></li>
+</ol>
+<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image08-1024x438.png" alt="blocks steps 1-7" width="898" height="236" />
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 id="check1">Checkpoint #1</h3>
+<span style="font-weight: 400;">Verifique se o que foi desenvolvido até agora funciona! Conecte o celular ou emulador para testar. Ao digitar coisas na caixa de texto e apertar "Enter", elas devem aparecer abaixo. Se não estiver funcionado, conserte todos os erros antes de continuar. Peça ajuda ao mentor ou às colegas de equipe se estiver com dificuldades. </span>
+
+</div>
+&nbsp;
+<h3 id="delete"><span style="font-weight: 400;">Como deletar itens da lista de tarefas</span></h3>
+<span style="font-weight: 400;">Seus usuários devem poder deletar coisas da lista de tarefas assim que completá-las. Eles podem fazer isso ao clicar em um dos itens exibidos na ListView.</span><span style="font-weight: 400;"> Para deletar algo, é preciso saber o índice dessa coisa na lista, assim você poderá dizer ao aplicativo exatamente qual item deletar. Nas próximas etapas, você aprenderá a criar uma variável chamada </span><i><span style="font-weight: 400;">index</span></i><span style="font-weight: 400;">, ou índice.</span> <span style="font-weight: 400;">Essa variável pode ser local, porque só a usaremos nesta parte do código. Definiremos a variável </span><i><span style="font-weight: 400;">index</span></i><span style="font-weight: 400;"> como o índice do que o usuário selecionar. Então, usaremos a variável </span><i><span style="font-weight: 400;">index</span></i><span style="font-weight: 400;"> para dizer ao aplicativo o que remover da lista </span><i><span style="font-weight: 400;">items</span></i><span style="font-weight: 400;">. Depois disso, atualizaremos a ListView para exibir o que foi alterado na lista </span><i><span style="font-weight: 400;">items</span></i><span style="font-weight: 400;">.</span>
+<ol>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Pegue o bloco "ListView1.AfterPicking"</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Crie uma variável local chamada </span><i><span style="font-weight: 400;">index</span></i><span style="font-weight: 400;">.</span> <span style="font-weight: 400;">Para iniciar, você pode definir qualquer coisa. A nossa foi definida como zero.</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Configure o bloco da variável "set ‘name’ to" à variável </span><i><span style="font-weight: 400;">index</span></i><span style="font-weight: 400;">.</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Pegue o bloco que diz "index is list, thing, list" e o anexe.</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Atribua “ListView1.Selection” a "thing" e a lista </span><i><span style="font-weight: 400;">items</span></i><span style="font-weight: 400;"> a "list".</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Pegue o bloco "remove list item" e o coloque dentro do seu bloco de variáveis</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Defina a variável </span><i><span style="font-weight: 400;">items</span></i><span style="font-weight: 400;"> para "list" e a variável </span><i><span style="font-weight: 400;">index</span></i><span style="font-weight: 400;"> para "index"</span></li>
+</ol>
+<span style="font-weight: 400;">Coloque o bloco "set ListView1.Elements to" abaixo do bloco de variáveis Conecte a variável </span><i><span style="font-weight: 400;">items</span></i><span style="font-weight: 400;"> a ele.</span>
+
+<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/Blocks2.png" alt="blocks2" width="2276" height="753" />
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 id="check2">Checkpoint #2!</h3>
+<span style="font-weight: 400;">Hora de ver se o aplicativo está funcionado! Conecte o celular ou emulador para testar. Agora deve ser possível tocar nos itens exibidos na lista para deletá-los.</span>
+
+</div>
+<h3 id="reset"><span style="font-weight: 400;">Como programar o botão "Reset"</span></h3>
+<span style="font-weight: 400;">Explicação: Para facilitar o uso do seu aplicativo, adicionaremos um botão para limpar as entradas colocadas pelo usuário na lista. Nas próximas etapas, você programará código para reiniciar a lista </span><i><span style="font-weight: 400;">items</span></i><span style="font-weight: 400;"> a partir de uma lista vazia, quando o usuário apertar o botão "reset". Então, seu código exibirá o conteúdo novo da lista </span><i><span style="font-weight: 400;">items, que estará vazia,</span></i><span style="font-weight: 400;"> no ListView, para que seu usuário realmente veja que a lista foi reiniciada.</span>
+<ol>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Pegue o bloco "when button.click" para seu botão "Reset"</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Pegue o bloco de variáveis "set ‘name’ to" e selecione a sua lista </span><i><span style="font-weight: 400;">items</span></i></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Anexe um bloco “create empty list”, para criar uma lista vazia</span></li>
+ 	<li style="font-weight: 400;">Pegue o bloco "set ListView1.Elements to" e anexe o bloco de variáveis "get <i><span style="font-weight: 400;">items</span></i><span style="font-weight: 400;">".</span></li>
+</ol>
+<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image02-1-1024x297.png" alt="Reset steps 1-4" width="678" height="197" />
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 id="check3">Checkpoint #3!</h3>
+Hora de ver se o botão "reset" funciona. Conecte o celular ou emulador para testar. Após digitar tarefas na lista, apertar o botão "reset" deve apagá-la. Peça ajuda ao mentor ou às colegas de equipe se estiver com dificuldades.
+
+</div>
+<h3 id="tinyDB"><span style="font-weight: 400;">Como programar o TinyDB</span></h3>
+<span style="font-weight: 400;">Quando seu usuário sair do aplicativo, sua lista de tarefas deve estar salva para a próxima vez.  Nas próximas etapas, você programará o botão "save" para que seu usuário salve a lista de tarefas a uma base de dados. Isso será feito com o botão "save" fazendo um </span><i><span style="font-weight: 400;">call, ou seja, </span></i><span style="font-weight: 400;">chamando a base de dados e salvando a lista </span><i><span style="font-weight: 400;">items.</span></i><span style="font-weight: 400;"> A base de dados salvará a lista de tarefas exatamente como está no momento.</span>
+<ol>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Pegue o bloco "when button.Click" para seu botão "Save"</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Adicione o bloco "call TinyDB1.StoreValue"</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Adicione um nome para a "tag"</span></li>
+ 	<li style="font-weight: 400;">Conecte a variável <i><span style="font-weight: 400;">items</span></i><span style="font-weight: 400;"> a "valueToStore"</span></li>
+</ol>
+<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image01-1024x315.png" alt="TinyDB steps 1-4" width="809" height="249" />
+
+&nbsp;
+
+<span style="font-weight: 400;">Agora que você conseguiu armazenar a lista de tarefas do seu usuário na base de dados, seu aplicativo deve verificar a base de dados toda vez que for reiniciado para conferir se há alguma lista de tarefas salva. Isso é feito com o bloco "when Screen1.Initialize". Esse bloco faz aquilo que é comandado quando a tela "Screen1" for inicializada. Nas próximas etapas, configuraremos a lista </span><i><span style="font-weight: 400;">items</span></i><span style="font-weight: 400;"> para ser exatamente o que tem na base de dados, abaixo do nome da "tag" que você escolher. Se não houver dados armazenados, você comandará que o aplicativo gere uma lista vazia, ou seja, uma lista de tarefas sem itens. Após isso, seu aplicativo exibirá o que existir na variável </span><i><span style="font-weight: 400;">items</span></i><span style="font-weight: 400;"> armazenada, ou uma lista vazia.</span>
+<ol>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;"> Pegue o bloco "when Screen1.Initialize"</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Pegue um bloco "set ‘variable name’ to" e defina a lista </span><i><span style="font-weight: 400;">items</span></i><span style="font-weight: 400;"> como a variável</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Chame a base de dados com o bloco "call TinyDB1.GetValue"</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Digite o nome da "tag" que você usou e salve a lista para a "tag"</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Para "valueIfTagNotThere", defina o bloco "create empty list"</span></li>
+ 	<li style="font-weight: 400;">Coloque o bloco "set ListView1.Elements to" abaixo da variável <i><span style="font-weight: 400;">items</span></i></li>
+</ol>
+<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image18-1024x321.png" alt="TinyDB steps 1-6" width="986" height="309" />
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 id="final">Checkpoint Final</h3>
+<span style="font-weight: 400;">Hora de ver se a base de dados está funcionado! Inicialize o aplicativo e digite coisas na lista de tarefas. Aperte "save" e saia do aplicativo do App Inventor. Abra o aplicativo novamente e veja se as coisas que você digitou está lá. Se não estiverem, volte e certifique-se de que não há erros no código. Certifique-se também de que todos os nomes da "tag" estão escritos corretamente, até letras maiúsculas. Se tudo estiver funcionando, o desafio foi completado! </span>
+
+<span style="font-weight: 400;">Ainda está com dificuldades? Baixe o código-fonte do exemplo <a style="color: #eae46f;" href="https://drive.google.com/file/d/0B9HV58UviqU_a2lTVFdUb0hGbGM/view?usp=sharing" target="_blank" rel="noopener">aqui</a>.</span>
+
+<span style="font-weight: 400;">Instruções sobre como baixar e usar códigos-fonte: </span><a style="color: #eae46f;" href="http://appinventor.mit.edu/explore/ai2/share.html" target="_blank" rel="noopener"><span style="font-weight: 400;">Instruções para código-fonte</span></a>
+
+</div>
+&nbsp;
+
+&nbsp;
+
+
