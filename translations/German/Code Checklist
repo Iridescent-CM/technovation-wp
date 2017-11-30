@@ -14,19 +14,19 @@ Zum Beispiel:
 
 Über diese Komponenten lernst du mehr in <strong>Code 2</strong>.
 
-Zeichenketten (strings)
+<input type="checkbox" />Zeichenketten (strings)
 
-Zahlen (numbers)
+<input type="checkbox" />Zahlen (numbers)
 
-Variablen (variables)
+<input type="checkbox" />Variablen (variables)
 
-Listen oder Arrays (lists or Arrays)
+<input type="checkbox" />Listen oder Arrays (lists or Arrays)
 
 Über diese Komponenten lernst du mehr in <strong>Code 3</strong>.
 
-Booleans
+<input type="checkbox" />Booleans
 
-Schleifen (loops)
+<input type="checkbox" />Schleifen (loops)
 
 Bedingungen (conditional statements)
 <h3>Datenbanken und Vernetzungen</h3>
@@ -34,64 +34,36 @@ Bedingungen (conditional statements)
 
 Über diese Komponenten lernst du mehr in <strong>Code 2.</strong>
 
-Lokale Datenbanken
+<input type="checkbox" />Lokale Datenbanken
 
 Über diese Komponenten lernst du mehr in <strong>Code 4.</strong>
 
-Webbasierte Datenbanken oder API
+<input type="checkbox" />Webbasierte Datenbanken oder API
 <h3>Handy Funktionen</h3>
 <em>Verwende mindestens 1 (2 Punkt für jeden, maximal 2 Punkte)</em>
 
 Über diese Komponenten lernst du mehr in<strong> Code 4.</strong>
 
-Ortssensor (location sensor)
+<input type="checkbox" />Ortssensor (location sensor)
 
-Kamera oder Video (camera or video)
+<input type="checkbox" />Kamera oder Video (camera or video)
 
-Beschleunigungssensor (accelerometer)
+<input type="checkbox" />Beschleunigungssensor (accelerometer)
 
-Textnachrichten oder Anrufe (text messaging or phone call)
+<input type="checkbox" />Textnachrichten oder Anrufe (text messaging or phone call)
 
-Geräusche oder Lautsprecher (sound or speaker)
+<input type="checkbox" />Geräusche oder Lautsprecher (sound or speaker)
 
-Teilen (sharing)
+<input type="checkbox" />Teilen (sharing)
 
-Uhr (clock)
+<input type="checkbox" />Uhr (clock)
 
-Leinwand (canvas)
+<input type="checkbox" />Leinwand (canvas)
 <h3>Dokumentiere deinen Prozess</h3>
 <em>Mache alle 3 (1 Punkt für jeden, maximal 3 Punkte)</em>
 
-Lade ein Foto deines Papierprototypens aus <strong>Code 5 </strong>hoch.
+<input type="checkbox" />Lade ein Foto deines Papierprototypens aus <strong>Code 5 </strong>hoch.
 
-Lade ein Foto deines Flussdiagrammes und des Pseudocodes au <strong>Code 6 </strong>hoch.
+<input type="checkbox" />Lade ein Foto deines Flussdiagrammes und des Pseudocodes au <strong>Code 6 </strong>hoch.
 
-Lade mindestens 2 Screenshots deiner App hoch.
-
-&nbsp;
-<h2>Technovation Zeitplan</h2>
-Aug
-Sep
-Okt
-Nov
-Dez
-Jan
-Feb
-Mär
-Apr
-Mai
-Jun
-Jul
-Rekrutierungs-Saison
-Offizielle Saison
-Pitch Events
-World Pitch
-<h3 style="color: #ececec;" align="center">Wichtige Termine für die Saison 2018</h3>
-<p style="color: #ececec; text-align: center; font-size: 15px;"><strong>Start der Registrierung:</strong> 18. Oktober 2017
-<strong>Start der offiziellen Saison:</strong> 10. Januar 2018
-<strong>Ende der Registrierung:</strong> 7. März 2018
-<strong>Abgabetermin</strong>: 25. April 2018</p>
-<p style="text-align: center;">Bist du bereit für die Technovation World Challenge?</p>
-<a role="button" href="https://my.iridescent.staging.wpengine.com" target="_self">
-Anmelden
-</a>
+<input type="checkbox" />Lade mindestens 2 Screenshots deiner App hoch.
