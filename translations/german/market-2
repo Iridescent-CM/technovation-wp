@@ -1,288 +1,335 @@
-<h1>Markt 2</h1>
-<h1>Kreiere das Aussehen und ein Logo</h1>
 <ul>
-<li><a href="#color">Farben</a></li>
-<li><a href="#act1">Aktivität: Wähle eine Farbe</a></li>
-<li><a href="#colorschemes">Farbschema</a></li>
-<li><a href="#act2">Aktivität: Wähle ein Farbschema</a></li>
-<li><a href="#fonts">Schriftarten</a></li>
-<li><a href="#act3">Aktivität: Wähle eine Schriftart</a></li>
-<li><a href="#logo">Logos</a></li>
-<li><a href="#act4">Aktivität: Überlegt euch ein Logo</a></li>
-<li><a href="#apply">Anwendung</a></li>
-<li><a href="#reflect">Reflexion</a></li>
-<li><a href="#bonus">Bonus: Farben für Programmierer</a></li>
+ 	<li><a href="#color">Farben</a></li>
+ 	<li><a href="#act1">Aktivität: Wähle eine Farbe</a></li>
+ 	<li><a href="#colorschemes">Farbschema</a></li>
+ 	<li><a href="#act2">Aktivität: Wähle ein Farbschema</a></li>
+ 	<li><a href="#fonts">Schriftarten</a></li>
+ 	<li><a href="#act3">Aktivität: Wähle eine Schriftart</a></li>
+ 	<li><a href="#logo">Logos</a></li>
+ 	<li><a href="#act4">Aktivität: Überlegt euch ein Logo</a></li>
+ 	<li><a href="#apply">Anwendung</a></li>
+ 	<li><a href="#reflect">Reflexion</a></li>
+ 	<li><a href="#bonus">Bonus: Farben für Programmierer</a></li>
 </ul>
 <h2><b>Lernziele:</b></h2>
-<p>in dieser Einheit wirst du...</p>
+in dieser Einheit wirst du...
 <ul>
-<li style="font-weight: 400">Etwas über Logos, Schriften und Farbschema lernen</li>
-<li style="font-weight: 400">Ein Farbschema und eine Schriftart für deine Marke wählen</li>
-<li style="font-weight: 400">ein Logo für deine Marke kreieren</li>
+ 	<li style="font-weight: 400;">Etwas über Logos, Schriften und Farbschema lernen</li>
+ 	<li style="font-weight: 400;">Ein Farbschema und eine Schriftart für deine Marke wählen</li>
+ 	<li style="font-weight: 400;">ein Logo für deine Marke kreieren</li>
 </ul>
-<p>Du hast bereits einen Namen für dein Unternehmen ausgewählt und eine erste Idee wie dein Unternehmen aussehen soll, jetzt ist es an der Zeit das Aussehen deiner Marke zu erstellen! Die <strong>Optik</strong> beschreibt wie deine Marke aussieht. Sie enthält ein Logo, ein Farbschema und eine Schriftart. Es ist wichtig, dass die Optik einheitlich ist damit Leute deine Marke erkennen und auch wiedererkennen, wenn sie sie sehen. Lass uns damit anfangen eine Farbe auszuwählen, die deine Marke widerspielgelt.</p>
-<p>Du hast bestimmt eine Lieblingsfarbe, jedoch ist diese nicht unbedingt die beste Farbe für deine Marke! Wusstest du, dass Farben mit Emotionen verknüpft sind und Leute auf sie in einer bestimmten Art reagieren? Dies kann für jeden unterschiedlich sein, aber es ist wichtig diese Emotionen zu berücksichtigen, wenn man sich für eine Farbe entscheidet. In dieser Einheit werden wir über Farben sprechen die in den USA beliebt sind und womit sie im Allgemeinen verbunden werden. Da diese Assoziierungen in anderen Ländern und Kulturen anders sein können, solltest du versuchen herauszufinden was verschiedene Farben in deinem Land bedeuten. Hier sind ein paar Beispiele:</p>
-<p>&nbsp;</p>
+<h3 id="color">Farben</h3>
+Du hast bereits einen Namen für dein Unternehmen ausgewählt und eine erste Idee wie dein Unternehmen aussehen soll, jetzt ist es an der Zeit das Aussehen deiner Marke zu erstellen! Die <strong>Optik</strong> beschreibt wie deine Marke aussieht. Sie enthält ein Logo, ein Farbschema und eine Schriftart. Es ist wichtig, dass die Optik einheitlich ist damit Leute deine Marke erkennen und auch wiedererkennen, wenn sie sie sehen. Lass uns damit anfangen eine Farbe auszuwählen, die deine Marke widerspielgelt.
+
+Du hast bestimmt eine Lieblingsfarbe, jedoch ist diese nicht unbedingt die beste Farbe für deine Marke! Wusstest du, dass Farben mit Emotionen verknüpft sind und Leute auf sie in einer bestimmten Art reagieren? Dies kann für jeden unterschiedlich sein, aber es ist wichtig diese Emotionen zu berücksichtigen, wenn man sich für eine Farbe entscheidet. In dieser Einheit werden wir über Farben sprechen die in den USA beliebt sind und womit sie im Allgemeinen verbunden werden. Da diese Assoziierungen in anderen Ländern und Kulturen anders sein können, solltest du versuchen herauszufinden was verschiedene Farben in deinem Land bedeuten. Hier sind ein paar Beispiele:
 <table>
 <tbody>
 <tr>
-<td style="text-align: center;color: #ffffff" bgcolor="red">ROT</td>
+<td style="text-align: center; color: #ffffff;" bgcolor="red">ROT</td>
 <td>engagiert, aggressiv, wichtig, revolutionär</td>
 </tr>
 <tr>
-<td style="text-align: center;color: #ffffff" bgcolor="orange">ORANGE</td>
+<td style="text-align: center; color: #ffffff;" bgcolor="orange">ORANGE</td>
 <td>spielerisch, energisch, billig, lebendig</td>
 </tr>
 <tr>
-<td style="text-align: center" bgcolor="yellow">GELB</td>
+<td style="text-align: center;" bgcolor="yellow">GELB</td>
 <td>fröhlich, freundlich, warnend, weise</td>
 </tr>
 <tr>
-<td style="text-align: center;color: #ffffff" bgcolor="green">GRÜN</td>
+<td style="text-align: center; color: #ffffff;" bgcolor="green">GRÜN</td>
 <td>natürlich, stabil, erfolgreich, ehrlich</td>
 </tr>
 <tr>
-<td style="text-align: center;color: #ffffff" bgcolor="blue">BLAU</td>
+<td style="text-align: center; color: #ffffff;" bgcolor="blue">BLAU</td>
 <td>gelassen, glaubhaft, einladend, loyal</td>
 </tr>
 <tr>
-<td style="text-align: center;color: #ffffff" bgcolor="purple">LILA</td>
+<td style="text-align: center; color: #ffffff;" bgcolor="purple">LILA</td>
 <td>luxuriös, mysteriös, romantisch, inspirierend</td>
 </tr>
 <tr>
-<td style="text-align: center;color: #ffffff" bgcolor="brown">BRAUN</td>
+<td style="text-align: center; color: #ffffff;" bgcolor="brown">BRAUN</td>
 <td>natürlich, stabil, rustikal</td>
 </tr>
 <tr>
-<td style="text-align: center;color: #ffffff" bgcolor="black">SCHWARZ</td>
+<td style="text-align: center; color: #ffffff;" bgcolor="black">SCHWARZ</td>
 <td>kraftvoll, anspruchsvoll, kantig, formal</td>
 </tr>
 <tr>
-<td style="text-align: center" bgcolor="WHITE">WEIß</td>
+<td style="text-align: center;" bgcolor="WHITE">WEIß</td>
 <td>sauber, tugendhaft, gesund, unschuldig</td>
 </tr>
 <tr>
-<td style="text-align: center;color: #ffffff" bgcolor="gray">GRAU</td>
+<td style="text-align: center; color: #ffffff;" bgcolor="gray">GRAU</td>
 <td>neutral, formal, düster, bescheiden</td>
 </tr>
 </tbody>
 </table>
-<p>&nbsp;</p>
-<p>Schau dir dieses Video an um mehr über die Psychologie von Farben zu lernen:</p>
-<p>Farben auszuwählen, die die Persönlichkeit deiner Marke repräsentieren, ist ein wichtiger Teil des Designprozesses! Diese Aufgabe kann bei der scheinbar unendlich großen Auswahl an möglichen Farbkombinationen zuerst einschüchternd sein. Aber du weißt ja bereits wie die Persönlichkeit deiner Marke aussehen soll und jetzt weißt du auch welche Emotionen und Qualitäten Leute mit den verschiedenen Farben verbinden.</p>
-<h3><b>Aktivität: Wähle eine Farbe</b></h3>
-<p>Entscheide mit deinem Team welche Farben aus der oberen Grafik die Persönlichkeit deiner Marke am besten wiederspiegeln. Wenn Leute dein Produkt zum Beispiel als aufregend und neu wahrnehmen sollen könntest du orange wählen um deine Marke am besten darzustellen!</p>
-<h5>Farbschema</h5>
-<p>Jetzt hast du eine Farbe! Herzlichen Glückwunsch! Fange dennoch nicht direkt damit an dein komplettes Design zu planen. Farben kommen am besten rüber, wenn sie mit Freunden kombiniert werden! Aber genauso wie bei Menschen ist es <em>sehr wichtig</em> die richtigen Freunde zu wählen! Zum Glück haben wir ein paar Tipps die dir und deiner Farbe helfen können!</p>
-<p>Lass uns damit beginnen ein besseres Verständnis für das Zusammenspiel von Farben zu gewinnen. Du hast vielleicht schon mal einen Farbkreis gesehen, er sieht so aus:</p>
-<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/COLOR-WHEEL@4x-2-1024x1024.png" alt="color-wheel4x" width="429" height="429" /></p>
-<p>Dieser Farbkreis besteht aus 3 Reihen mit unterschiedlichen Farben:</p>
+&nbsp;
+
+Schau dir dieses Video an um mehr über die Psychologie von Farben zu lernen:
+
+https://www.youtube.com/watch?v=r9gYdD-REI0
+
+Farben auszuwählen, die die Persönlichkeit deiner Marke repräsentieren, ist ein wichtiger Teil des Designprozesses! Diese Aufgabe kann bei der scheinbar unendlich großen Auswahl an möglichen Farbkombinationen zuerst einschüchternd sein. Aber du weißt ja bereits wie die Persönlichkeit deiner Marke aussehen soll und jetzt weißt du auch welche Emotionen und Qualitäten Leute mit den verschiedenen Farben verbinden.
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 id="act1"><b>Aktivität: Wähle eine Farbe</b></h3>
+Entscheide mit deinem Team welche Farben aus der oberen Grafik die Persönlichkeit deiner Marke am besten wiederspiegeln. Wenn Leute dein Produkt zum Beispiel als aufregend und neu wahrnehmen sollen könntest du orange wählen um deine Marke am besten darzustellen!
+
+</div>
+<h3 id="colorschemes">Farbschema</h3>
+Jetzt hast du eine Farbe! Herzlichen Glückwunsch! Fange dennoch nicht direkt damit an dein komplettes Design zu planen. Farben kommen am besten rüber, wenn sie mit Freunden kombiniert werden! Aber genauso wie bei Menschen ist es <em>sehr wichtig</em> die richtigen Freunde zu wählen! Zum Glück haben wir ein paar Tipps die dir und deiner Farbe helfen können!
+
+Lass uns damit beginnen ein besseres Verständnis für das Zusammenspiel von Farben zu gewinnen. Du hast vielleicht schon mal einen Farbkreis gesehen, er sieht so aus:
+
+<img class="aligncenter" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/COLOR-WHEEL@4x-2-1024x1024.png" alt="color-wheel4x" width="429" height="429" /> Dieser Farbkreis besteht aus 3 Reihen mit unterschiedlichen Farben:
 <ul>
-<li><strong>Farben</strong> dies sind Farben wie rot, blau, grün, orange usw. Diese Farben findest du in der mittleren Reihe des Farbkreises.</li>
-<li><strong>Töne</strong> (Farben + weiß) findest du in der äußeren Reihe des Farbkreises.</li>
-<li><strong>Schattierungen</strong> (Farben + schwarz) findest du in der inneren Reihe des Farbkreises.</li>
+ 	<li><strong>Farben</strong> dies sind Farben wie <strong><span style="color: #ff0000;">rot</span>, <span style="color: #3366ff;">blau</span>, <span style="color: #339966;">grün</span>, <span style="color: #ff6600;">orange</span></strong> usw. Diese Farben findest du in der mittleren Reihe des Farbkreises.</li>
+ 	<li><strong>Töne</strong> (Farben + weiß) findest du in der äußeren Reihe des Farbkreises.</li>
+ 	<li><strong>Schattierungen</strong> (Farben + schwarz) findest du in der inneren Reihe des Farbkreises.</li>
 </ul>
-<p>Du hast zwar schon eine Farbe für deine Marke gewählt, musst aber noch entscheiden welche Variation der Farbe am geeignetsten ist—entweder es ist eine komplett <strong>gesättigte Farbe</strong> (keine Tönung oder Schattierung), ein Gemisch aus mehreren Farben (z.B. <strong>orange-rot</strong>) oder ein <strong>Farbton</strong> oder eine <strong>Schattierung</strong>!</p>
-<p>Die richtige Wahl der Farben kann die Qualitäten deiner Marke erst richtig zur Geltung bringen. Ein <strong>volles Orange</strong> kann zum Beispiel Spannung und Abenteuer widerspiegeln. Wenn dein Orange eher <strong>gelb-orange</strong> ist wird es ein heiteres und fröhliches Gefühl hervorrufen. Wenn du eine<strong> Schattierung der gelb-orange-Mischung</strong> wählst könnte alles trüb aussehen oder sogar Unbehagen hervorrufen! Ein<strong> hellerer Farbton der gleichen gelb-orangen Farbe</strong> sieht hingegen hell und luftig aus.</p>
-<p>Während du deine Entscheidung triffst ist es wichtig im Kopf zu behalten wie deine gewählte Farbe auf andere wirkt. Farben werden normalerweise mit einer Handvoll anderer Farben kombiniert, hier erfährst du die Grundlagen dazu:</p>
-<p><b>Kombination mit Komplementärfarben</b> Kombiniere eine Farbe mit der Farbe auf der anderen Seite des Farbkreises wie in dem unteren Beispiel. Dies sind die auffälligsten Farbkombinationen, insbesondere wenn beide Farben gesättigt sind. Wenn du diese Kombination zu häufig verwendest kann sie ermüdend sein, nutze sie um die Aufmerksamkeit auf wichtige Sachen zu lenken.<br />
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/comp@2x-1.png" alt="comp2x" width="50%" /></p>
-<p><b>Kombinationen mit Teil-Komplementärfarben </b>sind ähnlich zu Komplementärfarben, es wird jedoch eine der Farben durch die zwei benachbarten Farben ersetzt. Auf diese Weise ist deine Farbkombination nicht so ermüdend, aber immer noch kontrastreich.</p>
-<p style="text-align: center"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/slip-comp@2x.png" alt="slip-comp2x" width="50%" /></p>
-<p style="text-align: left"><b>Kombinationen ähnlicher Farben</b> bestehen aus auf dem Farbkreis benachbarten Farben. Diese Kombinationen vermitteln ein Gefühl der Gelassenheit und beruhigen. Wenn du jedoch diese Farbkombination verwendest musst du darauf aufpassen, dass noch genug Kontraste vorhanden sind, so dass die Texte in deiner App einfach zu lesen sind.</p>
-<p style="text-align: center"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/analogous@2x.png" alt="analogous2x" width="50%" /></p>
-<p style="text-align: left"><b>Kombinationen triadischer Farben</b> bestehen aus drei Farben die gleichmäßig auf dem Farbkreis verteilt sind. Selbst wenn du Farbtöne oder Schattierungen dieser Farben verwendest kann diese Farbkombination noch sehr kräftig und energiereich sein.</p>
-<p style="text-align: center"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/triadic@2x.png" alt="triadic2x" width="50%" /></p>
-<h3>Aktivität: Wähle ein Farbschema</h3>
-<p>Wähle mit deinen Teammitgliedern ein Farbschema. Nutzt die Farbe die ihr in der letzten Aktivität als Hauptfarbe identifiziert habt um alle weiteren Farben aus dem Farbkreis auszuwählen. Denkt daran, dass ihr verschiedene Farbtöne oder Schattierungen verwenden könnt. Ihr solltest auch darauf achten welche Bedeutungen die unterschiedlichen Farben haben und wie sie gemeinsam aussehen! Hier findet ihr ein Paar Hilfen, die euch die Farbauswahl vereinfachen können:</p>
+Du hast zwar schon eine Farbe für deine Marke gewählt, musst aber noch entscheiden welche Variation der Farbe am geeignetsten ist—entweder es ist eine komplett <span style="color: #ff5e00;"><strong>gesättigte Farbe</strong></span> (keine Tönung oder Schattierung), ein Gemisch aus mehreren Farben (z.B. <span style="color: #ff4400;"><strong>orange-rot</strong></span>) oder ein <span style="color: #f09c65;"><strong>Farbton</strong></span> oder eine <span style="color: #ab4705;"><strong>Schattierung</strong></span>!
+
+Die richtige Wahl der Farben kann die Qualitäten deiner Marke erst richtig zur Geltung bringen. Ein <span style="color: #ff5e00;"><strong>volles Orange</strong></span> kann zum Beispiel Spannung und Abenteuer widerspiegeln. Wenn dein Orange eher <span style="color: #ff9900;"><strong>gelb-orange</strong></span> ist wird es ein heiteres und fröhliches Gefühl hervorrufen. Wenn du eine<span style="color: #9c5f03;"><strong> Schattierung der gelb-orange-Mischung</strong> </span>wählst könnte alles trüb aussehen oder sogar Unbehagen hervorrufen! Ein<span style="color: #faaf3e;"><strong> hellerer Farbton der gleichen gelb-orangen Farbe</strong> </span>sieht hingegen hell und luftig aus.
+
+Während du deine Entscheidung triffst ist es wichtig im Kopf zu behalten wie deine gewählte Farbe auf andere wirkt. Farben werden normalerweise mit einer Handvoll anderer Farben kombiniert, hier erfährst du die Grundlagen dazu:
+
+<b>Kombination mit Komplementärfarben</b> Kombiniere eine Farbe mit der Farbe auf der anderen Seite des Farbkreises wie in dem unteren Beispiel. Dies sind die auffälligsten Farbkombinationen, insbesondere wenn beide Farben gesättigt sind. Wenn du diese Kombination zu häufig verwendest kann sie ermüdend sein, nutze sie um die Aufmerksamkeit auf wichtige Sachen zu lenken.
+<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/comp@2x-1.png" alt="comp2x" width="50%" />
+
+<b>Kombinationen mit Teil-Komplementärfarben </b>sind ähnlich zu Komplementärfarben, es wird jedoch eine der Farben durch die zwei benachbarten Farben ersetzt. Auf diese Weise ist deine Farbkombination nicht so ermüdend, aber immer noch kontrastreich.
+<p style="text-align: center;"><img class="aligncenter" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/slip-comp@2x.png" alt="slip-comp2x" width="50%" /></p>
+<p style="text-align: left;"><b>Kombinationen ähnlicher Farben</b> bestehen aus auf dem Farbkreis benachbarten Farben. Diese Kombinationen vermitteln ein Gefühl der Gelassenheit und beruhigen. Wenn du jedoch diese Farbkombination verwendest musst du darauf aufpassen, dass noch genug Kontraste vorhanden sind, so dass die Texte in deiner App einfach zu lesen sind.</p>
+<p style="text-align: center;"><img class="aligncenter" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/analogous@2x.png" alt="analogous2x" width="50%" /></p>
+<p style="text-align: left;"><b>Kombinationen triadischer Farben</b> bestehen aus drei Farben die gleichmäßig auf dem Farbkreis verteilt sind. Selbst wenn du Farbtöne oder Schattierungen dieser Farben verwendest kann diese Farbkombination noch sehr kräftig und energiereich sein.</p>
+<p style="text-align: center;"><img class="aligncenter" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/triadic@2x.png" alt="triadic2x" width="50%" /></p>
+
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 id="act2">Aktivität: Wähle ein Farbschema</h3>
+Wähle mit deinen Teammitgliedern ein Farbschema. Nutzt die Farbe die ihr in der letzten Aktivität als Hauptfarbe identifiziert habt um alle weiteren Farben aus dem Farbkreis auszuwählen. Denkt daran, dass ihr verschiedene Farbtöne oder Schattierungen verwenden könnt. Ihr solltest auch darauf achten welche Bedeutungen die unterschiedlichen Farben haben und wie sie gemeinsam aussehen! Hier findet ihr ein Paar Hilfen, die euch die Farbauswahl vereinfachen können:
 <ul>
-<li style="font-weight: 400"><a href="https://www.sessions.edu/color-calculator/" target="_blank" rel="noopener">Sessions color calculator</a></li>
-<li style="font-weight: 400"><a href="https://coolors.co/" target="_blank" rel="noopener">Coolors</a></li>
-<li style="font-weight: 400"><a href="http://www.palettable.io/FFFFFF" target="_blank" rel="noopener">Palattable</a></li>
+ 	<li style="font-weight: 400;"><a style="color: #eae46f;" href="https://www.sessions.edu/color-calculator/" target="_blank" rel="noopener">Sessions color calculator</a></li>
+ 	<li style="font-weight: 400;"><a style="color: #eae46f;" href="https://coolors.co/" target="_blank" rel="noopener">Coolors</a></li>
+ 	<li style="font-weight: 400;"><a style="color: #eae46f;" href="http://www.palettable.io/FFFFFF" target="_blank" rel="noopener">Palattable</a></li>
 </ul>
-<p>Macht euch keine Sorgen, wenn ihr eine Farbe auswählt die nicht im App Inventor verfügbar ist. Weiter unten werden wir euch erklären, wie ihr neue Farben hinzufügen könnt.</p>
-<p><em>Tipp:</em> Ihr kommt nicht weiter? Startet mit einem Foto! Findet oder nehmt ein Foto von etwas auf was eure Marke widerspiegelt. Es kann ein Ort, ein Objekt oder irgendetwas anderes sein! In diesem <a href="https://designschool.canva.com/blog/100-color-combinations/" target="_blank" rel="noopener">blog post</a> findet ihr schöne Beispiele!</p>
-<h3>Schriftarten</h3>
-<p>Schriftarten sind sehr wichtig, wenn ihr das Design eurer Marke festlegen wollt. Fast alle Beispiele die wir euch zeigen beziehen sich auf Schriftarten mit lateinischen Buchstaben (z.B. Schriften in Deutsch, Spanisch, Englisch, Französisch, usw.), natürlich könnt ihr die Grundlagen auch auf nicht-lateinische Sprachen anwenden (Arabisch, Hindi, Chinesisch, etc.).</p>
-<p>Genauso wie Farben kann eine Schriftart oder die Art und Weise wie ein Text aussieht dabei helfen eure Marke darzustellen. Jede Schriftart hat eine eigene Personalität und historische Bedeutung die Menschen erkennen und damit verbinden, selbst wenn sie sich dessen nicht bewusst sind! Du kannst zwischen Hunderten von verschiedenen Schriftarten wählen, deshalb ist es hilfreich mehr über sie zu erfahren bevor man eine Entscheidung trifft. Der nächste Abschnitt wird dir die Grundlagen über Schriftarten erklären und dir dabei helfen eine Schriftart auszuwählen! Kannst du den Unterschied zwischen den zwei Schriftarten hier erkennen?</p>
-<p><a href="https://fonts.google.com/specimen/Merriweather" target="_blank" rel="noopener"><img style="margin: 1%" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/Merriweather-Serif@2x.png" alt="merriweather-serif2x" width="50" /></a><br />
-<a href="https://fonts.google.com/specimen/PT+Serif" target="_blank" rel="noopener"><img style="margin: 1%" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/PT-Serif@2x.png" alt="pt-serif2x" width="58" height="67" /></a><br />
-<a href="https://typekit.com/fonts/ff-tisa" target="_blank" rel="noopener"><img style="margin: 1%" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/Tisa-Serif@2x.png" alt="tisa-serif2x" width="43" height="70" /></a></p>
-<p style="text-align: center"> Diese roten Markierungen an den Buchstaben werden <strong>Serife (serifs)</strong> genannt. Alle Schriftarten dieser Art werden <strong>Serifenschriften (serif fonts)</strong> genannt. Es ist ziemlich lustig sich diese kleinen Extras an den Buchstaben als kleine Füße vorzustellen!</p>
-<p><a href="https://fonts.google.com/specimen/Merriweather+Sans" target="_blank" rel="noopener"><img style="margin: 1%" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/Merriweather-Sans@2x.png" alt="merriweather-sans2x" width="40" /></a><br />
-<a href="https://fonts.google.com/specimen/PT+Sans" target="_blank" rel="noopener"><img style="margin: 1%" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/PT-Sans@2x.png" alt="pt-sans2x" width="46" height="67" /></a><br />
-<a href="https://typekit.com/fonts/ff-tisa-sans" target="_blank" rel="noopener"><img style="margin: 1%" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/Tisa-Sans@2x.png" alt="tisa-sans2x" width="44" /></a></p>
-<p style="text-align: center"> Schriftarten die keine Serife haben werden <strong>Serifenlose-Schriftarten (</strong><b>sans-serifs) </b>genannt.</p>
+Macht euch keine Sorgen, wenn ihr eine Farbe auswählt die nicht im App Inventor verfügbar ist. Weiter unten werden wir euch erklären, wie ihr neue Farben hinzufügen könnt.
+
+<em>Tipp:</em> Ihr kommt nicht weiter? Startet mit einem Foto! Findet oder nehmt ein Foto von etwas auf was eure Marke widerspiegelt. Es kann ein Ort, ein Objekt oder irgendetwas anderes sein! In diesem <a style="color: #eae46f;" href="https://designschool.canva.com/blog/100-color-combinations/" target="_blank" rel="noopener">blog post</a> findet ihr schöne Beispiele!
+
+</div>
+<h3 id="fonts">Schriftarten</h3>
+Schriftarten sind sehr wichtig, wenn ihr das Design eurer Marke festlegen wollt. Fast alle Beispiele die wir euch zeigen beziehen sich auf Schriftarten mit lateinischen Buchstaben (z.B. Schriften in Deutsch, Spanisch, Englisch, Französisch, usw.), natürlich könnt ihr die Grundlagen auch auf nicht-lateinische Sprachen anwenden (Arabisch, Hindi, Chinesisch, etc.).
+
+Genauso wie Farben kann eine Schriftart oder die Art und Weise wie ein Text aussieht dabei helfen eure Marke darzustellen. Jede Schriftart hat eine eigene Personalität und historische Bedeutung die Menschen erkennen und damit verbinden, selbst wenn sie sich dessen nicht bewusst sind! Du kannst zwischen Hunderten von verschiedenen Schriftarten wählen, deshalb ist es hilfreich mehr über sie zu erfahren bevor man eine Entscheidung trifft. Der nächste Abschnitt wird dir die Grundlagen über Schriftarten erklären und dir dabei helfen eine Schriftart auszuwählen! Kannst du den Unterschied zwischen den zwei Schriftarten hier erkennen?
+
+<a href="https://fonts.google.com/specimen/Merriweather" target="_blank" rel="noopener"><img style="margin: 1%;" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/Merriweather-Serif@2x.png" alt="merriweather-serif2x" width="50" /></a> <a href="https://fonts.google.com/specimen/PT+Serif" target="_blank" rel="noopener"><img style="margin: 1%;" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/PT-Serif@2x.png" alt="pt-serif2x" width="58" height="67" /></a><a href="https://typekit.com/fonts/ff-tisa" target="_blank" rel="noopener"><img class="alignnone" style="margin: 1%;" src="http:/www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/Tisa-Serif@2x.png" alt="tisa-serif2x" width="43" height="70" /></a>
+<p style="text-align: center;"> Diese roten Markierungen an den Buchstaben werden <strong>Serife (serifs)</strong> genannt. Alle Schriftarten dieser Art werden <strong>Serifenschriften (serif fonts)</strong> genannt. Es ist ziemlich lustig sich diese kleinen Extras an den Buchstaben als kleine Füße vorzustellen!</p>
+<a href="https://fonts.google.com/specimen/Merriweather+Sans" target="_blank" rel="noopener"><img style="margin: 1%;" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/Merriweather-Sans@2x.png" alt="merriweather-sans2x" width="40" /></a><a href="https://fonts.google.com/specimen/PT+Sans" target="_blank" rel="noopener"><img style="margin: 1%;" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/PT-Sans@2x.png" alt="pt-sans2x" width="46" height="67" /></a><a href="https://typekit.com/fonts/ff-tisa-sans" target="_blank" rel="noopener"><img style="margin: 1%;" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/Tisa-Sans@2x.png" alt="tisa-sans2x" width="44" /></a>
+<p style="text-align: center;"> Schriftarten die keine Serife haben werden <strong>Serifenlose-Schriftarten (</strong><b>sans-serifs) </b>genannt.</p>
+
 <h5>Serifenschriftarten</h5>
-<p>Die zusätzlichen Striche an den Buchstaben von Serifenschriften können sehr unterschiedlich aussehen. Manche Serifenschriftarten haben sehr kleine Füße, wie zum Beispiel<a href="https://www.prepressure.com/images/fonts_sample_times_new_roman_regular.png" target="_blank" rel="noopener"> Times New Roman</a>, und manche haben wirklich große Füße, <a href="http://www.creativebeacon.com/wp-content/uploads/2012/08/Screen-shot-2012-08-27-at-10.23.55-AM.png" target="_blank" rel="noopener">wie diese Schriftart</a>! Schau dir einfach mal die unterschiedlichen Schriftarten auf deinem Computer an. Findest du Schriftarten mit Serifen?</p>
-<p>Serifenschriftarten vermitteln ein historisches und oftmals autoritäres oder formales Gefühl. Dies hat einen guten Grund—die ersten gedruckten Buchstaben waren ähnlich zu Serifen, sie wurden <a href="https://www.sitepoint.com/the-blackletter-typeface-a-long-and-colored-history/" target="_blank" rel="noopener">blackletter</a> genannt! Wenn du dich für eine Serifenschriftart entscheidest kannst du davon ausgehen, dass sie ein Gefühl von Weisheit und Alter vermittelt. Natürlich gibt es auch Ausnahmen wie die Familie der <a href="https://fonts.google.com/?category=Serif&amp;query=slab" target="_blank" rel="noopener">slab-serifs</a> Schriftarten, welche erst vor kurzem entwickelt wurden und Ähnlichkeiten zu serifenlosen Schriftarten aufweisen</p>
+Die zusätzlichen Striche an den Buchstaben von Serifenschriften können sehr unterschiedlich aussehen. Manche Serifenschriftarten haben sehr kleine Füße, wie zum Beispiel<a href="https://www.prepressure.com/images/fonts_sample_times_new_roman_regular.png" target="_blank" rel="noopener"> Times New Roman</a>, und manche haben wirklich große Füße, <a href="http://www.creativebeacon.com/wp-content/uploads/2012/08/Screen-shot-2012-08-27-at-10.23.55-AM.png" target="_blank" rel="noopener">wie diese Schriftart</a>! Schau dir einfach mal die unterschiedlichen Schriftarten auf deinem Computer an. Findest du Schriftarten mit Serifen?
+
+Serifenschriftarten vermitteln ein historisches und oftmals autoritäres oder formales Gefühl. Dies hat einen guten Grund—die ersten gedruckten Buchstaben waren ähnlich zu Serifen, sie wurden <a href="https://www.sitepoint.com/the-blackletter-typeface-a-long-and-colored-history/" target="_blank" rel="noopener">blackletter</a> genannt! Wenn du dich für eine Serifenschriftart entscheidest kannst du davon ausgehen, dass sie ein Gefühl von Weisheit und Alter vermittelt. Natürlich gibt es auch Ausnahmen wie die Familie der <a href="https://fonts.google.com/?category=Serif&amp;query=slab" target="_blank" rel="noopener">slab-serifs</a> Schriftarten, welche erst vor kurzem entwickelt wurden und Ähnlichkeiten zu serifenlosen Schriftarten aufweisen
 <h5>Serifenlose Schriftarten</h5>
-<p>Serifenlose Schriftarten sind eine jüngere Art von Schriften. Sie repräsentieren eine neue Art des Denkens. Sie wurden entwickelt um die Ansprüche moderner Werbung zu erfüllen, sie sind trotz verschiedenster Größen und Abstände stets lesbar. Wahrscheinlich wirst du eine dieser Schriftarten für deine Marke wählen. Es gibt eine große Auswahl an serifenlosen Schriftarten. Schau doch mal auf deinem Computer welche du finden kannst!</p>
-<p style="text-align: left">Wenn du mehr über dieses Thema erfahren willst kannst du dich hier weiter informieren:</p>
-<p style="text-align: center">
+Serifenlose Schriftarten sind eine jüngere Art von Schriften. Sie repräsentieren eine neue Art des Denkens. Sie wurden entwickelt um die Ansprüche moderner Werbung zu erfüllen, sie sind trotz verschiedenster Größen und Abstände stets lesbar. Wahrscheinlich wirst du eine dieser Schriftarten für deine Marke wählen. Es gibt eine große Auswahl an serifenlosen Schriftarten. Schau doch mal auf deinem Computer welche du finden kannst!
+<p style="text-align: left;">Wenn du mehr über dieses Thema erfahren willst kannst du dich hier weiter informieren:</p>
+https://www.youtube.com/watch?v=wOgIkxAfJsk
 <ul>
-<li><a href="https://www.fonts.com/content/learning/fontology/level-1/type-anatomy/type-classifications" target="_blank" rel="noopener">Types of type</a></li>
-<li><a href="http://practicaltypography.com/font-recommendations.html" target="_blank" rel="noopener">Butterick's font recommendations</a></li>
+ 	<li><a href="https://www.fonts.com/content/learning/fontology/level-1/type-anatomy/type-classifications" target="_blank" rel="noopener">Types of type</a></li>
+ 	<li><a href="http://practicaltypography.com/font-recommendations.html" target="_blank" rel="noopener">Butterick's font recommendations</a></li>
 </ul>
-<h3>Aktivität: Wähle eine Schriftart</h3>
-<p>Mach dich bereit eine (oder auch zwei) Schriftarten auszuwählen! Wenn du diesen Schritten folgst wird dein Team die beste Schriftart für eure Marke finden.</p>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 id="act3">Aktivität: Wähle eine Schriftart</h3>
+Mach dich bereit eine (oder auch zwei) Schriftarten auszuwählen! Wenn du diesen Schritten folgst wird dein Team die beste Schriftart für eure Marke finden.
 <ol>
-<li style="font-weight: 400">Selbst wenn du keine Ahnung von Typographie hast kannst du eine Schriftart aussuchen die deine Marke widerspiegelt. Ein guter Weg die richtige Schriftart zu finden ist verschiedene Schriftarten an einem Wort oder einem Ausdruck auszuprobieren und zu schauen wie sie sich "anhört". Beispielsweise kann eine dicke Schriftart wie <a href="http://ufonts.com/fonts/impact.html" target="_blank" rel="noopener">Impact</a> mit Buchstaben die weit voneinander entfernt sind einem wie eine laute Stimme oder gar ein Schrei vorkommen! Eine dünne und zarte Schriftart wie <a href="https://fonts.google.com/specimen/Syncopate" target="_blank" rel="noopener">Syncopate</a> erscheint hingegen eher wie ein Flüstern. Sucht ein paar Schriftarten die eurer Meinung nach zu eurer Marke passen. Versucht euch dabei nicht von euren persönlichen Favoriten leiten zu lassen.</li>
-<li style="font-weight: 400">Lass uns testen ob deine gewählten Schriftarten gut lesbar sind. Test die Schriftarten mit verschiedenen Wörtern in unterschiedlichen Schriftgrößen und überprüfe ob sie lesbar sind. Sind welche von ihnen schwer zu entziffern aus einiger Entfernung? Diese Schriftarten kannst du schon mal ausschließen. Such die Schriftart, die am besten für deine App funktioniert. Diese Schriftart wird deine Anzeigen-Schriftart (<a href="https://www.fonts.com/content/learning/fontology/level-1/type-anatomy/text-v-display" target="_blank" rel="noopener">display</a> font), die du für Überschriften und/oder das Logo verwendest.</li>
-<li style="font-weight: 400">Als nächstes müsst ihr nach einer Schriftart suchen die gut lesbar ist, wenn ihr längere Texte in eurer App darstellt. Die Auswahl einer Schrift für Texte ist ebenfalls entscheidend für euer Design, da Schriftarten genauso wie Farben nicht zusammen passen können. Hier ein paar Tipps dazu:
+ 	<li style="font-weight: 400;">Selbst wenn du keine Ahnung von Typographie hast kannst du eine Schriftart aussuchen die deine Marke widerspiegelt. Ein guter Weg die richtige Schriftart zu finden ist verschiedene Schriftarten an einem Wort oder einem Ausdruck auszuprobieren und zu schauen wie sie sich "anhört". Beispielsweise kann eine dicke Schriftart wie <a style="color: #eae46f;" href="http://ufonts.com/fonts/impact.html" target="_blank" rel="noopener">Impact</a> mit Buchstaben die weit voneinander entfernt sind einem wie eine laute Stimme oder gar ein Schrei vorkommen! Eine dünne und zarte Schriftart wie <a style="color: #eae46f;" href="https://fonts.google.com/specimen/Syncopate" target="_blank" rel="noopener">Syncopate</a> erscheint hingegen eher wie ein Flüstern. Sucht ein paar Schriftarten die eurer Meinung nach zu eurer Marke passen. Versucht euch dabei nicht von euren persönlichen Favoriten leiten zu lassen.</li>
+ 	<li style="font-weight: 400;">Lass uns testen ob deine gewählten Schriftarten gut lesbar sind. Test die Schriftarten mit verschiedenen Wörtern in unterschiedlichen Schriftgrößen und überprüfe ob sie lesbar sind. Sind welche von ihnen schwer zu entziffern aus einiger Entfernung? Diese Schriftarten kannst du schon mal ausschließen. Such die Schriftart, die am besten für deine App funktioniert. Diese Schriftart wird deine Anzeigen-Schriftart (<a style="color: #eae46f;" href="https://www.fonts.com/content/learning/fontology/level-1/type-anatomy/text-v-display" target="_blank" rel="noopener">display</a> font), die du für Überschriften und/oder das Logo verwendest.</li>
+ 	<li style="font-weight: 400;">Als nächstes müsst ihr nach einer Schriftart suchen die gut lesbar ist, wenn ihr längere Texte in eurer App darstellt. Die Auswahl einer Schrift für Texte ist ebenfalls entscheidend für euer Design, da Schriftarten genauso wie Farben nicht zusammen passen können. Hier ein paar Tipps dazu:
 <ol>
-<li style="font-weight: 400">Serifenschriftarten können häufig mit serifenfreien Schriftarten kombiniert werden. Stellt euch diese wie komplementäre Farben vor—Unterschiede ziehen sich an!</li>
-<li style="font-weight: 400">Kontraste sind gut! Vermeidet zu ähnliche Schriftarten zu kombinieren.</li>
-<li style="font-weight: 400">Stellt euch die "Stimme" vor in der die Schrift des Textes zu euch spricht. Ergänzt sie eure Marke und die Anzeigen-Schriftart?</li>
-<li style="font-weight: 400">Denkt an die <a href="https://www.fonts.com/content/learning/fontology/level-1/type-anatomy/x-height" target="_blank" rel="noopener">Lesbarkeit</a>. Texte müssen auch lesbar sein, wenn die Schrift sehr klein ist. Testet die Lesbarkeit genauso wie ihr es auch für die Überschriften gemacht habt.</li>
-<li style="font-weight: 400">Testet nun eure Schriftart in Kombination mit der Anzeigen-Schriftart, so wie es in deiner App später aussehen wird.</li>
-<li style="font-weight: 400"><a href="#apply">Schaut euch</a> auch die Schriftarten an die App Inventor enthält! Wenn eine dieser Schriftarten für dich in Frage kommt kannst du dir viel Programmierarbeit sparen!</li>
+ 	<li style="font-weight: 400;">Serifenschriftarten können häufig mit serifenfreien Schriftarten kombiniert werden. Stellt euch diese wie komplementäre Farben vor—Unterschiede ziehen sich an!</li>
+ 	<li style="font-weight: 400;">Kontraste sind gut! Vermeidet zu ähnliche Schriftarten zu kombinieren.</li>
+ 	<li style="font-weight: 400;">Stellt euch die "Stimme" vor in der die Schrift des Textes zu euch spricht. Ergänzt sie eure Marke und die Anzeigen-Schriftart?</li>
+ 	<li style="font-weight: 400;">Denkt an die <a style="color: #eae46f;" href="https://www.fonts.com/content/learning/fontology/level-1/type-anatomy/x-height" target="_blank" rel="noopener">Lesbarkeit</a>. Texte müssen auch lesbar sein, wenn die Schrift sehr klein ist. Testet die Lesbarkeit genauso wie ihr es auch für die Überschriften gemacht habt.</li>
+ 	<li style="font-weight: 400;">Testet nun eure Schriftart in Kombination mit der Anzeigen-Schriftart, so wie es in deiner App später aussehen wird.</li>
+ 	<li style="font-weight: 400;"><a style="color: #eae46f;" href="#apply">Schaut euch</a> auch die Schriftarten an die App Inventor enthält! Wenn eine dieser Schriftarten für dich in Frage kommt kannst du dir viel Programmierarbeit sparen!</li>
 </ol>
 </li>
 </ol>
-<p>Brauchst du Hilfe? Hier findest du gute Ratschläge:</p>
+Brauchst du Hilfe? Hier findest du gute Ratschläge:
 <ul>
-<li style="font-weight: 400"><a href="https://www.canva.com/font-combinations/" target="_blank" rel="noopener">Canva Font Combinations</a> ein einfacher Weg Schriftkombinationen zu testen</li>
-<li style="font-weight: 400"><a href="https://fonts.google.com/" target="_blank" rel="noopener">Google Fonts</a> bietet dir hunderte von gratis Schriftarten! Wir raten dir die Google Schriftarten zu nutzen, da sie umsonst und überall verfügbar sind. Andere Schriftarten unterliegen vielleicht dem Urheberrecht.</li>
-<li style="font-weight: 400"><a href="http://practicaltypography.com/" target="_blank" rel="noopener">Butterick's Practical Typography</a> liefert dir viele typographische Informationen und Tipps</li>
-<li style="font-weight: 400"><a href="http://thinkingwithtype.com/" target="_blank" rel="noopener">Thinking with Type</a> ist ein weiteres digitales Buch über alles, was mit Typographie zu tun hat</li>
+ 	<li style="font-weight: 400;"><a style="color: #eae46f;" href="https://www.canva.com/font-combinations/" target="_blank" rel="noopener">Canva Font Combinations</a> ein einfacher Weg Schriftkombinationen zu testen</li>
+ 	<li style="font-weight: 400;"><a style="color: #eae46f;" href="https://fonts.google.com/" target="_blank" rel="noopener">Google Fonts</a> bietet dir hunderte von gratis Schriftarten! Wir raten dir die Google Schriftarten zu nutzen, da sie umsonst und überall verfügbar sind. Andere Schriftarten unterliegen vielleicht dem Urheberrecht.</li>
+ 	<li style="font-weight: 400;"><a style="color: #eae46f;" href="http://practicaltypography.com/" target="_blank" rel="noopener">Butterick's Practical Typography</a> liefert dir viele typographische Informationen und Tipps</li>
+ 	<li style="font-weight: 400;"><a style="color: #eae46f;" href="http://thinkingwithtype.com/" target="_blank" rel="noopener">Thinking with Type</a> ist ein weiteres digitales Buch über alles, was mit Typographie zu tun hat</li>
 </ul>
-<p>Sobald du dich für eine oder zwei Schriftarten entschieden hast, musst du sie vielleicht noch installieren. Schau dir dieses Video an um zu erfahren wie du sie auf  <a href="https://www.youtube.com/watch?v=rnFfbk8J940" target="_blank" rel="noopener">Windows 10</a> oder <a href="https://www.youtube.com/watch?v=vY0wJzWyxRI" target="_blank" rel="noopener">Mac OS X</a> installierst.</p>
-<h3>Logos</h3>
-<p>Nachdem du jetzt bereits die Farben und die Schriften für deine Marke gewählt hast ist es an der Zeit ein Logo zu erstellen! Ein Logo ist ein Symbol, das dein Unternehmen repräsentiert. Das Ziel eines Logos ist es die Ziele, den Nutzen und die Personalität deines Unternehmens durch einen einfachen Mix aus Worten und Zeichen darzustellen. Es klingt zwar nach harter Arbeit, aber lass uns mit kleinen Schritten starten. Hier sind die typischen Arten von Logos:</p>
-<p>&nbsp;</p>
+Sobald du dich für eine oder zwei Schriftarten entschieden hast, musst du sie vielleicht noch installieren. Schau dir dieses Video an um zu erfahren wie du sie auf  <a style="color: #eae46f;" href="https://www.youtube.com/watch?v=rnFfbk8J940" target="_blank" rel="noopener">Windows 10</a> oder <a style="color: #eae46f;" href="https://www.youtube.com/watch?v=vY0wJzWyxRI" target="_blank" rel="noopener">Mac OS X</a> installierst.
+
+</div>
+<h3 id="logo">Logos</h3>
+Nachdem du jetzt bereits die Farben und die Schriften für deine Marke gewählt hast ist es an der Zeit ein Logo zu erstellen! Ein Logo ist ein Symbol, das dein Unternehmen repräsentiert. Das Ziel eines Logos ist es die Ziele, den Nutzen und die Personalität deines Unternehmens durch einen einfachen Mix aus Worten und Zeichen darzustellen. Es klingt zwar nach harter Arbeit, aber lass uns mit kleinen Schritten starten. Hier sind die typischen Arten von Logos:
+
+&nbsp;
 <table>
 <tbody>
 <tr>
-<td style="color: white" bgcolor="#53042d"><b>Typ</b></td>
-<td style="color: white" bgcolor="#53042d"><b>Beispiel</b></td>
-<td style="color: white" bgcolor="#53042d"><b>Technovation Team Beispiel</b></td>
+<td style="color: white;" bgcolor="#53042d"><b>Typ</b></td>
+<td style="color: white;" bgcolor="#53042d"><b>Beispiel</b></td>
+<td style="color: white;" bgcolor="#53042d"><b>Technovation Team Beispiel</b></td>
 </tr>
 <tr>
-<td style="color: white;vertical-align: middle" bgcolor="#903d54"><b>Wordmarke (Word Mark)</b></td>
-<td style="vertical-align: middle"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image13.png" alt="facebook" width="234" height="187" /></td>
-<td style="text-align: center;vertical-align: middle"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image08-1.png" alt="image08" width="92" height="97" />Loc8 don8 von Team California Coders 2016</td>
+<td style="color: white; vertical-align: middle;" bgcolor="#903d54"><b>Wordmarke (Word Mark)</b></td>
+<td style="vertical-align: middle;"><img class="aligncenter" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image13.png" alt="facebook" width="234" height="187" /></td>
+<td style="text-align: center; vertical-align: middle;"><img class="aligncenter" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image08-1.png" alt="image08" width="92" height="97" />Loc8 don8 von Team California Coders 2016</td>
 </tr>
 <tr>
-<td style="color: white;vertical-align: middle" bgcolor="#903d54"><b>Symbol oder Icon</b></td>
-<td style="vertical-align: middle"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/Artboard-1@2x.png" alt="artboard-12x" width="106" height="124" /></td>
-<td style="text-align: center;vertical-align: middle"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image12.png" alt="image12" width="136" height="105" />Degreebee App von Team CRException 2016</td>
+<td style="color: white; vertical-align: middle;" bgcolor="#903d54"><b>Symbol oder Icon</b></td>
+<td style="vertical-align: middle;"><img class="aligncenter" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/Artboard-1@2x.png" alt="artboard-12x" width="106" height="124" /></td>
+<td style="text-align: center; vertical-align: middle;"><img class="aligncenter" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image12.png" alt="image12" width="136" height="105" />Degreebee App von Team CRException 2016</td>
 </tr>
 <tr>
-<td style="color: white;vertical-align: middle" bgcolor="#903d54"><b>Kombination</b></td>
-<td style="text-align: center;vertical-align: middle"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image04-1.png" alt="image04" width="135" height="112" /></td>
-<td style="text-align: center"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image07-1.png" alt="image07" width="152" height="155" />cAppAble von Team X-Women in 2015</td>
+<td style="color: white; vertical-align: middle;" bgcolor="#903d54"><b>Kombination</b></td>
+<td style="text-align: center; vertical-align: middle;"><img class="aligncenter" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image04-1.png" alt="image04" width="135" height="112" /></td>
+<td style="text-align: center;"><img class="aligncenter" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image07-1.png" alt="image07" width="152" height="155" />cAppAble von Team X-Women in 2015</td>
 </tr>
 </tbody>
 </table>
-<p>&nbsp;</p>
-<p style="text-align: left">Schau dir die oberen Beispiele an und überlege selber einmal welche weiteren Beispiele dir einfallen. Welche eignen sich am besten als Profilbild für soziale Medien? Welche sehen am besten auf einem Poster aus? Welche sind sofort wiedererkennbar? Warum glaubst du sind diese Logos so erfolgreich (oder auch nicht)?</p>
-<h3>Aktivität: Überlegt euch ein Logo</h3>
-<p>Für diese Aktivität benötigt jedes Teammitglied mehrere Blätter Papier oder Karteikarten.</p>
+&nbsp;
+<p style="text-align: left;">Schau dir die oberen Beispiele an und überlege selber einmal welche weiteren Beispiele dir einfallen. Welche eignen sich am besten als Profilbild für soziale Medien? Welche sehen am besten auf einem Poster aus? Welche sind sofort wiedererkennbar? Warum glaubst du sind diese Logos so erfolgreich (oder auch nicht)?</p>
+
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 id="act4">Aktivität: Überlegt euch ein Logo</h3>
+Für diese Aktivität benötigt jedes Teammitglied mehrere Blätter Papier oder Karteikarten.
 <ol>
-<li style="font-weight: 400">Überlegt euch mehrere Bilder die das Problem, das ihr lösen wollt, repräsentieren. Berücksichtigt dabei auch welche Leute betroffen sind oder welche Umweltprobleme ihr ansprecht und wie euer Lösungsvorschlag aussieht. Sucht nach Bildern im Internet, in Büchern, Magazinen und was euch sonst noch zur Verfügung steht!</li>
-<li style="font-weight: 400">Nehmt euch 15 Minuten um Skizzen von den möglichen Logos zu machen. Das Logo sollte einem der oben genannten Typen entsprechen (Wordmarke, Icon oder Kombination). Versucht eure Skizzen schnell anzufertigen, macht keine langen Pausen um über das Design nachzudenken. Malt einfach drauf los und schaut was dabei herauskommt!</li>
-<li style="font-weight: 400">Nach 15 Minuten sollte jedes Teammitglied mehrere Skizzen angefertigt haben. Falls nicht, wiederholt Schritt 1.</li>
+ 	<li style="font-weight: 400;">Überlegt euch mehrere Bilder die das Problem, das ihr lösen wollt, repräsentieren. Berücksichtigt dabei auch welche Leute betroffen sind oder welche Umweltprobleme ihr ansprecht und wie euer Lösungsvorschlag aussieht. Sucht nach Bildern im Internet, in Büchern, Magazinen und was euch sonst noch zur Verfügung steht!</li>
+ 	<li style="font-weight: 400;">Nehmt euch 15 Minuten um Skizzen von den möglichen Logos zu machen. Das Logo sollte einem der oben genannten Typen entsprechen (Wordmarke, Icon oder Kombination). Versucht eure Skizzen schnell anzufertigen, macht keine langen Pausen um über das Design nachzudenken. Malt einfach drauf los und schaut was dabei herauskommt!</li>
+ 	<li style="font-weight: 400;">Nach 15 Minuten sollte jedes Teammitglied mehrere Skizzen angefertigt haben. Falls nicht, wiederholt Schritt 1.</li>
 </ol>
 <ul>
-<li style="list-style-type: none">
+ 	<li style="list-style-type: none;">
 <ul>
-<li style="font-weight: 400">Schaut euch gemeinsam die Skizzen an. Wählt gemeinsam eine Handvoll Skizzen aus die vielversprechend sind oder die gewissen Qualitäten haben und ggf. Kombiniert werden können. Diskutiert eure Skizzen und fertigt 5 weitere Logoentwürfe an, dieses Mal jedoch genauer. Denkt auch daran wie ihr euer Logo einsetzen wollt: haltet es einfach. Auf diese Weise ist es auch erkennbar, wenn es klein ist.</li>
-<li style="font-weight: 400">Denkt darüber nach wie euer Logo in der App aussieht und wo ihr es platzieren wollt.</li>
-<li style="font-weight: 400">Logos drücken die Identität eures Unternehmens aus, denkt also darüber nach was euer Unternehmen ausmacht.</li>
-<li style="font-weight: 400">Fragt euch selbst was Leute denken sollen, wenn sie euer Logo sehen.</li>
+ 	<li style="font-weight: 400;">Schaut euch gemeinsam die Skizzen an. Wählt gemeinsam eine Handvoll Skizzen aus die vielversprechend sind oder die gewissen Qualitäten haben und ggf. Kombiniert werden können. Diskutiert eure Skizzen und fertigt 5 weitere Logoentwürfe an, dieses Mal jedoch genauer. Denkt auch daran wie ihr euer Logo einsetzen wollt: haltet es einfach. Auf diese Weise ist es auch erkennbar, wenn es klein ist.</li>
+ 	<li style="font-weight: 400;">Denkt darüber nach wie euer Logo in der App aussieht und wo ihr es platzieren wollt.</li>
+ 	<li style="font-weight: 400;">Logos drücken die Identität eures Unternehmens aus, denkt also darüber nach was euer Unternehmen ausmacht.</li>
+ 	<li style="font-weight: 400;">Fragt euch selbst was Leute denken sollen, wenn sie euer Logo sehen.</li>
 </ul>
 </li>
-<li style="font-weight: 400">Versucht ein oder mehrere Logos auf eurem Computer zu designen. Ihr könnt dieses gratis <a href="https://logo.squarespace.com/" target="_blank" rel="noopener">Logo Design Tool</a> dafür verwenden!</li>
+ 	<li style="font-weight: 400;">Versucht ein oder mehrere Logos auf eurem Computer zu designen. Ihr könnt dieses gratis <a style="color: #eae46f;" href="https://logo.squarespace.com/" target="_blank" rel="noopener">Logo Design Tool</a> dafür verwenden!</li>
 </ul>
-<p>Sobald ihr fertig seid, schickt euer Logo, euer Farbschema und eure Schriftarten an euren Mentor!!</p>
-<h3>Anwendung in deiner App</h3>
-<p>Inzwischen hast du bereits ein Farbschema, die Schriftarten und ein Logo ausgewählt. Jetzt ist es Zeit diese auch in deiner App anzuwenden! Platziere dein Logo an verschiedenen Stellen in deiner App und entscheide, was am besten wirkt.</p>
+Sobald ihr fertig seid, schickt euer Logo, euer Farbschema und eure Schriftarten an euren Mentor!!
+
+</div>
+<h3 id="apply">Anwendung in deiner App</h3>
+Inzwischen hast du bereits ein Farbschema, die Schriftarten und ein Logo ausgewählt. Jetzt ist es Zeit diese auch in deiner App anzuwenden! Platziere dein Logo an verschiedenen Stellen in deiner App und entscheide, was am besten wirkt.
 <h5>Tipps um Farben zum App Inventor hinzuzufügen</h5>
-<p>Mach dir keine Sorgen, wenn deine ausgewählten Farben nicht im App Inventor verfügbar sind. Hier findest du eine Anleitung, wie du neue Farben im App Inventor hinzufügen kannst: <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/colors.html" target="_blank" rel="noopener">Erstelle eigene Farben im App Inventor</a>. Um neue Farben im App Inventor hinzuzufügen musst du die RGB Werte deiner Farbe kennen. Vielleicht kennst du diese Werte schon aus den vorherigen Abschnitten, falls nicht kannst du die RGB Werte hier bestimmen: <a href="http://www.rapidtables.com/web/color/RGB_Color.htm" target="_blank" rel="noopener">RGB Farben Finder</a>.</p>
-<p>Es ist hilfreich deine Farben als Variablen zu speichern, so dass du sie immer wieder in der App verwenden kannst. Hier ist ein Beispiel wie du das machst!</p>
-<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/Screen-Shot-2016-11-09-at-4.27.53-PM.png" alt="screen-shot-2016-11-09-at-4-27-53-pm" width="538" height="283" /></p>
-<p>Du kannst auch Farben dem App Inventor hinzuzufügen indem du dir die <a href="http://appinventor.mit.edu/explore/app-inventor-color-chart.html" target="&quot;_blank">Farben Liste</a> anschaust, hier findest du die Codes einiger Farben. Wir haben den Farbcode -8388652 verwendet um einen Butten in <strong>aquamarin</strong> darzustellen:</p>
-<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image10-1.png" alt="color list blocks" width="537" height="94" /></p>
-<p>So sieht unser Button nachher aus:</p>
-<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image18.png" alt="image18" width="108" height="56" /></p>
+Mach dir keine Sorgen, wenn deine ausgewählten Farben nicht im App Inventor verfügbar sind. Hier findest du eine Anleitung, wie du neue Farben im App Inventor hinzufügen kannst: <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/colors.html" target="_blank" rel="noopener">Erstelle eigene Farben im App Inventor</a>. Um neue Farben im App Inventor hinzuzufügen musst du die RGB Werte deiner Farbe kennen. Vielleicht kennst du diese Werte schon aus den vorherigen Abschnitten, falls nicht kannst du die RGB Werte hier bestimmen: <a href="http://www.rapidtables.com/web/color/RGB_Color.htm" target="_blank" rel="noopener">RGB Farben Finder</a>.
+
+Es ist hilfreich deine Farben als Variablen zu speichern, so dass du sie immer wieder in der App verwenden kannst. Hier ist ein Beispiel wie du das machst!
+
+<img class="aligncenter" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/Screen-Shot-2016-11-09-at-4.27.53-PM.png" alt="screen-shot-2016-11-09-at-4-27-53-pm" width="538" height="283" />
+
+Du kannst auch Farben dem App Inventor hinzuzufügen indem du dir die <a href="http://appinventor.mit.edu/explore/app-inventor-color-chart.html" target="&quot;_blank">Farben Liste</a> anschaust, hier findest du die Codes einiger Farben. Wir haben den Farbcode -8388652 verwendet um einen Butten in <strong>aquamarin</strong> darzustellen:
+
+<img class="aligncenter" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image10-1.png" alt="color list blocks" width="537" height="94" />
+
+So sieht unser Button nachher aus:
+
+<img class="aligncenter" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image18.png" alt="image18" width="108" height="56" />
 <h5>Tipps um Schriftarten im App Inventor hinzuzufügen</h5>
-<p>Es kann schwieriger sein Schriftarten im App Inventor hinzuzufügen. Bisher hast du im App Inventor die Wahl zwischen drei Schriftarten, einer Serifenschrift, einer serifenfreien Schrift und einer proportionalen Schriftart. Wenn du die Einstellung der Schriftart auf 'default’ lässt, wird eine serifenfreie Schriftart ausgewählt. Ein einfacher Weg eine eigene Schriftart zu nutzen ist ein Bild des Textes in der Schriftart, die du willst, hochzuladen. Dies funktioniert am besten bei Überschriften und Titeln.</p>
-<p>Wenn du viel kleinen Text hast ist es einfacher eine der in App Inventor vorhandenen Schriften zu nutzen. Wenn dies bei dir der Fall ist teste einfach aus, welche der App Inventor Schriftarten am besten zu deinen Überschriften und deinem Logo passt!</p>
-<p>Wir haben zum Beispiel ein Bildschirmfoto von der "Headline" in unserer Schriftart (<a href="https://store.typenetwork.com/foundry/fontbureau/fonts/eagle" target="“_blank”">Eagle Book</a>) gemacht, es hochgeladen und neben unser Logo gesetzt. Wir haben die Länge, die Breite und die Position des Textes so lange verändert bis es so aussah wie wir uns es vorgestellt hatten. Anschließend haben wir die integrierte Serifenschrift verwendet.</p>
-<p><em>Tipp:</em> Um etwas mehr Platz zwischen dem Logo und dem Titel zu bekommen haben wir ein leeres Label am oberen Bildschirmrand hinzugefügt und die Größe dessen Textes variiert bis die Lücke groß genug war.</p>
-<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image05-heading_0000_Heading.png" alt="image05-heading_0000_heading" width="223" height="65" /></p>
-<p style="text-align: center">↑ Dieser Text ist ein Bild,<br />
+Es kann schwieriger sein Schriftarten im App Inventor hinzuzufügen. Bisher hast du im App Inventor die Wahl zwischen drei Schriftarten, einer Serifenschrift, einer serifenfreien Schrift und einer proportionalen Schriftart. Wenn du die Einstellung der Schriftart auf 'default’ lässt, wird eine serifenfreie Schriftart ausgewählt. Ein einfacher Weg eine eigene Schriftart zu nutzen ist ein Bild des Textes in der Schriftart, die du willst, hochzuladen. Dies funktioniert am besten bei Überschriften und Titeln.
+
+Wenn du viel kleinen Text hast ist es einfacher eine der in App Inventor vorhandenen Schriften zu nutzen. Wenn dies bei dir der Fall ist teste einfach aus, welche der App Inventor Schriftarten am besten zu deinen Überschriften und deinem Logo passt!
+
+Wir haben zum Beispiel ein Bildschirmfoto von der "Headline" in unserer Schriftart (<a href="https://store.typenetwork.com/foundry/fontbureau/fonts/eagle" target="“_blank”">Eagle Book</a>) gemacht, es hochgeladen und neben unser Logo gesetzt. Wir haben die Länge, die Breite und die Position des Textes so lange verändert bis es so aussah wie wir uns es vorgestellt hatten. Anschließend haben wir die integrierte Serifenschrift verwendet.
+
+<em>Tipp:</em> Um etwas mehr Platz zwischen dem Logo und dem Titel zu bekommen haben wir ein leeres Label am oberen Bildschirmrand hinzugefügt und die Größe dessen Textes variiert bis die Lücke groß genug war.
+
+<img class="aligncenter" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image05-heading_0000_Heading.png" alt="image05-heading_0000_heading" width="223" height="65" />
+<p style="text-align: center;">↑ Dieser Text ist ein Bild,
 das wir in der App positioniert haben ↓</p>
-<p style="text-align: center"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image05-edit.png" alt="image05-edit" width="337" height="600" /></p>
-<h3>Reflexion</h3>
-<p>Herzlichen Glückwunsch zu dem neuen Aussehen deiner Marke! Das Aussehen beeinflusst stark was Leute über deine App denken, wenn sie sie sehen! Bearbeite nun noch die letzte Aktivität hier bevor du mit der nächsten Einheit weitermachst!</p>
-<p>Zeigt das Design eurer App Leuten, die weder in eurem Team, noch euer Mentor sind. Fragt sie woran sie denken, wenn sie euer Logo, die Schriftarten und das Farbschema sehen. Passt ihre Antwort zu eurer Marke? Falls nicht, was könnt ihr ändern damit das Design besser die Ziele eures Unternehmens darstellt?</p>
-<p><b>Weitere Quellen:</b></p>
+<p style="text-align: center;"><img class="aligncenter" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image05-edit.png" alt="image05-edit" width="337" height="600" /></p>
+
+<div style="background-color: #006667; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 id="reflect">Reflexion</h3>
+Herzlichen Glückwunsch zu dem neuen Aussehen deiner Marke! Das Aussehen beeinflusst stark was Leute über deine App denken, wenn sie sie sehen! Bearbeite nun noch die letzte Aktivität hier bevor du mit der nächsten Einheit weitermachst!
+
+Zeigt das Design eurer App Leuten, die weder in eurem Team, noch euer Mentor sind. Fragt sie woran sie denken, wenn sie euer Logo, die Schriftarten und das Farbschema sehen. Passt ihre Antwort zu eurer Marke? Falls nicht, was könnt ihr ändern damit das Design besser die Ziele eures Unternehmens darstellt?
+
+<b>Weitere Quellen:</b>
 <ul>
-<li style="font-weight: 400"><a href="https://designschool.canva.com/tutorials/building-brand-kit/" target="_blank" rel="noopener">Canva Branding Kit Tutorial</a></li>
-<li style="font-weight: 400"><a href="http://www.awwwards.com/99-creative-logo-designs-for-inspiration.html" target="_blank" rel="noopener">Inspiration für Logos</a>
+ 	<li style="font-weight: 400;"><a style="color: #eae46f;" href="https://designschool.canva.com/tutorials/building-brand-kit/" target="_blank" rel="noopener">Canva Branding Kit Tutorial</a></li>
+ 	<li style="font-weight: 400;"><a style="color: #eae46f;" href="http://www.awwwards.com/99-creative-logo-designs-for-inspiration.html" target="_blank" rel="noopener">Inspiration für Logos</a>
 <ul>
-<li style="font-weight: 400"><a href="https://dribbble.com/search?q=logo" target="_blank" rel="noopener">Dribbble, Suchergebnisse für “Logo”</a></li>
-<li style="font-weight: 400"><a href="https://www.behance.net/search?content=projects&amp;sort=appreciations&amp;time=week&amp;search=logo" target="_blank" rel="noopener">Behance, Suchergebnisse für “Logo”</a></li>
-<li style="font-weight: 400"><a href="http://qz.com/461040/how-to-design-an-enduring-logo-lessons-from-ibm-and-paul-rand/" target="_blank" rel="noopener">Erfahre mehr Über die Geschichte des IBM Logos</a></li>
-<li style="font-weight: 400"><a href="https://www.youtube.com/watch?v=x3jTSB2ez-g" target="_blank" rel="noopener">Erfahre mehr über die Entstehung und die Geschichte des Logodesigns</a></li>
+ 	<li style="font-weight: 400;"><a style="color: #eae46f;" href="https://dribbble.com/search?q=logo" target="_blank" rel="noopener">Dribbble, Suchergebnisse für “Logo”</a></li>
+ 	<li style="font-weight: 400;"><a style="color: #eae46f;" href="https://www.behance.net/search?content=projects&amp;sort=appreciations&amp;time=week&amp;search=logo" target="_blank" rel="noopener">Behance, Suchergebnisse für “Logo”</a></li>
+ 	<li style="font-weight: 400;"><a style="color: #eae46f;" href="http://qz.com/461040/how-to-design-an-enduring-logo-lessons-from-ibm-and-paul-rand/" target="_blank" rel="noopener">Erfahre mehr Über die Geschichte des IBM Logos</a></li>
+ 	<li style="font-weight: 400;"><a style="color: #eae46f;" href="https://www.youtube.com/watch?v=x3jTSB2ez-g" target="_blank" rel="noopener">Erfahre mehr über die Entstehung und die Geschichte des Logodesigns</a></li>
 </ul>
 </li>
 </ul>
-<h3>Bonus Abschnitt</h3>
+</div>
+<h3 id="bonus">Bonus Abschnitt</h3>
 <h5>Farben für Programmierer</h5>
-<p>Wenn dir jemand sagt, dass eine Farbe ein "helles blau grün" ist, weißt du wahrscheinlich wovon er spricht. Computer verstehen Farben jedoch nicht auf diese Weise, sie benötigen den sogenannten RGB Wert um zu wissen welche Farbe gemeint ist.</p>
-<p>Ein RGB Wert nutzt drei zahlen um dem Computer zu sagen welche Farbe gemeint ist. Die erste Zahl sagt dem Computer wie stark das Rot ist, die zweite wie intensiv das Grün ist und die dritte wie viel Blau benötigt wird. Die Zahlen liegen jeweils zwischen 0 und 225. Lass uns ein paar Beispiele anschauen!</p>
-<p>&nbsp;</p>
+Wenn dir jemand sagt, dass eine Farbe ein "helles blau grün" ist, weißt du wahrscheinlich wovon er spricht. Computer verstehen Farben jedoch nicht auf diese Weise, sie benötigen den sogenannten RGB Wert um zu wissen welche Farbe gemeint ist.
+
+Ein RGB Wert nutzt drei zahlen um dem Computer zu sagen welche Farbe gemeint ist. Die erste Zahl sagt dem Computer wie stark das Rot ist, die zweite wie intensiv das Grün ist und die dritte wie viel Blau benötigt wird. Die Zahlen liegen jeweils zwischen 0 und 225. Lass uns ein paar Beispiele anschauen!
+
+&nbsp;
 <table>
 <tbody>
 <tr>
-<td style="color: white" bgcolor="black" width="33%">
-<p style="text-align: center">Schwarz</p>
-<p style="text-align: center">(0,0,0)</p>
+<td style="color: white;" bgcolor="black" width="33%">
+<p style="text-align: center;"><span style="color: #ffffff;">Schwarz</span></p>
+<p style="text-align: center;"><span style="color: #ffffff;">(0,0,0)</span></p>
 </td>
-<td style="text-align: center" bgcolor="white" width="33%">Weiß</p>
-<p style="text-align: center">(255,255,255)</p>
+<td style="text-align: center;" bgcolor="white" width="33%"><span style="color: #808080;">Weiß</span>
+<p style="text-align: center;"><span style="color: #808080;">(255,255,255)</span></p>
 </td>
 <td bgcolor="#808080" width="33%">
-<p style="text-align: center;color: white">Grau</p>
-<p style="text-align: center;color: white">(128,128,128)</p>
+<p style="text-align: center; color: white;"><span style="color: #ffffff;">Grau</span></p>
+<p style="text-align: center; color: white;"><span style="color: #ffffff;">(128,128,128)</span></p>
 </td>
 </tr>
 <tr>
 <td bgcolor="red">
-<p style="text-align: center;color: white">Rot</p>
-<p style="text-align: center;color: white">(255,0,0)</p>
+<p style="text-align: center; color: white;"><span style="color: #ffffff;">Rot</span></p>
+<p style="text-align: center; color: white;"><span style="color: #ffffff;">(255,0,0)</span></p>
 </td>
-<td style="text-align: center" bgcolor="#00ff00">Limette (0,255,0)</td>
+<td style="text-align: center;" bgcolor="#00ff00"><span style="color: #808080;">Limette </span>
+
+<span style="color: #808080;">(0,255,0)</span></td>
 <td bgcolor="blue">
-<p style="text-align: center;color: white">Blau</p>
-<p style="text-align: center;color: white">(0,0,255)</p>
+<p style="text-align: center; color: white;"><span style="color: #ffffff;">Blau</span></p>
+<p style="text-align: center; color: white;"><span style="color: #ffffff;">(0,0,255)</span></p>
 </td>
 </tr>
 <tr>
 <td bgcolor="yellow">
-<p style="text-align: center">Gelb</p>
-<p style="text-align: center">(255,255,0)</p>
+<p style="text-align: center;"><span style="color: #808080;">Gelb</span></p>
+<p style="text-align: center;"><span style="color: #808080;">(255,255,0)</span></p>
 </td>
-<td style="text-align: center" bgcolor="purple">Lila (128,0,128)</td>
+<td style="text-align: center;" bgcolor="purple"><span style="color: #ffffff;">Lila</span>
+
+<span style="color: #ffffff;"> (128,0,128)</span></td>
 <td bgcolor="teal">
-<p style="text-align: center;color: white">Aquamarin</p>
-<p style="text-align: center;color: white">(0,128,128)</p>
+<p style="text-align: center; color: white;"><span style="color: #ffffff;">Aquamarin</span></p>
+<p style="text-align: center; color: white;"><span style="color: #ffffff;">(0,128,128)</span></p>
 </td>
 </tr>
 <tr>
 <td bgcolor="green">
-<p style="text-align: center">Grün</p>
-<p style="text-align: center">(0,128,0)</p>
+<p style="text-align: center;"><span style="color: #ffffff;">Grün</span></p>
+<p style="text-align: center;"><span style="color: #ffffff;">(0,128,0)</span></p>
 </td>
-<td style="text-align: center" bgcolor="navy">Marineblau (0,0,128)</td>
+<td style="text-align: center;" bgcolor="navy"><span style="color: #ffffff;">Marineblau</span>
+
+<span style="color: #ffffff;"> (0,0,128)</span></td>
 <td bgcolor="Maroon">
-<p style="text-align: center;color: white">Kastanie</p>
-<p style="text-align: center;color: white">(128,0,0)</p>
+<p style="text-align: center; color: white;"><span style="color: #ffffff;">Kastanie</span></p>
+<p style="text-align: center; color: white;"><span style="color: #ffffff;">(128,0,0)</span></p>
 </td>
 </tr>
 </tbody>
 </table>
-<p>&nbsp;</p>
+&nbsp;
