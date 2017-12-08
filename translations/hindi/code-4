@@ -1,0 +1,274 @@
+<p>&lt;h1&gt; कोड 4 &lt;/ h1&gt;<br />
+&lt;h2&gt; मोबाइल सुविधाओं का उपयोग करना; वेब से कनेक्ट &lt;/ h2&gt;<br />
+&lt;Ul&gt;<br />
+&lt;li&gt; &lt;a href="#mobile"&gt; मोबाइल घटक &lt;/a&gt; &lt;/ li&gt;<br />
+&lt;li&gt; &lt;a href="#ui"&gt; उपयोगकर्ता इंटरफ़ेस अवयव &lt;/a&gt; &lt;/ li&gt;<br />
+&lt;li&gt; &lt;a href="#media"&gt; मीडिया घटक &lt;/a&gt; &lt;/ li&gt;<br />
+&lt;li&gt; &lt;a href="#sensors"&gt; सेंसर &lt;/a&gt; &lt;/ li&gt;<br />
+&lt;li&gt; &lt;a href="#social"&gt; सामाजिक घटक &lt;/a&gt; &lt;/ li&gt;<br />
+&lt;li&gt; &lt;a href="#connectivity"&gt; कनेक्टिविटी अवयव &lt;/a&gt; &lt;/ li&gt;<br />
+&lt;li&gt; &lt;a href="#web"&gt; वेब डेटाबेस &lt;/a&gt; &lt;/ li&gt;<br />
+&lt;li&gt; &lt;a href="#tinyweb"&gt; TinyWebDB &lt;/a&gt; &lt;/ li&gt;<br />
+&lt;li&gt; &lt;a href="#fusion"&gt; फ्यूजन टेबल्स &lt;/a&gt; &lt;/ li&gt;<br />
+&lt;li&gt; &lt;a href="#api"&gt; एपीआई &lt;/a&gt; &lt;/ li&gt;<br />
+&lt;li&gt; &lt;a href="#challenge"&gt; कोड चुनौती &lt;/a&gt; &lt;/ li&gt;<br />
+&lt;li&gt; &lt;a href="#reflection"&gt; प्रतिबिंब &lt;/a&gt; &lt;/ li&gt;<br />
+&lt;/ Ul&gt;<br />
+&lt;h3&gt; सीखना उद्देश्य: &lt;/ h3&gt;<br />
+इस इकाई में, आप इसके बारे में सीखेंगे ...<br />
+&lt;Ul&gt;<br />
+&lt;li style = "font-weight: 400;"&gt; उपयोगकर्ता इंटरफ़ेस घटक &lt;/ li&gt;<br />
+&lt;li style = "font-weight: 400;"&gt; मीडिया घटक &lt;/ li&gt;<br />
+&lt;li style = "font-weight: 400;"&gt; सेंसर &lt;/ li&gt;<br />
+&lt;li style = "font-weight: 400;"&gt; सामाजिक घटकों &lt;/ li&gt;<br />
+&lt;li style = "font-weight: 400;"&gt; वेब डेटाबेस &lt;/ li&gt;<br />
+&lt;/ Ul&gt;<br />
+&lt;h3&gt; मोबाइल घटक &lt;/ h3&gt;<br />
+इसे चौथी कोडिंग इकाई बनाने के लिए बधाई! अब तक आप अपने फोन से बात करने और ऐप्स बनाने के तरीके तलाश रहे हैं। इस इकाई में आप कुछ मोबाइल सुविधाओं के बारे में जानेंगे जो आपके फोन में है कि आप वेब पर अन्य स्थानों से कैसे जुड़ सकते हैं इसका लाभ उठा सकते हैं।</p>
+<p>अपने ऐप को किस क्षमताओं की पेशकश कर सकता है, इस बारे में जानने के लिए इस यूनिट का संदर्भ लें आपको सूचीबद्ध सभी घटकों की कोशिश करने की ज़रूरत नहीं है, लेकिन उन लोगों के साथ प्रयोग करना चाहिए जो आपके ऐप में शामिल करने के लिए सबसे ज्यादा समझदारी रखते हैं।</p>
+<p>संदर्भ के लिए, यहां &lt;a href = "http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/Judging-Rubric-2017.pdf" target="_blank" rel = "noopener"&gt; टेक्नोवशन 2017 जजिंग रुब्रिक&lt;/a&gt; और &lt;a href = "http://www.iridescent.staging.wpengine.com/wp-content/uploads/2017/01/Technical-Checklist-2017.pdf" target="_blank" rel = "noopener"&gt; तकनीकी चेकलिस्ट &lt;/a&gt;<br />
+&lt;h3&gt; उपयोगकर्ता इंटरफ़ेस घटक &lt;/ h3&gt;<br />
+ये ऐसी विशेषताएं हैं जिन्हें आपके ऐप में शामिल किया जा सकता है जो एक उपयोगकर्ता साथ-साथ बातचीत कर सकता है। अधिक जानकारी के लिए &lt;a href="http://ai2.appinventor.mit.edu/reference/components/userinterface.html" target="_blank" rel="noopener"&gt; एमआईटी की वेबसाइट &lt;/a&gt; देखें।<br />
+&lt;H5&gt; सूचक &lt;/ h5&gt;<br />
+यह घटक उपयोगकर्ता को एक संदेश या एक चेतावनी भेज सकता है। उपयोगकर्ता संवाद से छुटकारा पाने के लिए एक बटन दबा सकता है या कुछ सेकंड के बाद संवाद स्वतः ही गायब हो सकता है नोटिफ़ायर उपयोगकर्ता को जानकारी भेजने के लिए अच्छा है और वह डीबगिंग के लिए भी उपयोगी है, जिसे आप &lt;a href="/?p=19686" target="_blank" rel="noopener"&gt; कोड 6 में सीखेंगे &lt;/a&gt; &lt; एक&gt;। यहां एक &lt;a href="https://www.youtube.com/watch?v=4KdTuWJFCpM" target="_blank" rel="noopener"&gt; ट्यूटोरियल &lt;/a&gt; है<br />
+&lt;H5&gt; कैनवास &lt;/ h5&gt;<br />
+यह घटक उपयोगकर्ताओं को स्प्रिट, ड्रॉ, छवियों को स्थानांतरित करने की अनुमति देता है। यदि आप खेल बना रहे हैं तो यह बहुत उपयोगी हो सकता है! यहां कुछ ट्यूटोरियल हैं:<br />
+&lt;Ul&gt;<br />
+&lt;li&gt; &lt;a href="https://www.youtube.com/watch?v=DNbZAzMEkvs" target="_blank" rel="noopener"&gt; पेंटपोट 1 &lt;/a&gt; &lt;/ li&gt;<br />
+&lt;li&gt; &lt;a href="https://www.youtube.com/watch?v=DNbZAzMEkvs" target="_blank" rel="noopener"&gt; पेंटपोट 2 &lt;/a&gt; &lt;/ li&gt;<br />
+&lt;li&gt; &lt;a href="https://www.youtube.com/watch?v=gpMPOSNWc_o" target="_blank" rel="noopener"&gt; पेंटपॉट 3 &lt;/a&gt; &lt;/ li&gt;<br />
+&lt;li&gt; &lt;a href="https://www.youtube.com/watch?v=jw4QxAvOm6A" target="_blank" rel="noopener"&gt; पेंटपॉट 4 &lt;/a&gt; &lt;/ li&gt;<br />
+&lt;li&gt; &lt;a href="https://www.youtube.com/watch?v=w0yxJSlC00w" target="_blank" rel="noopener"&gt; गेंद एमआईटी ट्यूटोरियल &lt;/a&gt; &lt;/ li&gt;<br />
+&lt;li&gt; &lt;a href="https://www.youtube.com/watch?v=fQKNzLYENMM" target="_blank" rel="noopener"&gt; एमआईटी डिजिटल डूडल &lt;/a&gt; &lt;/ li&gt;<br />
+&lt;/ Ul&gt;<br />
+&lt;H5&gt; WebView &lt;/ h5&gt;<br />
+यह घटक आपको ऐप में एक वेब ब्राउज़र को एम्बेड करने की अनुमति देता है। इसका उपयोग करें यदि आप चाहते हैं कि उपयोगकर्ता किसी विशिष्ट वेबसाइट तक पहुंच सकें। आप ब्राउज़र को उपयोगकर्ता को दिखाने के लिए यूआरएल निर्दिष्ट कर सकते हैं, लेकिन यह ब्राउज़र एक पूर्ण ब्राउज़र नहीं है। उदाहरण के लिए, फोन की हार्डवेयर बैक कुंजी दबाकर ब्राउज़र इतिहास में वापस जाने के बजाय ऐप से बाहर निकल जाएगा। यहां एक &lt;a href="https://www.youtube.com/watch?v=OCZawf85lsE" target="_blank" rel="noopener"&gt; ट्यूटोरियल &lt;/a&gt; है<br />
+&lt;h5&gt; दिनांक और समय पिकर &lt;/ h5&gt;<br />
+यह घटक उपयोगकर्ताओं को एक तिथि और / या समय लेने की अनुमति देता है। यह उन एप्लिकेशन के लिए विशेष रूप से उपयोगी है जहां उपयोगकर्ताओं को ईवेंट शेड्यूल करने की आवश्यकता होती है। यहां एक &lt;a href="https://www.youtube.com/watch?v=UbA3pDQALKY" target="_blank" rel="noopener"&gt; ट्यूटोरियल &lt;/a&gt; है<br />
+&lt;h3&gt; मीडिया घटक &lt;/ h3&gt;<br />
+ये ऐसी विशेषताएं हैं जिनमें फोटोग्राफ, ऑडियो और वीडियो जैसे मीडिया शामिल है अधिक जानकारी के लिए &lt;a href="http://ai2.appinventor.mit.edu/reference/components/media.html" target="_blank" rel="noopener"&gt; एमआईटी की वेबसाइट &lt;/a&gt; देखें।<br />
+&lt;H5&gt; कैमकॉर्डर &lt;/ h5&gt;<br />
+यह घटक उपयोगकर्ता को वीडियो लेने की अनुमति देता है। आप इसे सामाजिक एप्लिकेशन, वीडियो साझाकरण ऐप्स या किसी अन्य समय के लिए उपयोग कर सकते हैं कि आप अपने उपयोगकर्ता को वीडियो रिकॉर्ड करने के लिए चाहते हैं। इसे &lt;a href="http://appinventor.pevest.com/?p=161" target="_blank" rel="noopener"&gt; यहां &lt;/a&gt; का उपयोग करने का तरीका जानें<br />
+&lt;H5&gt; कैमरा &lt;/ h5&gt;<br />
+यह घटक उपयोगकर्ता को तस्वीरें लेने की अनुमति देता है। यह ऐसे ऐप्स के लिए उपयोगी हो सकता है जो उपयोगकर्ताओं को प्रोफ़ाइल चित्र सेट करने या तस्वीरें लेने की इजाजत देते हैं।</p>
+<p>यहां एक &lt;a href="https://docs.google.com/document/d/1trt9smFfyiztdVoaq5ONaOM8GWOMoSFxTRJ7Eyyajuw/pub" target="_blank" rel="noopener"&gt; ट्यूटोरियल &lt;/a&gt; है<br />
+&lt;H5&gt; ImagePicker &lt;/ h5&gt;<br />
+इससे उपयोगकर्ता को अपनी फोटो लाइब्रेरी से कोई चित्र चुनने की अनुमति मिलती है। यदि आप कैमकॉर्डर या कैमरा घटकों का उपयोग करने की योजना बनाते हैं, तो यह सुविधा शामिल करना एक अच्छा विचार है यह आपके उपयोगकर्ता को आपके ऐप का उपयोग करने के बाहर ले जाने वाली तस्वीरें लेने की अनुमति देगा। यहां एक &lt;a href="https://www.youtube.com/watch?v=MAjoLSQB1yw" target="_blank" rel="noopener"&gt; ट्यूटोरियल &lt;/a&gt; है<br />
+&lt;H5&gt; VideoPlayer &lt;/ h5&gt;<br />
+आपको उस ऐप में एक वीडियो एम्बेड करने देता है, जिस पर उपयोगकर्ता क्लिक कर सकता है वीडियो .wmv, .3gp या .mp4 होना चाहिए और 1MB से बड़ा नहीं होना चाहिए। यहां एक &lt;a href="https://www.youtube.com/watch?v=3HtXOU9EHc8" target="_blank" rel="noopener"&gt; ट्यूटोरियल &lt;/a&gt; है<br />
+&lt;H5&gt; YandexTranslate &lt;/ h5&gt;<br />
+यह आपको किसी अन्य भाषा में पाठ का अनुवाद करने की अनुमति देता है इसके लिए आपके ऐप की इंटरनेट एक्सेस की आवश्यकता है क्योंकि यह &lt;a href="https://tech.yandex.com/translate/" target="_blank" rel="noopener"&gt; यैंडेक्स &lt;/a&gt; अनुवाद सेवा पर निर्भर करता है। यहां एक &lt;a href="https://www.youtube.com/watch?v=T9O6stYSDUQ" target="_blank" rel="noopener"&gt; ट्यूटोरियल &lt;/a&gt; है<br />
+&lt;H5&gt; SoundRecorder &lt;/ h5&gt;<br />
+यह एक उपयोगकर्ता को ध्वनि या शोर रिकॉर्ड करने की अनुमति देता है। यहां पर एक संपूर्ण &lt;a href="http://puravidaapps.com/snippets.php#2soundrecorder" target="_blank" rel="noopener"&gt; उदाहरण &lt;/a&gt; से उपयोग किया जाता है।<br />
+&lt;H5&gt; प्लेयर &lt;/ h5&gt;<br />
+यह ऑडियो घटक एक ध्वनि बजाता है। यह "लंबी" ध्वनियों के लिए सबसे अच्छा काम करता है, जैसे गाने, भाषण, या कविताएं यहां एक &lt;a href="https://www.youtube.com/watch?v=4tB_BuV1tew" target="_blank" rel="noopener"&gt; ट्यूटोरियल &lt;/a&gt; और &lt;a href = "https: / /www.youtube.com/watch?v=ajG0NSsX0q4 "target =" _ blank "rel =" noopener "&gt; ट्यूटोरियल अवलोकन &lt;/a&gt; &lt;strong&gt; वीडियो प्लेयर &lt;/ strong&gt; एक समान घटक है, लेकिन केवल ऑडियो के बजाय वीडियो के लिए काम करता है!<br />
+&lt;H5&gt; ध्वनि &lt;/ h5&gt;<br />
+यह घटक प्लेयर घटक के समान है, लेकिन शॉर्ट ध्वनि के लिए सबसे अच्छा है, जैसे सूचना "डिंग्स" इसका उपयोग करने के तरीके जानने के लिए यहां एक &lt;a href="http://appinventor.mit.edu/explore/ai2/hellopurr.html" target="_blank" rel="noopener"&gt; ट्यूटोरियल &lt;/a&gt; है।<br />
+&lt;H5&gt; SpeechRecognizer &lt;/ h5&gt;<br />
+यह पाठ में उपयोगकर्ता के भाषण का अनुवाद करता है यह ऐप्स के लिए विशेष रूप से उपयोगी है जिनके लिए हाथ-मुक्त क्षमताओं की आवश्यकता होती है। यहां एक &lt;a href="https://www.youtube.com/watch?v=KUZQrk0PN50f" target="_blank" rel="noopener"&gt; उदाहरण &lt;/a&gt; है<br />
+&lt;H5&gt; TextToSpeech &lt;/ h5&gt;<br />
+यह SpeechRecorder के पीछे है! इस सुविधा के साथ, उपयोगकर्ता टेक्स्ट में प्रवेश कर सकते हैं और एप इसे ज़ोर से पढ़ लेगा यहां एक &lt;a href="https://www.youtube.com/watch?v=Vdo8UdkgDD8" target="_blank" rel="noopener"&gt; ट्यूटोरियल &lt;/a&gt; है<br />
+&lt;H3&gt; सेंसर &lt;/ h3&gt;<br />
+चूंकि आप किसी मोबाइल डिवाइस के लिए एक ऐप तैयार कर रहे हैं, इसलिए आपको &lt;b&gt; फीचर्स &lt;/ b&gt; और &lt;b&gt; सेंसर &lt;/ b&gt; का लाभ उठाना चाहिए जो मोबाइल फ़ोन के पास है ये &lt;b&gt; विशेषताएं &lt;/ b&gt; और &lt;b&gt; सेंसर &lt;/ b&gt; मोबाइल डिवाइसों के लिए अनन्य हैं और एक कंप्यूटर को उनके पास आवश्यक नहीं हो सकता है इन विशेषताओं का उपयोग करना आपके ऐप को &lt;i&gt; वेब एप &lt;/ i&gt; या &lt;i&gt; वेबसाइट &lt;/ i&gt; के बजाय &lt;i&gt; मोबाइल ऐप &lt;/ i&gt; बनाता है। सभी शांत सेंसर स्मार्टफोन की जांच करें!</p>
+<p>&lt;center&gt;<br />
+&lt;iframe src="https://www.youtube.com/embed/lDVIcZSsONo" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"&gt;&lt;/iframe&gt;&lt;/center&gt;&amp;nbsp;</p>
+<p>ऐप इन्वेंटर आपको इन सेंसर को प्रोग्राम करने की अनुमति देता है! आपके फोन में उन सभी चीजें नहीं हो सकती हैं जो वीडियो के बारे में बात की गई थीं, लेकिन इनमें से ज्यादातर इस अनुभाग में चर्चा की जाएगी। यहां कुछ शांत घटकों की एक सूची दी गई है जो आप ऐप इन्वेंटर का उपयोग कर प्रोग्राम कर सकते हैं। अधिक जानकारी के लिए &lt;a href="http://ai2.appinventor.mit.edu/reference/components/sensors.html"&gt; एमआईटी की वेबसाइट &lt;/a&gt; पर जाएं<br />
+&lt;h5 id = "AccelerometerSensor"&gt; एक्सीलरोमीटर सेंसर &lt;/ h5&gt;<br />
+यह घटक यह निर्धारित कर सकता है कि फोन हिल रहा है और अगर इसे सीधे या उल्टा रखा जा रहा है। यह क्षमता बहुत उपयोगी है जब आप स्क्रीन को पुन: ओरिएंट करना चाहते हैं या फिर फोन को कैसे रखा जा रहा है, या यदि आप चाहते हैं कि अनुप्रयोग को मिलाते हुए प्रतिक्रिया करने के लिए प्रतिक्रिया होगी। यहां एक &lt;a href="http://appinventor.mit.edu/explore/sites/all/files/hourofcode/TalkToMePart2.pdf" target="_blank" rel="noopener"&gt; ट्यूटोरियल &lt;/a&gt; है।<br />
+&lt;H5&gt; Pedometer &lt;/ h5&gt;<br />
+यह संवेदक एक्सीलरोमीटर संवेदक का उपयोग करता है ताकि यह पता लगाया जा सके कि फ़ोन को रखने वाले उपयोगकर्ता कितने कदम उठाते हैं, और यात्रा की दूरी का अनुमान भी लगा सकते हैं। यहां एक &lt;a href="https://www.youtube.com/watch?v=iVcM6sTLnNU" target="_blank" rel="noopener"&gt; ट्यूटोरियल &lt;/a&gt; है<br />
+&lt;h5 id = "AccelerometerSensor"&gt; ज्योरोस्कोप &lt;/ h5&gt;<br />
+यह घटक समझ सकता है कि फोन झुका हुआ है। यह एक्सीलेरोमीटर से अधिक सटीक है और यह माप सकता है कि फ़ोन के उन्मुखीकरण कितने बदल गए हैं। यहां एक &lt;a href="https://www.youtube.com/watch?v=MM1LlE6RveE" target="_blank" rel="noopener"&gt; ट्यूटोरियल &lt;/a&gt; है<br />
+&lt;H5&gt; घड़ी &lt;/ h5&gt;<br />
+यह आपके ऐप को वर्तमान समय प्राप्त करने या टाइमर का उपयोग करने की अनुमति देता है। टाइमर का इस्तेमाल करके या यह दिन या रात्रि होने पर जानने के लिए, यह घटक एक समय पर अलार्म सेट करने के लिए उपयोगी हो सकता है</p>
+<p>यहां कुछ ट्यूटोरियल हैं:<br />
+&lt;Ul&gt;<br />
+&lt;li style="font-weight: 400;"&gt;&lt;a href="https://www.youtube.com/watch?v=tIKowBYIAG0" target="_blank" rel="noopener"&gt; टाइमर ट्यूटोरियल &lt;/ a &gt; &lt;/ li&gt;<br />
+&lt;li style="font-weight: 400;"&gt; &lt;a href = "http://ai2.appinventor.mit.edu/reference/components/sensors.html#Clock" target = "_ blank" rel = "noopener" &gt; एमआईटी क्लॉक दस्तावेज़ीकरण &lt;/ li&gt;<br />
+&lt;/ Ul&gt;<br />
+&lt;h5&gt; स्थान सेंसर &lt;/ h5&gt;<br />
+यह संवेदक फ़ोन के स्थान के अक्षांश और देशांतर को एकत्र करता है। यह संवेदक किसी भी समय उपयोगी हो सकता है जब आपको व्यवसाय के लिए खोज या उपयोगकर्ता के निकट रुचियों के बिंदु चाहिए। यहां &lt;a href="https://docs.google.com/document/d/1V1Zm5cYoa12KVb_cTlfelSfyUkW7IH2WPHUoTa02XaY/pub" target="_blank" rel="noopener"&gt; अधिक जानकारी &lt;/a&gt; है<br />
+&lt;h5&gt; निकटता सेंसर &lt;/ h5&gt;<br />
+यह संवेदक बता सकता है कि क्या फोन किसी व्यक्ति के चेहरे पर रखा गया है या नहीं। हालांकि, सभी फोन इस क्षमता का समर्थन नहीं कर सकते हैं। यहां एक &lt;a href="https://www.youtube.com/watch?v=TsmJNo5W4jU" target="_blank" rel="noopener"&gt; ट्यूटोरियल &lt;/a&gt; है<br />
+&lt;H3&gt; सामाजिक घटक &lt;/ h3&gt;<br />
+ये विशेषताएं हैं जो उपयोगकर्ताओं को फोन कॉल करने, ईमेल भेजने, पाठ भेजने और अपने ऐप के माध्यम से चीजों को साझा करने में सक्षम बनाती हैं। अधिक जानकारी के लिए &lt;a href="http://appinventor.mit.edu/explore/content/social.html"&gt; एमआईटी की वेबसाइट &lt;/a&gt; देखें<br />
+&lt;H5&gt; ContactPicker &lt;/ h5&gt;<br />
+यह उपयोगकर्ता के संपर्क दिखाता है और उपयोगकर्ताओं को उस सूची से किसी को चुनने की अनुमति देता है। यहां एक &lt;a href="https://www.youtube.com/watch?v=I0L1iEeNTrs" target="_blank" rel="noopener"&gt; ट्यूटोरियल &lt;/a&gt; है<br />
+&lt;H5&gt; EmailPicker &lt;/ h5&gt;<br />
+यह घटक उपयोगकर्ता को एक ईमेल पता इनपुट करने की अनुमति देता है। यहां एक &lt;a href="https://www.youtube.com/watch?v=wI9LzGCJ3vY" target="_blank" rel="noopener"&gt; ट्यूटोरियल &lt;/a&gt; है<br />
+&lt;H5&gt; PhoneNumberPicker &lt;/ h5&gt;<br />
+यह घटक उपयोगकर्ता को संपर्क सूची से एक फ़ोन नंबर चुनने देता है, जैसे मित्र या परिवार यहां एक &lt;a href="http://appinventor.mit.edu/explore/ai2/piccall.html" target="_blank" rel="noopener"&gt; ट्यूटोरियल &lt;/a&gt; है<br />
+&lt;H5&gt; phonecall &lt;/ h5&gt;<br />
+यह उपयोगकर्ता को आपके ऐप से एक फोन कॉल करने में सक्षम बनाता है। यहां एक &lt;a href="https://www.youtube.com/watch?v=I0L1iEeNTrs" target="_blank" rel="noopener"&gt; ट्यूटोरियल &lt;/a&gt; है<br />
+&lt;H5&gt; टेक्स्ट संदेश भेजना &lt;/ h5&gt;<br />
+यह घटक उपयोगकर्ता को आपके ऐप के माध्यम से दूसरे उपयोगकर्ता के फोन पर एक टेक्स्ट संदेश भेजने की अनुमति देता है। यहां एक &lt;a href="http://www.appinventor.org/content/ai2apps/simpleApps/noTexting" target="_blank" rel="noopener"&gt; ट्यूटोरियल &lt;/a&gt; है<br />
+&lt;H5&gt; शेयरिंग &lt;/ h5&gt;<br />
+इससे उपयोगकर्ता के फोन में अन्य ऐप्स के साथ आपके ऐप में संदेश, चित्र या अन्य सामग्री साझा करने की अनुमति मिलती है। यहां एक &lt;a href="https://www.youtube.com/watch?v=fCdxtYj09Zw" target="_blank" rel="noopener"&gt; ट्यूटोरियल &lt;/a&gt; है<br />
+&lt;H5&gt; ट्विटर &lt;/ h5&gt;<br />
+यह घटक आपके ऐप और ट्विटर के बीच संचार की अनुमति देता है। उपयोगकर्ता ट्वीट्स खोज सकते हैं, संदेश भेज सकते हैं और प्राप्त कर सकते हैं, अनुयायियों की सूची प्राप्त कर सकते हैं, और अधिक यहां एक &lt;a href="http://purwidaapps.com/twitter.php" target="_blank" rel="noopener"&gt; उदाहरण &lt;/a&gt; है<br />
+&lt;h3&gt; कनेक्टिविटी अवयव &lt;/ h3&gt;<br />
+ये आपके ऐप को आपके ऐप के बाहर के स्थानों, जैसे वेब और अन्य ऐप्स के साथ सहभागिता करने की अनुमति देते हैं। अधिक जानकारी के लिए &lt;a href="http://ai2.appinventor.mit.edu/reference/components/connectivity.html"&gt; एमआईटी की वेबसाइट &lt;/a&gt; पर जाएं<br />
+&lt;h5 id = "एक्सेलेरोमीटर सेंसर"&gt; गतिविधिस्टारिस्टर &lt;/ h5&gt;<br />
+यह आपके ऐप को उपयोगकर्ता के फोन को स्थापित करने वाले अन्य ऐप्स को शुरू करने की अनुमति देता है। ये ऐप ऐसे ऐप्स हो सकते हैं जो ऐप इन्वेंटर या ऐप जो कि नहीं थे में बनाए गए थे। वे कैमरे और मैप्स जैसे ऐप्स भी हो सकते हैं जो डिवाइस पर पूर्व-स्थापित हैं। यहां कुछ ट्यूटोरियल हैं:<br />
+&lt;Ul&gt;<br />
+&lt;li style = "font-weight: 400;"&gt; &lt;a href="http://ai2.appinventor.mit.edu/reference/other/activitystarter.html"&gt; ट्यूटोरियल 1 &lt;/a&gt; &lt;/ li&gt;<br />
+&lt;li style = "font-weight: 400;"&gt; &lt;a href="https://www.youtube.com/watch?v=rS8VChJ6X0g"&gt; ट्यूटोरियल 2 &lt;/a&gt; &lt;/ li&gt;<br />
+&lt;li style = "font-weight: 400;"&gt; &lt;a href="https://www.youtube.com/watch?v=Cz_2uH0jqAs"&gt; ट्यूटोरियल 3 &lt;/a&gt; &lt;/ li&gt;<br />
+&lt;/ Ul&gt;<br />
+&lt;H5&gt; वेब &lt;/ h5&gt;<br />
+यह घटक वेबसाइटों से जानकारी प्राप्त करने के लिए आपके ऐप को सक्षम बनाता है। यह आपको जानकारी प्राप्त करने और अपने ऐप में एक वेब ब्राउज़र के बिना उपयोग करने की अनुमति देता है। यहां एक &lt;a href="http://explore.appinventor.mit.edu/ai2/stockquotes" target="_blank" rel="noopener"&gt; ट्यूटोरियल &lt;/a&gt; है<br />
+&lt;h5&gt; ब्लूटूथ क्लाइंट और ब्लूटूथ सर्वर &lt;/ h5&gt;<br />
+ये घटक ब्लूटूथ के साथ कनेक्शन सक्षम करने के लिए आपके ऐप सक्षम करते हैं। यहां एक &lt;a href="http://appinventor.pevest.com/?p=520" target="_blank" rel="noopener"&gt; उदाहरण &lt;/a&gt; है</p>
+<p>&amp; Nbsp;<br />
+&lt;blockquote&gt; "युवा रहने के रहस्यों में से एक हमेशा उन चीजों को करना है जिन्हें आप नहीं जानते हैं कि कैसे करें, सीखने के लिए।" &lt;/ blockquote&gt;<br />
+&amp; Nbsp;<br />
+&lt;p align = "right"&gt; - रुथ रेचल &lt;/ p&gt;</p>
+<p>&lt;h3&gt; वेब डेटाबेस &lt;/ h3&gt;<br />
+उन चीजों में से एक, जिसे आपको निश्चित रूप से लाभ उठाना चाहिए, अपने फोन से वेब से कनेक्ट होने की क्षमता है। यह आपके ऐप के माध्यम से वेब या ईमेल तक पहुंचने से अधिक हो सकता है आप वास्तव में वेब पर &lt;b&gt; डेटा &lt;/ b&gt; स्टोर कर सकते हैं और इसे अपने ऐप पर चलने वाले कई फ़ोनों से एक्सेस कर सकते हैं!</p>
+<p>याद रखें जब आपने कोडिंग यूनिट 2 में &lt;b&gt; TinyDB &lt;/ b&gt; के बारे में सीखा? &lt;b&gt; TinyDB &lt;/ b&gt; एक &lt;i&gt; स्थानीय &lt;/ i&gt; डेटाबेस है जो कि आपका ऐप डेटा को स्टोर कर सकता है और डेटा प्राप्त कर सकता है। जब कोई फोन &lt;b&gt; TinyDB &lt;/ b&gt; का उपयोग करता है, तो वह केवल उस फ़ोन पर डेटा संग्रहीत करता है, इसलिए दो उपयोगकर्ता एक दूसरे के &lt;b&gt; TinyDB में क्या नहीं देख पाएंगे। &lt;/ B&gt;</p>
+<p>एक &lt;b&gt; वेब डेटाबेस &lt;/ b&gt; थोड़ा अलग ढंग से काम करता है मान लें कि आपके पास एक फोन, फ़ोन ए और फोन बी फोन चल रहे हैं। फोन ए को डेटा डेटा स्टोर करते समय, टिनीडीबी में फोन बी इसे एक्सेस नहीं कर सकता क्योंकि यह फ़ोन ए की हार्डड्राइव पर संग्रहीत है। जब आप वेब डेटाबेस का उपयोग करते हैं, फोन ए डाटाबेस में डाटा स्टोर कर सकता है और फोन बी डाटाबेस को एक्सेस कर सकता है और डेटा पुनः प्राप्त कर सकता है। केवल एक फोन पर डेटाबेस होने के बजाय, अब ऐप का उपयोग करने वाले दोनों फोन इसे साझा कर सकते हैं ऐप आविष्कारक के साथ वेब डेटाबेस का उपयोग करने का एक अन्य लाभ यह है कि आप (प्रोग्रामर) इंटरनेट के माध्यम से उसमें क्या पहुंच और संपादित कर सकते हैं।<br />
+&lt;h5 शैली = "टेक्स्ट-संरेखित करें: केंद्र;"&gt; स्थानीय संग्रहण &lt;/ h5&gt;<br />
+&lt;p style="text-align: center;"&gt;&lt;img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/local-databig.png" alt="local-databig" width="101" height="186" /&gt;&lt;/p&gt;</p>
+<p>&lt;h5 style="text-align: center;"&gt; वेब डेटाबेस संग्रहण &lt;/ h5&gt;<br />
+&lt;img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/web-databasebig.png" alt="web-databasebig" width="380" height="470" /&gt;</p>
+<p>वेब डेटाबेस को किसी भी समय अपडेट किया जा सकता है और उनके द्वारा उपयोग किए जाने वाले फ़ोन परिवर्तनों को प्रतिबिंबित करेंगे। मान लीजिए कि आप टैक्सीडब में रेस्तरां की एक सूची डालते हैं और ऐप स्टोर में अपना ऐप डालते हैं। आपके ऐप को डाउनलोड करने वाले किसी भी उपयोगकर्ता के पास रेस्तरां की सूची होगी बाद में, आप कई और रेस्तरां को शामिल करने के लिए अपने ऐप को अपडेट करते हैं आप अपना कोड अपडेट करते हैं और ऐप स्टोर में अपना ऐप अपडेट करते हैं। हालांकि, आपके ऐप को डाउनलोड करने से पहले आपके ऐप को डाउनलोड करने वाले फोन नए रेस्तरां को प्राप्त नहीं कर पाएंगे इन उपयोगकर्ताओं को ऐप को हटाना होगा और इसे ऐप स्टोर से डाउनलोड करना होगा! यदि आपने रेस्तरां के लिए एक वेब डेटाबेस का इस्तेमाल किया था, तो ऐप स्वचालित रूप से रेस्तरां की सूची को अद्यतन करेगा हर बार जब फोन वेब से जुड़ा होता है और डेटाबेस को एक्सेस करता है, तो उसे सूची का वर्तमान संस्करण मिलेगा।</p>
+<p>क्या आपने कभी फेसबुक या इंस्टाग्राम पर तस्वीर साझा की है? ऐसे ऐप्लिकेशन जैसे वेब डेटाबेस का प्रयोग करें जब आपका मित्र चित्र अपलोड करता है और साझा करता है, तो उसके सभी अनुयायियों को यह देख सकता है। वेब डेटाबेस आपको ऐप का उपयोग करने वाले प्रत्येक को डेटा साझा करने और भेजने की अनुमति देते हैं।</p>
+<p>तो आप एक वेब डेटाबेस का उपयोग कब करेंगे? यहां कुछ सामान्य उपयोग हैं:<br />
+&lt;Ul&gt;<br />
+&lt;li style = "font-weight: 400;"&gt; उच्च स्कोर की सूची की तरह खेल से डेटा साझा करना &lt;/ li&gt;<br />
+&lt;li style = "font-weight: 400;"&gt; उपयोगकर्ताओं को एक फीड के माध्यम से छवियों को साझा करने की अनुमति दे &lt;/ li&gt;<br />
+&lt;li style = "font-weight: 400;"&gt; सभी उपयोगकर्ताओं को अपडेट करने वाली फ़ीड प्रदर्शित करना &lt;/ li&gt;<br />
+&lt;li style = "font-weight: 400;"&gt; उपयोगकर्ताओं के लिए प्रवेश और पासवर्ड की आवश्यकता &lt;/ li&gt;<br />
+&lt;li style = "font-weight: 400;"&gt; अपने लेनदेन, वित्तीय रिकॉर्ड या चिकित्सा रिकॉर्ड जैसे उपयोगकर्ता के बारे में सब कुछ याद रखना &lt;/ li&gt;<br />
+&lt;/ Ul&gt;<br />
+सौभाग्यवश App Inventor में एक वेब डेटाबेस स्थापित करने के कुछ अलग तरीके हैं! अगले कुछ हिस्सों में वेब इनवेस्टर द्वारा आपके ऐप में आसानी से शामिल होने की कुछ वेब डेटाबेस पर चर्चा होगी। जैसा कि आप अनुभागों को पढ़ते हैं, तो सोचें कि कौन सा संभावित आपके ऐप के साथ काम कर सकता है।<br />
+&lt;h3&gt; सोच व्यायाम &lt;/ h3&gt;<br />
+क्या आप उस पांच ऐप्स के बारे में सोच सकते हैं जो आपने वेब डेटाबेस पर भरोसा करते हैं?<br />
+&lt;H3&gt; TinyWebDB &lt;/ h3&gt;<br />
+&lt;b&gt; TinyWebDB &lt;/ b&gt; TinyDB के समान है क्योंकि यह डेटा को स्टोर और पुनः प्राप्त करने के लिए &lt;b&gt; टैग मान जोड़े &lt;/ b&gt; का उपयोग करता है TinyWebDB एक अच्छा विकल्प है यदि आप डेटा का उपयोग कर रहे हैं जहां डेटा ज्यादातर युग्मों में है, जैसे उपयोगकर्ता नाम और पासवर्ड। एक बार जब आप अपना TinyWebDB सेट अप प्राप्त करते हैं, तो आप इसे से डेटा संग्रहीत और प्राप्त कर सकते हैं। TinyDB के विपरीत, आपके ऐप का उपयोग कर किसी भी फोन से डेटा प्राप्त कर सकते हैं और उसे प्राप्त कर सकते हैं। TinyWebDB में अतिरिक्त बोनस भी है जो आप अपनी वेब सेवा पर जा सकते हैं और मौजूद सभी टैग देख सकते हैं और जिन लोगों को आप अब और नहीं चाहते हैं उन्हें हटा सकते हैं। आपकी वेब सेवा इस तरह दिखाई देगी:</p>
+<p>&lt;img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/TinyWebDBOnline.png" alt="tinywebdbonline" width="1440" height="777" /&gt;</p>
+<p>ध्यान दें कि हमारे पास कुछ टैग्स को हटाने का विकल्प है जो वहां मौजूद हैं। इस तरह से अपने डेटा को प्रबंधित करना बहुत आसान है, भले ही आपके ऐप को फोन के बीच डेटा साझा करने की आवश्यकता न हो, भले ही आप किसी भी &lt;b&gt; TinyWebDB &lt;/ b&gt; को सेट करना चाहें!</p>
+<p>&lt;B&gt; TinyWebDB &lt;/ b&gt; का उपयोग करने के लिए, आपको अपना स्वयं का वेब सेवा सेट करना होगा जहां डेटा को संग्रहीत और पुनः प्राप्त किया जाएगा यह कैसे करना है पर एमआईटी के निर्देश हैं: &lt;a href="http://appinventor.mit.edu/explore/ai2/custom-tinywebdb.html" target="_blank" rel="noopener"&gt; कस्टम टिनी WebDB &lt;/ एक&gt;। जब हम अपना सेट करते हैं तो &lt;b&gt; TinyWebDB &lt;/ b&gt; आपको स्वतः मिलते हुए पाया कि आपको अपने आप में अटक हो रही है, इसलिए यहां एक वीडियो है जिसके साथ हमने &lt;a href = "https://www.youtube.com/watch?v= qawFgeJldAQ "target =" &amp; quot; _blank "&gt; इन निर्देशों &lt;/a&gt;<br />
+&lt;b&gt; TinyWebDB &lt;/ b&gt; एक गैर-दृश्य घटक है, या एक जो स्क्रीन पर दिखाई नहीं देता है, और इस तरह दिखता है: &lt;img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/non-visible.png" alt="non-visible" width="315" height="124" /&gt;</p>
+<p>प्रोग्रामिंग &lt;b&gt; TinyWebDB &lt;/ b&gt; प्रोग्रामिंग से थोड़ा अलग है &lt;b&gt; TinyDB &lt;/ b&gt; जब आप कुछ डेटा प्राप्त करने के लिए कॉल करते हैं तो आपको डेटा के लिए वेब सेवा से पूछने के लिए अपने ऐप की प्रतीक्षा करना होगा। एक बार जब आप ऐप को डेटा प्राप्त कर लेते हैं, तो आप इसके साथ सामान कर सकते हैं। हमारा कोड नीचे देखें: &lt;img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/tagname.png" alt="tagname" width="594" height="313" /&gt;</p>
+<p>जब उपयोगकर्ता बटन दबाता है तो ऐप "User1" नामक टैग के मूल्य के लिए वेब सेवा से पूछेगा। ऐप के पास &lt;b&gt; TinyWebDB, &lt;/ b&gt; से मूल्य होने पर, यह तब टैग और मान के लिए Label1 और Label2 सेट करेगा। जब TinyWebDB1.GotValue डेटाबेस से प्राप्त अंतिम मान का उपयोग करेगा।</p>
+<p>&lt;B&gt; TinyWebDB: &lt;/ b&gt; की स्थापना के लिए समस्या निवारण युक्तियां<br />
+&lt;Ul&gt;<br />
+&lt;li style = "font-weight: 400;"&gt; यदि आपको पायथन के लिए Google App Engine को डाउनलोड करने में समस्या हो रही है, तो &lt;a href="https://cloud.google.com/appengine/docs/python/download#python" target="_blank" rel="noopener"&gt;try this&lt;/a&gt;.&lt;/ li&gt;<br />
+&lt;li style = "font-weight: 400;"&gt; आपको किसी भी समय Google में अपनी क्रेडिट कार्ड की जानकारी देने की ज़रूरत नहीं है, आपको आवश्यक सभी क्लाउड प्लेटफ़ॉर्म सुविधाओं को निशुल्क हैं। &lt;/ li&gt;<br />
+&lt;li style = "font-weight: 400;"&gt; बस टिनीडब के साथ की तरह, यदि आप उसी टैग नाम का उपयोग टिनीव्वबडीबी में दो बार करते हैं, तो डेटा को अधिलेखित कर दिया जाएगा। &lt;/ li&gt;<br />
+&lt;/ Ul&gt;<br />
+&lt;h3&gt; फ्यूजन टेबल्स &lt;/ h3&gt;<br />
+&lt;b&gt; फ़्यूज़न टेबल &lt;/ b&gt; एक और प्रकार का वेब डेटाबेस है जो ऐप इन्वेंटर आपको आसानी से उपयोग करने की अनुमति देता है &lt;b&gt; फ्यूजन टेबल &lt;/ b&gt; टैग मान जोड़े के बजाय डेटा को स्टोर करने और पुनर्प्राप्त करने के लिए तालिकाओं का उपयोग करें। इससे उन्हें अधिक जटिल डेटा सेट संग्रहीत करने की अनुमति मिलती है। जैसे कि &lt;b&gt; TinyWebDB, &lt;/ b&gt; आपके ऐप के कई उपयोगकर्ता संलयन तालिकाओं से मूल्यों को संग्रह और पुनः प्राप्त कर सकते हैं और आप इसे वेब सेवा के माध्यम से प्रबंधित कर सकेंगे।</p>
+<p>फ्यूजन टेबल आपको &lt;b&gt; तालिका &lt;/ b&gt; में डेटा संग्रहीत करने की अनुमति देते हैं टेबल्स महान हो सकते हैं जब आपके पास ट्रैक रखने के लिए बहुत सारे डेटा होते हैं, और पंक्तियों और स्तंभों में डेटा व्यवस्थित करते हैं बेहतर समझने के लिए &lt;b&gt; संलयन तालिकाओं &lt;/ b&gt; चलो एक उदाहरण के माध्यम से सोचें।</p>
+<p>मान लीजिए कि आप अपने फुटबॉल टीम के लिए नए जर्सी आदेश देने के प्रभारी थे। हर कोई अपने नाम के साथ जर्सी लेता है और इसके साथ उनकी संख्या के साथ। आपको हर किसी का नाम, संख्या, और शर्ट आकार का ट्रैक रखने की ज़रूरत है ऐसा करने का सबसे आसान तरीका यह है कि इस तरह एक तालिका बनाकर:<br />
+&lt;Table&gt;<br />
+&lt;Tbody&gt;<br />
+&lt;tr style="color: white;" bgcolor="#333333"&gt;<br />
+&lt;Td&gt; नाम &lt;/ td&gt;<br />
+&lt;Td&gt; संख्या &lt;/ td&gt;<br />
+&lt;td&gt; शर्ट आकार &lt;/ td&gt;<br />
+&lt;/ Tr&gt;<br />
+&lt;Tr&gt;<br />
+&lt;Td&gt; मारिसा &lt;/ td&gt;<br />
+&lt;Td&gt; 2 &lt;/ td&gt;<br />
+&lt;Td&gt; एल &lt;/ td&gt;<br />
+&lt;/ Tr&gt;<br />
+&lt;Tr&gt;<br />
+&lt;Td&gt; रुचि &lt;/ td&gt;<br />
+&lt;Td&gt; 6 &lt;/ td&gt;<br />
+&lt;Td&gt; एम &lt;/ td&gt;<br />
+&lt;/ Tr&gt;<br />
+&lt;Tr&gt;<br />
+&lt;Td&gt; हदर &lt;/ td&gt;<br />
+&lt;Td&gt; 3 &lt;/ td&gt;<br />
+&lt;Td&gt; एस &lt;/ td&gt;<br />
+&lt;/ Tr&gt;<br />
+&lt;Tr&gt;<br />
+&lt;Td&gt; स्टेफ़नी &lt;/ td&gt;<br />
+&lt;Td&gt; 7 &lt;/ td&gt;<br />
+&lt;Td&gt; एम &lt;/ td&gt;<br />
+&lt;/ Tr&gt;<br />
+&lt;Tr&gt;<br />
+&lt;Td&gt; Iyonce &lt;/ td&gt;<br />
+&lt;Td&gt; 4 &lt;/ td&gt;<br />
+&lt;Td&gt; एस &lt;/ td&gt;<br />
+&lt;/ Tr&gt;<br />
+&lt;/ Tbody&gt;<br />
+&lt;/ तालिका&gt;<br />
+सिर्फ एक पेंसिल और कागज का उपयोग करने के बजाय, आप यह सब जानकारी का ट्रैक रखने के लिए &lt;b&gt; संलयन तालिकाओं &lt;/ b&gt; का उपयोग करने का निर्णय लेते हैं आप एक ऐप बनाते हैं और अपनी टीम के सदस्यों को इसे डाउनलोड करने के लिए कहें। अपने फोन से वे अपना नाम, संख्या, और शर्ट का आकार दर्ज करते हैं। उनके फोन की जानकारी एक संलयन तालिका में वेब पर संग्रहीत होती है आप लॉग ऑन कर सकते हैं और हर किसी की जानकारी देख और संपादित कर सकते हैं!</p>
+<p>कुछ चीजों का बेहतर विचार प्राप्त करने के लिए आप फ्यूजन टेबल का उपयोग कर सकते हैं, यहां कुछ परिदृश्य हैं, जब पिछले तकनीकी टीमों ने फ्यूजन टेबल्स को शामिल किया है &lt;b&gt; &lt;/ b&gt; की तुलना करें और देखें कि क्या कोई भी परिदृश्य आपके ऐप के साथ करने की कोशिश कर रहे हैं या नहीं!<br />
+&lt;Ul&gt;<br />
+&lt;li style = "font-weight: 400;"&gt; स्थान केंद्रों की एक निर्देशिका बनाना जो दान स्वीकार कर रहे हैं तालिका प्रविष्टियों में अक्षांश और देशांतर, फ़ोन नंबर और आइटम शामिल हैं जो वे स्वीकार करते हैं। &lt;/ Li&gt;<br />
+&lt;li style = "font-weight: 400;"&gt; कस्टम उपयोगकर्ता प्रोफाइल बनाने के लिए जानकारी संग्रहीत करना उपयोगकर्ता स्थान, उपयोगकर्ता नाम और पसंदीदा जैसी चीज़ें &lt;/ li&gt;<br />
+&lt;li style = "font-weight: 400;"&gt; नक्शा बनाने और नक्शे पर साजिश रचने, इस ट्यूटोरियल की जांच करें &lt;/ li&gt;<br />
+&lt;li style = "font-weight: 400;"&gt; पाई चार्ट और आलेखों में विज़ुअलाइज़िंग डेटा &lt;/ li&gt;<br />
+&lt;li style="font-weight: 400;"&gt;उपयोगकर्ताओं की जानकारी संग्रहीत करना &lt;/ li&gt;<br />
+&lt;li style = "font-weight: 400;"&gt; एक मंच पर पोस्ट और टिप्पणियां संग्रहीत करना &lt;/ li&gt;<br />
+&lt;/ Ul&gt;<br />
+फ्यूजन टेबल का इस्तेमाल करने वाले इन दो पिछले ऐप्स देखें<br />
+&lt;Ul&gt;<br />
+&lt;li style = "font-weight: 400;"&gt; "CramJam" और "BCNeeds" ऐप दोनों ने उनका उपयोग किया।<br />
+&lt;Ul&gt;<br />
+&lt;li style="font-weight: 400;"&gt; &lt;a href="https://www.youtube.com/watch?v=UtbOWCgjbL8" target="_blank" rel="noopener"&gt; क्रामजैम डेमो वीडियो &lt;/ एक&gt; &lt;/ li&gt;<br />
+&lt;li style="font-weight: 400;"&gt; &lt;a href="https://www.youtube.com/watch?v=rC0-9UMDfBk" target="_blank" rel="noopener"&gt; क्रामजाम पिच वीडियो &lt;/a&gt; &lt;/ li&gt;<br />
+&lt;li style="font-weight: 400;"&gt; &lt;a href="https://www.youtube.com/watch?v=q0Y3GWxl1zg" target="_blank" rel="noopener"&gt; बीसीईएड्स डेमो वीडियो &lt;/ एक&gt; &lt;/ li&gt;<br />
+&lt;li style="font-weight: 400;"&gt;&lt;a href="https://www.youtube.com/watch?v=XZtDElDl9V8" target="_blank" rel="noopener"&gt; बीसीएनिड पिच वीडियो &lt;/ एक&gt; &lt;/ li&gt;<br />
+&lt;/ Ul&gt;<br />
+&lt;/ Li&gt;<br />
+&lt;li style = "font-weight: 400;"&gt; "CramJam" ने इसे ऑनलाइन नोट्स के पूर्वावलोकन के लिए Google डॉक्स और छवियों के लोडिंग को एकीकृत करने के लिए उपयोग किया। "BCNeeds" ने चैरिटी संग्रह बिंदुओं पर दान सेवाओं और वस्तुओं को रिकॉर्ड करने के लिए इसका इस्तेमाल किया। दोनों ने लगातार डेटा संग्रहीत करने और सूची पिकर के साथ एकीकृत करने के लिए तालिका का इस्तेमाल किया &lt;/ li&gt;<br />
+&lt;/ Ul&gt;<br />
+फ्यूजन टेबल के साथ आरंभ करने के बारे में एमआईटी से ट्यूटोरियल यहां है: &lt;a href="http://explore.appinventor.mit.edu/ai2/pizzaparty" target="_blank" rel="noopener"&gt; फ्यूजन टेबल ऐ पिज्ज़ा पार्टी &lt;/a&gt;। हम इस ट्यूटोरियल के साथ अटक गए ताकि हम &lt;a href="https://www.youtube.com/watch?v=14jyD7_V1RA" target="_blank" rel="noopener"&gt; इस वीडियो &lt;/a&gt; का उपयोग करने में हमारी सहायता करें बाहर।</p>
+<p>समस्या निवारण युक्तियों:<br />
+&lt;Ul&gt;<br />
+&lt;li style = "font-weight: 400;"&gt; आपको किसी भी समय Google में अपनी क्रेडिट कार्ड की जानकारी देने की ज़रूरत नहीं है, आपको आवश्यक सभी क्लाउड प्लेटफ़ॉर्म सुविधाओं को निशुल्क हैं। &lt;/ li&gt;<br />
+&lt;li style = "font-weight: 400;"&gt; पिज़्ज़ा पार्टी के लिए स्रोत कोड डाउनलोड करें और उसके साथ खेलते हैं! &lt;/ li&gt;<br />
+&lt;/ Ul&gt;<br />
+&lt;H3&gt; एपीआई &lt;/ h3&gt;<br />
+मान लीजिए कि आप ऐसे एप का निर्माण कर रहे हैं जो उपयोगकर्ता को बताता है कि मौसम के आधार पर बाहर जाने के लिए उन्हें क्या पहनना चाहिए। आप फ्यूजन टेबल में मौसम के बारे में बहुत समय बिताएंगे, लेकिन आप जानते हैं कि पहले से ही कई वेबसाइटें हैं जो लोगों को बताती हैं कि मौसम क्या है। एक बेहतर समाधान सिर्फ उस वेबसाइट से डेटा प्राप्त करना होगा और इसे अपने ऐप के माध्यम से अपने उपयोगकर्ताओं को दिखाएगा!</p>
+<p>प्रोग्रामर हर समय ऐसा काम करते हैं यह वेबसाइट के एपीआई या एप्लिकेशन प्रोग्रामिंग अंतरफलक का उपयोग कर वास्तव में कहा जाता है। एपीआई एक तरीका है जिस तरह से आपका ऐप वेब से बात कर सकता है और जानकारी की जरूरत है। आपके पास साइटों के साथ सहभागिता होने की संभावना है जो हर समय एपीआई का उपयोग करते हैं।<br />
+&lt;p style="text-align: center;"&gt;&lt;iframe src="https://www.youtube.com/embed/s7wmiS2mSXY?feature=oembed" width="500" height="281" frameborder="0" allowfullscreen="allowfullscreen"&gt; &lt;/ iframe&gt; &lt;/ p&gt;<br />
+वेब पर बड़ी मात्रा में डेटा है और अनगिनत तरीके से आप इसे एक्सेस कर सकते हैं। यहां कुछ सामान्य एपीआई हैं जो प्रोग्रामर्स जब वे ऐप बनाते हैं तो इसका इस्तेमाल होता है:<br />
+&lt;Table&gt;<br />
+&lt;Tbody&gt;<br />
+&lt;tr style="color: white;" bgcolor="#333333"&gt;<br />
+&lt;Td&gt; डाटा &lt;/ td&gt;<br />
+&lt;td&gt; इसे प्राप्त करने के लिए स्थान &lt;/ td&gt;<br />
+ऐप आविकारक के लिए &lt;td&gt; ट्यूटोरियल &lt;/ td&gt;<br />
+&lt;/ Tr&gt;<br />
+&lt;Tr&gt;<br />
+&lt;Td&gt; नक्शे &lt;/ td&gt;<br />
+&lt;td&gt; Google मानचित्र &lt;/ td&gt;<br />
+&lt;td&gt; &lt;a href="http://appinventor.mit.edu/explore/displaying-maps.html" target="_blank" rel="noopener"&gt; http://appinventor.mit.edu/explore/displaying -maps.html &lt;/a&gt; &lt;/ td&gt;<br />
+&lt;/ Tr&gt;<br />
+&lt;Tr&gt;<br />
+&lt;td&gt; स्टॉक की कीमतें &lt;/ td&gt;<br />
+&lt;Td&gt; याहू! वित्त &lt;/ td&gt;<br />
+&lt;td&gt; &lt;a href="http://explore.appinventor.mit.edu/ai2/stockquotes" target="_blank" rel="noopener"&gt; http://explore.appinventor.mit.edu/ai2/stockquotes &lt;/a&gt; &lt;/ td&gt;<br />
+&lt;/ Tr&gt;<br />
+&lt;Tr&gt;<br />
+&lt;Td&gt; मौसम &lt;/ td&gt;<br />
+&lt;td&gt; राष्ट्रीय मौसम सेवा &lt;/ td&gt;<br />
+&lt;td&gt; &lt;a href="https://appinventorapi.com/weather/" target="_blank" rel="noopener"&gt; https://appinventorapi.com/weather/ &lt;/a&gt; &lt;/ td&gt;<br />
+&lt;/ Tr&gt;<br />
+&lt;/ Tbody&gt;<br />
+&lt;/ तालिका&gt;<br />
+आपको कभी भी ऐसी जानकारी प्राप्त करना चाहिये जिसे आप किसी अन्य वेबसाइट या डेटाबेस से पहले से जानते हैं।<br />
+&lt;h3&gt; गतिविधि: एपीआई खोजें &lt;/ h3&gt;<br />
+इस बारे में सोचें कि एपीआई आपके ऐप में कैसे उपयोगी हो सकती है। अपने आप से पूछने के लिए यहां कुछ प्रश्न हैं:<br />
+&lt;Ul&gt;<br />
+&lt;li style = "font-weight: 400;"&gt; मेरे ऐप को काम करने के लिए किस प्रकार के डेटा की आवश्यकता होगी? &lt;/ li&gt;<br />
+&lt;li style = "font-weight: 400;"&gt; मुझे उस डेटा को कहाँ से प्राप्त करने की आवश्यकता है? &lt;/ li&gt;<br />
+&lt;/ Ul&gt;</p>
+<p>&lt;h3&gt; कोड चैलेंज 4: &lt;/ h3&gt;<br />
+एक मोबाइल घटक चुनें और या तो एक वेब डेटाबेस या एपीआई जो आपको लगता है कि आपके ऐप में उपयोगी होगी। इन दोनों चीजों को स्थापित करें और उनका उपयोग करके अभ्यास करें। यह आपके अंतिम एप का निर्माण करने का समय होने पर बहुत मदद करेगा!<br />
+&lt;H3&gt; प्रतिबिंबित &lt;/ h3&gt;<br />
+इस पाठ की समीक्षा करने के बाद, आपको अपने ऐप में शामिल किए जाने वाले घटकों के बारे में बहुत अच्छा विचार होना चाहिए ताकि यह आपके लिए आवश्यक हर चीज कर सके। बधाई!</p>
+<p>आप संभावित रूप से आने वाले हफ्तों में अपने ऐप में इन सुविधाओं का निर्माण करेंगे। यदि कोई भी घटक आपको चाहिए, लेकिन इस इकाई में सूचीबद्ध नहीं हैं, तो आपको &lt;a href = "http://ai2.appinventor.mit.edu/reference/components/" target = "_ blank" rel = "noopener "यहां &lt;/a&gt;&gt;।<br />
+&lt;h5&gt; अतिरिक्त संसाधन &lt;/ h5&gt;<br />
+&lt;Ul&gt;<br />
+&lt;li style = "font-weight: 400;"&gt; &lt;a href="https://www.youtube.com/watch?v=dXi55Rai7pQ"&gt; थंबने योग्य Google मानचित्र ट्यूटोरियल &lt;/a&gt; &lt;/ li&gt;<br />
+&lt;li शैली = "फ़ॉन्ट-वजन: 400;"&gt; &lt;a href="https://www.youtube.com/watch?v=JLCLcU05FRc"&gt; स्पिनर घटक प्रदर्शन वीडियो &lt;/a&gt; &lt;/ li&gt;<br />
+&lt;/ Ul&gt;<br />
+टेक्नोव्यूशन के पूर्व छात्र अश्नी शेठ द्वारा बनाई गई इस वीडियो की जांच करें कि अपने ऐप में बॉट्स को कैसे शामिल किया जाए।</p>
+<p>&lt;iframe src="https://www.youtube.com/embed/GDGM5WWubOI?feature=oembed" width="500" height="281" frameborder="0" allowfullscreen="allowfullscreen"&gt;&lt;/iframe&gt;</p>
