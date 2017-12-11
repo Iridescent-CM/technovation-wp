@@ -1,4 +1,3 @@
-<h1>Technovation'a Başlangıç</h1>
 <ul>
  	<li><a href="#whycode">Neden Kod</a></li>
  	<li><a href="#womeninventors">Mucit Kadınlar</a></li>
@@ -7,125 +6,187 @@
  	<li><a href="#brain">Beyin Fırtınası</a></li>
  	<li><a href="#getstarted">Bir Değişim Yapın</a></li>
 </ul>
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
 <blockquote>
-<p style="text-align: center">"Hayallerinizin boyutu her zaman onları gerçekleştirebilme kapasitenizi geçmelidir."</p>
+<p style="text-align: center; color: white;">"Hayallerinizin boyutu her zaman onları gerçekleştirebilme kapasitenizi geçmelidir."</p>
 </blockquote>
-<p style="text-align: right">–Ellen Johnson Sirleaf, Nobel Barış Ödülü Sahibi ve Liberya Başkanı</p>
+</div>
+<p style="text-align: right;">–Ellen Johnson Sirleaf, Nobel Barış Ödülü Sahibi ve Liberya Başkanı</p>
 
-<h1>Kod yazmanız için sebepler</h1>
+<h1 id="whycode">Kod yazmanız için sebepler</h1>
 Technovation'a katıldığınız için tebrikler! Dünyayı nasıl kod yazarak değiştirebileceğinizi öğrenmeye hazır mısnız? Technovation sayesinde nasıl kendi mobil uygulamanızı tasarlayıp programlayabileceğinizi öğreneceksiniz ama şimdilik programlamanın ne olduğu ve neden kod yazmanız gerektiği hakkında konuşmak için zaman ayıralım.
 
 <b>Kod</b> insanların bilgisayarlarla konuşması için bir yöntemdir ve onlara inanılmaz şeyler yaptırmalarını sağlar!  Kod her yerdedir - büyük ihtimalle günde birçok kere farkında olmadan kod ile yapılan şeyler kullanıyorsunuz. Kod ile yaratılan sevdiğiniz  birkaç şey nedir?
-
-Mobil Uygulamalar
-Mobil Uygulamalar
-Oyunlar
-Oyunlar
-Animasyonlar
-Animasyonlar
-
+<table>
+<tbody>
+<tr>
+<td><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/tech-primer1.jpg" alt="Mobil Uygulamalar" /></td>
+<td><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/tech-primer2.jpg" alt="Oyunlar" /></td>
+<td><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/tech-primer3.jpg" alt="Animasyonlar" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">Mobil Uygulamalar</td>
+<td style="text-align: center;">Oyunlar</td>
+<td style="text-align: center;">Animasyonlar</td>
+</tr>
+</tbody>
+</table>
 Kod ile yapabileceğiniz birçok eğlenceli şey vardır, ama aynı zamanda insanlara kod ile <em>yardım</em> edebileceğinizi biliyor muydunuz?
-
-Tıp
-TIP
-Yardımcı Aletler
-Yardımcı Aletler
-Robotlar
-Robotlar
+<table>
+<tbody>
+<tr>
+<td><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/tech-primer4.jpg" alt="Tıp" /></td>
+<td><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/tech-primer5.jpg" alt="Yardımcı Aletler" /></td>
+<td><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/tech-primer6.jpg" alt="Robotlar" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">Tıp</td>
+<td style="text-align: center;">Yardımcı Aletler</td>
+<td style="text-align: center;">Robotlar</td>
+</tr>
+</tbody>
+</table>
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
 <blockquote>
-<p style="text-align: center">"Nerdeyse Star Wars'ta Luke Skywalker gibiydi, birdenbire kod sayesinde süper güçlerim olabileceğini hissettim, sihir gibiydi! Programlamanın; ister bir alet, ister eğitim uygulaması, ister takip cihazı olsun; gerçekten de dünyayı değiştirebileceğini fark etmeye başladım. Hepsinin insanların hayatını değiştirme potansiyeli var."</p>
+<p style="text-align: center; color: white;">"Nerdeyse Star Wars'ta Luke Skywalker gibiydi, birdenbire kod sayesinde süper güçlerim olabileceğini hissettim, sihir gibiydi! Programlamanın; ister bir alet, ister eğitim uygulaması, ister takip cihazı olsun; gerçekten de dünyayı değiştirebileceğini fark etmeye başladım. Hepsinin insanların hayatını değiştirme potansiyeli var."</p>
 </blockquote>
-<p style="text-align: right">–Emma Yang, 2015 Technovation Finalisti</p>
+<p style="text-align: right;">–Emma Yang, 2015 Technovation Finalisti</p>
 
-<h1>Kadın mucitler ve programcılar</h1>
+</div>
+<h1 id="womeninventors">Kadın mucitler ve programcılar</h1>
 Kadınların tarih boyunca bilime çoğu kişinin farkettiğinden çok daha fazla katkıda bulunduğunu biliyor muydunuz?
 
 Bill Gates ve Mark Zuckerberg gibi erkeklerin başarılarını duymuş olabilirsiniz. Ama bilişim teknolojileri tarihinin aynı zamanda kadınlarla dolu olduğunu biliyor muydunuz? Bu kadınların çoğu hayatları boyunca katkıları için tanınmamıştır ama sonrasında etkili olmuş ve bilişim teknolojilerini derinden etkilemişlerdir. Bu kadınlardan bazılarını aşağıda bulabilirsiniz:
-
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/tech-primer7.jpg" alt="tech-primer7" />
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/tech-primer8.jpg" alt="tech-primer8" />
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/tech-primer9.jpg" alt="tech-primer9" />
-<h3 style="text-align: center">Ada Lovelace</h3>
-Ada ingiliz bir matematikçi ve yazardı, başlıca Charles Babbage'ın ilk mekanik genel amaçlı bilgisayarı üstündeki çalışmaları için bilinmektedir. Çok uzun süre önce, 1850'de, yaşamıştı. Ada sıkça ilk programcı ünvanına layık görülür çünkü bir makinenin takip ettiği ilk algoritmayı yazmıştır. Aynı zamanda bilgisayarların hesaplamadan çok daha fazlasını yapabilmesi ve "şiirsel bilim" fikriyle ortak çalışmaya dayalı bir alet olarak kullanılması için bir vizyona sahipti. Bugün bilgisayarları kesinlikle Ada'nın öngördüğü biçimde kullanıyoruz! Ada mucitler için herkesin keyif alabileceği bir yol açtı.
-<h3 style="text-align: center"><b>Grace</b> Hopper</h3>
-Grace bilgisayar kodunu başka bir dile derleyen ya da çeviren ilk kişiydi. Bilgisayar kodu böyle görünür: 00011001111000. İnsanlar tarafından kolayca anlaşılamaz. Grace anlayabileceğimiz bir şekilde çevirerek böyle görünmesini sağladı: “print ‘hello world’”. İcatları kullanımı kolay olan programlama dillerinin oluşumunu sağlamıştır, tıpkı Technovation sırasında kullanabileceğiniz dil gibi!
-<h3 style="text-align: center">Adele<b> Goldberg</b></h3>
-Adele 1960'ta Xerox PARC'de çalışan bir bilgisayar mühendisiydi ve Smalltalk adlı bir programlama dilinin yaratılmasına katkıda bulundu. Adele ve takımı tarafından geliştirilen konseptlerin çoğu bugün grafik temelli kullanıcı arayüzü haline geldi. Grafik temelli kullanıcı arayüzleri her telefon ve bilgisayar kullandığınızda kullanıyorsunuz. Bu konlara tıklayabilmeniz, resim de düğmeleri görebilmeniz anlamına geliyor. Eskiden bilgisayarlar komut satırı temelli sistemlerdi ve programcılar mu makinelerle iletişim kurabilmek için her şeyi satır satır yazmak zorundaydı. Grafik temelli arayüzler insanların bilgisayarları kullanma şekillerini çok büyük bir ölçüde değiştirdi ve bugün dünyada çok fazla insanın telefon ve bilgisayar kullanabilmesini sağladı
-
+<table>
+<tbody>
+<tr>
+<td><img class="aligncenter" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/tech-primer7.jpg" alt="tech-primer7" /></td>
+<td><img class="aligncenter" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/tech-primer8.jpg" alt="tech-primer8" /></td>
+<td><img class="aligncenter" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/tech-primer9.jpg" alt="tech-primer9" /></td>
+</tr>
+<tr>
+<td>
+<h3 style="text-align: center;">Ada Lovelace</h3>
+Ada ingiliz bir matematikçi ve yazardı, başlıca Charles Babbage'ın ilk mekanik genel amaçlı bilgisayarı üstündeki çalışmaları için bilinmektedir. Çok uzun süre önce, 1850'de, yaşamıştı. Ada sıkça ilk programcı ünvanına layık görülür çünkü bir makinenin takip ettiği ilk algoritmayı yazmıştır. Aynı zamanda bilgisayarların hesaplamadan çok daha fazlasını yapabilmesi ve "şiirsel bilim" fikriyle ortak çalışmaya dayalı bir alet olarak kullanılması için bir vizyona sahipti. Bugün bilgisayarları kesinlikle Ada'nın öngördüğü biçimde kullanıyoruz! Ada mucitler için herkesin keyif alabileceği bir yol açtı.</td>
+<td>
+<h3 style="text-align: center;"><b>Grace</b> Hopper</h3>
+Grace bilgisayar kodunu başka bir dile derleyen ya da çeviren ilk kişiydi. Bilgisayar kodu böyle görünür: 00011001111000. İnsanlar tarafından kolayca anlaşılamaz. Grace anlayabileceğimiz bir şekilde çevirerek böyle görünmesini sağladı: “print ‘hello world’”. İcatları kullanımı kolay olan programlama dillerinin oluşumunu sağlamıştır, tıpkı Technovation sırasında kullanabileceğiniz dil gibi!</td>
+<td>
+<h3 style="text-align: center;">Adele<b> Goldberg</b></h3>
+Adele 1960'ta Xerox PARC'de çalışan bir bilgisayar mühendisiydi ve Smalltalk adlı bir programlama dilinin yaratılmasına katkıda bulundu. Adele ve takımı tarafından geliştirilen konseptlerin çoğu bugün grafik temelli kullanıcı arayüzü haline geldi. Grafik temelli kullanıcı arayüzleri her telefon ve bilgisayar kullandığınızda kullanıyorsunuz. Bu konlara tıklayabilmeniz, resim de düğmeleri görebilmeniz anlamına geliyor. Eskiden bilgisayarlar komut satırı temelli sistemlerdi ve programcılar mu makinelerle iletişim kurabilmek için her şeyi satır satır yazmak zorundaydı. Grafik temelli arayüzler insanların bilgisayarları kullanma şekillerini çok büyük bir ölçüde değiştirdi ve bugün dünyada çok fazla insanın telefon ve bilgisayar kullanabilmesini sağladı</td>
+</tr>
+</tbody>
+</table>
 Adele Goldberg hakkında daha çok bilgiye <a href="http://www.computerhistory.org/revolution/input-output/14/347/2301" target="“_blank”">burdan </a>ulaşabilirsiniz.
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
 <blockquote>
-<p style="text-align: center">"Daha önce kod yazmıştım ama asla başkalarının görebileceği gerçek bir ürün programlamamıştım".</p>
+<p style="text-align: center; color: white;">"Daha önce kod yazmıştım ama asla başkalarının görebileceği gerçek bir ürün programlamamıştım".</p>
 </blockquote>
-<p style="text-align: right">–Geçmiş Technovation Katılımcısı (2016)</p>
+<p style="text-align: right;">–Geçmiş Technovation Katılımcısı (2016)</p>
 
-<h1>İlham Alın</h1>
+</div>
+<h1 id="insp">İlham Alın</h1>
 Bir programcı olarak <em>siz</em> bir değişim yaratabilirsiniz! Teknolojiyi, toplumunuzdaki su kıtlığı ve çöp atım sorunlarına dikkat çekmekten gençlerin toplum hizmetlerine ilgi duymasını sağlamaya ve engelli kişilere yardım etmeye kadar toplumunuzdaki herhangi bir soruna dikkat çekmek için kullanabilirsiniz. Toplumunuz için dünyayı daha iyi yapacak birşeyi hayal etmeyi, kurmayı, düşünmeyi, planlamayı, yaratmayı ve kurmayı öğrenebilirsiniz. Ve bunu yalnız yapıyor olmayacaksınız! Bunu başarmak için araç, eğitim ve mentorlarınız olacak. Ve elbette takım arkadaşlarınız!
+
+https://www.youtube.com/watch?v=YDrqtNE1ARI
 
 &nbsp;
 
 Hala daha fazla ilham mı arıyorsunuz? Technovation hakkındaki belgeselimiz olan <a href="http://www.codegirlmovie.com/" target="“_blank”">CodeGirl</a>'ü Netflix üzerinden izleyebilirsiniz. Arkadaşlarınızla izleyin ve bu <a href="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/CodeGirl-Discussion-Guide.pdf" target="“_blank”">tartışma rehberini</a> takip edin.
-<h1 style="margin-top: 0">Technovation</h1>
+<h1 id="technovation" style="margin-top: 0;">Technovation</h1>
 Technovation dünyadaki kızlar için en büyük global teknoloji girişimcilik programıdır - son 6 yılda 78 ülkeden 10000 kıza ulaşmıştır.
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/tech-primer10.jpg" alt="tech-primer10" width="720" height="355" />
+<img class="aligncenter" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/tech-primer10.jpg" alt="tech-primer10" width="720" height="355" />
 
 2009'dan beri:
 <ul>
- 	<li style="font-weight: 400">En az <strong>78</strong><b> ülkededen</b><span style="font-weight: 400"> Technovation'a <strong>10000 kız </strong>katılmıştır</span></li>
- 	<li style="font-weight: 400"><b>Katılımcılar tarafından 1700'den fazla mobil uygulama geliştirilmiştir  </b></li>
- 	<li style="font-weight: 400"><b>2,400'den fazla profesyonel kadın</b> Technovation kızları için koçlar, mentorlar ve bölgesel temsilcilerden oluşan bir global destek ağı kurmuştur.</li>
+ 	<li style="font-weight: 400;">En az <strong>78</strong><b> ülkededen</b><span style="font-weight: 400;"> Technovation'a <strong>10000 kız </strong>katılmıştır</span></li>
+ 	<li style="font-weight: 400;"><b>Katılımcılar tarafından 1700'den fazla mobil uygulama geliştirilmiştir  </b></li>
+ 	<li style="font-weight: 400;"><b>2,400'den fazla profesyonel kadın</b> Technovation kızları için koçlar, mentorlar ve bölgesel temsilcilerden oluşan bir global destek ağı kurmuştur.</li>
 </ul>
 Dünyanın bir parçasını değiştirirken öğrenecekleriniz:
+<table>
+<tbody>
+<tr>
+<td>
 <h3><b>Kodlama</b></h3>
-Nasıl bir mobil uygulama geliştirebileceğiniz ve telefonunuz üzerinden test edebileceğinizi öğreneceksiniz.
-
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/tech-primer11.jpg" alt="tech-primer11" />
+Nasıl bir mobil uygulama geliştirebileceğiniz ve telefonunuz üzerinden test edebileceğinizi öğreneceksiniz.</td>
+<td>
 <h3><b>Girişimcilik</b></h3>
-Firma planı ve pazarlamayla nasıl bir firma kurabileceğinizi öğreneceksiniz
-
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/tech-primer12.jpg" alt="tech-primer12" />
+Firma planı ve pazarlamayla nasıl bir firma kurabileceğinizi öğreneceksiniz</td>
+</tr>
+<tr>
+<td><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/tech-primer11.jpg" alt="tech-primer11" /></td>
+<td><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/tech-primer12.jpg" alt="tech-primer12" /></td>
+</tr>
+<tr>
+<td>
 <h3><b>Takım Çalışması</b></h3>
-Nasıl bir takım olarak çalışıp her şeyi gerçekleştireceğinizi öğreneceksiniz.
-
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/tech-primer13.jpg" alt="tech-primer13" />
+Nasıl bir takım olarak çalışıp her şeyi gerçekleştireceğinizi öğreneceksiniz.</td>
+<td>
 <h3><b>Liderlik</b></h3>
-Fikirlerinizi nasıl hayata geçirebileceğinizi ve çözümünüzü seyirciler önünde sunabileceğinizi öğreneceksiniz.
-
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/tech-primer14.jpg" alt="tech-primer14" />
-<h1 style="margin-top: 0">Beyin Fırtınası</h1>
+Fikirlerinizi nasıl hayata geçirebileceğinizi ve çözümünüzü seyirciler önünde sunabileceğinizi öğreneceksiniz.</td>
+</tr>
+<tr>
+<td><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/tech-primer13.jpg" alt="tech-primer13" /></td>
+<td><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/tech-primer14.jpg" alt="tech-primer14" /></td>
+</tr>
+</tbody>
+</table>
+<h1 id="brain" style="margin-top: 0;">Beyin Fırtınası</h1>
 Dünyayı değiştirmek için kodu nasıl kullanmayı planlıyorsunuz? Başlarken düşünmeniz için birkaç soru:
 <ul>
- 	<li style="font-weight: 400">Kodu kullanarak her şeyi yaratabilecek olsaydınız ne yaratırdınız?</li>
- 	<li style="font-weight: 400">Çevrenizde görüp çözmek istediğiniz bir problem nedir?</li>
+ 	<li style="font-weight: 400;">Kodu kullanarak her şeyi yaratabilecek olsaydınız ne yaratırdınız?</li>
+ 	<li style="font-weight: 400;">Çevrenizde görüp çözmek istediğiniz bir problem nedir?</li>
 </ul>
 Bir uygulama için spesifik bir fikir bulmaya çalışın! İlham almak için aşağıdaki eski Technovation projelerine bakabilirsiniz!
-<p style="text-align: center"><b>Açlıkla mücadele eden uygulamalar</b></p>
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/tech-primer15.jpg" alt="tech-primer15" width="252" height="252" />
-<h3 style="text-align: center"><a href="https://www.youtube.com/watch?v=SJqEruEfLPc" target="“_blank”">AurGrrls'dan Food Rescue (Yemek Kurtar)</a></h3>
-<p style="text-align: center">Bu uygulama kullanıcılarına Los Angeles bölgesindeki film setlerinden artan yemeği yerel gıda bankalarına bağışlama imkanı sağlıyor.</p>
+<table>
+<tbody>
+<tr>
+<td>
+<p style="text-align: center;"><b>Açlıkla mücadele eden uygulamalar</b></p>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/tech-primer15.jpg" alt="tech-primer15" width="252" height="252" /></td>
+<td>
+<h3 style="text-align: center;"><a href="https://www.youtube.com/watch?v=SJqEruEfLPc" target="“_blank”">AurGrrls'dan Food Rescue (Yemek Kurtar)</a></h3>
+<p style="text-align: center;">Bu uygulama kullanıcılarına Los Angeles bölgesindeki film setlerinden artan yemeği yerel gıda bankalarına bağışlama imkanı sağlıyor.</p>
 
-<h3 style="text-align: center"><a href="https://www.youtube.com/watch?v=1U-vRBqWGSU" target="“_blank”">IDF'den InDaFridge (Buz Dolabında) </a></h3>
-<p style="text-align: center">Bu uygulama insanların yemeği boşa harcamalarını engellemek için onlara buz dolaplarındaki yiyecekleri kullanarak yapabilecekleri kişisel tarifler sunuyor.</p>
-<p style="text-align: center"><b>Şiddete son vermek için uygulamalar</b></p>
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/tech-primer16.jpg" alt="tech-primer16" width="252" height="252" />
-<h3 style="text-align: center"><a href="https://www.youtube.com/watch?v=KGGjePhGlr4" target="“_blank”">Neo Safety (Neo Güvenlik)</a></h3>
-<p style="text-align: center">Bu uygulama insanların bulundukları bölgede önceden gerçekleşen suçlar olup olmadığını görmelerini sağlıyor.</p>
+<h3 style="text-align: center;"><a href="https://www.youtube.com/watch?v=1U-vRBqWGSU" target="“_blank”">IDF'den InDaFridge (Buz Dolabında) </a></h3>
+<p style="text-align: center;">Bu uygulama insanların yemeği boşa harcamalarını engellemek için onlara buz dolaplarındaki yiyecekleri kullanarak yapabilecekleri kişisel tarifler sunuyor.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><b>Şiddete son vermek için uygulamalar</b></p>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/tech-primer16.jpg" alt="tech-primer16" width="252" height="252" /></td>
+<td>
+<h3 style="text-align: center;"><a href="https://www.youtube.com/watch?v=KGGjePhGlr4" target="“_blank”">Neo Safety (Neo Güvenlik)</a></h3>
+<p style="text-align: center;">Bu uygulama insanların bulundukları bölgede önceden gerçekleşen suçlar olup olmadığını görmelerini sağlıyor.</p>
 
-<h3 style="text-align: center"><a href="https://www.youtube.com/watch?v=vbdCa7bdPNw" target="“_blank”">Girls for Change From Dharavi'den Women Figt Back(Kadınlar Geri Savaşıyor)</a></h3>
-<p style="text-align: center">Bu uygulama kadınların saldırıya veya şiddete maruz kaldıklarında rapor edip yardım istemelerini sağlıyor.</p>
-<p style="text-align: center"><b>Çevreci uygulamalar</b></p>
-<p style="text-align: center"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/tech-primer17.jpg" alt="tech-primer17" width="252" height="252" /></p>
+<h3 style="text-align: center;"><a href="https://www.youtube.com/watch?v=vbdCa7bdPNw" target="“_blank”">Girls for Change From Dharavi'den Women Figt Back(Kadınlar Geri Savaşıyor)</a></h3>
+<p style="text-align: center;">Bu uygulama kadınların saldırıya veya şiddete maruz kaldıklarında rapor edip yardım istemelerini sağlıyor.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><b>Çevreci uygulamalar</b></p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/tech-primer17.jpg" alt="tech-primer17" width="252" height="252" /></p>
+</td>
+<td>
+<h3 style="text-align: center;"><a href="https://www.youtube.com/watch?v=KAgw_GcCCxs" target="“_blank”">Team Charis'ten Discardious </a></h3>
+<p style="text-align: center;">Bu uygulama kullanıcılarının bölgelerindeki çöpleri toplamalarına çöp arabaları temin ederek yardım ediyor.</p>
 
-<h3 style="text-align: center"><a href="https://www.youtube.com/watch?v=KAgw_GcCCxs" target="“_blank”">Team Charis'ten Discardious </a></h3>
-<p style="text-align: center">Bu uygulama kullanıcılarının bölgelerindeki çöpleri toplamalarına çöp arabaları temin ederek yardım ediyor.</p>
-
-<h3 style="text-align: center"><a href="https://www.youtube.com/watch?v=evOgwXoi7oU" target="“_blank”">California Coders'dan Loc8Don8</a></h3>
-<p style="text-align: center">Bu uygulama insanlara artık ihtiyacı olamayan şeyleri bağışlayabilecekleri yerler bulmalarında yardımcı oluyor.</p>
-
-<h1>Değişim yarat!</h1>
+<h3 style="text-align: center;"><a href="https://www.youtube.com/watch?v=evOgwXoi7oU" target="“_blank”">California Coders'dan Loc8Don8</a></h3>
+<p style="text-align: center;">Bu uygulama insanlara artık ihtiyacı olamayan şeyleri bağışlayabilecekleri yerler bulmalarında yardımcı oluyor.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<div style="background-color: #006667; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h1 id="getstarted"><span style="color: #ffffff;">Değişim yarat!</span></h1>
 Kodlamayı öğrenip toplumunda bir değişim yaratmaya hazır mısın? Technovation müfredatıyla başla.
 
 Sırada yapmanız gerekenler:
 <ul>
- 	<li style="font-weight: 400">Takımınızı yaratmaya başlayın! <a href="https://my.iridescent.staging.wpengine.com/" target="“_blank”">my.iridescent.staging.wpengine.com </a>sitesine giriş yapın. Technovation Takım Yarat ünitesi sizi takımınızı yaratmak için gerekli adımlara yönlendirecek.</li>
+ 	<li style="font-weight: 400;">Takımınızı yaratmaya başlayın! <a style="color: #eae46f;" href="https://my.iridescent.staging.wpengine.com/" target="“_blank”">my.iridescent.staging.wpengine.com </a>sitesine giriş yapın. Technovation Takım Yarat ünitesi sizi takımınızı yaratmak için gerekli adımlara yönlendirecek.</li>
 </ul>
+</div>
