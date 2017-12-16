@@ -1,5 +1,3 @@
-<h1>التسويق 1</h1>
-<h1>بناء العلامة التجارية</h1>
 <ul>
  	<li><a href="#whatis">ما هي العلامة التجارية؟</a></li>
  	<li><a href="#identify">تحديد العلامة التجارية الخاصة بك</a></li>
@@ -14,27 +12,36 @@
 في هذه الوحدة، سوف تتعلمين كيفية :
 <ul>
  	<li>التعرف على صوت وقيم والرؤية الخاصة بعلامتك التجارية</li>
- 	<li style="font-weight: 400">دمج العلامة التجارية الخاصة بك في عملك</li>
+ 	<li style="font-weight: 400;">دمج العلامة التجارية الخاصة بك في عملك</li>
 </ul>
-<h3>ما هي العلامة التجارية؟</h3>
+<h3 id="whatis"><strong>ما هي العلامة التجارية؟</strong></h3>
 تُعرّف جمعية التسويق الأمريكية <strong>التسويق</strong> على النحو التالي: "نشاطات مجموعة من المؤسسات، والعمليات لخلق التواصل، وتقديم وتبادل العروض التي لديها قيمة للزبائن وللعملاء وللشركاء وللمجتمع ككل". وبعبارة أخرى، هو العمل المنجز لتبين للآخرين أن عملك ومنتجك (تطبيقك) مفيد وجذاب. <strong>التسويق</strong> هو كيف يمكنكِ التواصل لتخبري الناس (العملاء والمستثمرين والشركات الأخرى) عن شركتكِ، وما هو الهدف، وماذا تبيعين، وماذا يجب أن يتوقعوا عند العمل معكِ. طريقة أخرى للتفكير في أجزاء مهمة من التسويق هي <a href="http://www.purelybranded.com/insights/the-four-ps-of-marketing/" target="_blank">الأربعة محاور</a>: المنتج، السعر، الترويج، والمكان.
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px, margin-bottom:25px;">
 <blockquote>
-<h3 style="text-align: center">"كل شخص لديه روح. وكل منتج لديه علامة تجارية."</h3>
+<h3 style="text-align: center;"><strong><span style="color: #ffffff;">"كل شخص لديه روح. وكل منتج لديه علامة تجارية."</span></strong></h3>
 </blockquote>
-<p style="text-align: right">—<a href="http://originalchampionsofdesign.com/about/" target="_blank"> جينيفر كينون</a>، مصممة وأحد المؤسسين ل OCD.</p>
+<p style="text-align: right;">—<a style="color: #eae46f;" href="http://originalchampionsofdesign.com/about/" target="_blank"> جينيفر كينون</a>، مصممة وأحد المؤسسين ل OCD.</p>
+
+</div>
+&nbsp;
+
 <strong>العلامة التجارية</strong> الخاصة بك هو ما يُفكر به الناس عنكِ. إذا كان التطبيق الخاص بك شخص، فعلامتهم التجارية ستكون شخصيته. انها كل شيء يجعل الجمهور يعتقد أنه يعرف عن اسم العلامة التجارية الخاصة بكِ ومنتجكِ: واقعيا (مثلا يأتي بصندوق أرجواني وبرتقالي) عاطفيا (مثلا هو رومانسي). العلامة التجارية الخاصة بك لها وجود موضوعي، لأن الناس يمكن أن يروا ذلك. هو لا يتغير. ولكن العلامة التجارية الخاصة بك موجودة فقط في <a href="http://www.forbes.com/sites/jerrymclaughlin/2011/12/21/what-is-a-brand-anyway/#7bcd32202aa4" target="_blank">عقل الشخص</a>. انها " من " منتجك / الشركة.
 
 <a href="http://www.tdsblog.com/fashion-branding-101/" target="_blank"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image02-2-1024x639.png" alt="image02" width="1024" height="639" /></a>
-<h3>تمرين للتفكير</h3>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px, margin-bottom:25px;">
+<h3><strong>تمرين للتفكير</strong></h3>
 فكري في بعض العلامات التجارية التي تعرفينها. هل يمكنكِ أن تتخيلي الشعارات الخاصة بهم؟ ماذا يبيعون؟ ما هو شعارهم أو جملتهم التي تصفه؟ ما هو الشعور الذي يتملّككِ عندما تفكري في أعمالهم؟
+
+</div>
+&nbsp;
 
 أنتي تعرفين نايك (Nike)، واحدة من أكثر العلامات التجارية شهرة. هي تمثل السرعة، الحركة، وأخيراً التميز الرياضي والأداء. واستطاعت شركة Nike عن طريق جعل الرياضيين الناجحين والمشهورين أن يرتدوا منتجاتهم مع الشعار الخاصة بهم، أن تطور أسلوب يقول: إذا كنت تريد أن تكون رياضياً، Nike ستساعدك على الوصول إلى هناك. شعارها الشهير: "فقط إفعل ذلك" يعزز هذه الفكرة .
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image03.png" alt="image03" width="221" height="134" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image03.png" alt="image03" width="221" height="134" />
 
 ألقي نظرة على هذا الفيديو العلامات التجارية وشاهدي كم علامة تجارية قد تعرفيها!
 
-&nbsp;
+<center><iframe src="https://www.youtube.com/embed/JKIAOZZritk" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></center>&nbsp;
 
 العلامات التجارية تفعل أشياء كثيرة:
 <ul>
@@ -42,75 +49,85 @@
  	<li>تعطي صوت وشخصية لمنتجك</li>
  	<li>تبني علاقة وذكريات مع العملاء</li>
 </ul>
-<h3>دراسة حالة تحديد العلامة التجارية</h3>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px, margin-bottom:25px;">
+<h3><strong>دراسة حالة تحديد العلامة التجارية</strong></h3>
 حاولي فهم كيفية تحديد العلامة التجارية باستخدام الإعلان والذي استخدمه ستيف جوبس بشكل ناجح لإعادة تصنيف شركة Apple.
-<p style="text-align: center"></p>
-<p style="text-align: center"></p>
+<div style="width: 47.5%; margin-right: 2.5%; float: left;">
+<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/-z4NS2zdrZc" width="400" height="225" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+
+</div>
+<div style="width: 47.5%; margin-right: 2.5%; float: right;">
+<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/keCwRdbwNQY" width="400" height="225" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+
+</div>
 في خطابه، قال انه يريد الإجابة على الأسئلة لعملائه، مثل "ماهي أبل؟ ماذا الذي ندافع عنه؟ ما هو موقعنا في العالم؟ " وكان قادرا على نقل القيم الأساسية لشركة أبل ببساطة شديدة، وأنه حتى لم يكن بحاجة إلى ذكر المنتج. مع حملته "فكر باختلاف"، كان باستطاعته أن يخبر العملاء إنهم إذا أرادوا أن يفكروا باختلاف ويغيروا العالم بطريقة ما، فسوف يرغبون في العمل على أجهزة كمبيوتر أبل. هذه الطريقة  استطاعت ان تحصل على عقلية وقلب العملاء: أنت ما تستخدمه. هذه الحملة كانت واحدة من أكثر حملات التسويق نجاحا في التاريخ.
-<h3>تحديد العلامة التجارية الخاصة بك</h3>
+
+</div>
+<h3 id="identify"><strong>تحديد العلامة التجارية الخاصة بك</strong></h3>
 للبدء في العلامة التجارية الخاصة بكِ، يجب عليكِ الرجوع إلى تقرير أبحاث المستهلكين الذي عملتي عليه في <a href="http://www.technovationchallenge.org/curriculum/business2/">إدارة الأعمال 2</a>. يجب عليكِ أن تعرفي الجمهور المستهدف بشكل جيد. هؤلاء هم الناس الذين تريدين أن تبيعي لهم، <strong>الزبائن</strong>. هذا سيساعدكِ على التركيز على بناء العلامة التجارية التي ستكون جذابة أمامهم،  تجعلهم يرغبون في شراء المنتج الخاص بكِ. حاولي الإجابة عن هذه الأسئلة لتكوين فكرة عن <a href="https://www.youtube.com/watch?v=oQ6Re_iysMk&amp;feature=youtu.be&amp;t=8m5s" target="_blank"> العلامة التجارية </a>الخاصة بكِ.
 <ol>
- 	<li style="font-weight: 400">مصلحة الزبائن: ما هي المشكلة التي تحاولين حلها للزبائن؟ فكري لماذا يرغب أي شخص في شراء هذا المنتج.</li>
- 	<li style="font-weight: 400">الزبائن المستهدفين: من هم؟ كوني دقيقة قدر الإمكان، حاولي تقسيمهم إلى قسمين:
+ 	<li style="font-weight: 400;">مصلحة الزبائن: ما هي المشكلة التي تحاولين حلها للزبائن؟ فكري لماذا يرغب أي شخص في شراء هذا المنتج.</li>
+ 	<li style="font-weight: 400;">الزبائن المستهدفين: من هم؟ كوني دقيقة قدر الإمكان، حاولي تقسيمهم إلى قسمين:
 <ul>
- 	<li style="font-weight: 400"><b>التركيبة السكانية</b> هي خصائص مجموعة سكانية معينة. هذا سيجعلكِ تتعرفين من <strong>الذي</strong> سيشتري المنتج الخاص بك.
+ 	<li style="font-weight: 400;"><b>التركيبة السكانية</b> هي خصائص مجموعة سكانية معينة. هذا سيجعلكِ تتعرفين من <strong>الذي</strong> سيشتري المنتج الخاص بك.
 <ul>
- 	<li style="font-weight: 400">على سبيل المثال: العمر والجنس والموقع، والعرق، واللغة، والتعليم، والدين، والدخل، الخ.</li>
+ 	<li style="font-weight: 400;">على سبيل المثال: العمر والجنس والموقع، والعرق، واللغة، والتعليم، والدين، والدخل، الخ.</li>
 </ul>
 </li>
- 	<li style="font-weight: 400"><b>التخطيط الشخصي</b> هو دراسة الشخصية والقيم والآراء والمواقف، والمصالح، وأنماط الحياة. هذا يُخبرك <strong>لماذا</strong> سيشتري العملاء المنتج الخاص بك.
+ 	<li style="font-weight: 400;"><b>التخطيط الشخصي</b> هو دراسة الشخصية والقيم والآراء والمواقف، والمصالح، وأنماط الحياة. هذا يُخبرك <strong>لماذا</strong> سيشتري العملاء المنتج الخاص بك.
 <ul>
- 	<li style="font-weight: 400">على سبيل المثال: الوعي الصحي، الإنشغال، الدرجة العالية من التنظيم، الوضع العائلي، الوعي البيئي والاجتماعي، الذكاء، الخ</li>
+ 	<li style="font-weight: 400;">على سبيل المثال: الوعي الصحي، الإنشغال، الدرجة العالية من التنظيم، الوضع العائلي، الوعي البيئي والاجتماعي، الذكاء، الخ</li>
 </ul>
 </li>
 </ul>
 </li>
- 	<li style="font-weight: 400">شخصية العلامة التجارية: لو كانت العلامة التجارية الخاصة بك شخص ما، كيف سيكون؟ حاولي أن تجدي شخص مشهور تعرفينه يتناسب مع شركتك. قد تبدو فكرة سخيفة لكنها سوف تساعدكِ على تحديد عملك .
+ 	<li style="font-weight: 400;">شخصية العلامة التجارية: لو كانت العلامة التجارية الخاصة بك شخص ما، كيف سيكون؟ حاولي أن تجدي شخص مشهور تعرفينه يتناسب مع شركتك. قد تبدو فكرة سخيفة لكنها سوف تساعدكِ على تحديد عملك .
 <ul>
- 	<li style="font-weight: 400">على سبيل المثال، جاين غودال هي من محبي الحيوانات، أو مايكل جاكسون هو الشخص الموسيقي والفني.</li>
+ 	<li style="font-weight: 400;">على سبيل المثال، جاين غودال هي من محبي الحيوانات، أو مايكل جاكسون هو الشخص الموسيقي والفني.</li>
 </ul>
 </li>
 </ol>
 لمزيد من المعلومات حول العلامات التجارية، يمكنكِ استكشاف هذه الموارد:
 <ul>
- 	<li style="font-weight: 400"><a href="https://www.entrepreneur.com/article/77408" target="_blank">ريادة المشروع : أساسيات العلامات التجارية</a></li>
- 	<li style="font-weight: 400"><a href="https://business.tutsplus.com/tutorials/what-is-branding--cms-25897" target="_blank">Envato : ما هي العلامات التجارية؟</a></li>
- 	<li style="font-weight: 400"><a href="http://www.slideshare.net/nicolasleonard986/gopro-brand-audit" target="_blank">Slideshare : تدقيق العلامة التجارية ل GoPro</a></li>
- 	<li style="font-weight: 400"><a href="http://blog.hubspot.com/blog/tabid/6307/bid/33491/Everything-Marketers-Need-to-Research-Create-Detailed-Buyer-Personas-Template.aspx#sm.000sg7opb13fbdccsmd1u9r3p732q" target="_blank"> Hubspot : كيف تنشئين تشخيص مشتري مفصل لعملك </a></li>
+ 	<li style="font-weight: 400;"><a href="https://www.entrepreneur.com/article/77408" target="_blank">ريادة المشروع : أساسيات العلامات التجارية</a></li>
+ 	<li style="font-weight: 400;"><a href="https://business.tutsplus.com/tutorials/what-is-branding--cms-25897" target="_blank">Envato : ما هي العلامات التجارية؟</a></li>
+ 	<li style="font-weight: 400;"><a href="http://www.slideshare.net/nicolasleonard986/gopro-brand-audit" target="_blank">Slideshare : تدقيق العلامة التجارية ل GoPro</a></li>
+ 	<li style="font-weight: 400;"><a href="http://blog.hubspot.com/blog/tabid/6307/bid/33491/Everything-Marketers-Need-to-Research-Create-Detailed-Buyer-Personas-Template.aspx#sm.000sg7opb13fbdccsmd1u9r3p732q" target="_blank"> Hubspot : كيف تنشئين تشخيص مشتري مفصل لعملك </a></li>
 </ul>
-<h3>نشاط: من نحن ومن ليس نحن</h3>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px, margin-bottom:25px;">
+<h3 id="act"><strong>نشاط: من نحن ومن ليس نحن</strong></h3>
 <em>هذا النشاط يمكن عمله تحت إشراف موجه أو معلم.</em>
 
 هذا النشاط سيساعدك على فهم الخصائص الأساسية التي تصف علامتك التجارية بأفضل طريقة. جمّعي فريقك – الناس التي تعرف الافضل عن علامتك التجارية. ستقومي بكتابة الأهداف على بطاقات أو قطع من الأوراق التي تصف علامتك التجارية والطريقة التي تريدين أن يراكِ فيها الزبون. بعدها، ستقومي بتقسيم هذه البطاقات إلى 3 مجموعات: نحن، ليس نحن، لا ينطبق علينا. بالنهاية سيكون لديك الأهداف القليلة التي تصف العلامة التجارية في مجموعة نحن نكون.
 
 ما الذي ستحتاجينه:
 <ul>
- 	<li style="font-weight: 400">بطاقات الملاحظة أو قصاصات الورق مقصوصة إلى أجزاء صغيرة (اذا كنتِ تعملين عن بعد، حاولي استخدام برامج مثل <a href="https://www.google.com/docs/about/" target="_blank">مستندات جوجل</a> أو <a href="http://ideaboardz.com/" target="_blank">IdeaBoardz</a>.</li>
- 	<li style="font-weight: 400">أقلام أو قلم تخطيط</li>
- 	<li style="font-weight: 400"><a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/MarketingUnit-Module1-Branding-WeAreAreNotWorksheet.pdf" target="_blank">ورقة عمل</a></li>
+ 	<li style="font-weight: 400;">بطاقات الملاحظة أو قصاصات الورق مقصوصة إلى أجزاء صغيرة (اذا كنتِ تعملين عن بعد، حاولي استخدام برامج مثل <a style="color: #eae46f;" href="https://www.google.com/docs/about/" target="_blank">مستندات جوجل</a> أو <a style="color: #eae46f;" href="http://ideaboardz.com/" target="_blank">IdeaBoardz</a>.</li>
+ 	<li style="font-weight: 400;">أقلام أو قلم تخطيط</li>
+ 	<li style="font-weight: 400;"><a style="color: #eae46f;" href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/MarketingUnit-Module1-Branding-WeAreAreNotWorksheet.pdf" target="_blank">ورقة عمل</a></li>
 </ul>
 ما الذي ستفعلينه :
 <ol>
- 	<li style="font-weight: 400">وزعي من 10الى 15 بطاقة على كل فرد من أفراد الفريق</li>
- 	<li style="font-weight: 400">اطلبي من كل فرد في الفريق أن يكتب كلمة وصف أو جملة قصيرة عن شركتكِ على كل بطاقة</li>
- 	<li style="font-weight: 400">كفريق، ابدأي بترتيب هذه البطاقات إلى 3 فئات : نحن، ليس نحن نكون، لا ينطبق علينا. تذكري أن هذه الكلمات يجب أن تصف كيف تريدين أن ينظر الزبون إليها.</li>
- 	<li style="font-weight: 400">قللي بطاقات نحن وليس نحن  إلى 4-7 بطاقات.</li>
- 	<li style="font-weight: 400">أنهِ البطاقات. تأكدي أن كل الفريق يتوافق مع المؤسسة. وإن لم يكن، تناقشي مع المجموعة وتوصلي إلى استنتاج كمجموعة.</li>
+ 	<li style="font-weight: 400;">وزعي من 10الى 15 بطاقة على كل فرد من أفراد الفريق</li>
+ 	<li style="font-weight: 400;">اطلبي من كل فرد في الفريق أن يكتب كلمة وصف أو جملة قصيرة عن شركتكِ على كل بطاقة</li>
+ 	<li style="font-weight: 400;">كفريق، ابدأي بترتيب هذه البطاقات إلى 3 فئات : نحن، ليس نحن نكون، لا ينطبق علينا. تذكري أن هذه الكلمات يجب أن تصف كيف تريدين أن ينظر الزبون إليها.</li>
+ 	<li style="font-weight: 400;">قللي بطاقات نحن وليس نحن  إلى 4-7 بطاقات.</li>
+ 	<li style="font-weight: 400;">أنهِ البطاقات. تأكدي أن كل الفريق يتوافق مع المؤسسة. وإن لم يكن، تناقشي مع المجموعة وتوصلي إلى استنتاج كمجموعة.</li>
 </ol>
 ماذا بعد:
 
 الآن لديكِ أهم الكلمات لعلامتك التجارية. الآن هو الوقت لتطبيقها على عملك! تستطيعين استخدام هذه الكلمات كدليل لبناء علامتك التجارية. يمكن إحالة ونقل هذه الصفات خلال عدة أشياء طوال هذه الوحدة، خصوصا اسم عملك واسم منتجك ( تطبيقك ) .
 
 وكما انها يمكن ان تكون بين الأيادي عند تطوير المرئيات الخاصة بك أيضا! لو كانت صفات شركتك "شابة" و "مرحة"، يمكن أن تستخدم الكثير من الألوان البراقة المختلفة، فيما لو أن شركتك كانت "جادة" و "مهنية" قد يفضل أن تستخدم الألوان البسيطة والمهنية. وعند بناءك للعلامة التجارية في هذه الوحدة والمسابقة، اسألي نفسك إذا كانت متسقة وثابتة مع الصفات التي استنتجتها من هذا النشاط.
-<p style="text-align: left">جاهز للعمل ؟ قومي بتحميل ورقة العمل!</p>
-<a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/MarketingUnit-Module1-Branding-WeAreAreNotWorksheet.pdf" target="_blank">
+<p style="text-align: left;">جاهز للعمل ؟ قومي بتحميل ورقة العمل!</p>
+<a style="color: #eae46f;" href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/MarketingUnit-Module1-Branding-WeAreAreNotWorksheet.pdf" target="_blank">
 تحميل ورقة العمل
 </a>
 
-بالهام من <a href="https://branding.cards/" target="_blank">Brand Deck</a>
-<h3>إطلاق إسم على عملك</h3>
-&nbsp;
+بالهام من <a style="color: #eae46f;" href="https://branding.cards/" target="_blank">Brand Deck</a>
 
+</div>
+<h3 id="name"><strong>إطلاق إسم على عملك</strong></h3>
 عندما يواجهك هذا التحدي، فكري ما الذي يجعل الإسم جيداً وما الذي يجعله سيئاً. الإسم لا يجب عليه أن يخبرنا تماما ما هو مجال عمله، لكن يجب أن يكون ملفت ويسهل تذكره على مر الزمن عندما يصبح المنتج والعمل معروفاً. في البدايات ، كلمات مثل <a href="http://www.apple.com/" target="_blank">أبل،</a> <a href="https://www.google.com/about/company/" target="_blank">جوجل،</a> و <a href="http://www.coca-colacompany.com/" target="_blank">كوكاكولا</a> كانت فقط كلمات لا معنى لها ومجرد شعارات.  لكن على مر الزمن أصبحت معروفة جدا كلما تفاعل الناس أكثر وأكثر مع علاماتهم التجارية. يمكن أن تكون اختصارات، اسم عائلة، أو حتى مجموعة من الكلمات. أمثلة ك<a href="http://www.bmw.com/com" target="_blank">BMW،</a> <a href="https://www.mtn.com/Pages/Home.aspx" target="_blank">MTN،</a> <a href="https://www.att.com/" target="_blank">AT&amp;T</a> و <a href="http://www.samsung.com" target="_blank">سامسونج</a>. هل تعلمين أن مؤسس جوجل كان يريد اختيار الاسم <a href="http://uk.businessinsider.com/the-true-story-behind-googles-first-name-backrub-2015-10?r=US&amp;IR=T" target="_blank">Backrub؟</a>
 
 <img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image01-1-1024x732.png" alt="image01" width="251" height="179" />
@@ -118,8 +135,9 @@
 إذا كنتِ لا تعلمين من أين البدء، هذه <a href="http://thenextweb.com/entrepreneur/2012/04/22/before-naming-your-startup-read-this/" target="_blank">المقالة </a>ستكون بداية جيدة لك !
 
 تذكري، اسم شركتك لا يجب أن يكون نفس اسم التطبيق، ولكن اذا كنتِ تفضلين ذلك، تستطيعين ان تشاريكيهما نفس الاسم. أنتِ من تختار كيف تسمي شركتك وتطبيقك ! على سبيل المثال أبل لديها العديد من المنتجات المختلفة مثل Macbook و iPhone والتي لا تزال تحمل علامة أبل في الجانب الآخر هنالك شركات لديها نفس اسم المنتج مثل كوكاكولا هو نفس اسم المنتج.
-<h3>نشاط: العصف الذهني لايجاد اسم لعملك</h3>
-حاولي العصف الذهني لمجموعة من الأسماء المحتملة مع فريقك وبعدها قلصي خياراتك للقليل منهم. استخدمي القدرات العقلية الإبداعية الخاصة بكِ، أو استخدمي <a href="https://www.shopify.com/tools/business-name-generator" target="_blank">مواقع إنشاء الأسماء </a>مواقع موّلدات الأسماء يمكن أن تساعد بإضافة الكلمات المميزة، وإنشاء العديد من الخيارات. تذكري، يجب عليك الرجوع لقائمة الصفات التي قررتيها في نشاط "نحن وليس نحن"، والتي سوف تساعدكِ في اعتماد الاسم المناسب لشركتك.
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px, margin-bottom:25px;">
+<h3 id="act2"><strong>نشاط: العصف الذهني لايجاد اسم لعملك</strong></h3>
+حاولي العصف الذهني لمجموعة من الأسماء المحتملة مع فريقك وبعدها قلصي خياراتك للقليل منهم. استخدمي القدرات العقلية الإبداعية الخاصة بكِ، أو استخدمي <a style="color: #eae46f;" href="https://www.shopify.com/tools/business-name-generator" target="_blank">مواقع إنشاء الأسماء </a>مواقع موّلدات الأسماء يمكن أن تساعد بإضافة الكلمات المميزة، وإنشاء العديد من الخيارات. تذكري، يجب عليك الرجوع لقائمة الصفات التي قررتيها في نشاط "نحن وليس نحن"، والتي سوف تساعدكِ في اعتماد الاسم المناسب لشركتك.
 
 بعد أن ضيقتِ الخيارات لمجموعة من خمس احتمالات أو أقل، حاولي أن تسألي الزبائن المعنيين، الأصدقاء، أو أي شخص يمكن أن يتعامل مع شركتك أو تطبيقك. قد تستطيعين أن تأخذي انطباعات الأشخاص عن الإسم، وتستطيعين معرفة أي من الأسماء هو الأكثر سطوعا ويفهمه الناس أكثر. وتستطيعين أيضا أن تسأليهم عن أي الصفات تصف هذا الاسم بما يتوافق مع نشاط العلامة التجارية.
 
@@ -127,31 +145,32 @@
 
 لمزيد من النصائح حول تسمية مشروعك وتطبيقك، تفحصي الروابط التالية:
 <ul>
- 	<li style="font-weight: 400"><a href="http://startupbros.com/how-to-pick-the-perfect-name-for-your-business-or-startup/" target="_blank">Startupbros: كيف تختار الاسم الأفضل لشركتك أو مبادرتك</a></li>
- 	<li style="font-weight: 400"><a href="https://www.entrepreneur.com/article/21774" target="_blank">Entrepreneur: كيف تطلق اسم على شركتك.</a></li>
- 	<li style="font-weight: 400"><a href="http://www.adweek.com/news/advertising-branding/when-it-comes-naming-your-startup-simple-better-163993" target="_blank">Adweek: الاسم البسيط هو الافضل</a></li>
+ 	<li style="font-weight: 400;"><a style="color: #eae46f;" href="http://startupbros.com/how-to-pick-the-perfect-name-for-your-business-or-startup/" target="_blank">Startupbros: كيف تختار الاسم الأفضل لشركتك أو مبادرتك</a></li>
+ 	<li style="font-weight: 400;"><a style="color: #eae46f;" href="https://www.entrepreneur.com/article/21774" target="_blank">Entrepreneur: كيف تطلق اسم على شركتك.</a></li>
+ 	<li style="font-weight: 400;"><a style="color: #eae46f;" href="http://www.adweek.com/news/advertising-branding/when-it-comes-naming-your-startup-simple-better-163993" target="_blank">Adweek: الاسم البسيط هو الافضل</a></li>
 </ul>
-<h3><b>إنشاء : بيان الوضع</b></h3>
+</div>
+<h3 id="create"><b>إنشاء : بيان الوضع</b></h3>
 الآن بعد أن أصبحت لديكِ فكرة أوضح عن علامتك التجارية، يجب عليك البدء ببيان تحديد الوضع. بيان تحديد الوضع هو وصف موجز لعميلك وكذلك صورة مقنعة عن كيفية فهم العميل لعلامتك التجارية. إذا تمت بالصورة الصحيحة فهي واحدة من الأجزاء الأهم في خطة التسويق – فهي ستوضح كيفية انجاز علامتك التجارية، الشعارات، وحتى خدمة الزبائن. وهذا يجب أن لا يختلط عليك مع بيان المهمة الذي أنشأتيه في <a href="http://www.technovationchallenge.org/curriculum/business-1/" target="_blank">ادارة الأعمال 1</a> وهو أوسع ويصف ما تأمل المؤسسة بحله أو تحقيقه.
 
 بيان تحديد الوضع  يجب أن يغطي 4 أجزاء مهمة :
 <ol>
- 	<li style="font-weight: 400"><strong>منتجك</strong> (وما الذي يميزه)
+ 	<li style="font-weight: 400;"><strong>منتجك</strong> (وما الذي يميزه)
 صفي بوضوح القيمة التي يقدمها تطبيقك. إذا كنتِ مهندسة معمارية، فأنتِ لا توفري المخططات إنما تصممي المباني. إذا كنتِ أحد المطاعم الراقية، فأنتِ لا تصنعين الطعام إنما توفري الخبرات للطهي. يجب عليك أن تتأكدي انك تفهمين ما الذي ستقومين بتقديمه للشخص وكيف يشتري منتجك أو خدمتك.</li>
- 	<li style="font-weight: 400"><strong>السوق المستهدف </strong> (ولماذا تحبهم)
+ 	<li style="font-weight: 400;"><strong>السوق المستهدف </strong> (ولماذا تحبهم)
 من الذي تحاولين ابهارهم؟ ماذا تشبه؟ يجب أن يكون قصير ويصل للنقطة، ولكن يجب أن يعطي فهم كاف للذي تريدين الوصول إليه. ليس كافياً أن تقولي أن السوق المستهدف هو "المراهقين" ولكن سيكون من الإطناب أن تقولي "هدفنا أن نصل لكل الذكور الذين أعمارهم بين 13 و17 والذين يستمتعون باللعب على ألعاب مشابهة للتنين والأبراج المحصنة ولكن ليس ألعاب مثل مونوبولي ... " ، ف جملة "لاعبين مراهقين " تكون أقصر وأجمل.</li>
- 	<li style="font-weight: 400"><strong>المشهد التنافسي </strong> ( لماذا أنت الأفضل)
+ 	<li style="font-weight: 400;"><strong>المشهد التنافسي </strong> ( لماذا أنت الأفضل)
 بيان تحديد العلامة التجارية يجب أن يصف قيمة <i>منتجك</i>. هل منتجك يعطي القيمة الأعلى في الانتاجية أو لديه توازن بين السعر والجودة؟ هل لديك متابعين كثيرين أو أن هناك صعود وهبوط ؟ يجب أن تعرفي أين علامتك التجارية تماما في المشهد التنافسي. حلّلي حسنات ومساوئ شراء علامتك التجارية.</li>
- 	<li style="font-weight: 400"><strong>الوعد الذي يقدمه علامتك التجارية </strong> (ولماذا يجب أن نؤمن بك)
+ 	<li style="font-weight: 400;"><strong>الوعد الذي يقدمه علامتك التجارية </strong> (ولماذا يجب أن نؤمن بك)
 ما الوعد الذي سيقدمه علامتك التجارية للسوق ؟ هل تعدي بالموثوقية ؟ السرعة؟ السعر الاقل ؟ تأكدي أنك تفهمي ما الذي تعدي به. وكيف يمكن تحقيقه؟</li>
 </ol>
 <strong>أمثلة عظيمة على بيان تحديد المواقع</strong>
 
 حسناً كيف يكون بيان تحديد المواقع العظيم؟ يمكن أن يأخذ نماذج عديدة، وأطوال كثيرة، ولكن يجب أن تشمل العناصر المذكورة أعلاه. انظري للبيانات أدناه لعلامات تجارية مشهورة. كما ترين، بعض العناصر مضمنة وأخرى خفية، لكن الاهم أن تلاحظين كيف أنها مدروسة بشكل جيد جدا.
 <ul>
- 	<li style="font-weight: 400"><a href="http://www.volvocars.com/" target="_blank">Volvo</a>: For upscale American families, Volvo is the family automobile that offers maximum safety.</li>
- 	<li style="font-weight: 400"><a href="http://www.homedepot.com/" target="_blank">Home Depot</a>: The hardware department store for do‑it‑yourselfers.</li>
- 	<li style="font-weight: 400"><a href="http://www.zipcar.com/" target="_blank">Zipcar</a>: To urban-dwelling, educated techno-savvy customers, when you use Zipcar car-sharing service instead of owning a car, you save money while reducing your carbon footprint.</li>
+ 	<li style="font-weight: 400;"><a href="http://www.volvocars.com/" target="_blank">Volvo</a>: For upscale American families, Volvo is the family automobile that offers maximum safety.</li>
+ 	<li style="font-weight: 400;"><a href="http://www.homedepot.com/" target="_blank">Home Depot</a>: The hardware department store for do‑it‑yourselfers.</li>
+ 	<li style="font-weight: 400;"><a href="http://www.zipcar.com/" target="_blank">Zipcar</a>: To urban-dwelling, educated techno-savvy customers, when you use Zipcar car-sharing service instead of owning a car, you save money while reducing your carbon footprint.</li>
 </ul>
 <strong>نموذج لكتابة بيان تحديد المواقع</strong>
 
@@ -159,22 +178,23 @@
 
 <b>ل</b>[الزبون المستهدف]، <b>ال</b>[علامة التجارية]<b> هي </b>[اكتبي الفارق المختلف]<b> بين </b>[مجموعة من المراجع ]<b> لأن </b>[الأسباب التي تجعلنا نؤمن به]<b>.</b>
 <ul>
- 	<li style="font-weight: 400"><b>الفارق المختلف </b> (POD) يصف كيف علامتك التجارية أو منتجك يمكن أن يكون له فوائد للعملاء بطرق مختلفة عن المتنافسين.</li>
- 	<li style="font-weight: 400"><b>مجموعة المراجع </b> (FOR) هي الشريحة أو الفئة التي تنافس بها الشركة.</li>
- 	<li style="font-weight: 400"><b>الأسباب التي تجعلنا نؤمن</b> هي كما تقول الجملة. هو البيان الذي يعطي أدلة دامغة لماذا العملاء في سوقك المستهدف يجب أن يثقوا بك.</li>
+ 	<li style="font-weight: 400;"><b>الفارق المختلف </b> (POD) يصف كيف علامتك التجارية أو منتجك يمكن أن يكون له فوائد للعملاء بطرق مختلفة عن المتنافسين.</li>
+ 	<li style="font-weight: 400;"><b>مجموعة المراجع </b> (FOR) هي الشريحة أو الفئة التي تنافس بها الشركة.</li>
+ 	<li style="font-weight: 400;"><b>الأسباب التي تجعلنا نؤمن</b> هي كما تقول الجملة. هو البيان الذي يعطي أدلة دامغة لماذا العملاء في سوقك المستهدف يجب أن يثقوا بك.</li>
 </ul>
 كلمات بيانك لا يجب أن تكون تماما مثل النموذج السابق، لكن يجب أن تكون فعالة وأن تحتوي العناصر الخمسة الأساسية التي بين الأقواس أعلاه. إذا احتجت <a href="https://blog.udemy.com/positioning-statement-example/" target="_blank">للمساعدة </a>يمكن أن تلقي نظرة لهذا <a href="http://www.ecornell.com/market-positioning-tool/" target="_blank">المولد</a> الذي سيساعدك في كتابتها. عندما تقومي بكتابتها ، يمكن أن تسألي مرشدتك لتعطيكي ملاحظاتها ، أو تقوموا بهذه الفعالية بشكل فردي ثم تتبادلون ملاحظاتكم مع بعض كفريق.
-<h3><b>تطبيق: علامتك التجارية إلى مشروعك</b></h3>
+<h3 id="apply"><b>تطبيق: علامتك التجارية إلى مشروعك</b></h3>
 بما أنك حصلتي على علامتك التجارية، الآن هو الوقت لبدء التطبيق على مشروعك. هذا يعني أنه يجب أن تضعي "مشاعر" على علامتك التجارية في كل مكان! فكري كيف تكتبي وصف لتطبيقك، تفاعلات خدمة العملاء، وتصميم تطبيقك. كل شيء يجب أن يتم التفكير به بتمعن والاهم بثبات. لتتأكدي من أنك جاهزة، إليك
-
-<a href="http://brandpersonalityquiz.com/take-the-quiz/" target="_blank">
+<p style="text-align: center;"><a href="http://brandpersonalityquiz.com/take-the-quiz/" target="_blank">
 امتحان تحديد العلامة التجارية
-</a>
+</a></p>
+
 <h3></h3>
 إذا كان مشروعك موّجه للأطفال، يجب أن يكون بسيط، ذو لغة سهلة وبه العديد من الصور بطرق تفاعلية مختلفة. سيكون مربك وخارج النطاق إذا كان بلغة رسمية وكان فيه القليل من الصور والألوان. أما إذا كان مشروعكِ موّجه لمحبي الحيوانات، يجب ان يحتوي حقائق مرحة عن الحيوانات وصور للحيوانات في كتاباتك. من المهم أن تحافظي على تعزيز المبادئ الأساسية في علامتك التجارية في جميع الأمور المتعلقة بالعملاء (من مراسلات البريد الإلكتروني لوسائل الاعلام الاجتماعية )، حتى يستطيعوا تنظيم وإضافة شركتك معهم. تذكري خطة العمل، pitch deck، الفيديو التجريبي يجب أن يكونوا أكثر تقنية، لأنها ستستخدم بإعداد طريقة أكثر رسمية.
 
 <em>ملاحظة:</em> من أجل اختبار العلامة التجارية ، يمكنك الرجوع إلى وحدة بحوث السوق  <a href="http://www.technovationchallenge.org/curriculum/business-1/" target="_blank">الاعمال 1</a> ومعرفة اذا كنتِ قادرة على إجراء أي مقابلات حل اختبار مواد العلامة التجارية.
-<h3>فكري</h3>
+<div style="background-color: #006667; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 id="reflect" style="color: #white;"><span style="color: #ffffff;">فكري</span></h3>
 حتى الآن ضيقتِ الخيارات وحددت الصوت، القيم، والرؤية لشركتك. من هنا قمتِ ببيان وضع العلامة التجارية وحددتِ الطرق لدمج العلامة التجارية وشركتك.
 
 لقد تعلمنا <em>الكثير</em> في هذه الوحدة! دعونا نمر سريعا على أهم الأشياء التي تعلمناها :
@@ -188,14 +208,15 @@
  	<li><b> التخطيط الشخصي </b> - نوع من الشخصيات عند الزبون والتي قد تعطيك معلومات لماذا يريد الشخص شراء المنتج، يمكن أن تشمل هذه المعلومات أن زبونك مغامر أو مشغول ، إلخ .</li>
 </ul>
 في الوحدة التالية ، ستبدأي تطوير المرئيات لمشروعك – هذا يعني تطوير الشعار وألوان العلامة التجارية. يمكن أن تبدأي في العصف الذهني عن المكونات المرئية التي ستحتاجينها، مثال ذلك : المنشورات، والرسائل الإخبارية وبطاقات العمل والتغليف ‘ إلخ .
-<h3><b>مصادر إضافية :</b></h3>
+<h3><span style="color: #ffffff;"><b>مصادر إضافية :</b></span></h3>
 <ul>
- 	<li style="font-weight: 400">Fastco Design: <a href="http://www.fastcodesign.com/1664145/branding-is-about-creating-patterns-not-repeating-messages" target="_blank">Branding Is About Creating Patterns, Not Repeating Messages</a></li>
- 	<li style="font-weight: 400">Harvard Business Review: <a href="https://hbr.org/2016/03/branding-in-the-age-of-social-media" target="_blank">Branding in the Age of Social Media</a></li>
- 	<li style="font-weight: 400">TED Talk: Dan Cobley - <a href="http://www.ted.com/talks/dan_cobley_what_physics_taught_me_about_marketing#t-173746" target="_blank">What Physics Taught Me About Marketing</a></li>
- 	<li style="font-weight: 400">Entrepreneur: <a href="https://www.entrepreneur.com/article/77408" target="_blank">Basics of Branding</a></li>
- 	<li style="font-weight: 400">OwnerNation: <a href="http://ownernation.us/category/brand-your-business" target="_blank">Brand Your Business</a></li>
- 	<li style="font-weight: 400">Google for Small Business: <a href="https://youtu.be/oQ6Re_iysMk" target="_blank">Branding</a></li>
- 	<li style="font-weight: 400">Miles Herndon: <a href="https://milesherndon.com/blog/what-is-brand-positioning-statement" target="_blank">What is a Brand Positioning Statement?</a></li>
- 	<li style="font-weight: 400">eCornell: <a href="http://blog.ecornell.com/how-to-write-market-positioning-statements/" target="_blank">How to Write Brand Positioning Statements</a></li>
+ 	<li style="font-weight: 400;">Fastco Design: <span style="color: #eae46f;"><a style="color: #eae46f;" href="http://www.fastcodesign.com/1664145/branding-is-about-creating-patterns-not-repeating-messages" target="_blank">Branding Is About Creating Patterns, Not Repeating Messages</a></span></li>
+ 	<li style="font-weight: 400;">Harvard Business Review: <span style="color: #eae46f;"><a style="color: #eae46f;" href="https://hbr.org/2016/03/branding-in-the-age-of-social-media" target="_blank">Branding in the Age of Social Media</a></span></li>
+ 	<li style="font-weight: 400;">TED Talk: Dan Cobley: <span style="color: #eae46f;"><a style="color: #eae46f;" href="http://www.ted.com/talks/dan_cobley_what_physics_taught_me_about_marketing#t-173746" target="_blank">What Physics Taught Me About Marketing</a></span></li>
+ 	<li style="font-weight: 400;">Entrepreneur:<span style="color: #eae46f;"> <a style="color: #eae46f;" href="https://www.entrepreneur.com/article/77408" target="_blank">Basics of Branding</a></span></li>
+ 	<li style="font-weight: 400;">OwnerNation:<span style="color: #eae46f;"> <a style="color: #eae46f;" href="http://ownernation.us/category/brand-your-business" target="_blank">Brand Your Business</a></span></li>
+ 	<li style="font-weight: 400;">Google for Small Business: <span style="color: #eae46f;"><a style="color: #eae46f;" href="https://youtu.be/oQ6Re_iysMk" target="_blank">Branding</a></span></li>
+ 	<li style="font-weight: 400;">Miles Herndon:<span style="color: #eae46f;"> <a style="color: #eae46f;" href="https://milesherndon.com/blog/what-is-brand-positioning-statement" target="_blank">What is a Brand Positioning Statement?</a></span></li>
+ 	<li style="font-weight: 400;">eCornell: <span style="color: #eae46f;"><a style="color: #eae46f;" href="http://blog.ecornell.com/how-to-write-market-positioning-statements/" target="_blank">How to Write Brand Positioning Statements</a></span></li>
 </ul>
+</div>ba
