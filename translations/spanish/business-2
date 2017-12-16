@@ -1,14 +1,13 @@
-<h1>Negocios 2</h1>
-<em>*Nota: enlaces con un * son recursos en inglés</em>
-<h2>Investigación de Mercado</h2>
 <ul>
- 	<li style="font-weight: 400;"><a href="#aprende"><span style="font-weight: 400;">Aprende</span></a></li>
- 	<li style="font-weight: 400;"><a href="#invconsum"><span style="font-weight: 400;">Investigación del Consumidor</span></a></li>
- 	<li style="font-weight: 400;"><a href="#anacompe"><span style="font-weight: 400;">Análisis de Competidores</span></a></li>
- 	<li style="font-weight: 400;"><span style="font-weight: 400;"><a href="#planinvest">Plan de Investigación</a> </span></li>
- 	<li style="font-weight: 400;"><a href="#apply"><span style="font-weight: 400;">Aplica</span></a></li>
- 	<li style="font-weight: 400;"><a href="#reflect"><span style="font-weight: 400;">Reflexiona</span></a></li>
+<li style="font-weight: 400;"><a href="#aprende"><span style="font-weight: 400;">Aprende</span></a></li>
+<li style="font-weight: 400;"><a href="#invconsum"><span style="font-weight: 400;">Investigación del Consumidor</span></a></li>
+<li style="font-weight: 400;"><a href="#anacompe"><span style="font-weight: 400;">Análisis de Competidores</span></a></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;"><a href="#planinvest">Plan de Investigación</a> </span></li>
+<li style="font-weight: 400;"><a href="#apply"><span style="font-weight: 400;">Aplica</span></a></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;"><a href="#reflect">Reflexiona</a></span></li>
 </ul>
+
+<em>*Nota: enlaces con un * son recursos en inglés</em>
 <h2>Objetivos de Aprendizaje</h2>
 <span style="font-weight: 400;">En este módulo, aprenderás a...</span>
 <ul>
@@ -18,12 +17,15 @@
  	<li style="font-weight: 400;"><span style="font-weight: 400;">Haz las preguntas correctas para el análisis del competidor </span></li>
  	<li style="font-weight: 400;"><span style="font-weight: 400;">Crear un reporte de investigación de mercado para tu aplicación </span></li>
 </ul>
-<h3>Aprende</h3>
+
+<hr />
+
+<h3 id="aprende">Aprende</h3>
 <span style="font-weight: 400;">Cuando tienes una idea y la quieres convertir en un negocio, es importante que hagas algo de investigación. Quieres comprender como elementos diferentes pudiera impactar tu negocio y ver si hay una demanda para tu bien o producto.</span>
 
 <span style="font-weight: 400;">Esto se conoce como </span><b>investigación de mercado</b><span style="font-weight: 400;">. La investigación de mercado puede ser desmenuzado en dos partes: investigación del consumidor y análisis de  la competencia. </span>
 
-<b>Investigación del consumidor </b>
+<b id="invconsum">Investigación del consumidor </b>
 
 <span style="font-weight: 400;">La investigación del consumidor lo ayudará a comprender los deseos, necesidades y creencias de tu </span><b>cliente objetivo</b><span style="font-weight: 400;">. Por definición, un consumidor es una persona que consume o usa algo, mientras que un cliente es una persona que ha comprado algo. En este caso, vamos a utilizar al cliente y al consumidor indistintamente. tu cliente objetivo es la persona a la que intenta vender, o en otras palabras, la persona que comprará tus productos. Es importante comprender su perspectiva para que pueda crear una aplicación móvil que les satisfaga, por lo que querrán comprarla.</span>
 
@@ -31,20 +33,32 @@
 
 <span style="font-weight: 400;">Aquí, algunas preguntas para considerar:</span>
 
-<b>Investigación del Consumidor</b>
-<ul>
- 	<li style="font-weight: 400;"><span style="font-weight: 400;">¿Tu cliente objetivo experimenta el mismo problema que tu producto está resolviendo?</span></li>
- 	<li style="font-weight: 400;"><span style="font-weight: 400;">¿Los consumidores están conscientes de que tienen este problema?</span></li>
- 	<li style="font-weight: 400;"><span style="font-weight: 400;">¿Tu cliente objetivo pagará por una solución como este? ¿Cuánto pagarían?</span></li>
-</ul>
-<b>Análisis del Competitor </b>
-<ul>
- 	<li style="font-weight: 400;"><span style="font-weight: 400;">¿Tu solución es la única solución al problema?</span></li>
- 	<li style="font-weight: 400;"><span style="font-weight: 400;">¿Qué son algunas de las características que tus competidores ofrecen?¿Cómo te puedes diferenciar de ellos?</span></li>
- 	<li style="font-weight: 400;"><span style="font-weight: 400;">¿En cuánto están vendiendo su producto?</span></li>
-</ul>
-<h3>Ejercicio de Pensamiento</h3>
+¿Tu cliente objetivo experimenta el mismo problema que tu producto está resolviendo?¿Tu solución es la única solución al problema?
+<table style="width: 100%;">
+<tbody>
+<tr>
+<th>
+<h5>Investigación del Consumidor</h5>
+</th>
+<th>
+<h5>Análisis del Competitor</h5>
+</th>
+</tr>
+<tr>
+<td>¿Los consumidores están conscientes de que tienen este problema?</td>
+<td>¿Qué son algunas de las características que tus competidores ofrecen?¿Cómo te puedes diferenciar de ellos?</td>
+</tr>
+<tr>
+<td>¿Tu cliente objetivo pagará por una solución como este? ¿Cuánto pagarían?</td>
+<td>¿En cuánto están vendiendo su producto</td>
+</tr>
+</tbody>
+</table>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 style="color: white;">Ejercicio de Pensamiento</h3>
 <span style="font-weight: 400;">Piensa en algunas de tus aplicaciones o productos. ¿Quien es su cliente objetivo? ¿Quienes son tus competidores?</span>
+
+</div>
 <h3>Investigación del Consumidor</h3>
 <span style="font-weight: 400;">Hay muchas maneras diferentes de obtener información sobre tu posible consumidor. Aquí hay algunas herramientas que puedes usar para tu investigación de consumo:</span>
 
@@ -66,7 +80,7 @@
  	<li style="font-weight: 400;"><span style="font-weight: 400;">¿Cuánto pagaría la gente por tu aplicación?</span></li>
  	<li style="font-weight: 400;"><span style="font-weight: 400;">¿Tu aplicación es una buen empate para el consumidor?</span></li>
 </ul>
-<h5>Encuestas</h5>
+<h2>Encuestas</h2>
 <span style="font-weight: 400;">Las encuestas pueden ser de gran ayuda para rápidamente recopilar más datos, sin embargo, obtendrás datos menos específicos que cuando realizas entrevistas. </span>
 
 <span style="font-weight: 400;">Por lo general, las encuestas son un conjunto de preguntas diseñadas para recopilar información específica de un grupo de personas.</span>
@@ -74,10 +88,9 @@
 <span style="font-weight: 400;">Tendrás que pensar en cómo quieres diseñar la encuesta: el tipo de preguntas que quieres hacer, las personas a qué quieres preguntar y cómo deseas enviar la encuesta. Si estás interesada en obtener más información sobre la ciencia de la encuesta para la investigación de mercado, haga clic </span><b><a href="https://www.surveymonkey.com/mp/market-research-surveys/">aquí</a>*</b><span style="font-weight: 400;">.</span>
 
 <span style="font-weight: 400;">Si estás lista para comenzar encuestas o entrevistas, aquí hay un </span><b><a href="http://technovationchallenge.org/wp-content/uploads/2016/09/BusinessUnitModule2-InterviewSurveyWorksheet.pdf">resumen</a>* </b><span style="font-weight: 400;">de todas las cosas que querrás considerar desde el principio hasta el fin. Además, echa un vistazo a los ejemplos a continuación:</span>
+<div style="width: 47.5%; margin-right: 2.5%; float: left;">
 
-<b>Producto</b><span style="font-weight: 400;">: </span><a href="https://www.shazam.com/"><b>Shazam</b></a>
-
-<b>Preguntas de la encuesta:</b>
+<b>Producto</b><span style="font-weight: 400;">: </span><a href="https://www.shazam.com/"><b>Shazam</b></a><b>Preguntas de la encuesta:</b>
 <ol>
  	<li><span style="font-weight: 400;">¿Te gusta escuchar música?
 </span>Si o no</li>
@@ -100,9 +113,10 @@ Si o no</li>
 </ul>
 &nbsp;
 
-<b>Producto: <a href="https://www.angrybirds.com/">Angry Birds</a></b>
+</div>
+<div style="width: 47.5%; margin-left: 2.5%; float: right;">
 
-<b>Preguntas de la encuesta:</b>
+<b>Producto: <a href="https://www.angrybirds.com/">Angry Birds</a></b><b>Preguntas de la encuesta:</b>
 <ol>
  	<li><span style="font-weight: 400;">¿Te gustan los juegos de rompecabezas?
 </span>Si o no</li>
@@ -123,12 +137,23 @@ Si o no</li>
  	<li><span style="font-weight: 400;">La mayoría de las personas están bastante satisfechas con sus opciones de juegos para dispositivos móviles.</span></li>
  	<li><span style="font-weight: 400;">La gente está interesada en hablar con nosotros sobre una nueva aplicación de juego.</span></li>
 </ul>
-<b><a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/BusinessUnitModule2-InterviewSurveyWorksheet.pdf">Descargar el esquema</a>*</b>
-<h5>Investigación de tendencia</h5>
+</div>
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+<h3 style="background-color: #eae46f; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px; text-align: center;"><b><a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/BusinessUnitModule2-InterviewSurveyWorksheet.pdf">Descargar el esquema</a>*</b></h3>
+<h5></h5>
+<h5></h5>
+<h5></h5>
+<h2>Investigación de tendencia</h2>
 <span style="font-weight: 400;">La investigación de tendencias te ayudará a comprender dónde ha estado el mercado y te dará una idea de hacia futuros tendencias del mercado. Ya hay una gran cantidad de datos que puede utilizar para su ventaja para tener una idea del mercado. ¡Hay muchas compañías que son contratadas para hacer este tipo de análisis! Por ejemplo, puede consultar el sitio web de </span><b><a href="http://www.gartner.com/technology/research/top-10-technology-trends/">Gartner</a> *</b><span style="font-weight: 400;">, que es una empresa líder en investigación y asesoría en tecnología de la información que pronostica las diez tendencias principales en tecnología. Una compañía alternativa es KPCB, que crea el informe de </span><a href="http://www.kpcb.com/internet-trends">Mary Meeker</a><b> *</b><span style="font-weight: 400;"> sobre las tendencias de Internet. </span><a href="https://techcrunch.com/2016/06/01/mary-meeker-internet-trends-2016/"><b>Aquí</b></a><span style="font-weight: 400;"> <strong>*</strong>hay una versión más digerible de su informe muy detallado.</span>
 
 <a href="https://trends.google.es/trends/"><b>Google Trends</b></a><span style="font-weight: 400;"> es un gran recurso para comprender el interés en un tema específico. Por ejemplo, puede ver que </span><a href="https://www.google.com/trends/explore?date=all&amp;q=%2Fm%2F0h94y36"><b>Bangladesh</b></a><span style="font-weight: 400;"> tiene el mayor interés en las aplicaciones móviles como industria. </span><a href="http://marketingland.com/google-trend-goldmine-117626"><b>Aquí</b></a><span style="font-weight: 400;"> <strong>*</strong> un tutorial muy útil sobre cómo usar esta poderosa herramienta.</span>
-<h3>Análisis de la Competencia</h3>
+<h3 id="anacompe">Análisis de la Competencia</h3>
 <b>El análisis de la competencia</b><span style="font-weight: 400;"> te ayudará a reconocer qué hace que tu aplicación sea más exitosa que otras. Tendrás que echar un vistazo a otras compañías que están desarrollando productos similares (aplicaciones) para hacerte una idea de las fortalezas y debilidades, así como para comparar y contrastar tus productos con su producto. Al final, querrás tener un argumento sólido sobre por qué tu aplicación resuelve el problema mejor que tus competidores. Aquí hay algunos puntos que debes buscar cuando estas haciendo tu investigación:</span>
 <ul>
  	<li><i><span style="font-weight: 400;">Branding </span></i><span style="font-weight: 400;">(Imagen de marca )  e imagen pública</span>
@@ -177,7 +202,7 @@ Si o no</li>
  	<li style="font-weight: 400;"><span style="font-weight: 400;">Utiliza <a href="https://trends.google.es/trends/">Google Trends</a> para comprender el interés en un tema específico</span></li>
  	<li style="font-weight: 400;"><span style="font-weight: 400;">Estudie los sitios web de los competidores, las redes sociales, los blogs, los artículos, el material de ventas, los white papers y la publicidad para tener una idea completa de su éxito y estrategia.</span></li>
 </ul>
-<h3>Crea un Plan de Investigación de Mercado</h3>
+<h3 id="planinvest">Crea un Plan de Investigación de Mercado</h3>
 <span style="font-weight: 400;">¡Comienza a construir tu plan de investigación de mercado! Bosqueja tu plan con todo las cosas necesarias para construir un reporte de investigación de mercado muy fuerte. ¡Con este reporte, estarás mejor preparada para tener un buen argumento en tu plan de negocio para mostrar que tu aplicación es mejor que los demás! Aquí una hoja de trabajo para ayudarte a construir tu plan.</span>
 
 <span style="font-weight: 400;">Recursos*:</span>
@@ -186,30 +211,35 @@ Si o no</li>
  	<li style="font-weight: 400;"><span style="font-weight: 400;">Entrepreneur:</span><a href="https://www.entrepreneur.com/article/241080"> <span style="font-weight: 400;">The Best Ways to Do Market Research for Your Business Plan</span></a></li>
  	<li style="font-weight: 400;"><span style="font-weight: 400;">Business.com:</span><a href="http://www.business.com/market-research/creating-a-market-research-plan/"> <span style="font-weight: 400;">Creating a Market Research Plan</span></a></li>
 </ul>
-<a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Business2-MarketResearchWorksheet.pdf"><strong>Descargar</strong> </a><strong>la hoja de trabajo *</strong>
-<h3>Aplica</h3>
+<div style="background-color: #eae46f; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 style="text-align: center;"><a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Business2-MarketResearchWorksheet.pdf"><strong>Descargar la hoja de trabajo*</strong> </a></h3>
+</div>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 id="apply" style="color: white;">Aplica</h3>
 <span style="font-weight: 400;">Comienza a investigar usando el plan de investigación de mercado que desarrollaste. Usa los recursos que nosotros te hemos brindado y busca unos más por tu cuenta. ¡Reúne toda tu información para que puedes hacer un argumento fuerte que tu aplicación es la más innovadora de todas las que están disponibles!</span>
 
 <span style="font-weight: 400;">Crea tu reporte de investigación de mercado, la cual será agregada a tu plan de negocios. El reporte debería de ser corto, conciso, y lleno de hechos y datos que demuestran que tu aplicación le irá bien según tu investigación. Aquí algunos*:</span>
-
-&nbsp;
 <ul>
- 	<li style="font-weight: 400;"><span style="font-weight: 400;">Focus Group Tips*:</span><a href="http://www.focusgrouptips.com/marketing-research-reports.html"> <span style="font-weight: 400;">How to Write Qualitiative Market Research Reports</span></a></li>
- 	<li style="font-weight: 400;"><span style="font-weight: 400;">Small Business*:</span><a href="http://smallbusiness.chron.com/write-market-research-report-3298.html"> <span style="font-weight: 400;">How to Write a Market Research Report</span></a></li>
- 	<li style="font-weight: 400;"><span style="font-weight: 400;">Demand Metric*:</span><a href="https://www.demandmetric.com/content/market-research-report"> <span style="font-weight: 400;">Market Research Report</span></a></li>
+ 	<li>Focus Group Tips*:<a href="http://www.focusgrouptips.com/marketing-research-reports.html"> <span style="color: white; font-weight: 400;">How to Write Qualitiative Market Research Reports</span></a></li>
+ 	<li style="color: white; font-weight: 400;"><span style="font-weight: 400;">Small Business*:</span><a href="http://smallbusiness.chron.com/write-market-research-report-3298.html"> <span style="color: white; font-weight: 400;">How to Write a Market Research Report</span></a></li>
+ 	<li style="color: white; font-weight: 400;"><span style="color: white; font-weight: 400;">Demand Metric*:</span><a href="https://www.demandmetric.com/content/market-research-report"> <span style="color: white; font-weight: 400;">Market Research Report</span></a></li>
 </ul>
-<h3>Reflexiona</h3>
+</div>
+<div style="background-color: #4bc2c6; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 id="reflect" style="color: white;">Reflexiona</h3>
 <span style="font-weight: 400;">Una vez que has hecho de investigación de mercado, toma unos momentos para hacer una retrospectiva y reflexionar sobre lo que has logrado. Fuiste capaz de realizar investigación del consumidor y análisis de la competencia y de desarrollar un reporte de investigación de mercado. Ahora, toma una mirada retrospectiva y pregúntate:</span>
 <ul>
- 	<li><span style="font-weight: 400;">¿Te sientes preparada y comprendes sobre el mercado que estas por entrar?</span></li>
- 	<li><span style="font-weight: 400;">¿Harás algunos cambios a cómo desarrollar tu aplicación? </span></li>
- 	<li><span style="font-weight: 400;">¿Cuales son tus fortalezas y debilidades en comparación a tus competidores?</span></li>
- 	<li><span style="font-weight: 400;">¿Cuáles serán tus puntos de venta en comparación a tus competidores? ¿Que te distingue de los demás?</span></li>
+ 	<li><span style="color: white; font-weight: 400;">¿Te sientes preparada y comprendes sobre el mercado que estas por entrar?</span></li>
+ 	<li><span style="color: white; font-weight: 400;">¿Harás algunos cambios a cómo desarrollar tu aplicación? </span></li>
+ 	<li><span style="color: white; font-weight: 400;">¿Cuales son tus fortalezas y debilidades en comparación a tus competidores?</span></li>
+ 	<li><span style="color: white; font-weight: 400;">¿Cuáles serán tus puntos de venta en comparación a tus competidores? ¿Que te distingue de los demás?</span></li>
 </ul>
-<h3>Recurso adicionales</h3>
+<h3 style="color: white;">Recurso adicionales</h3>
 <ul>
- 	<li style="font-weight: 400;"><span style="font-weight: 400;">Entrepreneur*:</span><a href="https://www.entrepreneur.com/article/217345"> <span style="font-weight: 400;">Marketing research basics</span></a></li>
- 	<li style="font-weight: 400;"><span style="font-weight: 400;">Steve Blank’s The Lean Approach*:</span><a href="http://ed.ted.com/on/lviesZQO"> <span style="font-weight: 400;">Customer Acquisition and Archetypes</span></a></li>
- 	<li style="font-weight: 400;">Udacity*:<a href="https://www.youtube.com/watch?v=KovkopcILQ8"> <span style="font-weight: 400;">Customer Development</span></a></li>
+ 	<li style="font-weight: 400;"><span style="color: white; font-weight: 400;">Entrepreneur*:</span><a href="https://www.entrepreneur.com/article/217345"> <span style="color: white; font-weight: 400;">Marketing research basics</span></a></li>
+ 	<li style="font-weight: 400;"><span style="color: white; font-weight: 400;">Steve Blank’s The Lean Approach*:</span><a href="http://ed.ted.com/on/lviesZQO"> <span style="color: white; font-weight: 400;">Customer Acquisition and Archetypes</span></a></li>
+ 	<li style="font-weight: 400;">Udacity*:<a href="https://www.youtube.com/watch?v=KovkopcILQ8"> <span style="color: white; font-weight: 400;">Customer Development</span></a></li>
 </ul>
 &nbsp;
+
+</div>
