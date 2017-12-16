@@ -1,0 +1,295 @@
+<h1>البرمجة 4</h1>
+<h2>استخدام مميزات المحمول والاتصال  بالإنترنت</h2>
+<ul>
+ 	<li><a href="#mobile">مكونات الهاتف المحمول</a></li>
+ 	<li><a href="#ui">مكونات واجهة المستخدم </a></li>
+ 	<li><a href="#media">مكونات الإعلام</a></li>
+ 	<li><a href="#sensors"> المجسات</a></li>
+ 	<li><a href="#social">المكونات الإجتماعية</a></li>
+ 	<li><a href="#connectivity">مكونات الإتصال</a></li>
+ 	<li><a href="#web">قاعدة البيانات الويب</a></li>
+ 	<li><a href="#tinyweb">TinyWebDB</a></li>
+ 	<li><a href="#fusion">الجداول الشاملة</a></li>
+ 	<li><a href="#api">APIs</a></li>
+ 	<li><a href="#challenge">تحدي البرمجة </a></li>
+ 	<li><a href="#reflection">الاستنتاج</a></li>
+</ul>
+<h3>الأهداف:</h3>
+في هذه الوحدة، سوف تتعلمين عن...
+<ul>
+ 	<li style="font-weight: 400;">مكونات واجهة المستخدم</li>
+ 	<li style="font-weight: 400;">مكونات وسائل الاعلام</li>
+ 	<li style="font-weight: 400;">المجسات</li>
+ 	<li style="font-weight: 400;">المكونات الاجتماعية</li>
+ 	<li style="font-weight: 400;">قاعدة البيانات الويب</li>
+</ul>
+<h3>مكونات الهاتف المحمول (الموبايل)</h3>
+تهانينا لك على وصولك لوحدة البرمجة الرابعة! حتى الآن كنتِ قد اكتشفتِ طرق للتحدث لهاتفك وبناء التطبيقات. في هذه الوحدة سوف تتعلمين عن بعض المميزات الموجودة في الهاتف والتي تستطيعين الاستفادة منها وكذالك كيفية التواصل مع أماكن أخرى على الانترنت.
+
+استخدمي هذه الوحدة كمرجع للتعلّم عن ما هي الإمكانيات التي يمكن لتطبيقك أن يقدمها. لستِ بحاجة أن تجربي كل المكونات المدرجة في القائمة، ولكن عليكِ أن تجربي المكونات الأكثر ارتباطا مع تطبيقك.
+
+للمراجع، هنا يوجد <a href="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Judging-Rubric-2017.pdf" target="_blank">Technovation 2017  آلية التحيكم </a>و<a href="http://www.technovationchallenge.org/wp-content/uploads/2017/01/Technical-Checklist-2017.pdf" target="_blank">  القائمة التقنية</a>.
+<h3>مكونات واجهة المستخدم</h3>
+هذه المميزات التي يمكن تضمينها في تطبيقك والمستخدم يمكن أن يتفاعل معها. تفحصي هذا الموقع <a href="http://ai2.appinventor.mit.edu/reference/components/userinterface.html" target="_blank">MIT’s website</a> لمزيد من المعلومات.
+<h5>المنبه: Notifier</h5>
+هذا المكون يستطيع أن يرسل رسالة للمستخدم أوإشعار أو تنبيه. المستخدم يستطيع أن يضغط على الزر للتخلص من الاشعار أو أن الاشعار يمكن أن يختفي لوحده بعد عدة ثواني. المنبه جيد لارسال معلومات للمستخدم وهو حقا مفيد من أجل التصحيح، والذي سوف تتعلمينه في <a href="/?p=19686" target="_blank">البرمجة 6</a>. وهنا <a href="https://www.youtube.com/watch?v=4KdTuWJFCpM" target="_blank">الدرس</a>.
+<h5>مساحة الرسم: Canvas</h5>
+هذا المكون يسمح للمستخدمين باستخدام المرشاش، الرسوم، تحريك الصور، هذا سيكون مفيد جدا اذا كنت تقومين ببناء لعبة! هنا بعض الدروس:
+<ul>
+ 	<li><a href="https://www.youtube.com/watch?v=DNbZAzMEkvs" target="_blank">Paintpot 1</a></li>
+ 	<li><a href="https://www.youtube.com/watch?v=DNbZAzMEkvs" target="_blank">Paintpot 2</a></li>
+ 	<li><a href="https://www.youtube.com/watch?v=gpMPOSNWc_o" target="_blank">Paintpot 3</a></li>
+ 	<li><a href="https://www.youtube.com/watch?v=jw4QxAvOm6A" target="_blank">Paintpot 4</a></li>
+ 	<li><a href="https://www.youtube.com/watch?v=w0yxJSlC00w" target="_blank">Ball MIT Tutorial</a></li>
+ 	<li><a href="https://www.youtube.com/watch?v=fQKNzLYEN0M" target="_blank">MIT digital doodle</a></li>
+</ul>
+<h5>عرض الويب: Web View</h5>
+هذا المكون يسمح لك بإضافة متصفح انترنت إلى تطبيقك. استخدمي هذا اذا كنتِ تريدين أن يكون المستخدم قادر على الوصول الى مواقع الكترونية معينة. يمكنك تحديد أي عنوان الكتروني URL تريدين من المتصفح أن يظهره للمستخدم، لكن هذا المتصفح ليس متصفحاً كاملاً. مثلا، الضغط على مفتاح الرجوع الخاص بالهاتف سوف يخرج المستخدم من التطبيق، بدلا من الرجوع الى تاريخ التصفح. هنا <a href="https://www.youtube.com/watch?v=OCZawf85lsE" target="_blank">درس</a>.
+<h5>منتقي الوقت والتاريخ Date and Time Picker</h5>
+هذا المكون يسمح للمستخدمين انتقاء التاريخ أوو الوقت. هذا مفيد خصيصا في التطبيقات التي فيها يحتاج المستخدم لجدولة الأحداث. هنا <a href="https://www.youtube.com/watch?v=UbA3pDQALKY" target="_blank">الدرس </a>.
+<h3>مكونات وسائل الاعلام</h3>
+هذه المميزات التي تتعلق بوسائل الاعلام مثل الصور،الصوت، و الفيديو. تفحصي هذا الموقع <a href="http://ai2.appinventor.mit.edu/reference/components/media.html" target="_blank">MIT’s website</a> لمزيد من المعلومات.
+<h5>كاميرا الفيديو: Camcorder</h5>
+هذا المكون يسمح للمستخدم بتسجيل فيديوهات. يمكنكِ استخدامه للتطبيقات الاجتماعية، تطبيقات مشاركة الفيديوهات، أو أي وقت آخر تريدين فيه من المستخدم تسجيل فيديو. تعلمي كيفية استخدامه من <a href="http://appinventor.pevest.com/?p=161" target="_blank">هنا</a>.
+<h5>الكاميرا: Camera</h5>
+هذا المكون يسمح للمستخدم من أخذ صور. هذا يمكن أن يكون مفيدا للتطبيقات التي تسمح للمستخدمين بضبط صور الملف الشخصي أو التقاط صور. هنا<a href="https://docs.google.com/document/d/1trt9smFfyiztdVoaq5ONaOM8GWOMoSFxTRJ7Eyyajuw/pub" target="_blank"> الدرس</a>.
+<h5>منتقي صور: ImgePicker</h5>
+هذا يسمح للمستخدم بإنتقاء صورة من معرض الصور. إنها فكرة جيدة أن تُضمني هذه الخاصية إذا كنتي تخططين لاستخدام مكونات كاميرا الفيديو أو الكاميرا. هنا  <a href="https://www.youtube.com/watch?v=MAjoLSQB1yw" target="_blank">الدرس</a>.
+<h5>مشغل الفيديو: VideoPlayer</h5>
+يسمح لكِ بتضمين فيديو في التطبيق ويمكن للمستخدم النقر عليه. الفيديو يجب أن يكون امتداده .wmv, .3gp أو mp4 وحجمه ليس أكبر من 1MB. هنا <a href="https://www.youtube.com/watch?v=3HtXOU9EHc8" target="_blank">الدرس</a>.
+<h5>ترجمة: YandexTranslate</h5>
+هذا يسمح لك بترجمة نص إلى لغة أخرى. يتطلب ذلك أن يكون تطبيقك لديه انترنت نظرا لأنه يعتمد على خدمة ترجمة <a href="https://tech.yandex.com/translate/" target="_blank">Yandex</a> هنا<a href="https://www.youtube.com/watch?v=T9O6stYSDUQ" target="_blank"> الدرس </a>.
+<h5>مسجل صوت SoundRecorder</h5>
+هذا يسمح للمستخدم بتسجيل صوت أو ضجيج. هنا <a href="http://puravidaapps.com/snippets.php#2soundrecorder" target="_blank">مثال </a>على ذلك.
+<h5>المشغل: Player</h5>
+هذا مكون أوديو يشغل صوت. هذا يعمل أفضل للأصوات "الطويلة" مثل الأغاني والخطابات أو القصائد. هنا <a href="https://www.youtube.com/watch?v=4tB_BuV1tew" target="_blank">الدرس</a> و<a href="https://www.youtube.com/watch?v=ajG0NSsX0q4" target="_blank">درس نبذة عن</a> <strong>مشغل الفيديو</strong> مكون مشابه، ولكن يصلح للفيديو أكثر من الصوت فقط !
+<h5>صوت Sound</h5>
+هذا المكون شبيه جدا بمكون المشغل، ولكنه أفضل للأصوات القصيرة، مثل الملاحظات أو الاشعارات "الاخطارات". هنا <a href="http://appinventor.mit.edu/explore/ai2/hellopurr.html" target="_blank"> درس </a>لتعلم كيفيه استخدامه.
+<h5>متعرف الحديث SpeechRecognizer</h5>
+هذا يترجم حديث المستخدم الى نص. هذا مفيد خصيصا للتطبيقات التي تتطلب قدرات دون استخدام الأيدي. هنا <a href="https://www.youtube.com/watch?v=KUZQrk0PN50f" target="_blank">مثال</a>.
+<h5>نص إلى كلام TexttoSpeech</h5>
+هذا يقوم بعكس متعرف الحديث! بهذه الميزة، يمكن للمستخدمين ادخال نص والتطبيق سوف يقرأه بصوت عالي. هنا <a href="https://www.youtube.com/watch?v=Vdo8UdkgDD8" target="_blank">الدرس</a>.
+<h3>المجسات Semsors</h3>
+بما أنكِ تصممين تطبيق لجهاز هاتف، عليك الاستفادة من ا<strong>لمميزات</strong> و <strong>المجسات </strong>الموجودة في الهاتف المحمول. هذه <strong>المميزات </strong><strong>والمجسات </strong>يمكن أن تكون خاصة بأجهزة الهاتف المحمول وليس بالضرورة أن تكون موجودة بالحاسوب. استخدام هذه المميزات هو ما سيجعل تطبيقك <em>تطبيق هاتف</em> بدلا من <em>تطبيق انترنت</em> أو <em>موقع الكتروني</em> . تفحصي المجسات الرائعة التي تمتلكها الهواتف الذكية!
+
+&nbsp;
+
+App Inventor يسمح لك ببرمجة هذه المجسات! هاتفك قد لا يحتوي على كل الأشياء التي تحدثنا عنها في الفيديو، ولكن على الأرجح سيكون لديه الخاصيات التي سنناقشها في هذا القسم. هنا قائمة ببعض المكونات الرائعة التي يمكنك أن تبرمجيها باستخدام App Inventor. زوري موقع <a href="http://ai2.appinventor.mit.edu/reference/components/sensors.html">MIT </a>لمزيد من المعلومات.
+<h5>مجس التسارع Accelerometer Sensor</h5>
+هذا المكون يستطيع تحديد إذا كان الهاتف يهتز و إذا كان محمولاً بشكل مستقيم أو مقلوب. هذه الخاصية مفيدة جدا عندما تريدين من الشاشة اعادة التوجيه كرد فعل على طريقة حمل الهاتف، او اذا كنتِ تريدين من التطبيق أن يتفاعل مع الاهتزاز. هنا <a href="http://appinventor.mit.edu/explore/sites/all/files/hourofcode/TalkToMePart2.pdf" target="_blank">الدرس</a>.
+<h5>عداد الخطى Pedometer</h5>
+هذا المجس يُستخدم مجس التسارع لقياس كم خطوة خطى المستخدم الحامل للهاتف، وأيضا يقوم بتحديد المسافة المقطوعة. هنا <a href="https://www.youtube.com/watch?v=iVcM6sTLnNU" target="_blank">الدرس</a>.
+<h5>جيروسكوب Gyroscope</h5>
+هذا المكون يمكن أن يستشعر اذا كان يتم إمالة الهاتف. وهو أكثر دقة من مجس التسارع ويمكن قياس مدى تغير اتجاه الهاتف. هنا <a href="https://www.youtube.com/watch?v=MM1LlE6RveE" target="_blank">الدرس</a>.
+<h5>الساعة Clock</h5>
+هذا يسمح للتطبيق أخذ الوقت الحالي أو استخدام جهاز توقيت. هذا المكون يمكن أن يكون مفيدا لضبط المنبه، لاستخدام جهاز توقيت أو لمعرفة متى يكون الوقت ليلا ومتى نهارا.
+
+هنا بعض الدروس:
+<ul>
+ 	<li style="font-weight: 400;"><a href="https://www.youtube.com/watch?v=tIKowBYIAG0" target="_blank">Timer Tutorial</a></li>
+ 	<li style="font-weight: 400;"><a href="http://ai2.appinventor.mit.edu/reference/components/sensors.html#Clock" target="_blank">MIT Clock Documentation</a></li>
+</ul>
+<h5>مجس الموقع Location Sensor</h5>
+هذا المجس يقوم بجمع خطوط الطول والعرض لموقع الهاتف. هذا المجس يمكن أن يكون مفيدا في أي وقت تحتاجين فيه للبحث عن أعمال أو نقاط تهم المستخدم بالقرب منه. هنا <a href="https://docs.google.com/document/d/1V1Zm5cYoa12KVb_cTlfelSfyUkW7IH2WPHUoTa02XaY/pub" target="_blank">للمزيد من المعلومات</a>.
+<h5>مجس القرب Proximity Sensor</h5>
+هذا المجس يمكن أن يحدد اذا كان الهاتف محمولا باتجاه وجه المستخدم أم لا. على كل حال، ليست كل الهواتف تدعم هذه الخاصية. هنا <a href="https://www.youtube.com/watch?v=TsmJNo5W4jU" target="_blank">الدرس</a>.
+<h3>المكونات الإجتماعية</h3>
+هذه هي المميزات التي تسمح للمستخدم بإجراء اتصال، إرسال إيميل, كتابة نص ومشاركة أشياء من خلال تطبيقك. شاهدي <a href="http://appinventor.mit.edu/explore/content/social.html">MIT's Website </a>لمزيد من المعلومات.
+<h5>منتقي جهة الاتصال ContactPicker</h5>
+هذا يعرض جهات اتصال المستخدم ويسمح للمستخدمين اختيار شخص من القائمة.هنا<a href="https://www.youtube.com/watch?v=I0L1iEeNTrs" target="_blank"> الدرس</a>.
+<h5>منتقي الايميل EmailPicker</h5>
+هذا المكون يسمح للمستخدم بإدخال عنوان البريد الالكتروني. هنا <a href="https://www.youtube.com/watch?v=wI9LzGCJ3vY" target="_blank">الدرس</a>.
+<h5>منتقي رقم الهاتف PhoneNumberPicker</h5>
+هذا المكون يسمح للمستخدم اختيار رقم الهاتف من قائمة جهات الاتصال، مثل الأصدقاء أو العائلة.هنا <a href="http://appinventor.mit.edu/explore/ai2/piccall.html" target="_blank">الدرس</a>.
+<h5>إتصال هاتفي PhoneCall</h5>
+هذا يسمح للمستخدم بإجراء مكالمة هاتفية من خلال تطبيقك. هنا <a href="https://www.youtube.com/watch?v=I0L1iEeNTrs" target="_blank">الدرس</a>.
+<h5>كتابة نص(texting)</h5>
+هذا يسمح للمستخدم بإرسال رسالة نصية لهاتف مستخدم آخر من خلال تطبيقك. هنا <a href="http://www.appinventor.org/content/ai2apps/simpleApps/noTexting" target="_blank">الدرس</a>.
+<h5>المشاركة Sharing</h5>
+هذا يسمح للمستخدم بمشاركة الرسائل أو الصور أو أي محتوى آخر في تطبيقك مع تطبيقات أخرى في جهاز المستخدم. هنا <a href="https://www.youtube.com/watch?v=fCdxtYj09Zw" target="_blank">الدرس</a>.
+<h5>تويترTwitter</h5>
+هذا المكون يسمح بالتواصل بين تطبيقك وتويتر. يمكن للمستخدمين البحث بالتغريدات، ارسال واستقبال الرسائل، الحصول على قائمة من المتابعين وأكثر. هنا <a href="http://puravidaapps.com/twitter.php" target="_blank">مثال</a>.
+<h3>مكونات الإتصال</h3>
+هذا يسمح لتطبيقك بالتفاعل مع أماكن خارج تطبيقك، مثل الانترنت و التطبيقات الأخرى. زوري <a href="http://ai2.appinventor.mit.edu/reference/components/connectivity.html">MIT’s Website</a> لمزيد من المعلومات.
+<h5 id="AccelerometerSensor">بادىء النشاط</h5>
+هذا يسمح لتطبيقك ببدء تثبيت تطبيقات أخرى على جهاز المستخدم. هذه التطبيقات يمكن أن تكون منشأة في App Inventor أو تطبيقات ليست كذلك. يمكن أن تكون أيضا تطبيقات مثل الكاميرا والخرائط والتي هي مثبتة مسبقا على الجهاز. وهنا بعض الدروس:
+<ul>
+ 	<li style="font-weight: 400;"><a href="http://ai2.appinventor.mit.edu/reference/other/activitystarter.html">الدرس  1</a></li>
+ 	<li style="font-weight: 400;"><a href="https://www.youtube.com/watch?v=rS8VChJ6X0g"> الدرس 2</a></li>
+ 	<li style="font-weight: 400;"><a href="https://www.youtube.com/watch?v=Cz_2uH0jqAs">الدرس 3</a></li>
+</ul>
+<h5>شبكة الانترنت : Web</h5>
+هذا المكون يسمح لتطبيقك بأخذ معلومات من المواقع الاكترونية. هو يسمح لك بأخذ معلومات واستخدامها من دون أن يكون لديك متصفح الكتروني في تطبيقك. هنا <a href="http://explore.appinventor.mit.edu/ai2/stockquotes" target="_blank"> الدرس </a>.
+<h5>مزود بلوتوث BluetoothClient and BluetoothServer</h5>
+هذه المكونات تسمح لتطبيقك بتفعيل الاتصال مع البلوتوث. هنا <a href="http://appinventor.pevest.com/?p=520" target="_blank">مثال</a>.
+
+&nbsp;
+<blockquote>“واحدة من الأسرار التي تبقيك طفلاً هي أن تفعل دائماً أموراً لا تعلم كيف تقوم بها، لتستمر بالتعلم.”</blockquote>
+&nbsp;
+<p align="right">– روث ريشل</p>
+
+<h3>قاعدة بيانات الويب</h3>
+من أحد الأمور التي عليكِ قطعا أن تستغليها وتستفيدي منها هي قدرة هاتفك على الاتصال بالانترنت. هذا يمكن أن يكون أكثر من اتصال بالانترنت أو ارسال بريد الكتروني من خلال تطبيقك. يمكنكِ حقا أن تُخزني <strong>معلومات </strong>على الشبكة والوصول اليها من قبل عدة أجهزة تشغل تطبيقك!
+تتذكرين عندما تعلمتي عن <strong>TinyDB </strong>في وحدة الكود الثانية؟ <strong>TinyDB </strong>هي عبارة عن قاعدة بيانات <em>محلية </em>التي يستطيع تطبيقك تخزين المعلومات فيها واسترجاعها منها. عندما يستخدم الهاتف <strong>TinyDB،</strong> هو فقط يخزن المعلومات على ذاك الهاتف، لذالك أي مستخدمين لن يكونا قادرين على رؤية ماذا يوجد في <strong>TinyDB </strong>الآخر.
+
+<strong>قاعدة بيانات الشبكة</strong> تعمل بشكل مختلف قليلا. لنقل أنه لديك جهازان يشغلان تطبيقك، هاتف "أ" و هاتف "ب". عندما يخزن هاتف "أ" معلومات على TinyDB، هاتف "ب" لا يستطيع الوصول اليها حيث أنها مخزنة على ذاكرة الهاتف "أ". عندما تستخدمين قاعدة بيانات الشبكة، هاتف "أ" يمكنه أن يخزن المعلومات في قاعدة البيانات والهاتف "ب" يمكنه الوصول الى قاعدة البيانات واسترداد المعلومات. بدلاً من أن تكون قاعدة البيانات على جهاز واحد فقط، الآن كلا الهاتفين المستخدمين للتطبيق يمكنهما تشاركها. فائدة أخرى من استخدام قاعدة بيانات الشبكة مع App Inventor هو أنه أنت (المبرمجة) يمكنك الوصول وتعديل محتواها من خلال الانترنت.
+<h5 style="text-align: center;">وحدة تخزين محلية</h5>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/local-databig.png" alt="local-databig" width="101" height="186" /></p>
+
+<h5 style="text-align: center;">وحدة تخزين قاعدة بيانات الشبكة</h5>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/web-databasebig.png" alt="web-databasebig" width="380" height="470" />
+
+قواعد بيانات الشبكة يمكن أيضا تحديثها في أي وقت واستخدام الهواتف لهن سيعكس التغييرات. لنقل أنك وضعتي قائمة بمطاعم في TinyDB ووضعتي تطبيقك على متجر التطبيقات. أي مستخدم سيثبت تطبيقك سيصبح لديه تلك القائمة من المطاعم. فيما بعد، لو قمتي بتحديث تطبيقك ليحتوي المزيد من المطاعم. حدثتي الكود الخاص بك وحدثتي تطبيقك في متجر التطبيقات. على كل حال، الأجهزة التي ثبتت تطبيقك قبل تحديث القائمة لن يكونوا قادرين على الحصول على المطاعم الجديدة. هؤولاء المستخدمين عليهم أن يحذفو التطبيق وإعادة تثبيته من متجر التطبيقات من جديد! لو أنكِ استخدمتي قاعدة بيانات الشبكة من أجل المطاعم، فإن التطبيق بشكل تلقائي سيحدث قائمة المطاعم. في كل مرة يتصل الهاتف بالانترنت ويصل إلى قاعدة البيانات، سيأخذ النسخة الحالية من القائمة.
+
+هل شاركتي من قبل صورة لكِ على فيس بوك أو انستغرام؟ تطبيقات مثل تلك تستخدم قاعدة بيانات الويب. عندما يقوم صديقك بتحميل أو مشاركة صورة، كل متابعينه يستطيعون رؤيتها. قواعد بيانات الويب تسمح لك بمشاركة وارسال المعلومات لكل شخص يستخدم التطبيق.
+
+اذا متى عليكي استخدام قواعد بيانات الشبكة؟ هنا بعض الاستخدامات الشائعة:
+<ul>
+ 	<li style="font-weight: 400;">مشاركة معلومات من لعبة، مثل قائمة بالدرجات العالية</li>
+ 	<li style="font-weight: 400;">السماح للمستخدمين بمشاركة الصور مع بعضهم من خلال الانترنت</li>
+ 	<li style="font-weight: 400;">عرض التحديثات التي تحصل و يراها كل المستخدمين</li>
+ 	<li style="font-weight: 400;">الحاجة لتسجيل دخول وادخال كلمة سر للمستخدمين</li>
+ 	<li style="font-weight: 400;">تذكر كل شيء عن المستخدم مثل معاملاتهم و السجلات المالية أو السجلات الطبية</li>
+</ul>
+لحسن الحظ هناك عدة طرق مختلفة لإنشاء قاعدة بيانات على الشبكة في App Inventor! الأقسام القادمة سوف تناقش بعض من قواعد بيانات الويب التي يسمح App Inventor لك بدمجها بتطبيقك بسهولة. عندما تقرأي الأقسام، فكري أي من قواعد البيانات من المحتمل ان تعمل مع تطبيقك.
+<h3>تمرين تفكير</h3>
+هل يمكنك التفكير بخمس تطبيقات استخدمتها وتعتمد على قواعد بيانات على الويب أوعلى شبكة الانترنت؟
+<h3>قاعدة بيانت الويب المصغرة TinyWebDB</h3>
+<b>TinyWebDB</b> هو مشابه ل TinyDB لأنها تستخدم أزواج من الوسم و القيمة tags <strong>value pairs</strong> لتخزين واستعادة المعلومات. TinyWebDBهو خيار عظيم اذا كنتِ تستخدمين معلومات بحيث تكون المعلومات معظمها في أزواج، مثل أسماء المستخدمين وكلمات السر. في اللحظة التي تنشئين فيها TinyWebDB، يمكنك عمل اتصالات لتخزين واسترداد المعلومات منها. خلافا لل TinyDB، أي هاتف يستخدم تطبيقك يمكنه تخزين واسترداد المعلومات منها. TinyWebDB لديه أيضا خاصية اضافية بحيث يُمكّنك من الوصول الى خدمة الويب الخاصة بك و عرض جميع العلامات الموجودة وحذف العلامات التي لا تريدينها بعد الآن. خدمة الويب الخاصة بك ستبدو كذالك:
+
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/TinyWebDBOnline.png" alt="tinywebdbonline" width="1440" height="777" />
+
+لاحظي أنه لدينا الخيار بحذف بعض العلامات هناك. انه لمن الأسهل ادارة المعلومات الخاصة بك هكذا، اذا حتى لو لم يكن تطبيقك يتطلب معلومات لمشاركتها بين الهواتف، قد تريدين إنشاء .<b>TinyWebDB </b>بكل الأحوال!
+
+لاستخدام <b>TinyWebDB</b> عليكِ إنشاء خدمة ويب خاصة بك حيث سيتم تخزين واسترداد المعلومات منها. هنا تعليمات MIT حول كيفية القيام بذلك: <a href="http://appinventor.mit.edu/explore/ai2/custom-tinywebdb.html" target="_blank">Custom TinyWebDB</a>. عندما نقوم بإنشاء<b>TinyWebDB</b> الخاص بنا نجد أنفسنا عالقين، لذا هنا فيديو تتبعنا التعليمات الموجودة فيه <a href="https://www.youtube.com/watch?v=qawFgeJldAQ" target="&quot;_blank">من هنا</a>.
+<b>TinyWebDB</b> هي مكون غير مرئي، أو مكون لا يظهر على الشاشة, ويبدو بالشكل التالي:<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/non-visible.png" alt="non-visible" width="315" height="124" />
+
+برمجة <b>TinyWebDB </b> هي مختلفة قليلا عن برمجة <strong>TinyDB </strong>. عندما تقومين باتصال لأخذ بعض المعلومات يجب عليك انتظار تطبيقك ليسأل خدمة الويب عن المعلومات. في اللحظة التي يحصل فيها تطبيقك على المعلومات، حينها يمكن أن تقومي بأمور بها تفحصي الكود الخاص بنا بالأسفل:<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/tagname.png" alt="tagname" width="594" height="313" />
+
+عندما ينقر المستخدم Button1 التطبيق سوف يسأل خدمة الويب عن قيمة العلامة التي تدعى “User1” . في اللحظة التي يحصل التطبيق فيها على القيمة من <strong>TinyWebDB</strong>, سوف يقوم بعدها بتحديد Label1 و Label2 للعلامة والقيمة. ثم عندما TinyWebDB1.GotValue سوف يستخدم آخر قيمة مأخوذة من قاعدة البيانات.
+
+نصائح لاستكشاف الأخطاء إصلاحها لإنشاء <b>TinyWebDB:</b>
+<ul>
+ 	<li style="font-weight: 400;">اذا كان لديك مشاكل تنزيل Google App Engine for Python, <a href="https://cloud.google.com/appengine/docs/python/download#python" target="_blank">حاولي هذا</a>.</li>
+ 	<li style="font-weight: 400;">لست بحاجة أن تضعي معلومات بطاقة الائتمان الخاصة بك على Google في أي وقت، كل مميزات cloud platform التي تحتاجينها مجانية.</li>
+ 	<li style="font-weight: 400;">مثل TinyDB، اذا استخدمتي نفس اسم العلامة مرتين في TinyWebDB، المعلومة القديمة سوف تمحى و يكتب فوقها المعلومة الجديدة.</li>
+</ul>
+<h3>الجداول الشاملة</h3>
+<b>الجداول الشاملة </b>هي نوع آخر من قاعدة بيانات الويب أو الشبكة التي يسمح لك App Inventor باستخدامها بسهولة. الجداول الشاملة تستخدم جداول لتخزين واسترجاع المعلومات بدلا من أزواج قيمة العلامة. هذا يسمح لهم بتخزين المزيد من مجموعات المعلومات المعقدة. فقط مثل <b>TinyWebDB،</b> عدة مستخدمين لتطبيقك يمكنهم تخزين واستعادة القيم من الجداول الشاملة وأنت سيكون بإمكانك إدارتها من خلال خدمة الويب الخاصة به.
+
+الجداول الشاملة تسمح لك بتخزين معلومات في <strong>جدول</strong>. الجداول تكون رائعة عندما يكون لديك الكثير من المعلومات لتعقبها، وتنظيم المعلومات في صفوف وأعمدة. لفهم ا<strong>لجداول الشاملة</strong> أفضل لنفكر من خلال مثال.
+
+لنقل أنكِ كنتِ في مهمة طلب قمصان جديدة لفريق كرة القدم الخاص بكِ. كل شخص سيحصل على قميص باسمه ورقمه عليه. تحتاجين لطريقة لتعقب اسم كل شخص، رقمه، وحجم القميص. الطريقة الاسهل للقيام بذلك من خلال إنشاء جدول مثل هذا:
+<table>
+<tbody>
+<tr style="color: white;" bgcolor="#333333">
+<td>Name</td>
+<td>Number</td>
+<td>Shirt Size</td>
+</tr>
+<tr>
+<td>Marissa</td>
+<td>2</td>
+<td>L</td>
+</tr>
+<tr>
+<td>Ruchi</td>
+<td>6</td>
+<td>M</td>
+</tr>
+<tr>
+<td>Hadar</td>
+<td>3</td>
+<td>S</td>
+</tr>
+<tr>
+<td>Stephanie</td>
+<td>7</td>
+<td>M</td>
+</tr>
+<tr>
+<td>Iyonce</td>
+<td>4</td>
+<td>S</td>
+</tr>
+</tbody>
+</table>
+بدلا من استخدام القلم والورقة، قررتِ استخدام الجداول الشاملة لتعقب كل تلك المعلومات. أنشأتي تطبيق وطلبتِ من أعضاء فريقك تثبيته. من خلال هواتفهم يدخلون أسماءهم، أرقامهم، وحجم قمصانهم. المعلومات من أجهزتهم تخزن في جدول شامل على الانترنت.ثم يمكنك تسجيل الدخول وعرض وتعديل معلومات الجميع!
+
+للحصول على فكرة أفضل لبعض الأشياء ربما عليك استخدام الجداول الشاملة، هنا بعض السيناريوهات عندما قامت فرق Technovation السابقة باشتقاق الجداول الشاملة. قارني وشاهدي اذا كان هناك سيناريوهات مشابهه لما تحاولين القيام به في تطبيقك!
+<ul>
+ 	<li style="font-weight: 400;">إنشاء دليل لمواقع المراكز التي تقبل التبرعات. مدخلات الجدول تتضمن الموقع و أرقام الهواتف والعناصر التي يقبلونها.</li>
+ 	<li style="font-weight: 400;">إنشاء دليل لمواقع المراكز التي تقبل التبرعات. مدخلات الجدول تتضمن الموقع وأرقام الهواتف والعناصر التي يقبلونها.</li>
+ 	<li style="font-weight: 400;">عمل خرائط وتخطيط(plotting) نقاط على الخرائط، تفحصي هذه الدروس</li>
+ 	<li style="font-weight: 400;">تصور البيانات في الرسوم البيانية الدائرية والرسوم البيانية</li>
+ 	<li style="font-weight: 400;">تخزين معلومات المستخدم</li>
+ 	<li style="font-weight: 400;">تخزين المنشورات والتعليقات على المنتدى</li>
+</ul>
+تفحصي هذان التطبيقان السابقان اللذان استخدما الجداول الشاملة
+<ul>
+ 	<li style="font-weight: 400;">"CramJam” و“BCNeeds” كلاهما استخدما الجداول الشاملة .
+<ul>
+ 	<li style="font-weight: 400;"><a href="https://www.youtube.com/watch?v=UtbOWCgjbL8" target="_blank">CramJam Demo Video</a></li>
+ 	<li style="font-weight: 400;"><a href="https://www.youtube.com/watch?v=rC0-9UMDfBk" target="_blank">CramJam Pitch Video</a></li>
+ 	<li style="font-weight: 400;"><a href="https://www.youtube.com/watch?v=q0Y3GWxl1zg" target="_blank">BCNeeds Demo Video</a></li>
+ 	<li style="font-weight: 400;"><a href="https://www.youtube.com/watch?v=XZtDElDl9V8" target="_blank">BCNeed Pitch Video</a></li>
+</ul>
+</li>
+ 	<li style="font-weight: 400;">“CramJam” استخدمه لدمج تحميل Google Docs و الصور لعرض الملاحظات على الانترنت. “BCNeeds” استخدمه لتسجيل الخدمات ال donatableو البضائع في نقاط جمع التبرعات الخيرية. كلاهما استخدما الجدول لتخزين بيانات مستمرة ودمجه مع جامعي القائمة</li>
+</ul>
+هنا دروس من MIT عن كيفية البداية مع الجداول الشاملة: <a href="http://explore.appinventor.mit.edu/ai2/pizzaparty" target="_blank">Fusion table AI Pizza Party</a> لقد علقنا مع هذه الدروس لذلك استخدمنا <a href="https://www.youtube.com/watch?v=14jyD7_V1RA" target="_blank">هذا الفيديو</a> لمساعدتنا
+
+نصائح لايجاد المشاكل وحلها:
+<ul>
+ 	<li style="font-weight: 400;">• لست بحاجة أن تضعي معلومات بطاقة الائتمان الخاصة بك على Google في أي وقت جميع خصائص cloud platform التي تحتاجينها مجانية.</li>
+ 	<li style="font-weight: 400;">• قومي بتنزيل الكود المصدر ل Pizza Party والعبي به.</li>
+</ul>
+<h3>APIs</h3>
+لنقل أنك تبنين تطبيق يخبر المستخدم ماذا عليه أن يلبس عندما يخرج من المنزل بالاعتماد على الطقس. قد تمضين الكثير من الوقت في تحميل معلومات عن الطقس في الجدول الشامل، لكنك تعلمين أنه يوجد سابقا الكثير من المواقع الالكترونية التي تخبر الناس ما هو الطقس. الحل الأفضل هو أن تقومي فقط بإحضارالمعلومات من تلك المواقع واظهارها للمستخدمين من خلال تطبيقك!
+
+المبرمجون يفعلون مثل هذه الأمور طوال الوقت. انه فعليا يدعى استخدام ال API، أو واجهة برمجة التطبيق للموقع الالكتروني. ال API هي الطريقة التي يستطيع تطبيقك بها التحدث للانترنت ويأخذ المعلومات التي يحتاجها. أنتِ بالأغلب سوف تتفاعلين مع مواقع تستعمل ال API كل الوقت.
+
+هناك كم هائل من المعلومات على الانترنت وهناك طرق لا تعد ولا تحصى للوصول لهذه المعلومات. هنا لديك بعض ال APIs الشائعة التي يستعملها المبرمجون عند إنشائهم للتطبيقات:
+<table>
+<tbody>
+<tr style="color: white;" bgcolor="#333333">
+<td>Data</td>
+<td>Places to get it from</td>
+<td>Tutorials for App Inventor</td>
+</tr>
+<tr>
+<td>Maps</td>
+<td>Google Maps</td>
+<td><a href="http://appinventor.mit.edu/explore/displaying-maps.html" target="_blank">http://appinventor.mit.edu/explore/displaying-maps.html</a></td>
+</tr>
+<tr>
+<td>Stock Prices</td>
+<td>Yahoo! Finance</td>
+<td><a href="http://explore.appinventor.mit.edu/ai2/stockquotes" target="_blank">http://explore.appinventor.mit.edu/ai2/stockquotes</a></td>
+</tr>
+<tr>
+<td>Weather</td>
+<td>National Weather Service</td>
+<td><a href="https://appinventorapi.com/weather/" target="_blank">https://appinventorapi.com/weather/</a></td>
+</tr>
+</tbody>
+</table>
+عليكي استخدام APIs في أي وقت تريدين فيه أخذ معلومات تعلمين أنها موجودة لدى موقع الكتروني آخر أو قاعدة بيانات..
+<h3>نشاط:إستكشاف APIs</h3>
+فكري كيف يمكن أن يكون ال API مفيدا في تطبيقك. هنا بعض الأسئلة التي يجب أن تسأليها لنفسك:
+<ul>
+ 	<li style="font-weight: 400;">ما نوع المعلومات التي سوف أحتاجها لجعل تطبيقي يعمل؟</li>
+ 	<li style="font-weight: 400;">من أين أنا بحاجة أن آخذ هذه المعلومات ؟</li>
+</ul>
+<h3>تحدي البرمجة 4:</h3>
+اختاري هاتف محمول واحد و إما قاعدة بيانات شبكة انترنت أو API تعتقدين أنها ستكون مفيدة في تطبيقك. خذي كل من هذين الأمرين أعديهما و تدربي على استخدامهما. هذا سوف يساعدك كثيرا عندما يحين الوقت لبناء تطبيقك النهائي!
+<h3>الاستنتاج</h3>
+بعد مراجعة هذا الدرس، يجب أن يكون لديك فكرة جيدة جدا ما هي المكونات التي ستحتاجينها لتكون ضمن تطبيقك والتي تعمل كل ما تحتاجين لفعله.تهانينا!
+
+غالبا ستمضين الكثير من الوقت في الاسابيع القادمة العمل على تطوير المميزات في تطبيقك اذا رادتِ أي مكون في تطبيق غير مذكور في هذا الدرس يمكنك البحث عنه هنا <a href="http://ai2.appinventor.mit.edu/reference/components/" target="_blank">هنا</a>.
+<h5>مصادر اضافية</h5>
+<ul>
+ 	<li style="font-weight: 400;"><a href="https://www.youtube.com/watch?v=dXi55Rai7pQ">Thunkable Google Maps Tutorial</a></li>
+ 	<li style="font-weight: 400;"><a href="https://www.youtube.com/watch?v=JLCLcU05FRc">Spinner Component Demonstration Video</a></li>
+</ul>
+شاهدي هذا الفيديو الذي عملته خريجة منافسة التيكنوفيشن Ashni Sheth التي تعلمك كيفية دمج الbots مع تطبيقك
