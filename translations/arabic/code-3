@@ -1,5 +1,3 @@
-<h1>البرمجة 3</h1>
-<h2>الجُمل الشّرطيّة والمنطق والحلقات</h2>
 <ul>
  	<li><a href="#conditions">الشروط</a></li>
  	<li><a href="#ifelse">جُمل If/Else</a></li>
@@ -18,10 +16,10 @@
 <h3>الأهداف:</h3>
 في هذه الوحدة، سوف:
 <ul>
- 	<li style="font-weight: 400"> تتعلمين عن الجمل الشرطية وكيفية كتابتها.</li>
- 	<li style="font-weight: 400"> تتعلمين كيفية استعمال العمليات المنطقية في برنامجك</li>
- 	<li style="font-weight: 400"> تتعلمين كيفية استخدام  حلقات for وwhile</li>
- 	<li style="font-weight: 400"> إنشاء تطبيق يبحث في قاعدة بيانات</li>
+ 	<li style="font-weight: 400;"> تتعلمين عن الجمل الشرطية وكيفية كتابتها.</li>
+ 	<li style="font-weight: 400;"> تتعلمين كيفية استعمال العمليات المنطقية في برنامجك</li>
+ 	<li style="font-weight: 400;"> تتعلمين كيفية استخدام  حلقات for وwhile</li>
+ 	<li style="font-weight: 400;"> إنشاء تطبيق يبحث في قاعدة بيانات</li>
 </ul>
 تهانينا على كل الجهد الذي بذلتيه حتى الآن! هذه حقاً وحدة كبيرة لكنها تحتوي على الكثير من مفاهيم البرمجة الأساسية لبرمجة تطبيقك. لا تتوقفي عند الأشياء التي لا تفهمينها لأنك تستطيعين دائماً العودة لها فيما بعد!
 قبل البدء بهذه الوحدة، دعينا نقوم بمراجعة بعض مفاهيم البرمجة من وحد البرمجة السابقة  والتي ستحتاجينها في هذه الوحدة:
@@ -32,63 +30,65 @@
  	<li><strong>Variables </strong>(المتغيرات) اسم لجزء من البيانات التي يمكن أن تتغير.</li>
 </ul>
 حاولي لعب هذه اللعبة الممتعة <a href="https://www.madewithcode.com/projects/robots" target="_blank">Made With Code Robot</a> قبل البدء بهذه الوحدة. ستساعدك أن تألفي المفاهيم التي ستتعلمينها. اذا لم تستطيعي أن تتعرفي على الخمس مراحل كلها الآن، حاولي العودة اليها بعد الانتهاء من هذه الوحدة!
-<h2>الشروط</h2>
+<h2 id="conditions">الشروط</h2>
 لقد كنتِ تستخدمين معالجات الأحداث كثيراً حتى الآن! في تحديات البرمجة السابقة عندما يقوم المستخدم بالضغط على الزر،  تطبيقك كان يقوم بشيء ما. على سبيل المثال في<a href="http://www.technovationchallenge.org/curriculum/code-2-challenge/" target="_blank'"> تحدي البرمجة 2</a>، زر الإدخال <i>enter</i> يضيف عناصر لقائمة الأعمال "To do list" . الحدث "<b>event" </b>كان نقر المستخدم على "enter" والطريقة التي عالج بها التطبيق الحدث كانت اضافة النص الذي كتبه المستخدم الى قائمة الأعمال "To do list" . الكود في تطبيقك يعمل بالشكل التالي (عندما يتم النقر على زر Enter افعل هذا الشيء):
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Enter-Pressed1-533x1024.png" alt="enter-pressed1" width="99" height="189" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Enter-Pressed1-533x1024.png" alt="enter-pressed1" width="99" height="189" />
 
 يمكن أنكِ قد لاحظتِ في مثالنا أن التطبيق أو قائمة الأعمال خاصتك، تسمح للمستخدم بإضافة نص فارغ للقائمة. بسبب ذالك، قد يمتلك المستخدم قائمة طويلة حقا وقد تكون لا تحتوي على أي شيء.
 
 لنقل أنكِ لا تريدين لمستخدمك أن يكون بإمكانه إضافة نص فارغ لقائمة ألأعمال الخاصة به. اذاً،في كل مرة يقوم المستخدم بنقر زر"Enter"، تكتبين كود ليسأل تطبيقك"هل المستخدم أدخل نصاً غير فارغ"؟ اذا كان الجواب نعم، التطبيق يُضيف النّص إلى قائمة الأعمال . أما اذا كان الجواب لا، التطبيق لن يضيف النص الفارغ. الآن كودك سيبدو هكذا:
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Enter-Pressed2-352x1024.png" alt="enter-pressed2" width="142" height="411" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Enter-Pressed2-352x1024.png" alt="enter-pressed2" width="142" height="411" />
 
 هذه طريقة رائعة لحل مشكلتكِ، لكن تذكري أنّ الحواسيب لا تستطيع أن تفكر بنفسها، لذالك لا تستطيعين أن تسأليهم أسئلة مباشرة وكأنكِ تسألين شخصاً ما. في الكود، عندما تريدين أن تسألي تطبيقك سؤالاً، تقومين ببرمجته لفحص الشرط ما. الشرط هو شيء يقوم الحاسوب بتحديده إذا كان صحيحاً أم خاطئاً.
 
 عندما تقومين ببرمجة تطبيقك لفحص شرط ما، سيكون هناك فقط احتمالان كناتج، صحيح وهذا يعني نعم هذا الشرط صحيح، وخطأ يعني لا، الشرط خاطىء. يمكنكِ أن تخبري تطبيقك للقيام بأمور مختلفة بناءً على الشرط اذا كان صحيحاً أم خاطئاً. وهنا كيف يمكنكِ أن تسألي تطبيقك إذا قام المستخدم بإدخال نص باستخدام الشرط:
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Enter-Pressed3-343x1024.png" alt="enter-pressed3" width="152" height="455" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Enter-Pressed3-343x1024.png" alt="enter-pressed3" width="152" height="455" />
 
 هل تتذكرين نوع البيانات Boolean (القيم المنطقية) من <a href="http://www.technovationchallenge.org/curriculum/coding-unit-2/" target="_blank">الوحدة الثانية: البيانات والمتغيرات</a>؟ <b>القيم المنطقية </b> هي نوع من البيانات التي يمكن أن تكون صح أو خطأ. عندما يقوم تطبيقك بتقييم الشرط، سيكون الناتج قيمة منطقية!
 <h2>الجمل الشرطية</h2>
-<h5>جمل If/Else</h5>
+<h5 id="ifelse">جمل If/Else</h5>
 اذاً الآن أنتي تعلمين ما هو<b> الشرط (condition) </b>لكن كيف تستخدمينه في الكود؟ في الكود، أنتِ تطلبين من حاسوبِك تقييم الظروف من خلال كتابة <b>جمل شرطية.</b> الجمل الشرطية هي الطريقة التي تُمكّن الحاسوب من اتخاذ القرارات. الجمل الشرطية دائما تحتوي على الجزء <b>if، </b>الجزء الذي يُخبر التطبيق ماذا يفعل إذا كان الشرط صحيحاً. الجمل الشرطية أيضا تحتوي على جزء <b>else</b>، الذي يُخبر التطبيق ماذا يفعل إذا كان الشرط خاطئ. إذا أهملتي الجزء <b>else </b>فإن تطبيقك لن يفعل شيء اذا كان الشرط خاطىء. الآن كود زر الإدخال "Enter" سيبدو بالشكل التالي:
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Enter-Pressed4-550x1024.png" alt="enter-pressed4" width="262" height="488" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Enter-Pressed4-550x1024.png" alt="enter-pressed4" width="262" height="488" />
 
 هنا كيف تبدو الجمل الشرطية في App Inventor:
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Screen-Shot-2016-11-01-at-12.05.58-PM.png" alt="screen-shot-2016-11-01-at-12-05-58-pm" width="254" height="161" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Screen-Shot-2016-11-01-at-12.05.58-PM.png" alt="screen-shot-2016-11-01-at-12-05-58-pm" width="254" height="161" />
 
 هنا كيف تعمل هذه الصناديق "Blocks". تضع الشرط بالقرب من <b>if</b>. تضع الكود الذي يخبر تطبيقك ماذا يجب أن يفعل اذا كان الشرط صحيح بالقرب من <b>then</b> وماذا تريد من تطبيقك أن يفعل اذا كان الشرط خاطىء بالقرب من <b>else</b>. اذا كان الشرط صحيحاً،  فقط الكود الذي بالقرب من <b>then</b> سوف يعمل وكل الكود الذي بالقرب من<b>else</b> سوف يتم تجاهله. إذا كان الشرط خاطىء، كل الكود الذي بالقرب من <b>then</b> سوف يتم تجاهله وفقط الكود الذي بالقرب من <b>else</b> سوف يعمل. فكري بها مثل القول "<b>إذا كان</b> الشرط صحيحاً <b>إذاً</b> إعمل هذا، <b>وإلا</b> إفعل أمراً آخر".
 
 دعينا نعود للمثال الذي استخدمناه في <a href="http://www.technovationchallenge.org/curriculum/code-2-challenge/" target="_blank'">تحدي البرمجة 2</a>. هنا كيف تبدو الصناديق الشرطية بعد إضافة الكود.
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/if-statement.png" alt="if-statement" width="463" height="243" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/if-statement.png" alt="if-statement" width="463" height="243" />
 هنا عندما يقوم المستخدم بضغط زر "enter" التطبيق سيقوم بفحص هذا الشرط:"طول النص الذي أُدخل <strong>لمربع الكتابة</strong> لا يساوي صفر". إذا كان الشرط صحيحاً (طول النص لا يساوي صفر)هذا يعني أن المستخدم قد أدخل نصا، اذا التطبيق سيقوم بإضافة النص الى قائمة الأعمال. إذا كان الشرط خاطىء(طول النص يساوي صفر)، اذا التطبيق سيتجاهل الكود أسفل <strong>then</strong> ويتخطاه الى جزء <strong>else،</strong> الذي يقوم بتنبيه المستخدم لادخال نص.
-<h2>نشاط 1</h2>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h2 id="act1">نشاط 1</h2>
 هل يمكنكِ أن تفكري ببعض الجمل الشرطية التي يمكنها أن تساعدكِ باتخاذ القرارات كل يوم؟ هنا بعض الأمثلة التي يمكنكِ أن تبدأي منها:
 <ul>
- 	<li style="font-weight: 400"> إذا كانت تمطر، إذاً خذي معكِ مِظلة.</li>
- 	<li style="font-weight: 400"> إذا كنتِ جائعة، إذاً تناولي وجبة سريعة، وإلا انتظري لوقت آخر.</li>
- 	<li style="font-weight: 400"> إذا كان الجو بارداً في الخارج، أحضري معطفاً.</li>
- 	<li style="font-weight: 400">إذا كنتِ مريضة، اذهبي الى الطبيب، و إلّا اذهبي للمدرسة</li>
- 	<li style="font-weight: 400">إذا كان شحن هاتفكِ منتهيا، إذاً اشحنيه.</li>
+ 	<li style="font-weight: 400;"> إذا كانت تمطر، إذاً خذي معكِ مِظلة.</li>
+ 	<li style="font-weight: 400;"> إذا كنتِ جائعة، إذاً تناولي وجبة سريعة، وإلا انتظري لوقت آخر.</li>
+ 	<li style="font-weight: 400;"> إذا كان الجو بارداً في الخارج، أحضري معطفاً.</li>
+ 	<li style="font-weight: 400;">إذا كنتِ مريضة، اذهبي الى الطبيب، و إلّا اذهبي للمدرسة</li>
+ 	<li style="font-weight: 400;">إذا كان شحن هاتفكِ منتهيا، إذاً اشحنيه.</li>
 </ul>
-<h5>جمل Else If</h5>
+</div>
+<h5 id="elseif">جمل Else If</h5>
 حتى الآن لقد تعلمتِ كيف تكتبين جملاً تقوم بفحص شرطٍ واحدٍ ولديه احتمالان ناتجان. في هذا الجزء سوف تتعلمين كيف تقومين بكتابة جمل شرطية أكبر!
 
 <b>Else if </b>تسمح لك بإضافة شرطٍ آخر لجملتك الشرطية. هذا الشرط الثاني سوف يتم فحصه بعد الشرط الأول وفقط إذا كان الشرط الأول خاطئا. إذا كان الشرط الثاني أيضا خاطىء، التطبيق سوف يذهب افتراضا للجزء  <b>else</b> أو لن يقوم بشيء. هنا رسم توضيحي لمساعدتك على الفهم، الشرط باللون الأزرق والمخرجات المحتملة باللون الزهري.
 <table>
 <tbody>
 <tr>
-<td style="text-align: center" width="50%">الجمل الشرطية التي لديها شرط واحد واحتمالان ناتجان.</td>
-<td style="text-align: center">الجمل الشرطية التي لديها ثلاث احتمالات ناتجة.
+<td style="text-align: center;" width="50%">الجمل الشرطية التي لديها شرط واحد واحتمالان ناتجان.</td>
+<td style="text-align: center;">الجمل الشرطية التي لديها ثلاث احتمالات ناتجة.
 شرط2 فقط يُقيم اذا كان شرط1 خطأ.</td>
 </tr>
 <tr>
-<td style="vertical-align: top"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Condition-1024x664.png" alt="condition" width="246" height="159" /></td>
-<td style="vertical-align: top"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image04-1-1024x851.png" alt="image04" width="314" height="261" /></td>
+<td style="vertical-align: top;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Condition-1024x664.png" alt="condition" width="246" height="159" /></td>
+<td style="vertical-align: top;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image04-1-1024x851.png" alt="image04" width="314" height="261" /></td>
 </tr>
 </tbody>
 </table>
@@ -96,8 +96,8 @@
 <table>
 <tbody>
 <tr>
-<td style="vertical-align: top" width="25%"> <img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image29.png" alt="image29" width="150" height="230" /></td>
-<td style="vertical-align: top"> <img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image19.gif" alt="how to use the if else block" width="640" height="480" /></td>
+<td style="vertical-align: top;" width="25%"> <img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image29.png" alt="image29" width="150" height="230" /></td>
+<td style="vertical-align: top;"> <img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image19.gif" alt="how to use the if else block" width="640" /></td>
 </tr>
 </tbody>
 </table>
@@ -105,13 +105,13 @@
 
 أنتِ تصممين تطبيق يستهدف فقط المستخدمين بأعمار من 13 إلى 18 (المراهقين) وأنتِ تريدين من تطبيقك أن يعرف المستخدمين إذا كانو صغاراً أو كباراً لاستخدام هذا التطبيق. لديك ثلاث احتمالات ناتجة:
 <ol>
- 	<li style="font-weight: 400"> المستخدم صغير جدا.</li>
- 	<li style="font-weight: 400"> المستخدم كبير جدا.</li>
- 	<li style="font-weight: 400"> المستخدم بالعمر المناسب.</li>
+ 	<li style="font-weight: 400;"> المستخدم صغير جدا.</li>
+ 	<li style="font-weight: 400;"> المستخدم كبير جدا.</li>
+ 	<li style="font-weight: 400;"> المستخدم بالعمر المناسب.</li>
 </ol>
-يجب أن تجعلي المستخدم يقوم بادخال عمره إلى التطبيق وحفظه في متغير يُدعى "age". وهنا كيف يمكنكِ أن تستخدمي جمل <strong>i</strong><b>f/else/else if</b> للتأكد من أنهم بالعمر المناسب.
+يجب أن تجعلي المستخدم يقوم بادخال عمره إلى التطبيق وحفظه في متغير يُدعى "age". وهنا كيف يمكنكِ أن تستخدمي جمل <b>if</b>/<b>else</b>/<b>else if</b> للتأكد من أنهم بالعمر المناسب.
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image08-1-1024x457.png" alt="if/else else/if response blocks" width="633" height="283" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image08-1-1024x457.png" alt="if/else else/if response blocks" width="633" height="283" />
 
 الشرط الأول يفحص إذا كان المستخدم أصغر من 13. اذا كان الشرط صحيحا، إذا التطبيق سيُحذّر المستخدم أنه صغير جداً، اذا لم يكن الشرط صحيحاً، التطبيق سيفحص إذا كان المستخدم أكبر من 18، اذا كان الشرط صحيحاً، التطبيق سيحذّر المُستخدم أنه كبير جدا. إذا لم يكن الشرط صحيحا إذا التطبيق يُخبر المستخدم أن عمره في الفئة الصحيحة.
 
@@ -119,156 +119,168 @@
 
 هنا بعض الأمور لتذكرها عند استعمال جمل <strong>i</strong><b>f/else/else if </b>:
 <ul>
- 	<li style="font-weight: 400">بإمكانك إضافة عدد من الشروط لفحصها بالعدد الذي تريدين</li>
- 	<li style="font-weight: 400">الجمل تعمل من الأعلى إلى الأسفل، لذا ضعي الشروط التي تودين فحصها في البداية في الأعلى.</li>
- 	<li style="font-weight: 400"> الكود الذي سيتم تنفيذه فقط هو الذي يكون أسفل أول جملة صحيحة</li>
+ 	<li style="font-weight: 400;">بإمكانك إضافة عدد من الشروط لفحصها بالعدد الذي تريدين</li>
+ 	<li style="font-weight: 400;">الجمل تعمل من الأعلى إلى الأسفل، لذا ضعي الشروط التي تودين فحصها في البداية في الأعلى.</li>
+ 	<li style="font-weight: 400;"> الكود الذي سيتم تنفيذه فقط هو الذي يكون أسفل أول جملة صحيحة</li>
 </ul>
 لمزيد من المعلومات عن الشروط، تفحصي موقع MIT من <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/control.html" target="_blank">هنا</a>.
-<h2>نشاط 2</h2>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h2 id="act2">نشاط 2</h2>
 تحديد أي شروط يجب أن يقوم تطبيقك بفحصها يمكن أن يكون صعبا! في بعض الأوقات سوف تتعلمين ماذا تريدين من تطبيقك أن يعمل، لكن قد يكون من الصعب تعلم أي الشروط يجب فحصها أولا. لنبدأ بالتدرب على كتابة بعض الشروط التي تظنين أن التطبيقات ستفحصها عند استخدامك لها.هنا مثال لتبدأي منه! أنظري إذا كان بإمكانك أن تأتي بأمثلة أخرى..
 
 تسجيل الدخول لحساب مواقع التواصل الاجتماعي:
 <ul>
- 	<li style="font-weight: 400">الشروط التي سيتم فحصها:
+ 	<li style="font-weight: 400;">الشروط التي سيتم فحصها:
 <ul>
- 	<li style="font-weight: 400"> اسم المستخدم صحيح</li>
- 	<li style="font-weight: 400"> كلمة المرور صحيحة</li>
- 	<li style="font-weight: 400"> المستخدم لم يحاول تسجيل الدخول أكثر من خمس مرات متتالية بشكل خاطئ.</li>
+ 	<li style="font-weight: 400;"> اسم المستخدم صحيح</li>
+ 	<li style="font-weight: 400;"> كلمة المرور صحيحة</li>
+ 	<li style="font-weight: 400;"> المستخدم لم يحاول تسجيل الدخول أكثر من خمس مرات متتالية بشكل خاطئ.</li>
 </ul>
 </li>
 </ul>
 هناك جزء آخر صعب حول كتابة الجمل الشرطية وهو كيفية ترجمة ما في ذهنك لشيء يستطيع تطبيقك أن يفهمه. في المثال السابق، لقد فحصنا عمر المستخدم من خلال إنشاء متغير مساوٍ لعمر المستخدم. لن يكون دائماً القيام بالشروط حدسيا سوف تحتاجين إلى تمرين! هنا أسئلة لتسأليها لنفسك عند محاولتك وضع الشروط الصحيحة:
 <ol>
- 	<li style="font-weight: 400"> هل شرطكِ يعتمد على معلومات يُدخلها المستخدم؟</li>
- 	<li style="font-weight: 400">هل تحتاجين إلى تعريف أية متغيرات؟
+ 	<li style="font-weight: 400;"> هل شرطكِ يعتمد على معلومات يُدخلها المستخدم؟</li>
+ 	<li style="font-weight: 400;">هل تحتاجين إلى تعريف أية متغيرات؟
 <ul>
- 	<li style="font-weight: 400"> إذا كان الوضع كذالك، ما نوع المتغير؟هل هو رقم أم قائمة أم نص؟</li>
+ 	<li style="font-weight: 400;"> إذا كان الوضع كذالك، ما نوع المتغير؟هل هو رقم أم قائمة أم نص؟</li>
 </ul>
 </li>
- 	<li style="font-weight: 400">هل يمكن أن تستخدمي عمليات حسابية مثل أقل من (&lt; ) أكبر من (&gt;)، يساوي (=), لا يساوي (≠)في شرطكِ؟</li>
- 	<li style="font-weight: 400">هل تحتاجين إلى مقارنة قيمة شيء مع قيمة في قاعدة البيانات؟</li>
- 	<li style="font-weight: 400">هل تحتاجين إلى مقارنة شيء مع بيانات من مكان آخر، مثل موقع؟(هذا سوف يتم مناقشته أكثر في <a href="http://www.technovationchallenge.org/curriculum/code-4/" target="_blank">البرمجة 4</a>)</li>
- 	<li style="font-weight: 400">أي نوع من البيانات يعتمد عليها شرطكِ؟هل ترين أي عمليات لهذا النوع من البيانات والتي يمكن أن تساعدك؟
+ 	<li style="font-weight: 400;">هل يمكن أن تستخدمي عمليات حسابية مثل أقل من (&lt; ) أكبر من (&gt;)، يساوي (=), لا يساوي (≠)في شرطكِ؟</li>
+ 	<li style="font-weight: 400;">هل تحتاجين إلى مقارنة قيمة شيء مع قيمة في قاعدة البيانات؟</li>
+ 	<li style="font-weight: 400;">هل تحتاجين إلى مقارنة شيء مع بيانات من مكان آخر، مثل موقع؟(هذا سوف يتم مناقشته أكثر في <a style="color: #eae46f;" href="http://www.technovationchallenge.org/curriculum/code-4/" target="_blank">البرمجة 4</a>)</li>
+ 	<li style="font-weight: 400;">أي نوع من البيانات يعتمد عليها شرطكِ؟هل ترين أي عمليات لهذا النوع من البيانات والتي يمكن أن تساعدك؟
 <ul>
- 	<li style="font-weight: 400">مثال: مقارنة نصين، إيجاد طول النص، اضافة عناصر إلى القائمة، مقارنة قائمتين، الخ.</li>
- 	<li style="font-weight: 400"> حاولي المرور سريعاً على كل الـ functions في App Inventor لتري إن كانت هذه الاقترانات ستساعدكِ.</li>
+ 	<li style="font-weight: 400;">مثال: مقارنة نصين، إيجاد طول النص، اضافة عناصر إلى القائمة، مقارنة قائمتين، الخ.</li>
+ 	<li style="font-weight: 400;"> حاولي المرور سريعاً على كل الـ functions في App Inventor لتري إن كانت هذه الاقترانات ستساعدكِ.</li>
 </ul>
 </li>
 </ol>
-<h2>المنطق</h2>
+</div>
+<h2 id="andop">المنطق</h2>
 حتى الآن تعلمتِ كيفية جعل تطبيقك يعمل أمورعدة من خلال <strong>الجمل الشرطية</strong>. يمكنكِ حل العديد من المشاكل من خلال معرفة العمليات المنطقية. العمليات المنطقية تأخذ عدة قيم من نوع Boolean كمدخلات لكنها تنتج مخرج واحد فقط من نوع Boolean. لأن تطبيقك يرى الجمل الشرطية على صورة صحيح أو خاطئ يمكنك استخدام الشروط كمدخلات للعمليات المنطقية. هناك ثلاث <strong>عمليات منطقية</strong> مهمة سوف تتعلمينها في هذا القسم: <strong>و، أو، النفي</strong> و بصورة أخرى "<strong>and, or, not</strong>". على الرغم من أن هذه العمليات قد تبدوا غريبة، لكنكِ سترين في الأسفل بعض الأمثلة التي توضح كيف يمكن <strong>للعمليات المنطقية</strong> مساعدتكِ في بناء تطبيقك.
 <h5>عملية AND</h5>
 عملية <strong>and</strong> تأخذ مدخلان، وكلاهما يجب أن يكون صحيحا ليكون المخرج صحيحاً. إذا كان أحد الشرطين غير صحيح، الكود سيُقيّم كل العملية كخطأ. هنا كل الاحتمالات الناتجة عند استعمال <strong>and</strong> :
-<p style="text-align: center">True <strong>and</strong> True = True</p>
-<p style="text-align: center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image34.png" alt="true/true blocks" width="318" height="62" /></p>
-<p style="text-align: center">True <strong>and</strong> False = False</p>
-<p style="text-align: center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image24-1.png" alt="true/false blocks" width="336" height="61" /></p>
-<p style="text-align: center">False <strong>and</strong> True = False</p>
-<p style="text-align: center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image38.png" alt="false/true blocks" width="331" height="60" /></p>
-<p style="text-align: center">False <strong>and</strong> False = False</p>
-<p style="text-align: center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image07-1.png" alt="false/false blocks" width="353" height="66" /></p>
+<p style="text-align: center;">True <strong>and</strong> True = True</p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image34.png" alt="true/true blocks" width="318" height="62" /></p>
+<p style="text-align: center;">True <strong>and</strong> False = False</p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image24-1.png" alt="true/false blocks" width="336" height="61" /></p>
+<p style="text-align: center;">False <strong>and</strong> True = False</p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image38.png" alt="false/true blocks" width="331" height="60" /></p>
+<p style="text-align: center;">False <strong>and</strong> False = False</p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image07-1.png" alt="false/false blocks" width="353" height="66" /></p>
 هنا كيف يمكنكِ التفكير باستخدام <strong>and </strong>في الجمل الشرطية:
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Condition3-1024x608.png" alt="condition3" width="407" height="242" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Condition3-1024x608.png" alt="condition3" width="407" height="242" />
 
 ملاحظة: استخدام <strong>and </strong>يختلف عن استخدام <strong>else if</strong> لأنّ كلا الشرطين سيتم تقييمهما في نفس الوقت بدل من تقييمهما واحدا بعد الآخر. كلاهما يجب أن يكون صحيحا بالنسبة للتطبيق ليعتبر الشرط صحيحا.
+<div style="background-color: #00abad; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
 <h5>أمثلة</h5>
 يجب أن تستخدمي <strong>and </strong>عندما تريدين أن يكون هناك شرطين صحيحين من أجل أن يحدث شيء معين. هنا بعض الأمثلة متى يمكن استعمال <strong>and </strong>في تطبيقك!
 <ul>
- 	<li style="font-weight: 400"> تسجيل الدخول في مواقع التواصل الاجتماعي:
+ 	<li style="font-weight: 400;"> تسجيل الدخول في مواقع التواصل الاجتماعي:
 <ul>
- 	<li style="font-weight: 400"> اذا كان(اسم المستخدم صحيحا) <strong>and </strong>(كلمة المرور صحيحة)--- &gt; اذا إسمح للمستخدم بتسجيل الدخول.</li>
+ 	<li style="font-weight: 400;"> اذا كان(اسم المستخدم صحيحا) <strong>and </strong>(كلمة المرور صحيحة)--- &gt; اذا إسمح للمستخدم بتسجيل الدخول.</li>
 </ul>
 </li>
- 	<li style="font-weight: 400"> الفوز بلعبة
+ 	<li style="font-weight: 400;"> الفوز بلعبة
 <ul>
- 	<li style="font-weight: 400"> إذا (قام اللاعب بانهاء المستوى) <strong>and </strong>(الوقت أقل من 3 ثواني)---&gt; إذا المستخدم يسجل الدخول.</li>
+ 	<li style="font-weight: 400;"> إذا (قام اللاعب بانهاء المستوى) <strong>and </strong>(الوقت أقل من 3 ثواني)---&gt; إذا المستخدم يسجل الدخول.</li>
 </ul>
 </li>
- 	<li style="font-weight: 400"> إيجاد محل بقالة:
+ 	<li style="font-weight: 400;"> إيجاد محل بقالة:
 <ul>
- 	<li style="font-weight: 400">إذا(المحل مفتوح)<strong>and </strong>(بالقرب من المستخدم)---&gt; إذاً أظهر المحل في نتائج البحث.</li>
+ 	<li style="font-weight: 400;">إذا(المحل مفتوح)<strong>and </strong>(بالقرب من المستخدم)---&gt; إذاً أظهر المحل في نتائج البحث.</li>
 </ul>
 </li>
- 	<li style="font-weight: 400"> نشر صورة:
+ 	<li style="font-weight: 400;"> نشر صورة:
 <ul>
- 	<li style="font-weight: 400"> إذا(المستخدم اختار صورة) <strong>and </strong>(أدخل المستخدم شرح)--&gt;اسمح للمستخدم بنشر الصورة.</li>
+ 	<li style="font-weight: 400;"> إذا(المستخدم اختار صورة) <strong>and </strong>(أدخل المستخدم شرح)--&gt;اسمح للمستخدم بنشر الصورة.</li>
 </ul>
 </li>
 </ul>
 هل يمكنكِ التفكير بأمثلة أكثر؟
-<h5>عملية OR</h5>
+
+</div>
+<h5 id="orop">عملية OR</h5>
 عملية <strong>or</strong> تأخذ مدخلين، وفقط واحد منهما يجب أن يكون صحيحا ليكون الناتج صحيحا. اذا لم يكن أي من الشرطين صحيحا، الكود سوف يُقيم كل الحالة كخطأ. هنا كل الاحتمالات الممكنة عند استعمال <strong>or</strong> .
-<p style="text-align: center">True <b>or</b> True = True</p>
-<p style="text-align: center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image33-1.png" alt="true or true blocks" width="284" height="53" /></p>
-<p style="text-align: center">True <strong>or</strong> False = True</p>
-<p style="text-align: center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image57.png" alt="true or false blocks" width="299" height="58" /></p>
-<p style="text-align: center">False <strong>or</strong> True = True</p>
-<p style="text-align: center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image26-1.png" alt="false or true blocks" width="299" height="63" /></p>
-<p style="text-align: center">False <strong>or</strong> False = False</p>
-<p style="text-align: center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image49.png" alt="false or false blocks" width="313" height="61" /></p>
+<p style="text-align: center;">True <b>or</b> True = True</p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image33-1.png" alt="true or true blocks" width="284" height="53" /></p>
+<p style="text-align: center;">True <strong>or</strong> False = True</p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image57.png" alt="true or false blocks" width="299" height="58" /></p>
+<p style="text-align: center;">False <strong>or</strong> True = True</p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image26-1.png" alt="false or true blocks" width="299" height="63" /></p>
+<p style="text-align: center;">False <strong>or</strong> False = False</p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image49.png" alt="false or false blocks" width="313" height="61" /></p>
 هنا يمكنكِ أن تفكري في كيفية استخدام <b>or</b> في الجمل الشرطية:
 
-<img src="http://technovationchallenge.org/wp-content/uploads/2016/09/Condition4-3.png" alt="" width="408" height="239" />
+<img class="aligncenter" src="http://technovationchallenge.org/wp-content/uploads/2016/09/Condition4-3.png" alt="" width="408" height="239" />
 
 ملاحظة: يمكن أن تري أن <b>or</b> مشابهة لـ else if. لكن <b>or</b>  مختلفة لأن الشرطان يتم فحصهما بنفس الوقت بدل من فحصهما واحداً بعد الآخر. <b>or</b> أفضل للاستعمال عندما يكون لديك شرطين يجب أن يحصلا على نفس الناتج إذا كان أحدهما صحيحاً.
+<div style="background-color: #00abad; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
 <h5>أمثلة</h5>
 <ul>
- 	<li style="font-weight: 400"> خسارة لعبة:
+ 	<li style="font-weight: 400;"> خسارة لعبة:
 <ul>
- 	<li style="font-weight: 400"> (إذا انتهى الوقت) <b>or</b> (اللاعب خسر كل أرواحه)--&gt; بالتالي اللاعب يخسر</li>
+ 	<li style="font-weight: 400;"> (إذا انتهى الوقت) <b>or</b> (اللاعب خسر كل أرواحه)--&gt; بالتالي اللاعب يخسر</li>
 </ul>
 </li>
- 	<li style="font-weight: 400"> عرض نتائج البحث
+ 	<li style="font-weight: 400;"> عرض نتائج البحث
 <ul>
- 	<li style="font-weight: 400"> (إذا توافق العنوان) <b>or</b> (توافق الشرح) --&gt; أظهره في نتائج البحث</li>
+ 	<li style="font-weight: 400;"> (إذا توافق العنوان) <b>or</b> (توافق الشرح) --&gt; أظهره في نتائج البحث</li>
 </ul>
 </li>
- 	<li style="font-weight: 400"> اقتراح فيديوهات على المستخدم لمشاهدتها:
+ 	<li style="font-weight: 400;"> اقتراح فيديوهات على المستخدم لمشاهدتها:
 <ul>
- 	<li style="font-weight: 400">إذا المستخدم شاهد الفيديو في السابق <b>or</b> الفيديو يشبه أشياء قام المستخدم بالإعجاب بها --&gt; إقترحه على المستخدم.</li>
+ 	<li style="font-weight: 400;">إذا المستخدم شاهد الفيديو في السابق <b>or</b> الفيديو يشبه أشياء قام المستخدم بالإعجاب بها --&gt; إقترحه على المستخدم.</li>
 </ul>
 </li>
 </ul>
-<h5>عملية NOT</h5>
+</div>
+<h5 id="notop">عملية NOT</h5>
 عملية <strong>not</strong><b> </b>هي عملية سهلة! <strong>not</strong><b> </b>تقوم بقلب قيمة القيمة المنطقية لتكون عكس ما هي عليه.
-<p style="text-align: center"><b>not</b> true = false</p>
-<p style="text-align: center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image13-1.png" alt="not true blocks" width="167" height="52" /></p>
-<p style="text-align: center"><b>not</b> false = true</p>
-<p style="text-align: center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image43.png" alt="not false blocks" width="178" height="44" /></p>
-<p style="text-align: right">في بعض الأحيان يكون من الأسهل وضع شرط يفحص عكس ما تريدينه. لهذه  السيناريوهات يمكنك أن تستخدمي <strong>not</strong><b> </b></p>
-<p style="text-align: right">هنا كيف يمكنك التفكير في عملية <strong>not</strong><b> </b></p>
-<p style="text-align: center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Condition5-1024x825.png" alt="condition5" width="283" height="228" /></p>
+<p style="text-align: center;"><b>not</b> true = false</p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image13-1.png" alt="not true blocks" width="167" height="52" /></p>
+<p style="text-align: center;"><b>not</b> false = true</p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image43.png" alt="not false blocks" width="178" height="44" /></p>
+<p style="text-align: right;">في بعض الأحيان يكون من الأسهل وضع شرط يفحص عكس ما تريدينه. لهذه  السيناريوهات يمكنك أن تستخدمي <strong>not</strong><b> </b></p>
+<p style="text-align: right;">هنا كيف يمكنك التفكير في عملية <strong>not</strong><b> </b></p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Condition5-1024x825.png" alt="condition5" width="283" height="228" /></p>
 
+<div style="background-color: #00abad; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
 <h5>أمثلة</h5>
 <ul>
- 	<li> تريدين أن تفحصي إنْ كان هناك نص في مربع الكتابة، لكنه من الأسهل أن تفحصي إن كان مربع الكتابة فارغا، لذا تستخدمي <strong style="font-weight: 400">not</strong><b style="font-weight: 400"> </b>
+ 	<li> تريدين أن تفحصي إنْ كان هناك نص في مربع الكتابة، لكنه من الأسهل أن تفحصي إن كان مربع الكتابة فارغا، لذا تستخدمي <strong style="font-weight: 400;">not</strong><b style="font-weight: 400;"> </b>
 <ul>
- 	<li><span style="font-weight: 400"> اذا كان الصندوق النصي ليس فارغا</span><b> </b>افعل كذا</li>
+ 	<li><span style="font-weight: 400;"> اذا كان الصندوق النصي ليس فارغا</span><b> </b>افعل كذا</li>
 </ul>
 </li>
- 	<li style="font-weight: 400"> تريدين استبعاد نتائج البحث عن الجِراء، لكنه من الأسهل أن إظهار النتائج التي تحتوي على الجراء، لذا تستخدم <strong style="font-weight: 400">not</strong><b style="font-weight: 400"> </b>
+ 	<li style="font-weight: 400;"> تريدين استبعاد نتائج البحث عن الجِراء، لكنه من الأسهل أن إظهار النتائج التي تحتوي على الجراء، لذا تستخدم <strong style="font-weight: 400;">not</strong><b style="font-weight: 400;"> </b>
 <ul>
- 	<li style="font-weight: 400"> اذا <strong style="font-weight: 400">not</strong><b style="font-weight: 400"> </b>(مقالة تحتوي كلمة جرو)--&gt; أظهر النتائج.</li>
+ 	<li style="font-weight: 400;"> اذا <strong style="font-weight: 400;">not</strong><b style="font-weight: 400;"> </b>(مقالة تحتوي كلمة جرو)--&gt; أظهر النتائج.</li>
 </ul>
 </li>
- 	<li style="font-weight: 400"> يمكنكِ أن تدمجي <strong>العمليات المنطقية</strong> لعمل أشياء أكثر. هنا كيف يمكنكِ استبعاد نتائج البحث عن الجراء ولكن تضمين النتائج عن القطط.
+ 	<li style="font-weight: 400;"> يمكنكِ أن تدمجي <strong>العمليات المنطقية</strong> لعمل أشياء أكثر. هنا كيف يمكنكِ استبعاد نتائج البحث عن الجراء ولكن تضمين النتائج عن القطط.
 <ul>
- 	<li style="font-weight: 400"> اذا <strong style="font-weight: 400">not</strong><b style="font-weight: 400"> </b>(مقالة تحتوي كلمة جرو) <strong>and</strong> (مقالة تحتوي كلمة قطة)---&gt; أظهر النتائج.</li>
+ 	<li style="font-weight: 400;"> اذا <strong style="font-weight: 400;">not</strong><b style="font-weight: 400;"> </b>(مقالة تحتوي كلمة جرو) <strong>and</strong> (مقالة تحتوي كلمة قطة)---&gt; أظهر النتائج.</li>
 </ul>
 </li>
 </ul>
-<h2>نشاط 3</h2>
+</div>
+<div style="background-color: #28a880; color: white; margin-top: 25px; margin-bottom: 25px; padding: 25px;">
+<h2 id="act3">نشاط 3</h2>
 هل تعلمي أنه يمكنكِ أن تستعملي <strong>and</strong> و <strong>or</strong> و <strong>not</strong> في بحث جوجل؟ إنها طريقة جيدة لتضييق أو توسيع نتائج البحث عندما تبحثي عن شيء معين! حاولي ذالك! تأكدي من كتابتك <strong>AND</strong> و <strong>OR</strong> و <strong>NOT</strong> بحروف كبيرة. انظري للمثال بالأسفل:
 
 البحث عن Technovation <strong>And</strong> 2017<strong>  </strong>يعطيكي النتائج التي تحتوي على 2017 <strong>و</strong> تيكنوفيشن:
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image45.png" alt="image45" width="482" height="331" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image45.png" alt="image45" width="482" height="331" />
 
 لبحث عن 2017 Technovation <strong>OR</strong> تعطيكي النتائج التي تحتوي إما 2017 <strong>أو</strong> Technovation
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image25-1.png" alt="image25" width="481" height="313" />
-<h2>Loops (الحلقات)</h2>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image25-1.png" alt="image25" width="481" height="313" />
+
+</div>
+<h2 id="forloop">Loops (الحلقات)</h2>
 تخيلي لو طُلب منكِ كتابة اسمك مئة مرة على التوالي. لن يكون هذا فقط مملاً بل ربما ستقومين بعمل بعض الأخطاء! لو طلبتي من الحاسوب كتابة اسمك مئة مرة سيقوم بذلك بشكل سريع وبدون أخطاء، على عكس البشر الحواسيب بارعة في عمل نفس الشيء مرات عديدة بدون أخطاء. يمكنكَ الإستفادة من هذا عن طريق استخدام الحلقات "<strong>Loops</strong>". الحلقة عبارة عن كود معين يُعاد مراراً و تكراراً.
 
 يوجد نوعان من الحلقات، <strong>while loops</strong> و <strong>for loops</strong>. بداية الـ<strong> while loops</strong> سوف تستمر بعمل شيء حتى يصبح الشرط الذي وضعتيه غير صحيح، بينما الـ <strong>for loops</strong> سوف تكرر شيء عدد محدد من المرات.
@@ -279,80 +291,85 @@
 
 في ال App Inventor، ال <strong>for loops</strong> ستبدو هكذا:
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image21.png" alt="for loop block" width="276" height="153" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image21.png" alt="for loop block" width="276" height="153" />
 
 الجزء المذكور ب <em>number</em> هو <strong>ال counter</strong>. حتى الآن <strong>ال counter </strong>سنسميه <em>number،</em> لكن يمكنكِ أن تغيري ذالك. <em>number</em> سيبدأ بقيمة تساوي 1 ويتوقف عندما تصبح قيمته 5. في كل مرة الكود الذي في الداخل سيتكرر و <em>number</em> سيزيد بمقدار 1. إذاً هذه الحلقة ستعيد الكود الذي في الداخل خمس مرات. حتى الآن، هذه الحلقة لا تفعل شيئا، طالما جزء ال <em>do</em> فارغ. لنبدأ بهذا المثال.
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image41-1024x449.png" alt="image41" width="431" height="189" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image41-1024x449.png" alt="image41" width="431" height="189" />
 
 نحن لم نغير أي شيء في المتغير <em>number</em>، ولكن أضفنا كود في جزء <em>do</em> في الحلقة. في كل مرة يتم تنفيذ هذه الحلقة، التطبيق سيقوم بتنبيه المستخدم برسالة "hello", وبالتالي سيتم تنبيه المستخدم خمس مرات. وهنا كيف سيقوم التطبيق بتنفيذ هذه الحلقة:
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Screen-Shot-2016-11-01-at-2.00.15-PM.png" alt="screen-shot-2016-11-01-at-2-00-15-pm" width="448" height="414" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Screen-Shot-2016-11-01-at-2.00.15-PM.png" alt="screen-shot-2016-11-01-at-2-00-15-pm" width="448" height="414" />
 
 هذه الحلقة ستكون مفيدة إذا كنتِ تريدين تنبيه المستخدم برسالة "hello"خمس مرات. لكن هذا لا يبدو مفيداً إذ كان بإمكانك أن تكتبي الكود الذي يُظهر رسالة التنبيه خمس مرات بسهولة. ولكن ماذا اذا كنتِ تريدين أن تُظهري الرسالة 100 مرة؟ هنا سيكون من الأسهل استخدام الحلقة بدل من اعادة كتابة الكود 100 مرة!
 
 طريقة أخرى تكون فيها ال for loop مفيدة عند استخدام متغير counter في كودك. في كل مرة يتم تنفيذ الحلقة قيمة ال counter ستتغير هذا يمكن أن يكون مفيد حقا. اليكِ هذا المثال:
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image27-1-1024x402.png" alt="image27" width="464" height="182" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image27-1-1024x402.png" alt="image27" width="464" height="182" />
 
 في هذه الحلقة نحن نستخدم المتغير <em>number</em> في الكود من خلال ربطه مع كلمة "hello".  هنا <em>number</em> يزداد بقيمة 1 في كل مرة، وبالتالي التطبيق سيقوم بطباعة رسائل مختلفة في كل مرة تنفذ فيها الحلقة. هنا كيف سينفذ التطبيق هذه الحلقة:
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Screen-Shot-2016-11-01-at-2.04.17-PM.png" alt="screen-shot-2016-11-01-at-2-04-17-pm" width="445" height="381" />
-<h5>For Each Loops</h5>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Screen-Shot-2016-11-01-at-2.04.17-PM.png" alt="screen-shot-2016-11-01-at-2-04-17-pm" width="445" height="381" />
+<h5 id="foreach">For Each Loops</h5>
 نوع آخر مفيد من الfor loop التي يمكنك استخدامها في App Inventor :
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image16-1.png" alt="image16" width="219" height="88" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image16-1.png" alt="image16" width="219" height="88" />
 
 هنا,المتغيرcounter يُسمى item وهو موضوع فعليا للتكرار بعدد العناصر الموجودة في القائمة. هذه الحلقة مفيدة جدا عندما تحتاجين أن تفعلي شيئاً مع أي قائمة "List". إليك هذا المثال.
 
 لنقل أنه لديك قائمة أرقام وتريدين جمع كل رقم داخل القائمة وتخزينه في متغير يدعى sum. هنا كيف يمكنكِ فعل ذالك مع for each loop:
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/listofnumbers.png" alt="listofnumbers" width="404" height="94" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/listofnumbers.png" alt="listofnumbers" width="404" height="94" />
 
-<b><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/numberlist.png" alt="numberlist" width="500" height="106" /></b>
+<b><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/numberlist.png" alt="numberlist" width="500" height="106" /></b>
 
 في كل مرة تنفذين فيها الحلقة، المتغير <em>sum</em> سيأخذ قيمة من القائمة "<i>numberList</i>" ويجمعها. الحلقة ستتوقف بشكل تلقائي عندما يتم جمع كل الأرقام الموجودة في القائمة!
 
 ملاحظة: ربما قد لاحظتِ أنّ المتغير counter في هذا الجزء هو يشبه كثيرا المتغير المحلي أو الخاص الذي تعلمتيه في الوحدة الثانية في الكود! إذا كنتي كذالك، فأنتِ على حق! مثل المتغيرات الخاصة أو المحلية يمكنك استخدامه فقط داخل الحلقة.
-<h5>While Loops</h5>
+<h5 id="whileloop">While Loops</h5>
 <b>While loops</b> هي حلقة سوف تستمر في التكرار حتى يصبح الشرط غير صحيح. السبب وراء تسميتها بهذا الاسم لأن الكود سوف يتكرر طالما "while" الشرط ما زال صحيحا. يمكنكِ أنْ تفكري بها كأنكِ تخبرين تطبيقك: "طالما هذا يحدث، كرر هذا" أو " طالما هذا لم يتغي، كرر هذا".
+<div style="background-color: #00abad; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
 <h5>مثال</h5>
 أنتي لديكِ حفلة وتريدين إبقاء الموسيقى تعمل حتى يغادر جميع أصدقائك. يمكنكِ أن تصفي حفلتك بهذه الحلقة:
 <ul>
- 	<li style="font-weight: 400"><strong>While</strong> ( عدد الناس في الحفلة&gt;0)</li>
- 	<li style="font-weight: 400"><strong>do</strong>: أبقي الموسيقى تعمل.</li>
+ 	<li style="font-weight: 400;"><strong>While</strong> ( عدد الناس في الحفلة&gt;0)</li>
+ 	<li style="font-weight: 400;"><strong>do</strong>: أبقي الموسيقى تعمل.</li>
 </ul>
 ماذا لو أردتي أن تتوقف الموسيقى عند منتصف الليل؟ يمكنكِ أن تبرمجي while loop تنتهي بناء على عدة شروط باستخدام المنطق. الآن تستطيعين أن تصفي حفلتك بهذه الحلقة:
 <ul>
- 	<li style="font-weight: 400"><strong>While</strong> طالما (الناس في الحفلة &gt; 0) <strong>and</strong> (الوقت &lt; من منتصف الليل)</li>
- 	<li style="font-weight: 400"><strong>do</strong>: أبقي الموسيقى تعمل.</li>
+ 	<li style="font-weight: 400;"><strong>While</strong> طالما (الناس في الحفلة &gt; 0) <strong>and</strong> (الوقت &lt; من منتصف الليل)</li>
+ 	<li style="font-weight: 400;"><strong>do</strong>: أبقي الموسيقى تعمل.</li>
 </ul>
 في هذه الحالة الموسيقى لن تتوقف حتى يغادر جميع من في الحفلة أو عندما يحل منتصف الليل.
 
+</div>
 لاستخدام while loop أنتِ تحتاجين إلى أن تحددي الشروط التي  تكون صحيحة بدايةً. اذا كانت شروطك خاطئة منذ البداية، بالتالي الحلقة لن تُنفّذ أبدا. الحلقة ستقوم بفحص الشروط كل مرة قبل أن تتكرر للتأكد من أن الشرط ما زالت صحيحا.
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/StartLoop-Arrow3-436x1024.png" alt="startloop-arrow3" width="169" height="397" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/StartLoop-Arrow3-436x1024.png" alt="startloop-arrow3" width="169" height="397" />
 
 هنا كيف تبدو ال<strong>while loop</strong> في ال App Inventor:
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image35.png" alt="while loop block" width="159" height="105" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image35.png" alt="while loop block" width="159" height="105" />
 
 الwhile loops من الممكن أن تعمل بشكل خاطئ! إذا اخترتي شرطاً لن يكون أبدا <em>خاطىء،</em> فإن الحلقة لن تتوقف أبداً. هذا يسمى  حلقة غير منتهية "infinite loop".هذا مثال:
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image52.png" alt="image52" width="389" height="156" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image52.png" alt="image52" width="389" height="156" />
 
 طالما أن 1 سيبقى دائما مساوٍ ل 1, هذا الشرط لن يصبح خاطئا أبدا! عندما نشغل هذا الكود في App Inventor هاتفنا سيتجمد (سيُعلق) ونحن لن نستطيع أن نفعل شيئا. يمكنك أيضا أن تستقبلي رسالة تقول أن App Inventor Companion App قد توقف عن العمل.
-<h2>تحدي البرمجة 3 : البحث في قاعدة بيانات</h2>
+<h2 id="codechal">تحدي البرمجة 3 : البحث في قاعدة بيانات</h2>
 أنشئي تطبيق يُمكّن المستخدم من البحث في قاعدة بيانات و عرض نتائج البحث. قاعدة البيانات يجب أن تحتوي على الأسماء والوصف لأشخاص مشهورين أوأماكن أوأفلام أوموسيقى أوأحداث أو أي شيء آخر تريدينه. تأكدي من أنه لديكِ ثلاث مُدخلات على الأقل في قاعدة البيانات خاصتك.
 
 حاولي أن تكتشفي كيف يمكنكِ اكمال هذا التحدي بنفسكِ قبل أن تنظري إلى التعليمات. التعليمات تُظهر طريقة واحدة كيف يمكن حل هذا التحدي.
 
-<a href="http://www.technovationchallenge.org/curriculum/code-3-challenge/" target="_blank">
+&nbsp;
+<p style="text-align: center;"><a href="http://www.technovationchallenge.org/curriculum/code-3-challenge/" target="_blank">
 شاهدي التعليمات
 </a>
 <a href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.DatabaseSearch" target="_blank">
 حمّلي المثال
-</a>
-<h1>الإستنتاج</h1>
+</a></p>
+
+<div style="background-color: #006667; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h1 style="color: white;">الإستنتاج</h1>
 تهانينا على إنهائك هذا الدرس! لقد كان درساً ضخماً لكنه سيكون مفيداً جداً عند إنشائك لتطبيقك! لا تنسيْ أنه دائما يمكنك مراجعة أي شيء لم تفهميه الآن.
 
 مراجعة المصطلحات الرئيسية:
@@ -368,3 +385,4 @@
  	<li>For Each Loop - تكرار مجموعة من الكود بعدد مرات يساوي عدد العناصرفي القتئمة.</li>
  	<li>While Loop- تكرار مجموعة من الكود طالما الشرط صحيح.</li>
 </ul>
+</div>
