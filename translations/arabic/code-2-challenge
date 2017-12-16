@@ -1,0 +1,124 @@
+<h1>تحدي البرمجة 2</h1>
+<h1>عمل تطبيق قائمة المهام</h1>
+<ul>
+ 	<li><a href="#design">صممي شاشتك</a></li>
+ 	<li><a href="#blocks">إضافة عناصر إلى قائمة المهام</a></li>
+ 	<li><a href="#check1">الإختبار الأول</a></li>
+ 	<li><a href="#delete">حذف عناصر من قائمة المهام</a></li>
+ 	<li><a href="#check2">الإختبار الثاني</a></li>
+ 	<li><a href="#reset"> زر إعادة الضبط (Reset)</a></li>
+ 	<li><a href="#check3">الإختبار الثالث</a></li>
+ 	<li><a href="#tinyDB">برمجة قاعدة البيانات (TinyDB)</a></li>
+ 	<li><a href="#final">الإختبار النهائي</a></li>
+</ul>
+<h3>توضيح</h3>
+عمل تطبيق قائمة المهام الذي يسمح للمستخدمين بإدخال وحذف عناصر، التطبيق يجب أن يقوم بحفظ العناصر وعرضها في كل مرة يقوم المستخدم بفتح التطبيق. قد ترغبين باستخدام <a href="http://ai2.appinventor.mit.edu/reference/components/userinterface.html#ListView" target="_blank">ListView</a> قبل أن تقومي بحل هذا التحدي.
+ألقي نظرة على تطبيقنا المماثل: <a href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.ToDoList" target="_blank">Technovation Challenge #2</a>
+
+حاولي قدر استطاعتك أن تقومي بحل هذا التحدي بمفردك قبل أن تقومي بقراءة التعليمات، وتذكري أن هذه التعليمات ليست الطريقة الوحيدة التي يمكن بها حل هذا التحدي. برمجة سعيدة.!
+
+&nbsp;
+<h3>صممي شاشتك</h3>
+لقد قمنا بإنشاء تطبيق يسمح للمستخدم بإضافة مهام إلى القائمة، و إزالة مهام وحفظ القائمة، ولقد قمنا إيضاً بإضافة زر إعادة الضبط (reset)، وهذا يتطلب أن تكون شاشتنا تحتوي على ثلاثة أزرار : الأول لإدخال عنصر للقائمة، وآخر لحفظ المهام التي قام بإضافتها المستخدم للمرة القادمة، وأيضاً نحتاج لزر إعادة الضبط الذي سوف يقوم بحذف جميع العناصر من القائمة.
+<ol>
+<ol>
+ 	<li style="font-weight: 400">قومي بإضافة (label) نصاً لشاشتك لكي تخبري المستخدم عن التطبيق الخاص بك.</li>
+ 	<li style="font-weight: 400">قومي بإضافة صندوق للنص (text box) لكي يقوم المستخدم بإدخال المهام الخاصة به للقائمة.</li>
+ 	<li style="font-weight: 400">قومي بإضافة زر للمستخدم ليضغط عليه عندما ينتهي من إدخال مهمة .
+<ul>
+ 	<li style="font-weight: 400">لقد قمنا بتغير اسم هذا الزر إلى إدخال (Enter) حتى نتذكر ما يقوم به عندما نقوم ببرمجته باستخدام الصناديق "blocks"</li>
+</ul>
+</li>
+ 	<li style="font-weight: 400">قومي بإضافة عارض للقوائم (ListView) لشاشتك، هكذا سوف يستطيع المستخدم أن يرى قائمة مهامه.
+<ul>
+ 	<li style="font-weight: 400">لقد قمنا بوضع الطول و العرض إلى إعداد (Fill Parent) ولكن من أفضل أن تقومي بتصميم شاشتك كما ترغبين.</li>
+ 	<li style="font-weight: 400">اضغطي هنا لتتعلمي أكثر عن كيفية استخدام "عارض القوائم" <a href="http://ai2.appinventor.mit.edu/reference/components/userinterface.html#ListView" target="_blank">ListView</a>.</li>
+</ul>
+</li>
+ 	<li style="font-weight: 400">قومي بإضافة زر تخزين (Save) لحفظ قائمة المهام الخاصة بالمستخدم وزر لإعادة الضبط (Reset) لإفراغ القائمة.
+<ol>
+ 	<li style="font-weight: 400">لقد قمنا بتسمية هذين الزرين (Save) و(Reset).</li>
+</ol>
+</li>
+ 	<li style="font-weight: 400"><i>اختياري: قومي بإضافة عنصر الترتيب الأفقي (horizontal arrangements) لترتيب التصميم ولكن تستطيعين ترتيب شاشتك كيف ما تشائين!</i></li>
+</ol>
+</ol>
+<img style="border: 1px solid #cccccc" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image07-1024x552.png" alt="steps 1-6" width="1024" height="552" />
+<ol start="7">
+ 	<li style="font-weight: 400">قومي بإضافة قاعدة بيانات (Tiny DB) من قائمة التخزين (Storage)، لاحظي أنه عندما تقومين بسحبها للشاشة سوف تظهر على أنها عنصر غير مرئي (Non-visible component).</li>
+</ol>
+<img style="border: 1px solid #cccccc" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image06-1024x555.png" alt="step 7" width="1024" height="555" />
+
+&nbsp;
+<h3>إضافة عناصر إلى قائمة المهام</h3>
+يقوم تطبيقنا بعرض المدخلات التي قام المستخدم بإدخالها في التطبيق، ولكي تقومي بذلك عليكِ تخزين البيانات في قائمة للمتغيرات ومن ثم عرضها باستخدام عارض القوائم (ListView)،حيث قمنا بذلك عن طريق إنشاء قائمة للمتغيرات تسمى <em>items</em>، وعندما يقوم المستخدم بالضغط على زر إدخال (enter) نقوم بإضافة البيانات التي تم إدخالها عن طريق صندوق النص (text box) لكي يتم إضافتها لقائمة العناصر <i>(items)</i> وعرضها على عارض القوائم (List View).
+<ol>
+ 	<li style="font-weight: 400">قومي بإنشاء متغير جديد اسمه (<i>items)</i> الذي سوف يحتوي على البيانات في قائمة المهام، ولكن في البداية قومي بإنشاء قائمة فارغة حيث أن المستخدم لم يدخل أي بيانات بعد.</li>
+ 	<li style="font-weight: 400">أحضري صندوق التعامل مع حدث الضغط على الزر<strong> button.click</strong> الخاص برز الإدخال (enter).</li>
+ 	<li style="font-weight: 400"> أحضري صندوق إضافة عناصر للقائمة <strong>add items to list</strong> من القوائم <strong>Lists ،</strong> وقومي بوضعه داخل مكعب التعامل مع الضغط على الزر <strong>enter.click</strong> .</li>
+ 	<li style="font-weight: 400">ضعي اسم القائمة المتغير <i>items</i> و <strong>TextBox1.Text</strong> على أنه العنصر الذي سوف يتم إضافته للقائمة.</li>
+ 	<li style="font-weight: 400">أحضري صندوق <strong>set ListView1.Elements to</strong> وضعيه أسفل صندوق <strong>add items to list</strong>.</li>
+ 	<li style="font-weight: 400">أضيفي المتغير <i>items </i>لصندوق <strong>set ListView1.Elements to</strong> .</li>
+ 	<li style="font-weight: 400"><i> اختياري: لجعل تطبيق أسهل للاستخدام قمنا بإخفاء لوحة المفاتيح عندما يقوم المستخدم بالضغط على زر إدخال (enter)، ولكي تقومي بذلك، اضغطي على مربع النص (TextBox1) وأحضري صندوق <strong>TextBox1.HideKeyboard</strong>.</i></li>
+</ol>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image08-1024x438.png" alt="blocks steps 1-7" width="898" height="236" />
+<h3>الاختبار الأول</h3>
+قومي باختبار ما قمتِ بإنشائه إلى الآن عن طريق وصله بهاتفك المحمول او المحاكي، قومي بكتابة أي شيء في مربع النص (text box) عندما تقومين بالضغط على زر الإدخال (enter)، يجب أن يظهر ما قمت بإدخاله في الأسفل، إذا لم يعمل تطبيقكِ عودي إلى الخطوات السابقة وقومي بإصلاح الأخطاء قبل المُضي قُدُماً في التمرين، وإذا لم تستطيعي إيجاد المشكلة قومي بالتواصل مع موجه الفريق أو أعضاء الفريق.
+<h3>حذف عناصر من قائمة المهام</h3>
+يستطيع المستخدمون حذف المهام من القائمة ، فعندما ينتهي المستخدمون من مهمة ، يستطيعون حذفها عن طريق الضغط عليها في عارض القوائم(ListView).
+
+وقد قمنا بذلك عن طريق إنشاء متغير فهرس أو مؤشر رقمي <i>index. </i>و هذا المتغير يمكن أن يكون متغير خاص حيث أننا سوف نستخدمه في مكان واحد فقط في البرنامج ، وسوف نقوم بوضع المتغير <i>index</i> لكي يكون المؤشر الرقمي للعنصر الذي قام المستخدم باختياره ، ومن ثم سوف نستخدم المتغير <i>index </i>لنخبر التطبيق ما هو العنصر الذي نرغب بحذفه من القائمة  <i>items</i>. ، بعد ذلك سوف نخبر عارض القوائم (ListView) بأن يقوم بتحديث العناصر التي يعرضها حيث أن القائمة <i>items</i> تم تغيرها.
+<ol>
+ 	<li style="font-weight: 400">أحضري صندوق <strong>ListView1.AfterPicking</strong>.</li>
+ 	<li style="font-weight: 400">أنشئي متغيراً اسمه <i>index</i>، تستطيعين وضع القيمة الأولية التي تريدينها له، نحن قمنا بوضع القيمة صفر فيه.</li>
+ 	<li style="font-weight: 400">أحضري صندوق تغير قيمة المتغير <strong>set ‘name’ to</strong> وقومي باختيار المتغير <i>index.</i></li>
+ 	<li style="font-weight: 400">اجلبي الصندوق المكتوب عليه <strong>index is list, thing, list</strong>.</li>
+ 	<li style="font-weight: 400">ضعي صندوق<strong>ListView1.Selection</strong> في خانة <strong>thing</strong> وضعي في خانة <strong>list</strong> الصندوق<i>items</i>.</li>
+ 	<li style="font-weight: 400">أمسكي بصندوق <strong>remove list item block</strong> وقومي بوضعه داخل صندوق المتغير الخاص بكِ.</li>
+ 	<li style="font-weight: 400">قومي بوضع المتغير <i>items </i>في خانة القائمة <strong>list</strong> والمتغير <i>index </i>في خانة <strong>index</strong>.</li>
+ 	<li style="font-weight: 400">ضعي صندوق <strong>set ListView1.Elements to</strong> تحت صندوق المتغير البرتقالي وقومي بتوصيل المتغير <i>items </i>له .</li>
+</ol>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Blocks2.png" alt="blocks2" width="2276" height="753" />
+<h3><b>الاختبار الثاني</b></h3>
+حان الوقت لكي تكتشفي إذا كان تطبيقكِ يعمل، قومي بإيصاله بهاتفك المحمول أو بالمحاكي وقومي بتجريبه، عندما تستخدمين التطبيق يجب أن تكوني قادرة على لمس العناصر الموجدة في القائمة لحذفها. إذا لم يعمل تطبيقك حاولي العودة ومراجعة برنامجك ، وحاولي إلقاء نظرة على بعض الدروس حول (ListView) ، إذا لا زلتِ عالقة حاولي التواصل مع موجهكِ أو مع فريقك.
+<h3>برمجة زر إعادة الضبط (Reset)</h3>
+لجعل تطبيقك أسهل للاستخدام سوف تقومين بإضافة زر إعادة الضبط (Reset) التي سوف تقوم بحذف كل العناصر التي قام المستخدم بإدخالها، لقد قمنا ببرمجة زر (Reset) لكي تقوم بجعل القائمة <i>items</i> فارغة من جديد عندما يقوم المستخدم بالضغط على الزر، ومن ثم قمنا بتحديث عارض القوائم (ListView) حتى يستطيع المستخدم أن يرى أنه تم حذف جميع المهام في القائمة.
+<ol>
+ 	<li style="font-weight: 400">أحضري صندوق <strong>when button.click</strong> الخاص بزر إعادة الضبط (Reset).</li>
+ 	<li style="font-weight: 400">أحضري صندوق المتغير <strong>set ‘name’ to</strong> واختاري القائمة <i>items </i></li>
+ 	<li style="font-weight: 400">أضيفي صندوق <strong>create empty list</strong> وقومي بوصله</li>
+ 	<li style="font-weight: 400">ضعي صندوق<strong>set ListView1.Elements to</strong> وقومي بتوصيله وصندوق (get) الخاص بمتغير القائمة <i>items</i>.</li>
+</ol>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image02-1-1024x297.png" alt="Reset steps 1-4" width="678" height="197" />
+<h3>الإختبار الثالث</h3>
+لقد حان الوقت لكي تتأكدي من أن زر إعادة الضبط (reset) يعمل، لذلك قومي بتوصيل هاتفك المحمول أو المحاكي لتجربة التطبيق، بعد أن تقومي بإضافة مهام إلى القائمة يجب أن تكوني قادرة على الضغط على زر إعادة الضبط (reset) ورؤية القائمة فارغة، قومي بالتواصل مع موجهك أو أعضاء فريقك إذا لازلت عالقة ولم تستطيعي حل المشكلة.
+<h3>برمجة قاعدة البيانات (TinyDB)</h3>
+التوضيح: عندما يقوم المستخدم بالخروج من تطبيقك، يتم تخزين قائمة المهام للمرة القادمة، لذلك قمنا ببرمجة  زر الحفظ (save) لكي يقوم بالاتصال مع قاعدة البيانات وتقوم بحفظ القائمة <i>items</i> فيها، حيث تستطيع قاعدة البيانات تذكر قائمة المهام الخاصة بالمستخدم تماما كما كانت، وتبقي عليها هنالك للمرة القادمة.
+<ol>
+ 	<li style="font-weight: 400">أحضري صندوق <strong>when button.Click</strong> الخاص بزر حفظ (save).</li>
+ 	<li style="font-weight: 400">أضيفي صندوق <strong>call TinyDB1.StoreValue</strong> .</li>
+ 	<li style="font-weight: 400">أضيفي <strong>tag</strong> name.</li>
+ 	<li style="font-weight: 400"> اضيفي المتغير <i>items </i>لخانة <strong>valueToStore</strong>.</li>
+</ol>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image01-1024x315.png" alt="TinyDB steps 1-4" width="809" height="249" />
+
+&nbsp;
+
+يقوم تطبيقنا بفحص قاعدة البيانات في كل مرة يعمل لمعرفة إذا كان هنالك قائمة مخزنة سابقاً ، وللقيام بذلك قمنا باستخدام صندوق <strong>when Screen1.Initialize</strong> والذي سوف يتم تنفيذه عند بدء شاشة1(screen1) ، ومن ثم قمنا بتحديث قيم قائمة <i>items </i>للمعلومات الموجودة في قاعدة البيانات تحت الوسم (ListData) ، وإذا لم يكن هناك أي معلومات مخزنة قمنا بإخبار التطبيق بإنشاء قائمة فارغة والتي تعني إنشاء قائمة مهام فارغة، بعد ذلك سوف يقوم تطبيقك بإظهار ما هو موجود في قائمة <i>items </i>والذي من الممكن أن يكون معلومات مخزنة أو ممكن أن تكون فارغة.
+<ol>
+ 	<li style="font-weight: 400">أحضري صندوق <strong>when Screen1.Initialize </strong>.</li>
+ 	<li style="font-weight: 400">اجلبي صندوق <strong>set ‘variable name’ to</strong> وقومي بموضع المتغير إلى <i>items </i>.</li>
+ 	<li style="font-weight: 400">انشئي اتصالا مع قاعدة البيانات باستخدام صندوق <strong>call TinyDB1.GetValue</strong>.</li>
+ 	<li style="font-weight: 400">أدخلي الوسم الذي اخترتيه عند تخزين المعلومات في خانة <strong>tag</strong>.</li>
+ 	<li style="font-weight: 400">ضعي صندوق <strong>create empty list </strong>في خانة <strong>valueIfTagNotThere</strong>.</li>
+ 	<li style="font-weight: 400">أحضري صندوق <strong>set ListView1.Elements to </strong>وقومي بتوصيل صندوق المتغير <i>items</i> به.</li>
+</ol>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image18-1024x321.png" alt="TinyDB steps 1-6" width="986" height="309" />
+<h3>الإختبار النهائي</h3>
+حان الوقت لمعرفة إن كان تطبيقك يعمل أو لا ، قومي بتشغيل التطبيق وقومي بإدخال بعض المهام، ومن ثم قومي بالضغط على زر حفظ (save) وأغلقي التطبيق بشكل كامل، بعد ذلك افتحي تطبيقك مجدداً وانظري إذا كان هنالك مهام موجودة أم لا، إذا لم يكن هنالك أي مهام في القائمة، فعليك الرجوع  والتأكد بأنه ليس لديك أي أخطاء في الأوامر، وتأكدي من أن الوسم الذي استخدمتيه متطابق حتى في الأحرف الكبيرة، إذا كان كل شيء يعمل فأنت قد قمت بإنهاء هذا التحدي! تهانينا !
+
+هل مازلتِ عالقة؟ قومي بتحميل المثال مفتوح المصدر من هنا: هنا تعليمات عن كيفية تحميل واستخدام المثال المفتوح المصدر <a href="http://appinventor.mit.edu/explore/ai2/share.html">instructions</a> .
+
+<a href="https://drive.google.com/file/d/0B9HV58UviqU_a2lTVFdUb0hGbGM/view?usp=sharing" target="_blank">
+تحميل الشيفرة المصدرية
+</a>
