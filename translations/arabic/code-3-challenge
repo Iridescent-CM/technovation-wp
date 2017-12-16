@@ -13,12 +13,12 @@
 <h3>الشرح</h3>
 إنشاء تطبيق يُمكّن المستخدم من البحث في قاعدة بيانات و عرض نتائج البحث. قاعدة البيانات يجب أن تحتوي على الأسماء والوصف لأشخاص مشهورين، أماكن، أفلام، موسيقى، أحداث أو أي شيء آخر تريدينه. تأكدي من أن يكون لديكِ ثلاث مدخلات على الأقل في قاعدة البيانات خاصتك.
 
-يمكنكِ إلقاء نظرة على التطبيق من هنا:  <a href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.DatabaseSearch">تحدي التيكنوفيشن 3</a>
+يمكنكِ إلقاء نظرة على التطبيق من هنا:  <a href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.DatabaseSearch" target="_blank">تحدي التيكنوفيشن 3</a>
 
 حاولي أن تكتشفي كيفية اكمال هذا التحدي بنفسكِ قبل أن تنظري الى التعليمات. التعليمات تُظهر لكِ طريقة واحدة لحل هذا التحدي.
 
 برمجة سعيدة!
-<h3>نظرة عامة</h3>
+<h3 id="design">نظرة عامة</h3>
 لقد قررنا معالجة تحدي الكود هذا من خلال تخزين البيانات في TinyDB . لقد قمنا بتخزين أسماء العالمات ك tag names . بعد ذلك قمنا بعمل قائمتين، واحدة بأسماء الأشخاص، وواحدة تحتوي على وصف لأعمالهن. المستخدم يُدخل نص والتطبيق سيبحث عن توافق بكل عنصر في كلا القائمتين. اذا كان هناك توافق، اسم العالمة سيظهر في <strong>list view(قائمة اظهار)</strong>. المستخدم يستطيع أن يختار أي عالمة يريد أن يعرف عنها أكثر وشاشة جديدة سوف تفتح مع وصف لأعمالها. لهذا التطبيق، كان يجب أن نستخدم <strong>TinyDB </strong>لتخزين المعلومات وبذالك نستطيع استخدامها في شاشة منفصلة.
 <table>
 <tbody>
@@ -52,13 +52,13 @@
 نحن نريد للمستخدم أن يتمكن من البحث في قاعدة بيانات، وبالتالي سنقوم باضافة مربع كتابة للمستخدم لادخال النص الذي سوف يستخدم في البحث، وسنضيف زر بحث للضغط عليه من أجل الابتداء بعملية البحث. نحن نعلم أننا سنقوم بتخزين المعلومات في قاعدة بيانات، فإننا نقوم بجر <strong>TinyDB</strong> على الشاشة. ونحن نعلم أننا سنستخدم قوائم وبالتالي نضيف <strong>listview إ</strong>لى الشاشة.
 
 <img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image17-1024x553.png" alt="image17" width="1024" height="553" />
-<h3>إضافة بيانات لقاعدة البيانات</h3>
+<h3 id="data">إضافة بيانات لقاعدة البيانات</h3>
 لقد قررنا أن نضيف أسماء العالمات ك tag والوصف لأعمالهن ك value أو قيمة في قاعدة البيانات. لقد قمنا بنسخ ولصق المعلومات التي نريد اضافتها لقاعدة البيانات بهذا الشكل:
 
 <img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image37-1024x580.png" alt="image37" width="497" height="282" />
 
-يجب أن تخزني معلوماتكِ في قاعدة البيانات عندما يتم تهيئة شاشتك وبالتالي هذا أول شيء سيقوم به تطبيقك. سوف تحتاجي استخدام قاعدة بيانات لتخزين هذه المعلومات، اذا كنتي تخططي لاستخدامها في أي شاشة أخرى  في AppInventor الطريقة الوحيدة لنقل البيانات بين شاشات العرض هو عن طريق قاعدة البيانات أو باستخدام صندوق SartValue. سوف نرى  لاحقاً كيفية استخدام هاتين الطريقتين من <a href="http://appinventor.mit.edu/explore/ai2/concepts.html#Screens" target="_blank">هنا.</a>
-<h3>إنشاء قوائم بأسماء الtag و قيم قاعدة البيانات</h3>
+يجب أن تخزني معلوماتكِ في قاعدة البيانات عندما يتم تهيئة شاشتك وبالتالي هذا أول شيء سيقوم به تطبيقك. سوف تحتاجي استخدام قاعدة بيانات لتخزين هذه المعلومات، اذا كنتي تخططي لاستخدامها في أي شاشة أخرى  في AppInventor الطريقة الوحيدة لنقل البيانات بين شاشات العرض هو عن طريق قاعدة البيانات أو باستخدام صندوق StartValue. سوف نرى  لاحقاً كيفية استخدام هاتين الطريقتين من <a href="http://appinventor.mit.edu/explore/ai2/concepts.html#Screens" target="_blank">هنا.</a>
+<h3 id="list">إنشاء قوائم بأسماء الtag و قيم قاعدة البيانات</h3>
 لقد أنشأنا قائمة لتخزين tag names فيها. بداية ننشىء قائمة فارغة اسمها "TagNames". ثانيا نضيف blocks لاضافة كل واحدة من tag names لهذه القائمة. يجب أن نتأكد من أن كل tag name نقوم باضافتها للقائمة تتوافق تماما مع ال tag name في قاعدة البيانات، بما فيها كل الحروف الكبيرة.
 
 <img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image58-1024x548.png" alt="image58" width="849" height="455" />
@@ -70,7 +70,8 @@
 <img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image42-1024x314.png" alt="image42" width="600" height="184" />
 
 <img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image50-1024x470.png" alt="image50" width="650" height="298" />
-<h3>نقطة الفحص #1</h3>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 id="check1">نقطة الفحص #1</h3>
 عند هذه النقطة يجب أن يكون لديكِ كل البيانات في قاعدة البيانات بالاضافة لقائمة بكل الtag names وقائمة بقيم قاعدة البيانات خاصتك. تأكدي أنّ كل قائمة تحتوي على القيم التي تريدينها! بما أن تطبيقك لا يفعل شيئا حتى الآن، يمكنكِ أن تفحصي عملك من خلال عرض قوائمك في ال ListView خاصتك والتأكد أنّ كل شيء موجود. أضيفي هذا الblock لكودك بالأسفل الfor loop في ال<strong> when Screen1.Initialize</strong> event handler للتأكد من أن قائمتك “tagNames” دقيقة.
 
 <img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image00-1024x90.png" alt="image00" width="418" height="37" />
@@ -80,7 +81,9 @@
 <img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image48-1024x78.png" alt="image48" width="456" height="35" />
 
 بعد أن تأكدتي من دقة قوائمك، تأكدي من حذف هذه الblocks!
-<h3>برمجة زر البحث</h3>
+
+</div>
+<h3 id="search">برمجة زر البحث</h3>
 نحن نريد من مستخدمنا أنيكون قادر على البحث في قاعدة البيانات من خلال ادخال نص إلى مربع الكتابة والضغط على زر البحث "search". لفعل ذالك، نحن سنقوم بوضع معالج حدث (event handler) على زر البحث والذي سيقوم بالبحث بكل عنصر في كلا القائمتان ال " tagName" وال“databaseValues” على نص يتوافق مع النص الذي كتبه المستخدم. إذا كان هناك توافق، سنقوم بإضافة اسم العالمات لل view list. وهنا كيف قمنا بذالك.
 
 أولا، أنشأنا متغير يدعى “searchResults” وعرّفناه ليكون قائمة فارغة.
@@ -115,9 +118,12 @@
 نريد من الكود أن يضيف اسم العالمات للقائمة“searchResults” اذا كان اسمها أو الوصف الخاص بها يتوافق مع بحث المستخدم. لفعل ذالك عندما يكون هناك توافق نضيف الاسم من tagNames باستخدام متغير الloop المدعى“index”.. لم نضف <strong>else </strong>لجملتنا الشرطية لأنه اذا لم يكن هناك توافق في الاسم او الوصف لا نريد من الكود أن يفعل شيئا. ومن ثم نضيف العناصر من قائمة“searchResults” الى ال <strong>ListView</strong>. لأن هذا البلوك خارج ال for loop، الكود يقوم بتعديل ال <strong>ListView </strong>بعد أن تنتهي الfor loop.
 
 <img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image39-1024x302.png" alt="image39" width="1024" height="302" />
-<h3><b>نقطة فحص #2</b></h3>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 id="check2"><b>نقطة فحص #2</b></h3>
 حتى اللحظة لقد قمتي بكتابة الكثير من الكود! افحصي كودكِ جيدا للتأكد من قدرته على البحث. جربي البحث عن اسم مثل“Alice” أو جزء من وصف مثل“chemist”. ، تأكدي من الحصول على النتائج المتوقعة قبل المضي قدماً.
-<h3>عرض نتائج البحث على شاشة جديدة</h3>
+
+</div>
+<h3 id="newscreen">عرض نتائج البحث على شاشة جديدة</h3>
 قررنا أن تطبيقنا سيكون أفضل اذا كان بإمكان المستخدم اختيارعالمة من العالمات اللواتي ظهرن في نتائج البحث ويرغب بالتعرف عليها أكثر. لفعل ذالك، عند اختيار المستخدم شيء من القائمة، سنفتح شاشة جديدة مع <strong>startValue </strong>لاختيار المستخدم تذكر الطريقة الوحيدة لتمرير المعلومات بين الشاشات من خلال استخدام قاعدة البيانات أو بلوك startValue!
 
 <img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image31.png" alt="image31" width="597" height="108" />
@@ -135,11 +141,11 @@
 <img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image11-1024x198.png" alt="image11" width="471" height="91" />
 
 عندما يقوم المستخدم بالرجوع الى الخلف للشاشة 1 سوف تقوم ببدء التفيذ من البداية وكل شيء سوف يبدء التفيذ من البداية.
-<h3>آخر نقطة بحث</h3>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 id="finalcheck">آخر نقطة بحث</h3>
 تأكدي من أن كل ما في تطبيقك يعمل بشكل صحيح! هل اختيار شيء من ال ListView يأخذك الى Screen2 ويعرض ال tag name و ال database value؟
 
-ما زلتِ عالقة؟ حمّلي الكود الخاص بنا هنا: <a href="http://appinventor.mit.edu/explore/ai2/share.html">تعليمات</a> حول تتزيل واستعمال الشيفرة المصدرية
+ما زلتِ عالقة؟ حمّلي الكود الخاص بنا هنا: <a href="http://appinventor.mit.edu/explore/ai2/share.html" target = "_blank" style = "color: #6F466B">تعليمات</a> حول تتزيل واستعمال الشيفرة المصدرية
 
-<a href="https://drive.google.com/file/d/0B9HV58UviqU_YXU1eTBKMDN1ZVE/view" target="_blank">
-تحميل الشيفرة المصدرية
-</a>
+<a href ="https://drive.google.com/file/d/0B9HV58UviqU_YXU1eTBKMDN1ZVE/view" target ="_blank"> <button type="button">تحميل الشيفرة المصدرية</button></a>
+</div>
