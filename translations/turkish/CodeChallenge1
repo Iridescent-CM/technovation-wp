@@ -1,0 +1,39 @@
+<h1>Kod Görevi 1</h1>
+<h1>Sunum Yap</h1>
+<ul>
+ 	<li><a href="#design">Sayfa Tasarlama</a></li>
+ 	<li><a href="#blocks">Blokları Programlama</a></li>
+ 	<li><a href="#check">Kontrol Noktası!</a></li>
+ 	<li><a href="#finish">Aplikasyonu Bitir</a></li>
+ 	<li><a href="#final">Son Kontrol Noktası!</a></li>
+</ul>
+<h3>Ekranınızı Tasarlamak</h3>
+Bu uygulamada kullanıcının farklı görselleri görmesini sağlayan bir yazılım programlayacaksınız. Ekranınızı tasarlarken, kullanıcının başka bir resme geçmesini sağlamak için bir buton, resimleri görmesini sağlamak için de resimler kullanacaksınız.Önce bunu dizayn ekranında ayarlayacaksınız.
+<ol>
+ 	<li>Sayfaya resim ekleyin
+<ul>
+ 	<li>Resmin uzunluk ve genişliğini ayarlayarak sayfaya oturmasını sağlayın.</li>
+ 	<li>Bunun için "fill parent" (alanı doldur) özelliğini kullanabilirsiniz. Bu özelliği kullanınca, seçtiğiniz obje bulunduğu alanın tamamını doldurur. Resim1 sayfanın içindeyken, butonlar yatay çerçevenin içindedir. Hangi objenin nerede durduğunu bilmek için ekranınızın sağ tarafındaki "components" bölümünden, objelerin sırasına bakabilirsiniz.</li>
+</ul>
+</li>
+ 	<li>Resmin altına yatay çerçeve ekleyin</li>
+ 	<li>Yatay çerçevenin içine iki tane buton sürükleyin
+<ul>
+ 	<li>"components" kısmından butonların üstüne tıklayın.</li>
+ 	<li>Butonların üstüne "sonraki" ve "önceki" yazmak için 'text' kısmına gidin ve yazıyı değiştirin.</li>
+ 	<li>Aynı zaman da kodunuzu yazarken butonların işlevini hatırlayabilmek için butonların adını "önceki" ve "sonraki" olarak değiştirin. Bunu "rename" (yeniden adlandır) kısmından yapabilirsiniz.</li>
+</ul>
+</li>
+ 	<li>Fotoğraf dosyanızda kullanmak istediğiniz bir resmi yükleyin.</li>
+ 	<li>Fotoğraf dosyanızın başında bulunmasını istediğiniz fotoğrafı seçin.
+<ul>
+ 	<li> "components" kısmından resim1'e tıklayın, daha sonra "picture" (resim) tuşuna tıklayın. Böylece istediğiniz resmi seçebilirsiniz.</li>
+</ul>
+</li>
+ 	<li>En az 2 tane daha sayfa ekleyin. Biz kendi dosyamız için üç sayfa kullandık ama siz istediğiniz kadar sayfa kullanabilirsiniz.
+<ul>
+ 	<li>Şimdilik diğer sayfalar için hiç bir şey yapmanıza gerek yok. Ama kodlamaya başladıkça bu sayfalara da resimler ve butonlar eklemeniz gerekecek.</li>
+</ul>
+</li>
+</ol>
+&nbsp;
