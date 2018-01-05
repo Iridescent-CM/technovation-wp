@@ -1,4 +1,3 @@
-<h1>Ideenfindung</h1>
 <h3>Definiere das Problem.</h3>
 <ul>
  	<li><a href="#needs">Die Bedürfnisse deiner Community</a></li>
@@ -12,15 +11,15 @@
 </ul>
 <h2>Lernziele</h2>
 In dieser Lektion erfährst du, wie...
-
-● du deine Community verstehst und Beweise für Probleme sammelst
-● ihr als Team ein Problem auswählt und es mit Themen der Technovation 2017 verknüpft
-● du Brainstorming für mögliche Lösungen machst, die Bedürfnisse deiner Community
-ansprechen
-● das Problem klar definierst, das dein Team danach lösen wird
+<ul>
+	<li>du deine Community verstehst und Beweise für Probleme sammelst</li>
+	<li>ihr als Team ein Problem auswählt und es mit Themen der Technovation 2017 verknüpft</li>
+	<li>du Brainstorming für mögliche Lösungen machst, die Bedürfnisse deiner Community ansprechen</li>
+	<li>das Problem klar definierst, das dein Team danach lösen wird</li>
+</ul>
 
 &nbsp;
-<h3>Die Bedürfnisse deiner Community verstehen</h3>
+<h3 id="needs">Die Bedürfnisse deiner Community verstehen</h3>
 Gratuliere! Du hast dich registriert, um an Technovation teilzunehmen, und du und dein Team freuen sich darauf, ein Problem eurer Community zu lösen, indem ihr eine mobile App erstellt. Vielleicht hat dein Team schon eine Idee, welches Problem ihr lösen möchtet, vielleicht nicht. So oder so, wir schauen uns nun an, wie Menschen oft Probleme angehen und Entscheidungen treffen.
 
 Unser Gehirn verarbeitet ständig Informationen und wir lösen Probleme meistens, ohne es zu realisieren. Angenommen, du hast Hausaufgaben und vergessen, sie zu erledigen. Du schreibst in der allerletzten Minute etwas auf und gibst es ab, aber es ist nicht wirklich deine beste Arbeit. Du hast auf die Situation reagiert und manchmal ist das notwendig, aber hast du auf die effektiven Bedürfnisse reagiert?
@@ -30,57 +29,67 @@ Um eine Idee für eure Technovation-App zu finden, müsst ihr die Bedürfnisse e
 Aber zuerst stellen wir uns eine Frage: Wie gut kennst du deine Community? Du kannst für lange Zeit an einem Ort leben und irgendwann bemerken, dass eine Menge los ist und dir das alles nicht bewusst war! Die nächsten beiden Aufgaben werden dir dabei helfen, deine Community bewusster wahrzunehmen.
 
 &nbsp;
-<h3><strong>Aufgabe: Dokumentiere deine Community
-</strong></h3>
+<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
+<h3 id="act1">Aufgabe: Dokumentiere deine Community</h3>
 <em>Freiwillig</em>
 
 Diese Aktivität hilft dir dabei, Informationen und Eigenschaften über deine Community zu sammeln, damit du ihre Bedürfnisse besser verstehen kannst. Die Aufgabe sollte etwa 60 Minuten dauern. Im Voraus solltet ihr als Team ein bestimmtes Gebiet einer Stadt oder einen interessanten Ort vereinbaren und dann eine Zeit abmachen, zur der ihr diese Aufgabe dort macht. Danach solltet ihr einen Ort finden, an dem ihr Antworten auf Fragen schreiben und dann eure Antworten gemeinsam diskutieren könnt.
 
-Was du brauchst:
-● Stifte oder Marker
-● Schreibpapier oder dieses <a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/CommunityDocumentingWorksheet-4.pdf"><u>Arbeitsblatt</u></a>
-● Klemmbrett (ist nicht unbedingt nötig, kann aber hilfreich sein)
-● Kamera (ist auch nicht unbedingt nötig, du kannst aber auch die Kamera deines Handys benutzen)
+	<strong>Was du brauchst:</strong>
+	<ul>
+		<li>Stifte oder Marker</li>
+		<li>Schreibpapier oder dieses <a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/CommunityDocumentingWorksheet-4.pdf" style="color:#eae46f;"><u>Arbeitsblatt</u></a></li>
+		<li>Klemmbrett (ist nicht unbedingt nötig, kann aber hilfreich sein)</li>
+		<li>Kamera (ist auch nicht unbedingt nötig, du kannst aber auch die Kamera deines Handys benutzen)</li>
 
-Was ihr machen sollt:
-● Geht an den Ort, den euer Team ausgewählt hat. Wir empfehlen, dass ihr mit einer erwachsenen Begleitperson oder eurer Mentorin hingeht. Wenn ihr das Arbeitsblatt dabei habt, können ihr das verwenden, um eure Antworten aufzuzeichnen. Andernfalls notiert ihr auf einem Blatt Papier, wo der Ort genau ist. (Alternativ könnt ihr auch Zeitungsartikel über das Gebiet und das Problem, an dem ihr interessiert seid, sammeln und lesen.)
-● Geht einmal langsam in der Gegend herum und macht Notizen oder Fotos von großen Gebäuden (z. B. Kirchen, Läden, Häuser, Schulen).
-● Geht ein zweites Mal durch die Gegend und sucht diesmal nach weniger offensichtlichen Dingen. Einige Beispiele: ein Gemeinschaftsgarten, eine Reihe von Bäumen, ein leeres Grundstück, Werbeplakate. Wenn möglich, verwendet euer Handy oder eure Kamera, um Fotos zu machen. Wenn ihr nun beobachtet, notiert nicht nur, was ihr seht, sondern auch, was ihr hört, riecht oder fühlt.
-● Wenn ihr zurückkommt, beantwortet die folgenden Fragen:
-● Was hat euch am meisten an der Community überrascht?
-● Könnt ihr Probleme sehen, die die Community betreffen? Wenn ja, wen betreffen sie und
-wie?
-● Was glaubt ihr, braucht diese Community zur Lösung des Problems?
-● Wer ist verantwortlich für diese Veränderung und wie?
-● Wie könnten die Probleme der Community durch Technologie gelöst werden?
+	<strong>Was ihr machen sollt:</strong>
+	<ol>
+		<li>Geht an den Ort, den euer Team ausgewählt hat. Wir empfehlen, dass ihr mit einer erwachsenen Begleitperson oder eurer Mentorin hingeht. Wenn ihr das Arbeitsblatt dabei habt, können ihr das verwenden, um eure Antworten aufzuzeichnen. Andernfalls notiert ihr auf einem Blatt Papier, wo der Ort genau ist. (Alternativ könnt ihr auch Zeitungsartikel über das Gebiet und das Problem, an dem ihr interessiert seid, sammeln und lesen.)</li>
+		<li>Geht einmal langsam in der Gegend herum und macht Notizen oder Fotos von großen Gebäuden (z. B. Kirchen, Läden, Häuser, Schulen).</li>
+		<li>Geht ein zweites Mal durch die Gegend und sucht diesmal nach weniger offensichtlichen Dingen. Einige Beispiele: ein Gemeinschaftsgarten, eine Reihe von Bäumen, ein leeres Grundstück, Werbeplakate. Wenn möglich, verwendet euer Handy oder eure Kamera, um Fotos zu machen. Wenn ihr nun beobachtet, notiert nicht nur, was ihr seht, sondern auch, was ihr hört, riecht oder fühlt.</li>
+		<li>Wenn ihr zurückkommt, beantwortet die folgenden Fragen:
+		<ul>
+			<li>Was hat euch am meisten an der Community überrascht?</li>
+			<li>Könnt ihr Probleme sehen, die die Community betreffen? Wenn ja, wen betreffen sie und
+	wie?</li>
+			<li>Was glaubt ihr, braucht diese Community zur Lösung des Problems?</li>
+			<li>Wer ist verantwortlich für diese Veränderung und wie?</li>
+			<li>Wie könnten die Probleme der Community durch Technologie gelöst werden?</li>
+			</ul></li>
+		</ol>
 
 Diskutiert miteinander, welche allgemeinen Dinge euch als Team aufgefallen sind. Gab es irgendwelche Überraschungen? Was waren einige der Probleme, die ihr in der Community bemerkt habt? Habt ihr Bilder, die helfen, eure Punkte zu veranschaulichen? Möchtet ihr euch als Team für eines dieser Probleme besonders engagieren? Warum? Was wären eure nächsten Schritte, um mehr Informationen zu sammeln? Könnt ihr mit Leuten in eurem sozialen Umfeld oder eurer Community sprechen, um gemeinsame Probleme zu finden und diese zu verstehen?
 Es gibt noch andere Möglichkeiten, Informationen zu sammeln. Hier ist noch eine weitere Aufgabe, die ihr machen könnt, um eure Community auf eine andere Art zu visualisieren.
 
-&nbsp;
 
-&nbsp;
-<h3>Aufgabe: Unsere Community von A bis Z</h3>
+</div>
+
+<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
+<h3 id="act2">Aufgabe: Unsere Community von A bis Z</h3>
 <em>Freiwillig</em>
-
+<br><br>
 <img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image00-3-1024x462.png" alt="image00" width="1024" height="462" />
-
+<br><br>
 Eine andere Art, um euch eine Community besser vorzustellen, ist indem ihr Wörter aufschreibt, die sie beschreiben. Nachdem ihr eure Beobachtungen aus der Community von der vorigen Aufgabe diskutiert habt, könnt ihr diese Aufgabe ausprobieren. Es macht Spaß!
 
-Was du brauchst:
-● Schreibt für jedes Teammitglied alle Buchstaben von A bis Z (oder die Buchstaben deines
+	<strong>Was du brauchst:</strong>
+<ul>
+<li>Schreibt für jedes Teammitglied alle Buchstaben von A bis Z (oder die Buchstaben deines
 Alphabets) auf eine Tafel oder ein Whiteboard. Ihr könnt dies auch auf einem Blatt Papier
-pro Person machen.
-● Ein Marker pro Person
+	pro Person machen.</li>
+	
+	<li>Ein Marker pro Person</li></ul>
 
-Was ihr machen sollt:
-● Jedes Teammitglied schreibt so schnell sie kann für möglichst viele Anfangsbuchstaben ein Wort auf, das die Community beschreibt. Damit es noch mehr Spass macht, könnt ihr einen Wettbewerb daraus machen. Ihr müsst die Worte nicht überdenken, denn es soll spontan sein.
-● Danach könnt ihr einen Blick auf all die Worte werfen, die aus dieser Aktivität hervorgegangen sind und sie diskutieren. Gibt es irgendwelche Gemeinsamkeiten? Irgendwelche Überraschungen? Welche neuen Informationen könnt ihr aus dieser Aktivität gewinnen, die euch bei der Beobachtung vor Ort nicht aufgefallen sind?
+	<strong>Was ihr machen sollt:</strong>
+	<ol>
+		<li>Jedes Teammitglied schreibt so schnell sie kann für möglichst viele Anfangsbuchstaben ein Wort auf, das die Community beschreibt. Damit es noch mehr Spass macht, könnt ihr einen Wettbewerb daraus machen. Ihr müsst die Worte nicht überdenken, denn es soll spontan sein.</li>
+		<li>Danach könnt ihr einen Blick auf all die Worte werfen, die aus dieser Aktivität hervorgegangen sind und sie diskutieren. Gibt es irgendwelche Gemeinsamkeiten? Irgendwelche Überraschungen? Welche neuen Informationen könnt ihr aus dieser Aktivität gewinnen, die euch bei der Beobachtung vor Ort nicht aufgefallen sind?</li>
+	</ol>
 
 Nun, da ihr Beweise für Themen oder Probleme eurer Community gesammelt habt, sollt ihr im Team darüber reden, welche Themen wichtig sind. Dann könnt ihr entscheiden, welche ihr bearbeiten möchtet. Zuerst werfen wir aber einen Blick auf die Themen, die Technovation den Teilnehmerinnen dieses Jahr vorschlägt, da dies eure Entscheidung beeinflussen könnte.
-&nbsp;
-<h3><strong>Themen der Technovation-Challenge 2017
-</strong></h3>
+</div>
+
+<h3 id="themes">Themen der Technovation-Challenge 2017</h3>
 Im Jahr 2017 werden die Teams aufgefordert, eine Lösung für ein Problem zu entwickeln, das zu einem von vier Themen gehört. Diese sind von den Sustainable Development Goals (Ziele nachhaltiger Entwicklung, abgekürzt SDGs) der Vereinten Nationen inspiriert.
 Hier findet ihr Einzelheiten zu jedem der Themen und einige Beispiele für UN-Ziele für das Jahr 2030:
 
@@ -99,73 +108,86 @@ Hier findet ihr Einzelheiten zu jedem der Themen und einige Beispiele für UN-Zi
 <a href="https://sustainabledevelopment.un.org/sdg3" target="_blank">Gesundheit</a>. Beispiele: Sicherstellung eines gesunden Lebens und Förderung des Wohlbefindens für alle Altersgruppen, die Gesundheit von Müttern und Kindern, die universelle Gesundheitsversorgung und der Zugang aller zu sicheren, wirksamen, qualitativ hochwertigen und erschwinglichen Medikamenten und Impfstoffen.
 
 <a href="https://sustainabledevelopment.un.org/?menu=1300." target="_blank">Hier </a> findet ihr mehr Infos zu den Nachhaltigkeitszielen.
-<h3></h3>
-<h3>Aufgabe: Für ein Problem entscheiden</h3>
+
+<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
+<h3 id="act3">Aufgabe: Für ein Problem entscheiden</h3>
 Jetzt, da ihr Beweise für die Probleme in eurer Community entdeckt und gesammelt sowie etwas über die Themen der Technovation 2017 erfahren habt, ist es an der Zeit, ein Problem auszuwählen, woran ihr mit eurem Team im Projekt arbeiten möchtet.
 
 <strong>Was ihr brauchen werdet:</strong>
-● Post-its oder Papier
-● Stifte oder Marker
-● Wenn ihr ein virtuelles Team seid, könnt ihr <a href="http://www.ideaboardz.com">ideaboardz</a> verwenden.
+ <ul>
+	 <li>Post-its oder Papier</li>
+	 <li>Stifte oder Marker</li>
+	 <li>Wenn ihr ein virtuelles Team seid, könnt ihr <a href="http://www.ideaboardz.com" style="color:#eae46f;">ideaboardz</a> verwenden.</li>
 
 <strong>Was ihr machen sollt:</strong>
-● Jede soll über die Bedürfnisse der Community nachdenken und die Probleme, die sie lösen möchte, auf ein Post-it, ein Stück Papier oder eine Notecard auf ideaboardz.com aufschreiben. Eine Idee pro Post-it. Keine Idee ist richtig oder falsch.
-○ Zu jedem Problem zwei Sätze hinzufügen. Schreib im einen Satz, warum das Problem wichtig ist und welche Beweise für dieses da sind. Schreib in einem zweiten Satz, wen das Problem betrifft und wie.
-● Nach etwa 15 Minuten sollte jede ihre Post-its an die Wand hängen und sie als Gruppe anschauen.
-● Besprecht, ob es Muster gibt. Hier einige wichtige Fragen, die ihr beantworten sollt:
-○ Gibt es eine Überschneidung bei den Interessen?
+<ol>
+	<li>Jede soll über die Bedürfnisse der Community nachdenken und die Probleme, die sie lösen möchte, auf ein Post-it, ein Stück Papier oder eine Notecard auf ideaboardz.com aufschreiben. Eine Idee pro Post-it. Keine Idee ist richtig oder falsch.</li><ul>
+	<li>Zu jedem Problem zwei Sätze hinzufügen. Schreib im einen Satz, warum das Problem wichtig ist und welche Beweise für dieses da sind. Schreib in einem zweiten Satz, wen das Problem betrifft und wie.</li></ul>
+	<li>Nach etwa 15 Minuten sollte jede ihre Post-its an die Wand hängen und sie als Gruppe anschauen.</li>
+	<li>Besprecht, ob es Muster gibt. Hier einige wichtige Fragen, die ihr beantworten sollt:<ul>
+		<li>Gibt es eine Überschneidung bei den Interessen?</li>
+		<li>Kann man die Ideen den Themen der Technovation 2017 zuordnen?</li>
+		<li>Sind die Probleme so weit gefasst, dass sie nicht leicht von einer App gelöst werden können? Wenn ja, können sie in kleinere Probleme heruntergebrochen werden?<ul>
+			<li>Beachtet, dass das Problem von einer mobilen App behoben werden muss, also sollten die Funktionen, die die Mobiltechnologie anbietet, wie GPS, Kamera, Beschleunigungssensor oder Spracherkennung, sinnvoll genutzt werden. Dies wird später diskutiert werden, aber es ist gut, es im Auge zu behalten.</li></ul></li></ul>
+	<li>Euer Team sollte sich jetzt ein Problem, auf das ihr euch konzentriert, aussuchen. Bevor ihr fortfahrt, sollte euer Team sicherstellen, dass es zu einem der Themen der Technovation 2017 passt.</li></ol>
+</div>
 
-○ Kann man die Ideen den Themen der Technovation 2017 zuordnen?
-○ Sind die Probleme so weit gefasst, dass sie nicht leicht von einer App gelöst werden können? Wenn ja, können sie in kleinere Probleme heruntergebrochen werden?
-■ Beachtet, dass das Problem von einer mobilen App behoben werden muss, also sollten die Funktionen, die die Mobiltechnologie anbietet, wie GPS, Kamera, Beschleunigungssensor oder Spracherkennung, sinnvoll genutzt werden. Dies wird später diskutiert werden, aber es ist gut, es im Auge zu behalten.
-● Euer Team sollte sich jetzt ein Problem, auf das ihr euch konzentriert, aussuchen. Bevor ihr fortfahrt, sollte euer Team sicherstellen, dass es zu einem der Themen der Technovation 2017 passt.
-
-&nbsp;
-<h3>Aufgabe: Brainstorming für mögliche Lösungen</h3>
+<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
+<h3 id="act4">Aufgabe: Brainstorming für mögliche Lösungen</h3>
 In den vergangenen Aufgaben habt ihr Ideen über die Probleme geteilt, die euer Team lösen möchte. Jetzt ist es an der Zeit, über technologische Lösungen, vor allem mobile App-Lösungen, nachzudenken, deshalb möchtet ihr vielleicht einige Tipps, wie ihr erfolgreich brainstormen könnt.
 
 <strong>Brainstorming</strong> ist eine Gruppenativitätstechnik, die entworfen wurde, um eine große Anzahl von Ideen zu generieren. Hier sind einige Tipps für ein gutes Brainstorming:
-
-● Achtet darauf, alle Ideen zu erfassen, auch wilde!
-● Beurteilt weder andere noch eure eigenen Ideen!
-● Baut gegenseitig auf euren Ideen auf.
-● Seid visuell - ihr könnt anstelle von Wörtern auch zeichnen.
-● Ein Gespräch aufs Mal – schneidet euch das Wort nicht ab.
-● Sammelt so viele Ideen wie ihre könnt.
-● Bleibt fokussiert.
+<ul>
+	<li>Achtet darauf, alle Ideen zu erfassen, auch wilde!</li>
+	<li>Beurteilt weder andere noch eure eigenen Ideen!</li>
+	<li>Baut gegenseitig auf euren Ideen auf.</li>
+	<li>Seid visuell - ihr könnt anstelle von Wörtern auch zeichnen.</li>
+	<li>Ein Gespräch aufs Mal – schneidet euch das Wort nicht ab.</li>
+	<li>Sammelt so viele Ideen wie ihre könnt.</li>
+	<li>Bleibt fokussiert.</li>
+</ul>
+	
 
 Das folgende Video ist von Stanford d.school und zeigt Beispiele für erfolgreiche und weniger erfolgreiche Wege, das Brainstorming anzupacken, damit du diesen Prozess besser verstehen kannst.
 
 
-&nbsp;
+<br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cmoWCSyujPY" frameborder="0" allowfullscreen></iframe>
+<br><br>
 
 <strong>Was ihr benötigt:</strong>
-● ein großes Blatt Papier oder Whiteboard
-● Marker
+ <ul>
+	 <li>ein großes Blatt Papier oder Whiteboard</li>
+	 <li>Marker</li>
+</ul>
 
 <strong>Was ihr machen sollt:</strong>
-● Gebt euch ca. 30 Minuten Zeit, um gemeinsam Ideen zu sammeln. Es wird empfohlen, dass ihr dies mit eurer Mentorin macht, damit ihr auf dem richtigen Weg bleibt.
-● Überprüft eure Idee, um sicherzustellen, dass ihr den Benutzer im Auge behält, also die Person oder Personen, die das Problem betrifft. Denkt darüber nach, ob die Lösung die Funktionen von Mobiltelefonen wie GPS, Beschleunigungssensor, Kamera usw. einsetzt. Ihr könnt eure Mentorin bitten, auch die Idee zu überprüfen und Feedback zu geben.
-● Wenn das Team einverstanden ist, dass die Bedürfnisse des Nutzers von der App-Idee erfüllt werden und dass die Lösung gute Mobiltelefoneigenschaften wie GPS, Beschleunigungssensor, Kamera usw. nutzen wird, dann geht zum nächsten Schritt und schreibt eine Problemstellung, auf die euer Team im Laufe des Projekts Bezug nehmen wird.
-● Wenn euer Team nicht sicher ist, ob die Bedürfnisse des App-Nutzers erfüllt werden, oder ob die App eine gute Lösung für das Problem darstellt, dann muss euer Team zurück zum Brainstorming, um eine andere Lösung zu finden, die die Mobiltelefonfunktionen sinnvoll nutzt. Es wäre eine gute Idee, bei diesem Prozess die Hilfe eurer Mentorin in Anspruch zu nehmen.
+ <ol>
+	 <li>Gebt euch ca. 30 Minuten Zeit, um gemeinsam Ideen zu sammeln. Es wird empfohlen, dass ihr dies mit eurer Mentorin macht, damit ihr auf dem richtigen Weg bleibt.</li>
+	 <li>Überprüft eure Idee, um sicherzustellen, dass ihr den Benutzer im Auge behält, also die Person oder Personen, die das Problem betrifft. Denkt darüber nach, ob die Lösung die Funktionen von Mobiltelefonen wie GPS, Beschleunigungssensor, Kamera usw. einsetzt. Ihr könnt eure Mentorin bitten, auch die Idee zu überprüfen und Feedback zu geben.</li>
+	 <li>Wenn das Team einverstanden ist, dass die Bedürfnisse des Nutzers von der App-Idee erfüllt werden und dass die Lösung gute Mobiltelefoneigenschaften wie GPS, Beschleunigungssensor, Kamera usw. nutzen wird, dann geht zum nächsten Schritt und schreibt eine Problemstellung, auf die euer Team im Laufe des Projekts Bezug nehmen wird.</li>
+	 <li>Wenn euer Team nicht sicher ist, ob die Bedürfnisse des App-Nutzers erfüllt werden, oder ob die App eine gute Lösung für das Problem darstellt, dann muss euer Team zurück zum Brainstorming, um eine andere Lösung zu finden, die die Mobiltelefonfunktionen sinnvoll nutzt. Es wäre eine gute Idee, bei diesem Prozess die Hilfe eurer Mentorin in Anspruch zu nehmen.</li>
+</div>
+
+<div style="background-color:#421b41; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
 <blockquote>
 <p style="text-align: center">“Ein Problem, das gut dargelegt ist, ist halb gelöst.”</p>
 </blockquote>
 <p style="text-align: right">—Charles Kettering, Americanischer Erfinder, Ingenieur und Unternehmer</p>
+</div>
 
-<h3><strong>Was ist eine Problemstellung</strong></h3>
+<h3 id="whatisproblemstatement">Was ist eine Problemstellung</h3>
 Nun da ihr eine Idee für euer Projekt habt, könnt ihr damit beginnen eine Problemstellung zu schreiben. Eine Problemstellung ist ein kurzer Text, der das Problem, dass euer Team angeht, erklärt. Es sollte die grundlegenden Tatsachen des Problems skizzieren, erklären, warum das Problem wichtig ist, wen es wie betrifft und eine direkte Lösung präsentieren.
 
 Es ist wichtig, dass ihr die Problemstellung zusammen als Team schreibt, damit ihr einer Meinung seid und euch auf das Problem, das ihr löst, konzentriert, während ihr den Rest des Programms absolviert. Sonst arbeitet ihr an etwas, um dann herauszufinden, dass es das ursprüngliche Ziel nicht erfüllt!
-.
+
 Eure Problemstellung sollte 4 Fragen beantworten:
-
-1. <u>Was ist das Problem</u>? Konstruktiv heißt das auch: Was ist das Bedürfnis?
-2. <u>Wen betrifft das Problem und wie</u>? Dies ist wichtig, da die vom Problem betroffenen Personen die Nutzer eurer App sein werden.
-3. <u>Warum ist es wichtig, das Problem zu lösen</u>? Warum ist dieses Problem überzeugend und habt ihr irgendwelche Beweise für das Problem, um euer Argument zu stützen? Welche Einsichten habt ihr für die Lösung des Problems zu bieten?
-4. <u>Was ist die Lösung</u>? Dies muss jetzt nicht eine lange Antwort sein, gerade genug, um einen kleinen Einblick zu geben, wie das Problem gelöst werden wird.
-
-&nbsp;
+<ol>
+	<li><b>Was ist das Problem</b>? Konstruktiv heißt das auch: Was ist das Bedürfnis?</li>
+	<li><b>Wen betrifft das Problem und wie</b>? Dies ist wichtig, da die vom Problem betroffenen Personen die Nutzer eurer App sein werden.</li>
+	<li><b>Warum ist es wichtig, das Problem zu lösen</b>? Warum ist dieses Problem überzeugend und habt ihr irgendwelche Beweise für das Problem, um euer Argument zu stützen? Welche Einsichten habt ihr für die Lösung des Problems zu bieten?</li>
+	<li><b>Was ist die Lösung</b>? Dies muss jetzt nicht eine lange Antwort sein, gerade genug, um einen kleinen Einblick zu geben, wie das Problem gelöst werden wird.</li>
+</ol>
 
 Für eure Zwecke sollte die Problemstellung nicht länger als ein Absatz sein. Ihr könnt eure Ideen auf jeden Fall erklären und niederschreiben, aber als Team solltet ihr eure Problemstellung zusammen eingrenzen.
 
@@ -177,23 +199,23 @@ Hier ist ein Beispiel für einen Projektbericht eines vergangenen Technovation-F
 
 Hier ist eine Demo der Discardious-App, die das Team Charis erstellte:
 
-.
-
-
+<br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZJU0TZua1Ls" frameborder="0" allowfullscreen></iframe>
+<br><br>
 
 In der Discardious-App kann der Benutzer:
-● sich anmelden
-● einen Standort für einen Wagen in der Nähe anwählen
-● die Anzahl der benötigten Abfallbehälter angeben
-● die Adresse, wohin die Abfalleimer gebracht werden, eingeben
-● den Geschäftsbedingungen zustimmen
-● eine Gefahr melden, indem einen Standort eingegeben, einen kurzen Bericht geschrieben und ein Bild der Szene gemacht wird.
-● eine Meldung empfangen, wenn der Bericht protokolliert wurde
+ <ul>
+	 <li>sich anmelden</li>
+	 <li>einen Standort für einen Wagen in der Nähe anwählen</li>
+	 <li>die Anzahl der benötigten Abfallbehälter angeben</li>
+	 <li>die Adresse, wohin die Abfalleimer gebracht werden, eingeben</li>
+	 <li>den Geschäftsbedingungen zustimmen</li>
+	 <li>eine Gefahr melden, indem einen Standort eingegeben, einen kurzen Bericht geschrieben und ein Bild der Szene gemacht wird.</li>
+	 <li>eine Meldung empfangen, wenn der Bericht protokolliert wurde</li>
 
 &nbsp;
 
-<strong>Erstellt eine Problemstellung
-</strong>
+<h3 id="createstatement">Erstellt eine Problemstellung</h3>
 
 Jetzt ist es Zeit, eure Problemstellung zu schreiben! Hier ist eine <a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/CreateaProblemStatement.pdf">Vorlage</a>.
 
