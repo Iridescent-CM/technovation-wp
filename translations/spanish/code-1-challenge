@@ -1,4 +1,3 @@
-<h1><strong>Realiza una presentación de diapositivas</strong></h1>
 <ul>
  	<li><a href="#design">Designing Your Screen</a></li>
  	<li><a href="#blocks">Programming the Blocks</a></li>
@@ -6,7 +5,8 @@
  	<li><a href="#finish">Finishing Your App</a></li>
  	<li><a href="#final">Final Check Point!</a></li>
 </ul>
-<h3>Diseñando tu pantalla</h3>
+
+<h3 id="design">Diseñando tu pantalla</h3>
 Para esta aplicación debes crear una presentación de diapositivas permitiéndole a tu usuario navegar a través de imágenes. Cuando diseñes tu pantalla, deberás incluir una imagen además de botones que indiquen ‘anterior’ y ‘siguiente’ en los cuales el usuario puede hacer clic. Esta parte será realizada en la sección <em>diseñ</em><em>ador.</em>
 <ol>
  	<li>Agrega una imagen a tu pantalla.
@@ -39,9 +39,10 @@ Para esta aplicación debes crear una presentación de diapositivas permitiéndo
 </li>
 </ol>
 <img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/designer.png" alt="designer" width="1440" height="772" />
-<h3>Programando los bloques</h3>
+
+<h3 id="blocks">Programando los bloques</h3>
 Explicación: Ahora que ya tienes tu pantalla configurada, tendrás que hacer que haga algo. Cuando el usuario presiona los botones, quieres que tu aplicación abra otra pantalla con otra imagen dentro de esta. Para hacer esto usarás el botón controladores de eventos.
-<ul>
+<ol start="7">
  	<li>Haz clic en ‘previous’ para ver todos los controladores de eventos que puedes usar. Agarra el botón ‘<strong>when button.click</strong>’ y muévelo a tu espacio de trabajo.</li>
  	<li>Haz clic en ‘<strong>control</strong>’ y encuentra el bloque ‘<strong>open another screen screenName</strong>.</li>
  	<li>Obtén una caja de texto vacía y haz clic en el bloque '<strong>open another screen screenName</strong>'. Escribe el nombre de la última pantalla que aparecerá en tu presentación. Para nosotros, fue Screen3.</li>
@@ -50,26 +51,35 @@ Explicación: Ahora que ya tienes tu pantalla configurada, tendrás que hacer qu
  	<li>Obtén un bloque de texto vacío y escribe la siguiente pantalla que aparecerá en tu presentación. (Para nosotros, fue Screen2.)</li>
 </ul>
 <img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/blocks.png" alt="blocks" width="1440" height="766" />
-<h3>¡Punto de control!</h3>
+
+<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
+<h3 id="check">¡Punto de control!</h3>
 Antes de continuar, asegurémonos de que el código que creaste funciona. Es un buen hábito revisar partes de tu código antes de escribir la aplicación completa, para asegurarte de que funciona. De otra manera, podrías crear la aplicación y tener muchas prestaciones que no terminan funcionando (¡y podría ser difícil averiguar por qué no funciona!
 
 Empareja App Inventor con tu celular, tablet o emulador. ¿Los botones hacen lo que se supone que tienen que hacer? Nuestros botones funcionaron de la siguiente manera: “previous” (“anterior”) nos llevó a Screen3 y “next” (“siguiente”) nos llevó a Screen2. Si tus botones no hacen lo que esperabas que hicieran, intenta volver y asegurarte de que tu código está correcto.
 
-<em>Pista: Ya que no hay nada en Screen 2 y Screen 3 todaví</em><em>a, volvimos a la pantalla 1 usando App Inventor en nuestro computador. App Inventor te permite navegar a travé</em><em>s de diferentes pantallas en tu celular o emulador conectado usando tu computador. Este será </em><em>un buen truco utilizable má</em><em>s adelante.</em>
-<h3>Terminando tu app</h3>
+	<em>Pista: Ya que no hay nada en Screen 2 y Screen 3 todavía, volvimos a la pantalla 1 usando App Inventor en nuestro computador. App Inventor te permite navegar a través de diferentes pantallas en tu celular o emulador conectado usando tu computador. Este será un buen truco utilizable más adelante.</em>
+</div>
+
+<h3 id="finish">Terminando tu app</h3>
 Explicación: Ahora que has configurado una pantalla y la has programado exitosamente, puedes programar las pantallas restantes. Puedes agregar más pantallas si quieres que tu presentación tenga más imágenes, pero asegúrate que siempre tienes al menos tres. Los siguientes diagramas muestran cómo debería ser el flujo.
-<ol>
+<ol start="13">
  	<li> Repite los pasos 1-12 para cada pantalla de tu presentación. Asegúrate que el botón “siguiente” siempre te lleva a la siguiente pantalla de tu presentación y de que el botón “anterior” te lleva a la pantalla anterior.</li>
 </ol>
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/3Screen-Diagram.png" alt="3screen-diagram" />
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/4Screen-Diagram.png" alt="4screen-diagram" />
-<h3>Punto de Control Final</h3>
-¿Atorada? No olvides descargar nuestra <a href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.Slideshow">app de ejemplo</a> desde Google Play Store para ver cómo funciona. También puedes descargar nuestro código de fuente para este desafío aquí: <a href="https://drive.google.com/open?id=0B9HV58UviqU_UUotS1BieWxGTWM">C</a>ódigo de fuente Presentación
+<center>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/3Screen-Diagram.png" width="45%" alt="3screen-diagram" />
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/4Screen-Diagram.png" width="45%" alt="4screen-diagram" />
+</center>
+
+<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
+<h3 id="final">Punto de Control Final</h3>
+	¿Atorada? No olvides descargar nuestra <a href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.Slideshow" target="_blank" style="color:#eae46f">app de ejemplo</a> desde Google Play Store para ver cómo funciona. También puedes descargar nuestro código de fuente para este desafío aquí: <a href="https://drive.google.com/open?id=0B9HV58UviqU_UUotS1BieWxGTWM" target="_blank" style="color:#eae46f">Código de fuente Presentación</a>
 
 Aquí están las instrucciones sobre cómo descargar y usar los códigos de fuente:
 
-<a href="http://appinventor.mit.edu/explore/ai2/share.html" target="_blank">Source Code Instructions</a>
+<a href="http://appinventor.mit.edu/explore/ai2/share.html" target="_blank" style="color:#eae46f">Source Code Instructions</a>
 
-<a href="https://drive.google.com/file/d/0B9HV58UviqU_UUotS1BieWxGTWM/view?usp=sharing" target="_blank">
+<a href="https://drive.google.com/file/d/0B9HV58UviqU_UUotS1BieWxGTWM/view?usp=sharing" target="_blank" style="color:#eae46f">
 Download the Source Code
 </a>
+</div>
