@@ -1,15 +1,22 @@
-Code Challenge # 2: Mache eine To-Do List App
-
-Beschreibung: Erstelle eine To-Do List, die es Benutzern ermöglicht, Elemente einzugeben und zu entfernen. Deine App sollte sich jedes Mal, wenn der Benutzer die App öffnet, die Artikel merken. Du kannst erlernen, wie man ein <a href="http://ai2.appinventor.mit.edu/reference/components/userinterface.html#ListView">ListView</a> benutzt, bevor man die Challenge versucht!
+<ul>
+ 	<li><a href="#design">Entwerfen des Bildschirms</a></li>
+ 	<li><a href="#blocks">Hinzufügen von Aufgaben zur To-do-Liste</a></li>
+ 	<li><a href="#check1">Check point #1</a></li>
+ 	<li><a href="#delete">Einträge aus der Aufgabenliste löschen</a></li>
+ 	<li><a href="#check2">Check point #2</a></li>
+ 	<li><a href="#reset">Programmierung des Reset-Buttons
+</a></li>
+ 	<li><a href="#check3">Check point #3</a></li>
+ 	<li><a href="#tinyDB">Programmierung des TinyDB</a></li>
+ 	<li><a href="#final">Final check point</a></li>
+</ul>
+<h3>Beschreibung</h3>
+Erstelle eine To-Do List, die es Benutzern ermöglicht, Elemente einzugeben und zu entfernen. Deine App sollte sich jedes Mal, wenn der Benutzer die App öffnet, die Artikel merken. Du kannst erlernen, wie man ein <a href="http://ai2.appinventor.mit.edu/reference/components/userinterface.html#ListView">ListView</a> benutzt, bevor man die Challenge versucht!
 
 Versuche dein Bestes, diese Challenge auf eigene Faust zu schaffen, bevor du die Anweisungen liest. Denke daran, diese Anweisungen sind nur eine Möglichkeit, wie die Challenge gelöst werden kann! Du kannst unsere Beispiel-App auch im Google Play Store herunterladen. Glückliche Codierung!
 
 Lade die Beispiel-App hier herunter: <a href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.ToDoList">Technovation Challenge #2</a>
-
-<em>Siehe Anleitung:</em>
-
-<em>Entwerfen des Bildschirms</em>
-
+<h3>Entwerfen des Bildschirms</h3>
 Erklärung: Für diese App möchtet ihr, dass der Benutzer eine To-do-Liste erstellen kann. Wir haben unser Layout mit Buttons entworfen, die es dem Benutzer ermöglichen, seine Aufgaben für das nächsten Öffnen der App zu speichern und einer Reset-Taste.
 <ol>
  	<li>Fügt dem Bildschirm ein Label hinzu, um dem Benutzer mitzuteilen, worum es in eurer App geht!</li>
@@ -31,19 +38,13 @@ Erklärung: Für diese App möchtet ihr, dass der Benutzer eine To-do-Liste erst
 </li>
  	<li><em>Optional: </em>Wir haben zwei horizontale Anordnungen hinzugefügt, um unser Layout zu organisieren, aber ihr könnt euren Bildschirm aufbauen, wie ihr wollt!</li>
 </ol>
-&nbsp;
+<img style="border: 1px solid #cccccc;" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image07-1024x552.png" alt="steps 1-6" width="1024" height="552" />
 <ol start="7">
  	<li>Fügt ein TinyDB aus dem Speichermenü hinzu. Wenn ihr es auf euren Bildschirm zieht, wird es als "Nicht sichtbare Komponente" angezeigt.</li>
 </ol>
-&nbsp;
-
-<em>Hinzufügen von Aufgaben zur To-do-Liste</em>
-
-Erklärung:
-
+<img style="border: 1px solid #cccccc;" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image06-1024x555.png" alt="step 7" width="1024" height="555" />
+<h3><em>Hinzufügen von Aufgaben zur To-do-Liste</em></h3>
 Ihr möchtet, dass die App Eingaben anzeigt, die der Benutzer in die App eingibt. Dazu müsst ihr die Daten in einer Listenvariablen speichern und dann mit ListView anzeigen. Der Plan besteht darin, zuerst eine Listenvariable zu erstellen, sodass der Benutzer Dinge hinzufügen kann. Wenn der Benutzer die Eingabetaste drückt, möchtet ihr, dass die Daten, die er in das Textfeld eingegeben hat, der Liste der Elemente hinzugefügt und in ListView angezeigt werden.
-
-&nbsp;
 <ol>
  	<li>Macht eine Variable namens <em>items</em>, die die Daten der To-do-Liste enthalten wird. Beginnt die Variable als leere Liste, da der Benutzer noch keine Daten eingegeben hat.</li>
  	<li>Nehmt einen Button.click event handler für eure Enter-Taste.</li>
@@ -53,19 +54,13 @@ Ihr möchtet, dass die App Eingaben anzeigt, die der Benutzer in die App eingibt
  	<li>Fügt eure i<em>tems</em>-Variable zum "set ListView1.Elements to" -Block hinzu.</li>
  	<li><em>Optional: </em>Um unsere App einfacher benutzen zu können, verbergen wir unsere Tastatur, wenn der Benutzer Enter gedrückt hat. Klickt dazu auf TextBox1 und packt den Block "TextBox1.HideKeyboard".</li>
 </ol>
-&nbsp;
-
-<strong><em>Checkpoint</em></strong>
-
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image08-1024x438.png" alt="blocks steps 1-7" width="898" height="236" />
+<h3>Checkpoint</h3>
 Schaut, ob das, was ihr bis jetzt gebaut habt, funktioniert! Schließt euer Telefon oder Emulator an und testet es. Wenn ihr Sachen in die Textbox eingebt und Enter drückt, sollten sie unten erscheinen. Wenn eure App nicht funktioniert, geht zurück und behebt Fehler, bevor ihr fortfahrt. Geht auf euren Mentor oder Teamkollegen zu, wenn ihr nicht mehr weiter wisst.
 
 &nbsp;
-
-<em>Einträge aus der Aufgabenliste löschen</em>
-
+<h3>Einträge aus der Aufgabenliste löschen</h3>
 Erklärung: Ihr möchtet, dass die Benutzer nach Abschluss der Aufgabe etwas aus der To-do-Liste löschen können. Sie können dies tun, indem sie auf eines der in der ListView angezeigten Elemente klicken. Um ein Element aus einer Liste zu löschen, müsst ihr wissen, was der Index des Punktes in der Liste ist, so dass ihr eurer App sagen könnt, nur dieses Element löschen. In den nächsten Schritten erstellt ihr eine Variable namens <em>index</em>. Dies kann eine lokale Variable sein, da wir sie nur an einer Stelle im Code verwenden müssen.  Wir setzen die Variable <em>index</em> fest als Index dessen, was der Benutzer ausgewählt hat. Dann verwenden wir die Variable <em>index</em>, um der App zu sagen, was sie aus den Liste <em>items</em> entfernen soll. Danach sagen wir ListView, es soll aktualisieren, was es anzeigt, da sich unsere Liste <em>items</em> geändert hat.
-
-&nbsp;
 <ol>
  	<li>Wählt den Block "ListView1.AfterPicking".</li>
  	<li>Erstellt eine lokale Variable namens <em>index</em>. Ihr könnt es auf was auch immer ihr möchten setzen. Wir setzten unsere auf Null.</li>
@@ -76,14 +71,10 @@ Erklärung: Ihr möchtet, dass die Benutzer nach Abschluss der Aufgabe etwas aus
  	<li>Legt eure <em>items</em>- Variable als "list" und eure <em>index</em>-Variable als "index" fest.</li>
  	<li>Nehmt den "set ListView1.Elements to" -Block und setzt ihn unter euren orangefarbenen Variablenblock. Verbindet eure <em>items</em>-Varaible damit.</li>
 </ol>
-<strong>Checkpoint # 2</strong>
-
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Blocks2.png" alt="blocks2" width="2276" height="753" />
+<h3>Checkpoint # 2</h3>
 Zeit, zu sehen, ob eure Anwendung funktioniert! Schliesst eure Telefon oder Emulator an und testet. Wenn ihr eure App verwendet, solltet ihr nun die Elemente, die ihr in eure To-do-Liste eingetragen habt, antippen können, um sie zu löschen.
-
-&nbsp;
-
-<em>Programmierung des Reset-Buttons</em>
-
+<h3>Programmierung des Reset-Buttons</h3>
 Erklärung: Damit eure App einfacher zu verwenden ist, fügt einen Reset-Button hinzu, mit der alle Einträge gelöscht werden, die der Benutzer eingegeben hat. In den nächsten Schritten werdet ihr einen Code schreiben, der die Liste <em>items</em> wieder in eine leere Liste zurücksetzt, wenn der Benutzer auf einen Reset-Button drückt. Anschließend wird euer Code den neuen leeren Inhalt der Liste <em>items</em> in ListView anzeigen, damit der Benutzer sehen kann, dass seine To-do-Liste gelöscht wurde.
 <ol>
  	<li>Nehmt den "when button.click" -Block für euren Reset-Button.</li>
@@ -91,16 +82,10 @@ Erklärung: Damit eure App einfacher zu verwenden ist, fügt einen Reset-Button 
  	<li>Fügt einen Block "create empty list" hinzu.</li>
  	<li>Holt den "Set ListView1.Elements to"-Block und fügt den get <em>items</em> variable block</li>
 </ol>
-&nbsp;
-
-<strong><em>Checkpoint # 3</em></strong>
-
-<em>Zeit, sicherzustellen, dass euer Reset-Button funktioniert. Schließt euer Telefon oder Emulator an, um es auszuprobieren. Nachdem ihr entries in eure To-do-Liste gesetzt habt, solltet ihr Reset drücken können und eine leere To-do-Liste sehen. Geht auf euren Mentor oder Teamkollegen zu, wenn ihr nicht mehr weiter wisst.</em>
-
-&nbsp;
-
-<em>Programmierung des TinyDB</em>
-
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image02-1-1024x297.png" alt="Reset steps 1-4" width="678" height="197" />
+<h3>Checkpoint # 3</h3>
+Zeit, sicherzustellen, dass euer Reset-Button funktioniert. Schließt euer Telefon oder Emulator an, um es auszuprobieren. Nachdem ihr entries in eure To-do-Liste gesetzt habt, solltet ihr Reset drücken können und eine leere To-do-Liste sehen. Geht auf euren Mentor oder Teamkollegen zu, wenn ihr nicht mehr weiter wisst.
+<h3>Programmierung des TinyDB</h3>
 Erklärung: Wenn sich der Benutzer von der App abmeldet, möchtet ihr, dass eure App die To-do-Liste für das nächsten Mal speichert. In den nächsten Schritten programmiert ihr den "Speichern" -Button, um die To-do-Liste des Benutzers in einer Datenbank zu speichern. Ihr werden dies tun, indem ihr den Speichern-Button dazu bringt, die Datenbank anzuwählen und die <em>items</em>-Liste zu speichern. Die Datenbank speichert die To-do-Liste des Benutzers genau, wie sie zu diesem Zeitpunkt ist.
 <ol>
  	<li>Nehmt den "when button.Click" -Block für euren Speichern-Button.</li>
@@ -108,6 +93,8 @@ Erklärung: Wenn sich der Benutzer von der App abmeldet, möchtet ihr, dass eure
  	<li>Fügt einen "Tag" –Namen hinzu.</li>
  	<li>Fügt eure <em>items</em>-Variable zu "valueToStore" hinzu.</li>
 </ol>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image01-1024x315.png" alt="TinyDB steps 1-4" width="809" height="249" />
+
 Erklärung: Nachdem ihr die To-do-Liste des Benutzers in eurer Datenbank gespeichert habt, möchtet ihr, dass eure App die Datenbank bei jedem Start überprüft, um festzustellen, ob zuvor gespeicherte To-do-Listen vorhanden sind. Ihr könnt dies mit dem "when Screen1.Initialize" -Block tun. Dieser Block wird alles tun, was er tun soll, wenn screen1 gestartet wird. In den nächsten Schritten legt ihr eure Listen <em>items</em> als was immer in der Datenbank ist unter dem von euch gewählten Tag-Namen fest. Wenn keine gespeicherten Daten vorhanden sind, werdet ihr eurer App mitteilen, dass sie eine leere Liste erstellen soll, die dieselbe ist, wie eine leere To-do-Liste. Danach lasst ihr eure App das anzeigen, was in der Variable <em>items</em> ist, was gespeicherte Daten oder eine leere Liste sein wird.
 <ol>
  	<li>Nehmt den "When Screen1.Initialize"-Block.</li>
@@ -117,16 +104,8 @@ Erklärung: Nachdem ihr die To-do-Liste des Benutzers in eurer Datenbank gespeic
  	<li>Setzt den Block "create empty list" für "valueIfTagNotThere".</li>
  	<li>Nehmt den "Set ListView1.Elements to" -Block und fügt ihn an eure <em>items</em>-Variable.</li>
 </ol>
-<strong><em>Checkpoint!</em></strong>
-
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image18-1024x321.png" alt="TinyDB steps 1-6" width="986" height="309" />
+<h3>Checkpoint</h3>
 Zeit, zu sehen, ob eure Datenbank funktioniert! Startet eure App und legt einige Einträge in eure To-do-Liste. Klickt den Speichern-Button und schließt die AI Companion App. Öffnet euer App-Backup und schaut, ob eure Einträge vorhanden sind. Wenn sie nicht vorhanden sind, geht zurück und stellt sicher, dass keine Fehler im Code haben. Vergewissert euch, dass eure Tag-Namen genau, mit allen Großbuchstaben, übereinstimmen. Wenn alles funktioniert, habt ihr die Challenge geschafft!
-
-&nbsp;
-
-Kommt ihr nicht weiter? Ladet hier unseren Beispiel-Quellcode herunter:
-
-<a href="https://drive.google.com/open?id=0B9HV58UviqU_a2lTVFdUb0hGbGM">https://drive.google.com/open?id=0B9HV58UviqU_a2lTVFdUb0hGbGM</a>
-
-&nbsp;
-
-Hier findet ihr Anleitungen, wie ihr Quellcodes herunterlädt und verwendet: <a href="http://appinventor.mit.edu/explore/ai2/share.html">Source Code Anweisungen</a>
+<p style="text-align: center;">Kommt ihr nicht weiter? Ladet <a href="https://drive.google.com/open?id=0B9HV58UviqU_a2lTVFdUb0hGbGM" target="_blank">hier</a> unseren Beispiel-Quellcode herunter.</p>
+<p style="text-align: center;">Hier findet ihr Anleitungen, wie ihr Quellcodes herunterlädt und verwendet: <a href="http://appinventor.mit.edu/explore/ai2/share.html">Source Code Anweisungen</a></p>
