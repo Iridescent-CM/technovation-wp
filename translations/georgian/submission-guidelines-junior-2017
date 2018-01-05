@@ -1,0 +1,92 @@
+&nbsp;<center>
+<h1>წარდგენის წესები</h1>
+<p style="text-align: center;">დარწმუნდით, რომ ყველაფერი მზად გაქვთ აპლოკაციის Technovation-ისთვის წარსადგენად!</p>
+
+<h2><strong> წარდგენის წესები უმცროსი ასაკის გუნდისთვის</strong></h2>
+<p style="text-align: center;">ეს წესები გთავაზობთ ინსტრუქციებსა და რჩევებს , რომლებიც დაგეხმარებიან იმის მოხედვრაში როდის იქნებით მზად აპლკაციის წარსადგენად.
+აღნიშნულ მითითებებს ყურადღებით მიჰყევით ,რათა დარწმუნდეთ რომ თქვენი შესრულებული სამუშაო საუკეთესო ნიშნულამდე არის მისული.</p>
+<p style="text-align: center;">მას შემდეგ რაც სამუშაოს ჩაბარების პროცესი დასრულდება ,ის წარმოდგენილი იქნება  <a href="http://my.technovationchallenge.org/" target="_blank">my.technovationchallenge.org</a>- ზე.</p>
+<p style="text-align: center;"><strong>შენიშვნა: </strong>ჩაბარების დრო განსხვავებულია უფროსი ასაკისა და უმცროსი ასაკის გუნდებისთვის.დარწმუნდით ,რომ თქვენი ასაკის გუნდისთვის განკუთვნილ წესებს მიჰყვებით.</p>
+<p style="text-align: center;"><b>ნამუშევრის წარდგენით ,თქვენ ეთანხმებით წარდგენასთან დაკავშირებულ ყველა წესს: </b></p>
+<p style="text-align: center;">ეს წარდგენის და ჩაბარების წესები შეიქმნა ამ გუნდში  არსებული სტუდენტების მიერ.</p>
+&nbsp;
+</center>
+
+<h3><strong>General-ზოგადი</strong></h3>
+<p><input type="checkbox">გუნდის ფოტო ან რამე ისეთი სურათი რომელიც გუნდს წარმოადგენს (სასურველია ფოტო იყოს მენტორთან ან მასწავლებელთან ერთად)</p>
+
+<p><input type="checkbox">პროგრამის დასრულების შემდგომი კვლევა.(გუნდის თითოეულმა წევრმა უნდა დაასრულოს ეს. ლინკი ხელმისაწვდომი იქნება  თქვენს <a href="https://my.technovationchallenge.org/" target="_blank">my.technovationchallenge.org</a>-ის გვერდზე  შესვლისას).</p>
+
+&nbsp;
+<h3><strong>Technical (20 points)  ტექნიკური მხარე -(20 ქულა)</strong></h3>
+<p><input type="checkbox">გააზიარეთ თქვენი აპლიკაციის</p> კოდი
+<ul>
+ 	<li>App Inventor, Java, Objective-C, Swift, C#, JavaScript -ის ან ნებისმიერი სხვა პროგრამული ენის ფაილია მისაღები.</li>
+ 	<li>თუკი App Inventor-ში არის შექმნილი  ,  აქ იხილეთ ინსტრუქციები  <a href="http://appinventor.mit.edu/explore/ai2/share.html" target="_blank">instructions</a>  თუ როგორ გადაოტანოთ  an.aia ფაილი.(და არა .apk).</li>
+ 	<li>გააზიარეთ თქვენს მიერ შექმნილი კოდი:
+<ol>
+ 	<li value="1">ატვრთტ  zip ფაილი ან დაარქივებული ფაილი რომელიც შიეცავს ტქვენს კოდს.აი როგორ უნდა შექმნა fzi  ფაილი  <a href="http://osxdaily.com/2012/01/10/how-to-zip-files-in-mac-os-x/" target="_blank">on a Mac</a>-ზე   და  <a href="https://support.microsoft.com/en-us/instantanswers/2df754f6-7039-824c-b5be-6dda11b5075e/zip-and-unzip-files" target="_blank">Windows</a>-ზე.</li>
+ 	<li>ატვირთეთ თქვენი კოდი  <a href="https://www.google.com/drive/" target="_blank">Google Drive</a>, <a href="https://www.dropbox.com/" target="_blank">Dropbox</a> ან  <a href="https://guides.github.com/introduction/getting-your-project-on-github/" target="_blank">GitHub</a> -ზე და გააზიარეტ ლინკი.100 სიტყვა აპლიკაციის ასაღწერადუფრო მეტი თვალსაჩინოებისათვის თქვენი აპლიკაციიდან 2-5  ნაწყვეტი ეკრანზე აჩვენეთ ,რათა მსაჯებს   უფრო მეტი წარმოდგენა  შეექმნათ თქვენს მიერ შექმნილი აპლიკაციის ეფექტურობაზე.დაასრულეთ  <a href="/?p=20244" target="_blank">Technical Checklist</a>.(ტექნიკური ჩამონათვალი)
+<ul>
+ 	<li>თითოეული პუნქტის აღწერისას გამოიყენეთ წინადადება ან ეკრანიზაცია</li>
+ 	<li>ატვირთეთ ტქვენი პროტოტიპის სურათი და ერთი ივენთი რომელიც განხილულია  Coding Unit 5-ში</li>
+		</ul></li></ol></li></ul>
+<p><input type="checkbox">Demo Video (2 minutes or less-2 წუთიანი ან უფრო ნაკლები)</p>
+<ul>
+ 	<li>ნათლად გამოხატეტ ტქვენი აპლიკაციის ფუნქცია</li>
+ 	<li>ხაზი გაუსვით (მონიშნეთ) თქვენი  აპლიკაციის უნიკალურ თვისებებს</li>
+ 	<li>ფოკუსირება მოახდინეთ მომხმარებლის ინტრფეისზეFocus on the user interface</li>
+</ul>
+
+<p><input type="checkbox">ვიდეო ატვირთული უნდა იყოს  YouTube -ზე ან Vimeo-ზე, ლინკი კი უნდა გააზიაროთ   Technovation-ის პლატფორმის წარდგენის  მეშვეობით</p>
+
+&nbsp;
+<h3><strong>აზროვნება(15 ქულა)</strong></h3>
+<p><input type="checkbox">ნათლად გამოხატეთ, თუ როგორ ემთხვევა თქვენი აპლიკაციის იდეაTechnovation-ის იმ  6 თემას, რომელიც წარმოდგენილია გაეროს მდგრადი განვითარების მიზნების მიერ, ესენია:(მშვიდობა ,თანასწორობა,სირარიბე,გარემოს დაცვა,განათლებდა და ჯანმრთელოაბა)</p>
+
+<p><input type="checkbox">ახსენით  და გამოხატეთ  მტკიცებულებები იმ  პრობლემის ფაქტებითა და სტატისტიკური მონაცემებით  ,რომლისკენაც თქვენ ხართ  მიმართული (ორიენტირებული).</p>
+
+<p><input type="checkbox">დარწმუნდით, რომ თქვენი აპლიკაცია ეფექტურად პასუხობს  თქვენს მიერ ასახულ პრობლემას.</p>
+&nbsp;
+<h3><strong>Pitch -(20 points)  სათამაშო მოედანი( 20 ქულა)</strong></h3>
+<p><input type="checkbox">Pitch video (4 წუთი ან ნაკლები)</p>
+<ul>
+ 	<li>გუნდის ყველა წევრმა უნდა ილაპარაკოსAll members of the team must speak.</li>
+ 	<li>ვიდეოს ფორმატი გუნდის სურილზეა დამოკიდებული.შესაძლო ფორმატებია: Skits, Slide Presentations, and Testimonials from users.</li>
+ 	<li>ვიდეო ატვირთული უნდა იყოს  YouTube -ზე ან Vimeo-ზე, ლინკი კი უნდა გააზიაროთ   Technovation-ის პლატფორმის წარდგენის  მეშვეობით</li>
+</ul>
+<p><input type="checkbox">Pitch -ის საპრეზენტაციო ადგილი (მხოლოდ რეგიონალური;დეტალური ინფორმაციისთვის დაუკავშირდით მენტორს)</p>
+<ul>
+ 	<li>წარმოადგინეთ  PDF  დოკუმენტის პორმატში.იხილეთ რამოდენიმე რჩევა თუ როგორ უნდა გადავიტანოთ სხვა ფორმატის პრეზენტაცია PDF-ში:
+<ul>
+ 	<li><a href="http://www.wikihow.com/Convert-Powerpoint-to-PDF" target="_blank">Powerpoint</a></li>
+ 	<li><a href="http://oregonstate.edu/helpdocs/faq/how-do-i-export-google-doc-pdf" target="_blank">Google Slides</a></li>
+ 	<li><a href="https://prezi.com/support/article/sharing/saving-a-prezi-as-a-pdf/" target="_blank">Prezi</a></li>
+ 	<li><a href="https://www.powtoon.com/embed/gqJb6XOEXIe/" target="_blank">Powtoon</a></li>
+ 	<li><a href="https://www.cisdem.com/resource/convert-keynote-to-pdf-on-mac.html" target="_blank">Keynote</a></li>
+ 	<li><a href="http://www.instructables.com/id/How-To-Export-Canva-To-PDF/" target="_blank">Canva</a></li>
+</ul>
+</li>
+</ul>
+
+&nbsp;
+<h3><strong>Overall Impression Category (25 points)-საერთო შთაბჭდილებების კატეგორია(25 ქულა)</strong></h3>
+<p><input type="checkbox">დარწმუნდით, რომ თქვენი ბიზნეს გეგმა შეძლებს თქვენსავე ბიზნეს საქმიანობაში  წარმატებას მიაღწიოთ.</p>
+
+<p><input type="checkbox">გუნდის წარდგენის თითოეული კომპონენტი კარგად გააზრებულად და ერთმანეთთან შეთავსებულად  შეადგინეთ.</p>
+
+<p><input type="checkbox">მიმართეთ პრობლემის გადაჭრის ორიგინალურ გზას</p>
+
+<p><input type="checkbox">მოძებნეთ გზები რომლებიც თქვენს აპლიკაციას სხვა გუნდებისგან განასხვავებს</p>
+
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 style="color: #ececec;" align="center">Key Dates for 2017</h3>
+<p style="color: #ececec; text-align: center; font-size: 15px;"><strong>Registration</strong>: March 8</p>
+<p style="color: #ececec; text-align: center; font-size: 15px;"><strong>Submission Deadline</strong>: April 26</p>
+<p style="color: #ececec; text-align: center; font-size: 15px;"><strong>World Pitch Summit</strong>: August 7-11</p>
+
+</div>
+<p style="text-align: center;">მზად ხართ მიიღოთ  მსოფლიო  Technovation Challenge-ი(ტექნოვაციის გამოწვევა?)?</p>
+<a href="https://my.technovationchallenge.org" target="_self">
+Sign Up
+</a>
