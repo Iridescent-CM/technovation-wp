@@ -36,4 +36,35 @@ Bu uygulamada kullanıcının farklı görselleri görmesini sağlayan bir yazı
 </ul>
 </li>
 </ol>
+<h3>Kodlama</h3>
+Şimdi ekranınızı tasarladığınıza göre, uygulamanıza işlev katacaksınız. Kullanıcılar butonlara basınca uygulamanın başka bir resim olan bir sayfa açmasını sağlayacaksınız. Bunun için buton eylemlerini ayarlayan bloklardan yararlanacaksınız.
+
+7. "Önceki" olarak adlandırdığınız butona basın. Bu buton için kullanabileceğiniz birçok blok göreceksiniz. "when button.click" bloğunu çalışma alanınıza sürükleyin.,
+
+8. "control" yazısına basın ve "open another screen screenName" bloğunu bulun.
+
+9. Boş bir yazı kutusu alın ve onu "open another screen" bloğunun içine yerleştirin. Bu butona basınca gitmek istediğiniz sayfanın adını yazın. Bizim için bu Screen2.
+
+10. Aynı şeyleri "sonraki" butonu için de tekrarlayın.
+<h3>Kontrol Noktası!</h3>
+Daha çok ilerlemeden önce kodunuzun çalışıp çalışmadığını mutlaka kontrol edin. Her zaman tüm uygulamanın kodunu yazmadan önce adım adım ilerleyip kontrol ederek gitmek daha iyidir.  Aksi taktirde uygulamanızda çalışmayan bir kod olduğunda sebebini anlamakta zorluk çekebilirsiniz.
+
+App Inventor'ı telefonunuza, tabletinize veya emülatörünüze bağlayın ve kullanın. Kodunuzun istediğiniz gibi çalışıp çalışmadığını kontrol edin. Eğer istediğiniz gibi çalışmıyorlarsa kodunuzu değiştirerek düzeltmeyi deneyin.
+
+<em>Not: Yaptığımız ilk sayfa haricindekilerde henüz hiç bir şey olmadığından telefonunuz üzerinden sayfa değiştiremezsiniz. Bu nedenle bilgisayarınızı kullanarak değiştirmeyi deneyin. Bu ileride işinize yarayabilir.</em>
+<h3>Uygulamayı bitiriyoruz</h3>
+Şu an bir sayfayı tasarlamayı ve kodlamayı öğrendiğinize göre diğer sayfaları da programlayabilirsiniz! İsterseniz başka sayfalar ekleyerek  fotoğraf dosyanızın daha uzun olmasını sağlayabilirsiniz ama en az 3 tane sayfanızın olduğundan emin olmalısınız. Aşağıdaki adımlar size uygulamanızın nasıl çalıştığını ve neler yapmanız gerektiğini anlatacak.
+
+13. 1 ve 12 arasındaki tüm adımları her sayfa için tekrar edin. "önceki" butonunun önceki sayfaya "sonraki" butonun ise her zaman bir sonraki sayfaya gittiğinden emin olun.
+<h3>Son Kontrol Noktası</h3>
+Uygulamanızın çalıştığından emin olun! Her "sonraki" ve "önceki" tuşlarını deneyin ve her tuşun doğru sayfaya yönlendirdiğinden emin olun. Eğer doğru çalışmıyorlarsa sayfaların isimlerini doğru yazdığınızdan emin olun.
+
+Tebrikler! Şu an ilk kodlama görevini tamamladınız! Unutmayın, herkes bir mobil uygulama kodlayamaz!
+
+Bir yerde takıldınız mı? Kodumuzu yükleyebilirsiniz. Kodların nasıl yükleneceğini anlatan yönergeler burada:  <a href="http://appinventor.mit.edu/explore/ai2/share.html" target="_blank" rel="noopener">Kod yönergeleri</a>
+
+&nbsp;
+
+<a role="button" href="https://drive.google.com/file/d/0B9HV58UviqU_UUotS1BieWxGTWM/view?usp=sharing" target="_blank" rel="noopener">Kodu yükle</a>
+
 &nbsp;
