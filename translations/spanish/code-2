@@ -1,273 +1,276 @@
-<h1>
-		Code 2<br />
-	</h1>
-<h1>
-		Data and Variables<br />
-	</h1>
+
+<h1>Datos y variables</h1>
 <ul>
-<li>
-			<a href="#data">Data</a>
+<li><a href="#data">Información</a>
 		</li>
-<li>
-			<a href="#types">Data Types</a>
+<li><a href="#types">Tipos de información</a>
 		</li>
-<li>
-			<a href="#variables">Variables</a>
+<li><a href="#variables">Variables</a>
 		</li>
-<li>
-			<a href="#localglobal">Local and Global Variables</a>
+<li><a href="#localglobal">Local and Global Variables</a>
 		</li>
-<li>
-			<a href="#lists">Lists</a>
+<li><a href="#lists">Listas</a>
 		</li>
-<li>
-			<a href="#databases">Databases</a>
+<li><a href="#databases">Databases (Bases de datos)</a>
 		</li>
-<li>
-			<a href="#challenge">Code Challenge</a>
+<li><a href="#challenge">Desafío de programación</a>
 		</li>
-<li>
-			<a href="#reflect">Reflect</a>
+<li><a href="#reflect">Reflexión</a>
 		</li>
 </ul>
-<h2><b>Learning Objectives:</b></h2>
-<p>In this module, you will...</p>
+
+<p>Al final de este módulo...</p>
 <ul>
-<li style="font-weight: 400;">Learn about data and different data types</li>
-<li style="font-weight: 400;">Learn how to use variables and databases</li>
-<li style="font-weight: 400;">Learn to organize data into lists</li>
-<li style="font-weight: 400;">Create a to-do list app that connects to a database</li>
+<li style="font-weight: 400;">Entenderás los datos y sus distintos tipos</li>
+<li style="font-weight: 400;">Serás capaz de usar variables y bases de datos</li>
+<li style="font-weight: 400;">Podrás organizar los datos en listas</li>
+<li style="font-weight: 400;">Crearás un gestor de tareas conectado a una base de datose</li>
 </ul>
-<p>This unit contains a lot of information, and it is okay if you don’t understand it all right now. The best way to understand coding concepts is by working through the Code Challenges to see them in action! You can always refer back to this unit anytime you get stuck building your final app.</p>
-<h3>Data</h3>
-<p>At some point in your life, you’ve probably heard the word <b>data. </b>Data can mean a lot of things, but in computer science, <b>data</b> is the information that your app needs in order to work. To better understand this, let’s think about some apps and some of the information that they need in order to work.</p>
+<p>Esta unidad contiene mucha información, y está bien si no entiendes todo ahora. La mejor manera de entender los conceptos de programación es realizando los desafíos de programación para verlos en acción. Podrás volver a esta unidad siempre que te quedes atorada creando tu aplicación final.</p>
+
+<h3 id="data">Información</h3>
+<p>En algún momento de tu vida habrás escuchado sobre la palabra data (información o datos). La palabra data puede significar muchas cosas, pero en la ciencia informática, data es la información que tu app necesita para poder funcionar. Para entender esto, pensemos en otras apps y en la información que estas necesitan para funcionar.</p>
+<table>
+<tr valign="top">
+<td width="33%" valign="top">
+<center>
 <p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image10.png" alt="WhatsApp logo" width="46" height="46" /></p>
 <p style="text-align: center;"><strong>WhatsApp</strong></p>
-<p style="text-align: center;">This social app can message and call contacts. The data it needs is:</p>
+<p style="text-align: center;">Puedes mandar mensajes y llamar a tus amigos usando:</p>
+</center>
 <ul>
-<li>Your username</li>
-<li>Your friends' usernames</li>
-<li>Messages you want to send</li>
-<li>The time</li>
-<li>Your location</li>
+<li>Tu nombre de usuario</li>
+<li>Los nombres de usuario de tus amigos</li>
+<li>Los mensajes que quieres enviar</li>
+<li>La hora</li>
+<li>Tu ubicación</li>
 </ul>
+	</td>
+	<td width="33%" valign="top">
+<center>
 <p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image32.jpg" alt="Angry Birds logo" width="46" height="46" /></p>
 <p style="text-align: center;"><strong>Angry Birds</strong></p>
-<p style="text-align: center;">In this game app you shoot birds at pigs to defeat them. The data it needs is:</p>
+<p style="text-align: center;">Este juego te permite lanzar aves a chanchos para derrotarlos usando:</p></center>
 <ul>
-<li style="text-align: left;">Your score</li>
-<li style="text-align: left;">How many points each object is worth</li>
-<li style="text-align: left;">What levels you've completed</li>
-<li style="text-align: left;">How many birds you get in each level</li>
+<li style="text-align: left;">Tu puntaje</li>
+<li style="text-align: left;">Cuántos puntos vale cada objeto</li>
+<li style="text-align: left;">Qué niveles has completado</li>
+<li style="text-align: left;">Cuántas aves recibes en cada nivel</li>
 </ul>
+	</td>
+	<td width="33%" valign="top">
+	<center>
 <p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/cropped-R-fullcolor-1.png" alt="Technovation logo" width="46" height="46" /></p>
 <p style="text-align: center;"><strong>Slideshow Challenge App</strong></p>
-<p style="text-align: center;">This is the app you made in the <a href="http://www.technovationchallenge.org/curriculum/coding-unit-1/" target="_blank">Code 1 Challenge</a>. The data it needs is:</p>
+		<p style="text-align: center;">Esta es la app que creaste en la última unidad de programación usando:</p></center>	
 <ul>
-<li style="text-align: left;">Your favorite images</li>
-</ul>
-<p>The programmer needs to set up ways for the app to get all the information it needs. <i>Remember</i>, computers can’t do anything on their own without instructions. Here are a few ways that apps in App Inventor can get data to use:</p>
+<li style="text-align: left;">Tus imágenes favoritas</li>
+		</ul><p></p><p></p>
+	</td>
+	</tr>
+</table>
+<p>El programador necesita configurar las maneras en que la app recibe la información que necesita. Recuerda, los computadores no pueden hacer nada por sí solos sin instrucciones. Aquí hay algunas maneras en que las aplicaciones en App Inventor pueden poner la información en uso:</p>
 <ol>
-<li>The <strong>programmer</strong> put the information in:
-<ul>
-<li>In your slideshow app, you (the programmer) entered in your favorite images.</li>
-<li>In Angry Birds, the programmer entered in how many birds the player gets on each level.</li>
-</ul>
+<li>El <strong>programador</strong> ingresa la información
 </li>
-<li>The <strong>user</strong> enters the information:
-<ul>
-<li>In WhatsApp, the user needs to tell the app what she wants to send and who she wants to send it to.</li>
-</ul>
+<li>El <strong>usuario</strong> ingresa la información
 </li>
-<li>The <strong>app</strong> connects to another place to get information:
-<ul>
-<li>WhatsApp connects to your phone to get the time so it knows what time you sent a message.</li>
-</ul>
+<li>La <strong>aplicación</strong> se conecta con otro lugar para obtener la información
 </li>
 </ol>
-<p>Sometimes an app will save information the user put in. For example, WhatsApp saves message history which allows you to see the last message you sent to a friend. To do this in, the programmer uses a <strong>database</strong><i>, </i>which you will learn about in this lesson.  You will learn more about how to connect to other places to get information later.</p>
-<h3>Thought Exercise</h3>
-<p>If you were using an app that helps you find the nearest grocery store, what data do you think the app needs to have?</p>
-<h3>Data Types</h3>
-<p>As you saw in the section above, data can be a lot of things! To make it easier for computers to understand what to do with the data they are given, data is put into categories. This is known as a <b>data type.</b> Programming languages revolve around three major data types: numbers, strings, and booleans. App Inventor also lets you use more complex data types such as colors and images. You don’t need to do anything with data types you'll learn about in this section but it will be good to keep them in mind as you code more.</p>
-<h5>Numbers</h5>
-<p>A number data type is just what you think it is! In App Inventor,  you can use numbers by clicking on going to Math in <i>blocks.</i></p>
+
+<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
+<center>
+	<h3 style="color:white">Si estuvieras usando una aplicación que te ayuda a encontrar la verdulería más cercana, ¿qué cosas crees que la aplicación debería saber para lograr su función?</h3>
+	</div>
+	
+<h3 id="types">Tipos de información</h3>
+<p>Como ya viste en la sección anterior, información puede ser muchas cosas. Para ayudarle al computador a saber qué hacer con la información que le ha sido entregada, la información se divide en categorías. Esto se conoce como tipo de información. Los lenguajes de programación giran en torno a tres grandes tipos de información: números, cadenas y booleanas. App Inventor también te permite usar tipos de información más complejos como colores e imágenes. No necesitas hacer nada con los tipos de información en esta sección, pero será bueno tenerlos en cuenta a medida que sigues aprendiendo.</p>
+
+<h5>Números</h5>
+<p>El tipo de información basado en número es justo como te lo imaginas. En App Inventor, puedes usar números haciendo click Matemáticas en la sección <i>bloques.</i></p>
 <p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image30.png" width="712" height="40" /></p>
-<p>You will use Math blocks whenever you need to use numbers. Here are some examples of when you might use a number data type in your app.</p>
+<p>Usarás bloques matemáticos siempre que necesites usar números. Aquí hay algunos ejemplos de cuando usarías información basada en números en tu aplicación.</p>
 <ul>
-<li style="font-weight: 400;">Calculating a player’s score in a game</li>
-<li style="font-weight: 400;">Counting how many times a user has tried to log in</li>
-<li style="font-weight: 400;">Counting how many times you want your app to do something</li>
-<li style="font-weight: 400;">Checking to see if your user is a certain age</li>
+<li style="font-weight: 400;">Calcular el puntaje de un jugador en un juego</li>
+<li style="font-weight: 400;">Contar cuántas veces un usuario intentó iniciar sesión</li>
+<li style="font-weight: 400;">Contar cuántas veces quieres que tu aplicación haga algo</li>
+<li style="font-weight: 400;">Comprobar si tu usuario tiene una determinada edad</li>
 </ul>
-<p>To learn more about all the things you can do with math blocks check out MIT’s website: <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/math.html" target="_blank">Math blocks</a></p>
-<h5>Strings</h5>
-<p>A string data type is text. In App Inventor, you can create a string by going to Text in <i>Blocks.</i> Here are some the text blocks you can use.</p>
+<p>Para aprender más acerca de las cosas que puedes hacer con los bloques matemáticos, revisa la página web de MIT: <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/math.html" target="_blank">Math blocks</a></p>
+<h5>Cadenas</h5>
+<p>Una información basada en cadenas es básicamente texto. En App Inventor, crea una cadena dirigiéndote a Texto en la sección <i>bloques</i>. Aquí hay algunos bloques de texto que puedes usar.</p>
 <p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image20.png" width="815" height="100" /></p>
-<p>You should use a string anytime you want to add a text field to your code.  Here are some examples of when you might use a string data type in your app.</p>
+<p>Antes de proseguir, revisa <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/text.html#string" target="_blank">la página web de MIT</a> para ver todas las cosas que puedes hacer con texto.</p>
 <ul>
 <li style="font-weight: 400;">Allowing the the user to enter a password or username</li>
 <li style="font-weight: 400;">Having the app speak words to the user</li>
 <li style="font-weight: 400;">Showing a message or an alert to the user</li>
 <li style="font-weight: 400;">Programming the app to open a new screen by giving it the screen name</li>
 </ul>
-<p>Before moving on check out MIT’s website to see all the things you can do with text: <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/text.html#string" target="_blank">Text blocks</a></p>
+
 <h5>Booleans</h5>
-<p>A boolean can be one of two values: true or false. True basically means “yes” and false basically means “no”. To get a boolean, go to logic in the built in functions and grab one of these blocks: </p>
+<p>Una booleana puede ser uno de dos valores: verdadero o falso. Verdadero básicamente significa “sí” y falso “no”. Para obtener una booleana, dirígete a Logic (Lógica) en las funciones incorporadas y agarra uno de estos bloques: </p>
 <p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image27.png" width="347" height="39" /></p>
-<p>For now, there is not much to do with booleans other than keep them in mind. Booleans and logic will be covered in more detail in <a href="/?p=17114" target="_blank">Code 3: Logic, Loops and Conditionals</a>.</p>
-<h3>Variables</h3>
-<p>One of the most important concepts in coding is a <b>variable</b>. A variable is a name for a piece of data that can change in value. An easy way to remember this is that a <i>variable</i> can <i>vary, </i>or <i>change</i> in value. There’s lots of information that is important to you every day that changes value. Here are some examples:</p>
+<p>Por ahora, no hay mucho que hacer con las booleanas además de tenerlas en cuenta. Las booleanas y la lógica serán profundizadas con más detalle en la Unidad de programación 3: Lógica, loops y condicionales.</p>
+
+<h3 id="variables">Variables</h3>
+<p>Uno de los conceptos más importantes en la programación es el de variable. Una variable es el nombre de una porción de información que puede cambiar su valor. Una manera fácil de recordar esto es que una variable puede variar, o cambiar de valor. Hay mucha información que es importante para ti que cambia su valor cada día. Aquí hay algunos ejemplos:</p>
 <ul>
-<li style="font-weight: 400;">Your age</li>
-<li style="font-weight: 400;">Your height</li>
-<li style="font-weight: 400;">Your location </li>
-<li style="font-weight: 400;">Today’s date</li>
+<li style="font-weight: 400;">Tu edad</li>
+<li style="font-weight: 400;">Tu altura</li>
+<li style="font-weight: 400;">Tu ubicación </li>
+<li style="font-weight: 400;">La fecha de hoy</li>
 </ul>
-<p>To better understand variables and how to use them in App Inventor, let’s walk through an example. Imagine you are creating a game where the user can earn and lose points. You want to have a score for the player to see in a text box. At the start of the game, the player has zero points so you added a block like this to the game.</p>
+<p>Para entender mejor lo que es una variable y cómo usarla en App Inventor, revisemos un ejemplo. Imagina que estás creando un juego donde cada usuario gana y pierde puntos. Quieres tener un puntaje que puede ser visto por el usuario en un cuadro de texto. Al comienzo del juego, el jugador tiene 0 puntos así que agregaste un bloque al juego que luce así.</p>
 <p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image16.png" width="316" height="56" /></p>
-<p>The player sees zero in the textbox that contains her score. However, the player’s score will change as she plays the game. Each time she gains or loses points you have to update the text box. When she gets more points, you add a block like this.</p>
+<p>El jugador ve 0 en el cuadro de texto que contiene su puntaje. Sin embargo, el puntaje del jugador variará a medida que el juego avanza. Cada vez que ella gana o pierde puntos, tienes que actualizar el cuadro de texto. Cuando obtiene más puntos, agregas un bloque que luce así.</p>
 <p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image22.png" width="326" height="43" /></p>
-<p>That works, but now what about the next time the player earns 10 points?  You’ll have to update the text again to say 20. Then what if the player loses points? You will have to change her score to 15. What if she gains points again? This can get confusing really fast.</p>
-<p>In scenarios like this, you can create a <b>variable </b>to keep track of the player’s score<b>.</b> You can create a variable called <i>score</i> that always has the value of the player’s current score. As she plays the game, you can add and subtract points from <i>score</i> and you won’t need to worry about keeping track of what the her current score actually is. Here’s how it would work in App Inventor. First you would grab this block from the variables section.</p>
+<p>Por ahora funciona, ¿pero qué pasa cuando la jugadora gana 10 puntos? Tendrás que actualizar el texto nuevamente para que muestre el número 20. ¿Y si la jugadora pierde puntos? Tendrás que cambiar su puntaje a 15. ¿Y si luego gana puntos nuevamente? Esto se está volviendo confuso rápidamente.</p>
+<p>En escenarios como este, puedes crear una variable para registrar el puntaje del jugador. Puedes crear una variable llamada puntaje que siempre tiene el valor del puntaje del jugador. A medida que ella avanza en el juego, puedes sustraer y agregar puntos y así no tendrás que preocuparte de llevar el registro de su puntaje. Así es como funcionaría en App Inventor. Primero agarras este bloque de la sección Variables.</p>
 <p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image13.png" width="245" height="65" /></p>
-<p>This block tells the app that there will be a variable and asks you to give the variable a name and a value. Here’s what the block would look like for a game where the player's score started at zero.</p>
+<p>Este bloque le dice a la aplicación que habrá una variable y te pedirá que le des un nombre y un valor. Así es como se verá el bloque para un juego que comienza desde 0.</p>
 <p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image28.png" width="284" height="51" /></p>
-<p>With this block, you are telling the app that there will be a piece of data called <i>score </i>and that it will change value as the game is played. Every time the app starts up, it is going to create a variable called <i>score</i> and set it zero. Now you can do what’s called “set” and “get” your <i>score</i> variable. “Get” will allow you to see what the value of the score is. Here’s how you would tell your app to display the score in a textbox.</p>
+<p>Con este bloque, le estás diciendo a la aplicación que habrá una porción de información llamada puntaje y que cambiará su valor a medida que avanza el juego. Cada vez que la aplicación es iniciada, creará una variable llamada puntaje y lo establecerá a 0. Ahora puedes hacer lo que se llama “set” (establecer) y “get” (obtener) a tu variable puntaje. “Get” te permitirá ver el valor del puntaje. Así es como le dirás a la aplicación que muestre el puntaje en el cuadro de texto.</p>
 <p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image17.png" width="476" height="45" /></p>
-<p>“Set” allows you assign a new value for your user’s score. Every time the player earns points you can tell the app to do this.</p>
+<p><b>Set</b> te permite establecer un nuevo valor al puntaje de tu usuario. Cada vez que el jugador obtiene puntos, puedes pedirle a la aplicación que haga esto.</p>
 <p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image19.png" width="508" height="61" /></p>
-<p>This tells your app to change the value of the score to whatever it is now and add ten to it. If the current score is zero, the new score would be 10. If the current score is 25, the new score would be 35. Now you don’t have to worry about reassigning the score every time your player gains or loses points. The app will just take the current score and add 10 to it. </p>
-<p>It is okay if you are still confused about variables! They are really hard to understand and the best way to understand them is by using them. You will use them in the coding challenge at the end of this unit and again over the next few coding units.</p>
-<h3>Thought Exercise</h3>
-<p>Pick one of your favorite apps and identify at least three spots where you think the app creators used variables.</p>
-<h3>Local and Global Variables</h3>
-<p>You may have noticed in the section above that the variable block said “global”. There are two types of variables, <b>local variables</b> and <b>global variables</b>. When you create variables, you’ll have to think about whether you want to use the variable at multiple places in your code, such as the <i>score</i> variable from above, or if you want to use it in just one place.  </p>
-<p><b>Global</b> <b>variables</b> can be used anywhere. Like you saw above, the <i>score</i> variable needed to be used multiple times. You had to use it when the player earned points, when the player lost points, and to display it in the textbox. It could also be used for a high-score table. You can never reuse a name when using a global variable. If you did, your app won’t know which variable to use. Luckily App Inventor won’t allow you to create two variables with the same name.  If you’re in doubt of which variable type to use, use global.</p>
+<p>Esto le dice a tu aplicación que cambie el valor del puntaje a cualquiera que sea y que agregue 10 al puntaje. Si el puntaje actual es 0, entonces el nuevo puntaje será 10. Si el puntaje es 25, entonces el nuevo será 35. No necesitas preocuparte por reasignar el puntaje cada vez que tu usuario pierde puntos. La aplicación tomará el puntaje actual y le añadirá 10.</p>
+<p>Está bien si todavía estás confundida por las variables. Son complicadas de entender y la mejor manera de hacerlo es usándolas. Las usarás en el desafío de programación al final de esta actividad y en las siguientes unidades que vienen.</p>
+
+<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px"><center>
+<h3 style="color:white">Elige una de tus aplicaciones favoritas e identifica al menos tres partes en las que crees que el creador usó variables.</h3>
+</div>
+
+<h3 id="localglobal">Local and Global Variables</h3>
+<p>Quizás notaste en la sección anterior que antes del nombre score (puntaje) la variable decía “global”. En App Inventor puedes tener dos tipos de variables, locales y globales. Cuando creas variables, tendrás que pensar sobre si quieres usar la variable en múltiples casos en tu código, como en la variable puntaje de más arriba, o si solo quieres usarla en un solo lugar.  </p>
+<p>Las variables globales pueden ser usadas en cualquier parte. Como viste antes, era necesario que la variable puntaje fuese usada en múltiples ocasiones. Tenías que usarla cuando el jugador obtenía o perdía puntos, y para mostrarlos en el cuadro de texto. También podía ser usada por una tabla de puntajes, o cuando el jugador perdía puntos. No puedes repetir un nombre cuando usas una variable global. Si lo haces, tu aplicación no sabe qué variable usar. Por suerte, App Inventor no te dejará crear dos variables con el mismo nombre. Si tienes dudas sobre qué tipo de variable usar, usa la global.</p>
 <p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image15.gif" /></p>
-<p><b>Local variables</b> can only be used at one spot in your code. If you need a variable to keep track of something in just one place, use a local variable. The local variable will only be able to be used inside the “local variable” block and App Inventor won’t let you use it outside of it. Unlike global variables, you can reuse the names of local variables.</p>
+<p>Las <b>variables locales</b> solo pueden ser usadas en una sola parte de tu código. Si solo necesitas una variable para registrar algo en un solo lugar, usa una variable local. La variable local solo podrá ser usada dentro del bloque “local variable” (variable local) y App Inventor no te dejará usarla fuera de este. A diferencia de las variables globales, puedes reutilizar el nombre de las variables locales.</p>
 <p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image34.gif" /></p>
-<p>In the coding challenge, you’ll see examples of when to use global variables and when to use local variables. To learn more about global and local variables visit MIT’s website: <a href="http://appinventor.mit.edu/explore/ai2/support/concepts/variables.html" target="_blank">Global and Local Variables</a>.</p>
-<h3>Lists</h3>
-<p>There’s so much information out there in the world, it can get really confusing! Luckily we have ways of organizing data so that we can easily find it and use it. Can you think of any examples of how you organize information and objects in your life? Here are some examples of things you might do to organize things:</p>
+<p>En el desafío de programación, verás ejemplos de cuándo usar variables globales y locales. Para aprender más acerca de estas variables, visita la página web de MIT: <a href="http://appinventor.mit.edu/explore/ai2/support/concepts/variables.html" target="_blank">Global and Local Variables</a>.</p>
+&nbsp;
+<h3 id="lists">Listas</h3>
+<p>Hay tanta información en el mundo, que puede volverse muy confuso. Por suerte, tenemos maneras de organizar la información para así encontrarla y usarla fácilmente. ¿Puedes pensar en algún ejemplo de cómo tú organizas la información y tus objetos en tu vida? Aquí hay algunos ejemplos de cosas que quizás haces para organizar cosas:
 <ul>
-<li>Put a friend’s phone numbers in a contact list</li>
-<li>Put pencils in a pencil box</li>
-<li>Put clothes in a closet</li>
+<li>Poner el número telefónico de un amigo en una lista de contactos</li>
+<li>Poner lápices en un lapicero</li>
+<li>Poner ropa en un closet</li>
 </ul>
-<p>Programmers uses lists to organize data in their programs.  Lists can hold multiple pieces of data and they’re easy to get data from. You may have made a to-do list or a grocery list before, and lists in programming are very similar. In App Inventor, you can go to blocks and select “lists”. List look like this:</p>
+<p>Los programadores usan listas para organizar la información en sus programas. Las listas pueden albergar múltiples porciones de datos y es muy fácil obtener datos de las mismas. Es muy probable que ya hayas hecho alguna lista antes, como las que uno hace antes de a la verdulería. Las listas en programación son muy similares. En App Inventor, puedes ir a Bloques y seleccionar “listas”. Las listas lucen más o menos así:</p>
+
 <p>	<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/MakeaList.png" alt="makealist" width="160" height="70" /> <br />
 	<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/ItemList.png" alt="itemlist" width="254" height="122" /></p>
 <p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Number-List.png" alt="number-list" width="194" height="119" /></p>
 <h3></h3>
-<p>Lists are really useful for holding a lot of information. Each thing in a list has an <i>index</i>, which is a number that tells you where it is in the list. The first item in a list will have an index of 1, the second item in a list will have an index of 2 and so on. Here's an example:</p>
-<p>				<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image33.png" alt="fruit list" itemprop="image"  /></p>
-<p>Here is how your app sees this information:</p>
-<p><b>List Name: Fruits</b></p>
+<p>Las listas son muy útiles para guardar una gran cantidad de información. Cada elemento de la lista tiene un “index”, que es un número que te dice en qué lugar de la lista se encuentra cada uno. El primer elemento de una lista tendrá un index de 1, el segundo un 2 y así sucesivamente. Aquí hay un ejemplo:</p>
+<p>				<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image33.png" alt="fruit list" itemprop="image" width="60%" /></p>
+<p>Así es como tu aplicación ve esta información:</p>
+<p><b>Nombre de la lista: Fruits</b></p>
 <ul>
-<li>Apples (Index = 1)</li>
+<li>Apples (Manzanas) (Index = 1)</li>
 <li style="font-weight: 400;">Bananas (Index = 2)</li>
-<li style="font-weight: 400;">Oranges (Index = 3)</li>
+<li style="font-weight: 400;">Oranges (Naranjas)(Index = 3)</li>
 </ul>
-<p>You can get one thing from a list instead of using the whole list. If you wanted to just put the string “bananas” into a textbox instead of the entire list, you would need to tell your app to look at index 2 in this list. Here’s how you would put “bananas” into a textbox using App Inventor, from the list shown above:</p>
+<p>Puedes obtener una cosa de una lista en vez de usarla completamente. Si quisieras agregar la cadena “bananas” en un cuadro de texto en vez de toda la lista, deberás decirle a la aplicación que busque el index 2 en tu lista. Así es cómo ubicarías la palabra “bananas” en un cuadro de texto usando App Inventor.</p>
 <p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image25.png" width="516" height="60" /></p>
-<p>You can also add, remove, and replace things in lists. Let’s say you forgot to add “kiwis” and “grapes” to your fruit list. You could add them like this:</p>
-<p>				<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image37.png" alt="add to list" itemprop="image"  /></p>
-<p>Now your app will see your list like this:</p>
+<p>También puedes agregar, remover o reemplazar cosas en una lista. Digamos que olvidaste agregar “kiwis” y “grapes (uvas)” a tu lista de frutas. Podrías agregarlas de esta manera:</p>
+<p>				<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image37.png" alt="add to list" itemprop="image" width="60%"  /></p>
+<p>Ahora tu aplicación verá tu lista de la siguiente manera:</p>
 <p><b>List Name: Fruits</b></p>
 <ul>
-<li style="font-weight: 400;">Apples (Index = 1)</li>
+<li style="font-weight: 400;">Apples (Manzanas)(Index = 1)</li>
 <li style="font-weight: 400;">Bananas (Index = 2)</li>
-<li style="font-weight: 400;">Oranges (Index = 3)</li>
+<li style="font-weight: 400;">Oranges (Naranjas)(Index = 3)</li>
 <li style="font-weight: 400;">Kiwis (Index = 4)</li>
-<li style="font-weight: 400;">Grapes (Index = 5)</li>
+<li style="font-weight: 400;">Grapes (Uvas)(Index = 5)</li>
 </ul>
-<p>You should use lists anytime you have multiple pieces of information that you want to include under the same variable name. For example, if you wanted to display the top ten high scores for a game, you could make ten variables with names like HighScore1, HighScore2, HighScore3 and so on until you get to HighScore10.</p>
-<p>The easier way to do this would be to make a list called HighScores that contains the ten high scores and then display them by using their indexes. Using a list would also allow you to replace and add more high scores more easily and would save you a lot of time!</p>
-<p>				<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image05.png" alt="highscore1" itemprop="image"  /><br />
-				<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Arrow.png" alt="arrow" itemprop="image"  /><br />
-				<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image31.png" alt="highscore2" itemprop="image"  /></p>
-<p>Check out MIT’s website for more information on <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/lists.html#string" target="_blank">lists</a>.</p>
-<p><em>Note: In many programming languages, lists are called arrays. and indexes start at 0, not at 1. Make sure to check the rules when learning a new programming language!</em></p>
-<h3>Databases</h3>
-<p>Variables are great for storing information while your user is using your app, but what if you wanted to store information between the times when your user opens and closes her app? You can do this with a <b>database. </b>Databases can store information for later use, even when the app is closed! You can think of databases as a place to store information you can recall later. Here are some examples of databases you may use every day:</p>
+<p>Deberías usar las listas siempre que tengas múltiples porciones de información que deseas incluir bajo una variable con el mismo nombre. Por ejemplo, si quieres mostrar los 10 puntajes más altos para un juego, puedes hacer 10 variables con nombres como PuntajeAlto1, PuntajeAlto2, PuntajeAlto3, hasta que llegues al PuntajeAlto10. La manera más fácil de hacer esto sería hacer una lista llamada PuntajesAltos que contenga los 10 puntajes más altos y luego desplegarlos usando sus index. Usar una lista te permitiría también reemplazar y agregar más puntajes de manera más fácil, gastando menos de tu tiempo.</p>
+<p>				<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image05.png" alt="highscore1" itemprop="image" width="60%" /><br />
+	<p>Se convierte en:</p>
+				<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image31.png" alt="highscore2" width="60%" itemprop="image"  /></p>
+<p>Revisa la página web de MIT para más información sobre <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/lists.html#string" target="_blank">las listas</a>.</p>
+
+<h3 id="databases">Bases de datos</h3>
+<p>Las variables son geniales para guardar información mientras que tu usuario usa tu aplicación, ¿pero si quisieras guardar información entre las veces que tu usuario cierra y abre su aplicación? Puedes hacer esto con una base de datos. Las bases de datos pueden guardar información para ser usada más adelante, incluso cuando la aplicación no se encuentra en uso. Aquí hay algunos ejemplos de bases de datos que quizás usas diariamente:</p>
 <ul>
-<li>Contact list - you store your friend’s phone numbers so you can use them later</li>
-<li>Messaging app - most messaging apps automatically store old messages so you can reread them later</li>
-<li>Notebook - you write things down and read them later</li>
+<li>Lista de contactos - guardas los números de tus amigos para que puedas llamarlos más adelante</li>
+<li>Aplicación de mensaje - guarda el historial de tus mensajes</li>
+<li>Notebook - escribes cosas y las lees después</li>
 </ul>
-<p>In App Inventor, the component <strong>TinyDB</strong> allows you to save data on your user’s phone that will be there each time she logs into your app. It is important to know that TinyDB only allows you to store data <i>locally</i>. This means that two users cannot share data with the same TinyDB. When a user stores data into TinyDB, it will only be available on her phone, and no one else's. You will learn how to share information between phones in <a href="/?p=17673" target="_blank">Code 4: Using Mobile Features &amp; Connecting to the Web</a>.</p>
-<p>To use TinyDB, drag it onto your screen in the <i>designer</i> side of App Inventor. You can find it under the storage menu. It will appear as a non visible component and will look like this:</p>
-<p>				<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image36.png" alt="TinyDB" itemprop="image"  /></p>
-<p>You can talk to your TinyDB by making <i>calls</i> to it. When you make a call, you can <i>store </i>things and <i>get </i>things from it. The way you store data in TinyDB is by giving it a tag. The tag is a name that you will use to retrieve the data. It is a lot like a variable name. If you use the same tag name to store data twice, the database will overwrite, or erase, the old data with the new data. This can be useful if you need to update what’s in your database but you should be careful never to repeat tag names otherwise! Here’s a few examples of how to make calls to TinyDB:</p>
-<p>				<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image04.png" alt="TinyDB store global fruits" itemprop="image"  /><br />
+<p>El componente TinyDB te permite guardar información en el teléfono de tu usuario la que estará ahí cada vez que ella ingresa a tu aplicación. Es importante saber que TinyDB solo te permite guardar información de manera local. Esto significa que dos usuarios no pueden compartir a través de TinyDB. Cuando un usuario guarda información en TinyDB, solo estará disponible en su teléfono, y no en otros. Aprenderás a compartir información entre teléfonos en la Unidad de programación 4.</p>
+<p>Para usar TinyDB, arrástralo a tu ventana en la sección Diseñador en App Inventor. Aparecerá como un componente invisible y lucirá así:</p>
+<p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image36.png" alt="TinyDB" itemprop="image" width="25%"  /></p>
+<p>Puedes hablar con tu TinyDB haciéndole llamadas. Cuando haces una llamada, puedes guardar cosas y obtener cosas de él. La manera en que guardas información en TinyDB es poniéndole una etiqueta. Una etiqueta es un nombre que usarás para obtener la información. Es como el nombre de una variable. Si usas la misma etiqueta para guardar otra información, la base de datos reescribirá o borrará la información anterior. Esto puede ser útil si necesitas actualizar lo que está en tu base de datos, pero deberías tener cuidado de nunca repetir una etiqueta. Así es como realizas llamadas a TinyDB:</p>
+<p>				<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image04.png" alt="TinyDB store global fruits" width="60%" itemprop="image"  /><br />
 				<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Screen-Shot-2016-09-23-at-3.24.29-PM.png" alt="screen-shot-2016-09-23-at-3-24-29-pm" itemprop="image"  /></p>
-<p>The first block shows how to store values in TinyDB. In this case we stored our <i>fruits</i> list from earlier with the tag “Food”. The second block shows how to retrieve the <i>fruits</i> list from the database.  The tag needs to be typed exactly as it was when the data was stored, including all capital letters. </p>
-<p>To better understand this, let’s walk through an example. Let’s say you needed to store three things in a database for later use. One is our <i>Fruits</i> lists from the last section, one of them is your age, and the other is a list of your favorite things to do. You make three to calls to the database like this:</p>
-<p>				<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image04.png" alt="TinyDB store global fruits" itemprop="image"  /><br />
-				<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image00-1.png" alt="Tiny DB my age" itemprop="image"  /><br />
-				<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image24.png" alt="TinyDB store favorites list" itemprop="image"  /></p>
-<p>You now have three entries in you database, and this what they look like:</p>
-<p>Tag Name: “Food”</p>
-<p>Data:</p>
+<p>El primer bloque muestra cómo guardar valores en TinyDB. En este caso guardamos nuestra lista de "fruits" (frutas) con la etiqueta “food” (comida). El segundo bloque muestra como obtener la lista de frutas desde la base de datos. La etiqueta necesita ser escrita de la misma manera que fue ingresada cuando fue guardada, incluyendo todas las letras en mayúscula.  </p>
+<p>Para entender esto de mejor manera, revisemos un ejemplo. Digamos que necesitas guardar tres cosas en una base de datos para usarlas después. Una es nuestra lista de frutas de la sección anterior, otra es tu edad y la última una lista de las cosas que más te gusta hacer. Hiciste tres llamadas a la base de datos de esta manera:   </p>
+<p>				<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image04.png" alt="TinyDB store global fruits" width="60%" itemprop="image"  /><br />
+				<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image00-1.png" alt="Tiny DB my age" itemprop="image" width="60%" /><br />
+				<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image24.png" alt="TinyDB store favorites list" itemprop="image" width="80%"/></p>
+<p>Ahora tienes tres entradas en tu base de datos, y así es como se ven:</p>
+<p>Tag Name (Etiqueta): “Food”</p>
+<p>Data (Información):</p>
 <ul>
 <li>“Apples” (index = 1)</li>
 <li>“Bananas” (index =2)</li>
 <li>“Oranges” (index = 3)</li>
 </ul>
-<p>Tag Name: “My Age”</p>
-<p>Data:</p>
+<p>Tag Name (Etiqueta): “My Age”</p>
+<p>Data (Información):</p>
 <ul>
 <li>16</li>
 </ul>
-<p>Tag Name: “Favorite”</p>
-<p>Data:</p>
+<p>Tag Name (Etiqueta): “Favorite”</p>
+<p>Data (Información):</p>
 <ul>
 <li>“Learn how to Code” (index = 1)</li>
 <li>“Visit Family” (index = 2)</li>
 <li>“Listen to Music” (index =3)</li>
 </ul>
-<p>Now, when you want to retrieve your favorite things to do, so you make a call like this:</p>
+<p>Ahora quieres obtener las cosas que más te gusta hacer (favorito), así que podrías hacer una llamada de esta manera:</p>
 <p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image26.png" alt="TinyDB favorites value not tagged" width="371" height="98" /></p>
-<p>When you use this block you will get “Learn how to Code Visit Family Listen to Music”. Now let's say you want to retrieve your age, so you make a call like this:</p>
+<p>Cuando usas este bloque obtendrás “Aprende como Programar, visitar familia escuchar música”. Ahora quieres obtener tu edad, así que haces una llamada así:</p>
 <p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image12.png" alt="TinyDB my age value tag if not there" width="351" height="96" /></p>
-<p>When you use this block you just get a blank string: “ ”. This is because the tag “myage” does not exist in your database! However, the tag “MyAge” does exists. Since your database did not recognize the tag, it defaulted to show you the block next to "valueIfTagNotThere", which is a blank string. You can make this string say anything you want. You can even make it be an error message to your user.</p>
-<p>If you create an app with multiple screens (like your slideshow app), components and variables will not be able to talk to each other between each screen. You will need to use a TinyDB in order to transfer information from one screen of your app to another. Visit this page for more information: <a href="http://appinventor.mit.edu/explore/ai2/concepts.html#Screens" target="_blank">MIT Screens</a>.</p>
-<p>Congratulations on completing all of the content in this unit! It was a lot of information, so it’s okay if you don’t understand everything right now. You can always refer back to this unit when you are building your app. The Code Challenge is meant to incorporate everything you’ve learned so far, so give it a try!</p>
-<h2>
-		Code 2 Challenge: Make a To-Do List<br />
-	</h2>
-<p>Description: Make a to-do list that allows users to enter in and remove items. Your app should remember the items each time your user opens the app. You may want to learn how to use a <a href="http://ai2.appinventor.mit.edu/reference/components/userinterface.html#ListView" target="_blank">ListView</a> before trying the challenge!</p>
-<p>Try your hardest to do this challenge on your own before you read the instructions. Remember, these instructions are just one way the challenge can be solved! You can also download our example app in the Google Play Store. Happy coding!</p>
-<p>	<a href="/?p=16947" target="_blank" role="button"><br />
-					See the instructions<br />
+<p>Cuando usas este bloque obtienes una cadena en blanco: “ ”. ¡Esto es porque la etiqueta “mi edad” no existe en tu base de datos! Sin embargo, la etiqueta “Mi edad” sí existe. Dado que tu base de datos no reconoció la etiqueta, mostró por defecto el bloque contiguo a “valueIfTagNotThere”, que es una cadena en blanco. Puedes hacer que esta cadena diga lo que quieras. Puedes hacer que aparezca como mensaje de error para tu usuario..</p>
+<p>Si creas una aplicación con múltiples ventanas, los componentes, la información y las variables no podrán comunicarse entre cada ventana. Tendrás que usar TinyDB para transferir información de una ventana a otra. Visita esta página para más información: <a href="http://appinventor.mit.edu/explore/ai2/concepts.html#Screens" target="_blank">MIT Screens (Ventanas)</a>.</p>
+<p>Felicitaciones por haber completado todo el contenido de esta Unidad. Fue mucha información, ¡así que está bien si no entiendes todo! Siempre podrás volver a esta unidad cuando estés creando tu aplicación. El desafío de programación está hecho para incorporar todo lo que has aprendido hasta ahora, ¡así que inténtalo! </p>
+
+	<h2 id="challenge">Desafío de programación #2: Diseña una aplicación gestora de tareas</h2>
+<p>Descripción: Crea una aplicación gestora de tareas que le permita al usuario ingresar o eliminar ítems. Tu aplicación debería recordar los items cada vez que tu usuario abre la aplicación. ¡Deberías a aprender a usar  <a href="http://ai2.appinventor.mit.edu/reference/components/userinterface.html#ListView" target="_blank">ListView</a> (VisorDeLista) antes de continuar con el desafío!</p>
+<center>
+<h3>	<a href="/?p=16947" target="_blank" role="button"><br />
+					Revisa nuestro ejemplo<br />
 			</a><br />
 	<a href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.ToDoList&hl=en" target="_blank" role="button"><br />
-					Download the example app<br />
-			</a></p>
-<h3>
-		Reflect<br />
-	</h3>
-<p>In this lesson, we covered a lot! You learned about all different data types and different ways to store and organize them. Here are some reflection questions for you to discuss with your mentor:</p>
-<p><strong>Q1:</strong> How does the information you learned in this lesson change the way you see apps you use every day?</p>
-<p><strong>Q2:</strong> What are some things from this lesson that you think will be useful in creating your app? </p>
-<p>In this section you learned the following keywords:</p>
+					Descarga el ejemplo<br />
+			</a></h3>
+	</center>
+			
+<div style="background-color:#006667; color:white; padding:25px; margin-top:25px; margin-bottom:25px"
+	 <h3><h3 style="color:white" id="reflect">Reflexión</h3></h3>
+<p>¡En esta lección cubrimos mucho! Aprendiste sobre todos los tipos de información y las distintas maneras de alojar y organizarlas. Aquí hay algunas pregunta sobre las cuales reflexionar junto con tu mentor:</p>
+<p><strong>Q1:</strong> ¿Cómo cambia tu manera de ver las aplicaciones que usas a diario la información que aprendiste en esta lección?</p>
+<p><strong>Q2:</strong> ¿Cuáles son las cosas revisadas en esta lección que crees te serán útiles al momento de crear tu aplicación?  </p>
+<p>En esta sección aprendiste las siguiente palabras clave:</p>
 <ul>
-<li style="font-weight: 400;">Data - Information that your app uses</li>
-<li style="font-weight: 400;">Data Type - The way data is categorized</li>
-<li style="font-weight: 400;">Number - A data type that is a number</li>
-<li style="font-weight: 400;">String - A data type that is text</li>
-<li style="font-weight: 400;">Boolean - A data type that is true or false</li>
-<li style="font-weight: 400;">Variable -  A name for a piece of data that can change</li>
-<li style="font-weight: 400;">Global Variable - A variable that can be used at any point in your code</li>
-<li style="font-weight: 400;">Local Variable - A variable that is only used in a certain section of code</li>
-<li style="font-weight: 400;">List - A way of organizing multiple pieces of data</li>
-<li style="font-weight: 400;">List Index - A number that represents where data is in a list</li>
-<li style="font-weight: 400;">Database - A place to store and organize information</li>
+<li style="font-weight: 400;">Data - Información que tu aplicación usa</li>
+<li style="font-weight: 400;">Tipos de datos - La manera en que los datos o información son categorizados</li>
+<li style="font-weight: 400;">Number (Número) - Un tipo de información en formato dígito</li>
+<li style="font-weight: 400;">String (Cadena)- Un tipo de información basada en texto </li>
+<li style="font-weight: 400;">Boolean (Booleana) - Un tipo de información que es verdadera o falsa</li>
+<li style="font-weight: 400;">Variable -  El nombre de una porción de la información que puede cambiar (variar)</li>
+<li style="font-weight: 400;">Global Variable - Una variable que puede ser usada en cualquier lugar del código</li>
+<li style="font-weight: 400;">Local Variable - Una variable que solo es utilizada en una determinada sección del código</li>
+<li style="font-weight: 400;">List (Lista) - Una manera de organizar múltiples piezas de información</li>
+<li style="font-weight: 400;">List Index (Índice de lista ) - Un número que representa donde se encuentra cierta información en una lista</li>
+<li style="font-weight: 400;">Database (Base de Datos)- Un lugar para guardar y organizar información</li>
 </ul>
-<h3>Additional Resources</h3>
-<p>Here are some additional resources on databases. You can use these now or if you need help when building your app!</p>
+<h3 style="color:white">Recursos adicionales</h3>
+<p>Aquí hay recursos adicionales sobre bases de datos. ¡Puedes usarlas ahora o si necesitas ayuda mientras creas tu aplicación!Here are some additional resources on databases. </p>
 <ul>
-<li style="font-weight: 400;"><a href="https://drive.google.com/a/iridescentlearning.org/file/d/0B3rEYL3DkWfAd003UmM2cl9ITDg/view" target="_blank">TinyDB101</a></li>
-<li style="font-weight: 400;"><a href="https://drive.google.com/a/iridescentlearning.org/file/d/0B3rEYL3DkWfAZUVQVGxPZzdXTXc/view" target="_blank">TinyDB102</a></li>
+<li style="font-weight: 400;"><a href="https://drive.google.com/a/iridescentlearning.org/file/d/0B3rEYL3DkWfAd003UmM2cl9ITDg/view" target="_blank" style="color:#eae46f">TinyDB101</a></li>
+<li style="font-weight: 400;"><a href="https://drive.google.com/a/iridescentlearning.org/file/d/0B3rEYL3DkWfAZUVQVGxPZzdXTXc/view" target="_blank" style="color:#eae46f">TinyDB102</a></li>
 </ul>
+</div
