@@ -1,4 +1,3 @@
-<h1>अपनी टीम बनाएं</h1>
 <ul>
  	<li><a href="#getstarted">शुरुवात करें</a></li>
  	<li><a href="#recruit">टीम का गठन करें</a></li>
@@ -6,56 +5,63 @@
  	<li><a href="#createteam">टीम बनाएं</a></li>
  	<li><a href="#jointeam">टीम से जुडें</a></li>
 </ul>
-<h2> सीखने के मकसद</h2>
+<h2><strong>सीखने के मकसद</strong></h2>
 इस मोड्यूल में, आप सीखेंगे कि कैसे…
 <ul>
- 	<li style="font-weight: 400">टेक्नोवेशन टीम का गठन</li>
- 	<li style="font-weight: 400">टीम यहाँ बनाएं <a href="https://my.technovationchallenge.org/" target="_blank">my.technovationchallenge.org</a></li>
- 	<li style="font-weight: 400">अथवा टीम से यहाँ जुडें <a href="https://my.technovationchallenge.org/" target="_blank">my.technovationchallenge.org</a></li>
+ 	<li style="font-weight: 400;">टेक्नोवेशन टीम का गठन</li>
+ 	<li style="font-weight: 400;">टीम यहाँ बनाएं <a href="https://my.technovationchallenge.org/" target="_blank">my.technovationchallenge.org</a></li>
+ 	<li style="font-weight: 400;">अथवा टीम से यहाँ जुडें <a href="https://my.technovationchallenge.org/" target="_blank">my.technovationchallenge.org</a></li>
 </ul>
-<h3>शुरुवात करें</h3>
+<h3 id="getstarted"><strong>शुरुवात करें</strong></h3>
 <b>आपने टेक्नोवेशन में सैन उप कर लिया है| अब क्या?</b>
 टेक्नोवेशन का हिस्सा बनकर, आप :
 <ul>
- 	<li style="font-weight: 400">पहचानेंगे अपने समुदाए कि उस समस्या को जिसका समाधान करना चाहतें हैं |</li>
- 	<li style="font-weight: 400">मोबाइल एप्लिकाशन का विकास करेंगे जो उस समस्या का हल बताए |</li>
- 	<li style="font-weight: 400">अपने व्यवसाए के निर्माण कि शुरुवात करेंगे |</li>
- 	<li style="font-weight: 400">और अंत में, एक पिच बनाकर दूसरों के साथ अपने व्यवसाए को शेयर करेंगे |</li>
+ 	<li style="font-weight: 400;">पहचानेंगे अपने समुदाए कि उस समस्या को जिसका समाधान करना चाहतें हैं |</li>
+ 	<li style="font-weight: 400;">मोबाइल एप्लिकाशन का विकास करेंगे जो उस समस्या का हल बताए |</li>
+ 	<li style="font-weight: 400;">अपने व्यवसाए के निर्माण कि शुरुवात करेंगे |</li>
+ 	<li style="font-weight: 400;">और अंत में, एक पिच बनाकर दूसरों के साथ अपने व्यवसाए को शेयर करेंगे |</li>
 </ul>
-हमने ये खोज निकला है कि टेक्नोवेशन में जुड़ने का सबसे बेहतरीन तरीका है कि एक टीम के साथ शुरुवात करें|एक टीम में अधिकतम 5 लड़कियां, उम्र 10 to 18, और  1 या 2 गुरु , जो माता पिता, अध्यापक, स्कूल के बाद जुड़ने वाले समन्वयक, या  टेक्नोलॉजी /व्यवसाए के पेशेवर हों |
-अगर आपकी टीम है, बहुत बढ़िया! आप सीधा इस पूर्व इकाई के <a href="#createteam">टीम बनाएं</a> सेक्शन में जा सकते हैं| 
+हमने ये खोज निकला है कि टेक्नोवेशन में जुड़ने का सबसे बेहतरीन तरीका है कि एक टीम के साथ शुरुवात करें|एक टीम में अधिकतम 5 लड़कियां, उम्र 10 to 18, और 1 या 2 गुरु , जो माता पिता, अध्यापक, स्कूल के बाद जुड़ने वाले समन्वयक, या टेक्नोलॉजी /व्यवसाए के पेशेवर हों |
+अगर आपकी टीम है, बहुत बढ़िया! आप सीधा इस पूर्व इकाई के <a href="#createteam">टीम बनाएं</a> सेक्शन में जा सकते हैं|
 
 अगर आपकी कोई टीम नहीं है, चिंता न करें! हम आपको यहाँ अपने क्षेत्र में एक टीम की भर्ती, या एक टीम को सेट अप करने के लिए प्रत्येक चरण की शिक्षा देंगे <a href="https://my.technovationchallenge.org/" target="_blank">my.technovationchallenge.org.</a>
-<blockquote><em>“ अगर मन में ठान लिया तो आधी जीत हो गई.”</em></blockquote>
-— थियोडोर रूजवेल्ट, संयुक्त राज्य अमेरिका के 26 वें राष्ट्रपति
-<h3> टीम का गठन करें </h3>
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<blockquote>
+<p style="text-align: center;"><em>“</em><strong><em> अगर मन में ठान लिया तो आधी जीत हो गई</em></strong><em>.”</em></p>
+</blockquote>
+<p style="text-align: right;">— थियोडोर रूजवेल्ट, संयुक्त राज्य अमेरिका के 26 वें राष्ट्रपति</p>
+
+</div>
+<h3 id="recruit"><strong>टीम का गठन करें</strong></h3>
 <b>चलिए शुरुवात वहां से करें, जितना हमें पता है:</b>
 <ul>
- 	<li style="font-weight: 400">आप टेक्नोवेशन में भाग लेने में रुचि रखते हैं|</li>
- 	<li style="font-weight: 400">आपकी टेक्नोवेशन के अलावा भी रुचि है|</li>
- 	<li style="font-weight: 400"> टेक्नोवेशन टेक्नोलॉजी, कोडिंग, और एक व्यावसायिक इमारत के माध्यम से आपकी इन हितों को एक साथ ला सकता है।.</li>
- 	<li style="font-weight: 400">टीम के गठन के लिए, ऐसे साथियों कि खोज करना फायदेमंद है  जो विभिन्न प्रकार के विचारों और कौशल के साथ परियोजना के लिए अधिक दृष्टिकोण लाने में मददगार हों|</li>
+ 	<li style="font-weight: 400;">आप टेक्नोवेशन में भाग लेने में रुचि रखते हैं|</li>
+ 	<li style="font-weight: 400;">आपकी टेक्नोवेशन के अलावा भी रुचि है|</li>
+ 	<li style="font-weight: 400;">टेक्नोवेशन टेक्नोलॉजी, कोडिंग, और एक व्यावसायिक इमारत के माध्यम से आपकी इन हितों को एक साथ ला सकता है।.</li>
+ 	<li style="font-weight: 400;">टीम के गठन के लिए, ऐसे साथियों कि खोज करना फायदेमंद है जो विभिन्न प्रकार के विचारों और कौशल के साथ परियोजना के लिए अधिक दृष्टिकोण लाने में मददगार हों|</li>
 </ul>
 आओ कुछ ऐसी बालिकाओं को ढूंढें जो मिलकर कुछ बड़ा काम करने के लिए दिलचस्पी दिखाएँगी !
-<h3>विचार प्रक्रिया</h3>
-<a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/TeamMemberBrainstorm-1.pdf" target="_blank">इस कार्यपत्रिका को पूरा करें</a> ताकि आप अपने समुदाए में ऐसे लोगों और संगठनों को पहचाने जो आपके साथ मिलकर टीम बना सकते हैं | आप कईं लोगों और समूहों कि एक बढ़िया सूची बना लेंगे जो आपकी टीम बनाने में आपकी मदद कर सकते हैं |
-<a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/TeamMemberBrainstorm-1.pdf" target="_blank">
-कार्यपत्रिका को डाउनलोड करें 
-</a>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3><strong>विचार प्रक्रिया</strong></h3>
+<p style="text-align: left;"><span style="color: #eae46f;"><a style="color: #eae46f;" href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/TeamMemberBrainstorm-1.pdf" target="_blank">इस कार्यपत्रिका को पूरा करें</a></span> ताकि आप अपने समुदाए में ऐसे लोगों और संगठनों को पहचाने जो आपके साथ मिलकर टीम बना सकते हैं | आप कईं लोगों और समूहों कि एक बढ़िया सूची बना लेंगे जो आपकी टीम बनाने में आपकी मदद कर सकते हैं |</p>
+<p style="text-align: center;">
+<a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/TeamMemberBrainstorm-1.pdf" target="_blank"><span style="color: #eae46f;">कार्यपत्रिका को डाउनलोड करें</span>
+</a></p>
 
+</div>
 <b>भर्ती करना शुरू करें</b>
-अपनी टीम बनाने के लिए इन संसाधनों को साझा करें 
+अपनी टीम बनाने के लिए इन संसाधनों को साझा करें
 <ul>
- 	<li style="font-weight: 400"><a href="https://www.youtube.com/watch?v=YDrqtNE1ARI" target="_blank">प्रेरणा विडियो</a><em> पूरी कोड गर्ल दस्तावेज़ी नेटफ्लिक्स पर उपलब्ध है</em></li>
- 	<li style="font-weight: 400">भर्ती सूचना: <a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Flyer-Student-MWC.pdf" target="_blank">अंग्रेज़ी</a> or <a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Flyer-Student-editable.pdf" target="_blank">editable</a> <em>(संपादित करें मुफ्त में  <a href="https://get.adobe.com/reader/" target="_blank">एडोबी रीडर</a>)</em></li>
- 	<li style="font-weight: 400"><a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Tech-MarketingBooklet.pdf" target="_blank">टेक्नोवेशन सूचना पुस्तिका </a></li>
- 	<li style="font-weight: 400">एक निजी कहानी कि आपने क्यों टेक्नोवेशन में शामिल होना चाहा | अपनी प्रेरणा साझा करें !</li>
+ 	<li style="font-weight: 400;"><a href="https://www.youtube.com/watch?v=YDrqtNE1ARI" target="_blank">प्रेरणा विडियो</a><em> पूरी कोड गर्ल दस्तावेज़ी नेटफ्लिक्स पर उपलब्ध है</em></li>
+ 	<li style="font-weight: 400;">भर्ती सूचना: <a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Flyer-Student-MWC.pdf" target="_blank">अंग्रेज़ी</a> or <a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Flyer-Student-editable.pdf" target="_blank">editable</a> <em>(संपादित करें मुफ्त में <a href="https://get.adobe.com/reader/" target="_blank">एडोबी रीडर</a>)</em></li>
+ 	<li style="font-weight: 400;"><a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Tech-MarketingBooklet.pdf" target="_blank">टेक्नोवेशन सूचना पुस्तिका </a></li>
+ 	<li style="font-weight: 400;">एक निजी कहानी कि आपने क्यों टेक्नोवेशन में शामिल होना चाहा | अपनी प्रेरणा साझा करें !</li>
 </ul>
 याद रहे:
 <ul>
- 	<li style="font-weight: 400">ज़ोर दें कि बालिकाओं को भाग लेने के लिए तकनीकी अनुभव कि ज़रुरत नहीं है |</li>
- 	<li style="font-weight: 400">सुनिश्चित करें कि आप संपर्क जानकारी ( नाम और ईमेल ) एकत्र कर लें ताकि आप अधिक जानकारी और रजिस्टर करने के लिए लिंक का अनुसरण कर सकें: <a href="https://my.technovationchallenge.org/" target="_blank">my.technovationchallenge.org</a></li>
- 	<li style="font-weight: 400">अपनी उत्तेजना दिखाएँ!</li>
+ 	<li style="font-weight: 400;">ज़ोर दें कि बालिकाओं को भाग लेने के लिए तकनीकी अनुभव कि ज़रुरत नहीं है |</li>
+ 	<li style="font-weight: 400;">सुनिश्चित करें कि आप संपर्क जानकारी ( नाम और ईमेल ) एकत्र कर लें ताकि आप अधिक जानकारी और रजिस्टर करने के लिए लिंक का अनुसरण कर सकें: <a href="https://my.technovationchallenge.org/" target="_blank">my.technovationchallenge.org</a></li>
+ 	<li style="font-weight: 400;">अपनी उत्तेजना दिखाएँ!</li>
 </ul>
 आप भी :
 <table>
@@ -63,90 +69,103 @@
 <tr>
 <td width="50%">
 <ul>
- 	<li style="font-weight: 400">अपने स्कूल के छात्रों के साथ टेक्नोवेशन के बारे में जानकारी साझा करने के लिए दोपहर के भोजन पर एक मेज सेट करें |</li>
- 	<li style="font-weight: 400">किसी अध्यापक को कहें कि वह अपनी कक्षा में टेक्नोवेशन के बारे में 5-10 मिनट छात्रों को बताएं (एक विज्ञान, गणित, प्रौद्योगिकी, रोबोटिक्स या कोडिंग शिक्षक विशेष रूप से सहायक हो सकते हैं!)</li>
- 	<li style="font-weight: 400"> दिलचस्पी वाले छात्रों के लिए स्कूल के बाद जानकारी सत्र का आयोजन करें |</li>
- 	<li style="font-weight: 400">एक संरक्षक करियर पैनल बनाएं| सलाहकार एक "करियर पैनल" के लिए स्कूल साइट पर जा सकते हैं और दिलचस्पी वाले छात्रों के साथ अपने करियर की कहानियों को साझा कर सकते हैं। सलाहकार  तकनीक / व्यवसाय के क्षेत्र में प्रवेश करने के अपने रास्ते पर चर्चा कर सकते हैं और छात्रों को टेक्नोवेशन में शामिल होने के लिए प्रोत्साहित कर सकते हैं ताकि वे स्टेम में काम करने और नए उत्पादों का निर्माण करने के लिए उत्साहित हो सकें।</li>
+ 	<li style="font-weight: 400;">अपने स्कूल के छात्रों के साथ टेक्नोवेशन के बारे में जानकारी साझा करने के लिए दोपहर के भोजन पर एक मेज सेट करें |</li>
+ 	<li style="font-weight: 400;">किसी अध्यापक को कहें कि वह अपनी कक्षा में टेक्नोवेशन के बारे में 5-10 मिनट छात्रों को बताएं (एक विज्ञान, गणित, प्रौद्योगिकी, रोबोटिक्स या कोडिंग शिक्षक विशेष रूप से सहायक हो सकते हैं!)</li>
+ 	<li style="font-weight: 400;">दिलचस्पी वाले छात्रों के लिए स्कूल के बाद जानकारी सत्र का आयोजन करें |</li>
+ 	<li style="font-weight: 400;">एक संरक्षक करियर पैनल बनाएं| सलाहकार एक "करियर पैनल" के लिए स्कूल साइट पर जा सकते हैं और दिलचस्पी वाले छात्रों के साथ अपने करियर की कहानियों को साझा कर सकते हैं। सलाहकार तकनीक / व्यवसाय के क्षेत्र में प्रवेश करने के अपने रास्ते पर चर्चा कर सकते हैं और छात्रों को टेक्नोवेशन में शामिल होने के लिए प्रोत्साहित कर सकते हैं ताकि वे स्टेम में काम करने और नए उत्पादों का निर्माण करने के लिए उत्साहित हो सकें।</li>
 </ul>
 </td>
 <td>
 <ul>
- 	<li style="font-weight: 400">अध्यापक गण से पूछें कि वह टेक्नोवेशन में शामिल बालिकाओं को अतिरिक्त क्रेडिट कि पेशकश कर सकते हैं |</li>
- 	<li style="font-weight: 400">अभिभाषकों से खुदसे मिलें , अथवा पैरेंट टीचर असोसिअशन के द्वारा या फिर विद्यालय के न्यूज़लेटर के माध्यम से अपनी बेटियों को भाग लेने के लिए प्रेरित करें |</li>
- 	<li style="font-weight: 400">इस प्रोग्राम के बारे में छात्र समूह जैसे कि छात्र परिषद या विद्यालय के क्लब जो कि रोबोटिक्स, प्रौद्योगिकी, गणित और कला / डिजाइन कि तरफ ध्यान केन्द्रित करें, उन को बताएं |</li>
- 	<li style="font-weight: 400"> अपने स्कूल के प्रशासक से पूछिए (प्रिंसिपल या हेडमास्टर) अगर आप स्कूल असेंबली या फैकल्टी मीटिंग में टेक्नोवेशन को पेश कर सकते हैं.</li>
+ 	<li style="font-weight: 400;">अध्यापक गण से पूछें कि वह टेक्नोवेशन में शामिल बालिकाओं को अतिरिक्त क्रेडिट कि पेशकश कर सकते हैं |</li>
+ 	<li style="font-weight: 400;">अभिभाषकों से खुदसे मिलें , अथवा पैरेंट टीचर असोसिअशन के द्वारा या फिर विद्यालय के न्यूज़लेटर के माध्यम से अपनी बेटियों को भाग लेने के लिए प्रेरित करें |</li>
+ 	<li style="font-weight: 400;">इस प्रोग्राम के बारे में छात्र समूह जैसे कि छात्र परिषद या विद्यालय के क्लब जो कि रोबोटिक्स, प्रौद्योगिकी, गणित और कला / डिजाइन कि तरफ ध्यान केन्द्रित करें, उन को बताएं |</li>
+ 	<li style="font-weight: 400;">अपने स्कूल के प्रशासक से पूछिए (प्रिंसिपल या हेडमास्टर) अगर आप स्कूल असेंबली या फैकल्टी मीटिंग में टेक्नोवेशन को पेश कर सकते हैं.</li>
 </ul>
 </td>
 </tr>
 </tbody>
 </table>
 अपनी टीम में भर्ती करने के बाद, उन्हें इस लिंक का अनुसरण करने को कहें <a href="https://my.technovationchallenge.org/" target="_blank">my.technovationchallenge.org</a> ताकि वह अपनी रजिस्ट्रेशन पूरी कर पाएं और अभिभावक सहमती फॉर्म साइन करवा लें | सबके रजिस्टर करने के बाद आप टीम बना सकते हैं ! अगर आप आपने एरिया में ऊपर दिए गए सुझावों के बाद भी टीम नहीं बना पाएं हैं, तो घबराइए नहीं ! इस पर क्लिक करें <a href="#jointeam">और मौजूदा टीम में शामिल हों |</a>.
-<h3>सहमती लें</h3>
-यदि आपके अभिभावक के माता-पिता द्वारा पहले ही आपकी अनुमति फॉर्म हस्ताक्षरित है, तो आप इस कदम को छोड़ सकते हैं।<ol>
- 	<li style="font-weight: 400">प्रवेश करें <a href="https://my.technovationchallenge.org/signin" target="_blank">my.technovationchallenge.org/signin</a>. यह कुछ ऐसा दिखेगा:
-<img style="margin: 10px;padding: 1px;border: 1px solid #cccccc" src="http://www.technovationchallenge.org/wp-content/uploads/2016/10/Slide1.jpg" alt="complete your profile page" width="650" /></li>
- 	<li style="font-weight: 400"> सुनिश्चित करें कि आपके पास अपने माता-पिता / संरक्षक की अनुमति है |<ol type="i">
- 	<li style="font-weight: 400">आप अपने डैशबोर्ड से अपने माता-पिता या संरक्षक को ईमेल कर सकते हैं।</li>
- 	<li style="font-weight: 400"> कृपया उन्हें ईमेल पर हस्ताक्षर करने के लिए पूछें, ताकि आपके पास प्लेटफ़ॉर्म तक पहुंचने कि अनुमति हो |</li>
- 	<li style="font-weight: 400"> यदि आपने अपने अभिभावक के ईमेल को गलत तरीके से दर्ज किया है, तो आप निम्न कर सकते हैं: <ol type="a">
- 	<li style="font-weight: 400">अपने डैशबोर्ड पर दर्ज ईमेल को दोबारा जांच लें</li>
- 	<li style="font-weight: 400"> या आप इसे पृष्ठ के शीर्ष पर "मेरा खाता" टैब पर अपडेट कर सकते हैं.</li>
- 	<li style="font-weight: 400"> ईमेल अपडेट होने के बाद, यह स्वचालित रूप से फ़ॉर्म को नए ईमेल पते पर भेज देगा।</li>
+<h3 id="consent"><strong>सहमती लें</strong></h3>
+यदि आपके अभिभावक के माता-पिता द्वारा पहले ही आपकी अनुमति फॉर्म हस्ताक्षरित है, तो आप इस कदम को छोड़ सकते हैं।
+<ol>
+ 	<li style="font-weight: 400;">प्रवेश करें <a href="https://my.technovationchallenge.org/signin" target="_blank">my.technovationchallenge.org/signin</a>. यह कुछ ऐसा दिखेगा:
+<img style="margin: 10px; padding: 1px; border: 1px solid #cccccc;" src="http://www.technovationchallenge.org/wp-content/uploads/2016/10/Slide1.jpg" alt="complete your profile page" width="650" /></li>
+ 	<li style="font-weight: 400;">सुनिश्चित करें कि आपके पास अपने माता-पिता / संरक्षक की अनुमति है |
+<ol type="i">
+ 	<li style="font-weight: 400;">आप अपने डैशबोर्ड से अपने माता-पिता या संरक्षक को ईमेल कर सकते हैं।</li>
+ 	<li style="font-weight: 400;">कृपया उन्हें ईमेल पर हस्ताक्षर करने के लिए पूछें, ताकि आपके पास प्लेटफ़ॉर्म तक पहुंचने कि अनुमति हो |</li>
+ 	<li style="font-weight: 400;">यदि आपने अपने अभिभावक के ईमेल को गलत तरीके से दर्ज किया है, तो आप निम्न कर सकते हैं:
+<ol type="a">
+ 	<li style="font-weight: 400;">अपने डैशबोर्ड पर दर्ज ईमेल को दोबारा जांच लें</li>
+ 	<li style="font-weight: 400;">या आप इसे पृष्ठ के शीर्ष पर "मेरा खाता" टैब पर अपडेट कर सकते हैं.</li>
+ 	<li style="font-weight: 400;">ईमेल अपडेट होने के बाद, यह स्वचालित रूप से फ़ॉर्म को नए ईमेल पते पर भेज देगा।</li>
 </ol>
 </li>
 </ol>
-<img style="margin: 10px;padding: 1px;border: 1px solid #cccccc" src="http://www.technovationchallenge.org/wp-content/uploads/2016/10/Slide2.jpg" alt="update parent/guardian email" width="650" /></li>
- 	<li style="font-weight: 400">एक बार आपके माता पिता ने फॉर्म पर हस्ताक्षर कर दिए, तो आपको एक ईमेल प्राप्त होगा और आप आपका प्रोफ़ाइल पूरा करना जारी रख सकते हैं.</li>
+<img style="margin: 10px; padding: 1px; border: 1px solid #cccccc;" src="http://www.technovationchallenge.org/wp-content/uploads/2016/10/Slide2.jpg" alt="update parent/guardian email" width="650" /></li>
+ 	<li style="font-weight: 400;">एक बार आपके माता पिता ने फॉर्म पर हस्ताक्षर कर दिए, तो आपको एक ईमेल प्राप्त होगा और आप आपका प्रोफ़ाइल पूरा करना जारी रख सकते हैं.</li>
 </ol>
-<h3>एक टीम बनाएं</h3>
+<h3 id="createteam"><strong>एक टीम बनाएं</strong></h3>
 अगर आप <a href="#jointeam">एक मौजूदा टीम में शामिल होना चाहते हैं</a>, आप इस कदम को छोड़ सकते हैं|
 <ol>
- 	<li style="font-weight: 400"> अपने माता-पिता / संरक्षक सहमति फॉर्म (ऊपर) सबमिट करने के बाद, यहाँ क्लिक करें <a href="https://my.technovationchallenge.org/signin" target="_blank">my.technovationchallenge.org/signin</a>.</li>
- 	<li style="font-weight: 400">पृष्ठ के शीर्ष पर "एक टीम बनाएं" या अपने डैशबोर्ड पर "टीम बनाएं या एक टीम में शामिल हों" पर क्लिक करें| यह इस तरह दिखता है:
-<img style="margin: 10px;padding: 1px;border: 1px solid #cccccc" src="http://www.technovationchallenge.org/wp-content/uploads/2016/10/Slide3.jpg" alt="select create a team" width="650" /></li>
- 	<li style="font-weight: 400">आप इस पृष्ठ पर लाए जाएँगे:
-<img style="margin: 10px;padding: 1px;border: 1px solid #cccccc" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Slide2_v2.jpg" alt="create a team form" width="650" /></li>
- 	<li style="font-weight: 400">पूछी गई जानकारी को पूरा करें :
+ 	<li style="font-weight: 400;">अपने माता-पिता / संरक्षक सहमति फॉर्म (ऊपर) सबमिट करने के बाद, यहाँ क्लिक करें <a href="https://my.technovationchallenge.org/signin" target="_blank">my.technovationchallenge.org/signin</a>.</li>
+ 	<li style="font-weight: 400;">पृष्ठ के शीर्ष पर "एक टीम बनाएं" या अपने डैशबोर्ड पर "टीम बनाएं या एक टीम में शामिल हों" पर क्लिक करें| यह इस तरह दिखता है:
+<img style="margin: 10px; padding: 1px; border: 1px solid #cccccc;" src="http://www.technovationchallenge.org/wp-content/uploads/2016/10/Slide3.jpg" alt="select create a team" width="650" /></li>
+ 	<li style="font-weight: 400;">आप इस पृष्ठ पर लाए जाएँगे:
+<img style="margin: 10px; padding: 1px; border: 1px solid #cccccc;" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Slide2_v2.jpg" alt="create a team form" width="650" /></li>
+ 	<li style="font-weight: 400;">पूछी गई जानकारी को पूरा करें :
 <ol type="i">
- 	<li style="font-weight: 400">टीम का नाम</li>
- 	<li style="font-weight: 400">अपनी टीम का विवरण और आपने इस टीम का गठन कैसे किया| अगर आप चाहते हैं कि और भी लोग जुडें, यह अच्छी जगह है इस बात को बताने का कि आपको और कैसे लोग अपनी टीम में चाहिए |</li>
+ 	<li style="font-weight: 400;">टीम का नाम</li>
+ 	<li style="font-weight: 400;">अपनी टीम का विवरण और आपने इस टीम का गठन कैसे किया| अगर आप चाहते हैं कि और भी लोग जुडें, यह अच्छी जगह है इस बात को बताने का कि आपको और कैसे लोग अपनी टीम में चाहिए |</li>
 </ol>
 </li>
- 	<li style="font-weight: 400">फिर, पृष्ठ के निचले भाग में स्थित "बनाएं टीम" बटन पर क्लिक करें | टीम पृष्ठ टीम पांडा सवेर्स के निम्नलिखित उदाहरण की तरह दिखेगा: 
-<img style="margin: 10px;padding: 1px;border: 1px solid #cccccc" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Slide3_v2.jpg" alt="example: team panda savers" width="650" /></li>
- 	<li style="font-weight: 400">अब आप और सदस्यों को अपनी टीम मै शामिल होने के लिए आमंत्रित कर सकते हैं !<ol type="i">
- 	<li style="font-weight: 400">अपनी टीम सद्सस्यों के साथ या फिर ऐसी फोटो जो आपकी टीम को दर्शाए ऐड करें |</li>
- 	<li style="font-weight: 400"> बताएं कि क्या अन्य छात्र आपकी टीम में शामिल होने का अनुरोध कर सकते हैं|</li>
- 	<li style="font-weight: 400"> बताएं कि क्या अन्य सलाहकार आपकी टीम में शामिल होने का अनुरोध कर सकते हैं|</li>
- 	<li style="font-weight: 400"> यदि आपकी टीम अधिक सदस्यों या अधिक सलाहकारों को स्वीकार नहीं करना चाहती है, तो कृपया उन पृष्ठों को अनचेक करने के लिए इस पृष्ठ को फिर से आना सुनिश्चित करें ताकि आप अनावश्यक अनुरोध प्राप्त न कर सकें </li>
-</ol>
-<img style="margin: 10px;padding: 1px;border: 1px solid #cccccc" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Slide17.png" alt="accept team member request" width="650" /></li>
- 	<li style="font-weight: 400"><em>याद रहे ,</em> आप सिर्फ  5 सदस्यों को एक टीम में शामिल कर सकते हो | आप हरे रंग के बॉक्स में एक ईमेल पते के बगल में "रेवोक" लिंक का उपयोग करके आमंत्रित कर सकते हैं.</li>
-</ol>
-<h3>एक टीम में शामिल हों</h3> 
-यदि आप टीम की भर्ती करने में असमर्थ हैं, चिंता न करें! आप my.technovationchallenge.org पर  अपनी स्थानीय या आभासी टीम में शामिल होने की भी कोशिश कर सकते हैं | आपको बस इतना करना है कि निम्न चरणों का पालन करें:<ol>
- 	<li style="font-weight: 400"> पृष्ठ के शीर्ष पर "टीम में शामिल हों" या अपने डैशबोर्ड पर "टीम में शामिल हों या किसी टीम में शामिल हों" पर क्लिक करें:<img style="margin: 10px;padding: 1px;border: 1px solid #cccccc" src="http://www.technovationchallenge.org/wp-content/uploads/2016/10/Slide4.jpg" alt="join a team" width="650" /></li>
- 	<li style="font-weight: 400"> आपको 50 मील के भीतर टीमों की एक सूची दिखाई जाएगी जो अभी भी सदस्यों की तलाश में हैं। आप अन्य शहरों में उन टीमों को दिखाने के लिए, जो आप में शामिल होना पसंद कर सकते हैं, बाईं ओर फ़िल्टर को अपडेट भी कर सकते हैं। उदाहरण के लिए:
-<img style="margin: 10px;padding: 1px;border: 1px solid #cccccc" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Slide4_v2.jpg" alt="teams looking for members page" width="650" /></li>
- 	<li style="font-weight: 400">आप हर टीम के नाम पर क्लिक करके उसकी अधिक जानकारी प्राप्त कर सकते हैं |
+ 	<li style="font-weight: 400;">फिर, पृष्ठ के निचले भाग में स्थित "बनाएं टीम" बटन पर क्लिक करें | टीम पृष्ठ टीम पांडा सवेर्स के निम्नलिखित उदाहरण की तरह दिखेगा:
+<img style="margin: 10px; padding: 1px; border: 1px solid #cccccc;" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Slide3_v2.jpg" alt="example: team panda savers" width="650" /></li>
+ 	<li style="font-weight: 400;">अब आप और सदस्यों को अपनी टीम मै शामिल होने के लिए आमंत्रित कर सकते हैं !
 <ol type="i">
- 	<li style="font-weight: 400"><strong>ज़रूरी सूचना! </strong>The <strong>टीम डिवीज़न </strong> टीम के नाम के नीचे लिखा है |सीनियर डिवीजन उन टीमों से बना है जिसमें कम से कम एक सदस्य है जो 15 साल की अगस्त 1, 2017 से पहले हो जाएगी। जूनियर डिवीजन उन टीमों से बना है जो 1 अगस्त 2017 से पहले 15 वर्ष से कम आयु के हैं |</li>
- 	<li style="font-weight: 400">आपको टीम का विवरण भी दिखेगा |</li>
- 	<li style="font-weight: 400"> अंत में, आप टीम के सदस्यों और सलाहकारों की एक सूची देखते हैं। केवल प्रथम नाम प्रदर्शित किए जाएंगे.</li>
+ 	<li style="font-weight: 400;">अपनी टीम सद्सस्यों के साथ या फिर ऐसी फोटो जो आपकी टीम को दर्शाए ऐड करें |</li>
+ 	<li style="font-weight: 400;">बताएं कि क्या अन्य छात्र आपकी टीम में शामिल होने का अनुरोध कर सकते हैं|</li>
+ 	<li style="font-weight: 400;">बताएं कि क्या अन्य सलाहकार आपकी टीम में शामिल होने का अनुरोध कर सकते हैं|</li>
+ 	<li style="font-weight: 400;">यदि आपकी टीम अधिक सदस्यों या अधिक सलाहकारों को स्वीकार नहीं करना चाहती है, तो कृपया उन पृष्ठों को अनचेक करने के लिए इस पृष्ठ को फिर से आना सुनिश्चित करें ताकि आप अनावश्यक अनुरोध प्राप्त न कर सकें</li>
 </ol>
-<img style="margin: 10px;padding: 1px;border: 1px solid #cccccc" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Slide13.jpg" alt="check to see if a team is a good fit" width="650" /></li>
- 	<li style="font-weight: 400"> यदि एक टीम आपके लिए एक अच्छी फिट दिखती है, तो पृष्ठ के शीर्ष पर स्थित "टीम नाम में शामिल होने का अनुरोध" बटन पर क्लिक करके शामिल होने के लिए कहें.</li>
- 	<li style="font-weight: 400"> टीम को आपके अनुरोध के ईमेल के माध्यम से अधिसूचित किया जाएगा.</li>
- 	<li style="font-weight: 400"> 
-जब एक टीम आपके अनुरोध को स्वीकार या अस्वीकार करेगी तो आपको एक ईमेल प्राप्त होगा।<ol>
- 	<li style="font-weight: 400">अगर आपको स्वीकार कर लिया गया हो तो <a href="https://my.technovationchallenge.org/" target="_blank">my.technovationchallenge.org</a> पृष्ठ के शीर्ष पर "मेरी टीम" टैब पर क्लिक करें आप पहले की तरह एक ही टीम पृष्ठ देखेंगे, लेकिन इस बार आप प्रत्येक टीम के सदस्य का पूरा नाम और उनका ईमेल पता देखेंगे। आप अपनी पहली बैठक सेट अप करने के लिए उनसे संपर्क कर सकते हैं|</li>
- 	<li style="font-weight: 400">यदि आपको टीम में शामिल होने से मना कर दिया गया था, तो चिंता न करें! कई अन्य टीम टीम के सदस्यों की तलाश में हैं संभव है कि जिस टीम को आप में शामिल करने का अनुरोध किया है, उसके पास पहले से ही पर्याप्त टीम के सदस्यों की संख्या है या उन्होंने पांच सदस्यों से कम के साथ आगे बढ़ने का फैसला किया है। कोशिश करना जारी रखना महत्वपूर्ण है, आप एक टीम ढूंढ सकते हैं जब तक कि आपको एक अच्छा फिट नहीं मिलता है तब तक आप चरण 3-6 दोहरा सकते हैं|</li>
+<img style="margin: 10px; padding: 1px; border: 1px solid #cccccc;" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Slide17.png" alt="accept team member request" width="650" /></li>
+ 	<li style="font-weight: 400;"><em>याद रहे ,</em> आप सिर्फ 5 सदस्यों को एक टीम में शामिल कर सकते हो | आप हरे रंग के बॉक्स में एक ईमेल पते के बगल में "रेवोक" लिंक का उपयोग करके आमंत्रित कर सकते हैं.</li>
+</ol>
+<h3 id="jointeam"><strong>एक टीम में शामिल हों</strong></h3>
+यदि आप टीम की भर्ती करने में असमर्थ हैं, चिंता न करें! आप my.technovationchallenge.org पर अपनी स्थानीय या आभासी टीम में शामिल होने की भी कोशिश कर सकते हैं | आपको बस इतना करना है कि निम्न चरणों का पालन करें:
+<ol>
+ 	<li style="font-weight: 400;">पृष्ठ के शीर्ष पर "टीम में शामिल हों" या अपने डैशबोर्ड पर "टीम में शामिल हों या किसी टीम में शामिल हों" पर क्लिक करें:<img style="margin: 10px; padding: 1px; border: 1px solid #cccccc;" src="http://www.technovationchallenge.org/wp-content/uploads/2016/10/Slide4.jpg" alt="join a team" width="650" /></li>
+ 	<li style="font-weight: 400;">आपको 50 मील के भीतर टीमों की एक सूची दिखाई जाएगी जो अभी भी सदस्यों की तलाश में हैं। आप अन्य शहरों में उन टीमों को दिखाने के लिए, जो आप में शामिल होना पसंद कर सकते हैं, बाईं ओर फ़िल्टर को अपडेट भी कर सकते हैं। उदाहरण के लिए:
+<img style="margin: 10px; padding: 1px; border: 1px solid #cccccc;" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Slide4_v2.jpg" alt="teams looking for members page" width="650" /></li>
+ 	<li style="font-weight: 400;">आप हर टीम के नाम पर क्लिक करके उसकी अधिक जानकारी प्राप्त कर सकते हैं |
+<ol type="i">
+ 	<li style="font-weight: 400;"><strong>ज़रूरी सूचना! </strong>The <strong>टीम डिवीज़न </strong> टीम के नाम के नीचे लिखा है |सीनियर डिवीजन उन टीमों से बना है जिसमें कम से कम एक सदस्य है जो 15 साल की अगस्त 1, 2017 से पहले हो जाएगी। जूनियर डिवीजन उन टीमों से बना है जो 1 अगस्त 2017 से पहले 15 वर्ष से कम आयु के हैं |</li>
+ 	<li style="font-weight: 400;">आपको टीम का विवरण भी दिखेगा |</li>
+ 	<li style="font-weight: 400;">अंत में, आप टीम के सदस्यों और सलाहकारों की एक सूची देखते हैं। केवल प्रथम नाम प्रदर्शित किए जाएंगे.</li>
+</ol>
+<img style="margin: 10px; padding: 1px; border: 1px solid #cccccc;" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Slide13.jpg" alt="check to see if a team is a good fit" width="650" /></li>
+ 	<li style="font-weight: 400;">यदि एक टीम आपके लिए एक अच्छी फिट दिखती है, तो पृष्ठ के शीर्ष पर स्थित "टीम नाम में शामिल होने का अनुरोध" बटन पर क्लिक करके शामिल होने के लिए कहें.</li>
+ 	<li style="font-weight: 400;">टीम को आपके अनुरोध के ईमेल के माध्यम से अधिसूचित किया जाएगा.</li>
+ 	<li style="font-weight: 400;">जब एक टीम आपके अनुरोध को स्वीकार या अस्वीकार करेगी तो आपको एक ईमेल प्राप्त होगा।
+<ol>
+ 	<li style="font-weight: 400;">अगर आपको स्वीकार कर लिया गया हो तो <a href="https://my.technovationchallenge.org/" target="_blank">my.technovationchallenge.org</a> पृष्ठ के शीर्ष पर "मेरी टीम" टैब पर क्लिक करें आप पहले की तरह एक ही टीम पृष्ठ देखेंगे, लेकिन इस बार आप प्रत्येक टीम के सदस्य का पूरा नाम और उनका ईमेल पता देखेंगे। आप अपनी पहली बैठक सेट अप करने के लिए उनसे संपर्क कर सकते हैं|</li>
+ 	<li style="font-weight: 400;">यदि आपको टीम में शामिल होने से मना कर दिया गया था, तो चिंता न करें! कई अन्य टीम टीम के सदस्यों की तलाश में हैं संभव है कि जिस टीम को आप में शामिल करने का अनुरोध किया है, उसके पास पहले से ही पर्याप्त टीम के सदस्यों की संख्या है या उन्होंने पांच सदस्यों से कम के साथ आगे बढ़ने का फैसला किया है। कोशिश करना जारी रखना महत्वपूर्ण है, आप एक टीम ढूंढ सकते हैं जब तक कि आपको एक अच्छा फिट नहीं मिलता है तब तक आप चरण 3-6 दोहरा सकते हैं|</li>
 </ol>
 </li>
 </ol>
-<blockquote>“एकता में बल है ... जब टीमवर्क और सहयोग होता है, तो अद्भुत चीजें प्राप्त की जा सकती हैं.”</blockquote>
-—मैटी जे.टी. स्टेपानेक, अमेरिकी कवि और शांति वकील
-<h3>आगे बढ़ने के लिए तैयार?</h3>
-अगली इकाई में, आप एक गुरु को कैसे सीखेंगे!
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<blockquote>
+<p style="text-align: center;">“<strong>एकता में बल है</strong> ...<strong> जब टीमवर्क और सहयोग होता है, तो अद्भुत चीजें प्राप्त की जा सकती हैं</strong>.”</p>
+</blockquote>
+<p style="text-align: right;">—मैटी जे.टी. स्टेपानेक, अमेरिकी कवि और शांति वकील</p>
+
+</div>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 style="text-align: center;"><strong>आगे बढ़ने के लिए तैयार</strong>?</h3>
+<p style="text-align: center;">अगली इकाई में, आप एक गुरु को कैसे सीखेंगे!
 <a href="/?p=16820" target="_blank">
-एक गुरु ढूंढें </a>
+<span style="color: #eae46f;">एक गुरु ढूंढें </span></a></p>
+
+</div>
