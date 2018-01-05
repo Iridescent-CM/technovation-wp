@@ -1,68 +1,73 @@
-<h1>Lista de verificación técnica</h1>
-<p style="text-align: center">Agrega componentes técnicos en la siguiente lista de cosas por hacer, ¡y acumula hasta 10 puntos extra en tu aplicación!</p>
+<p style="text-align: center;">Agrega componentes técnicos en la siguiente lista de cosas por hacer, ¡y acumula hasta 10 puntos extra en tu aplicación!</p>
+
 <h3>Instrucciones</h3>
-<p>Obtén hasta 10 puntos en la categoría técnica de tu sumisión de aplicación para Technovation al completar la siguiente lista de cosas. Para ver completa la<br />
-<a href="/?p=17262" target="_blank"> Rúbrica de evaluación, da clic aquí</a>.</p>
-<p>En tu sumisión, necesitas explicar en una oración los componentes que vas a usar en tu aplicación. Sólo se necesitas indicar la instancia en donde lo usaste</p>
-<p>Por ejemplo<br />
-<strong>Cadenas de Texto</strong><br />
-<em>"Las cadenas de texto se usan para mostrar el nombre del usuario al inicio de la pantalla.</em>"</p>
+Obtén hasta 10 puntos en la categoría técnica de tu sumisión de aplicación para Technovation al completar la siguiente lista de cosas. Para ver completa la
+<a href="/?p=17262" target="_blank"> Rúbrica de evaluación, da clic aquí</a>.
+
+En tu sumisión, necesitas explicar en una oración los componentes que vas a usar en tu aplicación. Sólo se necesitas indicar la instancia en donde lo usaste
+
+Por ejemplo
+<strong>Cadenas de Texto</strong>
+<em>"Las cadenas de texto se usan para mostrar el nombre del usuario al inicio de la pantalla.</em>"
 <h3>Componentes Técnicos</h3>
-<p><em> Usar al menos 4 (1 punto cada uno, obtén hasta 4 puntos como máximo)</em></p>
-<p>Haz uso de estos componentes en <a href="/?p=20950" target="_blank">Código 2</a>.</p>
-<p> Cadenas de Texto<br />
- Números<br />
- Variables<br />
- Listas o arreglos</p>
-<p>Haz uso de estos componentes en <a href="/?p=17114" target="_blank">Código 3</a>.</p>
-<p> Booleanos<br />
- Ciclos</p>
-<p>Declaraciones condicionales</p>
+<em> Usar al menos 4 (1 punto cada uno, obtén hasta 4 puntos como máximo)</em>
+
+Haz uso de estos componentes en <strong>Código 2</strong>.
+
+<input type="checkbox" /> Cadenas de Texto
+<input type="checkbox" /> Números
+<input type="checkbox" /> Variables
+<input type="checkbox" /> Listas o arreglos
+
+Haz uso de estos componentes en <strong>Código 3</strong>.
+
+<input type="checkbox" /> Booleanos
+<input type="checkbox" /> Ciclos
+<input type="checkbox" /> Declaraciones condicionales
 <h3>Conectividad y base de datos</h3>
-<p><em>Usa al menos 1 (1 punto cada una, obtén hasta 1 punto como máximo)</em></p>
-<p>Haz uso de estos componentes en <a href="/?p=20950" target="_blank">Código 2</a>.</p>
-<p> Base de Datos Local</p>
-<p>Haz uso de estos componentes en <a href="/?p=17673" target="_blank">Código 4</a>.</p>
-<p> Base de Datos Externa o API</p>
+<em>Usa al menos 1 (1 punto cada una, obtén hasta 1 punto como máximo)</em>
+
+Haz uso de estos componentes en <strong>Código 2</strong>.
+
+<input type="checkbox" /> Base de Datos Local
+
+Haz uso de estos componentes en <strong>Código 4</strong>.
+
+<input type="checkbox" /> Base de Datos Externa o API
 <h3>Funciones Móviles</h3>
-<p><em>Usa al menos 1 (2 puntos cada una, obtén hasta 2 puntos como máximo)</em></p>
-<p>Haz uso de estos componentes en <a href="/?p=17673" target="_blank">Código 4</a>.</p>
-<p> Sensor de Localización<br />
- Cámara o Video<br />
- Acelerómetro<br />
- Mensajes de texto o llamadas telefónica<br />
- Sonido o Altavoces<br />
- Compartir<br />
- Reloj<br />
- Lienzo</p>
+<em>Usa al menos 1 (2 puntos cada una, obtén hasta 2 puntos como máximo)</em>
+
+Haz uso de estos componentes en<strong> Código 4</strong>.
+
+<strong><input type="checkbox" /> </strong>Sensor de Localización
+<input type="checkbox" /> Cámara o Video
+<input type="checkbox" /> Acelerómetro
+<input type="checkbox" /> Mensajes de texto o llamadas telefónica
+<input type="checkbox" /> Sonido o Altavoces
+<input type="checkbox" /> Compartir
+<input type="checkbox" /> Reloj
+<input type="checkbox" /> Lienzo
 <h3>Imágenes de tu proceso</h3>
-<p><em> Haz las 3 (Un punto cada uno, obten hasta 3 puntos como máximo)</em></p>
-<p> Sube al menos 1 captura del esquema para el prototipo de <a href="/?p=19535" target="_blank">Código 5</a>.<br />
- Sube al menos 1 captura de tu diagrama de flujo o pseudo código de <a href="/?p=19686" target="_blank">Código 6</a>.<br />
- Sube al menos 2 capturas de pantalla de tu aplicación.</p>
-<p><a href="http://www.technovationchallenge.org/wp-content/uploads/2017/01/Technical-Checklist-2017.pdf" target="_blank"> Versión Impresa</a></p>
-<h2>Línea de Tiempo Technovation</h2>
-<p>Ago<br />
-Sep<br />
-Oct<br />
-Nov<br />
-Dic<br />
-Ene<br />
-Feb<br />
-Mar<br />
-Abr<br />
-May<br />
-Jun<br />
-Jul<br />
-Temporada de Reclutamiento<br />
-Temporada Oficial<br />
-Eventos de Pitch<br />
-Pitch Mundial</p>
-<h3 style="color: #ececec" align="center">Fechas Clave para 2017</h3>
-<p style="color: #ececec;text-align: center;font-size: 15px"><strong>Registro</strong>: Marzo 8<br />
-<strong>Fecha límite de Envío</strong>: Abril 26<br />
+<em> Haz las 3 (Un punto cada uno, obten hasta 3 puntos como máximo)</em>
+
+<input type="checkbox" /> Sube al menos 1 captura del esquema para el prototipo de <strong>Código 5</strong>.
+<input type="checkbox" /> Sube al menos 1 captura de tu diagrama de flujo o pseudo código de <strong>Código 6</strong>.
+<input type="checkbox" /> Sube al menos 2 capturas de pantalla de tu aplicación.
+
+<a href="http://www.technovationchallenge.org/wp-content/uploads/2017/01/Technical-Checklist-2017.pdf" target="_blank"> Versión Impresa</a>
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+
+&nbsp;
+<h2 style="text-align: center;"><span style="color: #ffffff;">Línea de Tiempo Technovation</span></h2>
+<h3 style="color: #ececec;" align="center">Fechas Clave para 2017</h3>
+<p style="color: #ececec; text-align: center; font-size: 15px;"><strong>Registro</strong>: Marzo 8
+<strong>Fecha límite de Envío</strong>: Abril 26
 <strong>Cumbre Mundial de Pitch</strong>: Agosto 7-11</p>
-<p style="text-align: center">¿Estas lista para tomar el desafio mundial Technovation?</p>
-<p><a href="https://my.technovationchallenge.org" target="_self"><br />
-Registrate<br />
-</a></p>
+<p style="text-align: center;">¿Estas lista para tomar el desafio mundial Technovation?</p>
+
+<h3 style="text-align: center;"><a href="https://my.technovationchallenge.org" target="_self">
+<strong>Registrate</strong>
+</a></h3>
+&nbsp;
+
+</div>
