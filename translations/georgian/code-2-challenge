@@ -1,5 +1,3 @@
-<h1>Code 2 Challenge</h1>
-<h1>Make a To-Do List -გასაკეთებელ საქმეთა    ნუსხის შექნა</h1>
 <ul>
  	<li><a href="#design">Designing your screen</a></li>
  	<li><a href="#blocks">Adding things to the list</a></li>
@@ -19,7 +17,7 @@ To do list -ის (გასაკეთებელ  დავალება
 მანამ სანამ ინსტრუქციებს წაიკითხავდეთ,მაქსიმალურად ეცადეთ, რომ ეს ჩელენჯი(გამოწვეწვა) თვითონ სცადოთ,ანუ საკუთარი ძალებით გააკეთოთ. დაიმახსოვრეთ,ეს ინსტრუქციები არის ერთადერთი გზა იმისა, რომ ჩელენჯი მაქსიმალურად იქნეს დაძლეული.წარმატებულ კოდინგს გისურვებთ!
 
 &nbsp;
-<h3>Designing your screen-ეკრანის დიზაინი</h3>
+<h3 id="design">Designing your screen-<strong>ეკრანის დიზაინი</strong></h3>
 ჩვენ შევქმენით აპლიკაცია, რომელიც მომხმარებელს საშუალებას აძლევს ნუსხაში (სიაში) ჩაამატონ საკითხები,ამოიღონ საკითხები,შეინახონ ( save ) სია და  გადატვირთონ სია.ამ ყველაფრისთვის საჭირო გახდა ეკრანზე გვქონოდა სამი ღილაკი.  ერთი იმისთვის ,რომ სიაში საკითხები ჩამატდეს,ერთი იმისთვის რომ  მომხმარებლის მიერ შემუშავებულოი საკითხები შეინახოს მომავლისთვის  და ერთიც გადასატვირთი ღილაკი რომელიც წაშლის სიას.
 <ol>
 <ol>
@@ -51,7 +49,7 @@ To do list -ის (გასაკეთებელ  დავალება
 <img style="border: 1px solid #cccccc;" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image06-1024x555.png" alt="step 7" width="1024" height="555" />
 
 &nbsp;
-<h3>სამოქმედო სიაში პარამეტრების ჩამატება</h3>
+<h3 id="blocks"><strong>სამოქმედო სიაში პარამეტრების ჩამატება</strong></h3>
 ჩვენი აპლკაციის მონიტორის საშუალებით მომხმარებელი შემოდის , სიაში მონაცემებს ახარისხებს  და შემდეგ აჩვენებს მას  ListView-ის მეშვეობით.ჩვენ ეს გავაკეთეთ ცვალებადი სიის შექმნისთ სახელად <em>items  .</em>როდესაც ჩვენი მომხმარებელი დააჭერს<em> </em>  enter  ღილაკს,ჩვენ items-ში ვუმატებთ იმას რაც  textbox-ში გვქვს და ის გამოჩნდება ListView-ში.
 <ol>
  	<li style="font-weight: 400;">შექმენით  <i>items-ი </i>რომელიც თქვენს სამოქმედო სიის მონაცემებს<i> </i> მართავს.დაიწყეთ ცარიელი სიის შექმნით.</li>
@@ -63,9 +61,12 @@ To do list -ის (გასაკეთებელ  დავალება
  	<li style="font-weight: 400;"><i>სურვილისამებრ:აპლიკაცია გამოსაყენებლად უფრო ადვილი რომ ყოფილიყო,მაშინ როცა მომხმარებელი დააჭერდა "შესვლა" ღილაკს   დავმალეთ კლავიატურა .ამის გასაკეთებლად დააჭირეთ TextBox1-ს   და ხელი ჩასჭიდეთ<strong>TextBox1.HideKeyboard</strong> block-ს.</i></li>
 </ol>
 <img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image08-1024x438.png" alt="blocks steps 1-7" width="898" height="236" />
-<h3>გადამოწმება #1</h3>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 id="check1"><strong>გადამოწმება</strong> #1</h3>
 დროა გადაამოწმეთ ,მუშაობს თუ არა ის რაც ეს-ესაა შექმენით.მოიმარჯვეთ ტელეფონი ან ემულატორი და  გამოსცადეთ თქვენი აპლიკაცია.როდესც textbox-ში რაიმეს ბეჭდავთ  და აჭერთ enter  ღილაკს  ის უნდა გამოჩნდეს ListView-ში.თუკი აპლიკაცია არ მუშაობს ,სანამ გააგრძელებდეთ,უკან დაბრუნდით და მოძებნეთ რა შეგეშალათ. თუკი კვლავ შეფერხდით მენტორს ან გუნდის წევრებს შეეხმიანეთ.
-<h3> to-do list-დან ჩანაწერების წაშლა</h3>
+
+</div>
+<h3 id="delete"> to-do list-<strong>დან ჩანაწერების წაშლა</strong></h3>
 როდესაც  მომხმარებელი to-do list-ში  დავალების შესრულებას  დაასრულებს  ,მაგრამ აღარ სურს მისი ხილვა იქ, ListView-ში დააჭერს იმას,რისი წაშლაც უნდა და წაშლის .
 
 ჩვენ ამისათვის შევქმენით ცვალებადი  ელემენტი სახელად <i>index-ი. </i>ეს ადგილობრივი ელემენტია რადგანაც მისი გამოყენება კოდინგში მხოლოდ ერთხელ დაგვჭირდა<i>. ეს ყველაფერი კი იმისთვის შევქმენით ,რომ  მომხმარებელს ქონოდა ინდექსი რომელსაც ListView-ში აირჩევდა. და  </i>index-ს მივანიჭეთ იმის შესაძლებლობა რომ აპლიკაციისთვის ეთქვა  რა ამოეღო items-დან.  ListView-ი განახლდება, მას შემდეგ რაც საკითხების ნუსხა შეიცვლება.
@@ -80,9 +81,12 @@ To do list -ის (გასაკეთებელ  დავალება
  	<li style="font-weight: 400;">მოათავსეთ <strong>set ListView1.Elements to</strong> block -ი თქვენი ნარინჯისფერი ცვალებადი ბლოკის ქვეშ  და დააკავშირეთ თქვენი <i>items-ი </i> მასთან.</li>
 </ol>
 <img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Blocks2.png" alt="blocks2" width="2276" height="753" />
-<h3><b>გადამოწმება #2 </b></h3>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 id="check2"><b>გადამოწმება</b> #2</h3>
 დროა გადაამოწმოთ აპლიკაცია მუშაობს თუ არა!მოიმარჯვეთ  ტელეფონი ან ემულატორია დაიწყეთ ტესტი. ტესტირების დროს აპლიკაციაში უნდა შეძლოთ იმ პარამეტრებზე წვდომა ,რომლებიც  სამოქმედო ნუსხაში შეიყვანეთ  და ამავე დროს უნდა შეძლოთ მათი წაშლა. თუკი ამას ვერ ახერხრბთ ე.ი.  აპლიკაცია არ მუშაობს  და შესაბამისად ,უკან უნდა დაბრუნდეთ და კოდი გადაამოწმოთ.თუკი კვლავ შეფერხდით  მენტორს ან გუნდის წევრებს დაუკავშირდით  ან იხილეთ გაკვეთილები  ListView-ის შესახებ!
-<h3> reset -ღილაკის  პროგრამირება</h3>
+
+</div>
+<h3 id="reset"> Reset-<strong>ღილაკის  პროგრამირება</strong></h3>
 იმისათვის, რომ აპლიკაცია გამოსაყენებლად უფრო ადვილი ყოფილიყო,ჩავამატეთ reset ღილაკი რომელიც to-do list-ის გარეთ ყველა მონაცემს შლის.ეს ღილაკი დავაპროგრამეთ და როდესაც მომხმარებელი მას დააჭერს ხელს ის  შეძლებს   და    list <i>items-ებს   </i>გადაიტანს  ცარიელ<i>   </i>list-ში . შემდეგ  გადავტვირთეთ ListView -ი რათა ახალი ცარიელი  contents of the list <i>items-ები </i>გამოჩენილიყო.
 <ol>
  	<li style="font-weight: 400;">reset  ღილაკისთვის ხელი ჩაავლეთ  <strong>when button.click</strong> block-ს.</li>
@@ -91,9 +95,12 @@ To do list -ის (გასაკეთებელ  დავალება
  	<li style="font-weight: 400;">ხელი ჩაავლეთ  <strong>set ListView1.Elements to</strong> block -ს  და მიამაგრეთ  get <i>items</i> variable block-ი.</li>
 </ol>
 <img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image02-1-1024x297.png" alt="Reset steps 1-4" width="678" height="197" />
-<h3>გადამოწმება #3</h3>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 id="check3"><strong>გადამოწმება</strong> #3</h3>
 დარწმუნდით ,რომ  reset   ღილაკი მუშაობს!მპიმარჯვეთ ტელეფონი ან ემულატორი  და დატესტეთ  აპლიკაცია. მას შემდეგ რაც to-do list-ში მონაცემებს შეიყვანთ ,უნდა დააჭიროთ reset  ღილაკს და მან list-ი უნდა წაშალოს.  თუკი ისევ შეფერხდით დაუკავშირდით მენტორს ან გუნდის წევრებს!!!
-<h3> TinyDB-ს პროგრამირება</h3>
+
+</div>
+<h3 id="tinyDB"> TinyDB-<strong>ს პროგრამირება</strong></h3>
 როდესაც მომხმარებელი ხურავს აპლიკაციას, to-do list-ი აპლიკაციაში მეორედ შესვლამდე შეინახება.ჩვენ დავაპროგრამეთ “save” ღილაკი ისე რომ მონაცემთა ბაზისთვის დაგვერქვა(TinyDB)  და შეგვენახა <i>items</i> list-ი. მონაცემთა ბაზა მომხმარებლის მიერ შქმინლ to do list-ს იმახსოვრებს   ზუსტად ისეთს, როგორიც იმ მომენტისთვის არის და იქ ინახავს შემდეგ ვიზიტამდე.
 <ol>
  	<li style="font-weight: 400;"> save  ღილაკისთვის ხელი ჩაავლეთ <strong>when button.Click</strong> block-ს.</li>
@@ -115,9 +122,13 @@ To do list -ის (გასაკეთებელ  დავალება
  	<li style="font-weight: 400;">ჩასჭიდეთ  <strong>set ListView1.Elements to </strong>block -ს და მიამაგრეათ თქვენს  <i>items</i> variable-ს.</li>
 </ol>
 <img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image18-1024x321.png" alt="TinyDB steps 1-6" width="986" height="309" />
-<h3>  ბოლო გადამოწმება</h3>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 id="final"><strong>ბოლო გადამოწმება</strong></h3>
 დროა გადაამოწმოტ აპლიკაცია მუშაობს თუ არა! ჩამოტვირთეთ თქვენი აპლიკცია ტელეფონში ან ემულატორში,შეიყვანეთ მონაცემები(რამოდენიმე)თქვენსავე to-do list-ში. დააჭირეთ save ღილაკს და დახურეთ  AI companion app-ი . შემდეგ კვლავ გახსენიტ აპლიკაცია და გადაამოწმეთ მონაცემები ,რაც შეიყვანეთ იქ არის თუ არა.თუკი იქ არ აღმოჩნდებიან მოგიწევთ უკან დაბრუნდეთ და გადაამოწმეთ კოდში რამე შეცდომა ხომ არ დაუშვით.დარწმუნდით, რომ  ყველაფერი სწორად ჩაწერეთ ,გასათვალისწინებელია დიდი ასობგერებიც.თუკი ყველაფერი მუშაოს ,მაშ გ ი ლ ო ც ა ვ თ , თქვენ დაასრულეთ the challenge-ი (ჩელენჯი, გამოწვევა)!
 
-ისევ შეფერხება?ჩამოტვირთეთ კოდის რესურსები.ჩამოტვორთვის და გამოყენების ინსტრუქციეი  იხ,აქ. <a href="http://appinventor.mit.edu/explore/ai2/share.html">instructions</a> .<a href="https://drive.google.com/file/d/0B9HV58UviqU_a2lTVFdUb0hGbGM/view?usp=sharing" target="_blank">
-Download the source code
-</a>
+ისევ შეფერხება?ჩამოტვირთეთ კოდის რესურსები.ჩამოტვორთვის და გამოყენების ინსტრუქციეი  იხ,აქ:
+<h3 style="text-align: center;"><span style="color: #eae46f;"> <a style="color: #eae46f;" href="http://appinventor.mit.edu/explore/ai2/share.html">Instructions</a></span></h3>
+<h3 style="text-align: center;"><a href="https://drive.google.com/file/d/0B9HV58UviqU_a2lTVFdUb0hGbGM/view?usp=sharing" target="_blank">
+<span style="color: #eae46f;">Download the source code</span>
+</a></h3>
+</div>
