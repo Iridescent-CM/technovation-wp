@@ -1,0 +1,132 @@
+<h1>Code 2 Challenge</h1>
+<h1>Make a To-Do List</h1>
+<ul>
+ 	<li><a href="#design">Diseñando tu ventana</a></li>
+ 	<li><a href="#blocks">Agregando información</a></li>
+ 	<li><a href="#check1">Punto de control #1</a></li>
+ 	<li><a href="#delete">Borrando entradas </a></li>
+ 	<li><a href="#check2">Punto de control #2</a></li>
+ 	<li><a href="#reset">Botón resetear</a></li>
+ 	<li><a href="#check3">Punto de control #3</a></li>
+ 	<li><a href="#tinyDB">Programando el TinyDB</a></li>
+ 	<li><a href="#final">Punto de control</a></li>
+</ul>
+<h3>Explicación</h3>
+Crea una aplicación gestora de tareas que le permita al usuario ingresar o eliminar ítems. Tu aplicación debería recordar los items cada vez que tu usuario abre la aplicación. ¡Deberías a aprender a usar<a href="http://ai2.appinventor.mit.edu/reference/components/userinterface.html#ListView" target="_blank"> ListView</a> antes de continuar con el desafío!
+
+Revisa nuestro ejemplo aquí:<a href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.ToDoList" target="_blank"> Technovation Challenge #2</a>
+
+<h3 id="design">Diseñando tu Ventana</h3>
+Para esta aplicación, quieres que tu usuario pueda crear una lista de tareas. Diseñamos la planilla con botones que le permitirán al usuario guardar sus tareas para la próxima vez que abran su aplicación y un botón de Resetear.
+
+<ol>
+ 	<li>¡Agrega una etiqueta a tu ventana para que tu usuario sepa de qué se tratará tu aplicación! (ej: ¡Anota lo que tengas que hacer!)</li>
+ 	<li>Agrega un campo de texto para que tu usuario pueda ingresar una tarea</li>
+ 	<li>Agrega un botón para que el usuario haga clic una vez que ya ha ingresado un ítem a la lista
+<ul>
+ 	<li>¡A este botón le pusimos ‘Enter’ para saber lo que hace una vez que comencemos a programar con los bloques!</li>
+</ul>
+</li>
+ 	<li>Agrega un ListView a tu ventana. Así es como tu usuario verá su lista de tareas
+<ul>
+ 	<li>Configuramos el ‘Ancho’ y el ‘Alto’ con la opción ‘Automático’, pero puedes diseñar tu aplicación como tú quieras.</li>
+</ul>
+</li>
+ 	<li>Agrega un botón de guarda’ a tu ventana para guardar la lista de tu usuario en una base de datos y un botón de resetear para borrar la lista.
+<ul>
+ 	<li>Cambiamos el nombre de estos botones a "Save" (Guardar) y "Reset" (Resetear).</li>
+</ul>
+</li>
+ 	<li style="font-weight: 400;"><i><em>Opcional</em>: </i>Agregamos dos disposiciones horizontales desde el menú Disposición para diseñar nuestra aplicación, pero puedes organizarla como quieras.</li>
+</ol>
+<img style="border: 1px solid #cccccc;" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image07-1024x552.png" alt="steps 1-6" width="1024" height="552" />
+<ol start="7">
+ 	<li>Agrega un TinyDB desde el menú Almacenamiento Cuando lo arrastres a tu ventana, aparecerá como un ‘Non-visible component’ (Componente no visible).</li>
+</ol>
+<img style="border: 1px solid #cccccc;" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image06-1024x555.png" alt="step 7" width="1024" height="555" />
+
+<h3 id="blocks"><strong>Agregando información al gestor de tareas</strong></h3>
+Quieres que la aplicación muestre entradas donde el usuario puede ingresar datos a la aplicación. Para hacer esto tienes que guardar información dentro de una variable de Lista y luego desplegarla usando un ListView. El plan consiste en primero crear una variable de Lista para que tu usuario pueda continuar agregando información. Cuando tu usuario pulsa Enter, quieres que la información que ingresó en el campo de texto se agregue a la lista de ítems y que luego se desplieguen en el ListView.
+<ol>
+ 	<li>Haz una variable llamada ítem que alojará la información de tu gestor de tareas. Comienza la variable desde una lista vacía dado que tu usuario todavía no ha ingresado información.</li>
+ 	<li>Obtén un bloque “añadir elementos a la lista” desde el menú “Listas”. Colócalo dentro de tu controlador de evento <em>clic</em>.</li>
+ 	<li>Pon tu variable <em>ítems</em> para el nombre de la lista y “Texto” como el ítem que será agregado a la lista.</li>
+ 	<li style="font-weight: 400;"><em>Opcional: </em>Para hacer que nuestra aplicación fuera fácil de usar, escondimos el teclado cuando el usuario apretaba Enter. Para hacer esto, haz clic en CampoDeTexto 1 y arrastra el bloque “CampoDeTexto1.OcultarTeclado” y ponlo debajo del bloque “añadir elementos a la lista”.</li>
+ 	<li>Arrastra el bloque “poner VisorDeLista1.Elementos como” y ponlo debajo de tu bloque “añadir elementos a la lista”.</li>
+ 	<li>Agrega tu variable <em>items</em> al bloque “poner VisorDeLista1.Elementos como”.</li>
+ 	<li><em>Opcional: </em>Para hacer que nuestra aplicación fuera fácil de usar, escondimos el teclado cuando el usuario apretaba Enter. Para hacer esto, haz clic en CampoDeTexto 1 y arrastra el bloque “OcultarTeclado” y ponlo debajo del bloque “añadir elementos a la lista”.</li>
+</ol>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image08-1024x438.png" alt="blocks steps 1-7" width="800px" />
+
+<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
+<h3 id="check1"><strong>Punto de control #1</strong></h3>
+¡Revisa si lo que construiste hasta ahora funciona! Conecta tu teléfono o emulador y sométela a prueba. Cuando escribes en el campo de texto y presionas Enter deberían aparecer más abajo. Si tu aplicación no funciona, regresa y corrige los errores antes de proseguir. Contáctate con tu mentor o compañeras de equipo si estás estancada.
+</div>
+
+<h3 id="delete"><strong>Borrando entradas de la aplicación gestora de tareas</strong></h3>
+Quieres que tus usuarios puedan borrar las tareas que ya han completado. Pueden hacer esto haciendo clic en uno de los ítems desplegados en el VisorDeLista. Para borrar un item de una lista, debes saber el index del elemento que está en la lista, para que puedas decirle a tu aplicación que borre solo ese ítem. En los pasos siguientes, crearás una variable llamada index (índice). Esta puede ser una variable local ya que la usaremos en una sola parte del código. Estableceremos la variable<em> index</em> como el índice de lo que el usuario eligió. Luego usaremos la variable <em>index</em> para decirle a la aplicación qué es lo que tiene que eliminar de la lista <em>items</em>. Después le diremos al VisorDeLista que actualice lo que está desplegando dado que nuestra lista <em>items</em> cambió.
+<ol>
+ 	<li>Arrastra el bloque “DespuésDeSelección”.</li>
+ 	<li>Crea una variable local llamada <em>index</em>. Puedes establecerla como quieras para empezar. Nosotros pusimos la nuestra en cero.</li>
+ 	<li>Obtén el bloque variable “poner ‘nombre’ a” y ponla en la variable</li>
+ 	<li>Arrastra el bloque que dice “índice en la lista, cosa, lista” y adjúntala.</li>
+ 	<li>Asígnale a “cosa” el bloque “VisorDeLista1” y a “lista” la lista de í</li>
+ 	<li>Arrastra el bloque “eliminar elemento de la lista, lista, índice” y ponla dentro de tu bloque de variable local.</li>
+ 	<li>Asígnale a “lista” tu variable <em>ítems</em> y a la variable índice asígnale “index”.</li>
+ 	<li>Arrastra el bloque “poner VisorDeLista1.Elementos como” y adjúntalo bajo el bloque variable naranjo. Conéctale tu variable <em>ítems</em>.</li>
+</ol>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Blocks2.png" alt="blocks2" width="800px"/>
+
+<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
+<h3 id="check2"><b>Punto de control #2</b></h3>
+Es momento de ver si tu aplicación funciona. Conecta tu teléfono o emulador y ponla a prueba. Cuando uses tu aplicación, deberías poder apretar en los ítems que haz ingresado en la lista de tu gestor de tareas para poder eliminarlos.
+</div>
+
+<h3 id="reset"><strong>Programando el botón Resetear</strong></h3>
+Para hacer que tu aplicación sea fácil de usar, agregarás un botón de Resetear que borrará todas las entradas que tu usuario ha ingresado. En los próximos pasos escribirás el código que reseteará la lista de ítems a una lista vacía cuando el usuario hace clic en Resetear. Luego, tu código mostrará los nuevos contenidos vacíos de la lista <em>ítems</em> en la vista de lista para que tu usuario pueda ver que su lista ha sido limpiada.
+<ol>
+ 	<li>Arrastra el bloque “cuando Resetear.clic” para tu botón Reset</li>
+ 	<li>Obtén el bloque variable “poner ‘nombre’ a” y selecciona tu lista (global items).</li>
+ 	<li>Adjunta un bloque “crear una lista vacía”</li>
+ 	<li>Arrastra el bloque “poner VisorDeLista1.Elementos como” y adjunta el bloque variable “tomar global items”</li>
+</ol>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image02-1-1024x297.png" alt="Reset steps 1-4" width="678" height="197" />
+
+<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px">
+<h3 id="check3"><strong>Punto de control #3</strong></h3>
+Make sure your reset button works! Hook up your phone or emulator and test it out. After you put entires into your to-do list you should be able to hit reset and to clear the list. Reach out to your mentor or teammates if you are stuck.
+</div>
+
+<h3 id="tinyDB"><strong>Programando el TinyDB</strong></h3>
+Cuando tu usuario cierra la aplicación, quieres que tu aplicación guarde su lista para más adelante. En los próximos pasos programarás tu botón “Guardar” para guardar la lista de tu usuario en una base de datos. Lograrás esto haciendo que el botón Guardar “llame” a la base de datos y guarde la lista de items. La base de datos guardará la lista de tareas de tu usuario tal como está en ese momento.
+<ol>
+ 	<li>Arrastra el bloque “cuando botóClic” para tu botón Guardar.</li>
+ 	<li>Agrega el bloque “llamar TinyDB1.GuardarValor”</li>
+ 	<li>Agrega un nombre a la etiqueta</li>
+ 	<li>Agrega tu variable de ítems a “valorAGuardar”</li>
+</ol>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image01-1024x315.png" alt="TinyDB steps 1-4" width="800px" />
+
+&nbsp;
+
+Ahora que ya has guardado la lista de tareas del usuario en una base de datos, quieres que tu aplicación revise la base de datos cada vez que se abre para ver si es que hay alguna lista de tareas previa guardada. Puedes hacer esto con el bloque “cuando Screen1.Inicializar”. Este bloque hará cualquier cosa que se le pida cuando la screen1 arranque. En los próximos pasos configurarás tu lista de items para que transforme en lo que sea que esté en la base de datos con la etiqueta que elijas. Si no hay información guardada, le dirás a la aplicación que cree una lista vacía. Luego harás que tu aplicación muestre lo que sea que esté en la variable <em>items, </em>ya sea información guardada o una lista vacía.
+<ol>
+ 	<li>Arrastra el bloque “cuando Screen1.Inicializar” desde el menú Screen1 en el menú de bloques</li>
+ 	<li>Arrastra el bloque “poner ‘nombre de la variable” a” y configura la variable para que aparezca tu lista de items (global items)</li>
+ 	<li>Llama a la base de datos usando el bloque “llamar TinyBD1.ObtenerValor”</li>
+ 	<li>Ingresa la etiqueta que usaste para guardar la lista en “etiqueta” (DatosDeLista)</li>
+ 	<li>Adjunta el bloque “crear una lista vacía” para el “valorSiEtiquetaNoExiste”</li>
+ 	<li>Arrastra el bloque “poner VisorDeLista1.Elementos como” y adjúntale tu variable items</li>
+</ol>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image18-1024x321.png" alt="TinyDB steps 1-6" width="800px" />
+
+<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px">
+<h3 id="final"><strong>Punto do Control</strong></h3>
+¡Es momento de revisar si tu base de datos funciona! Arranca tu aplicación e ingresa algunas entradas a tu lista de tareas. Apreta el botón Guardar y cierra la aplicación acompañante. Abre tu copia de respaldo y ve si hay entradas ingresadas. Si no hay, vuelve y asegúrate que no tienes errores en el código. Asegúrate de que el nombre de tus etiquetas son iguales incluyendo las letras mayúsculas. Si todo funciona, ¡haz completado el desafío!
+
+<center>
+<p style="text-align: center;">Still stuck?</p>
+<p style="text-align: center;">Estas son las <a href="http://appinventor.mit.edu/explore/ai2/share.html" target="_blank" style="color:#eae46f">instrucciones</a> de cómo descargar y usar nuestro códigos fuente.</p>
+<p style="text-align: center;"><a href="https://drive.google.com/file/d/0B9HV58UviqU_a2lTVFdUb0hGbGM/view?usp=sharing" target="_blank" style="color:#eae46f">
+Descarga nuestro código fuente de ejemplo
+	</a></p></center></div>
