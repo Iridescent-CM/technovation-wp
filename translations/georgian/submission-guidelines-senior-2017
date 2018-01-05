@@ -1,4 +1,4 @@
-<h1>Submission Guidelines-წარდგენის წესები</h1>
+<center><h1>წარდგენის წესები</h1>
 <p style="text-align: center">დარწმუნდით, რომ ყველაფერი მზად გაქვთ აპლოკაციის Technovation-ისთვის წარსადგენად!</p>
 
 <h2>  წარდგენის წესები უფროსი ასაკის გუნდისთვის</h2>
@@ -8,22 +8,21 @@
 <p style="text-align: center"><strong>შენიშვნა: </strong>ჩაბარების დრო განსხვავებულია უფროსი ასაკისა და უმცროსი ასაკის გუნდებისთვის.დარწმუნდით ,რომ თქვენი ასაკის გუნდისთვის განკუთვნილ წესებს მიჰყვებით.</p>
 <p style="text-align: center"><b>ნამუშევრის წარდგენით ,თქვენ ეთანხმებით წარდგენასთან დაკავშირებულ ყველა წესს: </b></p>
 <p style="text-align: center">ეს წარდგენის და ჩაბარების წესები შეიქმნა ამ გუნდში  არსებული სტუდენტების მიერ.</p>
+</center>
 
 <h3>General-ზოგადი</h3>
- გუნდის ფოტო ან რამე ისეთი სურათი რომელიც გუნდს წარმოადგენს (სასურველია ფოტო იყოს მენტორთან ან მასწავლებელთან ერთად)
+<p><input type="checkbox">გუნდის ფოტო ან რამე ისეთი სურათი რომელიც გუნდს წარმოადგენს (სასურველია ფოტო იყოს მენტორთან ან მასწავლებელთან ერთად)</p>
+<p><input type="checkbox">პროგრამის დასრულების შემდგომი კვლევა.(გუნდის თითოეულმა წევრმა უნდა დაასრულოს ეს. ლინკი ხელმისაწვდომი იქნება  თქვენს <a href="https://my.technovationchallenge.org/" target="_blank">my.technovationchallenge.org</a>-ის გვერდზე  შესვლისას).</p>
 
- პროგრამის დასრულების შემდგომი კვლევა.(გუნდის თითოეულმა წევრმა უნდა დაასრულოს ეს. ლინკი ხელმისაწვდომი იქნება  თქვენს <a href="https://my.technovationchallenge.org/" target="_blank">my.technovationchallenge.org</a>-ის გვერდზე  შესვლისას).
+
 <h3>Overall Impression Category (25 points)-საერთო შთაბჭდილებების კატეგორია(25 ქულა)</h3>
- დარწმუნდით, რომ თქვენი ბიზნეს გეგმა შეძლებს თქვენსავე ბიზნეს საქმიანობაში  წარმატებას მიაღწიოთ.
+<p><input type="checkbox">დარწმუნდით, რომ თქვენი ბიზნეს გეგმა შეძლებს თქვენსავე ბიზნეს საქმიანობაში  წარმატებას მიაღწიოთ.</p>
+<p><input type="checkbox">გუნდის წარდგენის თითოეული კომპონენტი კარგად გააზრებულად და ერთმანეთთან შეთავსებულად  შეადგინეთ.</p>
+<p><input type="checkbox">მიმართეთ პრობლემის გადაჭრის ორიგინალურ გზას</p>
+<p><input type="checkbox">მოძებნეთ გზები რომლებიც თქვენს აპლიკაციას სხვა უნდებისგან განასხვავებს</p>
 
- გუნდის წარდგენის თითოეული კომპონენტი კარგად გააზრებულად და ერთმანეთთან შეთავსებულად  შეადგინეთ.
-
- მიმართეთ პრობლემის გადაჭრის ორიგინალურ გზას
-
- მოძებნეთ გზები რომლებიც თქვენს აპლიკაციას სხვა უნდებისგან განასხვავებს
 <h3>Technical (20 points)  ტექნიკური მხარე -(20 ქულა)</h3>
- გააზიარეთ თქვენი აპლიკაციის კოდი
-<ul>
+<p><input type="checkbox">გააზიარეთ თქვენი აპლიკაციის კოდი</p>
 <ul>
  	<li style="font-weight: 400">App Inventor, Java, Objective-C, Swift, C#, JavaScript -ის ან ნებისმიერი სხვა პროგრამული ენის ფაილია მისაღები.</li>
  	<li style="font-weight: 400">თუკი App Inventor-ში არის შექმნილი  ,  აქ იხილეთ ინსტრუქციები  <a href="http://appinventor.mit.edu/explore/ai2/share.html" target="_blank">instructions</a>  თუ როგორ გადაოტანოთ  an.aia ფაილი.(და არა .apk).</li>
@@ -34,44 +33,34 @@
 </ol>
 </li>
 </ul>
-</ul>
-  100 სიტყვა აპლიკაციის ასაღწერად
-
- უფრო მეტი თვალსაჩინოებისათვის თქვენი აპლიკაციიდან 2-5  ნაწყვეტი ეკრანზე აჩვენეთ ,რათა მსაჯებს   უფრო მეტი წარმოდგენა  შეექმნათ თქვენს მიერ შექმნილი აპლიკაციის ეფექტურობაზე.
-
- დაასრულეთ  <a href="/?p=20244" target="_blank">Technical Checklist</a>.(ტექნიკური ჩამონათვალი)
-<ul>
+<p><input type="checkbox">100 სიტყვა აპლიკაციის ასაღწერად</p>
+<p><input type="checkbox">უფრო მეტი თვალსაჩინოებისათვის თქვენი აპლიკაციიდან 2-5  ნაწყვეტი ეკრანზე აჩვენეთ ,რათა მსაჯებს   უფრო მეტი წარმოდგენა  შეექმნათ თქვენს მიერ შექმნილი აპლიკაციის ეფექტურობაზე.</p>
+<p><input type="checkbox">დაასრულეთ  <a href="/?p=20244" target="_blank">Technical Checklist</a>.(ტექნიკური ჩამონათვალი)</p>
 <ul>
  	<li style="font-weight: 400">თითოეული პუნქტის აღწერისას გამოიყენეთ წინადადება ან ეკრანიზაცია</li>
  	<li style="font-weight: 400">ატვირთეთ ტქვენი პროტოტიპის სურათი და ერთი ივენთი რომელიც განხილულია  Coding Unit 5-ში</li>
 </ul>
-</ul>
- Demo Video (2 minutes or less-2 წუთიანი ან უფრო ნაკლები)
-<ul>
+<p><input type="checkbox">Demo Video (2 minutes or less-2 წუთიანი ან უფრო ნაკლები)</p>
 <ul>
  	<li style="font-weight: 400">ნათლად გამოხატეტ ტქვენი აპლიკაციის ფუნქცია</li>
  	<li style="font-weight: 400">ხაზი გაუსვით (მონიშნეთ) თქვენი  აპლიკაციის უნიკალურ თვისებებს</li>
  	<li style="font-weight: 400">ფოკუსირება მოახდინეთ მომხმარებლის ინტრფეისზეFocus on the user interface</li>
  	<li style="font-weight: 400">ვიდეო ატვირთული უნდა იყოს  YouTube -ზე ან Vimeo-ზე, ლინკი კი უნდა გააზიაროთ   Technovation-ის პლატფორმის წარდგენის  მეშვეობით</li>
 </ul>
-</ul>
-<h3> აზროვნება(15 ქულა)</h3>
- ნათლად გამოხატეთ, თუ როგორ ემთხვევა თქვენი აპლიკაციის იდეაTechnovation-ის იმ  6 თემას, რომელიც წარმოდგენილია გაეროს მდგრადი განვითარების მიზნების მიერ, როგორიცაა(მშვიდობა ,თანასწორობა,სირარიბე,გარემოს დაცვა,განათლებდა და ჯანმრთელოაბა)
 
- ახსენით  და გამოხატეთ  მტკიცებულებები იმ  პრობლემის ფაქტებითა და სტატისტიკური მონაცემებით  ,რომლისკენაც თქვენ ხართ  მიმართული (ორიენტირებული).
+<h3>აზროვნება(15 ქულა)</h3>
+<p><input type="checkbox">ნათლად გამოხატეთ, თუ როგორ ემთხვევა თქვენი აპლიკაციის იდეაTechnovation-ის იმ  6 თემას, რომელიც წარმოდგენილია გაეროს მდგრადი განვითარების მიზნების მიერ, როგორიცაა(მშვიდობა ,თანასწორობა,სირარიბე,გარემოს დაცვა,განათლებდა და ჯანმრთელოაბა)</p>
+<p><input type="checkbox">ახსენით  და გამოხატეთ  მტკიცებულებები იმ  პრობლემის ფაქტებითა და სტატისტიკური მონაცემებით  ,რომლისკენაც თქვენ ხართ  მიმართული (ორიენტირებული).</p>
+<p><input type="checkbox">დარწმუნდით, რომ თქვენი აპლიკაცია ეფექტურად მიმართავს თქვენს მიერ ასახულ პრობლემას.</p>
 
- დარწმუნდით, რომ თქვენი აპლიკაცია ეფექტურად მიმართავს თქვენს მიერ ასახულ პრობლემას.
 <h3>Pitch -(20 points)  სათამაშო მოედანი( 20 ქულა)</h3>
- Pitch video (4 წუთი ან ნაკლები)
-<ul>
+<p><input type="checkbox">Pitch video (4 წუთი ან ნაკლები)</p>
 <ul>
  	<li style="font-weight: 400">გუნდის ყველა წევრმა უნდა ილაპარაკოსAll members of the team must speak.</li>
  	<li style="font-weight: 400">ვიდეოს ფორმატი გუნდის სურილზეა დამოკიდებული.შესაძლო ფორმატებია: Skits, Slide Presentations, and Testimonials from users.</li>
  	<li style="font-weight: 400">ვიდეო ატვირთული უნდა იყოს  YouTube -ზე ან Vimeo-ზე, ლინკი კი უნდა გააზიაროთ   Technovation-ის პლატფორმის წარდგენის  მეშვეობით</li>
 </ul>
-</ul>
- Pitch -ის საპრეზენტაციო ადგილი (მხოლოდ რეგიონალური;დეტალური ინფორმაციისთვის დაუკავშირდით მენტორს)
-<ul>
+<p><input type="checkbox">Pitch -ის საპრეზენტაციო ადგილი (მხოლოდ რეგიონალური;დეტალური ინფორმაციისთვის დაუკავშირდით მენტორს)</p>
 <ul>
  	<li style="font-weight: 400">წარმოადგინეთ  PDF  დოკუმენტის პორმატში.იხილეთ რამოდენიმე რჩევა თუ როგორ უნდა გადავიტანოტ სხვა ფორმატის პრეზენტაცია PDF-ში:
 <ul>
@@ -84,54 +73,32 @@
 </ul>
 </li>
 </ul>
-</ul>
+
 <h3> მეწარმეობა ( 20 ქულა )   Entrepreneurship- (20 points)</h3>
 ეს ნაწილი წარმოდგენილი უნდა იყოს  PDF ფორმატში,შემდეგი კომპონენტებით.გთხოთ,მიუთითოთ ეს <a href="http://www.technovationchallenge.org/wp-content/uploads/2016/12/BusinessPlanChecklist.pdf" target="_blank">checklist</a> (ჩამონათვალი) შემდეგი ინსტრუქციების.
 
- სათაური(1 page)
-<ul>
+<p><input type="checkbox">სათაური(1 page)</p>
 <ul>
  	<li style="font-weight: 400">გუნდის სახელი ( ან ბიზნეს სახელი)</li>
  	<li style="font-weight: 400">გუნდის წევრების სახელები</li>
  	<li style="font-weight: 400">პროდუქციის( მობილური აპლიკაციის) დასახელება</li>
  	<li style="font-weight: 400">ლოგო</li>
 </ul>
-</ul>
- სარჩევი (1 page)
+<p><input type="checkbox">სარჩევი (1 page)</p>
+<p><input type="checkbox">რეზიუმე(ზირითადი შეჯამება)</p>
+<p><input type="checkbox">კომპანიის აღწერილობა</p>
+<p><input type="checkbox">პროდუქციის ან სერვისის(მომსახურების) აღწერა</p>
+<p><input type="checkbox">ბაზრის ანალიზი</p>
+<p><input type="checkbox">მარკეტინგის გეგმა(სტრატეგიული და განმახორციელებელი)</p>
+<p><input type="checkbox">ფინანსური გეგმა და პროგნოზები</p>
 
- რეზიუმე(ზირითადი შეჯამება)
-
- კომპანიის აღწერილობა
-
- პროდუქციის ან სერვისის(მომსახურების) აღწერა
-
- ბაზრის ანალიზი
-
- მარკეტინგის გეგმა(სტრატეგიული და განმახორციელებელი)
-
- ფინანსური გეგმა და პროგნოზები
-<h2>Technovation-ის ვადები</h2>
-Aug-აგვისტო
-Sep-სექტემბერი
-Oct-ოქტომბერი
-Nov-ნოემბერი
-Dec-დეკემბერი
-Jan-იანვარი
-Feb-თებერვალი
-Mar-მარტი
-Apr-აპრილი
-May-მაისი
-Jun-ივნისი
-Jul-ივლისი
-დასაქმების სეზონი
-ოფიციალური სეზონი
-Pitch-ის  (სათამაშო მოედნის) ივენთები
-მსოფლიო Pitch
+<div style="background-color:#421b41; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
 <h3 style="color: #ececec" align="center">Key Dates for 2017</h3>
-<p style="color: #ececec;text-align: center;font-size: 15px"><strong>Registration</strong>: March 8
-<strong>Submission Deadline</strong>: April 26
-<strong>World Pitch Summit</strong>: August 7-11</p>
+<p style="color: #ececec;text-align: center;font-size: 15px"><strong>Registration</strong>: March 8</p>
+	<p style="color: #ececec;text-align: center;font-size: 15px"><strong>Submission Deadline</strong>: April 26</p>
+<p style="color: #ececec;text-align: center;font-size: 15px"><strong>World Pitch Summit</strong>: August 7-11</p>
+</div>
 <p style="text-align: center">მზად ხართ მიიღოთ  მსოფლიო  Technovation Challenge-ი(ტექნოვაციის გამოწვევა?)?</p>
-<a href="https://my.technovationchallenge.org" target="_self">
+<center><a href="https://my.technovationchallenge.org" target="_self">
 Sign Up
-</a>
+	</a></center>
