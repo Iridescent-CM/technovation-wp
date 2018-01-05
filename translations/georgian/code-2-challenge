@@ -1,0 +1,123 @@
+<h1>Code 2 Challenge</h1>
+<h1>Make a To-Do List -გასაკეთებელ საქმეთა    ნუსხის შექნა</h1>
+<ul>
+ 	<li><a href="#design">Designing your screen</a></li>
+ 	<li><a href="#blocks">Adding things to the list</a></li>
+ 	<li><a href="#check1">Check point #1</a></li>
+ 	<li><a href="#delete">Deleting entries</a></li>
+ 	<li><a href="#check2">Check point #2</a></li>
+ 	<li><a href="#reset">Rest button</a></li>
+ 	<li><a href="#check3">Check point #3</a></li>
+ 	<li><a href="#tinyDB">Programming TinyDB</a></li>
+ 	<li><a href="#final">Final check point</a></li>
+</ul>
+<h3>Description</h3>
+To do list -ის (გასაკეთებელ  დავალებათა  ნუსხის) შექმნით მომხმარებელს საშუალება მიეცემა შევიდეს და აირჩიოს მისთვის სასურველლი საკითი.მნიშვნელოვანია რომ აპლკაციამ   საკითხები  დაიმახსოვროს ,იმისათვის რომ  მომხმარებელს აპლიკაციის ყოველი გახსნისას  ჰქონდეს მათზე წვდომა. მანამ სანამ ჩელენჯს სცდიდეთ,იქნებ თვალი გადაავლოთ და ისწავლოთ  <a href="http://ai2.appinventor.mit.edu/reference/components/userinterface.html#ListView" target="_blank">ListView</a> -ის გამოყენება.
+
+ჩვენი  აპლიკაციის ნიმუში იხ,აქ: <a href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.ToDoList" target="_blank">Technovation Challenge #2</a>
+
+მანამ სანამ ინსტრუქციებს წაიკითხავდეთ,მაქსიმალურად ეცადეთ, რომ ეს ჩელენჯი(გამოწვეწვა) თვითონ სცადოთ,ანუ საკუთარი ძალებით გააკეთოთ. დაიმახსოვრეთ,ეს ინსტრუქციები არის ერთადერთი გზა იმისა, რომ ჩელენჯი მაქსიმალურად იქნეს დაძლეული.წარმატებულ კოდინგს გისურვებთ!
+
+&nbsp;
+<h3>Designing your screen-ეკრანის დიზაინი</h3>
+ჩვენ შევქმენით აპლიკაცია, რომელიც მომხმარებელს საშუალებას აძლევს ნუსხაში (სიაში) ჩაამატონ საკითხები,ამოიღონ საკითხები,შეინახონ ( save ) სია და  გადატვირთონ სია.ამ ყველაფრისთვის საჭირო გახდა ეკრანზე გვქონოდა სამი ღილაკი.  ერთი იმისთვის ,რომ სიაში საკითხები ჩამატდეს,ერთი იმისთვის რომ  მომხმარებლის მიერ შემუშავებულოი საკითხები შეინახოს მომავლისთვის  და ერთიც გადასატვირთი ღილაკი რომელიც წაშლის სიას.
+<ol>
+<ol>
+ 	<li style="font-weight: 400;">ეკრანზე დაამატეთ სათაური  რომელიც მომხმარებელს  ეტყვის თუ რა უნდა გააკეთოს.</li>
+ 	<li style="font-weight: 400;">დაამატეთ  textbox -ი ,რომ მომხმარებლმა შეძლოს და თავისი სამოქმედო-ნუსხა(სია)იქ შეიყვანოს.</li>
+ 	<li style="font-weight: 400;">დაამატეთ ღილაკი რომელსაც მომხმარებელი დაჭერს მას შემდეგ რაც ის შევა  თავის  სამოქმედი პუნქტში .
+<ol>
+ 	<li style="font-weight: 400;">ჩვენ ამ ღილაკს გადავარქვით  ‘Enter’-ი,ამგვარად ბლოკების პროგრამირების დროს გავიხსენებთ მას  რა ფუნქცია აკისრია.</li>
+</ol>
+</li>
+ 	<li style="font-weight: 400;"> დაამატეთ ListView-ი ეკრანზე. მომხმარებელი თავის სამოქმედო სიას მისი საშუალებით იხილავს.</li>
+ 	<li style="font-weight: 400;"> ‘Fill Parent’-ის შევსებისას ჩვენს მონაცემებს ვწერთ(სიმაღლე და სიგანე) , მაგრამ როცა საქმე ეკრანის დიზაინთან გვაქვს,როგორც თქვენ გენებოთ საქმე  ისე წარმართეთ .
+<ol>
+ 	<li style="font-weight: 400;">დააჭირეთ და გაიგეთ  <a href="http://ai2.appinventor.mit.edu/reference/components/userinterface.html#ListView" target="_blank">ListView</a>-ის  გამოყენების შესახებ უფრო მეტი .</li>
+</ol>
+</li>
+ 	<li style="font-weight: 400;">ეკრანზე დაამატეთ  save-ღილაკი რათა დაიცვათ მონაცემები და reset-ღილაკი სიის წასაშლელად.
+<ol>
+ 	<li style="font-weight: 400;">ჩვენ ამ ღილაკებს დავარქვით  ‘Save’ and ‘Reset’.</li>
+</ol>
+</li>
+ 	<li style="font-weight: 400;"><i>სურვილისამებრ: ჩვენ დავამატეთ  ორი   Horizontal Arrangements-ი   ჩვენი ეკრანის განლაგების ორგანიზებისთვის,მაგრამ თქვენს ეკრანს როგორც გინდათ ისე გაუწიეთ ორგანიზება .</i></li>
+</ol>
+</ol>
+<img style="border: 1px solid #cccccc;" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image07-1024x552.png" alt="steps 1-6" width="1024" height="552" />
+<ol start="7">
+ 	<li style="font-weight: 400;">დაამატეთ  TinyDB   -ი   storage menu-დან . როდესაც მას ეკრანზე დასვავთ ის უხილავ კომპონენტად მოგევლინებათ( ‘Non-visible component’).</li>
+</ol>
+<img style="border: 1px solid #cccccc;" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image06-1024x555.png" alt="step 7" width="1024" height="555" />
+
+&nbsp;
+<h3>სამოქმედო სიაში პარამეტრების ჩამატება</h3>
+ჩვენი აპლკაციის მონიტორის საშუალებით მომხმარებელი შემოდის , სიაში მონაცემებს ახარისხებს  და შემდეგ აჩვენებს მას  ListView-ის მეშვეობით.ჩვენ ეს გავაკეთეთ ცვალებადი სიის შექმნისთ სახელად <em>items  .</em>როდესაც ჩვენი მომხმარებელი დააჭერს<em> </em>  enter  ღილაკს,ჩვენ items-ში ვუმატებთ იმას რაც  textbox-ში გვქვს და ის გამოჩნდება ListView-ში.
+<ol>
+ 	<li style="font-weight: 400;">შექმენით  <i>items-ი </i>რომელიც თქვენს სამოქმედო სიის მონაცემებს<i> </i> მართავს.დაიწყეთ ცარიელი სიის შექმნით.</li>
+ 	<li style="font-weight: 400;">ხელი ჩასჭიდეთ  <strong> button.click</strong> block-ს თქვენი enter  ღილაკისთვის .</li>
+ 	<li style="font-weight: 400;">აიღეთ <strong>add items to list</strong> block-ი   <strong>Lists-დან</strong>. ჩასვით ის  <strong>enter.click</strong> -ში.</li>
+ 	<li style="font-weight: 400;">ჩასვით <i>items-ი </i> სიის სახელად  და  <strong>TextBox1.Text</strong> -ი როგორც სიაში ჩასამატებელი პუნქტი.</li>
+ 	<li style="font-weight: 400;">ხელი ჩაავლეთ  <strong>set ListView1.Elements to</strong> block -ს  და ჩასვით  <strong>add items to list</strong> block-ის ქვეშ.</li>
+ 	<li style="font-weight: 400;">დაამატეთ თქვენი <i>items-ი  </i> <strong>set ListView1.Elements to</strong> block-ში.</li>
+ 	<li style="font-weight: 400;"><i>სურვილისამებრ:აპლიკაცია გამოსაყენებლად უფრო ადვილი რომ ყოფილიყო,მაშინ როცა მომხმარებელი დააჭერდა "შესვლა" ღილაკს   დავმალეთ კლავიატურა .ამის გასაკეთებლად დააჭირეთ TextBox1-ს   და ხელი ჩასჭიდეთ<strong>TextBox1.HideKeyboard</strong> block-ს.</i></li>
+</ol>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image08-1024x438.png" alt="blocks steps 1-7" width="898" height="236" />
+<h3>გადამოწმება #1</h3>
+დროა გადაამოწმეთ ,მუშაობს თუ არა ის რაც ეს-ესაა შექმენით.მოიმარჯვეთ ტელეფონი ან ემულატორი და  გამოსცადეთ თქვენი აპლიკაცია.როდესც textbox-ში რაიმეს ბეჭდავთ  და აჭერთ enter  ღილაკს  ის უნდა გამოჩნდეს ListView-ში.თუკი აპლიკაცია არ მუშაობს ,სანამ გააგრძელებდეთ,უკან დაბრუნდით და მოძებნეთ რა შეგეშალათ. თუკი კვლავ შეფერხდით მენტორს ან გუნდის წევრებს შეეხმიანეთ.
+<h3> to-do list-დან ჩანაწერების წაშლა</h3>
+როდესაც  მომხმარებელი to-do list-ში  დავალების შესრულებას  დაასრულებს  ,მაგრამ აღარ სურს მისი ხილვა იქ, ListView-ში დააჭერს იმას,რისი წაშლაც უნდა და წაშლის .
+
+ჩვენ ამისათვის შევქმენით ცვალებადი  ელემენტი სახელად <i>index-ი. </i>ეს ადგილობრივი ელემენტია რადგანაც მისი გამოყენება კოდინგში მხოლოდ ერთხელ დაგვჭირდა<i>. ეს ყველაფერი კი იმისთვის შევქმენით ,რომ  მომხმარებელს ქონოდა ინდექსი რომელსაც ListView-ში აირჩევდა. და  </i>index-ს მივანიჭეთ იმის შესაძლებლობა რომ აპლიკაციისთვის ეთქვა  რა ამოეღო items-დან.  ListView-ი განახლდება, მას შემდეგ რაც საკითხების ნუსხა შეიცვლება.
+<ol>
+ 	<li style="font-weight: 400;">ჩასჭიდეთ   <strong>ListView1.AfterPicking</strong> block-ს.</li>
+ 	<li style="font-weight: 400;">შექმენით ადგილობრივი ცვალებადი ელემენტი სახელწოდებით  index   და   დასვით იქ  რითიც  თქვენ გნებავთ,რომ დაიწყოთ.  ჩვენ ნულით დავიწყეთ და შესაბამისად იქ დავსვით..Create a local variable called <i> </i>and set it whatever you like to start out. We set our to zero.</li>
+ 	<li style="font-weight: 400;">აიღეთ <strong>set ‘name’ to</strong>  ცვალებადი ბლოკი და წაიღეთ ცვალებად <i>index-ში.</i></li>
+ 	<li style="font-weight: 400;"> მიამაგრეთ ბლოკები  <strong>index is list, thing, list-ები</strong>.</li>
+ 	<li style="font-weight: 400;">მიანიჭეთ  <strong>thing-ს </strong> შესაძლებლობა ,რომ იყოს  <strong>ListView1.Selection-ი</strong>   და  <strong>list</strong> -ს  მიანიჭეთ შესაძლებლობა, რომ იყოს   <i>items</i> list-ი.</li>
+ 	<li style="font-weight: 400;"> ჩასჭიდეთ <strong>remove list item block</strong> -ს და ჩასვით  თქვენს ადგილობრივ ცცვალებად ბლოკში.</li>
+ 	<li style="font-weight: 400;">დასვით <i>items -ი   </i>ისე რომ იყო  <strong>list-ი </strong> და  <i>index -ი  </i>ისე, რომ იყოს the <strong>index</strong>.</li>
+ 	<li style="font-weight: 400;">მოათავსეთ <strong>set ListView1.Elements to</strong> block -ი თქვენი ნარინჯისფერი ცვალებადი ბლოკის ქვეშ  და დააკავშირეთ თქვენი <i>items-ი </i> მასთან.</li>
+</ol>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Blocks2.png" alt="blocks2" width="2276" height="753" />
+<h3><b>გადამოწმება #2 </b></h3>
+დროა გადაამოწმოთ აპლიკაცია მუშაობს თუ არა!მოიმარჯვეთ  ტელეფონი ან ემულატორია დაიწყეთ ტესტი. ტესტირების დროს აპლიკაციაში უნდა შეძლოთ იმ პარამეტრებზე წვდომა ,რომლებიც  სამოქმედო ნუსხაში შეიყვანეთ  და ამავე დროს უნდა შეძლოთ მათი წაშლა. თუკი ამას ვერ ახერხრბთ ე.ი.  აპლიკაცია არ მუშაობს  და შესაბამისად ,უკან უნდა დაბრუნდეთ და კოდი გადაამოწმოთ.თუკი კვლავ შეფერხდით  მენტორს ან გუნდის წევრებს დაუკავშირდით  ან იხილეთ გაკვეთილები  ListView-ის შესახებ!
+<h3> reset -ღილაკის  პროგრამირება</h3>
+იმისათვის, რომ აპლიკაცია გამოსაყენებლად უფრო ადვილი ყოფილიყო,ჩავამატეთ reset ღილაკი რომელიც to-do list-ის გარეთ ყველა მონაცემს შლის.ეს ღილაკი დავაპროგრამეთ და როდესაც მომხმარებელი მას დააჭერს ხელს ის  შეძლებს   და    list <i>items-ებს   </i>გადაიტანს  ცარიელ<i>   </i>list-ში . შემდეგ  გადავტვირთეთ ListView -ი რათა ახალი ცარიელი  contents of the list <i>items-ები </i>გამოჩენილიყო.
+<ol>
+ 	<li style="font-weight: 400;">reset  ღილაკისთვის ხელი ჩაავლეთ  <strong>when button.click</strong> block-ს.</li>
+ 	<li style="font-weight: 400;">აიღეთ   <strong>set ‘name’ to</strong> variable block(ცვალებადი ბლოკი ) და აირჩიეთ  თქვენი   <i>items </i>list-ი.</li>
+ 	<li style="font-weight: 400;">მიამაგრეთ   <strong>create empty list</strong> block-ი.</li>
+ 	<li style="font-weight: 400;">ხელი ჩაავლეთ  <strong>set ListView1.Elements to</strong> block -ს  და მიამაგრეთ  get <i>items</i> variable block-ი.</li>
+</ol>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image02-1-1024x297.png" alt="Reset steps 1-4" width="678" height="197" />
+<h3>გადამოწმება #3</h3>
+დარწმუნდით ,რომ  reset   ღილაკი მუშაობს!მპიმარჯვეთ ტელეფონი ან ემულატორი  და დატესტეთ  აპლიკაცია. მას შემდეგ რაც to-do list-ში მონაცემებს შეიყვანთ ,უნდა დააჭიროთ reset  ღილაკს და მან list-ი უნდა წაშალოს.  თუკი ისევ შეფერხდით დაუკავშირდით მენტორს ან გუნდის წევრებს!!!
+<h3> TinyDB-ს პროგრამირება</h3>
+როდესაც მომხმარებელი ხურავს აპლიკაციას, to-do list-ი აპლიკაციაში მეორედ შესვლამდე შეინახება.ჩვენ დავაპროგრამეთ “save” ღილაკი ისე რომ მონაცემთა ბაზისთვის დაგვერქვა(TinyDB)  და შეგვენახა <i>items</i> list-ი. მონაცემთა ბაზა მომხმარებლის მიერ შქმინლ to do list-ს იმახსოვრებს   ზუსტად ისეთს, როგორიც იმ მომენტისთვის არის და იქ ინახავს შემდეგ ვიზიტამდე.
+<ol>
+ 	<li style="font-weight: 400;"> save  ღილაკისთვის ხელი ჩაავლეთ <strong>when button.Click</strong> block-ს.</li>
+ 	<li style="font-weight: 400;">დაამატეთ  <strong>call TinyDB1.StoreValue</strong> block.</li>
+ 	<li style="font-weight: 400;">დაამატეთ  <strong>tag</strong> name.</li>
+ 	<li style="font-weight: 400;">დაამატეთ თქვენი  <i>items </i>variable(ცვალებადი ელემენტები)  <strong>valueToStore-ში</strong>.</li>
+</ol>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image01-1024x315.png" alt="TinyDB steps 1-4" width="809" height="249" />
+
+&nbsp;
+
+ჩვენი აპლიკაცია მონაცემთა ბაზის შემოწმებას to-do lists-ების  შემოწმებით იწყებს.ამის გასაკეთებლად გამოვიყენეთ   <strong>when Screen1.Initialize</strong> block  -ი, რომელიც  Screen1-ზე ჩნდება. ჩვენი  list <i>items-  </i>ი დავსვით მონაცემთა ბაზაში"ListData"-ს ქვეშ. შენახული მონაცემების არ არსებობის შემთხვევაში აპლიკაციას მივეცით იმის საშუალება ,რომ შექმნას empty list(ცარიელი სია )ან blank to-do list(დავალებათა ცარიელი სიაის ბლანკი). ამის შემდეგ აპლიკაცია აჩვენებს იმას რაც არის <i>items </i>variable-ში( ცვლად ელემენტებში) ,რაც ამავე დროს წარმოადგენს stored data-ს (შენახულ მონაცემს) ან empty list-ს (ცარიელ სიას).
+<ol>
+ 	<li style="font-weight: 400;">ჩასჭიდეთ  <strong>when Screen1.Initialize </strong>block-ს.</li>
+ 	<li style="font-weight: 400;">ჩასჭიდეთ  <strong>set ‘variable name’ to</strong> block-ს და დასვით ისე ,რომ გახდეს თქვენი <i>items </i>list.and set the variable to be your</li>
+ 	<li style="font-weight: 400;">მოაცემთა  ბაზის სამართავად გამოიყენეთ <strong>call TinyDB1.GetValue</strong> block-ი.</li>
+ 	<li style="font-weight: 400;">შეიყვანეთ  tag-ის სახელი, რომელიც   list for the <strong>tag-ის შესანახად გამოგიყენებიათ.</strong>name you used to save the.</li>
+ 	<li style="font-weight: 400;">დასვით  <strong>create empty list </strong>block-ი  <strong>valueIfTagNotThere-თვის </strong>.</li>
+ 	<li style="font-weight: 400;">ჩასჭიდეთ  <strong>set ListView1.Elements to </strong>block -ს და მიამაგრეათ თქვენს  <i>items</i> variable-ს.</li>
+</ol>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image18-1024x321.png" alt="TinyDB steps 1-6" width="986" height="309" />
+<h3>  ბოლო გადამოწმება</h3>
+დროა გადაამოწმოტ აპლიკაცია მუშაობს თუ არა! ჩამოტვირთეთ თქვენი აპლიკცია ტელეფონში ან ემულატორში,შეიყვანეთ მონაცემები(რამოდენიმე)თქვენსავე to-do list-ში. დააჭირეთ save ღილაკს და დახურეთ  AI companion app-ი . შემდეგ კვლავ გახსენიტ აპლიკაცია და გადაამოწმეთ მონაცემები ,რაც შეიყვანეთ იქ არის თუ არა.თუკი იქ არ აღმოჩნდებიან მოგიწევთ უკან დაბრუნდეთ და გადაამოწმეთ კოდში რამე შეცდომა ხომ არ დაუშვით.დარწმუნდით, რომ  ყველაფერი სწორად ჩაწერეთ ,გასათვალისწინებელია დიდი ასობგერებიც.თუკი ყველაფერი მუშაოს ,მაშ გ ი ლ ო ც ა ვ თ , თქვენ დაასრულეთ the challenge-ი (ჩელენჯი, გამოწვევა)!
+
+ისევ შეფერხება?ჩამოტვირთეთ კოდის რესურსები.ჩამოტვორთვის და გამოყენების ინსტრუქციეი  იხ,აქ. <a href="http://appinventor.mit.edu/explore/ai2/share.html">instructions</a> .<a href="https://drive.google.com/file/d/0B9HV58UviqU_a2lTVFdUb0hGbGM/view?usp=sharing" target="_blank">
+Download the source code
+</a>
