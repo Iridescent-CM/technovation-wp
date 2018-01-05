@@ -1,370 +1,381 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Untitled Document</title>
-</head>
+<ul>
+ 	<li><a href="#conditions">Bedingungen</a></li>
+ 	<li><a href="#ifelse">If/Else Statements</a></li>
+ 	<li><a href="#act1">Übung</a></li>
+ 	<li><a href="#elseif">Else/If Statements</a></li>
+ 	<li><a href="#act2">Übung</a></li>
+ 	<li><a href="#andop">Logik: AND Operator</a></li>
+ 	<li><a href="#orop">Logik: OR Operator</a></li>
+ 	<li><a href="#notop">Logik: NOT Operator</a></li>
+ 	<li><a href="#act3">Übung</a></li>
+ 	<li><a href="#forloop">For Schleifen</a></li>
+ 	<li><a href="#foreach">For Each Schleifen</a></li>
+ 	<li><a href="#whileloop">While Schleifen</a></li>
+ 	<li><a href="#codechal">Code Challenge: Datenbankabfrage</a></li>
+</ul>
+&nbsp;
+<h3>Lernziele:</h3>
+In dieser Einheit wirst du
+<ul>
+ 	<li>Erfahren, was bedingte Anweisungen sind und wie diese zu schreiben sind</li>
+ 	<li>Erfahren, wie du Logikoperatoren in deinem Code verwendest</li>
+ 	<li>Erfahren, wie du For- und While-Schleifen verwendest</li>
+ 	<li>Erstellst du eine App, die eine Datenbank durchsucht</li>
+</ul>
+Herzlichen Glückwunsch zu deinem bisherigen Fortschritt! Dies ist eine wirklich große Einheit, aber es enthält eine Menge der Codierung Konzepte die wesentlich für die Programmierung deiner App sind. Diese Einheit enthält die letzte Codierungs-Herausforderung und es ist auch die letzte Einheit, die dir die Grundlagen der Codierung beibringt. Nach dieser Unit erfährst du mehr über Ressourcen und die Planung deiner App! Lass dich von Dingen entmutigen, die du nicht verstehst, du kannst sie später nochmals anschauen!
 
-<body>
-<p>Code 3: Bedingungen, Logik und Loops</p>
-<p>&amp;nbsp;</p>
-<p>Lernziele:</p>
-<p>&amp;nbsp;</p>
-<p>In dieser Einheit wirst du<br>
-  &lt;ul&gt;<br>
-  &lt;li&gt;Erfahren, was bedingte Anweisungen sind und wie diese zu schreiben sind&lt;/li&gt;<br>
-  &lt;li&gt;Erfahren, wie du Logikoperatoren in deinem Code verwendest&lt;/li&gt;<br>
-  &lt;li&gt;Erfahren, wie du For- und While-Schleifen verwendest&lt;/li&gt;<br>
-  &lt;li&gt;Erstellst du eine App, die eine Datenbank durchsucht&lt;/li&gt;<br>
-  &lt;/ul&gt;<br>
-  &amp;nbsp;</p>
-<p>Herzlichen Glückwunsch zu deinem bisherigen Fortschritt! Dies ist eine wirklich große Einheit, aber es enthält eine Menge der Codierung Konzepte die wesentlich für die Programmierung deiner App sind. Diese Einheit enthält die letzte Codierungs-Herausforderung und es ist auch die letzte Einheit, die dir die Grundlagen der Codierung beibringt. Nach dieser Unit erfährst du mehr über Ressourcen und die Planung deiner App! Lass dich von Dingen entmutigen, die du nicht verstehst, du kannst sie später nochmals anschauen!</p>
-<p>&amp;nbsp;</p>
-<p>Bevor du dieses Gerät startest, wollen wir einige Konzepte aus den Coding Units 1 und 2, die du in diesem Gerät benötigst, überprüfen.<br>
-  &lt;ul&gt;<br>
-  &lt;li&gt;&lt;strong&gt;Algorithmen&lt;/strong&gt; sind Schritt für Schritt Anweisungen für deine App.&lt;/li&gt;<br>
-  &lt;li&gt;&lt;strong&gt;Booleans&lt;/strong&gt; sind ein Datentyp mit zwei Werten: true und false.&lt;/li&gt;<br>
-  &lt;li&gt;&lt;strong&gt;Event-Handler&lt;/strong&gt; sagen deiner App, was sie tun soll, wenn etwas passiert.&lt;/li&gt;<br>
-  &lt;li&gt;&lt;strong&gt;Variablen&lt;/strong&gt; - Ein Name für ein Datenelement, das sich verändern kann&lt;/li&gt;<br>
-  &lt;/ul&gt;<br>
-  &amp;nbsp;</p>
-<p>Probiere einmal dieses &lt;a href=&quot;https://www.madewithcode.com/projects/robots&quot;&gt;Made With Code Robot&lt;/a&gt; Spiel aus, bevor du mit dieser Unit beginnst. Es hilft dir, mit den Konzepten, die du lernen wirst, vertraut zu werden. Wenn du jetzt nicht mit allem fünf Ebenen klarkommst, versuche es nochmals nachdem du diese Unit gemacht hast!</p>
-<p>&amp;nbsp;</p>
-<p>Bedingungen</p>
-<p>&amp;nbsp;</p>
-<p>Du hast schon viele Event-Handler eingesetzt! Bisher war die Codierungs-Challenge, dass wenn dein Benutzer einen Button gedrückt hat, die App etwas getan hat. Beispielsweise hat die Eingabetaste in deiner To-do-Listen-App eine To-Do-Liste hinzugefügt. Das &lt;strong&gt;Ereignis&lt;/strong&gt; war, dass der Benutzer &quot;enter&quot; drückt und die Art und Weise die App behandelt wurde, indem du den Text des Benutzers in die To-do-Liste hinzugefügt hast. Der Code für deine App funktionierte so.</p>
-<p>&amp;nbsp;</p>
-<p>&amp;nbsp;</p>
-<p>Möglicherweise hast du in unserer Beispiel-App oder in deiner eigenen 'To-do-Liste' App bemerkt, dass die App es dem Benutzer erlaubt, ein leeres Feld in der Liste hinzufügen. Aus diesem Grund könnte der Benutzer eine wirklich lange Liste ohne Inhalt haben.</p>
-<p>&amp;nbsp;</p>
-<p>Zum Beispiel möchtest du nicht, dass der Benutzer ein leeres Feld zu seiner To-do-Liste hinzufügen kann. Also, jedes Mal, wenn der Benutzer Enter drückt, schreibst du den Code so, dass du deine App fragen kannst &quot;hat der Benutzer Texteingegeben&quot;? Wenn die Antwort ja lautet, fügt die App den Text zur Aufgabenliste hinzu. Wenn die Antwort nein ist, wird die App nicht hinzugefügt. Nun sieht dein Code mehr wie folgt aus:</p>
-<p>&amp;nbsp;</p>
-<p>&amp;nbsp;</p>
-<p>Dies ist eine großartige Möglichkeit, um dein Problem zu beheben, aber denk daran, dass Computer nicht für sich selbst denken, du kannst sie nicht direkt Fragen wie z.B. eine Person. In der Kodierung, wenn du deiner App eine Frage stellen möchtest, programmierst du es, um eine &lt;strong&gt;Bedingung&lt;/strong&gt; zu überprüfen. Eine Bedingung ist etwas, das ein Computer als &lt;strong&gt;wahr&lt;/strong&gt; oder &lt;strong&gt;falsch&lt;/strong&gt; bestimmt.</p>
-<p>&amp;nbsp;</p>
-<p>Wenn du deine App zum Überprüfen einer &lt;strong&gt;Bedingung&lt;/strong&gt; programmierst, können nur zwei mögliche Ergebnisse auftreten. Wahr bedeutet ja, diese Bedingung ist wahr und falsch bedeutet nein, die Bedingung ist falsch. du kannst deiner App befehlen, verschiedene Dinge zu tun, je nachdem, ob die Bedingung wahr oder falsch ist. So fragst du deine App, wenn der Benutzer Text mit einer Bedingung eingegeben hat:</p>
-<p>&amp;nbsp;</p>
-<p>&amp;nbsp;</p>
-<p>Erinnerst du dich an den Datentyp booleans aus &lt;a href=&quot;https://docs.google.com/document/d/1g9YqNiSdg4vtkGT4EI8ORP-j4iVxxavDAAt4icLDi4A/edit#heading=h.2etr0b7vt9pr&quot;&gt;Unit 2: Data and Variables&lt;/a&gt;? &lt;strong&gt;Booleans&lt;/strong&gt; ist ein Datentyp, der wahr oder falsch sein kann. Wenn deine App eine Bedingung auswertet, gibt sie eine boolesche Ausgabe aus!</p>
-<p>&amp;nbsp;</p>
-<p>Bedingte Anweisungen</p>
-<p>&amp;nbsp;<br>
-  &lt;h3&gt;If/Else Anweisungen&lt;/h3&gt;<br>
-  &amp;nbsp;</p>
-<p>So, jetzt weisst du, was eine &lt;strong&gt;Bedingung&lt;/strong&gt; ist, aber wie verwendest du sie in der Codierung? In der Codierung, frägst du deinen Computer, Bedingungen zu bewerten, indem du &lt;strong&gt;bedingte&lt;/strong&gt; &lt;strong&gt;Anweisungen&lt;/strong&gt; schreibst. Bedingte Anweisungen sind die Art und Weise, wie Computer Entscheidungen treffen können. Bedingte Anweisungen haben immer einen &lt;strong&gt;if&lt;/strong&gt;-Teil, der der App sagt, was sie tun sollen, wenn die Bedingung wahr ist. Bedingte Anweisungen haben normalerweise auch einen &lt;strong&gt;else&lt;/strong&gt;-&lt;strong&gt;Teil&lt;/strong&gt;, der deiner App sagt, was sie tun soll, wenn die Bedingung falsch ist. Wenn du den &lt;strong&gt;else-Teil&lt;/strong&gt; verlässt, wird deine App nichts tun, wenn die Bedingung falsch ist. Jetzt sieht dein Code für deine Enter-Taste etwa so aus:</p>
-<p>&amp;nbsp;</p>
-<p>So sehen bedingte Anweisungen im App Inventor aus.</p>
-<p>&amp;nbsp;</p>
-<p>&amp;nbsp;</p>
-<p>So funktionieren diese Blöcke. du setzt eine Bedingung neben &lt;strong&gt;if&lt;/strong&gt;. Du programmierst den Code für das, was deine App tun soll, wenn die Bedingung neben „&lt;strong&gt;then&lt;/strong&gt;“ zutrifft, und dann, was deine App tun soll, wenn die Bedingung neben „&lt;strong&gt;else&lt;/strong&gt;“ falsch ist. Wenn die Bedingung wahr ist, wird nur der Code neben&lt;strong&gt; „then“&lt;/strong&gt; ausgeführt und der gesamte Code neben „&lt;strong&gt;else&lt;/strong&gt;“ wird ignoriert. Wenn deine Bedingung falsch ist, wird der gesamte Code neben „&lt;strong&gt;then&lt;/strong&gt;“ ignoriert und nur der Code im Abschnitt „&lt;strong&gt;else“&lt;/strong&gt; wird ausgeführt.</p>
-<p>&amp;nbsp;</p>
-<p>Schauen wir uns ein Beispiel an. So sieht der bedingte Block nach dem Hinzufügen von Code aus.</p>
-<p>Wenn der Benutzer auf die Schaltfläche &quot;enter&quot; klickt, wertet die App diese Bedingung aus: &quot;die Länge der im Textfeld eingegebenen Zeichenfolge ist ungleich Null&quot;. Wenn diese Bedingung wahr ist (die Länge der Zeichenfolge ist ungleich Null), bedeutet dies, dass der Benutzer Text eingegeben hat, sodass die App den Text zu einer Liste hinzufügt. Wenn die Bedingung falsch ist (die Länge der Zeichenfolge ist gleich Null), ignoriert die App den gesamten Code, der unter „then&quot; steht, und springt zum „else&quot; -Teil, der den Benutzer auffordert, Text einzugeben.</p>
-<p>&amp;nbsp;</p>
-<p>Übung</p>
-<p>Kannst du dir ein paar bedingte Aussagen ausdenken, die dir helfen, alltäglich Entscheidungen zu treffen? Hier einige Beispiele für den Einstieg:</p>
-<p>&amp;nbsp;<br>
-  &lt;ul&gt;<br>
-  &lt;li&gt;Wenn es regnet, dann nimmst du einen Regenschirm mit&lt;/li&gt;<br>
-  &lt;li&gt;Wenn du hungrig bist, dann isst du einen Snack, ansonsten warten&lt;/li&gt;<br>
-  &lt;li&gt;Wenn dein Hund jault, dann gehst du mit ihm spazieren&lt;/li&gt;<br>
-  &lt;li&gt;Wenn es draußen kalt ist, bringst du eine Jacke mit&lt;/li&gt;<br>
-  &lt;li&gt;Wenn dein Haar wirr ist, dann bürstest du es&lt;/li&gt;<br>
-  &lt;li&gt;Wenn du hast&lt;/li&gt;<br>
-  &lt;li&gt;Wenn du krank bist, dann gehst du zum Arzt&lt;/li&gt;<br>
-  &lt;li&gt;Wenn dein Akku leer ist, lädst du ihn auf&lt;/li&gt;<br>
-  &lt;/ul&gt;<br>
-  &amp;nbsp;<br>
-  &lt;h3&gt;Else/If Statements&lt;/h3&gt;<br>
-  Bisher hast du gelernt, wie man Aussagen schreibt, die eine Bedingung bewerten und zwei mögliche Ergebnisse haben. In diesem Abschnitt erfährst du, wie du größere Bedingungsanweisungen schreiben kannst!</p>
-<p>&amp;nbsp;</p>
-<p>&lt;strong&gt;Else If&lt;/strong&gt; ermöglicht es dir, eine weitere Bedingung zu deiner Bedingungsanweisung hinzuzufügen. Diese zweite Bedingung wird nach der ersten Bedingung und nur dann ausgewertet, wenn die erste Bedingung falsch ist. Wenn die zweite auch falsch ist, wird die App standardmäßig auf &quot;else&quot; gesetzt oder nichts tun. Hier ist ein Diagramm zum besseren Verständnis.<br>
-  &lt;table width=&quot;624&quot;&gt;<br>
-  &lt;tbody&gt;<br>
-  &lt;tr&gt;<br>
-  &lt;td width=&quot;312&quot;&gt;Bedingte Anweisung mit zwei möglichen Ergebnissen.&lt;/td&gt;<br>
-  &lt;td width=&quot;312&quot;&gt;Bedingte Anweisung mit drei möglichen Ergebnissen. &lt;strong&gt;Bedingung 2&lt;/strong&gt; wird nur ausgewertet, wenn &lt;strong&gt;Bedingung 1&lt;/strong&gt; falsch ist.</p>
-<p>&amp;nbsp;&lt;/td&gt;<br>
-  &lt;/tr&gt;<br>
-  &lt;/tbody&gt;<br>
-  &lt;/table&gt;<br>
-  So sehen die Blöcke im App Inventor aus:<br>
-  &lt;table width=&quot;720&quot;&gt;<br>
-  &lt;tbody&gt;<br>
-  &lt;tr&gt;<br>
-  &lt;td width=&quot;230&quot;&gt;&lt;/td&gt;<br>
-  &lt;td width=&quot;490&quot;&gt;&lt;/td&gt;<br>
-  &lt;/tr&gt;<br>
-  &lt;/tbody&gt;<br>
-  &lt;/table&gt;<br>
-  Deine erste Bedingung geht neben „&lt;strong&gt;wenn“&lt;/strong&gt;, und deine zweite Bedingung geht neben „&lt;strong&gt;else if“&lt;/strong&gt;. Schauen wir uns ein Beispiel an:</p>
-<p>&amp;nbsp;</p>
-<p>Du entwirfst eine App, die nur für Nutzer im Alter von 13-18 Jahren gedacht ist und du möchtest, dass deine App deinen Nutzern mitteilt, ob sie zu jung oder zu alt sind, um deine App nutzen zu können. Du hast drei mögliche Ergebnisse:<br>
-  &lt;ol&gt;<br>
-  &lt;li&gt;Der Benutzer ist zu jung&lt;/li&gt;<br>
-  &lt;li&gt;Der Benutzer ist zu alt&lt;/li&gt;<br>
-  &lt;li&gt;Der Benutzer hat das richtige Alter&lt;/li&gt;<br>
-  &lt;/ol&gt;<br>
-  &amp;nbsp;</p>
-<p>Du befiehlst dem Benutzer, sein Alter in die App und speicherst sie in einer Variablen namens &quot;Alter&quot;. So verwendest du eine &lt;strong&gt;if / else if / else&lt;/strong&gt;-Anweisung, um zu überprüfen, dass sie das richtige Alter haben.</p>
-<p>Die erste Bedingung prüft, ob der Benutzer jünger als 13 ist. Wenn er es ist, weist die App darauf hin, dass er zu jung ist. Wenn er es nicht ist, testet die App dann, ob er älter als 18 ist. Wenn er es ist, dann warnt die App ihn, dass er zu alt ist. Wenn er nicht älter als 18 ist, dann sagt die App ihm, dass sie das richtige Alter hat.</p>
-<p>&amp;nbsp;</p>
-<p>Du kannst tatsächlich so viele Bedingungen zu deiner bedingten Anweisung hinzufügen, wie du willst mit „&lt;strong&gt;else if“&lt;/strong&gt;, aber es ist wirklich wichtig, die Reihenfolge, in der die App die Bedingungen bewertet, zu beachten. Dein Code wird immer mit der ersten Bedingung beginnen und dann fortfahren, bis er eine Bedingung findet, die wahr ist. Du kannst den Code als eine Suche nach „einer Aussage, die wahr ist“ betrachten. Wenn er eine Bedingung findet, die wahr ist, führt er den Code darunter aus. Wenn keiner von ihnen wahr ist, wird er den Code im &lt;strong&gt;else&lt;/strong&gt;-Teil ausführen.</p>
-<p>&amp;nbsp;</p>
-<p>&amp;nbsp;</p>
-<p>Hier sind einige Dinge zu erinnern, wenn mit &lt;strong&gt;If / Else / Else If&lt;/strong&gt; Anweisungen<br>
-  &lt;ul&gt;<br>
-  &lt;li&gt;Du kannst beliebig viele Bedingungen testen&lt;/li&gt;<br>
-  &lt;li&gt;Die Anweisung arbeitet von oben nach unten, also setzt du die Bedingung, die du zuerst getestet wird, an den Anfang der Anweisung&lt;/li&gt;<br>
-  &lt;li&gt;Nur eine Sache wird passieren, und es wird für die Bedingung sein, die zuerst wahr ist&lt;/li&gt;<br>
-  &lt;/ul&gt;<br>
-  &amp;nbsp;</p>
-<p>Weitere Informationen zu den Bedingungen finden du auf der MIT-Website: &lt;a href=&quot;http://appinventor.mit.edu/explore/ai2/support/blocks/control.html&quot;&gt;http://appinventor.mit.edu/explore/ai2/support/blocks/control.html&lt;/a&gt;</p>
-<p>&amp;nbsp;<br>
-  &lt;h4&gt;Übung&lt;/h4&gt;<br>
-  Die Ermittlung, welche Bedingungen deine App bewerten sollte, kann schwierig sein! Manchmal wirst du wissen, was du willst, dass deine App macht, aber es ist schwierig zu entscheiden, welche Bedingungen überprüft werden sollen. Schreibe einige Bedingungen auf, von denen du denkst, dass die Apps sie überprüfen, wenn du sie verwendest. Hier ist ein Beispiel, um dir den Start zu erleichtern! Schau, ob dir noch mehr einfällt.</p>
-<p>&amp;nbsp;</p>
-<p>Anmeldung bei einem Social Media-Konto:<br>
-  &lt;ul&gt;<br>
-  &lt;li&gt;Zu prüfende Bedingungen:&lt;/li&gt;<br>
-  &lt;/ul&gt;<br>
-  ○ Der Benutzername ist korrekt</p>
-<p>○ Das Passwort ist korrekt</p>
-<p>○ Der Benutzer hat nicht versucht, sich mehr als fünf Mal anzumelden</p>
-<p>&amp;nbsp;</p>
-<p>Ein weiterer schwerer Teil des Schreibens bedingter Aussagen ist die Übersetzung der Bedingung, die du im Auge hast, in etwas, das deine App tatsächlich verstehen kann. Im obigen Beispiel haben wir das Alter eines Benutzers überprüft, indem wir zuerst eine Variable anlegen, die dem Alter des Benutzers entspricht. Es ist nicht immer intuitiv, Bedingungen einzurichten und es wird Übung brauchen! Hier sind Fragen, die du stellen solltest, wenn du versuchst, die richtige Bedingung einzurichten:<br>
-  &lt;ol&gt;<br>
-  &lt;li&gt;Hängt deine Bedingung von Informationen ab, die der Benutzer eingegeben hat?&lt;/li&gt;<br>
-  &lt;li&gt;Musst du beliebige Variablen einrichten?&lt;/li&gt;<br>
-  &lt;li&gt;a) Wenn ja, welche Art? Ist es eine Zahl, eine Liste oder ein String?&lt;/li&gt;<br>
-  &lt;li&gt;Kannst du mathematische Operatoren wie weniger als (&amp;lt;), größer als (&amp;gt;), gleich (=), nicht gleich (≠) in deiner Bedingung anwenden?&lt;/li&gt;<br>
-  &lt;li&gt;Musst du den Wert von etwas mit einem Wert in einer Datenbank vergleichen?&lt;/li&gt;<br>
-  &lt;li&gt;Musst du etwas mit Daten von irgendwo anders vergleichen, z.B. einer Website? (Dies wird in der Codierungseinheit 4 näher erläutert)&lt;/li&gt;<br>
-  &lt;li&gt;Auf welche Art von Daten ist deine Bedingung angewiesen? Siehst du irgendwelche Operationen für den Datentyp, der dir helfen wird?&lt;/li&gt;<br>
-  &lt;li&gt;a) Ex: Vergleichen von zwei Zeichenfolgen, die Suche nach der Länge eines Strings, Hinzufügen von Elementen zu einer Liste, das Vergleichen von zwei Listen, etc.&lt;/li&gt;<br>
-  &lt;li&gt;b) Versuche, durch die Funktionen im App Inventor, um zu sehen, ob es dir hilft&lt;/li&gt;<br>
-  &lt;/ol&gt;<br>
-  &amp;nbsp;</p>
-<p>Zeit zum Üben! Versuche, mit einem oder zwei der oben aufgehführten Beispiele, ob du sie in Code übersetzen kannst.</p>
-<p>&amp;nbsp;</p>
-<p>&amp;nbsp;<br>
-  &lt;h2&gt;Logik&lt;/h2&gt;<br>
-  Bisher hast du gelernt, wie deine App verschiedene Dinge mit &lt;strong&gt;bedingten Anweisungen &lt;/strong&gt;durchführt. Du kannst viele neue Probleme lösen, indem du einige &lt;strong&gt;Logikoperatoren&lt;/strong&gt; kennst. &lt;strong&gt;Logikoperatoren&lt;/strong&gt; verwenden Booleans sowohl als Input als auch als Output. Da deine App Bedingungen als wahr oder falsch sieht, kannst du Bedingungen als deine Eingaben für Booleans verwenden. Es gibt drei wichtige Logikfunktionen, die du in diesem Abschnitt lernst: &lt;strong&gt;AND, OR&lt;/strong&gt; und &lt;strong&gt;NOT.&lt;/strong&gt;</p>
-<p>&lt;strong&gt; &lt;/strong&gt;<br>
-  &lt;h3&gt;AND Operator&lt;/h3&gt;<br>
-  Die &lt;strong&gt;AND&lt;/strong&gt;-Funktion hat zwei Inputs, und beide müssen wahr sein, damit der Output wahr ist. Wenn eine der Bedingungen nicht erfüllt ist, wird dein Code die gesamte Anweisung als falsch auswerten. Hier sind alle möglichen Ergebnisse bei der Verwendung der &lt;strong&gt;AND&lt;/strong&gt;-Funktion.<br>
-  &lt;table width=&quot;720&quot;&gt;<br>
-  &lt;tbody&gt;<br>
-  &lt;tr&gt;<br>
-  &lt;td width=&quot;389&quot;&gt;True AND True = True&lt;/td&gt;<br>
-  &lt;td width=&quot;331&quot;&gt;&lt;/td&gt;<br>
-  &lt;/tr&gt;<br>
-  &lt;tr&gt;<br>
-  &lt;td width=&quot;389&quot;&gt;True AND False = False&lt;/td&gt;<br>
-  &lt;td width=&quot;331&quot;&gt;&lt;/td&gt;<br>
-  &lt;/tr&gt;<br>
-  &lt;tr&gt;<br>
-  &lt;td width=&quot;389&quot;&gt;False AND True = False&lt;/td&gt;<br>
-  &lt;td width=&quot;331&quot;&gt;&lt;/td&gt;<br>
-  &lt;/tr&gt;<br>
-  &lt;tr&gt;<br>
-  &lt;td width=&quot;389&quot;&gt;False AND False = False&lt;/td&gt;<br>
-  &lt;td width=&quot;331&quot;&gt;&lt;/td&gt;<br>
-  &lt;/tr&gt;<br>
-  &lt;/tbody&gt;<br>
-  &lt;/table&gt;<br>
-  &lt;em&gt;Hinweis: &lt;/em&gt;Die Verwendung des &lt;strong&gt;AND&lt;/strong&gt;-Operators ist anders als die Verwendung von &lt;strong&gt;else if&lt;/strong&gt;, da beide Bedingungen gleichzeitig und nicht nacheinander ausgewertet werden. Beide müssen für die App gelten, um die Bedingung als wahr zu sehen.</p>
-<p>&amp;nbsp;<br>
-  &lt;h4&gt;Beispiele&lt;/h4&gt;<br>
-  Du sollst &lt;strong&gt;AND&lt;/strong&gt; verwenden, wenn du willst, dass zwei Bedingungen wahr sind, damit etwas passieren kann. Hier sind einige Beispiele für die Verwendung von &lt;strong&gt;AND&lt;/strong&gt; in deiner App!</p>
-<p>&amp;nbsp;<br>
-  &lt;ul&gt;<br>
-  &lt;li&gt;Anmeldung in sozialen Medien:&lt;/li&gt;<br>
-  &lt;/ul&gt;<br>
-  ○ Wenn (der Benutzername ist richtig) &lt;strong&gt;UND&lt;/strong&gt; (das Passwort ist richtig) ---&amp;gt; dann erlaubst du dem Benutzer sich anzumelden<br>
-  &lt;ul&gt;<br>
-  &lt;li&gt;Gewinnen eines Spiels&lt;/li&gt;<br>
-  &lt;/ul&gt;<br>
-  ○ Wenn (der Spieler beendet die Stufe) &lt;strong&gt;UND&lt;/strong&gt; (die Zeit ist weniger als 3 Minuten) ---&amp;gt; dann gewinnt der Benutzer<br>
-  &lt;ul&gt;<br>
-  &lt;li&gt;Suchen eines Lebensmittelgeschäfts:&lt;/li&gt;<br>
-  &lt;/ul&gt;<br>
-  ○ Wenn (der Speicher geöffnet ist) &lt;strong&gt;UND&lt;/strong&gt; (in der Nähe des Benutzers) ---&amp;gt; dann in den Suchergebnissen anzeigen<br>
-  &lt;ul&gt;<br>
-  &lt;li&gt;Posten von Bildern:&lt;/li&gt;<br>
-  &lt;/ul&gt;<br>
-  ○ Wenn (der Benutzer hat ein Bild ausgewählt) &lt;strong&gt;UND&lt;/strong&gt; (der Benutzer hat eine Beschriftung eingegeben) ---&amp;gt; erlaubst du dem Benutzer, das Bild zu posten</p>
-<p>&amp;nbsp;</p>
-<p>Kannst du dir noch mehr Beispiele ausdenken?<br>
-  &lt;h3&gt;ODER-Operator&lt;/h3&gt;<br>
-  Die &lt;strong&gt;ODER&lt;/strong&gt;-Funktion hat zwei Inputs und nur einer davon muss wahr sein, damit der Output wahr ist. Wenn keine der Bedingungen ungültig ist, wird dein Code die gesamte Anweisung als falsch auswerten. Hier sind alle möglichen Ergebnisse bei der Verwendung der &lt;strong&gt;ODER&lt;/strong&gt;-Funktion.<br>
-  &lt;table width=&quot;720&quot;&gt;<br>
-  &lt;tbody&gt;<br>
-  &lt;tr&gt;<br>
-  &lt;td width=&quot;357&quot;&gt;True OR True = True&lt;/td&gt;<br>
-  &lt;td width=&quot;363&quot;&gt;&lt;/td&gt;<br>
-  &lt;/tr&gt;<br>
-  &lt;tr&gt;<br>
-  &lt;td width=&quot;357&quot;&gt;True OR False = True&lt;/td&gt;<br>
-  &lt;td width=&quot;363&quot;&gt;&lt;/td&gt;<br>
-  &lt;/tr&gt;<br>
-  &lt;tr&gt;<br>
-  &lt;td width=&quot;357&quot;&gt;False OR True = True&lt;/td&gt;<br>
-  &lt;td width=&quot;363&quot;&gt;&lt;/td&gt;<br>
-  &lt;/tr&gt;<br>
-  &lt;tr&gt;<br>
-  &lt;td width=&quot;357&quot;&gt;False OR False = False&lt;/td&gt;<br>
-  &lt;td width=&quot;363&quot;&gt;&lt;/td&gt;<br>
-  &lt;/tr&gt;<br>
-  &lt;/tbody&gt;<br>
-  &lt;/table&gt;<br>
-  &lt;em&gt;Hinweis&lt;/em&gt;: Der &lt;strong&gt;ODER&lt;/strong&gt;-Operator kann dir ähnlich erscheinen wie &lt;strong&gt;„else if“&lt;/strong&gt;. Der &lt;strong&gt;ODER&lt;/strong&gt;-Operator ist anders, da beide Bedingungen gleichzeitig und nicht nacheinander ausgewertet werden. Der Operator &lt;strong&gt;ODER&lt;/strong&gt; ist besser zu verwenden, wenn du zwei Bedingungen hast, die das gleiche Ergebnis haben sollten, wenn sie wahr sind.<br>
-  &lt;h4&gt;Beispiele&lt;/h4&gt;<br>
-  &lt;ul&gt;<br>
-  &lt;li&gt;Verlieren eines Spiels:&lt;/li&gt;<br>
-  &lt;/ul&gt;<br>
-  ○ (Wenn die Zeit abläuft) &lt;strong&gt;ODER&lt;/strong&gt; (der Spieler verliert seine ganzen Leben) ---&amp;gt; dann verliert der Spieler<br>
-  &lt;ul&gt;<br>
-  &lt;li&gt;Anzeigen der Suchergebnisse&lt;/li&gt;<br>
-  &lt;/ul&gt;<br>
-  ○ (Wenn der Titel übereinstimmt) &lt;strong&gt;ODER&lt;/strong&gt; (die Beschreibung stimmt überein) ---&amp;gt; zeigt sie in den Suchergebnissen an<br>
-  &lt;ul&gt;<br>
-  &lt;li&gt;Empfehlung der Nutzervideos, die du ansehen möchtest&lt;/li&gt;<br>
-  &lt;/ul&gt;<br>
-  ○ (Wenn der Benutzer es in der Vergangenheit angesehen hat) &lt;strong&gt;ODER&lt;/strong&gt; (es ist ähnlich wie etwas, das der Benutzer gemocht hat) ---&amp;gt; empfiehlst du es dem Benutzer</p>
-<p>&amp;nbsp;</p>
-<p>Kannst du dir noch mehr Beispiele ausdenken?<br>
-  &lt;h3&gt;NOT Operator&lt;/h3&gt;<br>
-  Der &lt;strong&gt;NOT&lt;/strong&gt;-Operator ist einfach! Der NOT-Operator verändert den Wert eines Booleschen, um das Gegenteil dessen zu sein, was es ist.<br>
-  &lt;table width=&quot;624&quot;&gt;<br>
-  &lt;tbody&gt;<br>
-  &lt;tr&gt;<br>
-  &lt;td width=&quot;312&quot;&gt;&lt;strong&gt;NOT&lt;/strong&gt; true = false&lt;/td&gt;<br>
-  &lt;td width=&quot;312&quot;&gt;&lt;/td&gt;<br>
-  &lt;/tr&gt;<br>
-  &lt;tr&gt;<br>
-  &lt;td width=&quot;312&quot;&gt;&lt;strong&gt;NOT&lt;/strong&gt; false = true&lt;/td&gt;<br>
-  &lt;td width=&quot;312&quot;&gt;&lt;/td&gt;<br>
-  &lt;/tr&gt;<br>
-  &lt;/tbody&gt;<br>
-  &lt;/table&gt;<br>
-  Manchmal ist es einfacher, eine Bedingung einzurichten, die das Gegenteil von dem, was du willst, überprüft. Für diese Szenarien kannst du den &lt;strong&gt;NOT&lt;/strong&gt;-Operator verwenden.</p>
-<p>&amp;nbsp;<br>
-  &lt;h4&gt;Examples&lt;/h4&gt;<br>
-  &lt;ul&gt;<br>
-  &lt;li&gt;Du möchtest überprüfen, ob Text in einem Textfeld vorhanden ist, aber es ist einfacher, zu überprüfen, ob das Textfeld leer ist, also verwendest du den NOT-Operator.&lt;/li&gt;<br>
-  &lt;/ul&gt;<br>
-  ○ Wenn &lt;strong&gt;NOT&lt;/strong&gt; (textbox = &quot;&quot;) ---&amp;gt; dies tun<br>
-  &lt;ul&gt;<br>
-  &lt;li&gt;du möchtest Ergebnisse von Welpen ausschliessen, aber es ist einfacher, Ergebnisse zu zeigen, die Welpen enthalten, sodass du den &lt;strong&gt;NOT&lt;/strong&gt;-Operator verwendest.&lt;/li&gt;<br>
-  &lt;/ul&gt;<br>
-  ○ Wenn &lt;strong&gt;NOT&lt;/strong&gt; (Artikel enthält Wort Welpe) ---&amp;gt; Ergebnisse anzeigen<br>
-  &lt;ul&gt;<br>
-  &lt;li&gt;du kannst Logikoperatoren kombinieren, um mehr zu tun. So schliesst du Suchergebnisse über Welpen aus, und fügst Ergebnisse über Kätzchen hinzu.&lt;/li&gt;<br>
-  &lt;/ul&gt;<br>
-  ○ Wenn &lt;strong&gt;NOT&lt;/strong&gt; (Artikel enthält Wort Welpen) UND (Artikel enthält Wort Kitten) ---&amp;gt; Ergebnisse anzeigen<br>
-  &lt;h4&gt;Übung&lt;/h4&gt;<br>
-  Weisst du, dass du &lt;strong&gt;AND&lt;/strong&gt;, &lt;strong&gt;ODER&lt;/strong&gt; und &lt;strong&gt;NOT&lt;/strong&gt; in einer Google-Suche verwenden kannst? Dies ist eine gute Möglichkeit, die Suchergebnisse zu einzuschränken oder zu erweitern, wenn du etwas suchst! Versuch es! Stelle sicher, dass du &lt;strong&gt;AND&lt;/strong&gt;, &lt;strong&gt;ODER&lt;/strong&gt; oder &lt;strong&gt;NOT&lt;/strong&gt; in Grossbuchstaben eingibst. Schaue dir die Beispiele unten an:</p>
-<p>&amp;nbsp;<br>
-  &lt;table width=&quot;624&quot;&gt;<br>
-  &lt;tbody&gt;<br>
-  &lt;tr&gt;<br>
-  &lt;td width=&quot;312&quot;&gt;Suche nach 2017 &lt;strong&gt;UND&lt;/strong&gt; Technovation gibt Ergebnisse, die sowohl 2017 und technovation enthalten&lt;/td&gt;<br>
-  &lt;td width=&quot;312&quot;&gt;Suche nach 2017 &lt;strong&gt;ODER&lt;/strong&gt; Technovation gibt Ergebnisse, die entweder 2017 oder technovation enthalten</p>
-<p>&amp;nbsp;&lt;/td&gt;<br>
-  &lt;/tr&gt;<br>
-  &lt;/tbody&gt;<br>
-  &lt;/table&gt;<br>
-  &lt;h2&gt;Loops&lt;/h2&gt;<br>
-  Computer sind gut darin, die gleiche Sache immer und immer wieder zu wiederholen, und dies wirklich schnell, ohne Fehler! Du kannst das nutzen, indem du Schleifen (Loops) verwendest. Eine Loop ist ein Codeblock, der sich immer wieder wiederholt.</p>
-<p>&amp;nbsp;</p>
-<p>Es gibt zwei Arten von Loops, &lt;strong&gt;„While-Schleifen“&lt;/strong&gt; („while loops“) und &lt;strong&gt;„For-Schleifen“&lt;/strong&gt; („for loops“). &lt;strong&gt;While-Schleifen&lt;/strong&gt; setzen etwas fort, bis eine Bedingung, die du einstellst, nicht mehr zutrifft, und &lt;strong&gt;For-Schleifen&lt;/strong&gt; wiederholen etwas eine bestimmte Anzahl.</p>
-<p>&amp;nbsp;</p>
-<p>For-Schleifen (for loop)</p>
-<p>&lt;strong&gt;For-Schleifen &lt;/strong&gt;wiederholen einen Code-Block um eine bestimmte Anzahl. Sie werden For-Schleifen genannt, weil du deiner App sagen kannst, wie oft es den Code wiederholen. Du kannst dir das so vorstellen: Die For-Schleifen sagen deiner App, &quot;Wiederhol das 14-mal&quot; oder &quot;Wiederhol das 5-mal&quot;.</p>
-<p>&amp;nbsp;</p>
-<p>&lt;strong&gt;For-Schleifen &lt;/strong&gt;verwenden eine Variable, &lt;strong&gt;Zähler&lt;/strong&gt; genannt, um zu zählen, wie oft der Code wiederholt wurde. Du steuerst, wie oft die Schleife wiederholt wird, indem du festlegst, wo der &lt;strong&gt;Zähler&lt;/strong&gt; beginnt und endet. Du legst auch fest, um wie viel der &lt;strong&gt;Zähler&lt;/strong&gt; jedes Mal, wenn der Code sich wiederholt, steigt. In den meisten Szenarien möchtest du, dass der &lt;strong&gt;Zähler&lt;/strong&gt; jedes Mal, wenn die Schleife wiederholt wird, um 1 ansteigt.<br>
-  Im App Inventor sehen die &lt;strong&gt;For-Schleifen&lt;/strong&gt; wie folgt aus:</p>
-<p>Das Teil &lt;em&gt;number&lt;/em&gt; ist der &lt;strong&gt;Zähler&lt;/strong&gt;. Im Moment heisst der &lt;strong&gt;Zähler&lt;/strong&gt;&lt;em&gt; number&lt;/em&gt;, aber du kannst das ändern. &lt;em&gt;Number&lt;/em&gt; beginnt bei 1 und stoppt, wenn sie gleich 5 ist. Jedes Mal, wenn sich der Code innerhalb der Schleife wiederholt, erhöht sich &lt;em&gt;number&lt;/em&gt; um 1. So wiederholt diese Schleife den Code innen drin 5-mal. Im Augenblick macht diese Schleife nichts, da der &lt;em&gt;do&lt;/em&gt;-Teil leer ist. Lass uns ein Beispiel durchgehen.</p>
-<p>&amp;nbsp;</p>
-<p>Wir haben nichts an der &lt;em&gt;number-V&lt;/em&gt;ariable geändert, doch wir haben Code zum &lt;em&gt;do&lt;/em&gt;-Teil der Schleife hinzugefügt. Jedes Mal, wenn diese Schleife läuft, wird die App ihren Benutzer mit &quot;hello&quot; benachrichtigen, d.h. der Benutzer wird 5-mal benachrichtigt werden. Hier siehst du, wie die App diese Schleife durchlaufen wird:<br>
-  &lt;table width=&quot;409&quot;&gt;<br>
-  &lt;tbody&gt;<br>
-  &lt;tr&gt;<br>
-  &lt;td width=&quot;210&quot;&gt;&lt;/td&gt;<br>
-  &lt;td width=&quot;199&quot;&gt;&lt;/td&gt;<br>
-  &lt;/tr&gt;<br>
-  &lt;/tbody&gt;<br>
-  &lt;/table&gt;<br>
-  Diese Schleife wäre nützlich, wenn du den Benutzer 5-mal mit &quot;hallo&quot; benachrichtigen möchtest. Dies scheint so nicht sinnvoll, da es nicht so schwer ist, fünf Notifier-Blöcke hintereinander zu platzieren, die &quot;hallo&quot; sagen. Aber was ist, wenn du den Benutzer 100-mal mit &quot;hallo&quot; benachrichtigen willst? Dies wäre viel einfacher mit einer Schleife statt 100 Blöcken hintereinander zu machen!</p>
-<p>&amp;nbsp;</p>
-<p>Eine weitere Möglichkeit, wie For-Schleifen nützlich sein können, ist die Nutzung der Zähl-Variablen in deinem Code. Jedes Mal, wenn die Schleife läuft, wird die Zähler-Variable einen anderen Wert haben. Dies kann wirklich nützlich sein, hier ist ein Beispiel.</p>
-<p>In dieser For-Schleife benutzen wir die &lt;em&gt;number&lt;/em&gt;-Variable im Code, indem wir sie an das Wort &quot;hello&quot; angehängt haben. &lt;em&gt;Number&lt;/em&gt; erhöht sich jedes Mal um 1, weshalb die App jedes Mal, wenn sie läuft, verschiedene Dinge auswerfen. Hier siehst du, wie die App diese Schleife durchläuft:<br>
-  &lt;table width=&quot;420&quot;&gt;<br>
-  &lt;tbody&gt;<br>
-  &lt;tr&gt;<br>
-  &lt;td width=&quot;217&quot;&gt;&lt;/td&gt;<br>
-  &lt;td width=&quot;203&quot;&gt;&lt;/td&gt;<br>
-  &lt;/tr&gt;<br>
-  &lt;/tbody&gt;<br>
-  &lt;/table&gt;<br>
-  For each-Schleife</p>
-<p>Eine weitere nützliche Art von For-Schleifen, die du im App Inventor verwenden kannst, ist diese:</p>
-<p>Hier wird die &lt;strong&gt;Zählvariable&lt;/strong&gt; &lt;em&gt;item&lt;/em&gt; genannt und ist bereits darauf eingestellt, sich um die Anzahl der Elemente in einer Liste zu wiederholen. Diese Schleifen sind immer sehr nützlich, wenn du etwas mit einer Liste tun musst. Hier ist ein Beispiel.</p>
-<p>&amp;nbsp;</p>
-<p>Nehmen wir an, du hast eine Liste von Zahlen und du möchtest jede Zahl innerhalb der Liste addieren und in einer Variablen namens &lt;em&gt;sum&lt;/em&gt; speichern. Hier siehst du, wie du dies mit einer For each-Schleife tun würdest.</p>
-<p>&amp;nbsp;</p>
-<p>Jedes Mal, wenn die Schleife durchläuft, erhält die Variable &lt;em&gt;sum&lt;/em&gt; ein Element aus der &lt;em&gt;numberList&lt;/em&gt; hinzugefügt. Die Schleife stoppt automatisch, nachdem alle Zahlen in der Liste hinzugefügt wurden!</p>
-<p>&amp;nbsp;</p>
-<p>&lt;em&gt;Hinweis&lt;/em&gt;: Du hast vielleicht bemerkt, dass die &lt;em&gt;Zählervariablen&lt;/em&gt; in diesem Abschnitt den lokalen Variablen, die du in Coding Unit 2 gelernt hast, sehr ähnlich sind! Wenn ja, hast du Recht! Genau wie lokale Variablen kannst du sie nur innerhalb der Schleife verwenden.</p>
-<p>&amp;nbsp;</p>
-<p>While-Schleifen</p>
-<p>&lt;strong&gt;While-Schleifen sind &lt;/strong&gt;Schleifen, die wiederholt werden, bis eine Bedingung nicht mehr wahr ist. Sie werden &lt;strong&gt;While-Schleifen&lt;/strong&gt; genannt, weil der Code wiederholt wird während (while) eine Bedingung immer noch wahr ist. Du kannst dir das so vorstellen: &lt;strong&gt;While-Schleifen&lt;/strong&gt; sagen deiner App „während das da geschieht, wiederhole dies“ oder „während dies nicht ändert, wiederhole das“.</p>
-<p>&amp;nbsp;</p>
-<p>Beispiel</p>
-<p>Du gibst eine Party und willst, dass die Musik spielt, bis alle deine Gäste gegangen sind. Du könntest deine Party als diese Schleife beschreiben:<br>
-  &lt;ul&gt;<br>
-  &lt;li&gt;Während (Personen auf der Party &amp;gt; 0)&lt;/li&gt;<br>
-  &lt;li&gt;do: Spiel weiterhin Musik&lt;/li&gt;<br>
-  &lt;/ul&gt;<br>
-  Was, wenn du auch möchtest, dass deine Musik aufhört zu spielen, wenn es später als Mitternacht wird? Du kannst While-Schleifen programmieren, um die Schleife auf der Grundlage mehrerer Bedingungen mithilfe von Logik zu beenden. Jetzt kannst du deine Party als diese Schleife beschreiben.<br>
-  &lt;ul&gt;<br>
-  &lt;li&gt;Während (Personen auf der Party&amp;gt; 0) &lt;strong&gt;OR&lt;/strong&gt; (Zeit &amp;lt;Mitternacht)&lt;/li&gt;<br>
-  &lt;li&gt;do: Spiel weiterhin Musik&lt;/li&gt;<br>
-  &lt;/ul&gt;<br>
-  In diesem Fall würde die Musik aufhören, sobald alle die Party verlassen haben oder es nach Mitternacht ist.</p>
-<p>&amp;nbsp;</p>
-<p>Um eine &lt;strong&gt;While-Schleife&lt;/strong&gt; zu verwenden, musst du eine Bedingung aufstellen, die als &lt;em&gt;wahr&lt;/em&gt; beginnt. Wenn dein Zustand als &lt;em&gt;falsch&lt;/em&gt; beginnt, wird deine Schleife nie ausgeführt. Die Schleife überprüft die Bedingung jedes Mal, bevor sie sich wiederholt, um sicherzustellen, dass die Bedingung immer noch wahr ist.</p>
-<p>Hier siehst du, wie While-Schleifen im App Inventor aussehen.</p>
-<p>&amp;nbsp;</p>
-<p>Bei While-Schleifen können Fehler auftreten! Wenn du eine Bedingung auswählst, die niemals &lt;em&gt;falsch&lt;/em&gt; ist, wird Ihre Schleife niemals enden. Dies wird als Endlosschleife bezeichnet. Hier ist ein Beispiel.</p>
-<p>Da 1 immer gleich 1 ist, kann diese Bedingung niemals falsch sein!  Als wir diesen Code im App Inventor laufen liessen, reagierte unser Telefon nicht mehr und wir konnten nichts mehr tun. Du kannst auch eine Meldung erhalten, dass die App Inventor Companion App nicht mehr funktioniert.</p>
-<p>&amp;nbsp;</p>
-<p>Code 3 Challenge Datenbankabfrage</p>
-<p>Beschreibung: Erstelle eine App, die es dem Benutzer ermöglicht, eine Datenbank nach Informationen zu durchsuchen und die Ergebnisse anzuzeigen. Die Datenbank sollte Namen und Beschreibungen von berühmten Personen, Orten, Filmen, Musik, Veranstaltungen oder was du willst. Stelle sicher, dass du mindestens drei Einträge in deiner Datenbank hast.</p>
-<p>&amp;nbsp;</p>
-<p>Versuche auf eigene Faust herauszufinden, wie die Coding Challenge gelöst werden kann, bevor du die Anweisungen liest. Die Anleitung zeigt eine Art, wie diese Herausforderung gelöst werden kann.</p>
-<p>Siehe Anleitung<br>
-  &amp;lt;Add Link to Instructions&amp;gt;</p>
-<p>&amp;nbsp;</p>
-<p>Du kannst auch unsere Beispiel-App im Google Play Store herunterladen:</p>
-<p>&lt;a href=&quot;https://play.google.com/store/apps/details?id=appinventor.ai_alliec.DatabaseSearch&quot;&gt;https://play.google.com/store/apps/details?id=appinventor.ai_alliec.DatabaseSearch&lt;/a&gt;</p>
-<p>Viel Spass beim Codieren!</p>
-<p>Lernpunkt</p>
-<p>Herzlichen Glückwunsch zum Abschluss dieser Lektion! Dies war eine große Lektion, doch sie wird sehr nützlich sein, wenn du deine App erstellen wirst! Vergiss nicht, dass du immer alles nachlesen kannst, was du jetzt nicht verstanden hast.</p>
-<p>Überprüfung der Schlüsselwörter:<br>
-  &lt;ul&gt;<br>
-  &lt;li&gt;&lt;strong&gt;Booleans - &lt;/strong&gt;Datentyp, der wahr oder falsch sein kann&lt;/li&gt;<br>
-  &lt;li&gt;&lt;strong&gt;Bedingungen –&lt;/strong&gt; Etwas, das eine App als wahr oder falsch auswertet&lt;/li&gt;<br>
-  &lt;li&gt;&lt;strong&gt;Bedingte Anweisung - &lt;/strong&gt;Sagt der App, was sie nach der Bewertung der Bedingungen tun soll&lt;/li&gt;<br>
-  &lt;li&gt;&lt;strong&gt;AND-Operator&lt;/strong&gt; - Wird als wahr ausgewertet, wenn alle Inputs wahr sind&lt;/li&gt;<br>
-  &lt;li&gt;&lt;strong&gt;ODER-Operator&lt;/strong&gt; - Wird als wahr ausgewertet, wenn einer der Eingänge wahr ist&lt;/li&gt;<br>
-  &lt;li&gt;&lt;strong&gt;NOT-Operator&lt;/strong&gt; - Wertet das Gegenteil des Eingangs aus&lt;/li&gt;<br>
-  &lt;li&gt;&lt;strong&gt;Schleife&lt;/strong&gt; - Ein sich wiederholender Codeblock&lt;/li&gt;<br>
-  &lt;li&gt;&lt;strong&gt;For-Schleife&lt;/strong&gt; - Wiederholt einen Codeblock eine bestimmte Anzahl&lt;/li&gt;<br>
-  &lt;li&gt;&lt;strong&gt;For each-Schleife&lt;/strong&gt; - Wiederholt einen Codeblock um die Anzahl Elemente in einer Liste&lt;/li&gt;<br>
-  &lt;li&gt;&lt;strong&gt;While-Schleife&lt;/strong&gt; - Wiederholt einen Codeblock, während eine Bedingung wahr ist&lt;/li&gt;<br>
-  &lt;/ul&gt;<br>
-  &amp;nbsp;</p>
-</body>
-</html>
+Bevor du dieses Gerät startest, wollen wir einige Konzepte aus den Coding Units 1 und 2, die du in diesem Gerät benötigst, überprüfen.
+<ul>
+ 	<li><strong>Algorithmen</strong> sind Schritt für Schritt Anweisungen für deine App.</li>
+ 	<li><strong>Booleans</strong> sind ein Datentyp mit zwei Werten: true und false.</li>
+ 	<li><strong>Event-Handler</strong> sagen deiner App, was sie tun soll, wenn etwas passiert.</li>
+ 	<li><strong>Variablen</strong> - Ein Name für ein Datenelement, das sich verändern kann</li>
+</ul>
+Probiere einmal dieses <a href="https://www.madewithcode.com/projects/robots" target="_blank">Made With Code Robot</a> Spiel aus, bevor du mit dieser Unit beginnst. Es hilft dir, mit den Konzepten, die du lernen wirst, vertraut zu werden. Wenn du jetzt nicht mit allem fünf Ebenen klarkommst, versuche es nochmals nachdem du diese Unit gemacht hast!
+
+<h3 id="conditions">Bedingungen</h3>
+Du hast schon viele Event-Handler eingesetzt! Bisher war die Codierungs-Challenge, dass wenn dein Benutzer einen Button gedrückt hat, die App etwas getan hat. Beispielsweise hat die Eingabetaste in deiner To-do-Listen-App eine To-Do-Liste hinzugefügt. Das <strong>Ereignis</strong> war, dass der Benutzer "enter" drückt und die Art und Weise die App behandelt wurde, indem du den Text des Benutzers in die To-do-Liste hinzugefügt hast. Der Code für deine App funktionierte so.
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Enter-Pressed1-533x1024.png" alt="enter-pressed1" width="99" height="189" />
+
+Möglicherweise hast du in unserer Beispiel-App oder in deiner eigenen 'To-do-Liste' App bemerkt, dass die App es dem Benutzer erlaubt, ein leeres Feld in der Liste hinzufügen. Aus diesem Grund könnte der Benutzer eine wirklich lange Liste ohne Inhalt haben.
+
+Zum Beispiel möchtest du nicht, dass der Benutzer ein leeres Feld zu seiner To-do-Liste hinzufügen kann. Also, jedes Mal, wenn der Benutzer Enter drückt, schreibst du den Code so, dass du deine App fragen kannst "hat der Benutzer Texteingegeben"? Wenn die Antwort ja lautet, fügt die App den Text zur Aufgabenliste hinzu. Wenn die Antwort nein ist, wird die App nicht hinzugefügt. Nun sieht dein Code mehr wie folgt aus:
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Enter-Pressed2-352x1024.png" alt="enter-pressed2" width="142" height="411" />Dies ist eine großartige Möglichkeit, um dein Problem zu beheben, aber denk daran, dass Computer nicht für sich selbst denken, du kannst sie nicht direkt Fragen wie z.B. eine Person. In der Kodierung, wenn du deiner App eine Frage stellen möchtest, programmierst du es, um eine <strong>Bedingung</strong> zu überprüfen. Eine Bedingung ist etwas, das ein Computer als <strong>wahr</strong> oder <strong>falsch</strong> bestimmt.
+
+Wenn du deine App zum Überprüfen einer <strong>Bedingung</strong> programmierst, können nur zwei mögliche Ergebnisse auftreten. Wahr bedeutet ja, diese Bedingung ist wahr und falsch bedeutet nein, die Bedingung ist falsch. du kannst deiner App befehlen, verschiedene Dinge zu tun, je nachdem, ob die Bedingung wahr oder falsch ist. So fragst du deine App, wenn der Benutzer Text mit einer Bedingung eingegeben hat:
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Enter-Pressed3-343x1024.png" alt="enter-pressed3" width="152" height="455" />Erinnerst du dich an den Datentyp booleans aus <a href="https://docs.google.com/document/d/1g9YqNiSdg4vtkGT4EI8ORP-j4iVxxavDAAt4icLDi4A/edit#heading=h.2etr0b7vt9pr" target="_blank">Unit 2: Data and Variables</a>? <strong>Booleans</strong> ist ein Datentyp, der wahr oder falsch sein kann. Wenn deine App eine Bedingung auswertet, gibt sie eine boolesche Ausgabe aus!
+<h3>Bedingte Anweisungen</h3>
+<h5 id="ifelse">If/Else Anweisungen</h5>
+So, jetzt weisst du, was eine <strong>Bedingung</strong> ist, aber wie verwendest du sie in der Codierung? In der Codierung, frägst du deinen Computer, Bedingungen zu bewerten, indem du <strong>bedingte</strong> <strong>Anweisungen</strong> schreibst. Bedingte Anweisungen sind die Art und Weise, wie Computer Entscheidungen treffen können. Bedingte Anweisungen haben immer einen <strong>if</strong>-Teil, der der App sagt, was sie tun sollen, wenn die Bedingung wahr ist. Bedingte Anweisungen haben normalerweise auch einen <strong>else</strong>-<strong>Teil</strong>, der deiner App sagt, was sie tun soll, wenn die Bedingung falsch ist. Wenn du den <strong>else-Teil</strong> verlässt, wird deine App nichts tun, wenn die Bedingung falsch ist. Jetzt sieht dein Code für deine Enter-Taste etwa so aus:
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Enter-Pressed4-550x1024.png" alt="enter-pressed4" width="262" height="488" />So sehen bedingte Anweisungen im App Inventor aus.
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Screen-Shot-2016-11-01-at-12.05.58-PM.png" alt="screen-shot-2016-11-01-at-12-05-58-pm" width="254" height="161" />So funktionieren diese Blöcke. du setzt eine Bedingung neben <strong>if</strong>. Du programmierst den Code für das, was deine App tun soll, wenn die Bedingung neben „<strong>then</strong>“ zutrifft, und dann, was deine App tun soll, wenn die Bedingung neben „<strong>else</strong>“ falsch ist. Wenn die Bedingung wahr ist, wird nur der Code neben<strong> „then“</strong> ausgeführt und der gesamte Code neben „<strong>else</strong>“ wird ignoriert. Wenn deine Bedingung falsch ist, wird der gesamte Code neben „<strong>then</strong>“ ignoriert und nur der Code im Abschnitt „<strong>else“</strong> wird ausgeführt.
+
+Schauen wir uns ein Beispiel an. So sieht der bedingte Block nach dem Hinzufügen von Code aus.
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/if-statement.png" alt="if-statement" width="463" height="243" />
+
+Wenn der Benutzer auf die Schaltfläche "enter" klickt, wertet die App diese Bedingung aus: "die Länge der im Textfeld eingegebenen Zeichenfolge ist ungleich Null". Wenn diese Bedingung wahr ist (die Länge der Zeichenfolge ist ungleich Null), bedeutet dies, dass der Benutzer Text eingegeben hat, sodass die App den Text zu einer Liste hinzufügt. Wenn die Bedingung falsch ist (die Länge der Zeichenfolge ist gleich Null), ignoriert die App den gesamten Code, der unter „then" steht, und springt zum „else" -Teil, der den Benutzer auffordert, Text einzugeben.
+
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 id="act1">Übung</h3>
+Kannst du dir ein paar bedingte Aussagen ausdenken, die dir helfen, alltäglich Entscheidungen zu treffen? Hier einige Beispiele für den Einstieg:
+<ul>
+ 	<li>Wenn es regnet, dann nimmst du einen Regenschirm mit</li>
+ 	<li>Wenn du hungrig bist, dann isst du einen Snack, ansonsten warten</li>
+ 	<li>Wenn dein Hund jault, dann gehst du mit ihm spazieren</li>
+ 	<li>Wenn es draußen kalt ist, bringst du eine Jacke mit</li>
+ 	<li>Wenn dein Haar wirr ist, dann bürstest du es</li>
+ 	<li>Wenn du hast</li>
+ 	<li>Wenn du krank bist, dann gehst du zum Arzt</li>
+ 	<li>Wenn dein Akku leer ist, lädst du ihn auf</li>
+</ul>
+</div>
+
+<h5 id="elseif">Else/If Statements</h5>
+Bisher hast du gelernt, wie man Aussagen schreibt, die eine Bedingung bewerten und zwei mögliche Ergebnisse haben. In diesem Abschnitt erfährst du, wie du größere Bedingungsanweisungen schreiben kannst!
+
+<strong>Else If</strong> ermöglicht es dir, eine weitere Bedingung zu deiner Bedingungsanweisung hinzuzufügen. Diese zweite Bedingung wird nach der ersten Bedingung und nur dann ausgewertet, wenn die erste Bedingung falsch ist. Wenn die zweite auch falsch ist, wird die App standardmäßig auf "else" gesetzt oder nichts tun. Hier ist ein Diagramm zum besseren Verständnis.
+<table width="624">
+<tbody>
+<tr>
+<td width="312">Bedingte Anweisung mit zwei möglichen Ergebnissen.
+
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Condition-1024x664.png" alt="condition" width="246" height="159" /></td>
+<td width="312">Bedingte Anweisung mit drei möglichen Ergebnissen. <strong>Bedingung 2</strong> wird nur ausgewertet, wenn <strong>Bedingung 1</strong> falsch ist.
+
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image04-1-1024x851.png" alt="image04" width="314" height="261" /></td>
+</tr>
+</tbody>
+</table>
+So sehen die Blöcke im App Inventor aus:
+<table>
+<tbody>
+<tr>
+<td style="vertical-align: top;" width="25%"> <img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image29.png" alt="image29" width="150" height="230" /></td>
+<td style="vertical-align: top;"> <img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image19.gif" alt="how to use the if else block" width="640" height="480" /></td>
+</tr>
+</tbody>
+
+Deine erste Bedingung geht neben „<strong>wenn“</strong>, und deine zweite Bedingung geht neben „<strong>else if“</strong>. Schauen wir uns ein Beispiel an:
+
+Du entwirfst eine App, die nur für Nutzer im Alter von 13-18 Jahren gedacht ist und du möchtest, dass deine App deinen Nutzern mitteilt, ob sie zu jung oder zu alt sind, um deine App nutzen zu können. Du hast drei mögliche Ergebnisse:
+<ol>
+ 	<li>Der Benutzer ist zu jung</li>
+ 	<li>Der Benutzer ist zu alt</li>
+ 	<li>Der Benutzer hat das richtige Alter</li>
+</ol>
+Du befiehlst dem Benutzer, sein Alter in die App und speicherst sie in einer Variablen namens "Alter". So verwendest du eine <strong>if / else if / else</strong>-Anweisung, um zu überprüfen, dass sie das richtige Alter haben.
+
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image08-1-1024x457.png" alt="if/else else/if response blocks" width="633" height="283" />
+
+Die erste Bedingung prüft, ob der Benutzer jünger als 13 ist. Wenn er es ist, weist die App darauf hin, dass er zu jung ist. Wenn er es nicht ist, testet die App dann, ob er älter als 18 ist. Wenn er es ist, dann warnt die App ihn, dass er zu alt ist. Wenn er nicht älter als 18 ist, dann sagt die App ihm, dass sie das richtige Alter hat.
+
+Du kannst tatsächlich so viele Bedingungen zu deiner bedingten Anweisung hinzufügen, wie du willst mit „<strong>else if“</strong>, aber es ist wirklich wichtig, die Reihenfolge, in der die App die Bedingungen bewertet, zu beachten. Dein Code wird immer mit der ersten Bedingung beginnen und dann fortfahren, bis er eine Bedingung findet, die wahr ist. Du kannst den Code als eine Suche nach „einer Aussage, die wahr ist“ betrachten. Wenn er eine Bedingung findet, die wahr ist, führt er den Code darunter aus. Wenn keiner von ihnen wahr ist, wird er den Code im <strong>else</strong>-Teil ausführen.
+
+Hier sind einige Dinge zu erinnern, wenn mit <strong>If / Else / Else If</strong> Anweisungen
+<ul>
+ 	<li>Du kannst beliebig viele Bedingungen testen</li>
+ 	<li>Die Anweisung arbeitet von oben nach unten, also setzt du die Bedingung, die du zuerst getestet wird, an den Anfang der Anweisung</li>
+ 	<li>Nur eine Sache wird passieren, und es wird für die Bedingung sein, die zuerst wahr ist</li>
+</ul>
+Weitere Informationen zu den Bedingungen finden du auf der MIT-Website: <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/control.html">http://appinventor.mit.edu/explore/ai2/support/blocks/control.html</a>
+
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 id="act2">Übung</h3>
+Die Ermittlung, welche Bedingungen deine App bewerten sollte, kann schwierig sein! Manchmal wirst du wissen, was du willst, dass deine App macht, aber es ist schwierig zu entscheiden, welche Bedingungen überprüft werden sollen. Schreibe einige Bedingungen auf, von denen du denkst, dass die Apps sie überprüfen, wenn du sie verwendest. Hier ist ein Beispiel, um dir den Start zu erleichtern! Schau, ob dir noch mehr einfällt.
+
+Anmeldung bei einem Social Media-Konto:
+<ul>
+ 	<li>Zu prüfende Bedingungen:
+<ul>
+ 	<li>Der Benutzername ist korrekt</li>
+ 	<li>Das Passwort ist korrekt</li>
+ 	<li>Der Benutzer hat nicht versucht, sich mehr als fünf Mal anzumelden</li>
+</ul>
+</li>
+</ul>
+Ein weiterer schwerer Teil des Schreibens bedingter Aussagen ist die Übersetzung der Bedingung, die du im Auge hast, in etwas, das deine App tatsächlich verstehen kann. Im obigen Beispiel haben wir das Alter eines Benutzers überprüft, indem wir zuerst eine Variable anlegen, die dem Alter des Benutzers entspricht. Es ist nicht immer intuitiv, Bedingungen einzurichten und es wird Übung brauchen! Hier sind Fragen, die du stellen solltest, wenn du versuchst, die richtige Bedingung einzurichten:
+<ol>
+ 	<li>Hängt deine Bedingung von Informationen ab, die der Benutzer eingegeben hat?</li>
+ 	<li>Musst du beliebige Variablen einrichten?
+<ul>
+ 	<li>Wenn ja, welche Art? Ist es eine Zahl, eine Liste oder ein String?</li>
+</ul>
+</li>
+ 	<li>Kannst du mathematische Operatoren wie weniger als (&lt;), größer als (&gt;), gleich (=), nicht gleich (≠) in deiner Bedingung anwenden?</li>
+ 	<li>Musst du den Wert von etwas mit einem Wert in einer Datenbank vergleichen?</li>
+ 	<li>Musst du etwas mit Daten von irgendwo anders vergleichen, z.B. einer Website? (Dies wird in der Codierungseinheit 4 näher erläutert)</li>
+ 	<li>Auf welche Art von Daten ist deine Bedingung angewiesen? Siehst du irgendwelche Operationen für den Datentyp, der dir helfen wird?
+<ul>
+ 	<li>Ex: Vergleichen von zwei Zeichenfolgen, die Suche nach der Länge eines Strings, Hinzufügen von Elementen zu einer Liste, das Vergleichen von zwei Listen, etc.</li>
+ 	<li>Versuche, durch die Funktionen im App Inventor, um zu sehen, ob es dir hilft</li>
+</ul>
+</li>
+</ol>
+Zeit zum Üben! Versuche, mit einem oder zwei der oben aufgehführten Beispiele, ob du sie in Code übersetzen kannst.
+	</div>
+	
+<h3 id="andop">Logik</h3>
+Bisher hast du gelernt, wie deine App verschiedene Dinge mit <strong>bedingten Anweisungen </strong>durchführt. Du kannst viele neue Probleme lösen, indem du einige <strong>Logikoperatoren</strong> kennst. <strong>Logikoperatoren</strong> verwenden Booleans sowohl als Input als auch als Output. Da deine App Bedingungen als wahr oder falsch sieht, kannst du Bedingungen als deine Eingaben für Booleans verwenden. Es gibt drei wichtige Logikfunktionen, die du in diesem Abschnitt lernst: <strong>AND, OR</strong> und <strong>NOT.</strong>
+<h5>AND Operator</h5>
+Die <strong>AND</strong>-Funktion hat zwei Inputs, und beide müssen wahr sein, damit der Output wahr ist. Wenn eine der Bedingungen nicht erfüllt ist, wird dein Code die gesamte Anweisung als falsch auswerten. Hier sind alle möglichen Ergebnisse bei der Verwendung der <strong>AND</strong>-Funktion.
+<p style="text-align: center;">True <strong>and</strong> True = True</p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image34.png" alt="true/true blocks" width="318" height="62" /></p>
+<p style="text-align: center;">True <strong>and</strong> False = False</p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image24-1.png" alt="true/false blocks" width="336" height="61" /></p>
+<p style="text-align: center;">False <strong>and</strong> True = False</p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image38.png" alt="false/true blocks" width="331" height="60" /></p>
+<p style="text-align: center;">False <strong>and</strong> False = False</p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image07-1.png" alt="false/false blocks" width="353" height="66" /></p>
+<em>
+Hinweis: </em>Die Verwendung des <strong>AND</strong>-Operators ist anders als die Verwendung von <strong>else if</strong>, da beide Bedingungen gleichzeitig und nicht nacheinander ausgewertet werden. Beide müssen für die App gelten, um die Bedingung als wahr zu sehen.
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Condition3-1024x608.png" alt="condition3" width="407" height="242" />
+
+<div style="background-color: #00abad; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h5>Beispiele</h5>
+Du sollst <strong>AND</strong> verwenden, wenn du willst, dass zwei Bedingungen wahr sind, damit etwas passieren kann. Hier sind einige Beispiele für die Verwendung von <strong>AND</strong> in deiner App!
+<ul>
+ 	<li>Anmeldung in sozialen Medien:
+<ul>
+ 	<li>Wenn (der Benutzername ist richtig) <strong>UND</strong> (das Passwort ist richtig) → dann erlaubst du dem Benutzer sich anzumelden</li>
+</ul>
+</li>
+ 	<li>Gewinnen eines Spiels
+<ul>
+ 	<li>Wenn (der Spieler beendet die Stufe) <strong>UND</strong> (die Zeit ist weniger als 3 Minuten) → dann gewinnt der Benutzer</li>
+</ul>
+</li>
+ 	<li>Suchen eines Lebensmittelgeschäfts:
+<ul>
+ 	<li>Wenn (der Speicher geöffnet ist) <strong>UND</strong> (in der Nähe des Benutzers) → dann in den Suchergebnissen anzeigen</li>
+</ul>
+</li>
+ 	<li>Posten von Bildern:
+<ul>
+ 	<li>Wenn (der Benutzer hat ein Bild ausgewählt) <strong>UND</strong> (der Benutzer hat eine Beschriftung eingegeben) → erlaubst du dem Benutzer, das Bild zu posten</li>
+</ul>
+</li>
+</ul>
+Kannst du dir noch mehr Beispiele ausdenken?
+	</div>
+	
+<h3 id="orop">ODER-Operator  (OR Operator)</h3>
+Die <strong>ODER</strong>-Funktion hat zwei Inputs und nur einer davon muss wahr sein, damit der Output wahr ist. Wenn keine der Bedingungen ungültig ist, wird dein Code die gesamte Anweisung als falsch auswerten. Hier sind alle möglichen Ergebnisse bei der Verwendung der <strong>ODER</strong>-Funktion.
+<p style="text-align: center;">True <b>or</b> True = True</p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image33-1.png" alt="true or true blocks" width="284" height="53" /></p>
+<p style="text-align: center;">True <strong>or</strong> False = True</p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image57.png" alt="true or false blocks" width="299" height="58" /></p>
+<p style="text-align: center;">False <strong>or</strong> True = True</p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image26-1.png" alt="false or true blocks" width="299" height="63" /></p>
+<p style="text-align: center;">False <strong>or</strong> False = False</p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image49.png" alt="false or false blocks" width="313" height="61" /></p>
+<em>Hinweis</em>: Der <strong>ODER</strong>-Operator kann dir ähnlich erscheinen wie <strong>„else if“</strong>. Der <strong>ODER</strong>-Operator ist anders, da beide Bedingungen gleichzeitig und nicht nacheinander ausgewertet werden. Der Operator <strong>ODER</strong> ist besser zu verwenden, wenn du zwei Bedingungen hast, die das gleiche Ergebnis haben sollten, wenn sie wahr sind.
+
+<img class="aligncenter" src="http://technovationchallenge.org/wp-content/uploads/2016/09/Condition4-3.png" alt="" width="408" height="239" />
+
+<div style="background-color: #00abad; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h5>Beispiele</h5>
+<ul>
+ 	<li>Verlieren eines Spiels:
+<ul>
+ 	<li>(Wenn die Zeit abläuft) <strong>ODER</strong> (der Spieler verliert seine ganzen Leben) → dann verliert der Spieler</li>
+</ul>
+</li>
+ 	<li>Anzeigen der Suchergebnisse
+<ul>
+ 	<li>(Wenn der Titel übereinstimmt) <strong>ODER</strong> (die Beschreibung stimmt überein) → zeigt sie in den Suchergebnissen an</li>
+</ul>
+</li>
+ 	<li>Empfehlung der Nutzervideos, die du ansehen möchtest
+<ul>
+ 	<li>(Wenn der Benutzer es in der Vergangenheit angesehen hat) <strong>ODER</strong> (es ist ähnlich wie etwas, das der Benutzer gemocht hat) → empfiehlst du es dem Benutzer</li>
+</ul>
+</li>
+</ul>
+Kannst du dir noch mehr Beispiele ausdenken?
+	</div>
+	
+<h5 id="notop">NOT Operator</h5>
+Der <strong>NOT</strong>-Operator ist einfach! Der NOT-Operator verändert den Wert eines Booleschen, um das Gegenteil dessen zu sein, was es ist.
+<p style="text-align: center;"><b>not</b> true = false</p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image13-1.png" alt="not true blocks" width="167" height="52" /></p>
+<p style="text-align: center;"><b>not</b> false = true</p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image43.png" alt="not false blocks" width="178" height="44" /></p>
+Manchmal ist es einfacher, eine Bedingung einzurichten, die das Gegenteil von dem, was du willst, überprüft. Für diese Szenarien kannst du den <strong>NOT</strong>-Operator verwenden.
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Condition5-1024x825.png" alt="condition5" width="283" height="228" />
+
+<div style="background-color: #00abad; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h5>Examples</h5>
+<ul>
+ 	<li>Du möchtest überprüfen, ob Text in einem Textfeld vorhanden ist, aber es ist einfacher, zu überprüfen, ob das Textfeld leer ist, also verwendest du den NOT-Operator.
+<ul>
+ 	<li>Wenn <strong>NOT</strong> (textbox = "") → dies tun</li>
+</ul>
+</li>
+ 	<li>du möchtest Ergebnisse von Welpen ausschliessen, aber es ist einfacher, Ergebnisse zu zeigen, die Welpen enthalten, sodass du den <strong>NOT</strong>-Operator verwendest.
+<ul>
+ 	<li>Wenn <strong>NOT</strong> (Artikel enthält Wort Welpe) → Ergebnisse anzeigen</li>
+</ul>
+</li>
+ 	<li>du kannst Logikoperatoren kombinieren, um mehr zu tun. So schliesst du Suchergebnisse über Welpen aus, und fügst Ergebnisse über Kätzchen hinzu.
+<ul>
+ 	<li>Wenn <strong>NOT</strong> (Artikel enthält Wort Welpen) UND (Artikel enthält Wort Kitten) → Ergebnisse anzeigen</li>
+</ul>
+</li>
+</ul>
+	</div>
+
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 id="act3">Übung</h3>
+Weisst du, dass du <strong>AND</strong>, <strong>ODER</strong> und <strong>NOT</strong> in einer Google-Suche verwenden kannst? Dies ist eine gute Möglichkeit, die Suchergebnisse zu einzuschränken oder zu erweitern, wenn du etwas suchst! Versuch es! Stelle sicher, dass du <strong>AND</strong>, <strong>ODER</strong> oder <strong>NOT</strong> in Grossbuchstaben eingibst. Schaue dir die Beispiele unten an:
+<ol>
+ 	<li>Suche nach 2017 <strong>UND</strong> Technovation gibt Ergebnisse, die sowohl 2017 und technovation enthalten<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image45.png" alt="image45" width="482" height="331" /></li>
+ 	<li>Suche nach 2017 <strong>ODER</strong> Technovation gibt Ergebnisse, die entweder 2017 oder technovation enthalten<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image25-1.png" alt="image25" width="481" height="313" /></li>
+</ol>
+	</div>
+<h2 id="forloops">Loops</h2>
+Computer sind gut darin, die gleiche Sache immer und immer wieder zu wiederholen, und dies wirklich schnell, ohne Fehler! Du kannst das nutzen, indem du Schleifen (Loops) verwendest. Eine Loop ist ein Codeblock, der sich immer wieder wiederholt.
+
+Es gibt zwei Arten von Loops, <strong>„While-Schleifen“</strong> („while loops“) und <strong>„For-Schleifen“</strong> („for loops“). <strong>While-Schleifen</strong> setzen etwas fort, bis eine Bedingung, die du einstellst, nicht mehr zutrifft, und <strong>For-Schleifen</strong> wiederholen etwas eine bestimmte Anzahl.
+<h5>For-Schleifen (for loop)</h5>
+<strong>For-Schleifen </strong>wiederholen einen Code-Block um eine bestimmte Anzahl. Sie werden For-Schleifen genannt, weil du deiner App sagen kannst, wie oft es den Code wiederholen. Du kannst dir das so vorstellen: Die For-Schleifen sagen deiner App, "Wiederhol das 14-mal" oder "Wiederhol das 5-mal".
+
+<strong>For-Schleifen </strong>verwenden eine Variable, <strong>Zähler</strong> genannt, um zu zählen, wie oft der Code wiederholt wurde. Du steuerst, wie oft die Schleife wiederholt wird, indem du festlegst, wo der <strong>Zähler</strong> beginnt und endet. Du legst auch fest, um wie viel der <strong>Zähler</strong> jedes Mal, wenn der Code sich wiederholt, steigt. In den meisten Szenarien möchtest du, dass der <strong>Zähler</strong> jedes Mal, wenn die Schleife wiederholt wird, um 1 ansteigt.
+
+Im App Inventor sehen die <strong>For-Schleifen</strong> wie folgt aus:
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image21.png" alt="for loop block" width="276" height="153" />
+
+Das Teil <em>number</em> ist der <strong>Zähler</strong>. Im Moment heisst der <strong>Zähler</strong><em> number</em>, aber du kannst das ändern. <em>Number</em> beginnt bei 1 und stoppt, wenn sie gleich 5 ist. Jedes Mal, wenn sich der Code innerhalb der Schleife wiederholt, erhöht sich <em>number</em> um 1. So wiederholt diese Schleife den Code innen drin 5-mal. Im Augenblick macht diese Schleife nichts, da der <em>do</em>-Teil leer ist. Lass uns ein Beispiel durchgehen.
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image41-1024x449.png" alt="image41" width="431" height="189" />
+
+Wir haben nichts an der <em>number-V</em>ariable geändert, doch wir haben Code zum <em>do</em>-Teil der Schleife hinzugefügt. Jedes Mal, wenn diese Schleife läuft, wird die App ihren Benutzer mit "hello" benachrichtigen, d.h. der Benutzer wird 5-mal benachrichtigt werden. Hier siehst du, wie die App diese Schleife durchlaufen wird:
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Screen-Shot-2016-11-01-at-2.00.15-PM.png" alt="screen-shot-2016-11-01-at-2-00-15-pm" width="448" height="414" />
+
+Diese Schleife wäre nützlich, wenn du den Benutzer 5-mal mit "hallo" benachrichtigen möchtest. Dies scheint so nicht sinnvoll, da es nicht so schwer ist, fünf Notifier-Blöcke hintereinander zu platzieren, die "hallo" sagen. Aber was ist, wenn du den Benutzer 100-mal mit "hallo" benachrichtigen willst? Dies wäre viel einfacher mit einer Schleife statt 100 Blöcken hintereinander zu machen!
+
+Eine weitere Möglichkeit, wie For-Schleifen nützlich sein können, ist die Nutzung der Zähl-Variablen in deinem Code. Jedes Mal, wenn die Schleife läuft, wird die Zähler-Variable einen anderen Wert haben. Dies kann wirklich nützlich sein, hier ist ein Beispiel.
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image27-1-1024x402.png" alt="image27" width="464" height="182" />
+
+In dieser For-Schleife benutzen wir die <em>number</em>-Variable im Code, indem wir sie an das Wort "hello" angehängt haben. <em>Number</em> erhöht sich jedes Mal um 1, weshalb die App jedes Mal, wenn sie läuft, verschiedene Dinge auswerfen. Hier siehst du, wie die App diese Schleife durchläuft:
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Screen-Shot-2016-11-01-at-2.04.17-PM.png" alt="screen-shot-2016-11-01-at-2-04-17-pm" width="445" height="381" />
+<h5 id="foreach">For each-Schleife</h5>
+Eine weitere nützliche Art von For-Schleifen, die du im App Inventor verwenden kannst, ist diese:
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image16-1.png" alt="image16" width="219" height="88" />
+
+Hier wird die <strong>Zählvariable</strong> <em>item</em> genannt und ist bereits darauf eingestellt, sich um die Anzahl der Elemente in einer Liste zu wiederholen. Diese Schleifen sind immer sehr nützlich, wenn du etwas mit einer Liste tun musst. Hier ist ein Beispiel.
+
+Nehmen wir an, du hast eine Liste von Zahlen und du möchtest jede Zahl innerhalb der Liste addieren und in einer Variablen namens <em>sum</em> speichern. Hier siehst du, wie du dies mit einer For each-Schleife tun würdest.
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/listofnumbers.png" alt="listofnumbers" width="404" height="94" />
+<p style="text-align: center;"><b><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/numberlist.png" alt="numberlist" width="500" height="106" /></b></p>
+Jedes Mal, wenn die Schleife durchläuft, erhält die Variable <em>sum</em> ein Element aus der <em>numberList</em> hinzugefügt. Die Schleife stoppt automatisch, nachdem alle Zahlen in der Liste hinzugefügt wurden!
+
+<em>Hinweis</em>: Du hast vielleicht bemerkt, dass die <em>Zählervariablen</em> in diesem Abschnitt den lokalen Variablen, die du in Coding Unit 2 gelernt hast, sehr ähnlich sind! Wenn ja, hast du Recht! Genau wie lokale Variablen kannst du sie nur innerhalb der Schleife verwenden.
+<h5 id="whileloop">Während-Schleifen (While-Loop)</h5>
+<strong>While-Schleifen sind </strong>Schleifen, die wiederholt werden, bis eine Bedingung nicht mehr wahr ist. Sie werden <strong>While-Schleifen</strong> genannt, weil der Code wiederholt wird während (while) eine Bedingung immer noch wahr ist. Du kannst dir das so vorstellen: <strong>While-Schleifen</strong> sagen deiner App „während das da geschieht, wiederhole dies“ oder „während dies nicht ändert, wiederhole das“.
+<div style="background-color: #00abad; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h5>Beispiel</h5>
+Du gibst eine Party und willst, dass die Musik spielt, bis alle deine Gäste gegangen sind. Du könntest deine Party als diese Schleife beschreiben:
+<ul>
+ 	<li><strong>While</strong> (Personen auf der Party &gt; 0)</li>
+ 	<li><strong>do</strong>: Spiel weiterhin Musik</li>
+</ul>
+Was, wenn du auch möchtest, dass deine Musik aufhört zu spielen, wenn es später als Mitternacht wird? Du kannst While-Schleifen programmieren, um die Schleife auf der Grundlage mehrerer Bedingungen mithilfe von Logik zu beenden. Jetzt kannst du deine Party als diese Schleife beschreiben.
+<ul>
+ 	<li><strong>While</strong> (Personen auf der Party&gt; 0) <strong>OR</strong> (Zeit &lt;Mitternacht)</li>
+ 	<li><strong>do</strong>: Spiel weiterhin Musik</li>
+</ul>
+In diesem Fall würde die Musik aufhören, sobald alle die Party verlassen haben oder es nach Mitternacht ist.
+	</div>
+
+Um eine <strong>While-Schleife</strong> zu verwenden, musst du eine Bedingung aufstellen, die als <em>wahr</em> beginnt. Wenn dein Zustand als <em>falsch</em> beginnt, wird deine Schleife nie ausgeführt. Die Schleife überprüft die Bedingung jedes Mal, bevor sie sich wiederholt, um sicherzustellen, dass die Bedingung immer noch wahr ist.
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/StartLoop-Arrow3-436x1024.png" alt="startloop-arrow3" width="169" height="397" />
+
+Hier siehst du, wie While-Schleifen im App Inventor aussehen.
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image35.png" alt="while loop block" width="159" height="105" />Bei While-Schleifen können Fehler auftreten! Wenn du eine Bedingung auswählst, die niemals <em>falsch</em> ist, wird Ihre Schleife niemals enden. Dies wird als Endlosschleife bezeichnet. Hier ist ein Beispiel.
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image52.png" alt="image52" width="389" height="156" />
+
+Da 1 immer gleich 1 ist, kann diese Bedingung niemals falsch sein!  Als wir diesen Code im App Inventor laufen liessen, reagierte unser Telefon nicht mehr und wir konnten nichts mehr tun. Du kannst auch eine Meldung erhalten, dass die App Inventor Companion App nicht mehr funktioniert.
+<h3 id="codechal">Code 3 Challenge Datenbankabfrage</h3>
+Beschreibung: Erstelle eine App, die es dem Benutzer ermöglicht, eine Datenbank nach Informationen zu durchsuchen und die Ergebnisse anzuzeigen. Die Datenbank sollte Namen und Beschreibungen von berühmten Personen, Orten, Filmen, Musik, Veranstaltungen oder was du willst. Stelle sicher, dass du mindestens drei Einträge in deiner Datenbank hast.
+
+Versuche auf eigene Faust herauszufinden, wie die Coding Challenge gelöst werden kann, bevor du die Anweisungen liest. Die Anleitung zeigt eine Art, wie diese Herausforderung gelöst werden kann.
+<h3 style="text-align: center;"><a href="http://www.technovationchallenge.org/curriculum/code-3-challenge/" target="_blank">Siehe Anleitung</a></h3>
+<h3 style="text-align: center;"><a href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.DatabaseSearch" target="_blank">Beispiel-App </a></h3>
+&nbsp;
+
+Viel Spass beim Codieren!
+
+<div style="background-color: #006667; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 id="reflect" style="color:white">Lernpunkt</h3>
+Herzlichen Glückwunsch zum Abschluss dieser Lektion! Dies war eine große Lektion, doch sie wird sehr nützlich sein, wenn du deine App erstellen wirst! Vergiss nicht, dass du immer alles nachlesen kannst, was du jetzt nicht verstanden hast.
+
+Überprüfung der Schlüsselwörter:
+<ul>
+ 	<li><strong>Booleans - </strong>Datentyp, der wahr oder falsch sein kann</li>
+ 	<li><strong>Bedingungen –</strong> Etwas, das eine App als wahr oder falsch auswertet</li>
+ 	<li><strong>Bedingte Anweisung - </strong>Sagt der App, was sie nach der Bewertung der Bedingungen tun soll</li>
+ 	<li><strong>AND-Operator</strong> - Wird als wahr ausgewertet, wenn alle Inputs wahr sind</li>
+ 	<li><strong>ODER-Operator</strong> - Wird als wahr ausgewertet, wenn einer der Eingänge wahr ist</li>
+ 	<li><strong>NOT-Operator</strong> - Wertet das Gegenteil des Eingangs aus</li>
+ 	<li><strong>Schleife</strong> - Ein sich wiederholender Codeblock</li>
+ 	<li><strong>For-Schleife</strong> - Wiederholt einen Codeblock eine bestimmte Anzahl</li>
+ 	<li><strong>For each-Schleife</strong> - Wiederholt einen Codeblock um die Anzahl Elemente in einer Liste</li>
+ 	<li><strong>While-Schleife</strong> - Wiederholt einen Codeblock, während eine Bedingung wahr ist</li>
+</ul>
+&nbsp;
+	</div>
