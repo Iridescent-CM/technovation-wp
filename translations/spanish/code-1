@@ -1,0 +1,195 @@
+<ul>
+ 	<li><a href="#algo">Algoritmos</a></li>
+ 	<li><a href="#proglang">Lenguajes de programación</a></li>
+ 	<li><a href="#getstarted">App Inventor</a></li>
+ 	<li><a href="#event">Controlador de eventos</a></li>
+ 	<li><a href="#func">Funciones</a></li>
+ 	<li><a href="#challenge">Desafío de Programación</a></li>
+ 	<li><a href="#reflect">Reflejar</a></li>
+</ul>
+<h3><strong>Objetivos de aprendizaje:</strong></h3>
+En este módulo...
+<ul>
+ 	<li>Aprenderás sobre los lenguajes de programación y sus usos</li>
+ 	<li>Prepararás el uso de App Inventor</li>
+ 	<li>Comenzarás a programar con App Inventor</li>
+</ul>
+<h3><strong>Algoritmos</strong></h3>
+A la mayoría de los niños que crecen en Estados Unidos les encanta los sándwiches de mermelada con mantequilla de maní. Hacer uno debería ser fácil, ¡solo pon mantequilla de maní en un pan y mermelada en el otro! Mira a Lynese y a Pablo intentando darle las instrucciones a su amigo de cómo hacer un sándwich.
+
+Video 1
+
+<object width="425" height="344"><param name="movie" value="http://swf.tubechop.com/tubechop.swf?vurl=NTLnzZCxRDM&amp;start=135&amp;end=202&amp;cid=8391112" /><embed src="http://swf.tubechop.com/tubechop.swf?vurl=NTLnzZCxRDM&amp;start=135&amp;end=202&amp;cid=8391112" type="application/x-shockwave-flash" allowfullscreen="allowfullscreen" width="425" height="344" /></object>
+
+Video 2
+
+<object width="425" height="344"><param name="movie" value="http://swf.tubechop.com/tubechop.swf?vurl=NTLnzZCxRDM&amp;start=428&amp;end=552&amp;cid=8391126" /><embed src="http://swf.tubechop.com/tubechop.swf?vurl=NTLnzZCxRDM&amp;start=428&amp;end=552&amp;cid=8391126" type="application/x-shockwave-flash" allowfullscreen="allowfullscreen" width="425" height="344" /></object>
+
+Jarad está actuando como un computador: él no hará nada a menos que tenga todos los comandos del proceso, paso por paso. Una persona tendría que saber que la instrucción “pon un poco de mermelada en el pan” realmente significa abrir el tarro de mermelada, mete un cuchillo, remuevelo y úsalo para untarla en el pan. Sin embargo, una computadora haría lo que hizo Jared; ¡volcaría todo el tarro de mermelada sobre el pan y luego estaría confundido!
+
+A diferencia de los humanos, los computadores no puedes inferir, o sacar conclusiones de algo. Solo pueden hacer exactamente lo que se les pide. Zoe y Pablo le dieron a Jared un algoritmo de cómo hacer un sandwich. Un algoritmo es un paquete de instrucciones, paso por paso. Para hacer que los computadores hagan algo, necesitas escribir un algoritmo para que lo entiendan. ¡En Technovation, aprenderás a escribir algoritmos que harán que tu aplicación haga lo que tú quieres que haga!
+
+<strong>Actividad</strong>
+
+Escribe un algoritmo para realizar una actividad diaria. Puede ser andar en bicicleta, hacer un sandwich, jugar un juego, lo que sea. Cuando estés lista, dale tu algoritmo a un compañero de tu equipo y haz que hagan exactamente lo que dice, tal como Jared lo hizo en el video. ¿Llevó a cabo la actividad tal como lo esperaste?
+
+<strong>Lenguajes de programación</strong>
+
+Los algoritmos de computadora están escritos en lenguajes de programación. Los lenguajes de programación son herramientas que te ayudan a hablarle a tu computadora. Los programadores usan diferentes lenguajes para hacer distintas cosas. Algunos son mejores para hacer aplicaciones, otros son mejores para construir páginas web y otros para llevar a cabo cálculos muy complicados. ¡Como todo lenguaje, debes aprender a usarlo para poder comunicarte!
+
+Para Technovation aprenderás a usar App Inventor, un lenguaje de programación que es perfecto para crear aplicaciones móviles. Una aplicación móvil es un programa informático construido para ser usado en un dispositivo como un teléfono o tablet y no en una computadora. Aquí hay algunos nombres de lenguajes de programación y sus usos más comunes.
+
+<strong>Javascript:</strong> Crear páginas web.
+
+<strong>Objective C:</strong> Crear aplicaciones de Android.
+
+<strong>Swift:</strong> Crear aplicaciones para iPhone (desarrollo de aplicaciones iOS)
+
+<strong>App Inventor:</strong> Desarrollo de aplicaciones Android (¡Aprenderás más en esta lección!)
+
+<strong>Actividad</strong>
+
+¿Tiene tu mentor o alguien que conoces experiencia en la industria tecnológica? ¡Pregúntales acerca de sus experiencias y los proyectos en los que han trabajado!
+<ul>
+ 	<li>¿En qué proyectos tecnológicos has trabajado, y qué aprendiste de estos?</li>
+ 	<li>Si tienes experiencia en algún lenguaje computacional, ¿para qué lo usaste?</li>
+</ul>
+Si no sabes nada acerca de la industria tecnológica, ¡revisa estas entrevistas con mujeres ingenieras de Facebook y Google!
+
+<iframe src="https://www.youtube.com/embed/s0JVc4q7d5M?feature=oembed" width="500" height="281" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<h3><iframe src="https://www.youtube.com/embed/8UovCe5hEt4?feature=oembed" width="500" height="281" frameborder="0" allowfullscreen="allowfullscreen"></iframe></h3>
+<h3><strong>Comenzando con App Inventor</strong></h3>
+<em>Puedes saltarte esta sección si ya sabes como usar App Inventor o si vas a usar otro lenguaje de programación para crear tu aplicación.</em>
+
+App Inventor es una aplicación web gratuita que le permite a los usuarios crear aplicaciones para teléfonos y tablets Android. Puedes acceder a App Inventor usando un navegador ingresando a<a href="http://appinventor.mit.edu/"> http://appinventor.mit.edu/</a>. Ve este video para aprender más sobre cómo será tu experiencia con App Inventor.
+
+Como viste en el video, ¡App Inventor es muy fácil de usar! Puedes diseñar y programar tu aplicación desde tu computador y luego testearla en un teléfono Android o emulador. Tu trabajo será guardado en los servidores de App Inventor automáticamente, así que estará ahí cada vez que ingreses. Para aprender más acerca de App Inventor visita <a href="http://appinventor.mit.edu/explore/content/what-app-inventor.html">esta p</a>ágina.
+
+<iframe src="https://www.youtube.com/embed/sNjGAiOrX-o?feature=oembed" width="500" height="281" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe>
+<h3><strong>Preparando App Inventor</strong></h3>
+En esta sección aprenderás a usar App Inventor para escribir un algoritmo entendible por un teléfono Android. Esto es lo que necesitarás para usar App Inventor:
+<ul>
+ 	<li>Computador</li>
+ 	<li>Acceso a internet</li>
+ 	<li>Cuenta de Gmail
+<ul>
+ 	<li>Necesitas una cuenta Gmail para ingresar a <a href="http://ai2.appinventor.mit.edu/">App Inventor</a>. Para configurar una cuenta Gmail dirígete <a href="https://accounts.google.com/signup">aqu</a>í.</li>
+</ul>
+</li>
+ 	<li>Teléfono o tablet Android (opcional pero muy recomendable) Si no tienes un teléfono Android, aquí hay algunas opciones asequibles de Amazon que no requieren plan. Recomendamos el sistema operativo Ice Cream Sandwich versión 4.0 o posterior.
+<ul>
+ 	<li><a href="https://www.amazon.com/Motorola-Moto-LTE-Contract-Cellular/dp/B00XQVDW6Y/ref=sr_1_18?s=wireless&amp;ie=UTF8&amp;qid=1472241020&amp;sr=1-18&amp;keywords=android+phone">Motorola Android</a></li>
+ 	<li><a href="https://www.amazon.com/BLU-Advance-5-0-Unlocked-Smartphone/dp/B018IZ0SWI/ref=sr_1_3?s=wireless&amp;ie=UTF8&amp;qid=1471294013&amp;sr=1-3&amp;keywords=android+phones">BLU Android</a></li>
+ 	<li><a href="https://www.amazon.com/NPOLE-Tablet-Android-Camera-Supported/dp/B01K4HDXD4/ref=sr_1_1?s=pc&amp;ie=UTF8&amp;qid=1473366480&amp;sr=1-1-spons&amp;keywords=Android%252Btablet">Android Tablet</a></li>
+</ul>
+</li>
+</ul>
+Una vez que ya tengas una cuenta Gmail, configura una cuenta con App Inventor <a href="http://ai2.appinventor.mit.edu/">aqu</a>í. Luego de que has configurado una cuenta con App Inventor e iniciado sesión, vuelve a esta página y ve a la sección siguiente.
+
+<strong>Conectando App Inventor con un telé</strong><strong>fono Android</strong>
+
+Puedes conectar tu teléfono Android o emulador para testear la aplicación que creaste en App Inventor de tres maneras. Si tienes un teléfono puedes conectarte a través de Wi-Fi o puerto USB. Si no tienes un teléfono Android, puedes usar un emulador, programa que te permite tener un teléfono virtual en tu computador. Cuando usas cualquiera de estos métodos, App Inventor te permite testearlas en vivo, lo que significa que puedes editar tu aplicación en App Inventor en tu computador y ver cómo los cambios aparecen instantáneamente en tu teléfono o emulador.
+<h4><strong>Método Wi-Fi</strong></h4>
+Esta es la manera más fácil de usar App Inventor y la más recomendable por el equipo de Technovation. Elige este método si tienes un teléfono Android o tablet y acceso a Wi-Fi. Debes poder conectarte a la misma red Wi-Fi tanto con tu teléfono como con tu computador para que este método funcione.
+
+Con este método, crearás aplicaciones en tu computador y las testearás en tu teléfono usando la aplicación MIT AI2 Companion. Revisa las instrucciones <a href="http://appinventor.mit.edu/explore/ai2/setup-device-wifi.html">aqu</a>í.
+<h4> <strong>Método USB</strong></h4>
+Este el el método más técnicamente complicado de usar y requiere que instales programas en tu computador. Elige este método si no tienes Wi-Fi.
+
+Usando este método crearás aplicaciones en tu computador usando App Inventor y las testearás en tu teléfono conectándolo con un cable USB. Necesitarás descargar un programa en tu computador y la aplicación MIT AI2 Companion para hacerlo. Si estás usando un computador con Windows, quizás necesites descargar un driver USB para tu teléfono. Para Macs, no debes preocuparte por el driver. Revisa las instrucciones de MIT para el método USB <a href="http://appinventor.mit.edu/explore/ai2/setup-device-usb.html">aqu</a>í.
+<h5><strong>Mé</strong><strong>todo Emulador</strong></h5>
+Este método puede ser complicado de usar, especialmente en Windows, y no es recomendado por Technovation. Deberías usar este método si no tienes un teléfono o tablet Android.
+
+Un emulador es un software (programa) que te permite correr un teléfono virtual en tu computador. Con este método crearás aplicaciones en tu computador y las testearás en el mismo usando un emulador. Revisa las instrucciones de MIT <a href="http://appinventor.mit.edu/explore/ai2/setup-emulator.html">aqu</a>í.
+
+Consejos para resolución de problemas:
+<ul>
+ 	<li>En Windows, asegúrate de que aiStarter está Quizás debas buscarlo y abrirlo.</li>
+ 	<li>El emulador puede demorarse en abrir.</li>
+ 	<li>Asegúrate de que tu teléfono no está conectado a tu computador.</li>
+ 	<li>Resetea tu conexión si te encontraste con algún error o si el emulador no responde.
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/ResetConnection.png" alt="resetconnection" width="799" height="215" /></li>
+ 	<li>Esta es la página de ayuda de MIT para el emulador: <a href="https://docs.google.com/document/d/1NbJRyCA9udxdU3oNyadR0fuvNglijYR7X3mVB_ZIeNU/edit">MIT Help page</a></li>
+ 	<li>Aquí hay un video que te ayudará a conectarte con un emulador: <a href="https://www.youtube.com/watch?v=8jjeMLwVAlE">PhilsComputerLab:Using the Emulator</a></li>
+</ul>
+Una vez que tengas todo configurado, puedes comenzar con la actividad.
+
+<strong><em>Actividad</em></strong>
+
+Completa estos dos tutoriales. Te ayudarán a crear tu primera aplicación en App Inventor y a entender la siguiente sección. La actividad siguiente te ayudará a comenzar a crear tu propia aplicación. El tutorial asume que estás usando el método Wi-Fi.
+<h5><strong>Tutorial 1: Talk to me (Háblame) Parte I</strong></h5>
+<iframe src="https://www.youtube.com/embed/Vdo8UdkgDD8?feature=oembed" width="500" height="281" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe><a href="http://appinventor.mit.edu/explore/sites/all/files/hourofcode/TalkToMePart1.pdf" target="_blank">Descargar el pdf</a>
+
+&nbsp;
+<h5><strong>Tutorial 2: Talk to me (Háblame) Parte II</strong></h5>
+<iframe src="https://www.youtube.com/embed/0hikoCvM3oc?feature=oembed" width="500" height="281" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+<a href="http://appinventor.mit.edu/explore/sites/all/files/hourofcode/TalkToMePart2.pdf" target="_blank">Descargar el PDF</a>
+<h3><strong>Controlador de eventos</strong></h3>
+Cuando creaste la aplicación Talk to Me (Háblame) usaste la sección ‘Diseñador’ y ‘Bloques’ de App Inventor. Cada vez que creas un elemento de diseño en tu aplicación debes decirle al computador qué es lo que hará cada elemento. Toda esta información estará en tus bloques.
+
+Es por esto que a App Inventor lo llaman el ‘lenguaje de programación en bloques’. Por cada elemento que dispones dentro de la sección Diseñador, debes decirle al computador qué hacer con él. Esto se denomina controlador de eventos.
+
+Un evento es algo que sucede. Probablemente habrás oído la palabra ‘evento’ en términos de un cumpleaños de un amigo o de una obra escolar. En programación, un evento es algo que pasa y que activa el código para que comience a correr. Por ejemplo, puede ser el clic de un usuario en un botón, un cambio en la orientación de la pantalla del teléfono, o el ingreso de un texto en un cuadro de texto. La manera en que el computador maneja el evento será en la cual tu le dijiste que lo hiciera cuando el evento se lleva a cabo.
+
+En tu aplicación Talk to Me, tú le dijiste a la aplicación qué es lo que tenía que hacer cuando el usuario hiciera clic en el botón, por lo que agregaste un controlador de eventos en ese botón. Se veía más o menos así:
+
+El <em>evento </em>fue el clic del usuario en el botón y la aplicación la controló diciéndole a TextToSpeech (TextoAVoz) que dijera algo. Esto será muy importante de tenerlo en cuenta. Cuando programas, tienes que pensar sobre lo que quieres que tu aplicación haga.
+
+<strong><em>Actividad</em></strong>
+
+¿Puedes pensar en algunos ejemplos en los cuales tu teléfono lleva a cabo controles de eventos? Aquí hay algunos para comenzar:
+<ul>
+ 	<li>Cuando aprietas “enviar” en un mensaje de texto, tu celular lo envía junto con un sonido</li>
+ 	<li>Cuando intentas comprar una aplicación en una tienda, tu celular pregunta por una contraseña</li>
+ 	<li>Cuando haces clic en una aplicación, esta se abre</li>
+</ul>
+<h3><strong>Funciones</strong></h3>
+Cuando ingresaste a la sección Bloques en App Inventor, ¿notaste las diferentes categorías o las funciones integradas? Lucen así:
+
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/technovation2.jpg" alt="technovation2" width="139" height="190" />
+
+Las Funciones son bloques de código que hacen algo. Estos aceptan un input (información) y producen un output (resultado). Un input es información que ingresa en una función, y el output es información que te es devuelta. En los tutoriales de Talk to Me, usaste la función Speech to Text (Voz a texto), que toma el texto, y lo transforma en palabra. El input es e texto y el output son las palabras.
+
+Las funciones integradas en App Inventor son lo más básico que usarás para escribir tu aplicación. Todos los lenguajes de programación tienen funciones integradas, y los buenos programadores saben cómo combinar estas funciones para hacer que el computador haga lo que ellos quieren que haga. Una vez que sepas cómo usar estas funciones, puedes combinarlas de diferentes maneras para crear tu aplicación. Aprenderás a usar estas funciones en las unidades 2: Información y variables y 3: Lógica, Loops y condicionales.
+<h3><strong>Actividad</strong></h3>
+Antes de continuar, programemos algo más. ¿Puedes llevar tu aplicación Talk to Me al siguiente nivel? ¡Aquí hay algunas ideas para que pruebes!
+<ul>
+ 	<li>Cambia el tono de voz de tu componente palabra a texto. Haz clic en el bloque palabra a texto y busca la propiedad pitch (tono). Puedes darle a tu voz tono 0, 1 o 2..
+<ul>
+ 	<li>Ve esto para aprender cómo: <a href="http://ai2.appinventor.mit.edu/reference/components/media.html%23TextToSpeech">App Inventor TextToSpeech Information</a></li>
+</ul>
+</li>
+ 	<li>¡Usa el sensor <em>Reconocimiento de voz </em>para hacer que tu teléfono repita algo que has dicho!</li>
+</ul>
+Al final de cada unidad de programación, completarás un desafío de programación que deberás mostrárselo a tu mentor para que te de retroalimentación. Estos tutoriales te ayudarán a aprender los conceptos clave de la programación y te ayudarán a crear tu aplicación final.
+
+<strong>Desafío de programación #1: Realiza una presentación de diapositivas</strong>
+
+Desafío: ¡Haz una aplicación que le permita a los usuarios hacer clic a través de una presentación de diapositivas de tus imágenes favoritas!
+
+Descarga nuestra aplicación de ejemplo en la tienda Google Play <a href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.Slideshow">aqu</a>í. En este desafío aprenderás a cambiar las pantallas en una aplicación y a subir tus propias imágenes. Si te quedas atascada, mira un poco más abajo para resolver el desafío. ¡Esfuérzate al máximo para resolverlo con tu equipo y mentor antes de mirar cómo lo hicimos!
+
+<a href="/?p=16945" target="_self">See the instructions</a>
+<a href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.Slideshow" target="_blank">
+Desargar la app de ejemplo</a>
+
+<strong>Reflexi</strong><strong>ón</strong>
+
+¡En esta lección cubrimos mucho! Aprendiste muchas palabras clave que te ayudaron a comenzar a escribir tu primer programa. Aquí hay algunas preguntas para reflexionar para que las discutas con tu equipo y tu mentor:
+
+<strong>P1:</strong> ¿Cuál fue la parte más difícil a la hora de comenzar a usar App Inventor? ¿Te quedaste atorada en algún momento en particular?
+
+<strong>P2:</strong> ¿Qué cosas de esta lección crees que te serán útiles al momento de crear tu aplicación?
+
+Palabras clave:
+<ul>
+ 	<li><strong>Algoritmos:</strong> Instrucciones paso a paso que un computador debe seguir</li>
+ 	<li><strong>Lenguaje de programación:</strong> Una manera de hablarle a tu computador y pedirle que haga ciertas cosas</li>
+ 	<li><strong>Evento:</strong> Cuando el usuario hace algo en tu aplicación, como hacer clic en un botón o agregar texto</li>
+ 	<li><strong>Controlador de eventos:</strong> El bloque de código que le dice a tu app qué hacer cuando un evento se lleva a cabo</li>
+ 	<li><strong>Funciones:</strong> Bloques de código que hacen algo. Toman un input y lo transforman en otra cosa, lo que se denomina como output</li>
+ 	<li><strong>Input:</strong> Información que ingresa a una función</li>
+ 	<li><strong>Output:</strong> Información que sale de una función</li>
+</ul>
+&nbsp;
