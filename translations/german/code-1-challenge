@@ -1,0 +1,78 @@
+<h1>Programmiertest 1</h1>
+<h1>Kreiere eine Slide Show</h1>
+<ul>
+ 	<li><a href="#design">Entwerfen des Bildschirms</a></li>
+ 	<li><a href="#blocks">Programmierung der "Blocks"</a></li>
+ 	<li><a href="#check">Checkpoint!</a></li>
+ 	<li><a href="#finish">Beenden der App</a></li>
+ 	<li>Letzter Checkpoint!</li>
+</ul>
+<h3>Entwerfen des Bildschirms</h3>
+Für diese App möchtet ihr eine Diashow erstellen, in der der Benutzer durch Bilder navigieren kann. Wenn ihr den Bildschirm entwirft, müsst ihr ein Bild sowie "vorheriges Bild" und "nächstes Bild"- Buttons für den Benutzer einfügen. Dieser Teil wird im <em>Designer</em>-Bildschirm durchgeführt.
+<ol>
+ 	<li>Fügt dem Bildschirm ein Bild hinzu.
+<ul>
+ 	<li>Stellt die Höhe und Breite so ein, dass das Bild auf die Bildschirmgrösse passt.</li>
+ 	<li>Wir wählen „fill parent” für unser Bild aus. Wenn „fill parent“ ausgewählt wird, wird das Bild automatisch auf die Grösse des Bildschirmes angepasst. Image1 ist innerhalb des Bildschirms, aber die Buttons sind in einer horizontalen Anordnung. Du kannst sehen, welche Dinge in anderen Dingen sind, indem du die Reihenfolge im Components-Menu beachtest.</li>
+</ul>
+</li>
+ 	<li>Füge unterhalb des Bildes ein horizontales Layout hinzu.</li>
+ 	<li>Füge zwei Buttons ins horizontale Layout hinzu.
+<ul>
+ 	<li>Klicke auf die Buttons im Components-Menu
+<ul>
+ 	<li>Verändere den Text, damit im Button “nächstes Bild“ und „vorheriges Bild“ steht.</li>
+ 	<li>Du solltest auch die Namen deiner Buttons anpassen, damit du nachher weisst, was diese tun! Wir haben unsere zu „previous“ und „next“ geändert. Klick auf „rename“ unter „Components“.</li>
+</ul>
+</li>
+</ul>
+</li>
+ 	<li>Lade ein Bild hoch, dass du in der Diashow verwenden möchtest!</li>
+ 	<li>Wähle das Bild aus, dass du auf der ersten Seite deiner Diashow verwenden möchtest.
+<ul>
+ 	<li>Klicke auf „Image1“ im „Components“-Menu, danach auf „Picture“ im „Properties“-Menu. Dann kannst du ein Bild auswählen, das hochgeladen wird.</li>
+</ul>
+</li>
+ 	<li>Füge mindestens zwei weitere Seiten dazu. Für unsere Slideshow haben wir drei Bildschirme verwendet, aber du darfst auch mehr einfügen.
+<ul>
+ 	<li>FFürs Erste muss mit diesen Seiten nichts gemacht werden, aber nach der „Block“-Programmierung werdet ihr dafür Buttons und Bilder hinzufügen, genauso wie auf der ersten Seite.</li>
+</ul>
+</li>
+</ol>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/designer.png" alt="designer" width="1440" height="772" />
+<h3>Programmierung der "Blocks"</h3>
+Erklärung: Da du nun deine Seite eingerichtet hast, müssen die Buttons noch eingerichtet werden. Wenn der Benutzer einen Button anklickt, sollte eine andere Seite mit einem anderen Bild geöffnet werden. Dafür benutzen wir den „Button event handler“.
+<ol start="7">
+ 	<li>Klicke auf den Button „vorheriges Bild”, um alle Möglichkeiten des Event Handlers zu sehen. Klicke auf „when button.klick“, halte die Maus gedrückt und führe die Maus zum Bildschirm.</li>
+ 	<li>Klicke auf „control” und finde den Block „open another screen screenName”.</li>
+ 	<li>Öffne eine leere „text box” und ziehe sie in den Block „open another screen screenName”. Gib den Namen der <em>letzten</em> Seite deiner Slide Show ein. In unserem Beispiel ist das Screen3.</li>
+ 	<li>Klick auf deinen „next“ Button und ziehe den „when button.click” Event Handler nochmals.</li>
+ 	<li>Unter „Control”, hole noch einen Block „open another screen screenName”.</li>
+ 	<li>Hole dir einen Block „text“ und gib die <em>nächste</em> Seite ein, welche in deiner Slide Show erscheinen soll (in unserem Beispiel ist dies Screen2).</li>
+</ol>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/blocks.png" alt="blocks" width="1440" height="766" />
+<h3>Checkpoint!</h3>
+Bevor wir weitergehen, stellen wir sicher, dass der Code, den wir soeben erstellt haben, funktioniert. Es ist eine gute Angewohnheit, Teile des Codes zu überprüfen, bevor eine komplette App fertiggeschrieben ist, um sicherzustellen, dass es funktioniert. Andernfalls könnte die gesamte App fertig sein, aber mit vielen Befehlen, die nicht funktionieren (und es könnte schwierig sein, herauszufinden, warum sie nicht funktionieren!)!
+
+Öffne die App aus App Inventor auf deinem Telefon, Tablet und dem „Emulator”. Funktionieren die Tasten wie erwartet? Unsere Tasten haben funktioniert: „previous“ hat zum leeren Screen3 geführt, und „next“ zum leeren Screen2. Wenn deine Tasten nicht das tun, was erwartet wird, dann überprüfe deinen Code im Erstellungsmodus.
+
+<em>Tipp: Da Screen2 und Sceen3 noch leer sind, kehren wir zu Screen1 zurück, indem wir auf unseren Computer zurückkehren. App Inventor ermöglicht es, über das angeschlossene Telefon, Tablet oder den Emulgator durch die App zu navigieren. Dies ist ein guter Trick für später.</em>
+<h3>Beenden der App</h3>
+Erklärung: Nachdem du erfolgreich einen Bildschirm eingerichtet und programmiert hast, kannst du den Rest der Bildschirme programmieren! Du kannst weitere Bilder hinzufügen, wenn du willst, dass deine Diashow mehr Bilder hat, aber stelle sicher, dass du immer mindestens drei hast. Die Diagramme unten zeigen den Durchfluss.
+<ol start="13">
+ 	<li>Wiederhole Schritte 1-12 für jede Seite deiner Slide Show. Der „nächstes Bild“-Button sollte immer zum nächsten Bild führen, und der „vorheriges Bild“-Button zum letzten Bild.</li>
+</ol>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/3Screen-Diagram.png" alt="3screen-diagram" />
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/4Screen-Diagram.png" alt="4screen-diagram" />
+<h3>Letzter Checkpoint!</h3>
+<span id="result_box" class="" lang="de"><span class="">Stell sicher, dass Ihre App funktioniert!</span> <span class="">Teste alle "Weiter" und alle "Zurück" -Taste.</span> Führt jede Taste <span class="">zu einem neuen Bildschirm?</span> <span class="">Wenn nicht, überprüfe deine Arbeit und stell  sicher, dass du die Namen Ihrer Bildschirme korrekt eingegeben hast.</span></span>
+
+<span class="">Herzliche Glückwünsche!</span> Du hast <span class="">gerade deine erste Codierung Test abgeschlossen!</span> Super gemacht<span class="">!</span> <span class="">Nicht viele Leute haben jemals eine App codiert!</span>
+
+Steckst du fest? Vergiss nicht, das <a href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.Slideshow">App-Beispiel</a> vom Google Play Store herunterzuladen, um zu sehen, wie sie funktioniert. Du kannst auch den Quellcode unseres Test herunterladen: <a href="https://drive.google.com/file/d/0B9HV58UviqU_UUotS1BieWxGTWM/view?usp=sharing" target="_blank">Slideshow Quellcode</a>
+
+Hier findest du eine Anleitung zum Herunterladen und zur Verwendung des Quellcodes:  <a href="http://appinventor.mit.edu/explore/ai2/share.html" target="_blank">Anleitung Quellcode</a>
+
+&nbsp;
+
+&nbsp;
