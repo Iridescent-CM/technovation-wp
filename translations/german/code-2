@@ -1,22 +1,22 @@
 <h1>Code 2</h1>
 <h1>Daten und Variablen</h1>
 <ul>
- 	<li><a href="#data">Data</a></li>
- 	<li><a href="#types">Data Types</a></li>
- 	<li><a href="#variables">Variables</a></li>
- 	<li><a href="#localglobal">Local and Global Variables</a></li>
- 	<li><a href="#lists">Lists</a></li>
- 	<li><a href="#databases">Databases</a></li>
- 	<li><a href="#challenge">Code Challenge</a></li>
- 	<li><a href="#reflect">Reflect</a></li>
+  <li><a href="#data">Data</a></li>
+  <li><a href="#types">Data Types</a></li>
+  <li><a href="#variables">Variables</a></li>
+  <li><a href="#localglobal">Local and Global Variables</a></li>
+  <li><a href="#lists">Lists</a></li>
+  <li><a href="#databases">Databases</a></li>
+  <li><a href="#challenge">Code Challenge</a></li>
+  <li><a href="#reflect">Reflect</a></li>
 </ul>
 <h2><b>Lernziele:</b></h2>
 In diesem Modul
 <ul>
- 	<li style="font-weight: 400;">erfährst du mehr über Daten und verschiedene Datentypen</li>
- 	<li style="font-weight: 400;">erfährst du, wie du Variablen und Datenbanken verwendest</li>
- 	<li style="font-weight: 400;">lernst du, Daten in Listen zu organisieren</li>
- 	<li style="font-weight: 400;">erstellst du eine To-Do-List-App (Aufgabenliste), die mit einer Datenbank verbunden ist</li>
+  <li style="font-weight: 400;">erfährst du mehr über Daten und verschiedene Datentypen</li>
+  <li style="font-weight: 400;">erfährst du, wie du Variablen und Datenbanken verwendest</li>
+  <li style="font-weight: 400;">lernst du, Daten in Listen zu organisieren</li>
+  <li style="font-weight: 400;">erstellst du eine To-Do-List-App (Aufgabenliste), die mit einer Datenbank verbunden ist</li>
 </ul>
 Diese Lektion enthält eine Menge Informationen und es ist okay, wenn du jetzt noch nicht alles verstehst. Die Coding-Challenges sind der beste Weg, um Coding-Konzepte zu verstehen - denn so kannst du sie in Aktion sehen! Du kannst dir diese Lektion auch immer wieder ansehen, wenn du beim Programmieren der App irgendwo steckenbleibst.
 <h2>Teil 1: Alles über Daten</h2>
@@ -40,24 +40,24 @@ Irgendwann in deinem Leben hast du wahrscheinlich schon einmal das Wort <strong>
 <td style="text-align: left;" width="119">Was die App zum Funktionieren braucht</td>
 <td width="190">
 <ul>
- 	<li> dein Benutzername</li>
- 	<li>die Benutzernamen deiner Freunde</li>
- 	<li>die Nachricht , die du verschicken möchtest</li>
- 	<li>die Uhrzeit</li>
- 	<li>dein Standort</li>
+  <li> dein Benutzername</li>
+  <li>die Benutzernamen deiner Freunde</li>
+  <li>die Nachricht , die du verschicken möchtest</li>
+  <li>die Uhrzeit</li>
+  <li>dein Standort</li>
 </ul>
 </td>
 <td width="218">
 <ul>
- 	<li>deine Punktzahl</li>
- 	<li>wie viele Punkte jedes Objekt wert ist</li>
- 	<li>deine abgeschlossenen Levels</li>
- 	<li>Wie viele Vögel du in jedem Level erhältst</li>
+  <li>deine Punktzahl</li>
+  <li>wie viele Punkte jedes Objekt wert ist</li>
+  <li>deine abgeschlossenen Levels</li>
+  <li>Wie viele Vögel du in jedem Level erhältst</li>
 </ul>
 </td>
 <td width="193">
 <ul>
- 	<li> deine Lieblingsbilder</li>
+  <li> deine Lieblingsbilder</li>
 </ul>
 </td>
 </tr>
@@ -65,20 +65,20 @@ Irgendwann in deinem Leben hast du wahrscheinlich schon einmal das Wort <strong>
 </table>
 Die Programmiererin muss dafür sorgen, dass die App alle benötigten Informationen erhält. <em>Denk daran</em>, dass Computer nicht alles auf eigene Faust und ohne Anweisungen tun können. Hier sind ein paar Möglichkeiten, wie Apps im App Inventor an diese Daten kommen können:
 <ol>
- 	<li>Die Programmiererin gibt die Informationen ein:
+  <li>Die Programmiererin gibt die Informationen ein:
 <ul>
- 	<li>IIn deiner Slideshow-App hast du (die Programmiererin) deine Lieblingsbilder eingetragen.</li>
- 	<li>In Angry Birds hat die Programmiererin eingegeben, wie viele Vögel der Spieler in jedem Level bekommt.</li>
+  <li>IIn deiner Slideshow-App hast du (die Programmiererin) deine Lieblingsbilder eingetragen.</li>
+  <li>In Angry Birds hat die Programmiererin eingegeben, wie viele Vögel der Spieler in jedem Level bekommt.</li>
 </ul>
 </li>
- 	<li>Die Benutzerin gibt die Informationen ein
+  <li>Die Benutzerin gibt die Informationen ein
 <ul>
- 	<li>In WhatsApp muss die Benutzerin der App sagen, was sie senden möchte und wem sie es schicken möchte.</li>
+  <li>In WhatsApp muss die Benutzerin der App sagen, was sie senden möchte und wem sie es schicken möchte.</li>
 </ul>
 </li>
- 	<li>Die App verbindet sich mit einem anderen Ort, um Informationen zu erhalten
+  <li>Die App verbindet sich mit einem anderen Ort, um Informationen zu erhalten
 <ul>
- 	<li>WhatsApp verbindet sich mit deinem Handy, um die Uhrzeit abzufragen, damit es weiss, wann du eine Mitteilung abgeschickt hast.</li>
+  <li>WhatsApp verbindet sich mit deinem Handy, um die Uhrzeit abzufragen, damit es weiss, wann du eine Mitteilung abgeschickt hast.</li>
 </ul>
 </li>
 </ol>
@@ -97,10 +97,10 @@ Der Datentyp Zahlen ist genau das, was du denkst! Im App Inventor kannst du Zahl
 
 Wir verwenden Math-Blöcke, wann immer wir Zahlen verwenden müssen. Im Folgenden findest du einige Beispiele dafür, wann du in eurer App einen Zahlen-Datentyp verwenden kannst.
 <ul>
- 	<li style="font-weight: 400;">Berechnung der Punktzahl einer Spielerin in einem Spiel</li>
- 	<li style="font-weight: 400;">Zählen, wie oft eine Benutzerin versucht hat, sich einzuloggen</li>
- 	<li style="font-weight: 400;">Zählen, wie oft du möchtest, dass eure App etwas macht</li>
- 	<li style="font-weight: 400;">Prüfen, ob eure Benutzerinnen ein bestimmtes Alter haben</li>
+  <li style="font-weight: 400;">Berechnung der Punktzahl einer Spielerin in einem Spiel</li>
+  <li style="font-weight: 400;">Zählen, wie oft eine Benutzerin versucht hat, sich einzuloggen</li>
+  <li style="font-weight: 400;">Zählen, wie oft du möchtest, dass eure App etwas macht</li>
+  <li style="font-weight: 400;">Prüfen, ob eure Benutzerinnen ein bestimmtes Alter haben</li>
 </ul>
 Um mehr herauszufinden über all die Dinge, die du mit Math-Blocks tun kannst, geh auf die Website des MIT: <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/math.html" target="_blank">Math blocks</a>
 <h5>Strings</h5>
@@ -110,10 +110,10 @@ Beim Datentyp String handelt es sich um Text. Um im App Inventor einen String zu
 
 Du solltest immer einen String verwenden, wenn du ein Textfeld zu deinem Code hinzufügen möchtest. Im Folgenden findest du einige Beispiele für die Verwendung des Datentyps String in eurer App.
 <ul>
- 	<li style="font-weight: 400;">Prüfen, ob das Passwort einer Benutzerin korrekt ist</li>
- 	<li style="font-weight: 400;">Die App mit dem Benutzer sprechen lassen</li>
- 	<li style="font-weight: 400;">Showing a message or an alert to the user</li>
- 	<li style="font-weight: 400;">Einer Benutzerin eine Nachricht anzeigen</li>
+  <li style="font-weight: 400;">Prüfen, ob das Passwort einer Benutzerin korrekt ist</li>
+  <li style="font-weight: 400;">Die App mit dem Benutzer sprechen lassen</li>
+  <li style="font-weight: 400;">Showing a message or an alert to the user</li>
+  <li style="font-weight: 400;">Einer Benutzerin eine Nachricht anzeigen</li>
 </ul>
 Bevor du weitermachst, schau auf der Website des MIT nach, was du mit Textblöcken alles anstellen kannst: <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/text.html#string" target="_blank">Text blocks</a>
 <h5>Booleans</h5>
@@ -126,10 +126,10 @@ Im Moment gibt es nicht viel zu tun mit den Booleans, wir behalten sie einfach i
 <h3 id="variables">Variablen</h3>
 Eines der wichtigsten Codierungskonzepte ist die <b>Variable</b>. Eine Variable ist ein Name für ein Datenelement, das sich im Wert ändern kann. Eine einfache Möglichkeit, sich das zu merken ist, dass eine Variable variieren oder den Wert ändern kann. Es gibt viele Informationen, die dir jeden Tag wichtig sind, die ihren Wert verändern. Hier sind einige Beispiele:
 <ul>
- 	<li style="font-weight: 400;">dein Alter</li>
- 	<li style="font-weight: 400;">dein Grösse</li>
- 	<li style="font-weight: 400;">dein Standort</li>
- 	<li style="font-weight: 400;">das heutige Datum</li>
+  <li style="font-weight: 400;">dein Alter</li>
+  <li style="font-weight: 400;">dein Grösse</li>
+  <li style="font-weight: 400;">dein Standort</li>
+  <li style="font-weight: 400;">das heutige Datum</li>
 </ul>
 Um Variablen besser zu verstehen und zu lernen, wie wir sie im App Inventor verwenden, schauen wir uns ein Beispiel an. Stell dir vor, du erstellst ein Spiel, bei dem die Benutzerin Punkte verdienen und verlieren kann. Du möchtest, dass die Spielerin ihre Punktzahl (score) in einem Textfeld sehen kann. Zu Beginn des Spiels hat die Spielerin 0 Punkte, also fügst du diesen Block ins Spiel ein:
 
@@ -182,9 +182,9 @@ In der Codierungsherausforderung siehst du Beispiele, wann globale Variablen ver
 <h3 id="lists">Listen</h3>
 Es gibt so viele Informationen auf der Welt, es kann wirklich verwirren! Zum Glück haben wir Möglichkeiten, Daten zu organisieren, damit wir sie leicht finden und verwenden können. Fällt dir ein Beispiel ein, wie du Informationen und Objekte in deinem Leben organisierst? Hier sind einige Beispiele für Dinge, die du tun könntest, um Dinge zu organisieren:
 <ul>
- 	<li>Telefonnummern von Freunden in eine Kontaktliste setzen</li>
- 	<li>Bleistifte in eine Bleistiftbox stecken</li>
- 	<li>Kleidung in einen Schrank legen</li>
+  <li>Telefonnummern von Freunden in eine Kontaktliste setzen</li>
+  <li>Bleistifte in eine Bleistiftbox stecken</li>
+  <li>Kleidung in einen Schrank legen</li>
 </ul>
 Programmierer verwenden Listen, um Daten in ihren Programmen zu organisieren. Listen können mehrere Stücke von Daten enthalten und man kann daraus leicht Daten erhalten. Du hast möglicherweise schon eine To-do-Liste oder eine Einkaufsliste erstellt, Listen in der Programmierung sind sehr ähnlich gemacht. Im App-Inventor kannst du zu „blocks“ gehen und „lists" auswählen. Eine Liste sieht wie folgt aus:
 <table style="height: 189px;" width="757">
@@ -205,9 +205,9 @@ Listen sind wirklich nützlich für grosse Mengen an Informationen. Jedes Ding i
 
 <b>Liste Name: Früchte</b>
 <ul>
- 	<li>Äpfel (Index = 1))</li>
- 	<li>Bananen (Index = 2)</li>
- 	<li>Orangen (Index = 3)</li>
+  <li>Äpfel (Index = 1))</li>
+  <li>Bananen (Index = 2)</li>
+  <li>Orangen (Index = 3)</li>
 </ul>
 </td>
 </tr>
@@ -226,11 +226,11 @@ Du kannst auch Dinge in Listen hinzufügen, entfernen und ersetzen. Angenommen, 
 <td> <img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image37.png" alt="add to list" width="588" height="148" /></td>
 <td>Nun wird deine App deine Liste wie folgt sehen:<b>Liste Name: Früchte</b>
 <ul>
- 	<li>Äpfel (Index = 1)</li>
- 	<li>Bananen (Index = 2)</li>
- 	<li>Orangen (Index = 3)</li>
- 	<li>Kiwis (Index = 4)</li>
- 	<li>Trauben (Index = 5)</li>
+  <li>Äpfel (Index = 1)</li>
+  <li>Bananen (Index = 2)</li>
+  <li>Orangen (Index = 3)</li>
+  <li>Kiwis (Index = 4)</li>
+  <li>Trauben (Index = 5)</li>
 </ul>
 </td>
 </tr>
@@ -254,9 +254,9 @@ Sieh dir die MIT-Website für Informationen über Listen an: <a href="http://app
 <h3 id="databases">Datenbanken</h3>
 Variablen sind ideal für die Speicherung von Informationen, während ein Benutzer deine App verwendet, aber was ist, wenn du Informationen zwischen den Zeiten, wenn ein Benutzer deine App öffnet und schliesst, speichern möchtest? Du kannst dies mit einer <b>Datenbank</b> tun. Datenbanken können Informationen für spätere Verwendung speichern, auch wenn die App geschlossen ist! Du kannst Datenbanken als Speicherort für Informationen sehen, die du später wiederherstellen kannst. Hier einige Beispiele für Datenbanken, die du täglich verwenden kannst:
 <ul>
- 	<li>Kontaktliste - du speicherst die Telefonnummern Ihres Freundes, damit du diese später verwenden kannst</li>
- 	<li>Nachrichten App - speichert Verlauf der Nachricht</li>
- 	<li>Notebook - du schreibst die Dinge und liest sie später</li>
+  <li>Kontaktliste - du speicherst die Telefonnummern Ihres Freundes, damit du diese später verwenden kannst</li>
+  <li>Nachrichten App - speichert Verlauf der Nachricht</li>
+  <li>Notebook - du schreibst die Dinge und liest sie später</li>
 </ul>
 n App Inventor kannst du mit der Komponente <b>TinyDB</b> Daten auf dem Telefon ihres Benutzers speichern, die bei jeder Anmeldung in Ihrer App vorhanden sein werden. Es ist wichtig zu wissen, dass TinyDB nur erlaubt, Daten <i>lokal zu speichern</i>. Das bedeutet, dass zwei Benutzer keine Daten mit TinyDB teilen können. Wenn ein Benutzer Daten in TinyDB speichert, ist es nur auf ihrem Telefon verfügbar, und niemand anderem. Du erfährst, wie du Informationen zwischen Telefonen teilst in <a href="/?p=17673" target="_blank"> Codierungseinheit 4.</a>
 
@@ -291,25 +291,25 @@ Um dies besser zu verstehen, gehen wir durch ein Beispiel. Nehmen wir an, du mü
 
 Daten:
 <ul>
- 	<li>„Äpfel” (index = 1)</li>
- 	<li>„Bananen” (index =2)</li>
- 	<li>„Orangen” (index = 3)</li>
+  <li>„Äpfel” (index = 1)</li>
+  <li>„Bananen” (index =2)</li>
+  <li>„Orangen” (index = 3)</li>
 </ul>
 </td>
 <td>Tag-Name: „Mein Alter”
 
 Daten:
 <ul>
- 	<li>16</li>
+  <li>16</li>
 </ul>
 </td>
 <td>Tag-Name: „Favorit”
 
 Daten:
 <ul>
- 	<li>„Codieren lernen” (index = 1)</li>
- 	<li>„Besuch Familie”(index = 2)</li>
- 	<li>„Musik hören“ (index =3)</li>
+  <li>„Codieren lernen” (index = 1)</li>
+  <li>„Besuch Familie”(index = 2)</li>
+  <li>„Musik hören“ (index =3)</li>
 </ul>
 </td>
 </tr>
@@ -332,12 +332,14 @@ Herzlichen Glückwunsch zum Abschluss aller Inhalte in dieser Einheit. Es war ei
 Beschreibung: Erstelle eine To-Do List, die es Benutzern ermöglicht, Elemente einzugeben und zu entfernen. Deine App sollte sich jedes Mal, wenn der Benutzer die App öffnet, die Artikel merken. Du kannst erlernen, wie man ein <a href="http://ai2.appinventor.mit.edu/reference/components/userinterface.html#ListView" target="blank">ListView</a> benutzt, bevor man die Challenge versucht!
 
 Versuche dein Bestes, diese Challenge auf eigene Faust zu schaffen, bevor du die Anweisungen liest. Denke daran, diese Anweisungen sind nur eine Möglichkeit, wie die Challenge gelöst werden kann! Du kannst unsere Beispiel-App auch im Google Play Store herunterladen. Glückliche Codierung!
-<p style="text-align: center;"><a href="https://iridescent.wpengine.com/?p=16947" target="_blank">Siehe Anleitung</a></p>
-<p style="text-align: center;">Lade die Beispiel-App hier herunter:
-<a href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.ToDoList">Technovation Challenge #2</a></p>
-<p style="text-align: center;"><a href="https://drive.google.com/open?id=0B9HV58UviqU_a2lTVFdUb0hGbGM" target="_blank">Beispiel-Quellcode</a></p>
-<p style="text-align: center;"><a href="http://appinventor.mit.edu/explore/ai2/share.html" target="_blank">Quellcodes Anleitungen</a></p>
 
+Lade die Beispiel-App hier herunter: <a href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.ToDoList">Technovation Challenge #2</a>
+
+<em>Siehe Anleitung:</em>
+
+Kommt ihr nicht weiter? Ladet hier unseren Beispiel-Quellcode herunter: <a href="https://drive.google.com/open?id=0B9HV58UviqU_a2lTVFdUb0hGbGM">https://drive.google.com/open?id=0B9HV58UviqU_a2lTVFdUb0hGbGM</a>
+
+Hier findet ihr Anleitungen, wie ihr Quellcodes herunterlädt und verwendet: <a href="http://appinventor.mit.edu/explore/ai2/share.html">Source Code Anweisungen</a>
 <div style="background-color: #00abad; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
 <h3 id="reflect">Lernpunkte</h3>
 In dieser Lektion haben wir viel abgedeckt! Ihr habt etwas über die verschiedenen Datentypen und die verschiedenen Möglichkeiten diese zu speichern und zu organisieren. Hier sind einige Reflexionsfragen für euch, die ihr mit eurem Mentor diskutieren könnt:
@@ -348,22 +350,22 @@ In dieser Lektion haben wir viel abgedeckt! Ihr habt etwas über die verschieden
 
 In diesem Abschnitt habt ihr folgende Schlüsselwörter gelernt:
 <ul>
- 	<li>Daten - Informationen, die eure App verwendet</li>
- 	<li>Datentyp - Die Art in der Daten kategorisiert werden</li>
- 	<li>Number - Ein Datentyp, der eine Zahl ist</li>
- 	<li>String - Ein Datentyp, der Text ist</li>
- 	<li>Boolean - Ein Datentyp, der Richtig oder Falsch ist</li>
- 	<li>Variable - Ein Name für ein Datenelement, das sich ändern kann</li>
- 	<li>Globale Variable - Eine Variable, die an jedem Punkt in eurem Code verwendet werden kann</li>
- 	<li>Lokale Variable - Eine Variable, die nur in einem bestimmten Codeabschnitt verwendet wird</li>
- 	<li>Liste - Eine Möglichkeit, mehrere Daten zu organisieren</li>
- 	<li>List Index - Eine Zahl, die angibt, wo sich Daten in einer Liste befinden</li>
- 	<li>Datenbank - Ein Platz zum Speichern und Organisieren von Informationen</li>
+  <li>Daten - Informationen, die eure App verwendet</li>
+  <li>Datentyp - Die Art in der Daten kategorisiert werden</li>
+  <li>Number - Ein Datentyp, der eine Zahl ist</li>
+  <li>String - Ein Datentyp, der Text ist</li>
+  <li>Boolean - Ein Datentyp, der Richtig oder Falsch ist</li>
+  <li>Variable - Ein Name für ein Datenelement, das sich ändern kann</li>
+  <li>Globale Variable - Eine Variable, die an jedem Punkt in eurem Code verwendet werden kann</li>
+  <li>Lokale Variable - Eine Variable, die nur in einem bestimmten Codeabschnitt verwendet wird</li>
+  <li>Liste - Eine Möglichkeit, mehrere Daten zu organisieren</li>
+  <li>List Index - Eine Zahl, die angibt, wo sich Daten in einer Liste befinden</li>
+  <li>Datenbank - Ein Platz zum Speichern und Organisieren von Informationen</li>
 </ul>
 <h3>Zusätzliche Ressourcen</h3>
 Hier sind einige zusätzliche Ressourcen über Datenbanken. Ihr könnt diese jetzt nutzen oder dann, wenn ihr Hilfe beim Erstellen eurer App benötigt!
 <ul>
- 	<li style="font-weight: 400;"><a style="color: white;" href="https://drive.google.com/a/iridescentlearning.org/file/d/0B3rEYL3DkWfAd003UmM2cl9ITDg/view" target="_blank">TinyDB101</a></li>
- 	<li style="font-weight: 400;"><a style="color: white;" href="https://drive.google.com/a/iridescentlearning.org/file/d/0B3rEYL3DkWfAZUVQVGxPZzdXTXc/view" target="_blank">TinyDB102</a></li>
+  <li style="font-weight: 400;"><a style="color: white;" href="https://drive.google.com/a/iridescentlearning.org/file/d/0B3rEYL3DkWfAd003UmM2cl9ITDg/view" target="_blank">TinyDB101</a></li>
+  <li style="font-weight: 400;"><a style="color: white;" href="https://drive.google.com/a/iridescentlearning.org/file/d/0B3rEYL3DkWfAZUVQVGxPZzdXTXc/view" target="_blank">TinyDB102</a></li>
 </ul>
 </div>
