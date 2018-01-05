@@ -1,4 +1,3 @@
-<h1>Ideación</h1>
 <h3>Definir el problema.</h3>
 <ul>
  	<li><a href="#needs">Necesidades de la comunidad</a></li>
@@ -18,7 +17,7 @@ En este módulo aprenderás a...
  	<li style="font-weight: 400;">Crear una lluvia de ideas para obtener soluciones potenciales que ataquen las necesidades de tu comunidad.</li>
  	<li style="font-weight: 400;">Definir de forma clara el problema a resolver por tu equipo.</li>
 </ul>
-<h3>Entender las necesidades de la comunidad</h3>
+<h3 id="needs">Entender las necesidades de la comunidad</h3>
 ¡Felicidades! Te haz registrado para tomar parte en Technovation y tú y tu equipo están emocionadas por resolver un problema en tu comunidad mediante la creación de una aplicación móvil. Tu equipo puede o aun no tener una idea para resolver un problema. En cualquiera de los casos, veamos como las personas usualmente enfrentan los problemas y toman decisiones.
 
 Nuestros cerebros constantemente están procesando información y al mismo tiempo resolvemos problemas sin siquiera darnos cuenta. Supon que te dejaron una tarea importante en la escuelta y tú la olvidaste. Escribes algo de último minuto y lo entregas, sin embargo no es tu mejor trabajo. Reaccionaste ante una situación, y a veces esto es necesario. Pero, ¿estás respondiendo a una verdadera <em>necesidad</em>?
@@ -28,7 +27,8 @@ Para encontrar una idea para tu aplicación para Technovation requieres identifi
 Pero primero, ¿qué tan bien conoces tu comunidad? ¡Puedes vivir en un lugar por mucho tiempo y darte cuenta de que pasan muchas cosas de las que no te percatabas! Las siguientes dos actividades te ayudarán a estar consciente de lo sucede en tu comunidad.
 
 &nbsp;
-<h3>Actividad: Documentar a la comunidad</h3>
+<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
+<h3 id="act1">Actividad: Documentar a la comunidad</h3>
 <em>Opcional</em>
 
 Esta actividad te ayudará a recolectar inforamación y características acerca de tu comunidad de forma que puedas entender mejor sus necesidades, y debe tomar alrededor de 60 minutos completarla. Con antelación, el equipo deberá acordar un área de la ciudad o un lugar de interés y planear un tiempo para ir a realizar la actividad. Después, deberán encontrar un lugar donde puedan escribir las respuestas a preguntas y discutir sus respuestas juntas.
@@ -36,7 +36,7 @@ Esta actividad te ayudará a recolectar inforamación y características acerca 
 <strong>Lo que necesitarán:</strong>
 <ul>
  	<li style="font-weight: 400;">Bolígrafos o marcadores</li>
- 	<li style="font-weight: 400;">Hojas de papel para escribir o esta <a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/CommunityDocumentingWorksheet-4.pdf" target="_blank">hoja de trabajo</a></li>
+ 	<li style="font-weight: 400;">Hojas de papel para escribir o esta <a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/CommunityDocumentingWorksheet-4.pdf" target="_blank" style="color:#eae46f">hoja de trabajo</a></li>
  	<li style="font-weight: 400;">Portapapeles (opcional, pero es bueno tenerlo)</li>
  	<li style="font-weight: 400;">Cámara fotográfica (opcional pero también es bueno tenerla, pueden usar la cámara de un teléfono celular)</li>
 </ul>
@@ -58,7 +58,10 @@ Esta actividad te ayudará a recolectar inforamación y características acerca 
 Discutan acerca de las cosas que se percataron tú y tu equipo. ¿Hubo alguna sorpresa? ¿Cuáles fueron algunos de los problemas que percibieron en la comunidad? ¿Tienen fotografías que ilustren sus puntos de vista? ¿Se sienten atraidas por algún problema en particular? ¿Por qué?
 
 Hay otras fromas de obtener información. Abajo hay otra actividad que pueden ralizar para ayudarse a visualizar a la comunidad de forma distinta.
-<h3>Actividad: Nuestra comunidad de la A a la Z</h3>
+</div>
+
+<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
+<h3 id="act2">Actividad: Nuestra comunidad de la A a la Z</h3>
 <em>Opcional</em>
 
 <em>Nota: Si un mentor participa, él o ella puede ayudar a valorar si el equipo necesita recabar más información acerca de la comunidad o del problema que han escogido para resolver.</em>
@@ -80,7 +83,9 @@ Otra forma de visualizar a la comunidad es mediante las palabras que resultan de
 <strong>Lo que sigue:</strong>
 
 Ahora que han obtenido evidencia de los problemas de su comunidad, tú y tu equipo deben hablar acerca de cuales son los más importantes. Entonces, pueden decidir en cual trabajar. Sin embargo, antes de que tengan esta conversación, tengan en cuenta los temas en los que Technovation hace énfasis este año para que sus participantes desarrollen soluciones; ésto puede influenciar su decisión.
-<h3><strong>Temas de Technovation 2017</strong></h3>
+</div>
+
+<h3 id="themes"><strong>Temas de Technovation 2017</strong></h3>
 En 2017, se les pedirá a los equipos desarrollar una solución a un problema que se encuentre dentro de seis temas. Estos están inspirados en los Objetivos de Desarrollo Sostenible (ODS) de la Organización Naciones Unidas (ONU).
 
 A continuación se presentan nuestros temas en detalle, así como ejemplos de metas y objetivos de la ONU para el año 2030:
@@ -98,14 +103,16 @@ A continuación se presentan nuestros temas en detalle, así como ejemplos de me
 <a href="https://sustainabledevelopment.un.org/sdg3" target="_blank">Salud</a>. Los ejemplos incluyen asegurar vidas saludables y promover bienestar para todas las edades, salud maternal e infantil, cobertura universal de salud y acceso a medicina y vacunas seguras, efectivas y accesibles para todos.
 
 Puedes aprender más acerca de los Objetivos de Desarrollo Sostenible <a href="http://www.un.org/sustainabledevelopment/es/objetivos-de-desarrollo-sostenible/" target="_blank">aquí</a>.
-<h3>Actividad: Decidir un Problema</h3>
+
+<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
+<h3 id="act3">Actividad: Decidir un Problema</h3>
 Ahora que descubriste y reuniste pruebas de los problemas en tu comunidad y aprendiste sobre los temas de Technovation 2017, es tiempo de elegir un problema en el que tu equipo quiera trabajar para el proyecto.
 
 <strong>Lo que necesitarán:</strong>
 <ul>
  	<li style="font-weight: 400;">Post-its o papel</li>
  	<li style="font-weight: 400;">Bolígrafos o marcadores</li>
- 	<li style="font-weight: 400;">O, si perteneces a un equipo virtual, puedes usar <a href="http://www.ideaboardz.com">ideaboardz</a>.</li>
+ 	<li style="font-weight: 400;">O, si perteneces a un equipo virtual, puedes usar <a href="http://www.ideaboardz.com" target="_blank" style="color:#eae46f">ideaboardz</a>.</li>
 </ul>
 <strong>Lo que van a hacer: </strong>
 <ol>
@@ -128,7 +135,10 @@ Ahora que descubriste y reuniste pruebas de los problemas en tu comunidad y apre
 </li>
  	<li style="font-weight: 400;">Tu equipo debe elegir un problema para enfocarse. Antes de seguir adelante, tu equipo debe asegurarse de que encaja en uno de los temas de Technovation 2017.</li>
 </ol>
-<h3>Actividad: Solución basada en lluvia de ideas</h3>
+</div>
+
+<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
+<h3 id="act4">Actividad: Solución basada en lluvia de ideas</h3>
 En las últimas actividades, han compartido ideas sobre los tipos de problemas que tu equipo está interesado en resolver. Ahora es el momento de empezar a pensar en las soluciones tecnológicas, en particular las soluciones para aplicaciones móviles, por lo que es posible que desee algunos consejos sobre cómo hacer una lluvia de ideas eficaz.
 
 <b>Lluvia de ideas</b> es una técnica de actividad de grupo que está diseñada para generar un gran número de ideas. A continuación se presentan algunos consejos para una buena lluvia de ideas:
@@ -142,7 +152,9 @@ En las últimas actividades, han compartido ideas sobre los tipos de problemas q
  	<li style="font-weight: 400;">Manténganse enfocadas.</li>
 </ul>
 El siguiente video es de Stanford d.school y muestra ejemplos de maneras menos efectivas de hacer una lluevia de ideas y formas más efectivas, para que puedan entender mejor este proceso.
-
+<br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cmoWCSyujPY" frameborder="0" allowfullscreen></iframe>
+<br><br>
 <strong>Lo que necesitarán:</strong>
 <ul>
  	<li style="font-weight: 400;">Hoja de papel grande o un pizarrón blanco.</li>
@@ -155,12 +167,16 @@ El siguiente video es de Stanford d.school y muestra ejemplos de maneras menos e
  	<li style="font-weight: 400;">Si el equipo está de acuerdo en que las necesidades del usuario se satisfacen por la idea de la aplicación, y que la solución hará buen un uso de las características del celular como GPS, acelerómetro, cámara, etc. pasa al siguiente paso, que es crear un planteamiento del problema al que el equipo se referirá de nuevo a lo largo del curso del proyecto.</li>
  	<li style="font-weight: 400;">Si tu equipo no está seguro de que las necesidades del usuario serán satisfechas por la aplicación, o si la aplicación será una buena solución para el problema, entonces tu equipo tendrá que volver a la lluvia de ideas para identificar otra solución que puede hacer buen uso de características del celular. Sería una buena idea tener la ayuda de tu mentor en este proceso.</li>
 </ol>
+</div>
+
+<div style="background-color:#421b41; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
 <blockquote>
 <p style="text-align: center;">“Un buen planteamiento del problema, es la mitad de la solución.”</p>
 </blockquote>
 <p style="text-align: right;">—Charles Kettering, inventor estadounidense, ingeniero y hombre de negocios.</p>
+</div>
 
-<h3><strong>¿Qué es un planteamiento de problema?</strong></h3>
+<h3 id="whatisproblemstatement"><strong>¿Qué es un planteamiento de problema?</strong></h3>
 Ahora que tienen una idea para su proyecto, pueden empezar a trabajar en el planteamiento del problema. El planteamiento del problema es un escrito breve que explica el problema que tu equipo está abordando. Debe resaltar los hechos básicos del problema, explicar porqué el problema importa, a quién y cómo afecta, y presentar una solución directa.
 
 Es importante que escriban el planteamiento del problema como equipo para que todas estén de acuerdo y permanezcan enfocadas en el problema que están resolviendo mientras se mueven a través del resto del plan de estudios. ¡De otra forma podrían trabajar en algo sólo para darse cuenta de que no cumple con el objetivo original!
@@ -181,7 +197,9 @@ A continuación se muestra un ejemplo de una declaración de proyecto de un equi
 “Calabar está densamente poblado y los resultados muestran que el 70% de los individuos y las empresas allí almacenan basura, el 95% utiliza vertederos abiertos y el 65% tiran sus residuos en las canaletas. Este efecto ha llevado a una eliminación de residuos ineficiente y un entorno empresarial y doméstico poco higiénico. Los negocios y los propietarios tienen un horario apretado que les impide disponer de sus residuos regularmente y no hay visita frecuente de las agencias de eliminación de residuos. Nuestro equipo propone ofrecer una plataforma para que las empresas de comida rápida, los hoteles y los particulares puedan disponer de sus desechos convenientemente y a tiempo. Proveeremos carros de recolección para obtener sus residuos con el fin de reducir los riesgos asociados a la salud, educará a los ciudadanos sobre el efecto de la eliminación de residuos inadecuados, y proporcionará actualizaciones y consejos sobre las mejores prácticas.”
 
 Aquí está un demo de la aplicación móvil Discardius que el equipo Charis creó:
-
+<br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZJU0TZua1Ls" frameborder="0" allowfullscreen></iframe>
+<br><br>
 En la app Discardius, el usuario puede:
 <ul>
  	<li style="font-weight: 400;">Iniciar Sesion</li>
@@ -192,7 +210,7 @@ En la app Discardius, el usuario puede:
  	<li style="font-weight: 400;">Informar de un peligro al ingresar un lugar, escribir un informe corto y tomar una foto de la escena.</li>
  	<li style="font-weight: 400;">Recibir un mensaje de que el reporte fue guardado</li>
 </ul>
-<h3><strong>Crea un Planteamiento del Problema</strong></h3>
+<h3 id="createstatement"><strong>Crea un Planteamiento del Problema</strong></h3>
 ¡Ahora es el momento de escribir su propio Planteamiento del Problema! Aquí encontrarás una <a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/CreateaProblemStatement.pdf" target="_blank">plantilla</a> básica.
 
 A continuación se presentan algunos recursos para escribir un planteamiento del problema:
