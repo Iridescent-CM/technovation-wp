@@ -1,19 +1,17 @@
-<h1>एक सलाहकार ढूंढें</h1>
 <ul>
  	<li><a href="#getstarted"> शुरू करें </a></li>
  	<li><a href="#findmentor">एक सलाहकार ढूंढें</a></li>
  	<li><a href="#recruitmentor"> एक सलाहकार नियुक्त करें </a></li>
  	<li><a href="#knowteam"> अपनी टीम को जानिए </a></li>
 </ul>
-<h2>सीखने का उद्देश्य</h2>
+<h2><strong>सीखने का उद्देश्य</strong></h2>
 इस भाग में आप सीखेंगे, कैसे :
 <ul>
  	<li style="font-weight: 400;">टेक्नोवेशन सलाहकार का पता लगाएं, इस लिंक पर : my.technovationchallenge.org</li>
  	<li style="font-weight: 400;">स्वयं टेक्नोवेशन सलाहकार नियुक्त करें</li>
  	<li style="font-weight: 400;">टीम रचना पर कार्य शुरू करें</li>
 </ul>
-<h3></h3>
-<h3>शुरू करें</h3>
+<h3 id="getstarted"><strong>शुरू करें</strong></h3>
 अब आपने एक <a href="http://www.technovationchallenge.org/curriculum/post-16772/" target="_blank"> टीम की रचना</a> और उसके टेक्नोवेशन रजिस्ट्रेशन<a href="https://my.technovationchallenge.org/" target="_blank">my.technovationchallenge.org</a> का काम शुरू कर दिया है, अब समय आ गया है की आप एक सलाहकार ढूंढें!
 
 आप टेक्नोवेशन सलाहकार का अनुभव अपने तकनिकी अनुभव में प्रयोग कर सकते है | हमारे पास बहुत से सलाहकार हैं जो आपके और आपकी टीम के साथ मिलने और काम करने के लिए लिए तैयार है । प्रत्येक सलाहकार एक शिक्षक, अभिभावक या विज्ञान, इंजीनियरिंग, प्रौद्योगिकी, व्यवसाय या शिक्षा के क्षेत्र में पेशेवर है जो ऑनलाइन टेक्नोवेशन कार्यक्रम को पूरा करने में आपकी टीम को मार्गदर्शन कर सकता है।
@@ -32,13 +30,13 @@
 एक सलाहकार होने के काफी फायदे हैं, हम आशा करते हैं कि आपकी टीम इस सीजन में इसका लाभ ज़रूर उठाएगी |
 
 आपको किसी सलाहकार से बात करने में कोई संकोच नहीं होना चाहिए क्योंकि वह इस प्रोग्राम मेंआपकी मदद के लिए जुड़े है | वास्तव में सलाहकारों को काफी प्रसन्नता होगी अगर आप उनसे जुड़ते है | आप इस तरह एक सलाहकार से जुड़ सकते है …
-<h3>टेक्नोवेशन सलाहकार ढूंढें</h3>
+<h3 id="findmentor"><strong>टेक्नोवेशन सलाहकार ढूंढें</strong></h3>
 यहां आपकी टीम के लिए सर्वोत्तम तकनीकी सलाहकार ढूंढने के कुछ चरण दिए गए हैं <a href="https://my.technovationchallenge.org/" target="_blank">my.technovationchallenge.org</a>:
 <ol>
  	<li style="font-weight: 400;">Log onto <a href="https://my.technovationchallenge.org/" target="_blank">my.technovationchallenge.org</a>. आप यह स्क्रीन देखेंगे:
-<img style="padding: 1px; border: 1px #cccccc solid;" src="http://www.technovationchallenge.org/wp-content/uploads/2016/10/Slide5.jpg" alt="dashboard: team created, no mentor" width="650" /></li>
+<img class="aligncenter" style="padding: 1px; border: 1px #cccccc solid;" src="http://www.technovationchallenge.org/wp-content/uploads/2016/10/Slide5.jpg" alt="dashboard: team created, no mentor" width="650" /></li>
  	<li style="font-weight: 400;">पृष्ठ के शीर्ष पर स्थित "एक सलाहकार ढूंढें" टैब पर क्लिक करें आपको ऐसे पृष्ठ पर लाया जाएगा जो इस तरह दिखता हैं:
-<img style="padding: 1px; border: 1px #cccccc solid;" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Slide5_v2.jpg" alt="dashboard: find a mentor" width="650" /></li>
+<img class="aligncenter" style="padding: 1px; border: 1px #cccccc solid;" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Slide5_v2.jpg" alt="dashboard: find a mentor" width="650" /></li>
  	<li style="font-weight: 400;">अपने क्षेत्र में सलाहकारों को देखे
 <ol>
  	<li>आप सलाहकारों को अपनी टीम की विशेषज्ञता के आधार पर फ़िल्टर करने के लिए स्क्रीन के बाएं हाथ की तरफ "फ़िल्टर विकल्प" का उपयोग कर सकते हैं|</li>
@@ -80,12 +78,14 @@ Sincerely,
 </li>
 </ul>
 </ul>
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
 <blockquote>
 <p style="text-align: center;">“Coming together is a beginning, staying together is progress, and working together is success.”</p>
 </blockquote>
 <p style="text-align: right;">— हेनरी फोर्ड, फोर्ड मोटर कंपनी के संस्थापक</p>
 
-<h3>एक स्थानीय सलाहकार नियुक्त करें</h3>
+</div>
+<h3 id="recruitmentor"><strong>एक स्थानीय सलाहकार नियुक्त करें</strong></h3>
 <strong> कृपया निराश न हो , यदि आपको <a href="http://my.technovationchallenge.org" target="_blank">my.technovationchallenge.org</a> के माध्यम से एक सलाहकार नहीं मिल पाया |</strong>
 
 सलाहकार कोई भी वयस्क हो सकता है जो आपके मोबाइल ऐप और व्यवसाय को विकसित करने में आपकी टीम का समर्थन टेक्नोवेशन के माध्यम से कर सके। सबसे महत्वपूर्ण बात यह है कि सलाहकार नियमित आधार पर उपलब्ध हो सकता है और वह पाठ्यक्रम के माध्यम से आपकी मदद कर सकते हैं। उन्हें एक तकनीकी व्यवसाय बनाने के लिए आवश्यक सभी कौशल की आवश्यकता नहीं है, लेकिन उन्हें आपके और आपकी टीम के साथ सीखने के लिए तैयार होना चाहिए |
@@ -104,7 +104,8 @@ Sincerely,
 
 <strong> सोशल मीडिया पर पोस्ट करें</strong>
 सभी को बताये की आप एक सलाहकार ढूंढ रहे है | कई टीमों को बस ऑनलाइन पोस्ट करके सफलता हासिल हुई है कि वे तकनीकी सलाहकार की तलाश में हैं आप <a href="https://twitter.com/technovation/status/780603138285957123" target="_blank"> यह ट्वीट </a> पुनः ट्वीट करके दूसरों के साथ अपनी प्रेरणा शेयर कर सकते हैं |
-<h3>ब्रेनस्टॉर्म (मंथन) गतिविधि</h3>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3><span style="color: #ffffff;"><strong>ब्रेनस्टॉर्म (मंथन) गतिविधि</strong></span></h3>
 अन्य स्थानों के बारे में सोचें, जिनसे आप सहायता के लिए सलाहकार को ढूंढ सकते हैं, जैसे कि:
 <ul>
  	<li>पुस्तकालय</li>
@@ -114,6 +115,7 @@ Sincerely,
 </ul>
 आपके पास अपने सलाहकार को ढूंढने के लिए संपर्क करने के लिए लोगों और समूहों की एक बहुत अच्छी सूची है |
 
+</div>
 <b> नियुक्ति शुरू करें </b>
 जिस तरह आप अपनी टीम में शामिल होने के लिए अन्य बालिकाओं को भर्ती करते थे, तो आप एक सलाहकार की भर्ती के लिए निम्नलिखित संसाधनों का उपयोग कर सकते हैं:
 <ul>
@@ -153,7 +155,7 @@ Sincerely,
 </tbody>
 </table>
 जब आप अपने सलाहकार को नियुक्त कर दे, तब आप उनको <a href="https://my.technovationchallenge.org/" target="_blank">my.technovationchallenge.org टेक्नोवेशन रजिस्ट्रेशन </a> करने के लिए कहे, आप भी उनको <a href="#findmentor">इन चरणों </a> के द्वारा टीम में सम्मिलित कर सकते है |
-<h3>अपनी टीम को जाने</h3>
+<h3 id="knowteam"><strong>अपनी टीम को जाने</strong></h3>
 आप और आपकी टीम को कुछ टीम बिल्डिंग शुरू करनी चाहिए! इसमें साथ चलना, एक दूसरे को जानना, गंभीर चर्चा करने से कुछ भी शामिल हो सकता है आपके ऐप और कंपनी को विकसित करने के अलावा संबंध बनाना टीम के लिए महत्वपूर्ण है। कई बार हो सकता है कि आपको एक-दूसरे के साथ संवाद करना मुश्किल हो। एक मजबूत बुनियाद महत्वपूर्ण है ताकि आपको पता चल सके कि मुश्किल परिस्थितियों में एक दूसरे के साथ कैसे काम किया जाए |
 
 यह एक <a href="http://www.teampedia.net/wiki/index.php?title=Main_Page" target="_blank"> अच्छा लिंक है </a> टीम बिल्डिंग गेम्स खोजने के लिए और आपको एक दूसरे को जानने के लिए. यहां बताया गया है कि आप कैसे शुरू कर सकते हैं:
@@ -165,10 +167,12 @@ Sincerely,
 </ul>
 ऊपर बताये संसाधनों में बहुत सारी गतिविधियां उपलब्ध हैं शायद आप प्रत्येक टीम की बैठक शुरू करने के लिए एक टीम के निर्माण या वार्म-अप गतिविधि का नेतृत्व करने के लिए एक टीम के सदस्य को नामांकित कर सकते हैं। इस तरह से आप पूरे टेक्नोवेशन सीजन में एक टीम के रूप में अपने विकास को जारी रख सकते हैं |
 
-इस समय पर , यदि आप अभी भी सलाहकार को ढूंढने में असमर्थ हैं, तो निराश मत महसूस करें। कई टीमें हैं जो अपने स्वयं के प्रयासों के द्वारा, टेक्नोवेशन पाठ्यक्रम के माध्यम से सफल काम कर रहे हैं (इनमें से कुछ टीमें विश्व पिच फाइनल तक में पहुच चुकी है )).
-<h3>क्या आप आगे बढ़ने के लिए तैयार है ?</h3>
-आप इस प्रक्रिया में अगले चरण के लिए तैयार हैं - विचार (Ideation)
+इस समय पर , यदि आप अभी भी सलाहकार को ढूंढने में असमर्थ हैं, तो निराश मत महसूस करें। कई टीमें हैं जो अपने स्वयं के प्रयासों के द्वारा, टेक्नोवेशन पाठ्यक्रम के माध्यम से सफल काम कर रहे हैं (इनमें से कुछ टीमें विश्व पिच फाइनल तक में पहुच चुकी है ).
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 style="text-align: center;"><span style="color: #ffffff;"><strong>क्या आप आगे बढ़ने के लिए तैयार है ?</strong></span></h3>
+<p style="text-align: center;">आप इस प्रक्रिया में अगले चरण के लिए तैयार हैं - विचार (Ideation)</p>
 
-<a href="/?p=16828" target="_blank">
-Ideation
-</a>
+<h3 style="text-align: center;"><a href="/?p=16828" target="_blank">
+<strong><span style="color: #eae46f;">Ideation</span></strong>
+</a></h3>
+</div>
