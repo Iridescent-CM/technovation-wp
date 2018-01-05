@@ -1,4 +1,3 @@
-<h1>Construir un equipo</h1>
 <ul>
 <li><a href="#getstarted">Empecemos</a></li>
 <li><a href="#recruit">Reunir un equipo</a></li>
@@ -13,8 +12,8 @@
 <li style="font-weight: 400">Crear un equipo en my.technovationchallenge.org</li>
 <li style="font-weight: 400">O unirte a un equipo en my.technovationchallenge.org</li>
 </ul>
-<h3></h3>
-<h3>Empecemos</h3>
+
+<h3 id="getstarted">Empecemos</h3>
 <p><b>Ya te registraste en Technovation. ¿Ahora qué?</b><br />
 Como parte de Technovation, tú:</p>
 <ul>
@@ -26,11 +25,15 @@ Como parte de Technovation, tú:</p>
 <p>Nos hemos dado cuenta de que la mejor forma de participar en Technovation es con un equipo. Los equipos pueden tener hasta 5 chicas, con edades entre 10 y 12 años, y 1 o 2 mentores; éstos pueden ser padres, maestros, consejeros o profesionistas en tecnología o negocios.</p>
 <p>Si ya tienes un equipo, ¡fantástico! Puedes saltarte hasta la sección <a href="#createteam">Crear un equipo</a> de esta pre unidad.</p>
 <p>Si aun no tienes un equipo, ¡no te preocupes! En los próximos 5 a 10 minutos, te guiaremos por los pasos correctos para reunir un equipo en tu área, o unirte a un equipo existente en <a href="https://my.technovationchallenge.org/" target="_blank">my.technovationchallenge.org</a>.</p>
+
+<div style="background-color: #421b41;color: white;padding: 25px;margin-top: 25px;margin-bottom: 25px">
 <blockquote>
 <p><em>“Cree en que puedes llegar y ya estarás a la mitad del camino.”</em></p>
 </blockquote>
 <p>— Theodore Roosevelt, 26to presidente de los Estados Unidos de América</p>
-<h3>Reunir un equipo para Technovation</h3>
+</div>
+
+<h3 id="recruit">Reunir un equipo para Technovation</h3>
 <p><b>Empecemos con lo que sabemos:</b></p>
 <ul>
 <li style="font-weight: 400">Estás interesada en participar en Technovation.</li>
@@ -39,8 +42,12 @@ Como parte de Technovation, tú:</p>
 <li style="font-weight: 400">Al formar un equipo, es de gran utilidad encontrar compañeras con una amplia variedad de ideas y habilidades que ayuden a tener diferentes perspectivas en el proyecto.</li>
 </ul>
 <p>¡Encontremos otras chicas que están interesadas en trabajar juntas para construir algo grandioso!</p>
+
+<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
 <h3>Lluvia de ideas</h3>
-<p><a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/TeamMemberBrainstorm-1.pdf" target="_blank">Completa esta hoja de trabajo</a> para ayudarte a identificar personas y organizaciones en tu comunidad con quienes puedas trabajar para formar un equipo. ¡Construirás una lista grandiosa de personas y grupos que pueden ayudarte a formar tu equipo!</p>
+<p><a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/TeamMemberBrainstorm-1.pdf" target="_blank" style="color:#eae46f">Completa esta hoja de trabajo</a> para ayudarte a identificar personas y organizaciones en tu comunidad con quienes puedas trabajar para formar un equipo. ¡Construirás una lista grandiosa de personas y grupos que pueden ayudarte a formar tu equipo!</p>
+</div>
+
 <p><b>Empieza a reclutar</b><br />
 Comparte estos recursos para ayudarte a formar tu equipo</p>
 <ul>
@@ -78,28 +85,31 @@ Comparte estos recursos para ayudarte a formar tu equipo</p>
 </tr>
 </tbody>
 </table>
+
 <p>Una vez que reúnas a tu equipo, asegúrense de visitar <a href="https://my.technovationchallenge.org/" target="_blank">my.technovationchallenge.org</a> para completar el registro y obtener el formato de permiso del padre o tutor firmado. Ya que todas se registren, ¡pueden crear su equipo! Si no pudiste reunir un equipo en tu área con las sugerencias anteriores, ¡no te preocupes! También puedes intentar <a href="#jointeam">unirte a un equipo existente</a>.</p>
-<h3>Obtener consentimiento de tu padre o tutor</h3>
+
+<h3 id="consent">Obtener consentimiento de tu padre o tutor</h3>
 <p>Si ya tienes el formato de permiso firmado, puedes saltarte este paso.</p>
 <ol>
 <li style="font-weight: 400">Inicia sesión en <a href="https://my.technovationchallenge.org/signin" target="_blank">my.technovationchallenge.org/signin</a>. Se verá similar a esto:<br />
 <img style="margin: 10px;padding: 1px;border: 1px solid #cccccc" src="http://www.technovationchallenge.org/wp-content/uploads/2016/10/Slide1.jpg" alt="complete your profile page" width="650" /></li>
 <li style="font-weight: 400">Asegúrate de tener permiso de tu padre o tutor.
-<ol type="i">
+<ul>
 <li style="font-weight: 400">Puedes enviar el formato de permiso por correo electrónico a tu padre o tutor desde la plataforma.</li>
 <li style="font-weight: 400">Pídeles que revisen su correo electrónico para que lo firmen, y así puedas tener acceso a la plataforma.</li>
 <li style="font-weight: 400">Si escribiste incorrectamente la dirección de correo, puedes:
-<ol type="a">
+<ul>
 <li style="font-weight: 400">Verificar la dirección desde la plataforma.</li>
 <li style="font-weight: 400">O puedes actualizarla en la pestaña “My Account” en la parte superior de la página.</li>
 <li style="font-weight: 400">Una vez que actualizaste la dirección, automáticamente enviará el formato a la nueva dirección de correo electrónico.</li>
-</ol>
+</ul>
 </li>
-</ol>
+</ul>
 <p><img style="margin: 10px;padding: 1px;border: 1px solid #cccccc" src="http://www.technovationchallenge.org/wp-content/uploads/2016/10/Slide2.jpg" alt="update parent/guardian email" width="650" /></li>
 <li style="font-weight: 400">Una vez que tu padre firme el formato, recibirás un correo electrónico y podrás continuar completando tu perfil.</li>
 </ol>
-<h3>Crear un equipo</h3>
+
+<h3 id="createteam">Crear un equipo</h3>
 <p>Si deseas <a href="#jointeam">unirte a un equipo existente</a>, puedes saltarte este paso.</p>
 <ol>
 <li style="font-weight: 400">Después de enviar el formato de consentimiento de tu padre o tutor, inicia sesión en <a href="https://my.technovationchallenge.org/signin" target="_blank">my.technovationchallenge.org/signin</a>.</li>
@@ -108,24 +118,25 @@ Comparte estos recursos para ayudarte a formar tu equipo</p>
 <li style="font-weight: 400">Te dirigirá a esta página:<br />
 <img style="margin: 10px;padding: 1px;border: 1px solid #cccccc" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Slide2_v2.jpg" alt="create a team form" width="650" /></li>
 <li style="font-weight: 400">Completa la información requerida en la página agregando:
-<ol type="i">
+<ul>
 <li style="font-weight: 400">Un nombre de equipo</li>
 <li style="font-weight: 400">Una descripción del equipo y de cómo se reunieron. Si buscan miembros, este es un buen lugar para mencionar el tipo de compañeras que buscan.</li>
-</ol>
+</ul>
 </li>
 <li style="font-weight: 400">Después, haz clic en el botón “Create Team” en la parte inferior de la página. La página del equipo será similar al siguiente ejemplo de Team Panda Savers:<br />
 <img style="margin: 10px;padding: 1px;border: 1px solid #cccccc" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Slide3_v2.jpg" alt="example: team panda savers" width="650" /></li>
 <li style="font-weight: 400">¡Ahora puedes invitar a más miembros para unirse al equipo!
-<ol type="i">
+<ul>
 <li style="font-weight: 400">Agrega una fotografía de los miembros del equipo o una foto que represente a tu equipo.</li>
 <li style="font-weight: 400">Indica si otras estudiantes pueden pedir unirse a tu equipo.</li>
 <li style="font-weight: 400">Indica si los mentores pueden pedir unirse a tu equipo.</li>
 <li style="font-weight: 400">Si tu equipo no está requiriendo más miembros o mentores, regresa a esta página y desmarca las casillas para que no reciban solicitudes innecesarias.</li>
-</ol>
+</ul>
 <p><img style="margin: 10px;padding: 1px;border: 1px solid #cccccc" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Slide17.png" alt="accept team member request" width="650" /></li>
 <li style="font-weight: 400"><em>Recuerda,</em> sólo puede haber 5 miembros por equipo. Puedes rechazar invitaciones usando el vínculo “revoke” enseguida de la dirección de correo electrónico en la caja verde.</li>
 </ol>
-<h3>Unirte a un equipo</h3>
+
+<h3 id="jointeam">Unirte a un equipo</h3>
 <p>Si no pudiste reunir un equipo, ¡no te preocupes! También puedes intentar unirte a un equipo local o virtual en my.technovationchallenge.org. Todo lo que debes hacer es completar los siguientes pasos:</p>
 <ol>
 <li style="font-weight: 400">Haz clic en “Join a Team” en la parte superior de la página o en el botón “Create or Join a Team” en la plataforma:<br />
@@ -133,28 +144,32 @@ Comparte estos recursos para ayudarte a formar tu equipo</p>
 <li style="font-weight: 400">Aparecerá una lista de equipos a 50 millas a la redonda de ti que siguen buscando miembros. También puedes aplicar el filtro del lado izquierdo para mostrar equipos en otras ciudades con quienes te gustaría unirte. Por ejemplo:<br />
 <img style="margin: 10px;padding: 1px;border: 1px solid #cccccc" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Slide4_v2.jpg" alt="teams looking for members page" width="650" /></li>
 <li style="font-weight: 400">Puedes hacer clic en el nombre de cada equipo y aprender un poco más acerca de ellas
-<ol type="i">
+<ul>
 <li style="font-weight: 400"><strong>¡IMPORTANTE! </strong>La <strong>División del equipo</strong> se muestra debajo del nombre del equipo. La división Senior se conforma de equipos con al menos un miembro que tiene o cumplirá 15 años antes del 1 de agosto de 2017. La división Junior se conforma de equipos cuyos miembros tienen o tendrán menos de 15 años antes del 1 de agosto de 2017.</li>
 <li style="font-weight: 400">También verás la descripción del equipo.</li>
 <li style="font-weight: 400">Finalmente, verás una lista con los miembros del equipo y los mentores. Se muestra el nombre sin apellidos.</li>
-</ol>
+</ul>
 <p><img style="margin: 10px;padding: 1px;border: 1px solid #cccccc" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Slide13.jpg" alt="check to see if a team is a good fit" width="650" /></li>
 <li style="font-weight: 400">Si encuentras un equipo de tu agrado, pide unirte haciendo clic en el botón “Request to Join [nombre del equipo]” en la parte superior de la página</li>
 <li style="font-weight: 400">El equipo será notificado mediante una solicitud por correo electrónico.</li>
 <li style="font-weight: 400">Tú recibirás un correo electrónico cuando el equipo acepte o decline tu petición.
-<ol>
+<ul>
 <li style="font-weight: 400">Si te aceptan, puedes iniciar sesión en <a href="https://my.technovationchallenge.org/" target="_blank">my.technovationchallenge.org</a> y hacer clic en la pestaña “My Team” en la parte superior de la página. Podrás ver la misma página del equipo, pero esta vez podrás ver el nombre completo de los miembros y su dirección de correo electrónico. Puedes contactarlas para organizar su primera reunión.</li>
 <li style="font-weight: 400">Si declinaron tu petición para unirte al equipo, ¡no te preocupes! Hay muchos más equipos buscando compañeras. Es posible que el equipo al que hiciste la petición ya tiene suficientes miembros o han decidido continuar con menos de 5 integrantes. Es importante que sigas intentando, puedes repetir los pasos 3 al 6 hasta que encuentres un equipo apropiado para ti.</li>
-</ol>
+</ul>
 </li>
 </ol>
+
+<div style="background-color:#421b41; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
 <blockquote>
 <p>“La unidad es fortaleza... cuando hay trabajo en equipo y colaboración, se alcanzan cosas maravillosas.”</p>
 </blockquote>
 <p>—Mattie J.T. Stepanek, Poeta y defensor de la paz estadounidense</p>
+</div>
+
+<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
 <h3>¿Lista para continuar?</h3>
 <p>En la siguiente unidad, ¡aprenderás a encontrar un mentor!</p>
-<p><a href="http://www.technovationchallenge.org/curriculum/post-16772-2/" target="_blank"><br />
+<p><a href="http://www.technovationchallenge.org/curriculum/post-16772-2/" target="_blank" style="color:#eae46f"><br />
 Encontrar a un mentor<br />
 </a></p>
-
