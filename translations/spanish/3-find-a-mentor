@@ -1,5 +1,5 @@
-<h1>Encontrar a un Mentor</h1>
-<ul>
+WgxZK$vWP0qoGfiQ
+	<ul>
  	<li><a href="#getstarted">Empecemos</a></li>
  	<li><a href="#findmentor">Encontrar a un Mentor</a></li>
  	<li><a href="#recruitmentor">Reclutar a un Mentor local</a></li>
@@ -12,8 +12,8 @@ En este módulo, aprenderás a...
  	<li style="font-weight: 400">Reclutar a un mentor de Technovation en persona</li>
  	<li style="font-weight: 400">Empezar con Construcción de Equipo</li>
 </ul>
-<h3></h3>
-<h3>Empecemos</h3>
+
+<h3 id="getstarted">Empecemos</h3>
 Ahora que han empezado a <a href="http://www.technovationchallenge.org/curriculum/post-16772/" target="_blank">Construir un Equipo</a> y han registrado a su equipo en <a href="https://my.technovationchallenge.org/" target="_blank">my.technovationchallenge.org</a>, ¡es hora de encontrar a un mentor!
 
 Los mentores pueden hacer <b>una gran diferencia</b> en tu experiencia en Technovation. Tenemos muchos mentores quienes esperan conocerte y trabajar con su equipo. Cada mentor es un profesor, padre, o profesionista de la ciencia, ingeniería, tecnología, negocios o educación quienes pueden guiar a tu equipo a completar el currículum en línea de Technovation. Los mentores de Technovation tienen diversos antecedentes y experiencias de las cuales pueden aprender, además tiene la pasión para empoderar a equipos como el suyo a hacer cosas grandiosas.
@@ -31,7 +31,9 @@ Dependiendo de los mentores disponibles en tu área, puedes reunirte con ellos e
 Hay muchos beneficios de tener un mentor, esperamos que tu equipo aproveche la oportunidad de trabajar con uno durante esta temporada.
 
 Puede ser un poco intimidante el acercarse a un mentor, pero todos ellos se han registrado al programa especialmente para ayudarlas! Eso es genial. Tú puedes ayudarlos a sentirse espacial también, acercándose y pidiendo ayuda. Aquí te decimos como…
-<h3>Encuentra un mentor de Technovation</h3>
+
+
+ <h3 id="findmentor">Encuentra un mentor de Technovation</h3>
 A continuación te mostramos algunos pasos para encontrar el mejor mentor de Technovation para tu equipo en <a href="https://my.technovationchallenge.org/" target="_blank">my.technovationchallenge.org</a>:
 <ol>
  	<li style="font-weight: 400">Inicia sesión en <a href="https://my.technovationchallenge.org/" target="_blank">my.technovationchallenge.org</a>. Tu pantalla deberá verse similar a esto:
@@ -78,12 +80,17 @@ Sinceramente,
 </li>
 </ul>
 </ul>
+
+<div style="background-color: #421b41;color: white;padding: 25px;margin-top: 25px;margin-bottom: 25px">
+<center>
 <blockquote>
 <p style="text-align: center">“Reunirse es un principio, mantenerse juntos es progreso y trabajar juntos es el éxito.”</p>
 </blockquote>
 <p style="text-align: right">—Henry Ford, fundador de la compañía automotriz Ford</p>
+	</center>
+	</div>
 
-<h3>Reclutar a un mentor local</h3>
+<h3 id="recruitmentor">Reclutar a un mentor local</h3>
 <strong>Si no pudieron encontrar un mentor a través de <a href="http://my.technovationchallenge.org" target="_blank">my.technovationchallenge.org</a>, ¡no se preocupen!</strong>
 
 Un mentor puede ser cualquier adulto que pueda ayudar a su equipo en el desarrollo de la aplicación móvil y el negocio mediante Technovation. Lo más importante es que el mentor se encuentre disponible con regularidad y que puedan ayudarles con el currículum. No necesitan tener todas las habilidades para construir un negocio de tecnología, sólo deben estar dispuestos a aprender junto contigo y tu equipo.
@@ -101,6 +108,8 @@ Las empresas emergentes también son una buena forma de encontrar mentores. Algu
 
 <strong>Divulguen en las redes sociales.</strong>
 ¡Haz saber a todo mundo que estás buscando! Muchos equipos han tenido éxito sólo publicando en línea que están buscando mentores. Pueden empezar por dar retuit a <a href="https://twitter.com/technovation/status/780603138285957123" target="_blank">esta publicación</a> para compartir su inspiración con otras.
+
+<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
 <h3>Actividad de lluvia de ideas</h3>
 Piensa en otros lugares en los cuales podrías encontrar mentores que te brinden ayuda, como:
 <ul>
@@ -110,6 +119,7 @@ Piensa en otros lugares en los cuales podrías encontrar mentores que te brinden
  	<li>Centro comunitarios</li>
 </ul>
 ¡Ahora deberías tener una lista asombrosa de personas y grupos a quienes contactar para invitarlos a ser tus mentores!
+</div>
 
 <b>Empieza a reclutar</b>
 De la misma forma en que reclutaste a las otras chicas para que se unieran a tu equipo, puedes utilizar los siguientes recursos para reclutar a un mentor:
@@ -150,7 +160,8 @@ Sinceramente,
 </tbody>
 </table>
 Una vez que hayan reclutado a su mentor, díganle que visite el sitio <a href="https://my.technovationchallenge.org/" target="_blank">my.technovationchallenge.org</a> y complete su registro. Cuando se haya registrado, pueden agregarlo al equipo siguiendo los <a href="#findmentor">pasos anteriores</a>.
-<h3>Conozcan a su equipo</h3>
+
+<h3 id="knowteam">Conozcan a su equipo</h3>
 ¡Tú y tu equipo deberán comenzar con algo de construcción de equipos! La construcción de equipo puede involucrar desde una caminata, jugar al juego "coócete", o llevar a cabo una plática seria. Es importante para el equipo establecer relaciones más allá de desarrollar una aplicación móvil y una compañía. Habrá ocasiones en las que encontrarán dificultades para comunicarse entre ustedes. Es importante establecer bases fuertes de tal forma que sepan como trabajar con cada una de ustedes en situaciones difíciles.
 
 Este es una <a href="http://www.teampedia.net/wiki/index.php?title=Main_Page" target="_blank">buena fuente de recursos</a> para encontrar juegos de construcción de equipos para que logren conocerse entre sí. Así es como podrían comenzar:
@@ -163,9 +174,14 @@ Este es una <a href="http://www.teampedia.net/wiki/index.php?title=Main_Page" ta
 Hay una gran cantidad de actividades disponibles en los recursos anteriores. Quizás pueden nominar a una miembro del equipo que lidere una actividad de construcción de equipo o de calentamiento al inicio de cada reunión de equipo. ¡De esa forma pueden continuar el desarrollo como equipo durante toda la temporada de Technovation!
 
 En este punto, si todavía no has podido encontrar un mentor, no te desilusiones. Hay muchos equipos que están trabajando en el currículum de Technovation por sí solas (¡algunas de ellas incluso han llegado a las finales en la presentación mundial!) .
+
+<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
+<center>
 <h3>¿Estás lista para seguir?</h3>
 Estás lista para el siguiente paso en el proceso - ¡Ideación!
 
-<a href="/?p=20226" target="_blank">
+<a href="/?p=20226" target="_blank" style="color:#eae46f">
 Ideación
 </a>
+	</center>
+</div>
