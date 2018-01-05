@@ -1,0 +1,142 @@
+<ul>
+<li><a href="#whycode">Por qué programar</a></li>
+<li><a href="#womeninventors">Mujeres inventoras y programadoras</a></li>
+<li><a href="#insp">Inspírate</a></li>
+<li><a href="#technovation">Technovation</a></li>
+<li><a href="#brain">Lluvia de ideas</a></li>
+<li><a href="#getstarted">¡Haz un cambio!</a></li>
+</ul>
+
+<div style="background-color:#421b41; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
+<blockquote>
+<p style="text-align: center">"El tamaño de tus sueños siempre debe exceder tu capacidad actual de llevarlos a cabo."</p>
+</blockquote>
+<p style="text-align: right">–Ellen Johnson Sirleaf, Ganadora del premio Nobel de la paz y presidenta de Liberia</p>
+</div>
+
+<h1 id="whycode">Por qué programar</h1>
+<p>¡Felicidades por unirte a Technovation! ¿Estás lista para aprender como puedes cambiar el mundo a través de código? a través de Technovation, aprenderás a diseñar y programar tu propia aplicación móvil. Tomemos un minuto para hablar acerca de qué es la programación y por qué debes programar. <b>La programación</b> es el medio por el cual las personas hablan con las computadoras, ¡y hacen que las computadoras hagan cosas grandiosas! La programación está en todos lados -probablemente utilizas cosas que fueron hechas con programación múltiples veces al día sin siquiera darte cuenta-. ¿Cuáles son algunas cosas que te gustan y que fueron hechas con programación?</p>
+
+<center>
+<p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/tech-primer1.jpg" alt="Mobile Apps" /><br />
+Aplicaciones móviles<br />
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/tech-primer2.jpg" alt="Games" /><br />
+Juegos<br />
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/tech-primer3.jpg" alt="Animation" /><br />
+Animaciones</p>
+</center>
+<p>Hay muchas cosas divertidas para hacer con programación, pero ¿sabías que también puedes <i>ayudar</i> a las personas mediante la programación? Aquí hay algunos ejemplos:</p>
+<center>
+<p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/tech-primer4.jpg" alt="Medicine" /><br />
+Medicina<br />
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/tech-primer5.jpg" alt="Assistive Devices" /><br />
+Dispositivos de asistencia<br />
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/tech-primer6.jpg" alt="Robots" /><br />
+Robots</p>
+</center>
+
+<div style="background-color:#421b41; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
+<blockquote>
+<p style="text-align: center">"Fue casi como Luke Skywalker en Star Wars, de pronto sentí que tenía superpoderes mediante la programación, ¡fue mágico! Me di cuenta que la programación realmente puede cambiar al mundo, ya sea mediante una herramienta, una aplicación educativa o un dispositivo para monitorear la salud. Todos ellos tienen el potencial de cambiar la vida de las personas."</p>
+</blockquote>
+<p style="text-align: right">–Emma Yang, Finalista de Technovation 2015</p>
+</div>
+
+<h1 id="womeninventors">Mujeres inventoras y programadoras</h1>
+<p>¿Sabías que las mujeres, a lo largo de la historia, han contribuido mucho más a la ciencia de lo que mucha gente piensa?</p>
+
+<br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y8DBwchocvs" frameborder="0" allowfullscreen></iframe>
+<br><br>
+
+<p>Tal vez has escuchado de los logros de hombre como Bill Gates y Mark Zuckerberg. Pero, ¿sabías que la historia de las ciencias de la computación está llena de mujeres programadoras? La mayoría de estas mujeres no fueron ampliamente reconocidas por sus contribuciones durante sus vidas, pero con el tiempo influenciaron y tuvieron un profundo impacto en las ciencias de la computación. A continuación se presentan algunas de estas mujeres:</p>
+
+<p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/tech-primer7.jpg" alt="tech-primer7" /><br />
+<h3>Ada Lovelace</h3>
+<p>Ada fue una matemática y escritora inglesa, principalmente conocida por su trabajo en la primitiva computadora mecánica de propósito general de Charles Babbage, el Motor Analítico. Ella vivió hace mucho tiempo en la década de los 1850s. A menudo se da el crédito a Ada de ser el primer programador de la historia porque ella escribió el primer algoritmo intencionado para ser ejecutado por una máquina. Además, ella visionó a las computadoras yendo más allá de los cálculos y ser usadas como herramientas de colaboración con su idea de "ciencia poética". Hoy en día, ¡definitivamente utilizamos a las computadoras en la forma en que Ada las visionó! Ada abrió los caminos hacia las invenciones que las personas disfrutan en el mundo.</p>
+
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/tech-primer8.jpg" alt="tech-primer8" /><br />
+<h3>Grace Hopper</h3>
+<p>Grace fue la primer persona en compilar, o traducir, código de computadora en otro lenguaje. El código de computadora luce así: <strong>00011001111000</strong>. No es fácil de entender por los humanos. Grace lo tradujo en algo que pudiéramos entender como: “<strong>print ‘Hola mundo’</strong>”. Sus invenciones han permitido la evoluciones de lenguajes de programación que son sencillos de utilizar, ¡como el que estarás aprendiendo en Technovation!</p>
+
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/tech-primer9.jpg" alt="tech-primer9" /></p>
+<h3>Adele Goldberg</h3>
+<p>Adelen fue una informática en Xerox PARC en los 60s y ayudó a crear el lenguaje de programación llamado Smalltalk. Muchos de los conceptos desarrollados por Adele y su equipo se convirtieron en las bases para las interfaces de usuario gráficas. Utilizas una interfaz de usuario gráfica cada vez que usas un teléfono celular o una computadora. esto significa que puedes hacer clic en íconos y ver imágenes y botones. Las computadoras solían estar basadas en líneas de comandos, y los programadores tenían que escribir todo línea a línea para comunicarse con estas máquinas. Las interfaces gráficas de usuario cambiaron dramáticamente la forma en que las personas utilizan a las computadoras y son la razón por la cual mucha gente es capaz de usar teléfonos y computadoras hoy en día.</p>
+<p>Aprende más sobre Adele Goldberg <a href="http://www.computerhistory.org/revolution/input-output/14/347/2301">aquí</a>.</p>
+
+<div style="background-color:#421b41; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
+<blockquote>
+<p style="text-align: center">"Ya había programado antes, pero nunca había programado un producto real que otros pudieran usar."</p>
+</blockquote>
+<p style="text-align: right">–Graduada de Technovation 2016</p>
+</div>
+
+<h1 id="insp">Inspírate</h1>
+<p>¡Como programadora <em>tú</em> puedes hacer una diferencia! Desde solucionar problemas de escasez de agua y disposición de basura en tu comunidad hasta conectar a la juventud con oportunidades interesantes de voluntariado y ayudar a personas con discapacidades, tú puedes usar la tecnología para resolver problemas de tu comunidad. Puedes aprender a soñar, pensar, planear, crear y construir algo que puede hacer el mundo mejor en tu comunidad o región. ¡Y no lo harás sola! Obtendrás las herramientas, el entrenamiento y los mentores para ayudarte a hacerlo realidad. ¡Y claro, tendrás a tus compañeras de equipo!</p>
+
+<br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YDrqtNE1ARI" frameborder="0" allowfullscreen></iframe>
+<br><br>
+
+<p>¿Sigues buscando inspiración? Puedes mirar la película <a href="http://www.codegirlmovie.com/">CodeGirl</a>, la cual es un documental sobre Technovation en Netflix. Mirála con amigas y sigue esta <a href="http://www.technovationchallenge.org/wp-content/uploads/2016/12/CodeGirl-Discussion-Guide.pdf">guía de discusión</a>!</p>
+
+<h1 id="technovation">Technovation</h1>
+<p>Technovation es el programa más grande de emprendimiento en tecnología para niñas; ha alcanzado a 10,000 niñas en 78 países durante los últimos 6 años.</p>
+<p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/tech-primer10.jpg" alt="tech-primer10" width="720" height="355" /></p>
+<p>Desde 2009:</p>
+<ul>
+<li style="font-weight: 400"><b>10,000 niñas</b> han participado en Technovation en más de <b>78 países</b>.</li>
+<li style="font-weight: 400"><b>Más de 1,700 aplicaciones móviles</b> han sido creadas por participantes de Technovation.</li>
+<li style="font-weight: 400">Más de <b>2,400 mujeres profesionistas</b> han creado una red global de apoyo para las chicas de Technovation como sus entrenadoras, mentoras y embajadoras regionales.</li>
+</ul>
+<p>Esto es lo que aprenderán mientras cambias una parte del mundo:</p>
+<h3><b>Programación</b></h3>
+<p>Aprenderán a hacer una aplicación móvil y a probarla en su teléfono.</p>
+<p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/tech-primer11.jpg" alt="tech-primer11" /></p>
+<h3><b>Emprendimiento</b></h3>
+<p>Aprenderán a construir un negocio mediante el desarrollo de un plan de negocio y mercadeo para su aplicación.</p>
+<p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/tech-primer12.jpg" alt="tech-primer12" /></p>
+<h3><b>Trabajo en equipo</b></h3>
+<p>Aprenderán a trabajar juntas en equipo para hacerlo posible.</p>
+<p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/tech-primer13.jpg" alt="tech-primer13" /></p>
+<h3><b>Liderazgo</b></h3>
+<p>Aprenderán a realizar sus ideas y presentar su solución frente al público.</p>
+<p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/tech-primer14.jpg" alt="tech-primer14" /></p>
+
+<h1 id="brain" style="margin-top: 0">Lluvia de ideas</h1>
+<p>Entonces, ¿cómo quieren usar la programación para cambiar al mundo? ¡Aquí hay algunas preguntas en las que pensar antes de empezar!</p>
+<ul>
+<li style="font-weight: 400">Si pudieras usar la programación para crear algo, ¿qué crearías?</li>
+<li style="font-weight: 400">¿Qué es un problema en tu comunidad que quisieras solucionar?</li>
+</ul>
+<p>¡Traten de llegar a una idea específica para una aplicación móvil! ¡Miren estos ejemplos de ediciones pasadas de Technovation para obtener mayor inspiración!</p>
+<center>
+<p style="text-align: center"><b>Aplicaciones para combatir la hambruna</b></p>
+<p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/tech-primer15.jpg" alt="tech-primer15" width="252" height="252" /></p>
+<h3 style="text-align: center"><a href="https://www.youtube.com/watch?v=SJqEruEfLPc">Food Rescue por AurGrrls</a></h3>
+<p style="text-align: center">Esta aplicación móvil permite a los usuarios donar a bancos de comida locales, la comida que sobra en las grabaciones de películas en Los Angeles.</p>
+<h3 style="text-align: center"><a href="https://www.youtube.com/watch?v=1U-vRBqWGSU">InDaFridge por IDF</a></h3>
+<p style="text-align: center">Esta aplicación evita que las persona desperdicien comida permitiendo que los usuarios accedan a recetas personalizadas basadas en lo que se tiene en el refrigerador.</p>
+<p style="text-align: center"><b>Aplicaciones para parar la violencia</b></p>
+<p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/tech-primer16.jpg" alt="tech-primer16" width="252" height="252" /></p>
+<h3 style="text-align: center"><a href="https://www.youtube.com/watch?v=KGGjePhGlr4">Neo Safety</a></h3>
+<p style="text-align: center">Esta aplicación permite a los usuarios ver si han ocurrido hechos violentos recientemente en el área en que se encuentran.</p>
+<h3 style="text-align: center"><a href="https://www.youtube.com/watch?v=vbdCa7bdPNw">Women Fight Back por Girls for Change From Dharavi</a></h3>
+<p style="text-align: center">Esta aplicación permite a las mujeres reportar y pedir ayuda cuando han sido acosadas o atacadas.</p>
+<p style="text-align: center"><b>Aplicaciones para ser amigables con el medio ambiente</b></p>
+<p style="text-align: center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/tech-primer17.jpg" alt="tech-primer17" width="252" height="252" /></p>
+<h3 style="text-align: center"><a href="https://www.youtube.com/watch?v=KAgw_GcCCxs">Discardious por Team Charis</a></h3>
+<p style="text-align: center">Esta aplicación ayuda a los usuarios a limpiar la basura de su comunidad proveyendo carros para la recolección de basura.</p>
+<h3 style="text-align: center"><a href="https://www.youtube.com/watch?v=evOgwXoi7oU">Loc8Don8 por California Coders</a></h3>
+<p style="text-align: center">Esta aplicación ayuda a las personas a encontrar lugares en donde donar las cosas que ya no necesitan.</p>
+</center>
+
+<div style="background-color:#00A3AD
+; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
+<h1 id="getstarted">¡Haz un cambio!</h1>
+<p>¿Estás lista para aprender a programar y hacer la diferencia en tu comunidad? Empieza con el currículum de Technovation.</p>
+<p>Qué hacer ahora:</p>
+<ul>
+<li style="font-weight: 400">¡Empieza a formar tu equipo! Inicia sesión en <a href="https://my.technovationchallenge.org/" style="color:#eae46f">my.technovationchallenge.org</a>. La unidad <em>Construir un Equipo</em> de Technovation te guía paso a paso sobre como crear tu equipo.</li>
+</ul>
+</div>
