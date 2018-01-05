@@ -1,0 +1,340 @@
+Code 2: Daten und Variablen
+
+Lernziele:
+In diesem Modul ...
+● erfährst du mehr über Daten und verschiedene Datentypen
+● erfährst du, wie du Variablen und Datenbanken verwendest
+● lernst du, Daten in Listen zu organisieren
+● erstellst du eine To-Do-List-App (Aufgabenliste), die mit einer Datenbank verbunden ist
+
+Diese Lektion enthält eine Menge Informationen und es ist okay, wenn du jetzt noch nicht alles verstehst. Die Coding-Challenges sind der beste Weg, um Coding-Konzepte zu verstehen - denn so kannst du sie in Aktion sehen! Du kannst dir diese Lektion auch immer wieder ansehen, wenn du beim Programmieren der App irgendwo steckenbleibst.
+
+Teil 1: Alles über Daten
+Daten
+Irgendwann in deinem Leben hast du wahrscheinlich schon einmal das Wort <strong>Daten</strong> gehört. Daten können eine Menge Dinge bedeuten, aber in der Informatik sind <strong>Daten</strong> die Informationen, die eure App zum Funktionieren benötigt. Um dies besser zu verstehen, denken wir über einige Apps und Informationen nach, die sie brauchen, um zu Funktionieren.
+<table width="720">
+<tbody>
+<tr>
+<td width="119">Name der App</td>
+<td width="190">WhatsApp</td>
+<td width="218">Angry Birds</td>
+<td width="193">Slideshow</td>
+</tr>
+<tr>
+<td width="119">Was die App macht</td>
+<td width="190">Du kannst mit deinen Freunden schreiben und telefonieren</td>
+<td width="218">Bei diesem Spiel schiesst du Vögel auf Schweinchen, um sie zu besiegen</td>
+<td width="193">Das ist die App, die du in der letzten Coding-Lektion gemacht hast</td>
+</tr>
+<tr>
+<td width="119">Was die App zum Funktionieren braucht</td>
+<td width="190">●     dein Benutzername
+
+●     die Benutzernamen deiner Freunde
+
+●     die Nachricht , die du verschicken möchtest
+
+●     die Uhrzeit
+
+●     dein Standort</td>
+<td width="218">●     deine Punktzahl
+
+●     wie viele Punkte jedes Objekt wert ist
+
+●     deine abgeschlossenen Levels
+
+●     Wie viele Vögel du in jedem Level erhältst
+
+&nbsp;</td>
+<td width="193">●     deine Lieblingsbilder</td>
+</tr>
+</tbody>
+</table>
+<ol>
+  <li>Die Programmiererin muss dafür sorgen, dass die App alle benötigten Informationen erhält. <em>Denk daran</em>, dass Computer nicht alles auf eigene Faust und ohne Anweisungen tun können. Hier sind ein paar Möglichkeiten, wie Apps im App Inventor an diese Daten kommen können:Die Programmiererin gibt die Informationen ein
+a. In deiner Slideshow-App hast du (die Programmiererin) deine Lieblingsbilder eingetragen
+b. In Angry Birds hat die Programmiererin eingegeben, wie viele Vögel der Spieler in jedem Level bekommt.
+2.         Die Benutzerin gibt die Informationen ein
+a.         In WhatsApp muss die Benutzerin der App sagen, was sie senden möchte und wem sie es schicken möchte
+3.         Die App verbindet sich mit einem anderen Ort, um Informationen zu erhalten
+a.         WhatsApp verbindet sich mit deinem Handy, um die Uhrzeit abzufragen, damit es weiss, wann du eine Mitteilung abgeschickt hastManchmal speichert eine App Informationen, die die Benutzerin eingegeben hat. WhatsApp speichert zum Beispiel den Nachrichtenverlauf. So kannst du die letzte Nachricht anzeigen, die du an eine Freundin geschickt hast. Um dies zu tun, verwendet die Programmiererin eine <em>Datenbank</em>. Wie das geht, lernen wir jetzt in dieser Lektion. Du erfährst dann später auch noch mehr darüber, wie du die App mit anderen Orten verbindest, um Informationen zu erhalten.
+
+<em>Aufgabe:</em>
+Wenn du eine App brauchen würdest, die für dich den nächsten Lebensmittelladen findet, welche Dinge muss die App wissen, um das zu tun?</li>
+</ol>
+Datentypen
+Wie du im oberen Teil gesehen hast, können Daten eine Menge Dinge sein! Damit der Computer einfacher versteht, was er mit den vorhandenen Daten tun muss, werden Daten in Kategorien eingeteilt. Diese Kategorien nennt man <strong>Datentyp</strong>. Programmiersprachen drehen sich um drei Hauptdatentypen: Zahlen, Strings und Booleans. Mit App Inventor kannst du auch komplexere Datentypen wie zum Beispiel Farben oder Bilder verwenden. In diesem Teil musst du nichts mit Datentypen machen – es ist aber hilfreich, wenn du sie beim Weiterlernen im Hinterkopf behältst.
+
+Nummern
+Der Datentyp Zahlen ist genau das, was du denkst! Im App Inventor kannst du Zahlen verwenden, indem du unter <em>blocks</em> auf going to Math klickst.
+
+Wir verwenden Math-Blöcke, wann immer wir Zahlen verwenden müssen. Im Folgenden findest du einige Beispiele dafür, wann du in eurer App einen Zahlen-Datentyp verwenden kannst.
+● Berechnung der Punktzahl einer Spielerin in einem Spiel
+● Zählen, wie oft eine Benutzerin versucht hat, sich einzuloggen
+● Zählen, wie oft du möchtest, dass eure App etwas macht
+● Prüfen, ob eure Benutzerinnen ein bestimmtes Alter haben
+
+Um mehr herauszufinden über all die Dinge, die du mit Math-Blocks tun kannst, geh auf die Website des MIT: <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/math.html">Math blocks</a>
+
+&nbsp;
+
+&nbsp;
+
+Strings
+Beim Datentyp String handelt es sich um Text. Um im App Inventor einen String zu kreieren, klicke unter <em>blocks</em> auf Text. Hier sind einige Textblöcke, die du verwenden kannst:
+Du solltest immer einen String verwenden, wenn du ein Textfeld zu deinem Code hinzufügen möchtest. Im Folgenden findest du einige Beispiele für die Verwendung des Datentyps String in eurer App.
+● Prüfen, ob das Passwort einer Benutzerin korrekt ist
+● Die App mit dem Benutzer sprechen lassen
+● Einer Benutzerin eine Nachricht anzeigen
+
+Bevor du weitermachst, schau auf der Website des MIT nach, was du mit Textblöcken alles anstellen kannst: <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/text.html#string">Text blocks</a>
+
+Booleans
+Ein Boolean kann einer von zwei Werten haben: true oder false. True (wahr) bedeutet im Grunde "Ja" und false (falsch) bedeutet im Grunde "Nein". Um einen Boolean zu erhalten, geh unter built in functions zu <em>logic</em> und wähle einen dieser Blöcke:
+Im Moment gibt es nicht viel zu tun mit den Booleans, wir behalten sie einfach im Auge. Booleans und Logik sind dann das Thema der Coding-Lektion 3: Logik, Loops und Bedingungen.
+
+&nbsp;
+
+Teil 2: Daten speichern
+
+Variablen
+Eines der wichtigsten Codierungskonzepte ist die Variable. Eine Variable ist ein Name für ein Datenelement, das sich im Wert ändern kann. Eine einfache Möglichkeit, sich das zu merken ist, dass eine Variable variieren oder den Wert ändern kann. Es gibt viele Informationen, die dir jeden Tag wichtig sind, die ihren Wert verändern. Hier sind einige Beispiele:
+● dein Alter
+● dein Grösse
+● dein Standort
+● das heutige Datum
+
+Um Variablen besser zu verstehen und zu lernen, wie wir sie im App Inventor verwenden, schauen wir uns ein Beispiel an. Stell dir vor, du erstellst ein Spiel, bei dem die Benutzerin Punkte verdienen und verlieren kann. Du möchtest, dass die Spielerin ihre Punktzahl (score) in einem Textfeld sehen kann. Zu Beginn des Spiels hat die Spielerin 0 Punkte, also fügst du diesen Block ins Spiel ein:
+
+Die Spielerin sieht 0 im Textfeld, das ihre Punktzahl enthält. Allerdings ändert sich die Punktzahl jedes Mal, wenn sie das Spiel spielt. Jedes Mal, wenn sie Punkte erhält oder verliert, müssen wir das Textfeld aktualisieren. Wenn sie mehr Punkte erhält, fügen wir einen solchen Block ein:
+
+Das funktioniert. Aber was machen wir jetzt, wenn die Spielerin wieder 10 Punkte verdient? Wir müssen den Text wieder aktualisieren, damit jetzt die Punktzahl 20 angezeigt wird. Was, wenn die Spielerin Punkte verliert? Wir müssen die Punktzahl auf 15 ändern. Und was, wenn sie wieder Punkte gewinnt? Das kann sehr schnell verwirrend werden.
+
+In solchen Szenarien kannst du eine <strong>Variable</strong> erstellen, um die Punktzahl der Spielerin zu verfolgen. Du kannst eine Variable namens <em>score</em> erstellen, die immer den Wert der aktuellen Punktzahl der Spielerin hat. Während sie das Spiel spielt, kannst du Punkte zur Punktzahl dazuzählen oder davon abziehen, ohne dir darüber Gedanken zu machen, was ihre Gesamtpunktzahl ist. So funktioniert das im App Inventor: Zuerst nimmst du diesen Block aus dem Menü <em>Variablen</em>.
+Dieser Block teilt der App mit, dass eine Variable vorhanden ist, und fordert dich auf, der Variable einen Namen und einen Wert zu geben. So würde der Block für ein Spiel aussehen, bei dem die Punktzahl am Anfang 0 war:
+Mit diesem Block erklärst du der Anwendung, dass es ein Stück Daten geben wird, das <em>score</em> genannt wird und während des Spiels seinen Wert ändern wird. Jedes Mal, wenn die App startet, wird es eine Variable namens <em>score</em> zu erstellen und bei 0 festsetzen. Jetzt kannst du die Funktionen "set" und "get" anwenden. Mit "get" kannst du sehen, welchen Wert die Variable <em>score</em> hat. So kannst du deiner App sagen, dass die Punktzahl in einem Textfeld angegeben werden soll:
+Mit "set" kannst du der Punktzahl einer Benutzerin eine neue Zahl zuweisen. Jedes Mal wenn die Spielerin Punkte sammelt, kannst du der App sagen, dies zu tun.
+So teilst du deiner App mit, dass sie zur jetzigen Punktzahl 10 dazuzählen soll. Wenn die aktuelle Punktzahl Null ist, würde die neue Punktzahl 10 betragen. Wenn die aktuelle Punktzahl 25 ist, beträgt die neue Punktzahl 35. Jetzt musst du dir keine Sorgen mehr um die Neuzuweisung der Punktzahl machen, wenn deine Spielerin Punkte gewinnt oder verliert. Die App wird nur die aktuelle Punktzahl verwenden und 10 Punkte hinzufügen.
+
+Es ist okay, wenn die Variablen für dich noch ein bisschen verwirrend sind! Sie sind wirklich nicht leicht zu verstehen und du verstehst sie am besten, wenn du sie gebrauchst. Du wirst sie in der Coding Challenge am Ende diese Lektion und auch in den kommenden Lektionen brauchen.
+
+<em>Aufgabe</em>:
+Wähle eine deiner Lieblingsapps aus und überlege dir drei Orte, wo du denkst, dass die Erfinder der App Variablen gebraucht haben.
+
+&nbsp;
+
+Lokale und globale Variablen
+
+Vielleicht hast du in dem Abschnitt oben bemerkt, dass vor dem Namen <em>Score</em> die Variable "global" hiess. Im App Inventor kannst du zwei Arten von Variablen, <strong>lokale Variablen</strong> und <strong>globale Variablen,</strong> haben. Wenn du Variablen erstellst, musst du darüber nachdenken, ob du die Variable an mehreren Stellen im Code verwenden möchtest, z. B. die Notenvariable von oben oder ob du sie nur an einer Stelle verwenden möchtest.
+
+<strong>Globale Variablen</strong> können überall verwendet werden. Wie du oben gesehen hast, muss die Score Variable mehrfach verwendet werden. du musstest es verwenden, wenn der Spieler Punkte sammelt, wenn der Spieler Punkte verloren hat, und sie in der Textbox anzuzeigen. Es könnte auch für eine High-Score-Tabelle verwendet werden oder für, wenn der Benutzer einen Punkt verliert. Du kannst einen Namen niemals verwenden, wenn du eine globale Variable verwendest. Wenn du dies getan hast, wird deine App nicht wissen, welche Variable zu verwenden ist. Glücklicherweise ist es dem App Inventor nicht möglich, zwei Variablen mit dem gleichen Namen zu erstellen. Wenn du Zweifel hast, welchen Variablentyp du verwenden sollst, verwende global.
+
+&nbsp;
+
+&nbsp;
+
+<strong>Lokale Variablen</strong> können nur an einem Punkt im Code verwendet werden. Wenn du nur eine Variable brauchst, um nur an einer Stelle etwas zu verfolgen, verwendest du eine lokale Variable. Die lokale Variable kann nur innerhalb des "lokalen Variablen" -Bausteins verwendet werden und App Inventor lässt du es nicht außerhalb davon verwenden. Im Gegensatz zu globalen Variablen kannst du die Namen der lokalen Variablen wiederverwenden.
+
+&nbsp;
+
+In der Codierungsherausforderung siehst du Beispiele, wann globale Variablen verwendet werden sollen und wann lokale Variablen verwendet werden sollen: Um mehr über globale und lokale Variablen zu erfahren, besuche die Website von MIT: <a href="http://appinventor.mit.edu/explore/ai2/support/concepts/variables.html">Global and Local Variables</a>
+
+&nbsp;
+
+Abschnitt 3: Daten organisieren
+
+Es gibt so viele Informationen auf der Welt, es kann wirklich verwirren! Zum Glück haben wir Möglichkeiten, Daten zu organisieren, damit wir sie leicht finden und verwenden können. Fällt dir ein Beispiel ein, wie du Informationen und Objekte in deinem Leben organisierst? Hier sind einige Beispiele für Dinge, die du tun könntest, um Dinge zu organisieren:
+<ul>
+  <li>Telefonnummern von Freunden in eine Kontaktliste setzen</li>
+  <li>Bleistifte in eine Bleistiftbox stecken</li>
+  <li>Kleidung in einen Schrank legen</li>
+</ul>
+Listen
+
+Programmierer verwenden Listen, um Daten in ihren Programmen zu organisieren. Listen können mehrere Stücke von Daten enthalten und man kann daraus leicht Daten erhalten. Du hast möglicherweise schon eine To-do-Liste oder eine Einkaufsliste erstellt, Listen in der Programmierung sind sehr ähnlich gemacht. Im App-Inventor kannst du zu „blocks“ gehen und „lists" auswählen. Eine Liste sieht wie folgt aus:
+
+&nbsp;
+
+&nbsp;
+
+Listen sind wirklich nützlich für grosse Mengen an Informationen. Jedes Ding in einer Liste hat einen Index, der eine Zahl ist, die Ihnen sagt, wo es in der Liste ist. Das erste Element in einer Liste hat einen Index von 1, das zweite Element in einer Liste hat einen Index von 2 und so weiter.
+<table width="721">
+<tbody>
+<tr>
+<td width="450">Betrachten wir diese Liste der verschiedenen Früchte:
+
+&nbsp;</td>
+<td width="271">Hier siehst du, wie deine App diese Informationen sieht:
+
+<strong>Liste Name: Früchte</strong>
+
+● Äpfel (Index = 1)
+
+● Bananen (Index = 2)
+
+● Orangen (Index = 3)</td>
+</tr>
+</tbody>
+</table>
+&nbsp;
+
+Du kannst eine Sache aus einer Liste erhalten, anstatt die ganze Liste zu benutzen. Wenn du nur die Zeichenfolge "Bananen" in eine Textbox statt der gesamten Liste setzen möchtest, musst du sagen, die App soll auf Index 2 in dieser Liste nachsehen. Hier ist, wie du „Bananen" in ein Textfeld mit dem App-Inventor setzen würdest.
+
+Du kannst auch Dinge in Listen hinzufügen, entfernen und ersetzen. Angenommen, du hast vergessen, "Kiwis" und "Trauben" zu Ihrer Obstliste hinzuzufügen. Du kannst sie wie folgt hinzufügen:
+<table width="624">
+<tbody>
+<tr>
+<td width="312"></td>
+<td width="312">Nun wird deine App deine Liste wie folgt sehen:
+
+<strong>Liste Name: Früchte</strong>
+
+● Äpfel (Index = 1)
+
+● Bananen (Index = 2)
+
+● Orangen (Index = 3)
+
+● Kiwis (Index = 4)
+
+● Trauben (Index = 5)</td>
+</tr>
+</tbody>
+</table>
+&nbsp;
+
+Du solltest Listen verwenden, wenn du mehrere Informationen hast, die du unter demselben Variablennamen einfügen möchtest. Zum Beispiel, wenn du die Top Ten Highscores für ein Spiel anzeigen möchten, kannst du zehn Variablen mit Namen wie HighScore1, HighScore2, HighScore3 und so weiter einfügen, bis du HighScore10 erhältst. Der einfachste Weg, dies zu tun wäre, eine Liste namens HighScores zu erstellen, die die zehn High-Scores enthält und sie dann mit ihren Indizes anzeigen. Das Benutzen einer Liste würde es dir auch ermöglichen, High-Scores einfacher zu ersetzen oder hinzuzufügen und ersparst dir eine Menge Zeit!
+<table width="624">
+<tbody>
+<tr>
+<td width="312"></td>
+<td width="312"></td>
+</tr>
+</tbody>
+</table>
+&nbsp;
+
+Sieh dir die MIT-Website für Informationen über Listen an: <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/lists.html#string">Lists</a>
+
+Datenbanken
+
+Variablen sind ideal für die Speicherung von Informationen, während ein Benutzer deine App verwendet, aber was ist, wenn du Informationen zwischen den Zeiten, wenn ein Benutzer deine App öffnet und schliesst, speichern möchtest? Du kannst dies mit einer Datenbank tun. Datenbanken können Informationen für spätere Verwendung speichern, auch wenn die App geschlossen ist! Du kannst Datenbanken als Speicherort für Informationen sehen, die du später wiederherstellen kannst. Hier einige Beispiele für Datenbanken, die du täglich verwenden kannst:
+<ul>
+  <li>Kontaktliste - du speicherst die Telefonnummern Ihres Freundes, damit du diese später verwenden kannst</li>
+  <li>Nachrichten App - speichert Verlauf der Nachricht</li>
+  <li>Notebook - du schreibst die Dinge und liest sie später</li>
+</ul>
+&nbsp;
+
+In App Inventor kannst du mit der Komponente TinyDB Daten auf dem Telefon ihres Benutzers speichern, die bei jeder Anmeldung in Ihrer App vorhanden sein werden. Es ist wichtig zu wissen, dass TinyDB nur erlaubt, Daten lokal zu speichern. Das bedeutet, dass zwei Benutzer keine Daten mit TinyDB teilen können. Wenn ein Benutzer Daten in TinyDB speichert, ist es nur auf ihrem Telefon verfügbar, und niemand anderem. Du erfährst, wie du Informationen zwischen Telefonen teilst in Codierungseinheit 4.
+
+Um TinyDB zu verwenden, ziehst du es in der Designer-Seite vom App-Inventor auf Ihren Bildschirm. Es erscheint als nicht sichtbare Komponente und wird wie folgt aussehen:
+
+Du kannst mit deinem TinyDB sprechen, indem du ihn anrufst. Wenn du einen Anruf tätigst, kannst du Dinge speichern und Dinge aus ihm erhalten. Die Weise, in der du Daten in TinyDB speicherst, ist, indem du ihm ein Tag gibst. Der Tag ist ein Name, den du verwendest, um die Daten abzurufen. Es ist viel wie ein Variablenname. Wenn du denselben Tag-Namen verwendest, um Daten zweimal zu speichern, überschreibt oder ersetzt die Datenbank die alten Daten mit den neuen Daten. Dies kann nützlich sein, wenn du aktualisieren musst, was in deiner Datenbank ist, aber du solltest darauf achten, nie Tag-Namen irgendwo anders zu wiederholen! So rufst du TinyDB an:
+
+&nbsp;
+
+Der erste Block zeigt, wie die Werte in TinyDB gespeichert werden. In diesem Fall haben wir unsere Früchteliste mit dem Tag „Food" gespeichert. Der zweite Block zeigt, wie die Fruchtliste aus der Datenbank abgerufen werden kann. Das Tag muss genau so eingegeben werden, wie wenn die Daten gespeichert wurden, einschliesslich aller Grossbuchstaben.
+
+Um dies besser zu verstehen, gehen wir durch ein Beispiel. Nehmen wir an, du müsstest drei Dinge in einer Datenbank für die spätere Verwendung speichern. Eine ist unsere Früchteliste vom letzten Abschnitt, eine ist dein Alter, und das andere ist eine Liste der Dinge, die du am Liebsten machst. Du hast drei Aufrufe an die Datenbank wie folgt gemacht:
+
+&nbsp;
+
+Du hast nun drei Einträge in deiner Datenbank und so sehen sie aus:
+<table width="624">
+<tbody>
+<tr>
+<td width="208">Tag-Name: „Essen”
+
+Data:
+
+●     „Äpfel”
+
+●     „Bananen”
+
+●     „Orangen”</td>
+<td width="208">Tag-Name: „Mein Alter”
+
+Daten: 16</td>
+<td width="208">Tag-Name: „Favorit”
+
+Daten:
+
+●     „Codieren lernen”
+
+●     „Besuch Familie”
+
+●     „Musik hören“</td>
+</tr>
+</tbody>
+</table>
+&nbsp;
+
+Nun, wenn du deine Lieblings-Dinge wiederfinden möchtest, machst du folgende Schritte:
+
+Wenn du diesen Block verwendest, erhältst du "Erlernen, wie man „besuche Familie - Musik hören“ codiert. Jetzt willst du dein Alter abrufen, also gibst du ein:
+
+Wenn du diesen Block verwendest, erhältst du nur einen leeren String: " ". Das liegt daran, dass das Tag „myage" nicht in deiner Datenbank vorhanden ist! Das Tag „MyAge" existiert jedoch. Da deine Datenbank das Tag nicht erkannt hat, wird standardmäßig der Block neben „valueIfTagNotThere" angezeigt, der eine leere Zeichenfolge ist. Du kannst dieser Zeichenfolge sagen, was du willst. Du kannst es eine Fehlermeldung an Ihren Benutzer.
+
+&nbsp;
+
+Wenn du eine App mit mehreren Bildschirmen erstellst, können Komponenten, Daten und Variablen nicht zwischen jedem Bildschirm miteinander sprechen. Du musst ein TinyDB verwenden, um Informationen von einem Bildschirm Ihrer App auf den anderen zu übertragen. Besuche diese Seite für weitere Informationen: <a href="http://appinventor.mit.edu/explore/ai2/concepts.html#Screens">MIT Screens</a>
+
+Herzlichen Glückwunsch zum Abschluss aller Inhalte in dieser Einheit. Es war eine Menge Information, so ist es okay, wenn du nicht alles verstehst! Du kannst jederzeit auf dieses Gerät zurückgreifen, wenn du deine App erstellst. Die Coding-Challenge ist dazu gedacht, alles zu integrieren, was du bisher gelernt hast, also probiere es aus!
+
+Code Challenge # 2: Mache eine To-Do List App
+
+Beschreibung: Erstelle eine To-Do List, die es Benutzern ermöglicht, Elemente einzugeben und zu entfernen. Deine App sollte sich jedes Mal, wenn der Benutzer die App öffnet, die Artikel merken. Du kannst erlernen, wie man ein <a href="http://ai2.appinventor.mit.edu/reference/components/userinterface.html#ListView">ListView</a> benutzt, bevor man die Challenge versucht!
+
+Versuche dein Bestes, diese Challenge auf eigene Faust zu schaffen, bevor du die Anweisungen liest. Denke daran, diese Anweisungen sind nur eine Möglichkeit, wie die Challenge gelöst werden kann! Du kannst unsere Beispiel-App auch im Google Play Store herunterladen. Glückliche Codierung!
+
+Lade die Beispiel-App hier herunter: <a href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.ToDoList">Technovation Challenge #2</a>
+
+<em>Siehe Anleitung:</em>
+
+Kommt ihr nicht weiter? Ladet hier unseren Beispiel-Quellcode herunter:
+
+<a href="https://drive.google.com/open?id=0B9HV58UviqU_a2lTVFdUb0hGbGM">https://drive.google.com/open?id=0B9HV58UviqU_a2lTVFdUb0hGbGM</a>
+
+&nbsp;
+
+Hier findet ihr Anleitungen, wie ihr Quellcodes herunterlädt und verwendet: <a href="http://appinventor.mit.edu/explore/ai2/share.html">Source Code Anweisungen</a>
+
+Lernpunkte
+
+In dieser Lektion haben wir viel abgedeckt! Ihr habt etwas über die verschiedenen Datentypen und die verschiedenen Möglichkeiten diese zu speichern und zu organisieren. Hier sind einige Reflexionsfragen für euch, die ihr mit eurem Mentor diskutieren könnt:
+
+Q1: Wie haben die Informationen, die ihr in dieser Lektion gelernt habt, eure Sicht auf die Apps, die ihr im Alltag braucht, verändert?
+
+Q2: Was sind einige Dinge aus dieser Lektion, von denen ihr denkt, sie werden bei der Erstellung eurer App nützlich sein?
+
+&nbsp;
+
+In diesem Abschnitt habt ihr folgende Schlüsselwörter gelernt:
+<ul>
+  <li>Daten - Informationen, die eure App verwendet</li>
+  <li>Datentyp - Die Art in der Daten kategorisiert werden</li>
+  <li>Number - Ein Datentyp, der eine Zahl ist</li>
+  <li>String - Ein Datentyp, der Text ist</li>
+  <li>Boolean - Ein Datentyp, der Richtig oder Falsch ist</li>
+  <li>Variable - Ein Name für ein Datenelement, das sich ändern kann</li>
+  <li>Globale Variable - Eine Variable, die an jedem Punkt in eurem Code verwendet werden kann</li>
+  <li>Lokale Variable - Eine Variable, die nur in einem bestimmten Codeabschnitt verwendet wird</li>
+  <li>Liste - Eine Möglichkeit, mehrere Daten zu organisieren</li>
+  <li>List Index - Eine Zahl, die angibt, wo sich Daten in einer Liste befinden</li>
+  <li>Datenbank - Ein Platz zum Speichern und Organisieren von Informationen</li>
+</ul>
+&nbsp;
+
+Zusätzliche Ressourcen
+
+Hier sind einige zusätzliche Ressourcen über Datenbanken. Ihr könnt diese jetzt nutzen oder dann, wenn ihr Hilfe beim Erstellen eurer App benötigt!
+<ul>
+  <li><a href="https://drive.google.com/a/iridescentlearning.org/file/d/0B3rEYL3DkWfAd003UmM2cl9ITDg/view">TinyDB101</a></li>
+  <li><u>TinyDB102</u></li>
+  <li></li>
+  <li></li>
+</ul>
+<em> </em>
+
+&nbsp;
