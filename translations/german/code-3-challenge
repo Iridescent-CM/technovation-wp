@@ -1,0 +1,137 @@
+<h1>Code Challenge 3</h1>
+<h1>Datenbankabfrage</h1>
+&nbsp;
+
+Beschreibung
+
+Erstelle eine App, die es dem Benutzer ermöglicht, eine Datenbank nach Informationen zu durchsuchen und die Ergebnisse anzuzeigen. Die Datenbank sollte Namen und Beschreibungen von berühmten Personen, Orten, Filmen, Musik, Veranstaltungen oder was du willst. Stelle sicher, dass du mindestens drei Einträge in deiner Datenbank hast.
+
+&nbsp;
+
+Versuche auf eigene Faust herauszufinden, wie die Coding Challenge gelöst werden kann, bevor du die Anweisungen liest. Die Anleitung zeigt eine Art, wie diese Herausforderung gelöst werden kann. Du kannst auch unsere Beispiel-App im Google Play Store herunterladen:
+
+<a href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.DatabaseSearch">https://play.google.com/store/apps/details?id=appinventor.ai_alliec.DatabaseSearch</a>
+
+Viel Spass beim Codieren!
+
+&nbsp;
+
+Für unsere App haben wir eine Datenbank von berühmten und grossartigen Wissenschaftlerinnen erstellt. Wenn du möchtest, kannst du unsere Daten kopieren oder deine eigene Datenbank erstellen!
+
+&nbsp;
+
+&nbsp;
+<table width="720">
+<tbody>
+<tr>
+<td width="171"><strong>Name (Tag)</strong></td>
+<td width="549"><strong>Beschreibung</strong></td>
+</tr>
+<tr>
+<td width="171">Ada Lovelace</td>
+<td width="549">Ada war eine englische Mathematikerin und Schriftstellerin, die im 19. Jahrhundert lebte und bekannt ist für ihre Arbeit an Charles Babbage's frühem mechanischem Allzweck-Computer, die Analytical Engine. Ada wird oft als die erste Programmiererin überhaupt angesehen, weil sie den ersten Algorithmus schrieb, der dazu gedacht war, von einer Maschine ausgeführt zu werden.</td>
+</tr>
+<tr>
+<td width="171">Marie Curie</td>
+<td width="549">Marie war eine Physikerin und Chemikerin, die 1867 in Warschau, Polen, geboren wurde. Mit ihrem Ehemann Pierre entdeckte sie zwei neue radioaktive Elemente. Marie gewann den Nobelpreis für Physik im Jahre 1903. Sie entdeckte auch, dass Radiumgas für die Krebsbehandlung verwendet werden könnte.</td>
+</tr>
+<tr>
+<td width="171">Alice Ball</td>
+<td width="549">Alice war eine Chemikerin, die 1892 in Seattle geboren wurde. Sie war die erste Afroamerikaner und die erste Frau, die an der Universität von Hawaii ein Studium absolvierte. Mit nur 23 Jahren entwickelte Alice ein Heilmittel für Lepra, die vor ihrer Arbeit wie eine hoffnungslose Krankheit schien.</td>
+</tr>
+<tr>
+<td width="171">Sau Lan Wu</td>
+<td width="549">Sau Lan ist eine Teilchenphysikerin, die in den frühen vierziger Jahren während der japanischen Besetzung von Hongkong geboren wurde. Sie promovierte in Harvard. Sie führte das Team, das Gluon entdeckte. Sie ist einer der bedeutendsten Teilchenphysiker auf ihrem Gebiet und hat viele wegweisende Entdeckungen gemacht.</td>
+</tr>
+<tr>
+<td width="171">Patricia Bath</td>
+<td width="549">Patricia ist eine Augenärztin und Erfinderin, die 1942 in Harlem, New York City geboren wurde. Sie beendete die High School in nur zweieinhalb Jahren und wusste, dass sie Ärztin werden wollte. Im Jahr 1985 beendet sie eine Erfindung, die grauen Star entfernt und die Sicht der Menschen auf der ganzen Welt wiederherstellt.</td>
+</tr>
+</tbody>
+</table>
+&nbsp;
+
+Gesamtplan
+
+Wir entschieden uns, diese Coding Challenge zu bewältigen, indem wir unsere Daten in einem TinyDB speichetern. Wir speicherten die Beschreibung der Wissenschaftlerinnen mit Tag-Namen ihres Namens. Danach machten wir zwei Listen, eine mit dem Namen der Person und eine mit der Beschreibung ihrer Arbeit. Der Benutzer wird den Text eingeben und die App sucht jedes Element in beiden Listen und ob es eine Übereinstimmung gibt. Wenn es eine Übereinstimmung gibt, wird der Name der Frau in einer Listenansicht angezeigt. Der Benutzer kann dann wählen, über welche Wissenschaftlerin sie mehr erfahren wollen und ein neues Fenster mit der Beschreibung ihrer Arbeit wird geöffnet. Für diese App mussten wir eine TinyDB verwenden, um die Daten zu speichern, damit wir sie auf separaten Fenstern verwenden konnten.
+
+&nbsp;
+
+Bildschirm entwerfen
+
+Wir wollen, dass ein Benutzer eine Datenbank durchsuchen kann, deshalb werden wir für den Benutzer ein Textfeld hinzufügen, wo dieser seine Suchanfrage eingeben kann, und einen Button, wo er einmal draufklicken kann, um zu suchen. Wir wissen, dass wir unsere Daten in einer Datenbank speichern werden, weshalb wir ein TinyDB auf den Bildschirm gezogen haben. Wir wissen auch, dass wir Listen verwenden werden, deshalb haben wir eine Listview auf dem Bildschirm hinzugefügt.
+
+Daten zur Datenbank hinzufügen
+
+Wir beschlossen, den Namen der Wissenschaftlerin als Tag und die Beschreibung ihrer Arbeit als Wert für die Datenbank hinzuzufügen. Wir kopierten und fügten die Informationen ein, die wir der Datenbank hinzufügen wollten:
+
+Du solltest deine Informationen in der Datenbank speichern, wenn dein Bildschirm initialisiert, es ist also das Erste, was deine App tut. Du musst eine Datenbank verwenden, um diese Informationen zu speichern, wenn du planst, sie auf anderen Fenstern zu verwenden.
+
+&nbsp;
+
+Listen von Variablennamen und Datenbankwerten erstellen
+
+Wir haben eine Liste erstellt, in der die Tag-Namen gespeichert werden sollen. Zuerst haben wir eine leere Liste mit dem Namen "TagNames" erstellt. Als nächstes haben wir Blöcke hinzugefügt, um jeden unserer Tag-Namen zu dieser Liste hinzuzufügen. Wir haben dafür gesorgt, dass die Tag-Namen, die der Liste hinzugefügt wurden, genau den Tag-Namen in der Datenbank entsprachen, einschließlich aller Großbuchstaben.
+
+Nachdem wir eine vollständige Liste mit allen unseren Tag-Namen erstellt haben, müssen wir eine neue Liste erstellen, die alle Werte in der Datenbank in der gleichen Reihenfolge wie die Tag-Namen enthält. Zuerst haben wir eine leere Liste mit dem Namen "databaseValues" erstellt, die alle Werte aus der Datenbank enthält. Als Nächstes fügten wir jeden Wert der Liste in der gleichen Reihenfolge wie den entsprechenden Tag hinzu, indem wir eine For-Schleife verwendeten. Für jedes Element in der Liste "TagNames" haben wir den Wert aus der Datenbank in die Liste "databaseValues" aufgenommen. Dann fügten wir diese For-Schleife zum Event Handler When Screen1.Initialize hinzu.
+
+Checkpoint
+
+An dieser Stelle solltest du all deine Daten in deiner Datenbank sowie eine Liste mit deinen Tag-Namen und eine mit deinen Datenbankwerten haben. Stell sicher, dass jede deiner Listen die gewünschten Werte enthält! Da deine App noch nichts macht, kannst du deine Arbeit überprüfen, indem du deine Listen in deiner ListView anzeigen lässt und sicherstellst, dass alles vorhanden ist. Füge diesen Block zu deinem Code unterhalb deiner For-Schleife in deinem Event Handler <em>When Screen1.Initialize </em>hinzu, um zu überprüfen, ob deine "TagNames" -Liste korrekt ist.
+
+Füge diesen Block zu deinem Code unterhalb der For-Schleife in deinem Event Handler <em>when Screen1.Initialize </em>hinzu, um zu überprüfen, ob deine "databaseValues"-Liste korrekt ist.
+
+Nachdem du sichergestellt hast, dass deine Listen korrekt sind, musst du diese Blöcke löschen!
+
+Suchschaltfläche programmieren
+
+Wir möchten, dass unser Benutzer in der Lage ist, unsere Datenbank zu durchsuchen, indem er Text in das Textfeld eingibt und die Schaltfläche "Suchen" drückt. Um dies zu tun, werden wir einen Event Handler zur Suchschaltfläche hinzufügen, der jedes Element in der "tagName" -Liste und der "databaseValues" -Liste nach Strings durchsucht, die mit dem, was der Benutzer in das Textfeld eingegeben hat, übereinstimmen. Wenn es eine Übereinstimmung gibt, fügen wir den Namen der Wissenschaftlerin zur Listenansicht hinzu. So haben wir es gemacht.
+
+&nbsp;
+
+Zuerst haben wir eine Variable namens "searchResults" erstellt und als leere Liste gesetzt:
+
+Als Nächstes haben wir dem Suchknopf einen Event Handler hinzugefügt. Innerhalb dessen haben wir einen Block hinzugefügt, um die Suchergebnisse zurück auf eine leere Liste zu setzen. Denn jedes Mal, wenn der Nutzer auf "Suche" drückt, möchten wir alle Elemente löschen, die während der letzten Suche zu "searchResults" hinzugefügt wurden.
+
+Als nächstes richten wir eine For-Schleife ein, die jedes Element in der "tagName"-Liste und in der "databaseValue"-Liste durchsucht. Wir haben die <em>For each item in list-Schleife</em> nicht benutzt, weil wir Zählvariablen in der For-Schleife verwenden wollten. Wir begannen die For-Schleife bei 1 und beendeten sie bei der Anzahl Elemente in der Liste. Wir haben den Namen der Variablen auf Index geändert.
+
+Hier ist der Block, mit dem wir den Text, nach dem der Benutzer im Textfeld gesucht hat, mit den Elementen in "TagNames" verglichen haben. Die "Index"-Variable erhöht sich jedes Mal um 1, wenn die Schleife wiederholt wird, sodass sie schließlich den Text im Textfeld mit jedem Element der "TagNames "-Liste vergleicht. Wir entschieden uns, alles klein zu schreiben, um zu verhindern, dass die Suche nicht zwischen Gross-/ Kleinschreibung unterscheidet. Der Block "contains text" wird wahr, wenn das <em>piece</em> im <em>text</em> erscheint.
+
+Um die Suche des Benutzers mit "databaseValues" zu vergleichen, haben wir die gleichen Blöcke verwendet, mit Ausnahme der Änderung des Listennamens.
+
+Wir wollen dem Benutzer die Wissenschaftlerin zeigen, deren Name oder Beschreibung mit der Suche des Nutzers übereinstimmt. Dazu werden diese beiden letzten Blöcke mit einer bedingten und einer logischen OR-Operation verwendet.
+
+Hier siehst du, wie unser Code mit der gefüllten OR-Operation aussieht.
+
+Wir wollen, dass unser Code den Namen der Wissenschaftlerin zur "searchResults"-Liste hinzufügt, wenn ihr Name oder ihre Beschreibung mit den Suchbegriffen des Benutzers übereinstimmt. Dazu haben wir den Namen aus tagNames mit der Variablen-Schleife "index" hinzugefügt, wenn es eine Übereinstimmung gab. Wir haben kein else zu unserer bedingten Anweisung hinzugefügt, denn wenn der Name oder die Beschreibung nicht übereinstimmen, möchten wir, dass unser Code nichts macht. Wir haben dann die Elemente in der "searchResults"-Liste zu ListView hinzugefügt. Da dieser Block außerhalb der For-Schleife ist, aktualisiert unser Code die ListView nur, nachdem die For-Schleife beendet ist.
+
+Checkpoint
+
+Du hast nun eine Menge Code geschrieben! Überprüfe deinen Code, um sicherzustellen, dass du nach etwas suchen kannst. Suche nach einem Namen wie "Alice" oder einem Beruf wie "Chemiker".
+
+<em>
+Bonus:</em>
+
+Suchergebnisse auf einem neuen Bildschirm anzeigen
+
+Wir entschieden, dass unsere App besser wäre, wenn der Benutzer die Wissenschaftlerin anwählen könnte, die in den Suchergebnissen erscheint, um mehr über sie zu erfahren. Dazu öffneten wir ein neues Fenster mit einem startValue der Auswahl des Benutzers, wenn er etwas aus der Liste ausgewählt hat. Denk daran, die einzigen zwei Möglichkeiten, um Daten zwischen Fenstern zu verschieben, sind die Nutzung einer Datenbank oder eines startValue-Blocks!
+
+Wir haben unser zweites Fenster mit zwei Labels gestaltet. Eine, um den Namen der Wissenschaftlerin anzuzeigen und einen, um ihre Beschreibung anzuzeigen. Wir haben auch einen Zurück-Button hinzugefügt, um zu Screen1 zurückkehren zu können. Vergiss nicht, dass du auch einen TinyDB zu diesem Fenster hinzufügen musst!
+
+Da der Start Value der Name der Wissenschaftlerin ist, zeigten wir den Start Value in Label1 an und verwendeten ihn auch, um die Beschreibung der Wissenschaftlerin aus der Datenbank abzurufen und in Label2 anzuzeigen. Du findest den <em>get start value</em>-Block in der <em>control</em>-Kategorie.
+
+Vergiss nicht, deinen Zurück-Button zu programmieren, um dich zum ersten Fenster zurückzubringen!
+
+Checkpoint
+
+Stell sicher, dass alles in deiner App funktioniert! Bringt die Auswahl eines Elements in der ListView dich zu Screen2 und zeigt den Tag-Namen und Datenbankwert an?
+
+&nbsp;
+
+Kommst du immer noch nicht weiter?
+
+Lade unseren Quellcode herunter: <a href="https://drive.google.com/file/d/0B9HV58UviqU_YXU1eTBKMDN1ZVE/view?usp=sharing">https://drive.google.com/file/d/0B9HV58UviqU_YXU1eTBKMDN1ZVE/view?usp=sharing</a>
+
+&nbsp;
+
+&nbsp;
