@@ -1,0 +1,185 @@
+<ul>
+ 	<li><a href="#ux">Design and Nutzerfreundlichkeit</a></li>
+ 	<li><a href="#act1">Aufgabe: Problemstellung und Ziele</a></li>
+ 	<li><a href="#act2">Finde deine Stakeholder</a></li>
+ 	<li><a href="#act3">Stakeholder Interviews and Stories</a></li>
+ 	<li><a href="#what">Was ist ein Papier Prototyp?</a></li>
+ 	<li><a href="#challenge">Code Herausforderung</a></li>
+ 	<li><a href="#reflect">Reflexion</a></li>
+</ul>
+<h3><b>Lernziele:</b></h3>
+<span style="font-weight: 400;">In dieser Einheit wirst du...</span>
+<ul>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">etwas über die Nutzererfahrung, auch user experience (UX) design genannt, und das minimal anwendungsfähige Produkt (minimum viable product oder MVP) lernen</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">die Ziele deiner App festlegen</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Informationen über die Bedürfnisse deiner Nutzer sammeln</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Einen Papier Prototypen kreieren und Feedback dafür erhalten</span></li>
+</ul>
+<span style="font-weight: 400;">Du hast schon viel über App Inventor gelernt und inzwischen hat dein Team auch bereits eine Idee welches Problem ihr gemeinsam lösen wollt und erste Lösungsvorschläge. Vielleicht fragst du dich, wie du diese Ideen in einer verlässlich arbeitenden App, die auch macht was der Nutzer will, verwirklichen kannst. Um eine nutzbare App zu entwickeln benötigst du mehr als nur Programmierkenntnisse. Tatsächlich wird die eigentliche Programmierarbeit nur circa 20% deiner Zeit in Anspruch nehmen!</span>
+
+<span style="font-weight: 400;">Stell dir vor eine Freundin bittet dich eine App zu entwickeln, die ihr hilft jeden Morgen rechtzeitig zur Schule zu kommen. Du entwickelst eine App die GPS Daten nutzt um ihren Weg zur Schule nachzuvollziehen und sie zu warnen, wenn sie zu spät kommen wird. Sobald du ihr jedoch die App zum ersten Mal zeigst stellt sich heraus, dass sie immer den Bus nimmt um zur Schule zu kommen. Was sie wirklich benötigt ist eine App, die ihr die Abfahrtszeiten der Busse in Echtzeit anzeigt. Du hast mehrere Stunden deiner Zeit umsonst an einer App gearbeitet, weil du ihre Bedürfnisse nicht richtig verstanden hattest und musst nun mehr Zeit in die Überarbeitungen investieren!</span>
+
+<span style="font-weight: 400;">Was würdest du das nächste Mal anders machen, damit so etwas nicht noch mal passiert?</span>
+<h3><b>Was sind UX Design und Benutzerfreundlichkeit?</b></h3>
+<b>UX Design</b><span style="font-weight: 400;"> (Abkürzung für </span><b>user experience</b><span style="font-weight: 400;"> oder </span><b>Benutzererfahrung</b><span style="font-weight: 400;">) hilft Leuten dabei Technologien zu entwickeln die einfach und intuitiv zu bedienen sind. Es hat etwas mit der gefühlten Qualität eines Erlebnisses zu tun, die ein Nutzer hat, wenn er ein System oder eine Technologie verwendet. Du kannst es dir so vorstellen, dass eine Verbesserung der ‘user experience’ bedeutet, dass der Nutzer keine Probleme bei der Nutzung der Technologie hat und diese auch weiterhin verwenden wird, weil sie alle seine Wünsche erfüllt.</span>
+
+<span style="font-weight: 400;">Während du daran arbeitest eine App zu designen die bei der Lösung eines Problems helfen soll, möchtest du natürlich etwas entwickeln das einfach zu bedienen ist, die Aufgabe erfüllt und den Nutzer glücklich macht. Du willst deine App </span><i><span style="font-weight: 400;">nutzbar</span></i><span style="font-weight: 400;"> machen. Aber wie genau macht man eine App nutzbar?</span>
+
+<span style="font-weight: 400;">Nutzbarkeit ist das Maß indem ein System, ein Produkt oder ein Service bestimmte Ziele effektiv, effizient und zufriedenstellend in einem gewissen Nutzungskontext erfüllt.</span>
+
+<span style="font-weight: 400;">Wenn du eine App entwickelst geht es nicht nur darum was deiner Meinung nach gut aussehen oder was dir gefallen würde, denn du die App nutzt. Es geht um den Kontext. Denke auch an die Leute, die später deine App benutzen werden und ihre Bedürfnisse. Werden Leute sie einmal im Jahr, jede Woche oder sogar täglich nutzen?</span>
+
+<span style="font-weight: 400;">Wo werden Leute deine App nutzen? Wir sind daran gewöhnt uns vorzustellen, dass Leute Anwendungen nutzen, wenn sie an ihrem Tisch sitzen. Welche sind deine liebsten Apps und was kannst du mit ihnen machen? Wo und wie verwendest du sie? Können sie viele Sachen oder ein paar besonders gut? Um deinem Team einige Stunden an unnötiger Arbeit zu sparen, solltest du dich für eine App mit minimalen Anwendungsmöglichkeiten entscheiden. Diese werden auch </span><b>Minimum Viable Product </b><span style="font-weight: 400;">(MVP) oder </span><b>minimal anwendungsfähiges Produkt</b><span style="font-weight: 400;"> genannt.</span>
+<h5>Minimal anwendungsfähiges Produkt
+Minimum Viable Product (MVP)</h5>
+<span style="font-weight: 400;">In der Welt der </span><a href="https://en.wikipedia.org/wiki/New_product_development"><span style="font-weight: 400;">Produktentwicklung</span></a><a href="https://en.wikipedia.org/wiki/New_product_development" target="_blank" rel="noopener"><span style="font-weight: 400;"> </span></a> <span style="font-weight: 400;">ist ein </span><b>MVP</b><span style="font-weight: 400;"> ein Produkt, dass gerade genug Funktionen hat um seine Aufgabe zu erfüllen und von Nutzern getestet werden kann, so dass später Verbesserungen eingebaut werden können. Das Ziel ist es, dass bestmöglichste Endprodukt zu entwickeln. Generell gilt, dass Produkte mit mehr Funktionen mehr Kosten und ein höheres Risiko zum Scheitern beinhalten. Dies kann geschehen, weil falsche Annahmen über die Nutzer gemacht wurden.</span>
+
+<span style="font-weight: 400;">Es ist besonders wichtig darüber nachzudenken wo die App verwendet wird und was gut auf einem kleinen Bildschirm, wie dem eines Handys, darstellbar und bedienbar ist. Du würdest nicht wollen, dass jemand aufhört deine App zu verwenden, weil sie zu schwer zu verstehen ist. Wie kannst du also mehr über deine Nutzer lernen um dies zu verhindern?</span>
+<h5>Benutzerorientiertes Design (User Centered Design)</h5>
+<span style="font-weight: 400;">Bei einem </span><b>Benutzerorientiertem Design</b><span style="font-weight: 400;"> behältst du den Nutzer stets im Hinterkopf während du recherchierst, designst, entwickelst und testest. Dies ist ein iterativer Prozess, dass bedeutet du wirst eine Reihe von Handlungen solange wiederholen bis du nah an deinem Ziel bist. Diese Schritte sind in dem Prozess enthalten</span>:
+<p style="text-align: center;"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/research.png" alt="research" width="50" height="50" />
+<span style="font-weight: 400;">Analyse und Recherche</span></p>
+<p style="text-align: center;"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/Design.png" alt="design" width="50" height="50" />
+Design</p>
+<p style="text-align: center;"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/Test.png" alt="test" width="50" height="50" />
+Test</p>
+<p style="text-align: left;"><span style="font-weight: 400;">Diese Schritte wiederholen sich bis dein Produkt bereit ist zur Entwicklung!</span></p>
+<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/Circular-Flow700x270.png" alt="circular-flow700x270" width="166" height="166" />
+
+<span style="font-weight: 400;">Das wichtigste, dass du zu Beginn machen solltest, ist das Ziel deiner App festzulegen. Dieser Teil deines Projektes wird auch als </span><i><span style="font-weight: 400;">Analyse</span></i><span style="font-weight: 400;"> bezeichnet, weil du wissen musst was deine App können muss und es kann manchmal etwas schwierig sein die Details festzulegen.</span>
+<h3>Aufgabe 1: Überprüfe deine Problemstellung und lege Ziele fest</h3>
+<span style="font-weight: 400;">Erinnerst du dich an die Problemstellung an der dein Team in der</span> <a href="http://www.iridescent.staging.wpengine.com/curriculum/ideation" target="_blank" rel="noopener">Ideen Einheit</a>
+
+<span style="font-weight: 400;">gearbeitet hat? Es ist gut diese noch einmal zu besuchen und wahrscheinlich wirst du auch später noch einmal darauf zurückkommen wollen, so dass dein Team seine ursprünglichen Ziele nicht aus den Augen verliert. Dies ist ein wichtiger Teil des Prozesses, da es dir dabei helfen wird die Bedürfnisse der Nutzer deiner App zu analysieren und die technischen Voraussetzungen für deine App festzulegen.</span>
+
+<span style="font-weight: 400;">Kurzgefasst, die </span><b>Problemstellung</b><span style="font-weight: 400;"> ist eine kurze schriftliche Beschreibung des Problems an dem dein Team arbeiten will. Es sollte die Grundlagen des Problems, eine Erklärung warum das Problem wichtig ist, wen es wie betrifft und einen Lösungsvorschlag enthalten.</span>
+
+<span style="font-weight: 400;">Das benötigst du:</span>
+<ul>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Deine anfängliche Problemstellung. Hier ist eine</span> <a href="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/CreateaProblemStatement.pdf">Vorlage</a> <span style="font-weight: 400;">um deine Problemstellung schriftlich festzuhalten, wenn dein Team dies noch nicht in der Ideen Vorbereitungseinheit getan hat</span></li>
+</ul>
+<span style="font-weight: 400;">So geht's:</span>
+<ol>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Überprüft eure Problemstellung oder entwickelt eine, wenn ihr dies noch nicht getan habt. Dies Problemstellung sollte die folgenden vier Fragen beantworten:</span></li>
+</ol>
+<ul>
+ 	<li style="list-style-type: none;">
+<ul>
+ 	<li style="font-weight: 400;"><b>Was ist die Lösung?</b><span style="font-weight: 400;"> Du hast vielleicht schon eine erste Lösungsidee. Während du in dieser Einheit deine Nutzer kennen lernst und einen Papier Prototypen entwickelst kannst du mit deiner Lösungsidee noch weitere experimentieren!</span></li>
+ 	<li style="font-weight: 400;"><b>Was ist das Problem?</b><span style="font-weight: 400;"> Für das Design bedeutet dies auch: Was wird benötigt</span></li>
+ 	<li style="font-weight: 400;"><b>Wen betrifft das Problem und wie betrifft es sie? </b><span style="font-weight: 400;">Dies ist wichtig, weil die Leute die deine App verwenden werden, von dem Problem betroffen sind. Sie sind deine Stakeholder (Interessenten)</span></li>
+ 	<li style="font-weight: 400;"><b>Warum ist es wichtig das Problem zu lösen? </b><span style="font-weight: 400;">Warum ist es zwingend nötig dieses Problem zu lösen und hast du irgendwelche Beweise für deine Argumente?</span></li>
+</ul>
+</li>
+</ul>
+<ol start="2">
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Bist du in der Lage dein Problem in einem einzigen Satz ausdrücken, der beinhaltet welches Problem du auf welcher Weise mit deiner App lösen willst? Dies kann dir dabei helfen, näher an dein Ziel zu kommen.</span></li>
+</ol>
+<p style="text-align: center;"><a role="button" href="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/CreateaProblemStatement.pdf " target="_blank" rel="noopener">Downloade die Vorlage
+</a></p>
+
+<h5>Recherche</h5>
+<span style="font-weight: 400;">Nachdem du dein Ziel definiert hast ist es an der Zeit deine </span><b>Stakeholder</b><span style="font-weight: 400;">, also Menschen die deine App verwenden oder von ihr beeinflusst würden, zu finden. Du musst mit genau diesen Leuten reden und mehr darüber herausfinden, was sie von deiner App erwarten. Ihr denkt vielleicht du und dein Team seid typische Nutzer eurer App, dennoch solltet ihr zusätzlich mit anderen Leuten sprechen. Interviewt sie, lasst euch Feedback geben und beobachtet sie bei der Benutzung eurer App in ihrem Alltag, wenn möglich.</span>
+
+<span style="font-weight: 400;">Stellt euch einmal vor, dass ihr eine App entwickelt die es Schülern erlaubt Essen aus der Schulcafeteria vorzubestellen. Sie können die App nutzen um morgens bereits Essen zu bestellen und dieses zur Mittagszeit abzuholen. Die Idee dahinter ist, dass die Wartezeiten in der Cafeteria verkürzt werden sollen. Was glaubst du, wer wird deine App in dieser Situation nutzen?</span>
+
+<span style="font-weight: 400;">Die potentiellen Stakeholder wären in dieser Situation:</span>
+<ul>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Schüler (die die App auf ihrem Handy nutzen)</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Cafeteria Personal (die die Bestellungen über die App erhalten)</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Eltern (die ihren Kindern ein Smartphone kaufen müssten, so dass sie die App verwenden können)</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Schul-Administratoren (die vielleicht der Ansicht sind, dass Handys nichts in der Schule zu suchen haben)</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Schul IT (die den Schülern helfen müssten, die die App nicht bedienen können oder die sich nicht mit dem Netzwerk verbinden können)</span></li>
+</ul>
+<h3>Aufgabe 2: Finde deine Stakeholder</h3>
+<span style="font-weight: 400;">Was du brauchst:</span>
+<ul>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Post-Its</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Stifts</span></li>
+</ul>
+<span style="font-weight: 400;">So geht's:</span>
+<ol>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Überlegt euch alle möglichen Stakeholder für euer Projekt - einen pro Post-It</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Sortiert die Stakeholder in Gruppen, z. B. “Eltern”, “Schüler”, “Schulpersonal”</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Entscheide auf welche Stakeholder ihr euch fokussieren wollt bei eurer App</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Sammelt Fragen die ihr ihnen stellen wollt</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Plant Interviews mit den Stakeholdern - ihr könnt Zeit sparen indem jeder aus eurem Team eine andere Person zur gleichen Zeit interviewt, ihr könnt die Interviews natürlich auch gemeinsam machen, wenn ihr euch dabei wohler fühlt.</span></li>
+</ol>
+<span style="font-weight: 400;">Sobald ihr euer Ziel festgelegt und die Stakeholder, die ihr interviewen wollt, gefunden habt seid ihr bereit mehr darüber zu lernen, was sie denken.</span>
+<h3>Aufgabe 3: Interviewe deine Stakeholder und sammle Charaktere und Nutzerstories</h3>
+<span style="font-weight: 400;">Um herauszufinden, was Stakeholders von deiner App erwarten, musst du sie interviewen. Du kannst ihnen unterschiedliche Fragen stellen um die Funktionen, die deine App benötigt, herauszufinden. </span><b>Funktionsanforderungen</b><span style="font-weight: 400;"> sind Dinge, die deine App können muss. Wenn du an unser letztes Beispiel denkst, muss die App den Schülern erlauben Essen auszuwählen. Anschließend muss die Bestellung und der Name des Schülers an die Cafeteria geschickt werden, so dass die Bestellung mittags schnell gefunden werden kann.</span>
+
+<span style="font-weight: 400;">Interviewe eine Reihe von Leuten, die an deiner App interessiert sind und somit potentielle Stakeholder sind, um mehr über das Problem und ihre Lösungsvorschläge zu erfahren. Wenn es bereits Apps gibt die dabei helfen könnten das Problem an dem dein Team arbeitet zu lösen, kannst du deren Nutzer auch fragen, was ihnen an der App gefällt und was nicht. Dies ist eine gute Vorbereitung auf das, was du später in</span> <a href="http://www.iridescent.staging.wpengine.com/curriculum/market-3/" target="_blank" rel="noopener">Market 3 </a>tun wirst.
+
+<span style="font-weight: 400;">Du brauchst:</span>
+<ul>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Eine Liste der Fragen, die du für die Stakeholder entwickelt hast</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Ausdrucke der</span>  <a href="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/Persona-Template.pdf" target="_blank" rel="noopener">Persona Vorlage</a></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Ausdrucke der <a href="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/User-Story-Template.pdf">Benutzer Story Vorlage</a></span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Papier</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Etwas zum Schreiben</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Diktiergerät oder App mit der du das Interview aufnehmen kannst</span></li>
+</ul>
+<span style="font-weight: 400;">So geht's:</span>
+<ol>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Stelle dich selber vor und erläutere deinem Interviewpartner kurz, worum dein Projekt sich dreht. Warum bist du an seinem Feedback interessiert?</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Stelle alle Fragen, die dein Team vorbereitet hat.</span></li>
+ 	<li style="font-weight: 400;">Nutze die <a href="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/Persona-Template.pdf" target="_blank" rel="noopener">Persona Vorlage</a> <span style="font-weight: 400;">von dem Goldman Sachs Web UI Toolkit um mehr Informationen zu sammeln. Die Persona ist eine Beschreibung der Person (real oder fiktiv) die die App nutzen wird. Eine Persona hilft dir dabei an einen bestimmten Nutzertyp zu denken, wenn du deine App designst, anstatt an alle möglichen Nutzer. Erstelle so viele Personas wie du brauchst um alle Arten von Leuten, die deine App verwenden werden, abzudecken. Denk daran sie zu fragen was ihre Ziele für deine App wären, was ihre persönlichen Bedürfnisse sind und was ihre Problempunkte sind.  </span><b>Problempunkte</b><span style="font-weight: 400;"> sind Probleme, real oder eingebildet, mit denen Menschen kämpfen. Deine App sollte unbedingt versuchen Lösungen für diese Probleme zu liefern.</span></li>
+ 	<li style="font-weight: 400;">Nutza die <a href="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/User-Story-Template.pdf" target="_blank" rel="noopener">Benutzer Story Vorlage </a><span style="font-weight: 400;">von dem Goldman Sachs Web UI Toolkit um besser herausfinden zu können, welche Funktionen die Nutzer von deiner App erwarten und warum.</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Haltet ein Teamtreffen ab und teilt eure neuen Eindrücke aus den Interviews, die erstellten Personas und Geschichten.</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Wenn ihr das Gefühl habt, dass es noch weitere Stakeholder gibt die ihr interviewen solltet um weitere Informationen zu sammeln, tut dies bevor ihr mit dem nächsten Schritt, dem Design, weitermacht! Als nächstes werdet ihr einen Papier Prototypen designen, dies mach sehr viel Spaß und ist eine besonders kreative Arbeit.</span></li>
+</ol>
+<h3>Was ist ein Papier Prototyp?</h3>
+<span style="font-weight: 400;">Die</span><b> Prototypenentwicklung</b><span style="font-weight: 400;"> ist eine Art Ideen und Konzepte darzustellen, so dass man diese anderen Leuten so früh wie möglich vorstellen kann.</span>
+
+<span style="font-weight: 400;">Es gibt verschiedene Arten von</span> <a href="https://en.wikipedia.org/wiki/Prototype" target="_blank" rel="noopener">Prototypen</a>, <span style="font-weight: 400;">wir werden uns in dieser Einheit jedoch auf Papier Prototypen fokussieren. Ein </span><b>Papier Prototyp</b><span style="font-weight: 400;"> ist eine selbst gemalte Darstellung der Benutzeroberfläche die normalerweise wie ein Bildschirmfoto aussieht. Sie kann helfen jeden Schritt, den der Nutzer beim Verwenden der App macht, darzustellen.</span>
+
+<center><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/image01.png" /></center><span style="font-weight: 400;">Was sind die Vorteile eines Papier Prototyps?</span>
+<ul>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Du kannst deine Ideen schnell visuell darstellen und jemandem zeigen. Du kannst zum Beispiel zeigen was passiert, wenn man auf Knöpfe in deiner App drückt</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Es ist eine Teamarbeit! Wenn du mit Papier arbeitest kannst du viel experimentieren und so neue Ideen entwickeln</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Es ist günstig! Du musst nicht viel Geld ausgeben um einen Prototypen aus Papier herzustellen. Du kannst ganz einfach Papier, alte Magazine, Post-Its, Stifte, Aufkleber, Klebeband und Kleber nutzen</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Du musst kein Technikexperte sein um diesen Teil des Entwicklungsprozesses zu bearbeiten</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Du kannst beobachten wie Menschen auf deine App-Oberfläche reagieren und wirst schnell lernen, welches Design funktioniert und welches nicht</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Prototypen können dir dabei helfen Designentscheidungen zu bestätigen oder zu verwerfen bevor du zu viel Zeit mit ihrer technischen Verwirklichung verbringst</span></li>
+</ul>
+<span style="font-weight: 400;">Denk immer daran, dass das Design deiner App womöglich später noch an die Bedürfnisse der Nutzer angepasst werden muss, nachdem du es einem Testlauf unterzogen und erstes Feedback erhalten hast. Das ist in Ordnung, du willst früher oder später eh wissen ob das Design den Wünschen der Nutzer entspricht. Einige von euch haben vielleicht Angst eure Ideen zu testen, weil sie negatives Feedback erhalten könnten und das als Misserfolg ansehen.</span>
+
+<span style="color: #6e466b; font-family: Eagle; font-size: 1.5rem;">Die Bedeutung von Misserfolgen</span>
+
+<span style="font-weight: 400;">Denk dran - Misserfolge sind Teil des Prozesses und du kannst viel aus ihnen lernen. Finde heraus was Richard DeVaul über Misserfolge zu berichten hat in diesem kurzen</span> <a href="https://www.youtube.com/watch?v=5oKmb7U3H6U" target="_blank" rel="noopener">Video</a>. <span style="font-weight: 400;">Er ist der Leiter des Rapid Evaluation Teams für Google’s super geheimes Labor 'Design Kitchen'. Du kannst in diesem </span><a href="https://www.fastcompany.com/3028156/united-states-of-innovation/the-google-x-factor" target="_blank" rel="noopener">Artikel </a><span style="font-weight: 400;">noch mehr darüber lernen warum Misserfolge und die Ablehnung von Ideen ein Teil des Fortschrittes sind.</span>
+
+<center>
+<iframe src="https://www.youtube.com/embed/5oKmb7U3H6U" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></center>
+<span style="font-weight: 400;">Bist du schon inspiriert? Das hoffen wir doch! Nun bist du bereit mit dem nächsten Schritt des Designs weiter zu machen!</span>
+<h3>Code Herausforderung: Papier Prototyp deiner App</h3>
+<span style="font-weight: 400;">Mit jedem Produkt muss man irgendwo beginnen! Das Skizzieren ist ein grundlegender Teil des Designprozesses und kann dir dabei helfen wichtige Entscheidungen über das Design zu treffen. Schon das Zeichnen mit einem Stift auf Papier kann dir dabei helfen an deinen Ideen zu arbeiten. Du kannst die grundlegende Struktur deiner App darstellen und dir anschauen, wie Leute mit deiner App umgehen. Du kannst ebenfalls verschiedene Farben und Positionen für Knöpfe ausprobieren. Wenn du jetzt deine Ideen auf Papier ausprobierst kannst du später, bei der Übertragung deiner Ideen auf den digitalen Prototypen, viel Zeit sparen.</span>
+
+<span style="font-weight: 400;">Bevor du beginnst kannst du in diesem Video mit Melissa Powel und Mariam Shaikh von Google noch mehr über Papier Prototypen, Nutzererlebnissen und Farbtheorie lernen.</span>
+
+<center><iframe src="https://www.youtube.com/embed/JMjozqJS44M" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></center><span style="font-weight: 400;">Bereit? Hier findest du die Anleitung für die Herausforderung:</span>
+<p style="text-align: center;"><a role="button" href="http://www.iridescent.staging.wpengine.com/curriculum/code-5-challenge/" target="_blank" rel="noopener">Schau dir die Anleitung an
+</a></p>
+
+<blockquote>
+<p style="text-align: center;">“My best successes came on the heels of failures.”</p>
+</blockquote>
+<p align="right">–Barbara Corcoran, <span style="font-weight: 400;"> Unternehmerin, Investorin und Autorin</span></p>
+
+<h1>Reflexion</h1>
+<span style="font-weight: 400;">Du bist bereits sehr weit gekommen und verdienst definitiv Glückwünsche! Du hast diese Einheit bereits fast geschafft.</span>
+
+<span style="font-weight: 400;">Während du das Feedback deiner Nutzer noch im Kopf hast ist es Zeit für die erste Iteration! Analysiere das Feedback mit deinem Team und passe, wenn nötig, deinen Prototypen an und wiederhole den Prozess!</span>
+
+<span style="font-weight: 400;">Es ist für dein Team natürlich verlockend direkt weiter zu machen und aus deinem Papier Prototypen einen digitalen Prototyp zu entwickeln. Aber fragt euch selber noch einmal, bevor ihr mit dem nächsten Schritt weitermacht, ob ihr wirklich ein </span><b>minimal anwendungsfähiges Produkt</b><span style="font-weight: 400;"> designt habt? Auf welche der App-Funktionen könnt ihr auf keinen Fall verzichten und welche wären nur nett zu haben?</span>
+
+<span style="font-weight: 400;">Eine weitere Iteration des Papier Prototyps mit eurem Mentor und Freunden schadet nie!</span>
+
+<b>Weitere Quellen</b>
+<ul>
+ 	<li style="font-weight: 400;"><a href="https://www.youtube.com/watch?v=876EQd5Osi8" target="_blank" rel="noopener">UX design: 2016 Technovation webinar with Debra Herschmann</a> Global Head of User Experience in Client Platforms at Goldman Sachs</li>
+ 	<li style="font-weight: 400;"><a href="http://www.uistencils.com/products/android-stencil-kit" target="_blank" rel="noopener">Android Stencil Kit</a></li>
+ 	<li style="font-weight: 400;"><a href="http://wireframesketcher.com/sample-mockups.html" target="_blank" rel="noopener">WireframeSketcher</a></li>
+ 	<li style="font-weight: 400;"><a href="https://developers.google.com/design-sprint/downloads/DesignSprintMethods.pdf" target="_blank" rel="noopener">Design Sprint Methods</a> by Google</li>
+ 	<li style="font-weight: 400;">Luke Wroblewski’s <a href="http://www.creativebloq.com/design/luke-wroblewski-mobile-first-7126204" target="_blank" rel="noopener">Think Mobile First</a> Philosophy</li>
+</ul>
