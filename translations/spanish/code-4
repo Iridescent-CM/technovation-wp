@@ -1,0 +1,309 @@
+<h1><b>Programación 4</b></h1>
+<em><span style="font-weight: 400;">Nota: enlaces con * son recursos en inglés</span></em>
+<h2>Usando Funciones Móviles y Conectándote a la Web</h2>
+<ul>
+ 	<li style="font-weight: 400;"><a href="#mobile"><span style="font-weight: 400;">Componentes móviles</span></a></li>
+ 	<li style="font-weight: 400;"><a href="#ui"><span style="font-weight: 400;">Componentes de la interfaz de usuario</span></a></li>
+ 	<li style="font-weight: 400;"><a href="#media"><span style="font-weight: 400;">Componentes de medios</span></a></li>
+ 	<li style="font-weight: 400;"><a href="#sensors"><span style="font-weight: 400;">Sensores</span></a></li>
+ 	<li style="font-weight: 400;"><a href="#social"><span style="font-weight: 400;">Componentes sociales</span></a></li>
+ 	<li style="font-weight: 400;"><a href="#conectivity"><span style="font-weight: 400;">Componentes de conectividad</span></a></li>
+ 	<li style="font-weight: 400;"><a href="#web"><span style="font-weight: 400;">Base de datos web</span></a></li>
+ 	<li style="font-weight: 400;"><a href="#tinyweb"><span style="font-weight: 400;">TinyWebDB</span></a></li>
+ 	<li style="font-weight: 400;"><a href="#fusion"><span style="font-weight: 400;">Fusion Tables</span></a></li>
+ 	<li style="font-weight: 400;"><a href="#api"><span style="font-weight: 400;">API</span></a></li>
+ 	<li style="font-weight: 400;"><a href="#challenge"><span style="font-weight: 400;">Código de desafío</span></a></li>
+ 	<li style="font-weight: 400;"><a href="#reflection"><span style="font-weight: 400;">Reflexión</span></a></li>
+</ul>
+<h3>Objetivos de aprendizaje:</h3>
+<span style="font-weight: 400;">En esta unidad, aprenderás sobre ...</span>
+<ul>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Componentes de la interfaz de usuario</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Componentes de medios</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Sensores</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Componentes sociales</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Bases de datos web</span></li>
+</ul>
+<h3>Componentes móviles</h3>
+<span style="font-weight: 400;">¡Felicidades por haber llegado a la cuarta unidad de programación! Hasta ahora has estado explorando formas de hablar con tu teléfono y crear aplicaciones. En esta unidad, aprenderás sobre algunas de las funciones móviles que tiene tu teléfono que puedes aprovechar y cómo conectarte a otros lugares en la web.</span>
+
+<span style="font-weight: 400;">Usa esta unidad como referencia para conocer las capacidades que tu aplicación puede ofrecer. No necesitas probar todos los componentes enumerados, pero debes experimentar con los que tengan más sentido incluir en tu aplicación.</span>
+
+<span style="font-weight: 400;">Como referencia, aquí está la </span><a href="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Judging-Rubric-2017.pdf"><b>Rúbrica de Evaluación de Technovation 2017</b></a><span style="font-weight: 400;"> y la </span><a href="http://www.technovationchallenge.org/wp-content/uploads/2017/01/Technical-Checklist-2017.pdf"><b>Lista de Verificación Técnica</b></a><span style="font-weight: 400;">. </span>
+<h3>Componentes de la interfaz de usuario</h3>
+<span style="font-weight: 400;">Estas son funciones que se pueden incluir en su aplicación con las que un usuario puede interactuar. Visite el </span><a href="http://ai2.appinventor.mit.edu/reference/components/userinterface.html"><span style="font-weight: 400;">sitio web de MIT</span></a><span style="font-weight: 400;"> para obtener más información.</span>
+<h5><b>Notificador</b></h5>
+<span style="font-weight: 400;">Este componente puede enviar al usuario un mensaje o una alerta. El usuario puede presionar un botón para deshacerse del diálogo o el cuadro de diálogo puede desaparecer después de unos segundos. El notificador es bueno para enviar información al usuario y también es muy útil para la depuración, que aprenderá en el </span><b>Código 6</b><span style="font-weight: 400;">. Aquí hay un </span><a href="https://www.youtube.com/watch?v=4KdTuWJFCpM"><span style="font-weight: 400;">tutorial</span></a><span style="font-weight: 400;">.</span>
+<h5><b>Canvas</b></h5>
+<span style="font-weight: 400;">Este componente permite a los usuarios usar sprites, dibujar, mover imágenes. ¡Esto puede ser muy útil si estás construyendo un juego! Aquí hay algunos tutoriales:</span>
+<ul>
+ 	<li style="font-weight: 400;"><a href="https://www.youtube.com/watch?v=DNbZAzMEkvs"><span style="font-weight: 400;">Paintpot 1*</span></a></li>
+ 	<li style="font-weight: 400;"><a href="https://www.youtube.com/watch?v=DNbZAzMEkvs"><span style="font-weight: 400;">Paintpot 2*</span></a></li>
+ 	<li style="font-weight: 400;"><a href="https://www.youtube.com/watch?v=gpMPOSNWc_o"><span style="font-weight: 400;">Paintpot 3*</span></a></li>
+ 	<li style="font-weight: 400;"><a href="https://www.youtube.com/watch?v=jw4QxAvOm6A"><span style="font-weight: 400;">Paintpot 4*</span></a></li>
+ 	<li style="font-weight: 400;"><a href="https://www.youtube.com/watch?v=w0yxJSlC00w"><span style="font-weight: 400;">Ball MIT Tutorial*</span></a></li>
+ 	<li style="font-weight: 400;"><a href="https://www.youtube.com/watch?v=fQKNzLYEN0M"><span style="font-weight: 400;">MIT digital doodle</span></a><span style="font-weight: 400;">*</span></li>
+</ul>
+<h5><b>WebView</b></h5>
+<span style="font-weight: 400;">Este componente te permite incrustar un navegador web en la aplicación. Usa esto si deseas que el usuario pueda acceder a un sitio web específico. Puedes especificar qué URL quieres que el navegador muestre al usuario, pero este navegador no es completo. Por ejemplo, presionar la tecla de retroceso de </span><i><span style="font-weight: 400;">hardware</span></i><span style="font-weight: 400;"> del teléfono te sacará de la aplicación, en lugar de retroceder en el historial del navegador. Aquí hay un </span><a href="https://youtu.be/z5imFNSKnh0"><span style="font-weight: 400;">tutorial</span></a><span style="font-weight: 400;">*.</span>
+<h5><b>Selector de fecha y hora</b></h5>
+<span style="font-weight: 400;">Este componente permite a los usuarios elegir una fecha y / o hora. Esto es especialmente útil para aplicaciones donde los usuarios necesitan programar eventos. Aquí hay un </span><a href="https://www.youtube.com/watch?v=UbA3pDQALKY"><span style="font-weight: 400;">tutorial</span></a><span style="font-weight: 400;">*.</span>
+
+<span style="font-weight: 400;">Estas son características que involucran medios tales como fotografías, audio y video. Visite el sitio web de </span><a href="http://ai2.appinventor.mit.edu/reference/components/media.html"><span style="font-weight: 400;">MIT </span></a><span style="font-weight: 400;">* para obtener más información.</span>
+<h3>Componentes de medios</h3>
+<span style="font-weight: 400;">Estas son características que involucran medios tales como fotografías, audio y video. Visite el sitio web de <a href="http://ai2.appinventor.mit.edu/reference/components/media.html">MIT </a>* para obtener más información.</span>
+<h5><span style="font-weight: 400;">Videocámara</span></h5>
+<span style="font-weight: 400;">Este componente le permite al usuario tomar videos. Puedes usarlo para aplicaciones sociales, aplicaciones para compartir videos o en cualquier otro momento que deseas que tu usuario grabe un video. Aprenda cómo usarlo </span><a href="http://appinventor.pevest.com/?p=161"><span style="font-weight: 400;">aquí</span></a><span style="font-weight: 400;">*.</span>
+<h5><span style="font-weight: 400;">Cámara</span></h5>
+<span style="font-weight: 400;">Este componente le permite al usuario tomar fotos. Esto puede ser útil para aplicaciones que permiten a los usuarios establecer imágenes de perfil o tomar fotografías de. </span><span style="font-weight: 400;">Aquí</span><span style="font-weight: 400;"> hay un <a href="https://docs.google.com/document/d/1trt9smFfyiztdVoaq5ONaOM8GWOMoSFxTRJ7Eyyajuw/pub">tutorial</a>*.</span>
+<h5><span style="font-weight: 400;">ImagePicker</span></h5>
+<span style="font-weight: 400;">Esto le permite al usuario elegir una imagen de su biblioteca de fotos. Es una buena idea incluir esta función si planeas usar la videocámara o los componentes de la cámara. Le permitirá a tu usuario elegir las fotos que haya tomado fuera del uso de su aplicación. </span><a href="https://www.youtube.com/watch?v=MAjoLSQB1yw"><span style="font-weight: 400;">Aquí</span></a><span style="font-weight: 400;">* hay un tutorial.</span>
+<h5><span style="font-weight: 400;">Reproductor de video</span></h5>
+<span style="font-weight: 400;">Te permite insertar un video en la aplicación en la que el usuario puede hacer clic. El video debe ser .wmv, .3gp o .mp4 y no más grande que 1MB. </span><span style="font-weight: 400;">Aquí</span><span style="font-weight: 400;"> hay un <a href="https://www.youtube.com/watch?v=3HtXOU9EHc8">tutorial*</a>.</span>
+<h5><span style="font-weight: 400;">YandexTranslate</span></h5>
+<span style="font-weight: 400;">Esto te permite traducir texto a otro idioma. Requiere que tu aplicación tenga acceso a Internet, ya que depende del servicio de traducción de </span><a href="https://tech.yandex.com/translate/"><span style="font-weight: 400;">Yandex</span></a><span style="font-weight: 400;">*.  </span><a href="https://www.youtube.com/watch?v=T9O6stYSDUQ"><span style="font-weight: 400;">Aquí</span></a><span style="font-weight: 400;">* hay un tutorial.</span>
+<h5><span style="font-weight: 400;">Grabador de sonido</span></h5>
+<span style="font-weight: 400;">Esto permite a un usuario grabar un sonido o ruido. </span><a href="http://puravidaapps.com/snippets.php#2soundrecorder"><span style="font-weight: 400;">Aquí</span></a><span style="font-weight: 400;">* hay un ejemplo de uso de las aplicaciones de Pura Vida.</span>
+<h5><span style="font-weight: 400;">Jugador</span></h5>
+<span style="font-weight: 400;">Este componente de audio reproduce un sonido. Esto funciona mejor para sonidos "largos", como canciones, discursos o poemas. Aquí hay un </span><a href="https://www.youtube.com/watch?v=4tB_BuV1tew"><span style="font-weight: 400;">tutorial*</span></a><span style="font-weight: 400;"> y la descripción </span><a href="https://www.youtube.com/watch?v=ajG0NSsX0q4"><span style="font-weight: 400;">general del tutorial</span></a><span style="font-weight: 400;">*. ¡El </span><b>reproductor de video</b><span style="font-weight: 400;"> es un componente similar, pero funciona para video en lugar de solo audio!</span>
+<h5><span style="font-weight: 400;">Sonido</span></h5>
+<span style="font-weight: 400;">Este componente es muy similar al componente de </span><b>jugador</b><span style="font-weight: 400;">, pero es mejor para sonidos cortos, como "dings" de notificación. Aquí hay un </span><a href="http://appinventor.mit.edu/explore/ai2/hellopurr.html"><span style="font-weight: 400;">tutorial</span></a><span style="font-weight: 400;">* para aprender cómo usarlo.</span>
+<h5><span style="font-weight: 400;">SpeechRecognizer</span></h5>
+<span style="font-weight: 400;">Esto traduce la voz del usuario en texto. Esto es especialmente útil para aplicaciones que requieren capacidades de manos libres. <a href="https://www.youtube.com/watch?v=KUZQrk0PN50f">Aquí</a> *hay un ejemplo.</span>
+<h5><span style="font-weight: 400;">Texto a voz (Text to Speech)</span></h5>
+<span style="font-weight: 400;">Esto hace el reverso de SpeechRecorder! Con esta función, los usuarios pueden ingresar texto y la aplicación lo leerá en voz alta. Aquí hay un </span><a href="https://www.youtube.com/watch?v=KUZQrk0PN50"><span style="font-weight: 400;">tutorial</span></a><span style="font-weight: 400;">*.</span>
+<h2><span style="font-weight: 400;">Sensores</span></h2>
+<span style="font-weight: 400;">Como estás diseñando una aplicación para un dispositivo móvil, debes aprovechar las características y los sensores que tienen los teléfonos móviles. Estas características y sensores son exclusivos de dispositivos móviles y una computadora podría no tenerlos necesariamente. Usar estas características será lo que hace que tu aplicación sea una aplicación móvil en lugar de una aplicación web o un sitio web. ¡Mira todos los geniales sensores que tienen los teléfonos inteligentes! (*<strong><em>video en inglés*</em></strong>)</span>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+<span style="font-weight: 400;">¡App Inventor te permite programar estos sensores! Es posible que tu teléfono no tenga todas las cosas de las que se habla en el video, pero es muy probable que tenga las que repasamos en esta sección. Aquí hay una lista de algunos componentes geniales que puede programar usando App Inventor. Visite el <a href="http://ai2.appinventor.mit.edu/reference/components/sensors.html">sitio web del MIT</a>* para obtener más información.</span>
+<h5><span style="font-weight: 400;">Sensor acelerómetro</span></h5>
+<span style="font-weight: 400;">Este componente puede determinar si el teléfono está temblando y si se mantiene vertical o boca abajo. Esta capacidad es muy útil cuando deseas que la pantalla se vuelve a orientar en respuesta a cómo se sostiene el teléfono, o si deseas que la aplicación reaccione a temblores. Aquí hay un<a href="http://appinventor.mit.edu/explore/sites/all/files/hourofcode/TalkToMePart2.pdf" target="_blank" rel="noopener"> tutorial*</a>.</span>
+<h5><span style="font-weight: 400;">Podómetro</span></h5>
+<span style="font-weight: 400;">Este sensor utiliza el sensor del acelerómetro para medir cuántos pasos lleva el usuario que tiene el teléfono, y también puede estimar la distancia recorrida. Aquí hay un <a href="https://www.youtube.com/watch?v=iVcM6sTLnNU" target="_blank" rel="noopener">tutorial*</a>.</span>
+<h5><span style="font-weight: 400;">Giroscopio</span></h5>
+<span style="font-weight: 400;">Este componente puedes detectar si el teléfono está inclinado. Es más preciso que el acelerómetro y puede medir cuánto ha cambiado la orientación del teléfono. Aquí hay un <a href="https://www.youtube.com/watch?v=MM1LlE6RveE" target="_blank" rel="noopener">tutorial*</a>.</span>
+<h5><span style="font-weight: 400;">Reloj</span></h5>
+<span style="font-weight: 400;">Esto le permite a su aplicación obtener la hora actual o usar un temporizador. Este componente puede ser útil para establecer una alarma temporizada, usar un temporizador o saber cuándo es de día o de noche. </span><span style="font-weight: 400;">Aquí hay algunos tutoriales:</span>
+<ul>
+ 	<li style="font-weight: 400;"><a href="https://www.youtube.com/watch?v=tIKowBYIAG0" target="_blank" rel="noopener">Timer Tutorial*</a></li>
+ 	<li style="font-weight: 400;"><a href="http://ai2.appinventor.mit.edu/reference/components/sensors.html#Clock" target="_blank" rel="noopener">MIT Clock Documentation*</a></li>
+</ul>
+<h5><span style="font-weight: 400;">Sensor de ubicación</span></h5>
+<span style="font-weight: 400;">Este sensor recoge la latitud y la longitud de la ubicación del teléfono. Este sensor puede ser útil cada vez que necesitas buscar negocios o puntos de interés cerca del usuario. Aquí hay <a href="https://docs.google.com/document/d/1V1Zm5cYoa12KVb_cTlfelSfyUkW7IH2WPHUoTa02XaY/pub" target="_blank" rel="noopener">más información.*</a></span>
+<h5><span style="font-weight: 400;">Sensor de proximidad</span></h5>
+<span style="font-weight: 400;">Este sensor puede decir si el teléfono está siendo llevado hasta la cara de una persona o no. Sin embargo, no todos los teléfonos tienen esta capacidad. Aquí hay un<a href="https://www.youtube.com/watch?v=TsmJNo5W4jU" target="_blank" rel="noopener"> tutorial</a>.*</span>
+<h2><span style="font-weight: 400;">Componentes sociales</span></h2>
+<span style="font-weight: 400;">Estas son características que permiten a los usuarios hacer llamadas telefónicas, enviar correos electrónicos, enviar mensajes de texto y compartir cosas a través de su aplicación. Vea <a href="http://appinventor.mit.edu/explore/content/social.html">el sitio web de MIT</a>* para más información.</span>
+<h5><span style="font-weight: 400;">ContactPicker</span></h5>
+<span style="font-weight: 400;">Esto muestra los contactos del usuario y permite a los usuarios elegir a alguien de esa lista. Aquí hay un <a href="https://www.youtube.com/watch?v=I0L1iEeNTrs" target="_blank" rel="noopener">tutorial*</a>.</span>
+<h5><span style="font-weight: 400;">EmailPicker</span></h5>
+<span style="font-weight: 400;">Este componente permite al usuario ingresar una dirección de correo electrónico. Aquí hay un <a href="https://www.youtube.com/watch?v=wI9LzGCJ3vY" target="_blank" rel="noopener">tutorial</a>*.</span>
+<h5><span style="font-weight: 400;">PhoneNumberPicker</span></h5>
+<span style="font-weight: 400;">Este componente permite al usuario elegir un número de teléfono de una lista de contactos, como amigos o familiares. Aquí hay un <a href="http://appinventor.mit.edu/explore/ai2/piccall.html" target="_blank" rel="noopener">tutorial</a>*.</span>
+<h5><span style="font-weight: 400;">Llamada telefónica</span></h5>
+<span style="font-weight: 400;">Esto permite al usuario hacer una llamada telefónica desde su aplicación. Aquí hay un <a href="https://www.youtube.com/watch?v=I0L1iEeNTrs" target="_blank" rel="noopener">tutorial</a>*.</span>
+<h5><span style="font-weight: 400;">Enviar mensajes de texto</span></h5>
+<span style="font-weight: 400;">Este componente le permite al usuario enviar un mensaje de texto al teléfono de otro usuario a través de su aplicación. Aquí hay un <a href="http://www.appinventor.org/content/ai2apps/simpleApps/noTexting" target="_blank" rel="noopener">tutorial</a>*.</span>
+<h5><span style="font-weight: 400;">Compartir</span></h5>
+<span style="font-weight: 400;">Esto permite a los usuarios compartir mensajes, imágenes u otro contenido en su aplicación con otras aplicaciones en el teléfono del usuario. Aquí hay un <a href="https://www.youtube.com/watch?v=fCdxtYj09Zw" target="_blank" rel="noopener">tutorial</a>.*</span>
+<h5><span style="font-weight: 400;">Twitter</span></h5>
+<span style="font-weight: 400;">Este componente permite la comunicación entre la aplicación y Twitter. Los usuarios pueden buscar tweets, enviar y recibir mensajes, obtener una lista de seguidores y más. Aquí hay un <a href="http://puravidaapps.com/twitter.php">ejemplo</a>.*</span>
+<h2><span style="font-weight: 400;">Componentes de conectividad</span></h2>
+<span style="font-weight: 400;">Estos componentes permiten que tu aplicación interactúa con lugares fuera de la aplicación, como la web y otras aplicaciones. Visite el <a href="http://ai2.appinventor.mit.edu/reference/components/connectivity.html">sitio web del MIT *</a> para obtener más información.</span>
+<h5><span style="font-weight: 400;">ActivityStarter</span></h5>
+<span style="font-weight: 400;">Esto permite que tu aplicación inicie otras aplicaciones instaladas en el teléfono del usuario. Estas aplicaciones pueden ser aplicaciones que se crearon en App Inventor o aplicaciones que no lo fueron. También pueden ser aplicaciones como Cámara y Mapas pre-instaladas en el dispositivo. Aquí hay algunos tutoriales:</span>
+<ul>
+ 	<li style="font-weight: 400;"><a href="http://ai2.appinventor.mit.edu/reference/other/activitystarter.html">Tutorial 1*</a></li>
+ 	<li style="font-weight: 400;"><a href="https://www.youtube.com/watch?v=rS8VChJ6X0g">Tutorial 2*</a></li>
+ 	<li style="font-weight: 400;"><a href="https://www.youtube.com/watch?v=Cz_2uH0jqAs">Tutorial 3*</a></li>
+</ul>
+<h5> <span style="font-weight: 400;">Web</span></h5>
+<span style="font-weight: 400;">Este componente permite que su aplicación obtenga información de sitios web. Le permite obtener información y usarla sin tener un navegador web en su aplicación. Aquí hay un <a href="http://explore.appinventor.mit.edu/ai2/stockquotes" target="_blank" rel="noopener">tutorial*</a>.</span>
+<h5><span style="font-weight: 400;">BluetoothClient y BluetoothServer</span></h5>
+<span style="font-weight: 400;">Estos componentes permiten que tu aplicación permita la conexión con Bluetooth. Aquí hay un <a href="http://appinventor.pevest.com/?p=520">ejemplo*</a>.</span>
+<blockquote><span style="font-weight: 400;">"Uno de los secretos para mantenerse joven es hacer siempre cosas que no sabes hacer, seguir aprendiendo".</span></blockquote>
+<p style="text-align: right;"><span style="font-weight: 400;">- Ruth Reichl</span></p>
+
+<h3><span style="font-weight: 400;">Bases de datos web</span></h3>
+<span style="font-weight: 400;">Una de las cosas que definitivamente debes aprovechar es la capacidad de tu teléfono para conectarse a la web. Esto puede ser más que acceder a la web o al correo electrónico a través de tu aplicación. ¡En realidad puede almacenar <strong>datos</strong> en la web y acceder a ellos desde múltiples teléfonos con tu aplicación!</span>
+
+<span style="font-weight: 400;">¿Recuerdas cuando aprendiste sobre <strong>TinyDB</strong> en la Unidad de Codificación 2? <strong>TinyDB</strong> es una base de datos local en la que tu aplicación puede almacenar datos y obtener datos. Cuando un teléfono usa <strong>TinyDB</strong>, solo almacena datos en ese teléfono, por lo que dos usuarios no podrán ver lo que está en la <strong>TinyDB </strong>del otro.</span>
+
+<span style="font-weight: 400;">Una <strong>base de datos web</strong> funciona un poco diferente. Supongamos que tienes dos teléfonos corriendo una aplicación, el Teléfono A y el Teléfono B. Cuando el Teléfono A almacena datos en el TinyDB, el Teléfono B no puede acceder a ellos, ya que está almacenado en el disco duro del Teléfono A. Cuando utilizas una base de datos web, el teléfono A puede almacenar datos en una base de datos y el Teléfono B puede acceder a la base de datos y recuperar los datos. En lugar de que la base de datos esté solo en un teléfono, ahora ambos teléfonos que usan la aplicación pueden compartirla. Otra ventaja del uso de bases de datos web con App Inventor es que tu (la programadora) puede acceder y editar lo que contiene a través de Internet.</span>
+<h1></h1>
+&nbsp;
+
+&nbsp;
+<h5 style="text-align: center;">Almacenamiento Local</h5>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/local-databig.png" alt="local-databig" width="101" height="186" /></p>
+
+<h5 style="text-align: center;">Almacenamiento de Base de Datos</h5>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/web-databasebig.png" alt="web-databasebig" width="380" height="470" />
+
+Las bases de datos web también se pueden actualizar en cualquier momento y los teléfonos que las usan reflejarán los cambios. Digamos que colocas una lista de restaurantes en un TinyDB y colocas tu aplicación en la tienda de aplicaciones. Cualquier usuario que descargue tu aplicación tendrá esa lista de restaurantes. Más tarde, actualizas tu aplicación para incluir muchos más restaurantes. Actualizas tu código y actualizas tu aplicación en la tienda de aplicaciones. Sin embargo, los teléfonos que descargaron tu aplicación antes de actualizar la lista no podrán obtener los nuevos restaurantes. ¡Estos usuarios tendrían que eliminar la aplicación y volver a descargarla de la tienda de aplicaciones! Si utilizas una base de datos web para los restaurantes, entonces la aplicación vería automáticamente la lista de restaurantes. Cada vez que el teléfono se conecta a la web y accede a la base de datos, obtendrá la versión actual de la lista.
+
+¿Alguna vez compartió una imagen en Facebook o Instagram? Aplicaciones como estas usan bases de datos web. Cuando tu amiga sube y comparte una imagen, todos sus seguidores pueden verla. Las bases de datos web le permiten compartir y enviar datos a todos los que usan la aplicación.
+
+Entonces, ¿cuándo usarías una base de datos web? Aquí hay algunos de los usos más comunes:
+<ul>
+ 	<li>Compartir datos de un juego, como una lista de puntuaciones altas</li>
+ 	<li>Permitir a los usuarios compartir imágenes entre ellos a través de un <em>feed</em></li>
+ 	<li>Mostrando un <em>feed</em> que actualiza todos los usuarios ven</li>
+ 	<li>Requerir login y contraseñas para los usuarios</li>
+ 	<li>Recordando todo sobre un usuario como sus transacciones, registros financieros o registros médicos</li>
+</ul>
+¡Afortunadamente hay algunas formas diferentes de configurar una base de datos web en App Inventor! Las siguientes secciones analizarán algunas de las bases de datos web que App Inventor te permita incorporar fácilmente en tu aplicación. Mientras leas las secciones, piensa en cuáles podrían funcionar con tu aplicación.
+<h3>Ejercicio de pensamiento</h3>
+¿Puedes pensar en cinco aplicaciones que has utilizado que dependen de bases de datos web?
+<h3>TinyWebDB</h3>
+<strong>TinyWebDB</strong> es similar a TinyDB porque <strong>etiqueta pares de valores</strong>  para almacenar y recuperar datos. TinyWebDB es una gran opción si estás utilizando datos en los que la mayoría de los datos están en pares, como nombres de usuario y contraseñas. Una vez que has configurado tu TinyWebDB, puedes hacer llamadas para almacenar y obtener datos del mismo. A diferencia de TinyDB, cualquier teléfono que use tu aplicación puede almacenar y obtener datos de ella. TinyWebDB también tiene la ventaja añadida de que puedes acceder a tu servicio web y ver todas las etiquetas que existen y eliminar las que ya no deseas. Su servicio web se verá así:
+
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/TinyWebDBOnline.png" alt="tinywebdbonline" width="1440" height="777" />
+
+Toma nota de cómo tenemos la opción de eliminar algunas etiquetas que están allí. Es mucho más fácil administrar tus datos de esta manera, por lo que incluso si tu aplicación no requiere que los datos se compartan entre los teléfonos, ¡quizás quieres configurar un TinyWebDB de todos modos!
+
+Para usar <strong>TinyWebDB</strong>, tendrás que configurar tu propio servicio web donde se almacenarán y recuperarán los datos. Aquí están las instrucciones de MIT sobre cómo hacerlo: <a href="http://appinventor.mit.edu/explore/ai2/custom-tinywebdb.html" target="_blank" rel="noopener">Custom TinyWebDB</a>.* Cuando configuramos nuestro <strong>TinyWebDB</strong> nos encontramos atascandonos, así que aquí hay <a href="https://www.youtube.com/watch?v=qawFgeJldAQ">un video</a> que seguimos junto con estas instrucciones.
+
+<strong>TinyWebDB</strong> es un componente no visible, o uno que no aparece en la pantalla, y se ve así: <img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/non-visible.png" alt="non-visible" width="315" height="124" />
+
+La programación de <strong>TinyWebDB</strong> es ligeramente diferente a la programación de <strong>TinyDB</strong>. Cuando realice una llamada para obtener algunos datos, tendrás que esperar a que tu aplicación solicita datos al servicio web. Una vez que la aplicación obtiene la información, puede hacer cosas con ella. Vea nuestro código a continuación:
+
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/tagname.png" alt="tagname" width="594" height="313" />
+
+Cuando el usuario presiona el botón 1 <strong>(Button 1</strong>), la aplicación le preguntará al servicio web por el valor de la etiqueta llamada "Usuario1" (<strong>User 1</strong>). Una vez que la aplicación tenga el valor de <strong>TinyWebDB</strong>, establecerá Label1 y Label2 en la etiqueta y el valor. TinyWebDB1.GotValue usará el último valor que obtuvo de la base de datos.
+
+Sugerencias para solucionar  problemas al configurar <strong>TinyWebDB</strong>:
+<ul>
+ 	<li>Si tienes problemas para descargar Google App Engine para Python, intente <a href="https://cloud.google.com/appengine/docs/python/download#python">esto</a>.</li>
+ 	<li>No necesitas ingresar la información de tu tarjeta de crédito en Google en cualquier momento, todas las funciones de la plataforma en la nube que necesita son gratuitas.</li>
+ 	<li>Al igual que con TinyDB, si utilizas el mismo nombre de etiqueta dos veces en TinyWebDB, los datos se sobrescribirán.</li>
+</ul>
+<h3>Fusion Tables</h3>
+<strong>Las tablas fusion</strong> son otro tipo de base de datos web que App Inventor te permita usar fácilmente. <strong>Las tablas fusion</strong> usan tablas para almacenar y recuperar datos en lugar de pares de valores de etiquetas (<em>tag value pairs</em>). Esto les permite almacenar conjuntos de datos más complejos. Al igual que <strong>TinyWebDB</strong>, varios usuarios de su aplicación pueden almacenar y recuperar valores de tablas de fusión y tu podrás administrarlo a través de tu servicio web.
+
+Las tablas de fusión le permiten almacenar datos en una <strong>tabla</strong>. Las tablas pueden ser geniales cuando tienes una gran cantidad de datos para realizar un seguimiento y organizan los datos en filas y columnas. Para comprender mejor las <strong>tablas de fusión</strong>, pensemos en un ejemplo.
+
+Digamos que estuvo a cargo de pedir nuevas camisetas para tu equipo de fútbol. Todo el mundo recibe una camiseta con su nombre y su número en ella. Necesitas una forma de realizar un seguimiento del nombre, el número y el tamaño de la camisa de todos. La forma más fácil de hacerlo es creando una tabla como esta:
+<table>
+<tbody>
+<tr style="color: white;" bgcolor="#333333">
+<td>Nombre</td>
+<td>Número</td>
+<td>Talla</td>
+</tr>
+<tr>
+<td>Marissa</td>
+<td>2</td>
+<td>G</td>
+</tr>
+<tr>
+<td>Ruchi</td>
+<td>6</td>
+<td>M</td>
+</tr>
+<tr>
+<td>Hadar</td>
+<td>3</td>
+<td>C</td>
+</tr>
+<tr>
+<td>Stephanie</td>
+<td>7</td>
+<td>M</td>
+</tr>
+<tr>
+<td>Iyonce</td>
+<td>4</td>
+<td>C</td>
+</tr>
+</tbody>
+</table>
+En lugar de solo usar un lápiz y papel, decides usar <strong>tablas de fusión</strong> para realizar un seguimiento de toda esta información. Tu creas una aplicación y le pides a los miembros de tu equipo que la descarguen. Desde sus propios teléfonos, ingresan su nombre, número y tamaño de la camisa. La información de sus teléfonos se almacena en la web en una tabla de fusión. ¡Entonces puedes iniciar lasesión y ver y editar la información de todos!
+
+Para tener una mejor idea de algunas cosas para las que puede usar<strong> tablas de fusión,</strong> aquí hay algunos escenarios en los que los equipos anteriores de Technovation han incorporado tablas de fusión. ¡Compara y ve si alguno de los escenarios es similar a lo que intentas hacer con tu aplicación!
+<ul>
+ 	<li>Crear un directorio de centros de ubicación que aceptan donaciones. Las entradas de la tabla incluyen latitud y longitud, números de teléfono y elementos que aceptan.</li>
+ 	<li>Almacenamiento de información para crear perfiles de usuario personalizados. Cosas como ubicación del usuario, nombre de usuario y favoritos</li>
+ 	<li>Hacer mapas y trazar puntos en mapas, echa un vistazo a este <strong>tutorial</strong></li>
+ 	<li>Visualizar datos en gráficos circulares y gráficos</li>
+ 	<li>Almacenamiento de información de los usuarios</li>
+ 	<li>Almacenar publicaciones y comentarios en un foro</li>
+</ul>
+Echa un vistazo a estas dos aplicaciones anteriores que usaron tablas de fusión
+<ul>
+ 	<li>La aplicación "CramJam" y "BCNeeds" los usaron.
+<ul>
+ 	<li style="font-weight: 400;"><a href="https://www.youtube.com/watch?v=UtbOWCgjbL8" target="_blank" rel="noopener">CramJam Demo Video</a></li>
+ 	<li style="font-weight: 400;"><a href="https://www.youtube.com/watch?v=rC0-9UMDfBk" target="_blank" rel="noopener">CramJam Pitch Video</a></li>
+ 	<li style="font-weight: 400;"><a href="https://www.youtube.com/watch?v=q0Y3GWxl1zg" target="_blank" rel="noopener">BCNeeds Demo Video</a></li>
+ 	<li style="font-weight: 400;"><a href="https://www.youtube.com/watch?v=XZtDElDl9V8" target="_blank" rel="noopener">BCNeed Pitch Video</a></li>
+</ul>
+</li>
+ 	<li style="font-weight: 400;">"CramJam" lo usó para integrar la carga de Google Docs e imágenes para la vista previa de notas en línea. "BCNeeds" lo usó para registrar bienes y servicios para donación en los puntos de recolección de Charity. Ambos usaron la tabla para almacenar datos persistentes e integrarlo con los selectores de listas.</li>
+</ul>
+Aquí hay un tutorial de MIT sobre cómo comenzar con las tablas de fusión: <a href="http://explore.appinventor.mit.edu/ai2/pizzaparty">Fusion table AI Pizza Party*</a>. Ese tutorial nos atascó así que usamos este <a href="https://www.youtube.com/watch?v=14jyD7_V1RA">tutorial* </a>para ayudarnos.
+
+Consejos para solucionar problemas:
+<ul>
+ 	<li>No necesitas ingresar la información de tu tarjeta de crédito en Google en cualquier momento, todas las funciones de la plataforma en la nube que necesita son gratuitas.</li>
+ 	<li>¡Descargue el código fuente de Pizza Party y juegue con él!</li>
+</ul>
+<h3>APIs</h3>
+Supongamos que estás creando una aplicación que le dice al usuario qué debe usar para salir según el clima. Puedes pasar mucho tiempo cargando datos sobre el clima en una tabla de fusión, pero sabes que ya hay muchos sitios web que le dicen a la gente como esta el clima. ¡Una mejor solución sería simplemente obtener datos de ese sitio web y mostrarlos a los usuarios a través de tu aplicación!
+
+Las programadores hacen este tipo de cosas todo el tiempo. En realidad se llama usar una API, o la interfaz de programación de aplicaciones, de un sitio web. Una API es la forma en que tu aplicación puede hablar con la web y obtener la información que necesita. Probablemente has interactuado con sitios que usan API todo el tiempo. (<em>video en inglés</em>)
+
+&nbsp;
+
+Hay una gran cantidad de datos en la web y hay innumerables formas de acceder a ellos. Estas son algunas API comunes que los programadores usan cuando crean aplicaciones:
+<table>
+<tbody>
+<tr style="color: white;" bgcolor="#333333">
+<td>Datos</td>
+<td>Lugares de donde tomar los datos</td>
+<td>Tutoriales para App Inventor</td>
+</tr>
+<tr>
+<td>Maps</td>
+<td>Google Maps</td>
+<td><a href="http://appinventor.mit.edu/explore/displaying-maps.html" target="_blank" rel="noopener">http://appinventor.mit.edu/explore/displaying-maps.html</a></td>
+</tr>
+<tr>
+<td>Precios de acciones</td>
+<td>Yahoo! Finance</td>
+<td><a href="http://explore.appinventor.mit.edu/ai2/stockquotes" target="_blank" rel="noopener">http://explore.appinventor.mit.edu/ai2/stockquotes</a></td>
+</tr>
+<tr>
+<td>Clima</td>
+<td>National Weather Service</td>
+<td><a href="https://appinventorapi.com/weather/" target="_blank" rel="noopener">https://appinventorapi.com/weather/</a></td>
+</tr>
+</tbody>
+</table>
+Debes usar APIs en cualquier momento que deseas obtener información que ya sabes que ya tiene otro sitio web o base de datos.
+<h3>Actividad: explorar las API</h3>
+Piensa en cómo una API podría ser útil en tu aplicación. Aquí hay algunas preguntas que debe hacerte:
+<ul>
+ 	<li>¿Qué tipo de información necesitaré para que mi aplicación funcione?</li>
+ 	<li>¿De dónde necesito obtener esos datos?</li>
+</ul>
+<h3>Desafío de Programación 4:</h3>
+Elija un componente móvil y una base de datos web o una API que crees que serían útiles en tu aplicación. Obtén ambas cosas y practique usándolas. ¡Esto te ayudará mucho cuando llegue el momento de construir tu aplicación final!
+<h3>Reflexionar</h3>
+Después de revisar esta lección, debes tener una idea bastante clara de los componentes que deberías incluir en tu aplicación para que pueda hacer todo lo que necesitas. ¡Felicitaciones!
+
+Es probable que pases la mayor parte de las próximas semanas creando estas funciones en tu aplicación. Si hay algún componente que necesitas pero no está incluido en esta unidad, debe sverificarlo <a href="http://ai2.appinventor.mit.edu/reference/components/">aquí</a>.
+<h5>Recursos adicionales</h5>
+<ul>
+ 	<li style="font-weight: 400;"><a href="https://www.youtube.com/watch?v=dXi55Rai7pQ">Thunkable Google Maps Tutorial</a>*</li>
+ 	<li style="font-weight: 400;"><a href="https://www.youtube.com/watch?v=JLCLcU05FRc">Spinner Component Demonstration Video</a>*</li>
+</ul>
+Echa un vistazo a este video realizado por el ex alumno de Technovation Ashni Sheth para aprender cómo incorporar bots en tu aplicación.
+
+&nbsp;
