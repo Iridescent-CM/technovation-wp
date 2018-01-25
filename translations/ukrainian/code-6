@@ -14,7 +14,7 @@
  	<li style="font-weight: 400;">Шляхи управління вашим проектом і часом</li>
 </ul>
 <h3><b>Планування кодування</b></h3>
-В розділі <a href="http://www.iridescent.staging.wpengine.com/curriculum/code-5/" target="blank"><span style="font-weight: 400;">Кодування 5</span></a>ви планували, який матиме вигляд ваш додаток і як користувачі будуть з ним взаємодіяти. В цьому розділі ви дізнаєтесь про дві техніки, які допоможуть вам планувати ваше кодування і подумати про те, як ваш додаток насправді буде працювати. Планування — дуже важлива частина процесу створення додатку, адже ви можете визначити, чи потребуєте додаткових знань і подумати над тим, як будуть працювати ті чи інші речі перед тим, як братись безпосередньо за програмування.
+В розділі <a href="http://www.technovationchallenge.org/curriculum/code-5/" target="blank"><span style="font-weight: 400;">Кодування 5</span></a>ви планували, який матиме вигляд ваш додаток і як користувачі будуть з ним взаємодіяти. В цьому розділі ви дізнаєтесь про дві техніки, які допоможуть вам планувати ваше кодування і подумати про те, як ваш додаток насправді буде працювати. Планування — дуже важлива частина процесу створення додатку, адже ви можете визначити, чи потребуєте додаткових знань і подумати над тим, як будуть працювати ті чи інші речі перед тим, як братись безпосередньо за програмування.
 <h3 id="pseudo">Псевдокод (Pseudocode)</h3>
 Написання псевдокоду — це невід'ємний етап процесу планування вашого додатку. Псевдокод використовує просту мову, змішану з кодом, щоб пояснити, що ваш додаток робить. Варто використовувати терміни програмування, які ви знаєте (такі як цикли чи умовні), а також будь-які складові, компонентиApp Inventor, які ви б хотіли використовувати (такі як ListView чи кнопки). Щодо написання псевдокоду немає аж так багато правил. Одна ціль — це вловити ідею того, як ваш додаток буде працювати перед тим, як його програмувати.
 
@@ -65,52 +65,52 @@
 <h3 id="flow"><b>Блок-схеми (Flowcharts)</b></h3>
 Блок-схема — це діаграма, яка представляє алгоритм. Вона використовує форми і стрілки, щоб показати, як дані рухаються в програмі. Завжди читається з верху до низу. Програмісти використовують різні форми, щоб представити різні речі, які стаються з даними. Ось кілька прикладів алгоритмів, щоб зрозуміти, чому у когось болить живіт.
 
-<img class="aligncenter" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/flowchart-1.png" alt="flowchart-1" width="426" height="434" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/flowchart-1.png" alt="flowchart-1" width="426" height="434" />
 
 &nbsp;
 
-<img class="aligncenter" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/terminal.png" alt="terminal" width="139" height="41" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/terminal.png" alt="terminal" width="139" height="41" />
 <p style="text-align: left;">Овал показує, де алгоритм починається і закінчується. В прикладі, що наведений вище, є три різних місця, де алгоритм може закінчуватись, якщо людина потребує їжі, відпочинку чи потребує відвідати лікаря. Вони називаються закінчення, термінал (terminal).</p>
-<p style="text-align: center;"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/decision.png" alt="decision" width="139" height="76" /></p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/decision.png" alt="decision" width="139" height="76" /></p>
 <p style="text-align: left;">Ромб зображає, де повинне бути прийняте рішення. Вони як "розвилка на дорозі". Це значить, що змінна має бути визначена як правдива чи неправдива (true, false). Дві стрілки повинні виходити з рішення: одна для правдивого, а інша — для неправдивого. Зауважте, як стрілки відходять від ромба в прикладі вище.</p>
 Ось інший приклад блок-схеми:
 
-<img class="aligncenter" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/flowchart-2-1.png" alt="flowchart-2" width="124" height="281" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/flowchart-2-1.png" alt="flowchart-2" width="124" height="281" />
 
 &nbsp;
 
-<img class="aligncenter" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/process.png" alt="process" width="139" height="41" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/process.png" alt="process" width="139" height="41" />
 
 Ця діаграма використовує прямокутники, які представляють процес. Процес — це будь-що, що має ваш код зробити. Він може розбудити користувача, додати два числа, встановити позначку, щоб щось сказати.
 
 Ця блок-схема показує while loop. Змінна і процес буде повторюватись до того часу, поки змінна не буде такою, яка задовольняє. Є інший тип циклу, який ви вивчили в <a href="/?p=21279&amp;lang=uk" target="_blank" rel="noopener">Code 3</a>:for loop. Змінна в for loop має перевіряти, чи рахунок достатньо виріс. Тоді процес буде повторювати набір чисел доки не виконає умову.
 
-<img class="aligncenter" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/flowchart-3-1.png" alt="flowchart-3" width="424" height="314" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/flowchart-3-1.png" alt="flowchart-3" width="424" height="314" />
 
 &nbsp;
 
-<img class="aligncenter" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/input-1.png" alt="input" width="145" height="41" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/input-1.png" alt="input" width="145" height="41" />
 
 Остання форма, про яку вам варто знати, - це паралелограм. Його можна використовувати тоді, коли вам потрібно отримати дані від користувача або десь-інде, до прикладу, веб-сайту. Паралелограм призначений для входу (inputs).
 <div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
 <h3 id="activity2">Завдання</h3>
 В цьому завданні ви перетворите ваш псевдокод у блок-схему. Використовуйте той псевдокод, який ви розробили раніше, і слідуйте наступним крокам.
 <ol>
- 	<li><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/Artboard-16outline.png" alt="terminal oval" width="112" height="36" />
+ 	<li><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/Artboard-16outline.png" alt="terminal oval" width="112" height="36" />
 Покладіть овал навколо початку і кінця вашого обробника подій. Це називається термінал. Досить часто є більше одного завершення в блок-схемі. В пошуковій кнопці, приклад якої вище, обробник подій закінчується або зображення результатів пошуку в listview, або повідомленням користувача, що немає збігів</li>
 </ol>
 <ol start="2">
- 	<li><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/decision_1outline.png" alt="conditional diamond" width="112" height="36" />
+ 	<li><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/decision_1outline.png" alt="conditional diamond" width="112" height="36" />
 Покладіть ромб навколо тих рішень, які потрібно прийняти. Тобто, коли додаток має вирішити, що є правдою чи хибою для змінної. Пам'ятайте, змінні можуть вести до більш як однієї можливості закінчення.</li>
 </ol>
 <ol start="3">
- 	<li><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/Artboard-28outline.png" alt="input" width="112" height="36" />
+ 	<li><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/Artboard-28outline.png" alt="input" width="112" height="36" />
 Додайте паралелограм навколо inputs в вашому коді чи в місці, де ви плануєте отримати дані з іншого місця чи від користувача.</li>
 </ol>
 <ol start="5">
- 	<li><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/process_1outline.png" width="112" height="36" />
+ 	<li><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/process_1outline.png" width="112" height="36" />
 Покладіть прямокутник навколо всіх процесів вашого коду, коли дія, яку виконує ваш додаток, не підпадає під жодні з категорій, які зазначені вище. Це може бути додавання речей до списку, відсилання повідомлення користувачу.</li>
- 	<li><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/arrow_1outline.png" alt="arrow" height="36" />
+ 	<li><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/arrow_1outline.png" alt="arrow" height="36" />
 З'єднайте все разом стрілками! Зверніть увагу на те, як ви малюєте стрілки для циклів і змінних і перегляньте приклади вище, вони вам допоможуть.</li>
 </ol>
 Сфотографуйте одну з ваших блок-схем і вкладіть її до подання, щоб заробити бали! Не переживайте, якщо він не зовсім правильний. Це завдання покликане допомогти в плануванні і ви навчились чогось нового! Все добре, якщо ваш код не буде відповідати тому, що вказано в блок-схемі, після того, як ви завершите створення вашого додатку. Вам не потрібно потім оновлювати блок-схему!
@@ -148,7 +148,7 @@
 </ul>
 Щоб допомогти відслідковувати рух у вашому процесі з розробки додатку, давайте проглянемо основні етап розробки програмного забезпечення.
 <ul>
- 	<li>Користувачі, їхні потреби, MVP визначено (з <a href="http://www.iridescent.staging.wpengine.com/curriculum/code-5/" target="_blank" rel="noopener">Code 5</a>)</li>
+ 	<li>Користувачі, їхні потреби, MVP визначено (з <a href="http://www.technovationchallenge.org/curriculum/code-5/" target="_blank" rel="noopener">Code 5</a>)</li>
  	<li>Дії, які отримає користувач у додатку, зображені в блок-схемі</li>
  	<li>Програма створена&lt;</li>
  	<li>Відбувається користувацьке випробовування, помилки виявлені</li>
