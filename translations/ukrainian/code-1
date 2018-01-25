@@ -1,14 +1,13 @@
 <h1>Кодування. Розділ 1: Вступ до кодування та App Inventor</h1>
 <ul>
-<li><a href="#algo">Алгоритми</a></li>
+ 	<li><a href="#algo">Алгоритми</a></li>
  	<li><a href="#proglang">Мови програмування</a></li>
  	<li><a href="#getstarted">Вступ до App Inventor</a></li>
  	<li><a href="#event">Обробник подій (Event Handling)</a></li>
  	<li><a href="#func">Функції</a></li>
-	<li><a href="#challenge">Завдання з кодування #1</a></li>
+ 	<li><a href="#challenge">Завдання з кодування #1</a></li>
  	<li><a href="#reflect">Підсумки</a></li>
 </ul>
-
 <h3>Цілі:</h3>
 <p class="western">В цьому розділі ви</p>
 
@@ -24,22 +23,21 @@
 </li>
 </ul>
 &nbsp;
-<h3 class="western" id="algo">Алгоритми</h3>
+<h3 id="algo" class="western">Алгоритми</h3>
 <p class="western">Більшість дітей Північної Америки полюбляють бутерброди з арахісовим маслом і джемом. Приготування бутербродів має бути легким — просто намастити масло на скибку хліба і додати туди джему! Що може бути простіше? Подивіться відео, як Лінсі і Пабло намагаються дати своєму другові Джареду інструкції щодо того, як робити бутерброд.</p>
 
 <div style="width: 47.5%; margin-right: 2.5%; float: left;">Video 1
 <iframe src="https://www.youtube.com/embed/NTLnzZCxRDM?start=135&amp;end=201" width="425" height="344" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
 <div style="width: 47.5%; margin-left: 2.5%; float: right;">Video 2
 <iframe src="https://www.youtube.com/embed/NTLnzZCxRDM?start=427&amp;end=531" width="425" height="344" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
-
 <p class="western">Джаред тут діє як <span lang="uk-UA">комп'ютер — він не зробить нічого, поки йому не скажуть, що робити крок за кроком. Людина ж, коли знаючи, що треба намастити джем на хліб, розуміє, що спершу потрібно відкрити банку з джемом, взяти ножа, засунути його в банку, набрати джему, висунути ножа з банки, піднести його до скибки хліба, розмастити джем по скибці. Однак комп</span><span lang="en-US">'</span><span lang="uk-UA">ютер зробить, як зробив Джаред — розмастить цілу банку джему на хлібі і буде збентежений</span>!</p>
 <p class="western">На відміну від людей, комп'ютери не можуть робити припущення, висновки щодо чого завгодно! Вони можуть робити тільки те, що їм скажуть. Лінсі і Пабло дали Джареду <b>алгоритм</b>, щоб зробити бутерброд. <b>Алгоритм</b> — це набір конструкцій крок за кроком. Для того, щоб комп'ютер зробив щось, вам потрібно написати алгоритм, щоб він зрозумів, що саме від нього потребують. В Technovation ви дізнаєтеся, як писати алгоритми, які допоможуть, щоб ваш мобільний додаток робив те, що потрібно!</p>
 
-<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
 <h3 class="western">Завдання</h3>
 <p class="western">Напишіть алгоритм щодо якоїсь вашої повсякденної справи, активності. Наприклад, їзда на велосипеді, приготування бутерброду, гра або щось, що прийде вам в голову! Коли ви закінчите, дайте свій алгоритм колехі по команді або друзям і попросіть їх робити саме те, що прописано в алгоритмі (як Джаред робить на відео). Чи все відбувається так, як ви очікували?</p>
-</div>
 
+</div>
 <h3 id="proglang" class="western">Мови програмування</h3>
 <p class="western">Комп'ютерні алгоритми написані <b>мовами програмування</b>. Мови програмування - це інструменти, засоби, які допоможуть вам говорити з вашим комп'ютером. Кодери використовують різні мови програмування для різних речей. Деякі мови краще підходять до розробки мобільних додатків, інші — для веб-сайтів чи складних обчислень. Як і для будь-якої іншої мови, вам потрібно навчитися використовувати її для спілкування!</p>
 <p class="western">Для Technovation ви будете вивчати App Inventor, який є мовою програмування, яка чудово підходить для розробки <b>мобільних додатків</b>. “Мобільний додаток” - це програмне забезпечення, яке розроблене для використання телефонами чи планшетами, але не <span lang="uk-UA">комп'ютерами. Нижче наведені кілька мов програмування і те, де їх застосовують. </span></p>
@@ -90,7 +88,7 @@
 </table>
 <p class="western"><i>Порада: Пошукайте слова, які є для вас незнайомими. Коли програмісти не знають, що значить якесь слово, він шукає його. Як програмісти, добре ставити запитання, шукати на них відповіді і розширювати свій словниковий запас про </i><span lang="uk-UA"><i>комп'ютер, програмування</i></span><i>!</i></p>
 
-<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
 <h3 class="western"><i>Завдання</i></h3>
 <p class="western">Чи має ваш ментор чи хтось, кого ви знаєте, знання, досвід в сфері ІТ, технологій? Запитайте в них про їхній досвід і проекти, до яких вони були долучені!</p>
 
@@ -103,16 +101,15 @@
 </li>
 </ul>
 <p class="western">Якщо ви нікого не знаєте зі сфери ІТ, перегляньте <span lang="uk-UA">інтерв'ю з жінками-програмістками на </span>facebook і google!</p>
-<p><iframe width="500" height="281" src="https://www.youtube.com/embed/s0JVc4q7d5M?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
-<p><iframe width="500" height="281" src="https://www.youtube.com/embed/8UovCe5hEt4?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
-</div>
 
-<h3 id="getstarted" class="western">Початок роботи з App Inventor</h1>
+<div style="width: 47.5%; margin-right: 2.5%; float: left;"><iframe src="https://www.youtube.com/embed/s0JVc4q7d5M" width="425" height="344" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+<div style="width: 47.5%; margin-left: 2.5%; float: right;"><iframe src="https://www.youtube.com/embed/8UovCe5hEt4" width="425" height="344" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+</div>
+<h3 class="western">Початок роботи з App Inventor</h3>
 <p class="western"><i>Ви можете пропустити цю секцію, якщо вже знаєте, як користуватись App Inventor чи вирішили використовувати іншу мову для створення вашого додатку.</i></p>
 <p class="western"><b>App Inventor</b> — це безкоштовний веб-додаток, що дозволяє користувачам створювати додатки для телефонів і планшетів на Android. Ви можете отримати доступ до App Inventor за допомогою веб-браузера, перейшовши на сайт виробника<a href="http://appinventor.mit.edu/"> http://appinventor.mit.edu/</a>. Дивіться це відео, щоб дізнатися більше про те, що таке App Inventor.</p>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/sNjGAiOrX-o" frameborder="0" allowfullscreen></iframe></p>
-
-<p class="western">Як ви бачите з відео, App Inventor дійсно простий у використанні! Ви можете спроектувати і розробити ваш додаток на <span lang="uk-UA">комп'ютері, а потім протестувати його на телефоні</span> Android чи на емуляторі! Ваша робота зберігатиметься на серверах App Inventor. Щоб дізнатись більше про App Inventor відвідайте <a href="http://appinventor.mit.edu/explore/content/what-app-inventor.html" target="_blank">цю сторінку.</a></p>
+<iframe src="https://www.youtube.com/embed/sNjGAiOrX-o" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<p class="western">Як ви бачите з відео, App Inventor дійсно простий у використанні! Ви можете спроектувати і розробити ваш додаток на <span lang="uk-UA">комп'ютері, а потім протестувати його на телефоні</span> Android чи на емуляторі! Ваша робота зберігатиметься на серверах App Inventor. Щоб дізнатись більше про App Inventor відвідайте <a href="http://appinventor.mit.edu/explore/content/what-app-inventor.html" target="_blank" rel="noopener">цю сторінку.</a></p>
 
 <h4 class="western"><a name="_2jzxz5uud36g"></a>Встановлення App Inventor</h4>
 <p class="western">Тут ви дізнаєтесь, як використовувати App Inventor, писати алгоритм, який зрозуміє телефон на Android! Ось, що вам потрібно мати, щоб використовувати App Inventor:</p>
@@ -149,31 +146,35 @@
 <p class="western">Поради, якщо щось не вдається:</p>
 
 <ol>
-	<li><p class="western">Переконайтесь, що ви дійсно завантажили додаток MIT AI2 Companion на ваш телефон: <a href="https://play.google.com/store/apps/details?id=edu.mit.appinventor.aicompanion3&amp;hl=en" target="_blank">AI Companion App</a>. Лого додатку має такий вигляд:<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/unnamed.png" alt="AppInventorLogo" width="28" height="28" /></p>
+ 	<li>
+<p class="western">Переконайтесь, що ви дійсно завантажили додаток MIT AI2 Companion на ваш телефон: <a href="https://play.google.com/store/apps/details?id=edu.mit.appinventor.aicompanion3&amp;hl=en" target="_blank" rel="noopener">AI Companion App</a>. Лого додатку має такий вигляд:<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/unnamed.png" alt="AppInventorLogo" width="28" height="28" /></p>
 </li>
- 	<li><p class="western">Переконайтесь, що ваш <span lang="uk-UA">комп'ютері і телефон під'єднані до однієї й тієї ж мережі </span>wifi</p>
+ 	<li>
+<p class="western">Переконайтесь, що ваш <span lang="uk-UA">комп'ютері і телефон під'єднані до однієї й тієї ж мережі </span>wifi</p>
 </li>
- 	<li><p class="western">Запустіть знову ваше з'єднання, якщо у вас виникла помилка</p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/ResetConnection.png" alt="resetconnection" width="799" height="215" />
-</li>
- 	<li><p class="western">Якщо нічого не виходить — ось відео (англ), яке може допомогти: <a href="https://www.youtube.com/watch?v=cvoQg-Q_h7M&amp;list=PL5T8bmLxd_T3XKbSIvi1OfwBra5KFlKij&amp;index=5" target="_blank">PhilsComputerLab: Connecting with Wi-Fi</a></p>
+ 	<li>
+<p class="western">Запустіть знову ваше з'єднання, якщо у вас виникла помилка</p>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/ResetConnection.png" alt="resetconnection" width="799" height="215" /></li>
+ 	<li>
+<p class="western">Якщо нічого не виходить — ось відео (англ), яке може допомогти: <a href="https://www.youtube.com/watch?v=cvoQg-Q_h7M&amp;list=PL5T8bmLxd_T3XKbSIvi1OfwBra5KFlKij&amp;index=5" target="_blank" rel="noopener">PhilsComputerLab: Connecting with Wi-Fi</a></p>
 </li>
 </ol>
 <p class="western">Як тільки у вас вдалось все встановити і додаток працює, переходьте до виконання <u><a href="#talktome">Завдання</a></u></p>
 
 <h4 class="western"><a name="_3mtf1bfrzvlw"></a>USB-метод</h4>
 <p class="western">Цей метод найбільш технічно складний і потребує встановлення програми на ваш <span lang="uk-UA">комп'ютер. Його варто використовувати, якщо у вас є </span><b>Android-телефон чи планшет і немає wifi. </b></p>
-<p class="western">Використовуючи цей метод, ви будете створювати додатки на комп'ютері за допомогою App Inventor і тестувати їх на своєму телефоні, підключивши його за допомогою USB-кабеля. Вам потрібно буде завантажувати програмне забезпечення на ваш комп'ютер і додаток на свій телефон, щоб зробити це. Якщо ви використовуєте комп'ютер з Windows, також може знадобитися завантажити USB- драйвер для телефону. Для комп'ютерів Mac вам не потрібно турбуватися про USB-драйвери. Переглянути інструкції MIT для методу USB можна <a href="http://appinventor.mit.edu/explore/ai2/setup-device-usb.html" target="_blank">тут</a></p>
+<p class="western">Використовуючи цей метод, ви будете створювати додатки на комп'ютері за допомогою App Inventor і тестувати їх на своєму телефоні, підключивши його за допомогою USB-кабеля. Вам потрібно буде завантажувати програмне забезпечення на ваш комп'ютер і додаток на свій телефон, щоб зробити це. Якщо ви використовуєте комп'ютер з Windows, також може знадобитися завантажити USB- драйвер для телефону. Для комп'ютерів Mac вам не потрібно турбуватися про USB-драйвери. Переглянути інструкції MIT для методу USB можна <a href="http://appinventor.mit.edu/explore/ai2/setup-device-usb.html" target="_blank" rel="noopener">тут</a></p>
 <p class="western">Поради у випадку, якщо щось не вдається:</p>
 
 <ol>
  	<li>
-		<p class="western">Переконайтесь, що ви дійсно завантажили додаток MIT AI2 Companion на ваш телефон тут: <a href="https://play.google.com/store/apps/details?id=edu.mit.appinventor.aicompanion3&amp;hl=en" target="_blank">AI Companion App</a>. Лого має такий вигляд:<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/unnamed.png" alt="AppInventorLogo" width="29" height="29" /></p>
+<p class="western">Переконайтесь, що ви дійсно завантажили додаток MIT AI2 Companion на ваш телефон тут: <a href="https://play.google.com/store/apps/details?id=edu.mit.appinventor.aicompanion3&amp;hl=en" target="_blank" rel="noopener">AI Companion App</a>. Лого має такий вигляд:<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/unnamed.png" alt="AppInventorLogo" width="29" height="29" /></p>
 </li>
  	<li>
-<p class="western">Запустіть знову <span lang="uk-UA">з'єднання, якщо виникла помилка</span></p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/ResetConnection.png" alt="resetconnection" width="799" height="215" />
-</li>
+<p class="western">Запустіть знову <span lang="uk-UA">з'єднання, якщо виникла помилка</span></p>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/ResetConnection.png" alt="resetconnection" width="799" height="215" /></li>
  	<li>
-		<p class="western">Вам може знадобитися включити режим розробника, перш ніж вони з'являються в налаштуваннях. Ось хороша стаття, в якій розповідається, як включити режим розробника і налагодити USB на більшості телефонів Android: <a href="http://www.howtogeek.com/129728/how-to-access-the-developer-options-menu-and-enable-usb-debugging-on-android-4.2/" target="_blank">howtogeek</a>.</p>
+<p class="western">Вам може знадобитися включити режим розробника, перш ніж вони з'являються в налаштуваннях. Ось хороша стаття, в якій розповідається, як включити режим розробника і налагодити USB на більшості телефонів Android: <a href="http://www.howtogeek.com/129728/how-to-access-the-developer-options-menu-and-enable-usb-debugging-on-android-4.2/" target="_blank" rel="noopener">howtogeek</a>.</p>
 </li>
  	<li>
 <p class="western">Можливо, вам доведеться відповісти на певні запитання в телефоні, перш ніж програма зможе зв<span lang="en-US">'</span><span lang="uk-UA">язатись з вашим комп</span><span lang="en-US">'</span><span lang="uk-UA">ютером. </span></p>
@@ -190,66 +191,64 @@
 <p class="western">Windows</p>
 
 <ol>
- 	<li><p class="western">Переконайтесь, що aiStarter працює. Можливо, вам доведеться пошукати його і запустити.</p>
+ 	<li>
+<p class="western">Переконайтесь, що aiStarter працює. Можливо, вам доведеться пошукати його і запустити.</p>
 </li>
-	<li><p class="western"><span lang="uk-UA">Вам може знадобитись драйвер, щоб з'єднати ваш телефон з комп'ютером. Ось документація </span>MIT щодо того, як встановлювати драйвер <a href="http://appinventor.mit.edu/explore/ai2/connect-USB-win.html" target="_blank">MIT USB help</a></p>
- 	<ol type="a">
- 	<li><p class="western">Вам потрібно пошукати правильний драйвер для вашого телефону. Документація MIT допоможе вам.</p>
+ 	<li>
+<p class="western"><span lang="uk-UA">Вам може знадобитись драйвер, щоб з'єднати ваш телефон з комп'ютером. Ось документація </span>MIT щодо того, як встановлювати драйвер <a href="http://appinventor.mit.edu/explore/ai2/connect-USB-win.html" target="_blank" rel="noopener">MIT USB help</a></p>
+
+<ol type="a">
+ 	<li>
+<p class="western">Вам потрібно пошукати правильний драйвер для вашого телефону. Документація MIT допоможе вам.</p>
 </li>
-		<li><p class="western">Можливо, вам знадобиться оновити драйвер на вашому <span lang="uk-UA">комп'ютері, навіть якщо ви встановили новий драйвер. Інструкція про те, як це зробити:</span> <a href="https://technet.microsoft.com/en-us/library/cc730965(v=ws.11).aspx" target="_blank">Update Driver Instructions</a></p>
+ 	<li>
+<p class="western">Можливо, вам знадобиться оновити драйвер на вашому <span lang="uk-UA">комп'ютері, навіть якщо ви встановили новий драйвер. Інструкція про те, як це зробити:</span> <a href="https://technet.microsoft.com/en-us/library/cc730965(v=ws.11).aspx" target="_blank" rel="noopener">Update Driver Instructions</a></p>
 </li>
 </ol>
 </li>
 </ol>
 <p class="western">Допоміжні відко</p>
 
-<ol>
- 	<li>
-		<p class="western">Відео про те, як налаштувати ваш <span lang="uk-UA">комп'ютер (</span>1:20-3:22) <a href="https://www.youtube.com/v/bqdQC-0eH1w?start=80&amp;end=202" target="_blank">PhilsComputerLab: Setting up your PC</a></p>
-</li>
- 	<li>
-		<p class="western">Відео, як налаштувати ваш телефон (зауважте, що вам не потрібен додатковий додаток QR reader (0:00 - 2:01) <a href="https://www.youtube.com/v/uUPY1_PJPnQ?start=0&amp;end=121" target="_blank">PhilsComputerLab: Setting up your Phone</a></p>
-</li>
- 	<li>
-		<p class="western">Після того, як ви все встновили, ось як <span lang="uk-UA">під'єднатись за допомогою </span>USB-кабелю: <a href="https://www.youtube.com/watch?v=vNIOMJCkKWI" target="_blank">PhilsComputerLab: Connecting with USB cable</a></p>
-</li>
-</ol>
 <p class="western">Як тільки ви все встановили, переходьте до виконання <a href="#_bju67dhwyul3">Завдання</a></p>
 
 <h4 class="western">Метод емулятора</h4>
 <p class="western">Цей метод може бути дуже складним в застосуванні, особливо для Windows, і він не рекомендується командою Technovation. Ви можете скористатись цим методом, якщо у вас немає А<b>ndroid-телефону чи планшету.</b></p>
-<p class="western">Емулятор — це програма, яка дозволяє вам запустити віртуальний телефон на вашому <span lang="uk-UA">комп'ютері. Завдяки методу емулятора ви зможете розробити мобільний додаток на вашому комп'ютері і тестувати його, використовуючи емулятор. Інструкції щодо використання методу емулятора (англ)</span> <a href="http://appinventor.mit.edu/explore/ai2/setup-emulator.html" target="_blank">тут</a>.</p>
+<p class="western">Емулятор — це програма, яка дозволяє вам запустити віртуальний телефон на вашому <span lang="uk-UA">комп'ютері. Завдяки методу емулятора ви зможете розробити мобільний додаток на вашому комп'ютері і тестувати його, використовуючи емулятор. Інструкції щодо використання методу емулятора (англ)</span> <a href="http://appinventor.mit.edu/explore/ai2/setup-emulator.html" target="_blank" rel="noopener">тут</a>.</p>
 <p class="western">Поради, якщо ви зіштовхнулись зі складнощами:</p>
 
 <ol>
- 	<li><p class="western">В Windows переконайтесь, що aiStarter працює. Можливо, доведеться його пошукати і запустити.</p>
+ 	<li>
+<p class="western">В Windows переконайтесь, що aiStarter працює. Можливо, доведеться його пошукати і запустити.</p>
 </li>
- 	<li><p class="western"><span lang="uk-UA">Емулятор може виснути</span>.</p>
+ 	<li>
+<p class="western"><span lang="uk-UA">Емулятор може виснути</span>.</p>
 </li>
- 	<li><p class="western">Переконайтеся, що телефон не підключений до комп'ютера.</p>
+ 	<li>
+<p class="western">Переконайтеся, що телефон не підключений до комп'ютера.</p>
 </li>
- 	<li><p class="western">Перевантажте з'єднання, якщо виникла помилка чи емулятор не відповідає.</p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/ResetConnection.png" alt="resetconnection" width="799" height="215" />
-</li>
-	<li><p class="western">Сторінка MIT з порадами щодо емулятора: <a href="https://docs.google.com/document/d/1NbJRyCA9udxdU3oNyadR0fuvNglijYR7X3mVB_ZIeNU/edit" target="_blank">MIT Help page</a></p>
-</li>
-	<li><p class="western">Ось відео, яке допоможе встановити емулятор (англ): <a href="https://www.youtube.com/watch?v=8jjeMLwVAlE" target="_blank">PhilsComputerLab:Using the Emulator</a></p>
+ 	<li>
+<p class="western">Перевантажте з'єднання, якщо виникла помилка чи емулятор не відповідає.</p>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/ResetConnection.png" alt="resetconnection" width="799" height="215" /></li>
+ 	<li>
+<p class="western">Ось відео, яке допоможе встановити емулятор (англ): <a href="https://www.youtube.com/watch?v=ly9RSDPWOEw" target="_blank" rel="noopener">Using the Emulator</a></p>
 </li>
 </ol>
 <p class="western">Як тільки ви все встановили і все працює, переходьте до виконання завдання</p>
 
-<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
 <h3 class="western"><a name="_nqkabxorgsgj"></a>Завдання</h3>
 <p class="western">Пройдіть ці два навчальні курси. Вони допоможуть вам створити ваш перший додаток в App Inventor. У посібнику передбачається, що ви використовуєте метод Wi-Fi. Якщо ви використовуєте емуляторі або USB-метод, зверніться до наведених вище інструкцій для підключення телефону. Пам'ятайте, що це ваш перший додаток, так що не переживайте, якщо щось не вдається!</p>
 
-<h4 class="western" style="color:white">Навчальний курс 1: Говори зі мною. Частина I</h4>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Vdo8UdkgDD8" frameborder="0" allowfullscreen></iframe></p>
-	<a href="http://appinventor.mit.edu/explore/sites/all/files/hourofcode/TalkToMePart1.pdf" target="_blank" style="color:#eae46f">Завантажити pdf версію (англ)</a>
+<h4 class="western" style="color: white;">Навчальний курс 1: Говори зі мною. Частина I</h4>
+<iframe src="https://www.youtube.com/embed/Vdo8UdkgDD8" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
-<h4 class="western" style="color:white">Навчальний курс 2: Говори зі мною. Частина ІІ</h4>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/0hikoCvM3oc" frameborder="0" allowfullscreen></iframe></p>
-<a href="http://appinventor.mit.edu/explore/sites/all/files/hourofcode/TalkToMePart2.pdf" target="_blank" style="color:#eae46f">Завантажити pdf версію (англ)</a>
+<a style="color: #eae46f;" href="http://appinventor.mit.edu/explore/sites/all/files/hourofcode/TalkToMePart1.pdf" target="_blank" rel="noopener">Завантажити pdf версію (англ)</a>
+<h4 class="western" style="color: white;">Навчальний курс 2: Говори зі мною. Частина ІІ</h4>
+<iframe src="https://www.youtube.com/embed/0hikoCvM3oc" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+<a style="color: #eae46f;" href="http://appinventor.mit.edu/explore/sites/all/files/hourofcode/TalkToMePart2.pdf" target="_blank" rel="noopener">Завантажити pdf версію (англ)</a>
+
 </div>
-
 <h3 id="event" class="western"><a name="_oaice6ojmcqz"></a>Обробник подій</h3>
 <p class="western">Коли ви розробляли додаток Говори зі мною, ви використовували різні можливості App Inventor (дизайнерські, блоки). Кожен раз, коли ви створюєте елемент дизайну в вашому додатку, ви повинні сказати комп'ютеру, що елемент повинен робити! Вся ця інформація буде в ваших блоках.</p>
 <p class="western">Ось чому App Inventor називається «блок<span lang="uk-UA">ами</span> мови програмування”. Для кожного елементу, який ви запланували з дизайнерського боку, ви повинні сказати комп'ютеру, що з ним робити, і коли він повинен зробити це. Це називають <b>обробкою подій (event handling)</b>.</p>
@@ -258,53 +257,57 @@
 <img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Screen-Shot-2016-08-26-at-1.04.52-PM.png" alt="screen-shot-2016-08-26-at-1-04-52-pm" width="334" height="108" />
 <p class="western">Подією тут є те, що користувач натискає на кнопку, і додаток обробляє це, викликаючи TextToSpeech. Це буде дуже мати на увазі цей процес. Коли ви кодите, ви повинні думати про те, що ви хочете, щоб додаток робив і коли.</p>
 
-<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
 <h3 class="western">Завдання</h3>
 <p class="western">Подумайте над кількома прикладами обробки подій, який здійснює ваш телефон. Ось кілька для початку:</p>
 
 <ul>
- 	<li><p class="western">Коли ви натискаєте кнопку “відіслати” (send) для текстового повідомлення, телефон надсилає повідомлення і видає звуковий сигнал</p>
+ 	<li>
+<p class="western">Коли ви натискаєте кнопку “відіслати” (send) для текстового повідомлення, телефон надсилає повідомлення і видає звуковий сигнал</p>
 </li>
- 	<li><p class="western">Коли ви намагаєтесь придбати чи завантажити додаток з магазину додатків, телефон запитує пароль</p>
+ 	<li>
+<p class="western">Коли ви намагаєтесь придбати чи завантажити додаток з магазину додатків, телефон запитує пароль</p>
 </li>
- 	<li><p class="western">Коли ви натискаєте на зображення додатку на телефоні, додаток відкривається</p>
+ 	<li>
+<p class="western">Коли ви натискаєте на зображення додатку на телефоні, додаток відкривається</p>
 </li>
 </ul>
 </div>
-
 <h3 id="func" class="western">Функції</h3>
 <p class="western">Коли ви зайшли на екран блоків в App Inventor, чи помітили ви різницю в категоріях вбудованих функцій? Вони мають такий вигляд:</p>
 <img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/technovation2.jpg" alt="technovation2" width="139" height="190" />
 <p class="western">Функції — це блоки коду, які виконують свою роботу. Вони приймають <b>input (вхід)</b> і виробляють <b>output (вихід)</b>. <b>Input — це </b>інформація, яка приходить в функцію, а <b>output</b> - це інформація, яка повертається до вас. У навчальному курсі Говори зі мною, ви використовували функцію “Мовлення в текст”, яка приймає текст і перетворює його в мову. Введення тексту і на виході - мова! <span lang="uk-UA">Так я</span>к ви будете продовжувати вчитися і програмувати, функції та їх входи і виходи матимуть більше сенсу.</p>
-<p class="western">Вбудовані функції в App Inventor є основою того, що ви будете використовувати, щоб розробити власний додаток. Всі мови програмування мають вбудовані функції, і хороші програмісти знають, як поєднати ці функції для того, щоб змусити комп'ютер робити те, що вони хочуть. Після того, як ви дізнаєтесь, як користуватися кожною з цих функцій, ви можете об'єднувати їх усіх по-різному, щоб зробити ваш додаток! Ви дізнаєтеся, як використовувати ці функції в наступних підрозділа: Дані та змінні, Логіка, цикли і умовні.</p>
+<p class="western">Вбудовані функції в App Inventor є основою того, що ви будете використовувати, щоб розробити власний додаток. Всі мови програмування мають вбудовані функції, і хороші програмісти знають, як поєднати ці функції для того, щоб змусити комп'ютер робити те, що вони хочуть. Після того, як ви дізнаєтесь, як користуватися кожною з цих функцій, ви можете об'єднувати їх усіх по-різному, щоб зробити ваш додаток! Ви дізнаєтеся, як використовувати ці функції в наступних підрозділа: <a href="https://technovationchallenge.org/curriculum/code-2">Дані та змінні</a>, <a href="https://technovationchallenge.org/curriculum/code-3">Логіка, цикли і умовні.</a></p>
 
-<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
 <h3 class="western"><a name="_9nju5whyz1a"></a>Завдання</h3>
 <p class="western"><span lang="uk-UA">Перед тим, як продовжити, давайте ще попрограмуємо! Чи можете ви удосконалити ваш додаток Говори зі мною</span>? Ось кілька ідей!</p>
 
 <ol>
- 	<li><p class="western">Змініть тон голосу в компоненті мова в текст. Натисніть на блок мова в текст і знайдіть властивості тонів. Ви можете дати своєму голосу висоту 0, 1 або 2.</p>
+ 	<li>
+<p class="western">Змініть тон голосу в компоненті мова в текст. Натисніть на блок мова в текст і знайдіть властивості тонів. Ви можете дати своєму голосу висоту 0, 1 або 2.</p>
 
 <ol type="a">
-	<li><p class="western">Перевірка (англ) : <a href="http://ai2.appinventor.mit.edu/reference/components/media.html#TextToSpeech" target="_blank" style="color:#eae46f">App Inventor TextToSpeech Information</a></p>
+ 	<li>
+<p class="western">Перевірка (англ) : <a style="color: #eae46f;" href="http://ai2.appinventor.mit.edu/reference/components/media.html#TextToSpeech" target="_blank" rel="noopener">App Inventor TextToSpeech Information</a></p>
 </li>
 </ol>
 </li>
- 	<li><p class="western">Використовуйте сенсор Розпізнавач мови <i>Speech Recognizer, </i><span lang="ru-RU">щоб</span> <span lang="ru-RU">ваш телефон повторив або роздрукував те, що ви кажете</span>!</p>
+ 	<li>
+<p class="western">Використовуйте сенсор Розпізнавач мови <i>Speech Recognizer, </i><span lang="ru-RU">щоб</span> <span lang="ru-RU">ваш телефон повторив або роздрукував те, що ви кажете</span>!</p>
 </li>
 </ol>
 <p class="western"><span lang="uk-UA">В кінці кожного підрозділу з кодування ви матимете спеціальні завдання, які потрібно виконати і показати ментору для того, щоб він міг надати свій відгук. Це допоможе вам вивчити основні засади програмування та допоможе розробити фінальний додаток.</span></p>
-	</div>
-	
+
+</div>
 <h1 id="challenge" class="western"><span lang="uk-UA">Завдання з</span> кодування #1: Створити Slide Show</h1>
 <p class="western">Виклик: Створити додаток, який дозволяє користувачу клікати по slideshow ваших улюблених картинок!</p>
-<p class="western">Завантажте наш навчальний додаток на Google Play store <a href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.Slideshow" target="_blank">тут</a>. Під час цього завдання ви навчитесь, як змінювати екрани в додатку, завантажувати власні картинки. Якщо у вас виникнуть труднощі, нижче будуть вказані шляхи їх вирішення. Спробуйте разом з командою спершу їх вирішити, або порадьтесь з ментором перед тим, як читати наші поради!</p>
-&nbsp;
-<p style="text-align: center;"><strong><a href="http://www.technovationchallenge.org/curriculum/code-1-challenge/" target="_blank">Переглянути інструкції</a></strong></p>
-<p style="text-align: center;"><strong><a href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.Slideshow" target="_blank">Завантажити зразок додатку </a></strong></p>
+<p class="western">Завантажте наш навчальний додаток на Google Play store <a href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.Slideshow" target="_blank" rel="noopener">тут</a>. Під час цього завдання ви навчитесь, як змінювати екрани в додатку, завантажувати власні картинки. Якщо у вас виникнуть труднощі, нижче будуть вказані шляхи їх вирішення. Спробуйте разом з командою спершу їх вирішити, або порадьтесь з ментором перед тим, як читати наші поради!</p>
+<p style="text-align: center;"><strong><a href="http://www.technovationchallenge.org/curriculum/code-1-challenge/" target="_blank" rel="noopener">Переглянути інструкції</a></strong></p>
+<p style="text-align: center;"><strong><a href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.Slideshow" target="_blank" rel="noopener">Завантажити зразок додатку </a></strong></p>
 
-<div style="background-color:#006667; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
-<h2 id="reflect" class="western" style="color:white">Підсумки</h2>
+<div style="background-color: #006667; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h2 id="reflect" class="western" style="color: white;">Підсумки</h2>
 <p class="western">В цьому уроці ми навчились багато! Ви дізнались багато корисного, щоб почати писати ваші перші програми! Ось кілька запитань для вас до обговорення з командою, з ментором для підбиття підсумків:</p>
 <p class="western">Запитання 1: Що було найскладнішим під час роботи з App Inventor? Де виникали труднощі?</p>
 <p class="western">Запитання 2: Що саме з вказаного розділу було найбільш корисним для розробки вашого додатку?</p>
