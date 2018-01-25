@@ -27,24 +27,23 @@
 
 <center><iframe src="https://www.youtube.com/embed/IlFAwSj-YsQ" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></center>&nbsp;
 
-Якщо у вас є специфічні питання до App Inventor під час дебагінгу, ось форум App Inventor , до якого можна доєднатись <a href="https://groups.google.com/forum/#!forum/mitappinventortest" target="_blank">тут</a>, а потім там ставити свої запитання. Незважаючи на те, що App Inventor спільнота переважно дуже дружня, намагається допомогти і відповідати на запиатння, спробуйте спершу пошукати на форумі, чи хтось вже не ставив подібні запитання і чи нема там відповідей. Це дійсно збереже вам час.
+Якщо у вас є специфічні питання до App Inventor під час дебагінгу, ось форум App Inventor , до якого можна доєднатись <a href="https://groups.google.com/forum/#!forum/mitappinventortest" target="_blank" rel="noopener">тут</a>, а потім там ставити свої запитання. Незважаючи на те, що App Inventor спільнота переважно дуже дружня, намагається допомогти і відповідати на запиатння, спробуйте спершу пошукати на форумі, чи хтось вже не ставив подібні запитання і чи нема там відповідей. Це дійсно збереже вам час.
 <h5 id="testdata"><span lang="UK"><strong>Використання тестових даних</strong> (test data)</span></h5>
 Якщо у вас дійсно багато складних даних для вашого додатку, добре було б використати тестові дані (test data). Тестові дані — це простіший набір даних, який ви використовуватиме виключно для тестування вашого додатку, щоб переконатись, що він працює правильно.
 
 Як приклад, уявімо, що ви створюєте додаток, який показуватиме користувачеві найближчі ресторани. Ви захочете використати таблиці (fusion tables), щоб зберігати назви ресторанів, локаційні дані, номери телефонів. Щоб почати розробку додатку, вам не потрібно повний список даних у ваших таблицях (fusion tables). Ви можете просто додати один чи два ресторани і запустити свій додаток перед тим, як додавати справжні дані.
-
-<div style="background-color:#421b41; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
 <blockquote>
 <p style="text-align: center;">“Досить важко знайти помилку в коді, коли ти її шукаєш. Ще важче, коли ти думаєш, що твій код без помилок.”</p>
 </blockquote>
 &nbsp;
 <p align="right">–Стів Макконел (Steve McConnell), експерт з програмування, автор</p>
-</div>
 
+</div>
 <h5 id="notifer"><span lang="UK"><strong>Використання сповіщень</strong> (Notifer)</span></h5>
 Припустимо, ваш додаток перестав працювати і ви не знаєте, чому. Ви можете використовувати сповіщення, щоб відмітити, коли код зламався. Щоб поставити сповіщення (notifier) у ваш додаток, потягніть його з user interface palette. Він з'явиться як невидимий компонент:
 
-<a href="non-visible notifer"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image00-1.png" alt="image00" width="289" height="120" /></a>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image00-1.png" alt="image00" width="289" height="120" />
 
 Ви можете ці сповіщення, щоб отримувати повідомлення, де додаток не спрацював. До прикладу, якщо ви використовували if statement в додатку, щоб відбулась певна процедура. Коли ви обираєте Option 1 і очікуєте, що Procedure1 станеться. Однак, коли ви тестували додаток, нічого не сталось. Тоді ваш код має такий вигляд:
 
@@ -108,7 +107,7 @@
 
 До прикладу, якщо ваш проект називається “test”, ви можете зберегти його версія як “test_version2” і продовжувати додавати код до нього. Якщо щось піде не так, ви зможете повернутись до проекту під назвою “test”.
 
-<a href="e"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image09.png" alt="checkpoint" width="1000" height="700" /></a>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image09.png" alt="checkpoint" width="1000" height="700" />
 
 Опція “checkpoint” дозволяє зберегти код як він є під новими іменем.
 
@@ -118,9 +117,8 @@
 
 <center>
 <iframe src="https://www.youtube.com/embed/HNM5Mxf7eZU" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></center>
-
-<div style="background-color:#006667; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
-<h1 id="reflect" style="color:white"><strong><span lang="UK">Підсумки</span></strong></h1>
+<div style="background-color: #006667; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h1 id="reflect" style="color: white;"><strong><span lang="UK">Підсумки</span></strong></h1>
 Вітання! Ви майже завершили створення вашого додатку, який можна подати до Technovation. Робота вашої команди була важкою, але ви це зробили!
 
 Якщо це перший раз, коли ви створюєте додаток чи пишете код, ви точно дізнались дуже багато і подолали страх перед кодуванням! Деякі команди навіть подолали мовні бар'єри, бар'єри обмежених ресурсів, які не давали почати програмувати.
@@ -128,9 +126,9 @@
 Ми гордимось вами і сподіваємось, що ви гордитесь собою, результатами вашої роботи! Ви наполегливо і важко працювали, а також багато навчились одна від одної, від ваших менторів! Ви — джерело натхнення для нас і багатьох інших.
 
 &nbsp;
-<h3 style="color:white"><strong><span lang="UK">Додаткові ресурси</span></strong></h3>
+<h3 style="color: white;"><strong><span lang="UK">Додаткові ресурси</span></strong></h3>
 <ul>
- 	<li><a href="http://ai2.appinventor.mit.edu/reference/other/testing.html" target="_blank" style="color:#eae46f">MIT Testing Documentation</a></li>
- 	<li style="font-weight: 400;">А ось ще одне відео, яке допоможе тобі з дебагінгом: <a href="https://www.youtube.com/watch?v=itCnknI5PlY" target="_blank" style="color:#eae46f">Debugging Video</a></li>
+ 	<li><a style="color: #eae46f;" href="http://ai2.appinventor.mit.edu/reference/other/testing.html" target="_blank" rel="noopener">MIT Testing Documentation</a></li>
+ 	<li style="font-weight: 400;">А ось ще одне відео, яке допоможе тобі з дебагінгом: <a style="color: #eae46f;" href="https://www.youtube.com/watch?v=itCnknI5PlY" target="_blank" rel="noopener">Debugging Video</a></li>
 </ul>
 </div>
