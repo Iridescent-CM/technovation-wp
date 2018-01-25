@@ -26,7 +26,7 @@
 
 Використовуйте цей розділ з кодування, зважаючи на те, які можливості ваш додаток може запропонувати. Вам не потрібно випробовувати всі компоненти, складові, які розглядаються в цьому розділі, але ми радимо поекспериментувати, випробувати всі, щоб обрати собі ті, які найбільше підходять до вашого додатку.
 
-Додатково перегляньте <a href="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Judging-Rubric-2017.pdf" target="_blank">Technovation 2017 Judging Rubric</a> і <a href="http://www.technovationchallenge.org/wp-content/uploads/2017/01/Technical-Checklist-2017.pdf" target="_blank">Technical Checklist</a>.
+Додатково перегляньте <a href="/?p=17262" target="_blank">Technovation Judging Rubric</a> і <a href="/?p=20244" target="_blank">Code Checklist</a>.
 <h3 id="ui"><span lang="UK">User Interface <strong>складові</strong></span></h3>
 Це можливості, які можуть бути додані до вашого додатку, завдяки яким користувач може взаємодіяти з додатком. Дізнайтесь більше на сайті <a href="http://ai2.appinventor.mit.edu/reference/components/userinterface.html" target="_blank">MIT.</a>
 <h5><span lang="UK">Notifier (<strong>Сповіщення</strong>)</span></h5>
@@ -60,7 +60,7 @@
 <h5>SoundRecorder (<strong>Запис звуку</strong>)</h5>
 Дозволяє користувачу записувати звук або шум. Ось <a href="http://puravidaapps.com/snippets.php#2soundrecorder" target="_blank">приклад</a>, як використовується запис аудіо в Pura Vida Apps.
 <h5>Player (<strong>Програвач</strong>)</h5>
-Цей аудіо-компонент, який відтворює звук. Краще працює для “довгих” звуків, таки як пісні, промови чи вірші. Ось  <a href="https://www.youtube.com/watch?v=4tB_BuV1tew">н</a><a href="https://www.youtube.com/watch?v=4tB_BuV1tew" target="_blank">авчальні </a><a href="https://www.youtube.com/watch?v=4tB_BuV1tew"> матеріали</a> та <a href="https://www.youtube.com/watch?v=ajG0NSsX0q4" target="_blank">огляди</a>.
+Цей аудіо-компонент, який відтворює звук. Краще працює для “довгих” звуків, таки як пісні, промови чи вірші. Ось  <a href="https://www.youtube.com/watch?v=4tB_BuV1tew" target="_blank">навчальні матеріали</a> та <a href="https://www.youtube.com/watch?v=ajG0NSsX0q4" target="_blank">огляди</a>.
 
 Відео-програвачі — подібні компоненти, але працюють краще для відео, аніж тільки для аудіо.
 <h5>Sound (<strong>Звук</strong>)</h5>
@@ -115,9 +115,9 @@ App Inventor дозволяє програмувати сенсори! Ваш т
 <h5>ActivityStarter (<strong>Початок дій</strong>)</h5>
 Дозволяє вашому додатку запускати інші додатки, які встановлені на телефоні користувача. Це можуть бути додатки, які так само створені в App Inventor або інші. Або ж такі як Camera чи Maps, які були першочергово встановлені на пристрої. Ось кілька навчальних матеріалів:
 <ul>
- 	<li style="font-weight: 400;"><a href="http://ai2.appinventor.mit.edu/reference/other/activitystarter.html">Tutorial 1</a></li>
- 	<li style="font-weight: 400;"><a href="https://www.youtube.com/watch?v=rS8VChJ6X0g">Tutorial 2</a></li>
- 	<li style="font-weight: 400;"><a href="https://www.youtube.com/watch?v=Cz_2uH0jqAs">Tutorial 3</a></li>
+ 	<li style="font-weight: 400;"><a href="http://ai2.appinventor.mit.edu/reference/other/activitystarter.html" target="_blank">Tutorial 1</a></li>
+ 	<li style="font-weight: 400;"><a href="https://www.youtube.com/watch?v=rS8VChJ6X0g" target="_blank">Tutorial 2</a></li>
+ 	<li style="font-weight: 400;"><a href="https://www.youtube.com/watch?v=Cz_2uH0jqAs" target="_blank">Tutorial 3</a></li>
 </ul>
 <h5>Web</h5>
 Цей компонент дозволяє вашому додатку отримувати інформацію з веб-сайтів. Він дозволяє отримувати інформацію і використовувати її без веб-браузера у вашому додатку. Ось <a href="http://explore.appinventor.mit.edu/ai2/stockquotes" target="_blank">навчальний матеріал</a>.
@@ -138,7 +138,7 @@ Web база даних працює трішки інакше. Уявімо, щ
 <p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/local-databig.png" alt="local-databig" width="101" height="186" /></p>
 
 <h5 style="text-align: center;">Web Database Storage</h5>
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/web-databasebig.png" alt="web-databasebig" width="380" height="470" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/web-databasebig.png" alt="web-databasebig" width="380" height="470" />
 
 Web база даних також може бути оновлена в будь-який час і телефони, які її використовують, будуть враховувати ці зміни.
 
@@ -169,7 +169,7 @@ TinyWebDB — це щось подібне до TinyDB, бо теж викори
 
 Навіть якщо ваш додаток не потребує даних, які потрібно поширити між телефонами, ми все ж можете встановити TinyWebDB!
 
-Щоб використовувати TinyWebDB, вам потрібно встановити ваш веб-сервіс, де дані будуть зберігатись і отримуватись. Ось інструкція MIT, як це зробити: <a href="http://appinventor.mit.edu/explore/ai2/custom-tinywebdb.html">Custom TinyWebDB</a>. Якщо все ж виникають труднощі зі встановленням TinyWebDB, скористайтесь цими <a href="https://www.youtube.com/watch?v=qawFgeJldAQ">інструкціями</a>.
+Щоб використовувати TinyWebDB, вам потрібно встановити ваш веб-сервіс, де дані будуть зберігатись і отримуватись. Ось інструкція MIT, як це зробити: <a href="http://appinventor.mit.edu/explore/ai2/custom-tinywebdb.html" target="_blank">Custom TinyWebDB</a>. Якщо все ж виникають труднощі зі встановленням TinyWebDB, скористайтесь цими <a href="https://www.youtube.com/watch?v=qawFgeJldAQ" target="_blank">інструкціями</a>.
 
 TinyWebDB — невидимий компонент, чи такий, який не з'являється на екрані:
 
