@@ -1,157 +1,136 @@
 <h1>Pitch 2</h1>
 <h1>Erstelle ein Demovideo</h1>
 <ul>
- 	<li><a href="#demo">Was ist ein Demovideo?</a></li>
- 	<li><a href="#req">Voraussetzungen</a></li>
- 	<li><a href="#act">Aktivität</a></li>
- 	<li><a href="#outline">Gliedere dein Video</a></li>
- 	<li><a href="#prod">Produziere dein Video</a></li>
- 	<li><a href="#reflect">Reflexion</a></li>
+<li><a href="#demo">Was ist ein Demovideo?</a></li>
+<li><a href="#req">Voraussetzungen</a></li>
+<li><a href="#act">Aktivität</a></li>
+<li><a href="#outline">Gliedere dein Video</a></li>
+<li><a href="#prod">Produziere dein Video</a></li>
+<li><a href="#reflect">Reflexion</a></li>
 </ul>
 <h2><b>Lernziele:</b></h2>
-In dieser Einheit wirst du lernen...
+<p>In dieser Einheit wirst du lernen...</p>
 <ul>
- 	<li style="font-weight: 400">Was ein gutes Demovideo ausmacht</li>
- 	<li style="font-weight: 400">Wie du die Gliederung für dein Demovideo erstellst</li>
- 	<li style="font-weight: 400">Praktische Tipps, wie du ein Demovideo produzierst</li>
+<li style="font-weight: 400">Was ein gutes Demovideo ausmacht</li>
+<li style="font-weight: 400">Wie du die Gliederung für dein Demovideo erstellst</li>
+<li style="font-weight: 400">Praktische Tipps, wie du ein Demovideo produzierst</li>
 </ul>
 <h3>Was ist ein Demovideo?</h3>
-Ein<b> Demovideo</b> ist eine Produktpräsentation—du zeigst die von dir erstellte App mit all ihren großartigen Funktionen! Das Demovideo sollte dem Zuschauer den Eindruck vermitteln, dass er selber die App verwendet, damit er verstehen kann wie die App funktioniert, wie er sie nutzen kann und wie sie ihm helfen kann. Du willst erklären, wie die App funktioniert, damit die Zuschauer sie im Anschluss selber verwenden können!
+<p>Ein<b> Demovideo</b> ist eine Produktpräsentation—du zeigst die von dir erstellte App mit all ihren großartigen Funktionen! Das Demovideo sollte dem Zuschauer den Eindruck vermitteln, dass er selber die App verwendet, damit er verstehen kann wie die App funktioniert, wie er sie nutzen kann und wie sie ihm helfen kann. Du willst erklären, wie die App funktioniert, damit die Zuschauer sie im Anschluss selber verwenden können!</p>
 <blockquote>
 <p style="text-align: center">“Ideas are easy. Implementation is hard.”</p>
 </blockquote>
 <p style="text-align: right">–Guy Kawasaki, Amerikanischer Marketing Spezialist und Silicon Valley Risikokapitalgeber</p>
-
 <h3>Demovideo Voraussetzungen</h3>
-Bevor du damit beginnst dein Demovideo zu erstellen, lass uns noch einmal anschauen für welche Leistungen du später bewertet wirst:
+<p>Bevor du damit beginnst dein Demovideo zu erstellen, lass uns noch einmal anschauen für welche Leistungen du später bewertet wirst:</p>
 <ul>
- 	<li style="font-weight: 400"><b>Das Video kann bis zu 2 Minuten lang sein. </b>Ein Demovideo sollte kurz sein—sogar kürzer als ein Videopitch. Es sollte alleine verstehbar sein und sich auf die Funktionen der App konzentrieren.</li>
+<li style="font-weight: 400"><b>Das Video kann bis zu 2 Minuten lang sein. </b>Ein Demovideo sollte kurz sein—sogar kürzer als ein Videopitch. Es sollte alleine verstehbar sein und sich auf die Funktionen der App konzentrieren.</li>
 </ul>
 <ul>
- 	<li style="font-weight: 400"><b>Demonstriere die Funktionen deiner App klar. </b>Hier kannst du beliebig kreativ werden! Verwende unterschiedliche Methoden um deine Geschichte zu erzählen. Einige Beispiele sind: Sketche, Präsentationen, Nutzermeinungen oder Interviews. du kannst auch Texte, Pfeile oder Bilder in deinem Video verwenden um zu zeigen, worüber du sprichst.</li>
+<li style="font-weight: 400"><b>Demonstriere die Funktionen deiner App klar. </b>Hier kannst du beliebig kreativ werden! Verwende unterschiedliche Methoden um deine Geschichte zu erzählen. Einige Beispiele sind: Sketche, Präsentationen, Nutzermeinungen oder Interviews. du kannst auch Texte, Pfeile oder Bilder in deinem Video verwenden um zu zeigen, worüber du sprichst.</li>
 </ul>
 <ul>
- 	<li style="font-weight: 400"><b>Betone die einzigartigen Funktionen deiner App. </b>Zeige alle tollen Dinge, die du entwickelt hast. Diese Funktionen helfen dir dabei dich von der Menge zu unterscheiden! Wenn du sie auf eine originelle Weise zeigen kannst, noch besser!</li>
+<li style="font-weight: 400"><b>Betone die einzigartigen Funktionen deiner App. </b>Zeige alle tollen Dinge, die du entwickelt hast. Diese Funktionen helfen dir dabei dich von der Menge zu unterscheiden! Wenn du sie auf eine originelle Weise zeigen kannst, noch besser!</li>
 </ul>
 <ul>
- 	<li style="font-weight: 400"><b>Konzentriere dich auf die Benutzeroberfläche.</b> Viele Jurymitglieder werden dieses Video nutzen, um zu verstehen wie deine App funktioniert und wie der Nutzer sie bedienen wird. Es ist also wichtig zu zeigen, wie und warum eure App das Problem in eurer Gemeinde löst.
+<li style="font-weight: 400"><b>Konzentriere dich auf die Benutzeroberfläche.</b> Viele Jurymitglieder werden dieses Video nutzen, um zu verstehen wie deine App funktioniert und wie der Nutzer sie bedienen wird. Es ist also wichtig zu zeigen, wie und warum eure App das Problem in eurer Gemeinde löst.
 <ul>
- 	<li style="font-weight: 400">zeigt, wie der Nutzer in der App von einem Bildschirm zum nächsten gelangt. Die Jurymitglieder wollen sicher sein, dass eure App keine Fehler enthält und dass Nutzer keine Probleme dabei hat, herauszufinden wie man sie bedient.</li>
+<li style="font-weight: 400">zeigt, wie der Nutzer in der App von einem Bildschirm zum nächsten gelangt. Die Jurymitglieder wollen sicher sein, dass eure App keine Fehler enthält und dass Nutzer keine Probleme dabei hat, herauszufinden wie man sie bedient.</li>
 </ul>
 </li>
 </ul>
 <ul>
- 	<li style="font-weight: 400"><b>Das Video muss bei YouTube oder Vimeo hochgeladen werden. Deine Einreichung sollte für die Jurymitglieder über einen Link auf der Technovation Plattform erreichbar sein. Du musst das Video hochladen und den Link dazu teilen; wir empfehlen dir YouTube oder Vimeo zu nutzen, aber so lange dein Video für die Jurymitglieder zugänglich ist, kannst du es auch woanders hochladen. Du kannst dein Video auch nur </b><a href="https://support.google.com/youtube/answer/157177?co=GENIE.Platform%3DDesktop&amp;hl=enhttps://support.google.com/youtube/answer/157177#unlisted" target="_blank" rel="noopener">privat oder ungelistet</a> einstellen, so dass nur Leute, die die URL des Videos kennen, es sich auch ansehen können.</li>
+<li style="font-weight: 400"><b>Das Video muss bei YouTube oder Vimeo hochgeladen werden. Deine Einreichung sollte für die Jurymitglieder über einen Link auf der Technovation Plattform erreichbar sein. Du musst das Video hochladen und den Link dazu teilen; wir empfehlen dir YouTube oder Vimeo zu nutzen, aber so lange dein Video für die Jurymitglieder zugänglich ist, kannst du es auch woanders hochladen. Du kannst dein Video auch nur </b><a href="https://support.google.com/youtube/answer/157177?co=GENIE.Platform%3DDesktop&amp;hl=enhttps://support.google.com/youtube/answer/157177#unlisted" target="_blank" rel="noopener">privat oder ungelistet</a> einstellen, so dass nur Leute, die die URL des Videos kennen, es sich auch ansehen können.</li>
 </ul>
 <h3>Aktivität</h3>
-Um eine bessere Idee davon zu bekommen, was ein Demovideo ist, haben wir ein paar Demovideos aus der letzten Technovation Saison unten aufgeführt. Mach dir, während du die Videos anschaust, Notizen darüber, was du an den Videos magst und wie du das in deinem eigenen Video nutzen könntest! Hier sind ein paar Fragen, die du dir dabei stellen solltest:
+<p>Um eine bessere Idee davon zu bekommen, was ein Demovideo ist, haben wir ein paar Demovideos aus der letzten Technovation Saison unten aufgeführt. Mach dir, während du die Videos anschaust, Notizen darüber, was du an den Videos magst und wie du das in deinem eigenen Video nutzen könntest! Hier sind ein paar Fragen, die du dir dabei stellen solltest:</p>
 <ul>
- 	<li style="list-style-type: none">
+<li style="list-style-type: none">
 <ul>
- 	<li style="font-weight: 400">Womit sollte dien Video beginnen?</li>
- 	<li style="font-weight: 400">Wie sollte dein Video enden?</li>
- 	<li style="font-weight: 400">Welche Funktionen solltest du betonen?</li>
- 	<li style="font-weight: 400">Welche Methoden solltest du verwenden um deine Botschaft zu vermitteln?</li>
+<li style="font-weight: 400">Womit sollte dien Video beginnen?</li>
+<li style="font-weight: 400">Wie sollte dein Video enden?</li>
+<li style="font-weight: 400">Welche Funktionen solltest du betonen?</li>
+<li style="font-weight: 400">Welche Methoden solltest du verwenden um deine Botschaft zu vermitteln?</li>
 </ul>
 </li>
 </ul>
-
-
-<b>Team AMEKA</b> Safe Guard Driving, 2015
-
-Dieses Video zeigt eine Schritt-für-Schritt Anleitung der App, durch das Vorspulen des Bildmaterials bei der Eingabe von Daten ergibt sich mehr Zeit um die Funktionen der App zu erklären
-
-
-
-<b>Northgate STEM</b> Unwind, 2014
-
-Dieses Video erklärt die Funktionen nur mit Hilfe von Bildern und Grafiken, es wird kaum Text zur Erklärung benötigt. Dies bietet sich besonders an, wenn euer Team sich darum sorgt, dass Nutzer oder Jurymitglieder nicht die gleiche Sprache wie das Team sprechen.
-
-
-
-<b>.comPote</b> Active Citizen, 2016
-
-Die Erklärungen sind präzise und das Video erläutert alle Funktionen der App effizient.
+<p><b>Team AMEKA</b> Safe Guard Driving, 2015</p>
+<p>Dieses Video zeigt eine Schritt-für-Schritt Anleitung der App, durch das Vorspulen des Bildmaterials bei der Eingabe von Daten ergibt sich mehr Zeit um die Funktionen der App zu erklären</p>
+<p><b>Northgate STEM</b> Unwind, 2014</p>
+<p>Dieses Video erklärt die Funktionen nur mit Hilfe von Bildern und Grafiken, es wird kaum Text zur Erklärung benötigt. Dies bietet sich besonders an, wenn euer Team sich darum sorgt, dass Nutzer oder Jurymitglieder nicht die gleiche Sprache wie das Team sprechen.</p>
+<p><b>.comPote</b> Active Citizen, 2016</p>
+<p>Die Erklärungen sind präzise und das Video erläutert alle Funktionen der App effizient.</p>
 <h3>Gliedere dein Demovideo</h3>
-Nachdem du nun ein paar Beispiele kennst und bestimmt bereits angefangen hast darüber nachzudenken, wie du die Funktionen deiner App erklären kannst, ist es an der Zeit alle Teile zu kombinieren! Bevor du mit der Produktion deines Videos beginnst solltest du einen Plan erstellen, wie du vorgehen willst. Folge den Schritten unten um den Planungsprozess in schaffbare Einzelteile zu gliedern und bereite dich darauf vor ein großartiges Demovideo zu erstellen, dass Nutzer und Jurymitglieder beeindrucken wird!
+<p>Nachdem du nun ein paar Beispiele kennst und bestimmt bereits angefangen hast darüber nachzudenken, wie du die Funktionen deiner App erklären kannst, ist es an der Zeit alle Teile zu kombinieren! Bevor du mit der Produktion deines Videos beginnst solltest du einen Plan erstellen, wie du vorgehen willst. Folge den Schritten unten um den Planungsprozess in schaffbare Einzelteile zu gliedern und bereite dich darauf vor ein großartiges Demovideo zu erstellen, dass Nutzer und Jurymitglieder beeindrucken wird!</p>
 <h5>Schritt 1: Storyboard.</h5>
-Um ein gutes Demovideo zu machen kannst du so ähnlich vorgehen wie bei der Erstellung des Videopitches, erstelle zunächst ein Storyboard oder eine Gliederung. Entscheide, wie du vorgehen willst und die Funktionen deiner App zeigen willst. Du kannst zum Beispiel die <a href="https://www.storyboardthat.com/storyboard-creator" target="_blank" rel="noopener">Storyboard Creator App</a> benutzen oder deine eigene Methode. Mach das, was für dein Team am besten funktioniert! Hier sind ein paar Beispiele von <a href="https://www.groovehq.com/attachments/blog/product-explainer-video/Groove_Storyboard_V1.pdf" target="_blank" rel="noopener">Groove HQ</a>.
+<p>Um ein gutes Demovideo zu machen kannst du so ähnlich vorgehen wie bei der Erstellung des Videopitches, erstelle zunächst ein Storyboard oder eine Gliederung. Entscheide, wie du vorgehen willst und die Funktionen deiner App zeigen willst. Du kannst zum Beispiel die <a href="https://www.storyboardthat.com/storyboard-creator" target="_blank" rel="noopener">Storyboard Creator App</a> benutzen oder deine eigene Methode. Mach das, was für dein Team am besten funktioniert! Hier sind ein paar Beispiele von <a href="https://www.groovehq.com/attachments/blog/product-explainer-video/Groove_Storyboard_V1.pdf" target="_blank" rel="noopener">Groove HQ</a>.</p>
 <ul>
- 	<li><b>Stelle die App schnell vor. Zeigt kurz, welches Problem du lösen willst und wie du es lösen willst. Versuche nur 1-2 Sätze dafür zu verwenden!</b></li>
- 	<li><b>Stelle die Lösung deiner App vor. Erkläre, was dein Produkt (deine App) macht. Du solltest, nach all der Programmierarbeit, auf jeden Fall dein Endprodukt auch zeigen.</b></li>
- 	<li><b>Zeige, dass es funktioniert.</b> Zeigt, dass deine App funktioniert und demonstriere wie sie arbeitet. Zeige die Funktionen genauso wie ein Nutzer sie verwenden würde und beschreibe, was die Vorteile der App und ihrer Funktionen sind.
+<li><b>Stelle die App schnell vor. Zeigt kurz, welches Problem du lösen willst und wie du es lösen willst. Versuche nur 1-2 Sätze dafür zu verwenden!</b></li>
+<li><b>Stelle die Lösung deiner App vor. Erkläre, was dein Produkt (deine App) macht. Du solltest, nach all der Programmierarbeit, auf jeden Fall dein Endprodukt auch zeigen.</b></li>
+<li><b>Zeige, dass es funktioniert.</b> Zeigt, dass deine App funktioniert und demonstriere wie sie arbeitet. Zeige die Funktionen genauso wie ein Nutzer sie verwenden würde und beschreibe, was die Vorteile der App und ihrer Funktionen sind.
 <ul>
- 	<li>Wenn deine App noch nicht fertig ist, ist das okay! Zeige so viel du kannst. Du kannst auch vorstellen, was du als nächstes vorhast zu entwickeln oder welche Funktionen du noch geplant hast und wie diese aussehen und funktionieren sollen.</li>
+<li>Wenn deine App noch nicht fertig ist, ist das okay! Zeige so viel du kannst. Du kannst auch vorstellen, was du als nächstes vorhast zu entwickeln oder welche Funktionen du noch geplant hast und wie diese aussehen und funktionieren sollen.</li>
 </ul>
 </li>
 </ul>
 <h5>Schritt 2: Schreibe dein Skript.</h5>
-Verwende dein Storyboard/Gliederung als Orientierungshilfe, füge noch mehr Informationen hinzu. Schreibe auf, was du im Video sagen willst, wie du es sagen willst und was dabei auf dem Bildschirm zu sehen sein soll. Dieses Dokument wird dein zentraler Bezugspunkt für die weitere Entwicklung des Demovideos sein. Denke daran, dein Skript kann sich ändern, wenn du neue Funktionen für deine App entwickelst!
-
-<em><strong>Tipp!</strong></em> Einige Teams fühlen sich wohler, wenn sie in ihrem Videopitch und dem Demovideo nicht englisch sprechen müssen. Du kannst natürlich in deiner Muttersprache reden, solltest aber für die Jury auf jeden Fall Untertitel einfügen, damit sie dich auch verstehen.
+<p>Verwende dein Storyboard/Gliederung als Orientierungshilfe, füge noch mehr Informationen hinzu. Schreibe auf, was du im Video sagen willst, wie du es sagen willst und was dabei auf dem Bildschirm zu sehen sein soll. Dieses Dokument wird dein zentraler Bezugspunkt für die weitere Entwicklung des Demovideos sein. Denke daran, dein Skript kann sich ändern, wenn du neue Funktionen für deine App entwickelst!</p>
+<p><em><strong>Tipp!</strong></em> Einige Teams fühlen sich wohler, wenn sie in ihrem Videopitch und dem Demovideo nicht englisch sprechen müssen. Du kannst natürlich in deiner Muttersprache reden, solltest aber für die Jury auf jeden Fall Untertitel einfügen, damit sie dich auch verstehen.</p>
 <h3>Produziere dein Demovideo</h3>
-Nachdem du jetzt alles geplant hast ist es an der Zeit die Ärmel hochzukrempeln und mit dem Video zu starten! Folge diesen Schritten um deinen Plan umzusetzen.
+<p>Nachdem du jetzt alles geplant hast ist es an der Zeit die Ärmel hochzukrempeln und mit dem Video zu starten! Folge diesen Schritten um deinen Plan umzusetzen.</p>
 <h5>Schritt 1: Nimm dein Video auf.</h5>
-Filme, was du in deinem Video zeigen willst, seien es Bildschirmfotos, Aufnahmen des Bildschirmes, Demonstrationen oder eine Kombination.
+<p>Filme, was du in deinem Video zeigen willst, seien es Bildschirmfotos, Aufnahmen des Bildschirmes, Demonstrationen oder eine Kombination.</p>
 <ul>
- 	<li><b>Bildschirmfotos (screenshots):</b> Stehende, sich nicht bewegende Bilder die zeigen wie deine App auf dem Handybildschirm aussieht. Pass darauf auf, dass deine Bilder eine hohe Auflösung haben und das die Zuschauer sehen können, was du ihnen versuchst zu zeigen.
+<li><b>Bildschirmfotos (screenshots):</b> Stehende, sich nicht bewegende Bilder die zeigen wie deine App auf dem Handybildschirm aussieht. Pass darauf auf, dass deine Bilder eine hohe Auflösung haben und das die Zuschauer sehen können, was du ihnen versuchst zu zeigen.
 <ul>
- 	<li style="font-weight: 400"><a href="https://www.smashingmagazine.com/2015/03/create-effective-app-screenshots-for-app-page/" target="_blank" rel="noopener">Smashing Magazine: Wie man kreative und effektive Screenshots für den App Store aufnimmt</a></li>
- 	<li style="font-weight: 400"><a href="https://appradar.com/5-best-practice-tips-for-app-screenshots/" target="_blank" rel="noopener">App Radar: 5 Tipps für App Screenshots</a></li>
- 	<li style="font-weight: 400"><i><strong>Tipp!</strong> </i>Versuche die Funktionen, die der Zuschauer sehen soll, hervorzuheben oder versuche hereinzuzoomen! Pass darauf auf, dass man sehen kann, welche Knöpfe du drückst.</li>
+<li style="font-weight: 400"><a href="https://www.smashingmagazine.com/2015/03/create-effective-app-screenshots-for-app-page/" target="_blank" rel="noopener">Smashing Magazine: Wie man kreative und effektive Screenshots für den App Store aufnimmt</a></li>
+<li style="font-weight: 400"><a href="https://appradar.com/5-best-practice-tips-for-app-screenshots/" target="_blank" rel="noopener">App Radar: 5 Tipps für App Screenshots</a></li>
+<li style="font-weight: 400"><i><strong>Tipp!</strong> </i>Versuche die Funktionen, die der Zuschauer sehen soll, hervorzuheben oder versuche hereinzuzoomen! Pass darauf auf, dass man sehen kann, welche Knöpfe du drückst.</li>
 </ul>
 </li>
- 	<li><strong>Aufnahmen des Bildschirmes:</strong> Videoaufnahmen des Bildschirmes während du erklärst, was die verschiedenen Funktionen der App machen. Bildschirmaufnahmen können mit Hilfe von <a href="http://screencast-o-matic.com/home" target="_blank" rel="noopener">Screencast-o-matic</a> oder einfach durch das Filmen des Handys, während du es benutzt, entstehen.
+<li><strong>Aufnahmen des Bildschirmes:</strong> Videoaufnahmen des Bildschirmes während du erklärst, was die verschiedenen Funktionen der App machen. Bildschirmaufnahmen können mit Hilfe von <a href="http://screencast-o-matic.com/home" target="_blank" rel="noopener">Screencast-o-matic</a> oder einfach durch das Filmen des Handys, während du es benutzt, entstehen.
 <ul>
- 	<li style="font-weight: 400"><a href="http://www.apptamin.com/blog/screen-recorder-for-android/" target="_blank" rel="noopener">Apptamin: Wie man ein Video des Bildschirmes mit Android aufnimmt</a></li>
- 	<li style="font-weight: 400"><a href="http://www.apptamin.com/blog/capture-iphone-ipad-screen-video/" target="_blank" rel="noopener">Apptamin: Wie nimmt man mit einem Videogerät den Bildschirm eines iPhones oder iPads auf?</a></li>
- 	<li style="font-weight: 400"><i><strong>Tipp!</strong> </i>Es kann helfen mit einem Finger oder einem Pfeil auf Stellen zu zeigen, auf die der Zuschauer besonders achten soll. Wenn wirklich viel auf dem Bildschirm zu sehen ist, kann der Zuschauer schnell abgelenkt werden.</li>
-</ul>
-
-</li>
- 	<li><strong>Demonstration:</strong> Ein kurzer Sketch, der zeigt wie die App im Alltag verwendet wird; dies kann auch Aufnahmen des Bildschirmes enthalten. Du kannst auch noch kreativer werden, während du deine Geschichte erzählst.
-<ul>
- 	<li style="font-weight: 400"><i><strong>Tipp!</strong></i> Kontrolliere in deinem Video ob alles scharf und einfach zu sehen ist. Falls nicht, kontrolliere deine Kamera und versuche eine bessere Aufnahme zu machen. Hab keine Angst vor dem Filmen oder vor neuen Aufnahmen—es dauert, bis es richtig ist!</li>
+<li style="font-weight: 400"><a href="http://www.apptamin.com/blog/screen-recorder-for-android/" target="_blank" rel="noopener">Apptamin: Wie man ein Video des Bildschirmes mit Android aufnimmt</a></li>
+<li style="font-weight: 400"><a href="http://www.apptamin.com/blog/capture-iphone-ipad-screen-video/" target="_blank" rel="noopener">Apptamin: Wie nimmt man mit einem Videogerät den Bildschirm eines iPhones oder iPads auf?</a></li>
+<li style="font-weight: 400"><i><strong>Tipp!</strong> </i>Es kann helfen mit einem Finger oder einem Pfeil auf Stellen zu zeigen, auf die der Zuschauer besonders achten soll. Wenn wirklich viel auf dem Bildschirm zu sehen ist, kann der Zuschauer schnell abgelenkt werden.</li>
 </ul>
 </li>
+<li><strong>Demonstration:</strong> Ein kurzer Sketch, der zeigt wie die App im Alltag verwendet wird; dies kann auch Aufnahmen des Bildschirmes enthalten. Du kannst auch noch kreativer werden, während du deine Geschichte erzählst.
+<ul>
+<li style="font-weight: 400"><i><strong>Tipp!</strong></i> Kontrolliere in deinem Video ob alles scharf und einfach zu sehen ist. Falls nicht, kontrolliere deine Kamera und versuche eine bessere Aufnahme zu machen. Hab keine Angst vor dem Filmen oder vor neuen Aufnahmen—es dauert, bis es richtig ist!</li>
 </ul>
-
-
+</li>
+</ul>
 <h5>Schritt 2: Nimm dein Voiceover auf.</h5>
-<em>Optional</em>
-
-Erklärungen können hilfreich sein, wenn du im Video deine App beschreiben willst. Es gibt jedoch auch viele Videos die gar keinen oder kaum gesprochenen Text haben! Es liegt an dir zu entscheiden. Wenn ihr euch für eine mündliche Erzählung im Video (voiceover) entscheidet, solltet ihr ein wirklich gutes Mikrofon verwenden, damit der Ton klar und deutlich ist. Du kannst auch versuchen die App auf deinem Handy zu verwenden, dann solltest du die Aufnahmen aber in einem wirklich ruhigen Raum machen (Kleiderschrank klappt gut)!
-
-<i>Tipp: Wenn dein Ton schwer zu verstehen ist oder nicht in Englisch ist, kannst du Untertitel im Bild einfügen!</i>
+<p><em>Optional</em></p>
+<p>Erklärungen können hilfreich sein, wenn du im Video deine App beschreiben willst. Es gibt jedoch auch viele Videos die gar keinen oder kaum gesprochenen Text haben! Es liegt an dir zu entscheiden. Wenn ihr euch für eine mündliche Erzählung im Video (voiceover) entscheidet, solltet ihr ein wirklich gutes Mikrofon verwenden, damit der Ton klar und deutlich ist. Du kannst auch versuchen die App auf deinem Handy zu verwenden, dann solltest du die Aufnahmen aber in einem wirklich ruhigen Raum machen (Kleiderschrank klappt gut)!</p>
+<p><i>Tipp: Wenn dein Ton schwer zu verstehen ist oder nicht in Englisch ist, kannst du Untertitel im Bild einfügen!</i></p>
 <h5>Schritt 3: Bearbeite dein Video.</h5>
-Sammle all dein Filmmaterial, die Tonaufnahmen, die Bilder, Screenshots, etc.. Es ist an der Zeit alles zusammenzufügen! Es gibt eine ganze Reihe an Programmen, die du verwenden kannst um dein Video zu erstellen.
+<p>Sammle all dein Filmmaterial, die Tonaufnahmen, die Bilder, Screenshots, etc.. Es ist an der Zeit alles zusammenzufügen! Es gibt eine ganze Reihe an Programmen, die du verwenden kannst um dein Video zu erstellen.</p>
 <h5>Schritt 4: Überprüfe, bearbeite und wiederhole.</h5>
-Nachdem du dein Video zusammengestellt hast ist es an der Zeit es zu verfeinern. Denk daran, dass das Video wichtig für den Wettbewerb ist, da es der Jury dein Produkt und warum es nützlich ist vorstellt. Denkt bei der Bearbeitung auch an die Botschaft, die ihr vermitteln wollt und wie eure Botschaft bei den Zuschauern ankommen soll.
-
-Ihr könnt immer eure Mentoren oder Leute außerhalb eures Teams um eine zweite Meinung bitten, da auch die Jurymitglieder ganz unterschiedliche Backgrounds haben ist es wichtig, dass eure Botschaft viele verschiedene Leute anspricht. Ihr könnt auch Leute bitten eure App zu testen, nachdem sie das Video angeschaut haben. Auf diese Weise könnt ihr überprüfen, ob euer Demovideo mit ihren eigenen Erfahrungen übereinstimmt; fragt sie auch, ob wichtige Teile im Video fehlen. Weitere Hilfe zu diesem Thema findet ihr in den zusätzlichen Quellen weiter unten.
+<p>Nachdem du dein Video zusammengestellt hast ist es an der Zeit es zu verfeinern. Denk daran, dass das Video wichtig für den Wettbewerb ist, da es der Jury dein Produkt und warum es nützlich ist vorstellt. Denkt bei der Bearbeitung auch an die Botschaft, die ihr vermitteln wollt und wie eure Botschaft bei den Zuschauern ankommen soll.</p>
+<p>Ihr könnt immer eure Mentoren oder Leute außerhalb eures Teams um eine zweite Meinung bitten, da auch die Jurymitglieder ganz unterschiedliche Backgrounds haben ist es wichtig, dass eure Botschaft viele verschiedene Leute anspricht. Ihr könnt auch Leute bitten eure App zu testen, nachdem sie das Video angeschaut haben. Auf diese Weise könnt ihr überprüfen, ob euer Demovideo mit ihren eigenen Erfahrungen übereinstimmt; fragt sie auch, ob wichtige Teile im Video fehlen. Weitere Hilfe zu diesem Thema findet ihr in den zusätzlichen Quellen weiter unten.</p>
 <h5>Schritt 5: Lade dein Video für die Einreichung hoch.</h5>
-Wenn ihr das Video fertig habt, könnt ihr eure Arbeit hochladen. Genauso wie beim Videopitch könnt ihr es hochladen wo immer ihr wollt, wir raten euch jedoch YouTube oder Vimeo zu nutzen. Hier findet ihr eine Anleitung, die euch dabei helfen kann:
-
-<a href="https://support.google.com/youtube/answer/57407?hl=en" target="_blank" rel="noopener"><b>Wie du dein Video bei YouTube hochlädst</b></a>
+<p>Wenn ihr das Video fertig habt, könnt ihr eure Arbeit hochladen. Genauso wie beim Videopitch könnt ihr es hochladen wo immer ihr wollt, wir raten euch jedoch YouTube oder Vimeo zu nutzen. Hier findet ihr eine Anleitung, die euch dabei helfen kann:</p>
+<p><a href="https://support.google.com/youtube/answer/57407?hl=en" target="_blank" rel="noopener"><b>Wie du dein Video bei YouTube hochlädst</b></a></p>
 <ul>
- 	<li><a href="https://www.youtube.com/watch?v=Hlxqk0iHp5w" target="_blank" rel="noopener">Videoanleitung</a></li>
+<li><a href="https://www.youtube.com/watch?v=Hlxqk0iHp5w" target="_blank" rel="noopener">Videoanleitung</a></li>
 </ul>
-<a href="https://vimeo.com/help/faq/uploading-to-vimeo/uploading-basics" target="_blank" rel="noopener"><b>Wie du dein Video bei Vimeo hochlädst</b></a>
+<p><a href="https://vimeo.com/help/faq/uploading-to-vimeo/uploading-basics" target="_blank" rel="noopener"><b>Wie du dein Video bei Vimeo hochlädst</b></a></p>
 <ul>
- 	<li><a href="https://vimeo.com/42647970" target="_blank" rel="noopener">Videoanleitung</a></li>
+<li><a href="https://vimeo.com/42647970" target="_blank" rel="noopener">Videoanleitung</a></li>
 </ul>
 <h3>Reflexion</h3>
-Gute Arbeit! Du hast dein Demovideo für die App fertiggestellt. Das war bestimmt nicht leicht, du hast allen Grund stolz auf dich zu sein! Das Demovideo ist sehr wichtig, damit potentielle Kunden und Investoren dein Produkt verstehen. Du kannst mit diesem Video auch der ganzen Welt zeigen, was du geschafft hast: von einer einfahchen Idee zu einer richtigen App!
-
-Wenn ihr noch einmal darauf zurückblickt, wie ihr das Demovideo erstellt habt, denkt über Folgendes nach:
+<p>Gute Arbeit! Du hast dein Demovideo für die App fertiggestellt. Das war bestimmt nicht leicht, du hast allen Grund stolz auf dich zu sein! Das Demovideo ist sehr wichtig, damit potentielle Kunden und Investoren dein Produkt verstehen. Du kannst mit diesem Video auch der ganzen Welt zeigen, was du geschafft hast: von einer einfahchen Idee zu einer richtigen App!</p>
+<p>Wenn ihr noch einmal darauf zurückblickt, wie ihr das Demovideo erstellt habt, denkt über Folgendes nach:</p>
 <ul>
- 	<li style="font-weight: 400">War es schwer sich zu überlegen, wie ihr eure App demonstrieren wollt?</li>
- 	<li style="font-weight: 400">Unterscheidet sich euer finales Video vom Storyboard oder der Gliederung? Wie hat es sich verändert und warum?</li>
- 	<li style="font-weight: 400">Wer hat euch am meisten bei der Entwicklung des Demovideos geholfen? Dankt ihm oder ihr!</li>
+<li style="font-weight: 400">War es schwer sich zu überlegen, wie ihr eure App demonstrieren wollt?</li>
+<li style="font-weight: 400">Unterscheidet sich euer finales Video vom Storyboard oder der Gliederung? Wie hat es sich verändert und warum?</li>
+<li style="font-weight: 400">Wer hat euch am meisten bei der Entwicklung des Demovideos geholfen? Dankt ihm oder ihr!</li>
 </ul>
 <h5><b>Weitere Quellen:</b></h5>
 <ul>
- 	<li><a href="https://software.intel.com/en-us/blogs/2012/05/31/prepare-for-success-how-to-create-a-great-software-demo-video" target="_blank" rel="noopener">Intel: Wie man ein Software Demovideo erstellt</a></li>
- 	<li><a href="http://www.mindtheproduct.com/2015/02/make-product-demo-stands/" target="_blank" rel="noopener">Mind the Product: Wie man ein Demovideo erstellt, dass nicht wie jedes andere ist</a></li>
- 	<li><a href="https://www.process.st/product-demo-video/" target="_blank" rel="noopener">Process.St: Wie man als absoluter Anfänger sein erstes Demovideo erstellt</a></li>
+<li><a href="https://software.intel.com/en-us/blogs/2012/05/31/prepare-for-success-how-to-create-a-great-software-demo-video" target="_blank" rel="noopener">Intel: Wie man ein Software Demovideo erstellt</a></li>
+<li><a href="http://www.mindtheproduct.com/2015/02/make-product-demo-stands/" target="_blank" rel="noopener">Mind the Product: Wie man ein Demovideo erstellt, dass nicht wie jedes andere ist</a></li>
+<li><a href="https://www.process.st/product-demo-video/" target="_blank" rel="noopener">Process.St: Wie man als absoluter Anfänger sein erstes Demovideo erstellt</a></li>
 </ul>
