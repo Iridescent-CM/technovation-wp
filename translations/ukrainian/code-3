@@ -279,7 +279,7 @@ Else if оператори дозволяють додавати інші умо
 <img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image25-1.png" alt="image25" width="481" height="313" />
 
 </div>
-<h2 id="forloop"><strong>Цикли</strong></h2>
+<h2 id="forloops"><strong>Цикли</strong></h2>
 Комп'ютери роблять чудові речі і переважно без помилок. Ви можете скористатись ними, використовуючи цикли. Цикл — це блок коду, який повторюється раз за разом.
 
 Є два типи циклів - while loops і for loops. While loops продовжуватиметься до того часу, поки якась з умов більше не правдива, і for loops зробить щось конкретну кількість разів.
