@@ -9,8 +9,8 @@
 <h2>Мета навчання</h2>
 У цьому розділі ви ...
 <ul>
- 	<li style="font-weight: 400">Дізнаєтеся про різні типи бізнесу</li>
- 	<li style="font-weight: 400">Подумаєте, яким типом бізнесу ви хотіли б займатися</li>
+ 	<li style="font-weight: 400;">Дізнаєтеся про різні типи бізнесу</li>
+ 	<li style="font-weight: 400;">Подумаєте, яким типом бізнесу ви хотіли б займатися</li>
  	<li>Напишете заяву про місію</li>
 </ul>
 &nbsp;
@@ -31,13 +31,13 @@
 <tr bgcolor="#28a880">
 <td></td>
 <td width="28%">
-<h5>Комерційні</h5>
+<h5><strong><span style="color: #ffffff;">Комерційні</span></strong></h5>
 </td>
 <td width="28%">
-<h5>Соціальні</h5>
+<h5><strong><span style="color: #ffffff;">Соціальні</span></strong></h5>
 </td>
 <td width="28%">
-<h5>Некомерційні</h5>
+<h5><strong><span style="color: #ffffff;">Некомерційні</span></strong></h5>
 </td>
 </tr>
 <tr>
@@ -108,26 +108,22 @@
 
 Хочете дізнатися більше про соціальні підприємства? Перегляньте ці відео:
 
-<p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1ecKK3S8DOE" frameborder="0" allowfullscreen></iframe>
-</p>
-
-<p style="text-align: left">Ось ще кілька відео про соціальні підприємства:</p>
+<iframe src="https://www.youtube.com/embed/1ecKK3S8DOE" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<p style="text-align: left;">Ось ще кілька відео про соціальні підприємства:</p>
 
 <ul>
- 	<li style="text-align: left"><a href="https://youtu.be/7178mTndI6A" target="_blank">How to Start a Social Enterprise</a>, Greg Overholt at TEDxYouth@Toronto</li>
- 	<li style="text-align: left"><a href="https://youtu.be/M3fl1R2lZFk" target="_blank">How to create a successful social enterprise</a>, Marquis Cabrera at TEDxTeachersCollege</li>
+ 	<li style="text-align: left;"><a href="https://youtu.be/7178mTndI6A" target="_blank">How to Start a Social Enterprise</a>, Greg Overholt at TEDxYouth@Toronto</li>
+ 	<li style="text-align: left;"><a href="https://youtu.be/M3fl1R2lZFk" target="_blank">How to create a successful social enterprise</a>, Marquis Cabrera at TEDxTeachersCollege</li>
 </ul>
-
-<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
 <h3>Для роздумів</h3>
 Не завжди можна чітко розділити комерційні і некомерційних організації, але податкові обов'язки можуть різнитися в залежності від структури бізнесу і обмежень того, як він може витратити зароблені гроші. У більшості країн, всі підприємства повинні сплачувати податок державі. Сума податку, яку вони повинні сплатити, залежить від типу бізнесу.
 
 Наприклад, в Сполучених Штатах, якщо ви є некомерційним підприємством, ви сплачуєте менше податків, а ті, хто надають вам пожертви також можуть отримати податкові пільги. Але не достатньо просто заявити що ви нееомерційне або соціальне підприємство. Вам потрібно буде слідувати правилам і довести, що ви слідуєте їм. Закони і правила в кожній країні відрізняються. Перевірка цих правил і слідування їм виходять за рамки цього змагання, але ви повинні мати їх на увазі при запуску бізнесу поза Technovation!
-</div>
 
+</div>
 <h3 id="real">Реальні приклади</h3>
-У розділі<strong><a href="/?p=20930" target="_blank"> Генерація ідей</a></strong> ви ознайомилися з <strong><a href="https://sustainabledevelopment.un.org/sdgs" target="_blank">цілями сталого розвитку</a></strong>. В ході Technovation, ми зосередимося в першу чергу на проблемах перерахованих нижче.
+У розділі<strong><a href="/?p=20930" target="_blank"> Генерація ідей</a></strong> ви ознайомилися з <strong><a href="https://sustainabledevelopment.un.org/sdgs" target="_blank">цілями сталого розвитку</a></strong>. 
 
 Давайте пригадаємо декілька реальних підприємств, які намагаються вирішити ці проблеми. Якими типами підприємств вони є? Чи можете ви пригадати ще які-небудь компанії, що допомагають світу?
 <h5>Довкілля</h5>
@@ -182,42 +178,39 @@
 
 <i>Підказка</i>: Якщо ви не знаєте з чого почати, зверніть увагу на інші організації, які займаються вирішенням складних задач. Подивіться на їх заяви місії і подумайте, чого ви можете в них навчитися:
 <ol>
- 	<li style="font-weight: 400"><a href="http://www.unicef.org/about/who/index_mission.html" target="_blank">UNICEF</a>:"UNICEF- це організація, уповноважена Генеральною Асамблеєю Організації Об'єднаних Націй виступати за захист прав дітей, допомогати їм задовільнити їх основні потреби і розширити можливості для повної реалізації їх потенціалу."</li>
- 	<li style="font-weight: 400"><a href="https://www.kiva.org/about" target="_blank">Kiva</a>:"Місією Kiva є поєднати людей через кредитування для боротьби з бідністю. Ми відзначаємо і підтримуємо людей, які намагаються створити краще майбутнє для себе, своїх родин і громад".</li>
- 	<li style="font-weight: 400"><a href="http://www.amnestyusa.org/about-us/our-mission" target="_blank">Amnesty International</a>:"В нашому баченні світу кожна людина - незалежно від раси, релігії, етнічної приналежності, сексуальної орієнтації або гендерної приналежності - користується всіма правами людини, закріпленими у <strong><a href="http://www.amnestyusa.org/node/83935" target="_blank">Загальній декларації прав людини</a></strong> (ЗДПЛ) та іншими міжнародно визнаними стандартами з прав людини ".</li>
- 	<li style="font-weight: 400"><a href="http://about.nike.com/" target="_blank">Nike</a>: "Принести натхнення та інновації для кожного спортсмена* в світі" Легендарний тренер з Університету Орегона і співзасновник Nike, Білл Боуерман, сказав "Якщо у вас є тіло - ви спортсмен"</li>
+ 	<li style="font-weight: 400;"><a href="http://www.unicef.org/about/who/index_mission.html" target="_blank">UNICEF</a>:"UNICEF- це організація, уповноважена Генеральною Асамблеєю Організації Об'єднаних Націй виступати за захист прав дітей, допомогати їм задовільнити їх основні потреби і розширити можливості для повної реалізації їх потенціалу."</li>
+ 	<li style="font-weight: 400;"><a href="https://www.kiva.org/about" target="_blank">Kiva</a>:"Місією Kiva є поєднати людей через кредитування для боротьби з бідністю. Ми відзначаємо і підтримуємо людей, які намагаються створити краще майбутнє для себе, своїх родин і громад".</li>
+ 	<li style="font-weight: 400;"><a href="http://www.amnestyusa.org/about-us/our-mission" target="_blank">Amnesty International</a>:"В нашому баченні світу кожна людина - незалежно від раси, релігії, етнічної приналежності, сексуальної орієнтації або гендерної приналежності - користується всіма правами людини, закріпленими у <strong><a href="http://www.amnestyusa.org/node/83935" target="_blank">Загальній декларації прав людини</a></strong> (ЗДПЛ) та іншими міжнародно визнаними стандартами з прав людини ".</li>
+ 	<li style="font-weight: 400;"><a href="http://about.nike.com/" target="_blank">Nike</a>: "Принести натхнення та інновації для кожного спортсмена* в світі" Легендарний тренер з Університету Орегона і співзасновник Nike, Білл Боуерман, сказав "Якщо у вас є тіло - ви спортсмен"</li>
 </ol>
-
-<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
 <h3><b>Подумайте</b></h3>
-При розробці вашої <a style="color: #ffffff" href="http://www.forbes.com/sites/patrickhull/2013/01/10/answer-4-questions-to-get-a-great-mission-statement/#5cd6e51c35e1" target="_blank">заяви про місію</a> розгляньте наступні питання і переконайтеся, що ваша місія освічує кожне з них.
+При розробці вашої <a style="color: #ffffff;" href="http://www.forbes.com/sites/patrickhull/2013/01/10/answer-4-questions-to-get-a-great-mission-statement/#5cd6e51c35e1" target="_blank">заяви про місію</a> розгляньте наступні питання і переконайтеся, що ваша місія освічує кожне з них.
 <ul>
- 	<li style="color: #ffffff">Що ми робимо?</li>
- 	<li style="color: #ffffff">Як ми це робимо?</li>
- 	<li style="color: #ffffff">Для кого ми робимо це?</li>
- 	<li style="color: #ffffff">Яку цінність ми несемо?</li>
+ 	<li style="color: #ffffff;">Що ми робимо?</li>
+ 	<li style="color: #ffffff;">Як ми це робимо?</li>
+ 	<li style="color: #ffffff;">Для кого ми робимо це?</li>
+ 	<li style="color: #ffffff;">Яку цінність ми несемо?</li>
 </ul>
 </div>
-
 <h3><b>Виберіть свій тип бізнесу</b></h3>
 Тепер, коли ви ознайомилися з різними типами підприємств, настав час подумати, який бізнес ви хочете побудувати з вашою командою. Дайте відповіді на наступні запитання:
 <ul>
- 	<li style="font-weight: 400">Яким типом підприємства ви хочете бути? (комерційним, некомерційним або соціальним)</li>
- 	<li style="font-weight: 400">Чого ви хочете досягти, організувавши свій бізнес?</li>
- 	<li style="font-weight: 400">Якою ви бачите свою місію?</li>
- 	<li style="font-weight: 400"></li>
- 	<li style="font-weight: 400">Яким є ваше бачення вашого бізнесу?</li>
- 	<li style="font-weight: 400">Яким чином ви хочете, щоб ваш прибуток підтримував вашу місію?</li>
- 	<li style="font-weight: 400">Яким чином ви можете підтримувати (допомагати його функціонуванню) свій бізнес?</li>
+ 	<li style="font-weight: 400;">Яким типом підприємства ви хочете бути? (комерційним, некомерційним або соціальним)</li>
+ 	<li style="font-weight: 400;">Чого ви хочете досягти, організувавши свій бізнес?</li>
+ 	<li style="font-weight: 400;">Якою ви бачите свою місію?</li>
+ 	<li style="font-weight: 400;"></li>
+ 	<li style="font-weight: 400;">Яким є ваше бачення вашого бізнесу?</li>
+ 	<li style="font-weight: 400;">Яким чином ви хочете, щоб ваш прибуток підтримував вашу місію?</li>
+ 	<li style="font-weight: 400;">Яким чином ви можете підтримувати (допомагати його функціонуванню) свій бізнес?</li>
 </ul>
 Всі ці питання ви повинні задати при створенні свого бізнесу. Не обов'язково мати відповіді на всі ці питання сьогодні, але важливо мати їх на увазі під час побудови свого бізнес-плану. Ви завжди можете змінити тип підприємства в ході подільшої розробки свого додатку і бізнес-плану!
-
-<div style="background-color:#006667; color:white; padding:25px; margin-top:25px; margin-bottom:25px;">
-<h3 id="reflect"><b>Подумайте</b></h3>
+<div style="background-color: #006667; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 id="reflect"><span style="color: #ffffff;"><b>Подумайте</b></span></h3>
 <ul>
- 	<li style="font-weight: 400">Чому, ви думаєте, існують різні типи бізнесу?</li>
- 	<li style="font-weight: 400">Як ви думаєте, якими є переваги різних типів бізнесу?</li>
- 	<li style="font-weight: 400">Як ви думаєте, який тип бізнесу буде краще підходити для вирішення громадської проблеми, яку ви намагаєтеся вирішити?</li>
- 	<li style="font-weight: 400">Яким чином ваша місія може допомогти вашому бізнесу?</li>
+ 	<li style="font-weight: 400;">Чому, ви думаєте, існують різні типи бізнесу?</li>
+ 	<li style="font-weight: 400;">Як ви думаєте, якими є переваги різних типів бізнесу?</li>
+ 	<li style="font-weight: 400;">Як ви думаєте, який тип бізнесу буде краще підходити для вирішення громадської проблеми, яку ви намагаєтеся вирішити?</li>
+ 	<li style="font-weight: 400;">Яким чином ваша місія може допомогти вашому бізнесу?</li>
 </ul>
 </div>
