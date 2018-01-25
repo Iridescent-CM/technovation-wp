@@ -1,5 +1,3 @@
-<h1>Бізнес 2</h1>
-<h2>Дослідження ринку</h2>
 <ul>
  	<li><strong><a href="#learn">Теорія</a></strong></li>
  	<li><strong><a href="#conre">Дослідження споживача</a></strong></li>
@@ -8,15 +6,14 @@
  	<li><strong><a href="#apply">Втілення</a></strong></li>
  	<li><strong><a href="#reflect">Подумайте</a></strong></li>
 </ul>
-<h2>Мета навчання</h2>
+<h2><strong>Мета навчання</strong></h2>
 У цьому розділі ви дізнаєтеся, як ...
 <ul>
  	<li style="font-weight: 400;">Розробити план дослідження споживача</li>
  	<li style="font-weight: 400;">Задати правильні питання для аналізу конкурентів</li>
  	<li style="font-weight: 400;">Створити звіт з дослідження ринку для вашого додатку</li>
 </ul>
-<h3></h3>
-<h3>Теорія</h3>
+<h3 id="learn"><strong>Теорія</strong></h3>
 Коли у вас є ідея і ви хочете перетворити її на бізнес, важливо, щоб ви підготувались. Вам необхідно буде дослідити, як різні фактори можуть вплинути на ваш бізнес і побачити, чи є попит або потреба в вашому продукті. Це називається<b> дослідженням ринку</b>. Воно складається з двох компонентів: дослідження споживача і аналіз конкурентів.
 
 <b>Дослідження споживача</b> допоможе вам зрозуміти бажання, потреби і переконання вашого цільового клієнта. За точним визначенням, споживач - це людина, яка споживає або використовує щось, в той час як покупець - людина, яка придбала щось. У нашому випадку ми будемо використовувати терміни "покупець" і "споживач" як рівнозначні. Ваш <strong>цільовий клієнт </strong>- це людина, якій ви плануєте продавати, або іншими словами, людина, яка буде купувати ваші продукти. Важливо розуміти їх точку зору, щоб ви могли створити мобільний додаток, який підходить для задоволення їх потреб і який <em>вони </em>захочуть придбати. Ось додаткова інформація, якщо вам цікаво.
@@ -38,14 +35,17 @@
  	<li>Які унікальні особливості мають додатки ваших конкурентів? Як ви можете виділитися серед них?</li>
  	<li>За скільки вони продають свої додатки?</li>
 </ul>
-<h3>Поміркуйте</h3>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3><strong>Поміркуйте</strong></h3>
 Пригадайте декілька ваших улюблених програм або сервісів. Хто є їх цільовим клієнтом? Хто є їх конкурентами?
-<h3>Дослідження споживача</h3>
+
+</div>
+<h3 id="conre"><strong>Дослідження споживача</strong></h3>
 Є багато різних способів отримання інформації про вашого потенційного споживача. Ось кілька інструментів, які можна використовувати для вивчення споживчого попиту:
 
 <b>Інтерв’ю</b> – це метод опитування, під час якого ви задаєте ряд питань, як правило, особисто або по телефону, де ви отримаєте короткі відповіді або оцінку вартості від потенційних споживачів. Вони дадуть уявлення про те, як мислить ваш потенційний покупець і допоможуть підкріпити вашу ідею. Ви також можете провести інтерв'ю за допомогою електронного листування, але краще мати можливість чути голос того, кого ви опитуєте, щоб краще зрозуміти їх реакцію на питання.
 
-Існують різні типи інтерв’ю, які ви можете використовувати. <strong><a href="http://startitup.co/guides/285/problem-interview-script">Інтерв’ю задачі</a></strong> , як правило, використовуються для збору додаткової інформації про задачу, яку ви намагаєтеся вирішити, щоб ви могли створити краще рішення для неї (в даному випадку, ваш мобільний додаток).<strong><a href="http://startitup.co/guides/976/the-solution-interview"> Інтерв’ю рішення</a></strong> допоможе вам зрозуміти, як споживач або користувач може використовувати додаток, який ви розробляєте - вам потрібно мати якісь демонстраційні матеріали для опитування. Для отримання більш докладної інформації про інтерв’ю,<strong><a href="https://s-media-cache-ak0.pinimg.com/originals/d6/4a/5a/d64a5aee0981383457be1e762d13bf81.jpg"> натисніть тут</a></strong>.
+Існують різні типи інтерв’ю, які ви можете використовувати. <strong><a href="http://startitup.co/guides/285/problem-interview-script" target="_blank">Інтерв’ю задачі</a></strong> , як правило, використовуються для збору додаткової інформації про задачу, яку ви намагаєтеся вирішити, щоб ви могли створити краще рішення для неї (в даному випадку, ваш мобільний додаток).<strong><a href="http://startitup.co/guides/976/the-solution-interview" target="_blank"> Інтерв’ю рішення</a></strong> допоможе вам зрозуміти, як споживач або користувач може використовувати додаток, який ви розробляєте - вам потрібно мати якісь демонстраційні матеріали для опитування. Для отримання більш докладної інформації про інтерв’ю,<strong><a href="https://s-media-cache-ak0.pinimg.com/originals/d6/4a/5a/d64a5aee0981383457be1e762d13bf81.jpg" target="_blank"> натисніть тут</a></strong>.
 
 Ось кілька прикладів питань, які ви могли б використовувати для кожного типу інтерв’ю:
 
@@ -61,14 +61,15 @@
  	<li>Скільки люди були б готові платити за цей додаток?</li>
  	<li>Чи відповідає ваш додаток способу життя цільового клієнта?</li>
 </ul>
-<h5>Опитування</h5>
+&nbsp;
+<h5><strong>Опитування</strong></h5>
 Опитування можуть допомогти вам зібрати більше даних, швидко, однак ви отримаєте менш детальні дані, ніж при проведенні інтерв'ю. Вони, як правило, являють собою ряд питань, які розроблені для збору якомога більшої інформації з групи людей.
 
 Ви повинні вирішити, яким ви хочете створити опитування; це означає, що вам необхідно вирішити які типи питань ви хочете запитати, кого ви хочете опитати, і як ви хочете провести опитування. Якщо ви зацікавлені в отриманні додаткової інформації про науку дослідження ринку,<strong><a href="https://www.surveymonkey.com/mp/market-research-surveys/" target="_blank"> натисніть тут</a></strong>.
 
 Якщо ви готові приступити до проведення опитувань чи інтерв'ю, ось <strong><a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/BusinessUnitModule2-InterviewSurveyWorksheet.pdf" target="_blank">короткий огляд того</a></strong>, що вам необхідно буде розглянути від початку до кінця. Ознайомтеся, також, з прикладами, наведеними нижче.
 
-<strong>Продукт: </strong><a href="https://www.shazam.com/">Shazam</a>
+<strong>Продукт: </strong><a href="https://www.shazam.com/" target="_blank">Shazam</a>
 
 <strong>Питання опитування:</strong>
 <ol>
@@ -100,7 +101,7 @@
  	<li>Багато людей чують музику, яка їм подобається, але не знають її назви чи виконавця.</li>
  	<li>Люди зацікавлення в обговоренні нового додатку для розпізнавання музики.</li>
 </ul>
-<strong>Продукт: </strong><a href="https://www.angrybirds.com/">Angry Birds</a>
+<strong>Продукт: </strong><a href="https://www.angrybirds.com/" target="_blank">Angry Birds</a>
 
 <strong>Питання опитування:</strong>
 <ol>
@@ -132,15 +133,15 @@
  	<li>Більшість людей досить задоволені вибором мобільних ігор.</li>
  	<li>Люди готові поговорити з нами на цю тему детальніше.</li>
 </ul>
-<a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/BusinessUnitModule2-InterviewSurveyWorksheet.pdf" target="_blank">
-<strong>Скачати короткий огляд</strong>
+<a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/BusinessUnitModule2-InterviewSurveyWorksheet.pdf" target="_blank"> <strong>Скачати короткий огляд</strong>
 </a>
-<h5>Дослідження трендів</h5>
-Дослідження трендів допоможе вам зрозуміти, як розвивається ринок і дасть уявлення про те, в якому напрямку ринок може розвиватися в майбутньому. Щоб отримати уявлення про ринок необхідно провести аналіз певних даних. Існує багато компаній, які займаються проведенням цього типу аналізу! Наприклад, ви можете зайти на сайт компанії<a href="http://www.gartner.com/technology/research/top-10-technology-trends/" target="_&quot;blank&quot;"> Gartner</a>, яка є провідною в галузі дослідження та консалтингу для ІТ, і яка прогнозує 10 провідних тенденцій в області інформаційних технологій. Також існує компанія KPCB, яка щорічно публікує <strong><a href="http://www.kpcb.com/internet-trends" target="_&quot;blank&quot;">доповідь Мері Мікер</a> </strong>про інтернет-тренди.<strong><a href="https://techcrunch.com/2016/06/01/mary-meeker-internet-trends-2016/" target="_&quot;blank&quot;"> Ось</a></strong> спрощений огляд доповіді її детального дослідження.
 
-<a href="https://www.google.com/trends/" target="_&quot;blank&quot;">Google Trends</a> є чудовим ресурсом для розуміння інтересу до певної теми. Наприклад, ви можете побачити, що<strong><a href="https://www.google.com/trends/explore?date=all&amp;q=%2Fm%2F0h94y36" target="_&quot;blank&quot;"> Бангладеш</a></strong> має найбільший інтерес в мобільних додатках як галузі. Ось корисний<strong><a href="http://marketingland.com/google-trend-goldmine-117626" target="_&quot;blank&quot;"> урок</a> </strong>про те, як використовувати цей потужний інструмент.
-<h5></h5>
-<h3>Аналіз конкурентів</h3>
+&nbsp;
+<h5><strong>Дослідження трендів</strong></h5>
+Дослідження трендів допоможе вам зрозуміти, як розвивається ринок і дасть уявлення про те, в якому напрямку ринок може розвиватися в майбутньому. Щоб отримати уявлення про ринок необхідно провести аналіз певних даних. Існує багато компаній, які займаються проведенням цього типу аналізу! Наприклад, ви можете зайти на сайт компанії<a href="http://www.gartner.com/technology/research/top-10-technology-trends/" target="_blank"> Gartner</a>, яка є провідною в галузі дослідження та консалтингу для ІТ, і яка прогнозує 10 провідних тенденцій в області інформаційних технологій. Також існує компанія KPCB, яка щорічно публікує <strong><a href="http://www.kpcb.com/internet-trends" target="_blank">доповідь Мері Мікер</a> </strong>про інтернет-тренди.<strong><a href="https://techcrunch.com/2016/06/01/mary-meeker-internet-trends-2016/" target="_blank"> Ось</a></strong> спрощений огляд доповіді її детального дослідження.
+
+<a href="https://www.google.com/trends/" target="_blank">Google Trends</a> є чудовим ресурсом для розуміння інтересу до певної теми. Наприклад, ви можете побачити, що<strong><a href="https://www.google.com/trends/explore?date=all&amp;q=%2Fm%2F0h94y36" target="_blank"> Бангладеш</a></strong> має найбільший інтерес в мобільних додатках як галузі. Ось корисний<strong><a href="http://marketingland.com/google-trend-goldmine-117626" target="_blank"> урок</a> </strong>про те, як використовувати цей потужний інструмент.
+<h3 id="comanalysis"><strong>Аналіз конкурентів</strong></h3>
 <b>Аналіз конкурентів</b> допоможе вам зрозуміти, що робить ваш додаток більш успішним, ніж інші. Ви повинні поглянути на інші компанії, які розробляють аналогічні додатки або продукти, щоб отримати уявлення про їх сильні і слабкі сторони, а також порівняти і зіставити їх додаток та ваш. В результаті, вам необхідно мати сильний аргумент на користь того, чому ваш додаток вирішує проблему краще, ніж додаток ваших конкурентів. При виконанні ваших досліджень ви повинні відповісти на такі питання:
 <ul>
  	<li style="font-weight: 400;">Брендинг та імідж
@@ -172,15 +173,15 @@
  	<li style="font-weight: 400;">Пошукайте підходящі додатки в Google Play та IOS App Store</li>
  	<li style="font-weight: 400;">За допомогою Google знайдіть додатки та стартапи конкурентів
 <ul>
- 	<li style="font-weight: 400;"><strong><a href="http://time.com/3581399/google-search/" target="_&quot;blank&quot;">Поради для проведення ефективного пошуку</a></strong></li>
- 	<li style="font-weight: 400;"><strong><a href="https://drive.google.com/file/d/0B3rEYL3DkWfAdUhOS252V3VHM2M/view" target="_&quot;blank&quot;">Ефективний інтернет-пошук</a></strong></li>
+ 	<li style="font-weight: 400;"><strong><a href="http://time.com/3581399/google-search/" target="_blank">Поради для проведення ефективного пошуку</a></strong></li>
+ 	<li style="font-weight: 400;"><strong><a href="https://drive.google.com/file/d/0B3rEYL3DkWfAdUhOS252V3VHM2M/view" target="_blank">Ефективний інтернет-пошук</a></strong></li>
 </ul>
 </li>
- 	<li style="font-weight: 400;">Використайте статті Вікіпедії про стартап / додаток, щоб отримати статистику по доходам, рокам в експлуатації, розміру команди і т.д. (<a href="https://en.wikipedia.org/wiki/WhatsApp" target="_&quot;blank&quot;">Whatsapp</a>, наприклад)</li>
- 	<li style="font-weight: 400;">Використайте<a href="https://www.google.com/trends/" target="_&quot;blank&quot;"> Google Trends</a>, щоб оцінити інтерес до певної теми</li>
+ 	<li style="font-weight: 400;">Використайте статті Вікіпедії про стартап / додаток, щоб отримати статистику по доходам, рокам в експлуатації, розміру команди і т.д. (<a href="https://en.wikipedia.org/wiki/WhatsApp" target="_blank">Whatsapp</a>, наприклад)</li>
+ 	<li style="font-weight: 400;">Використайте<a href="https://www.google.com/trends/" target="_blank"> Google Trends</a>, щоб оцінити інтерес до певної теми</li>
  	<li style="font-weight: 400;">Дослідіть веб-сайт конкурентів, соціальні мережі, блоги, статті, матеріали з продажу, білі книги, рекламу і т.д., щоб отримати повну картину їх успіху і стратегії</li>
 </ul>
-<h3>Створення плану дослідження ринку</h3>
+<h3 id="researchplan"><strong>Створення плану дослідження ринку</strong></h3>
 Почніть створення свого плану дослідження ринку! Намітьте ваш план з усім необхідним для створення грунтовного звіту дослідження ринку. За допомогою цього звіту ви зможете представити сильний аргумент у вашому бізнес-плані, щоб показати, чим ваш додаток кращий за інші! Ось <strong><a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Business2-MarketResearchWorksheet.pdf" target="_blank">робочий лист</a></strong>, що допоможе вам створити свій план.
 
 Ресурси:
@@ -189,22 +190,22 @@
  	<li style="font-weight: 400;">Entrepreneur:<strong><a href="https://www.entrepreneur.com/article/241080" target="_blank"> Кращі способи провести дослідження ринку для вашого бізнес-плану</a></strong></li>
  	<li style="font-weight: 400;">Business.com: <strong><a href="http://www.business.com/market-research/creating-a-market-research-plan/" target="_blank">Створення плану дослідження ринку</a></strong></li>
 </ul>
-&nbsp;
-
+<center>
 <a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Business2-MarketResearchWorksheet.pdf" target="_blank"><strong>Скачати робочий лист</strong>
-</a>
-
-&nbsp;
-<h3>Втілення</h3>
+</a></center>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 id="apply"><strong>Втілення</strong></h3>
 Використовуючи складений вами план дослідження ринку, починайте дослідження. Скористайтеся ресурсами, які ми пропонуємо і шукайте власні. Зберіть достатньо інформації, щоб ви могли довести, що ваш додаток є більш інноваційним, ніж ті, що вже існують!
 
 Створіть свій звіт з дослідження ринку, який буде пізніше включено до вашого бізнес-плану. Звіт повинен бути коротким, стислим, і надати факти і цифри, які показують, що ваш додаток буде успішним відповідно до ваших досліджень. Ось кілька прикладів:
 <ul>
- 	<li>Focus Group Tips: <a href="http://www.focusgrouptips.com/marketing-research-reports.html" target="_blank">How to Write Qualitiative Market Research Reports</a></li>
- 	<li>Small Business: <a href="http://smallbusiness.chron.com/write-market-research-report-3298.html" target="_blank">How to Write a Market Research Report</a></li>
- 	<li>Demand Metric: <a href="https://www.demandmetric.com/content/market-research-report" target="_blank">Market Research Report</a></li>
+ 	<li>Focus Group Tips: <span style="color: #eae46f;"><a style="color: #eae46f;" href="http://www.focusgrouptips.com/marketing-research-reports.html" target="_blank">How to Write Qualitiative Market Research Reports</a></span></li>
+ 	<li>Small Business:<span style="color: #eae46f;"> <a style="color: #eae46f;" href="http://smallbusiness.chron.com/write-market-research-report-3298.html" target="_blank">How to Write a Market Research Report</a></span></li>
+ 	<li>Demand Metric: <span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.demandmetric.com/content/market-research-report" target="_blank">Market Research Report</a></span></li>
 </ul>
-<h3>Подумайте</h3>
+</div>
+<div style="background-color: #006667; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 id="reflect"><strong><span style="color: #ffffff;">Подумайте</span></strong></h3>
 Після того як ви провели своє дослідження ринку, зупиніться і освідомте чого ви досягли! Ви змогли провести дослідження споживача і аналіз конкурентів, і створити звіт дослідження ринку. Тепер озирніться назад і запитайте себе:
 <ul>
  	<li>Чи відчуваєте, що ви добре підготовлені і розумієте ринок, на який ви виходите?</li>
@@ -212,9 +213,10 @@
  	<li>Які ваші сильні і слабкі сторони, в порівнянні з вашими конкурентами?</li>
  	<li>Що буде виділяти вас на ринку, в порівнянні з вашими конкурентами? Що відрізняє вас один від одного?</li>
 </ul>
-<h3>Additional resources</h3>
+<h3><span style="color: #ffffff;">Additional resources</span></h3>
 <ul>
- 	<li>Entrepreneur: <strong><a href="https://www.entrepreneur.com/article/217345" target="_blank">Основи маркетингових досліджень </a></strong></li>
- 	<li>Бережливий підхід Стіва Бланка: <strong><a href="http://ed.ted.com/on/lviesZQO" target="_blank">Здобуття клієнтів і архетипи </a></strong></li>
- 	<li>Udacity: <a href="https://www.youtube.com/watch?v=KovkopcILQ8" target="_blank">Customer Development</a></li>
+ 	<li>Entrepreneur: <span style="color: #eae46f;"><strong><a style="color: #eae46f;" href="https://www.entrepreneur.com/article/217345" target="_blank">Основи маркетингових досліджень </a></strong></span></li>
+ 	<li>Бережливий підхід Стіва Бланка: <span style="color: #eae46f;"><strong><a style="color: #eae46f;" href="http://ed.ted.com/on/lviesZQO" target="_blank">Здобуття клієнтів і архетипи </a></strong></span></li>
+ 	<li>Udacity: <span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.youtube.com/watch?v=KovkopcILQ8" target="_blank">Customer Development</a></span></li>
 </ul>
+</div>
