@@ -1,0 +1,201 @@
+<h1>Programación 5</h1>
+<em>Nota: todo los recursos con un * son en inglés</em>
+<h1>Diseño de UX y Prototipo de Papel</h1>
+<ul>
+ 	<li><a href="#ux">Diseño y Usabilidad </a></li>
+ 	<li><a href="#act1">Actividad: Enunciado del Problema y Metas </a></li>
+ 	<li><a href="#act2">Mapear tus <em>Stakeholders</em> (personas interesadas) </a></li>
+ 	<li><a href="#act3">Entrevistas y Entrevistas con <em>Stakeholders</em></a></li>
+ 	<li><a href="#what">¿Qué es un prototipo de papel? </a></li>
+ 	<li><a href="#challenge">Desafio de programación Code Challenge</a></li>
+ 	<li><a href="#reflect">Reflexionar </a></li>
+</ul>
+<h3>Objetivos de Aprendizaje:</h3>
+En esta unidad, aprenderás...
+<ul>
+ 	<li style="font-weight: 400">Obtenga información sobre el diseño de la experiencia del usuario (UX) y el producto viable mínimo (MVP)</li>
+ 	<li style="font-weight: 400">Clarifique los objetivos de tu aplicación</li>
+ 	<li style="font-weight: 400">Recopila información sobre las necesidades de tus usuarios</li>
+ 	<li style="font-weight: 400">Crea un prototipo de papel y obtén retroalimentación al respecto</li>
+</ul>
+Has aprendido más sobre App Inventor, y tu equipo tiene una idea para un problema que deseas resolver juntos, junto con algunas ideas para una solución. Pero tal vez se pregunte cómo puede tomar estas ideas y transformarlas en una aplicación móvil que funcione de manera confiable y que haga lo que los usuarios quieren que haga. Crear una aplicación utilizable es más que programar. ¡De hecho, la parte de programación real solo puede comprender alrededor del 20% del proyecto!
+
+Imagine que tu amigo le pide que haga una aplicación para ayudarla a llegar a la escuela a tiempo todas las mañanas. Usted crea una aplicación que usa GPS para rastrear su ruta a la escuela y hacerle saber si llegará tarde. Cuando se lo muestras, resulta que ella toma el autobús a la escuela. Realmente necesitaba una aplicación que pudiera proporcionarle un horario de autobuses en tiempo real. ¡Pasaste varias horas trabajando en la aplicación en vano porque no entendías sus necesidades y ahora tienes que dedicar más tiempo al rediseño!
+
+¿Qué harías de manera diferente la próxima vez para garantizar algo así que esto no vuelva a ocurrir?
+<h3><b>¿Qué es Diseño UX y Usabilidad? </b></h3>
+<strong>El Diseño UX</strong> (abreviatura de <strong>la experiencia del usuario</strong> o <em><strong>u</strong>ser e<strong>x</strong>perience</em> en inglés) ayuda a las personas a crear tecnología que es fácil de usar e intuitiva. Tiene que ver con la calidad de la experiencia que alguien tiene cuando usa un sistema o una pieza de tecnología. Puede pensar que mejora la 'experiencia del usuario', lo que significa que a un usuario le resultará fácil usar la tecnología y seguirá utilizándola porque está satisfecho.
+
+Mientras diseñas tu aplicación que ayuda a resolver un problema, deberías de querer crear algo que sea fácil de usar, que la aplicación cumple con el objetivo deseado  y brinde una experiencia que sea divertida para el usuario. Querrás hacerla utilizable. Pero, ¿qué hace que una aplicación sea utilizable?
+
+La usabilidad es la medida en que un sistema, producto o servicio puede ser utilizado por usuarios específicos para alcanzar objetivos específicos con efectividad, eficiencia y satisfacción en un contexto de uso específico.
+
+No se trata solo de lo que piensas que podría verse bien o de lo que crees que te gustaría porque te consideras un usuario de la aplicación que vas a crear. Se trata de contexto. Piensa en quién más usará la aplicación y cuáles son sus necesidades. ¿Las personas lo usarán una vez al año, una vez a la semana o una vez al día?
+
+¿Dónde estarán usandola? Solíamos pensar en las aplicaciones como algo que la gente usa mientras está sentada en su escritorio. ¿Cuáles son algunas de tus aplicaciones favoritas y qué hacen? ¿Dónde y cómo los usas? ¿Hacen muchas cosas o hacen algunas cosas realmente bien? Para ahorrarle a tu equipo horas desperdiciadas de tiempo de ingeniería, se centrarán en crear una aplicación con características mínimas. Esto se llama <strong>producto mínimo viable</strong> o <strong>MVP</strong>.
+<h5>Producto Mínimo Viable (MVP)</h5>
+En el <a href="https://en.wikipedia.org/wiki/New_product_development">mundo del desarrollo de productos</a>, el MVP es un producto con las características suficientes para hacer el trabajo y probarlo con los usuarios para que luego se puedan realizar mejoras. El objetivo es crear el producto final más deseado. En general, los productos con más funciones implican un aumento de los costos y el riesgo de fallas. Esto puede suceder debido a suposiciones incorrectas sobre los usuarios.
+
+Es especialmente importante pensar dónde se usará la aplicación y qué funcionaría bien en una pantalla pequeña, dispositivo portátil como un teléfono inteligente. No querrás que alguien dejara de usar tu aplicación porque es muy difícil de entender y usar. ¿Cómo se aprende más sobre tus usuarios para evitar esto?
+<h5>Diseño Centrado en el Usuario</h5>
+En el <strong>diseño centrado en el usuario</strong> (<strong><b>User Centered Design </b></strong>en inglés) tu mantienes al usuario al tanto mientras investigas, diseñas, desarrollas y pruebas. Este es un proceso iterativo, lo que significa que habrá una secuencia de operaciones que se repetirán hasta que se acerque a tu producto final más deseado. Los pasos involucrados son:
+<p style="text-align: center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/research.png" alt="research" width="50" height="50" />
+Análisis y Investigación</p>
+<p style="text-align: center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/Design.png" alt="design" width="50" height="50" />
+Diseño</p>
+<p style="text-align: center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/Test.png" alt="test" width="50" height="50" />
+Prueba</p>
+<p style="text-align: left">¡Estos pasos se repiten hasta el producto esta listo para ser construido!</p>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/Circular-Flow700x270.png" alt="circular-flow700x270" width="166" height="166" />
+
+Lo más valioso que puedes hacer antes de comenzar es tener claro el objetivo de tu aplicación. Esta parte del proyecto se llama análisis porque necesitas saber qué debe hacer tu aplicación, y obtener los detalles correctos puede ser un poco complicado.
+<h3><b>Actividad 1: Repasa Tu Planteamiento del Problema y Crear una Meta </b></h3>
+¿Recuerdas el planteamiento del problema en el que trabajaste con tu  equipo en la <a href="http://www.technovationchallenge.org/curriculum/ideation">Unidad de Ideación</a>? Deberás volver a consultarlo ahora y probablemente querrás volver a consultarlo después para que tu equipo siga centrado en el problema y en tus objetivos originales. Esta es una parte importante del proceso porque te ayudará a analizar las necesidades de las personas que usan tu aplicación y a comprender los requisitos técnicos de tu aplicación.
+
+Para resumir, <strong>el planteamiento del problema</strong> es una breve redacción que explica el problema al que se está enfrentando tu equipo. Debe delinear los hechos básicos del problema, explicar por qué el problema importa, a quién afecta y cómo, y presentar una solución directa.
+
+&nbsp;
+
+Que necesitarás:
+<ul>
+ 	<li style="font-weight: 400">Tu declaración de problema inicial. Aquí hay <a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/CreateaProblemStatement.pdf">una plantilla</a>* para crear tu declaración de problema si el equipo aún no lo ha hecho en la Pre-Unidad de Ideación.</li>
+</ul>
+Qué harás:
+<ol>
+ 	<li style="font-weight: 400">Revisa el enunciado del problema o trabaja si aún no lo has hecho. Deberías responder cuatro preguntas:</li>
+</ol>
+<ul>
+ 	<li style="list-style-type: none">
+<ul>
+ 	<li style="font-weight: 400"><b>¿Cuál es el problema? </b>En términos de diseño, esto también se traduce en: ¿cuál es la necesidad?</li>
+ 	<li style="font-weight: 400"><b>¿A quién afecta el problema y cómo? </b>Esto es importante porque las personas que se verán afectadas por el problema serán los usuarios de tu aplicación. Ellos serán tus partes interesadas (<em>stakeholders</em>)</li>
+ 	<li style="font-weight: 400"><b>¿Por qué es importante resolverlo? </b>¿Por qué este problema es convincente y tiene alguna evidencia del problema para respaldar tu argumento?</li>
+ 	<li style="font-weight: 400"><b>¿Cuál es la solución?</b> Puedes tener una idea inicial para una solución. ¡Experimentará más con la solución en esta unidad a medida que conozcas a tu usuario y mediante prototipos de papel!</li>
+</ul>
+</li>
+</ul>
+<ol start="2">
+ 	<li style="font-weight: 400">Ahora, ¿puedes condensar el enunciado de tu problema en una oración que diga qué problema está tratando de resolver la aplicación y cómo lo abordarás? Esto se usará como tu objetivo para seguir adelante.</li>
+</ol>
+<a role="button" href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/CreateaProblemStatement.pdf" target="_blank" rel="noopener">descarga la plantilla
+</a>
+<h5>Investigación</h5>
+Una vez que aclare tu objetivo, debe definir <strong>sus partes interesadas</strong> (<em><strong>stakeholders</strong></em>), que son las personas que utilizarían tu aplicación o que tu aplicación podría afectar. Estas son las personas con las que necesita hablar para obtener más información sobre lo que necesitan que haga la aplicación. Tú y tu equipo podrían pensar que son usuarios típicos, pero igual deberían hablar con otras personas, entrevistarlas, obtener sus comentarios y observar en el entorno que utilizarían tu aplicación cuando sea posible.
+
+Imagínete que estás haciendo una aplicación que les permita a los estudiantes pre-ordenar comida en la cafetería de la escuela. Pueden usar la aplicación para pedir la comida por la mañana y luego ir a buscarla a la hora del almuerzo. La idea es que esto ayudará a reducir la línea de espera en la cafetería. ¿Quién crees que será tu público en esta situación?
+
+Los interesados ​​potenciales (<em>stakeholders</em>) para esto serían:
+<ul>
+ 	<li>Estudiantes (que usarán la aplicación del teléfono)</li>
+ 	<li>Personal de la cafetería (que recibirá solicitudes a través de la aplicación)</li>
+ 	<li>Padres (que necesitarían comprar a sus hijos un teléfono inteligente para que puedan usar la aplicación)</li>
+ 	<li>Los administradores escolares (que pueden pensar que los teléfonos no deben usarse durante el horario escolar)</li>
+ 	<li>Soporte de TI de la escuela (que necesitaría ayudar a los estudiantes que no pueden encontrar la manera de trabajar con la aplicación o conectarse a la red)</li>
+</ul>
+<h3>Actividad 2: Haz un Mapa de Tus Grupos de Interés</h3>
+Que necesitarás:
+<ul>
+ 	<li>Post-its</li>
+ 	<li>Marcadores</li>
+</ul>
+Qué harás:
+<ol>
+ 	<li>Haz una lluvia de ideas y anota todas las partes interesadas posibles para tu proyecto, una por publicación.</li>
+ 	<li>Agrupe a las partes interesadas en grupos similares, como "adultos", "niños", "personal de la escuela"</li>
+ 	<li>Decida en qué partes interesadas te enfocarás para tu aplicación</li>
+ 	<li>Escriba las preguntas que quieres hacerles</li>
+ 	<li>Planifique las entrevistas con las partes interesadas: las personas de tu equipo pueden entrevistar a las personas por separado para ahorrar tiempo, o pueden ir juntas si le resulta más cómodo.</li>
+</ol>
+Una vez que hayas aclarado tu objetivo y hayas identificado a las partes interesadas a las que te gustarías entrevistar, estarás lista para aprender más sobre cómo piensan.
+<h3>Actividad 3: realizar entrevistas con partes interesadas, recopilar personajes e historias de usuarios</h3>
+Para saber qué quieren <em>los stakeholders</em> que la aplicación haga, tendrás que entrevistarlos. Puedes hacerles preguntas para ayudarte a encontrar algunos requisitos esenciales y funcionales de tu aplicación. Los requisitos funcionales son cosas que la aplicación debe hacer. Con el ejemplo anterior, la aplicación debe permitir que los estudiantes elijan los alimentos que desean pedir. A continuación, debe enviar la orden a la cafetería, junto con el nombre del alumno para que puedan identificarse fácilmente al recoger la comida.
+
+Entrevista a un grupo de personas que son potenciales <em>stakeholders</em> ​​de tu aplicación para aprender más sobre el problema y conocer sus opiniones sobre la solución. Si conoces aplicaciones que ya existen para ayudar a resolver el problema en el que tu equipo se está enfocando, puedes preguntarles a los usuarios acerca de la aplicación y qué les gusta o qué no funciona tan bien para ellos. Esto sentará las bases para lo que harás más tarde en <a href="http://www.technovationchallenge.org/curriculum/market-3/">Marketing 3</a>.
+
+Que necesitarás:
+<ul>
+ 	<li>Una impresión de las preguntas que anotó en la actividad del mapa de <em>stakeholder</em></li>
+ 	<li>Impresiones de la plantilla de <a href="http://www.technovationchallenge.org/wp-content/uploads/2016/12/Persona-Template.pdf">Persona*</a></li>
+ 	<li>Impresiones de la plantilla de <a href="http://www.technovationchallenge.org/wp-content/uploads/2016/12/User-Story-Template.pdf">historia de usuario (<em>user story</em>)*</a></li>
+ 	<li>Papel</li>
+ 	<li>Algo para escribir</li>
+ 	<li>Grabadora de voz o aplicación si desea grabar la entrevista</li>
+</ul>
+Qué harás:
+<ol>
+ 	<li>Preséntete y brinda a la persona a la que estás entrevistando una breve descripción de tu proyecto. ¿Por qué estás interesado en recibir sus comentarios?</li>
+ 	<li>Haz las preguntas que tu equipo preparó.</li>
+ 	<li>Usa la <a href="http://www.technovationchallenge.org/wp-content/uploads/2016/12/Persona-Template.pdf">Plantilla de Persona</a> del <em>Toolkit</em> de interfaz de usuario web de Goldman Sachs para obtener más información. <em>Una persona </em>es una descripción de una persona (real o ficticia) que usará la aplicación. Una persona te permite diseñar pensando en un usuario específico, en lugar de diseñar para 'todos'. Cree tantas <em>personas</em> como necesite para capturar las principales categorías de personas que usarán la aplicación. Asegúrete de hacer preguntas sobre cuáles serán sus objetivos para una aplicación, cuáles son sus necesidades particulares y cuáles son sus puntos débiles. Los puntos de dolor son problemas, reales o percibidos, con los que las personas luchan. Tu aplicación esencialmente tratará de ayudar a proporcionar soluciones a esos puntos de dolor.</li>
+ 	<li>Usa la <a href="http://www.technovationchallenge.org/wp-content/uploads/2016/12/User-Story-Template.pdf">Plantilla de Historia de Usuario</a> del <em>Toolkit</em> de interfaz de usuario web de Goldman Sachs para profundizar en las funciones que tu usuario desea que tenga la aplicación y por qué.</li>
+ 	<li>Vuelva a reunirte como un equipo y comparta sus experiencias del proceso de entrevistas, junto con sus personajes y las plantillas de historias de usuario.</li>
+ 	<li>Si hay más interesados ​​que crees que necesitas entrevistar para obtener la información, hazlo ahora antes de pasar al próximo paso, ¡que es el diseño! Pronto crearás un prototipo en papel, que es un proceso divertido y creativo.</li>
+</ol>
+<h3>¿Qué es un prototipo de papel?</h3>
+<strong>La creación de prototipos</strong> es una forma de modelar ideas o conceptos para que puedan ser comunicados a las personas lo más pronto posible y probadas.
+
+Existen diferentes tipos de <a href="https://en.wikipedia.org/wiki/Prototype">prototipos</a>*, pero nos centraremos en la creación de <strong>prototipos de papel</strong> en esta unidad. Un prototipo de papel es una representación dibujada a mano de la interfaz de usuario que generalmente se parece a capturas de pantalla. Puede ayudar a servir de guía sobre cómo los usuarios navegarían por la aplicación.
+
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image01.png" />&nbsp;
+
+¿Cuáles son los beneficios de la creación de prototipos de papel?
+<ul>
+ 	<li>Puedes comunicar tus ideas rápidamente y de forma visual. Por ejemplo, puedes mostrar lo que sucede cuando haces clic en los botones de tu aplicación</li>
+ 	<li>¡Es colaborativo! Cuando trabajas en papel, es más informal y las conversaciones surgen de la experimentación</li>
+ 	<li>¡Es barato! No tienes que gastar mucho dinero para crear un prototipo en papel. Puedes usar materiales como papel, recortes de revistas, calcomanias, marcadores, pegatinas, cinta adhesiva, pegamento</li>
+ 	<li>No es necesario ser un experto técnico para esta parte del proceso</li>
+ 	<li>Puedes observar la interacción humana con la interfaz y aprenderás rápidamente sobre lo que podría y no podría funcionar en tu diseño</li>
+ 	<li>Los prototipos pueden ayudar a confirmar las decisiones de diseño antes de dedicar más tiempo al desarrollo de la tecnología</li>
+</ul>
+Ten en cuenta que el diseño de tu aplicación puede cambiar para adaptarse a las necesidades del usuario una vez que se haya probado y haya recibido comentarios. ¡Esto está bien, porque querrás saber estas cosas más temprano que tarde! Algunos de ustedes pueden tener miedo de poner a prueba sus ideas porque piensan que podrían recibir comentarios que no son positivos y verían esto como un fracaso.
+<h3>La Importancia de la Falla</h3>
+Recuerda: el fracaso es parte del proceso y hay mucho que puedes aprender de él. Descubra lo que Richard DeVaul tiene que decir al respecto en este breve <a href="https://www.youtube.com/watch?v=5oKmb7U3H6U"><strong>video</strong></a>. Él es el líder del equipo de evaluación rápida para el laboratorio secreto superior de Google llamado Design Kitchen. También puede obtener más información sobre cómo el fracaso y el rechazo de ideas es parte del proceso de innovación que se encuentra en este <a href="https://www.fastcompany.com/3028156/united-states-of-innovation/the-google-x-factor">artículo</a>.
+
+&nbsp;
+
+&nbsp;
+
+
+¿Estas inspirada? Esperamos que si. ¡Estás lista ahora para el etapa de diseño!
+<h3>Desafío de Programación: Haz un Prototipo de Papel para tu App</h3>
+&nbsp;
+
+¡Cada producto tiene que comenzar en alguna parte! El boceto es una parte fundamental del proceso de diseño y puede ayudarte a tomar decisiones clave sobre qué diseñar. Puede ser tan simple como dibujar en un pedazo de papel y es útil cuando se trabaja con tus ideas iniciales. Puedes mostrar la estructura básica de tu aplicación y experimentar cómo las personas interactuarán con tu aplicación. También puedes probar el color y dónde irán los botones. Dedicar tiempo ahora para probar tus ideas en papel te ayudará a ahorrar tiempo más tarde cuando transfiera tus ideas a tu prototipo digital.
+
+Antes de comenzar, puedes obtener más información sobre creación de prototipos de papel, flujo de usuarios y teoría del color en este breve video con Melissa Powel, que forma parte del equipo de Google Developer Relations, y Mariam Shaikh, que es diseñadora de experiencia de usuario senior en Google.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+¿Lista? Encontrarás la instrucciones para el desafío aquí
+
+<a role="button" href="http://www.technovationchallenge.org/curriculum/code-5-challenge/" target="_blank" rel="noopener">Ver las Instrucciones</a>
+
+&nbsp;
+
+<a role="button" href="http://www.technovationchallenge.org/curriculum/code-5-challenge/" target="_blank" rel="noopener"> </a>
+<blockquote>
+<p style="text-align: center">"Mis mejores éxitos vinieron tras los fracasos".</p>
+</blockquote>
+&nbsp;
+<p align="right">–Barbara Corcoran, empresaria, inversionista, y autora</p>
+
+<h1>Reflexión</h1>
+¡Has llegado muy lejos y definitivamente mereces algunas felicitaciones! Ya casi terminaste con esta unidad.
+
+Ahora que los comentarios aún son recientes, ¡ahora es el momento de la iteración! Analiza los comentarios con tu equipo, realiza los cambios necesarios en tu prototipo de papel y repita el proceso según sea necesario.
+
+Tu equipo puede sentirse tentadas de seguir adelante y transferir el diseño del prototipo de papel a un prototipo digital. ¿Pero han revisado para asegurarse de tener un plan para su producto viable mínimo antes de continuar? ¿Sabes cuáles de las características de la aplicación son realmente esenciales, frente a las serian buenas más no esenciales tener?
+
+¡No estaría de más hacer una iteración más con tu prototipo en papel y compartirlo con tu mentor y tus compañeros!
+
+<strong>Recursos adicionales</strong>
+<ul>
+ 	<li><a href="https://www.youtube.com/watch?v=876EQd5Osi8" target="_blank" rel="noopener">Diseño de UX: seminario web Technovation 2016 con Debra Herschmann* </a>Responsable global de experiencia de usuario en plataformas cliente en Goldman Sachs</li>
+ 	<li style="font-weight: 400"><a href="http://www.uistencils.com/products/android-stencil-kit" target="_blank" rel="noopener">Android Stencil Kit*</a></li>
+ 	<li style="font-weight: 400"><a href="http://wireframesketcher.com/sample-mockups.html" target="_blank" rel="noopener">WireframeSketcher*</a></li>
+ 	<li style="font-weight: 400"><a href="https://developers.google.com/design-sprint/downloads/DesignSprintMethods.pdf" target="_blank" rel="noopener">Design Sprint Methods* </a>por Google</li>
+ 	<li style="font-weight: 400"> <a href="http://www.creativebloq.com/design/luke-wroblewski-mobile-first-7126204" target="_blank" rel="noopener">Think Mobile First*</a> Filosofía de Luke Wroblewski</li>
+</ul>
