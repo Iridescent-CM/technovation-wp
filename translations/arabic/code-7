@@ -9,7 +9,8 @@
 	<li><a href="#version">Version Control</a></li>
 	<li><a href="#reflect">Reflect</a></li>
 </ul>	
-<h3><strong>أهداف التعليم:</strong></h3>
+
+<h3 id="tips"><strong>أهداف التعليم:</strong></h3>
 <p><span style="font-weight: 400;">في هذه الوحدة، سوف تتعلمين...
 
 نصائح لتصحيح الأخطاء البرمجية الخاصة بك
@@ -30,7 +31,7 @@
 
 <p><span style="font-weight: 400;">اذا كان لديك أسئلة خاصة ب App Inventor أثناء تصحيح الأخطاء, يوجد منتدى App Inventor</span><a href="https://groups.google.com/forum/#!forum/mitappinventortest" target="_blank"><span style="font-weight: 400;"> يمكنك الانضمام هنا</span></a>, <span style="font-weight: 400;">ثم انشري سؤالك. بالرغم من أن مجتمع App Inventor الكبير هو بالعادة مفيد جدا ولديه استجابة للأسئلة, حاولي البحث في المنتدى لتري ان كان سؤالك موجود بالفعل وتمت الإجابة عليه. هذا سيوفر وقتك.</span></p>
 
-<h5>استخدام بيانات الاختبار</h5>
+<h5 id="testdata">استخدام بيانات الاختبار</h5>
 
 <p>اذا كان لديك الكثير من البيانات المعقدة حقا لاستخدامها في تطبيقك سيكون من المفيد استعمال بيانات الاختبار.بيانات الاختبار هو مجموعة أبسط من البيانات التي ستقومين فقط باستخدامها لتتأكدي من أن تطبيقك يعمل بشكل صحيح..</p>
 
@@ -43,7 +44,7 @@
 	<p align="right">- Steve McConnell, خبير هندسة برمجيات ومؤلف</p>
 </div>	
 
-ا<h5>ستخدام منبه</h5>
+<h5 id ="notifer">استخدام منبه</h5>
 
 <p><span style="font-weight: 400;">لنقل بأن تطبيقك عالق ولست متأكدة من السبب! يمكنك استعمال المنبه ليحدد بدقة أين الكود معطوب. لوضع منبه في تطبيقك اسحبه من لوحة واجهة المستخدم. سوف يظهر كمكون غير مرئي مثل هذا:</span></p>
 
@@ -69,7 +70,7 @@
 	<li style="font-weight: 400;">لفحص ان كانت الشاشة تحمل أو عالقة <br /><img class="alignnone wp-image-20172" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/ScreenInitalize.png" alt="screeninitalize" width="355" height="111" srcset="http://technovationchallenge.org/wp-content/uploads/2016/12/ScreenInitalize.png 1160w, http://technovationchallenge.org/wp-content/uploads/2016/12/ScreenInitalize-300x94.png 300w, http://technovationchallenge.org/wp-content/uploads/2016/12/ScreenInitalize-768x241.png 768w, http://technovationchallenge.org/wp-content/uploads/2016/12/ScreenInitalize-1024x321.png 1024w" sizes="(max-width: 355px) 100vw, 355px" />	</li>
 </ul>		
 
-<h5>انهيار وتعطيل الكتل</h5>
+<h5 id="collapse">انهيار وتعطيل الكتل</h5>
 <p><span style="font-weight: 400;">هناك أمران يمكن أن يساعداك وهما تعطيل وانهيار الكتل التي لا تقومين باستعمالها. اذا قمت بالضغط بزر الفارة الايمن على block App Inventor سيعطيكي خيار to collapse or disable a block لتعطيل وانهيار الكتلة </span></p>
 
 <p><img class="aligncenter wp-image-19876" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image11.png" alt="image11" width="442" height="216" srcset="http://technovationchallenge.org/wp-content/uploads/2016/12/image11.png 1217w, http://technovationchallenge.org/wp-content/uploads/2016/12/image11-300x147.png 300w, http://technovationchallenge.org/wp-content/uploads/2016/12/image11-768x375.png 768w, http://technovationchallenge.org/wp-content/uploads/2016/12/image11-1024x501.png 1024w" sizes="(max-width: 442px) 100vw, 442px" /></p>
@@ -88,7 +89,7 @@
 
 <p><img class="aligncenter wp-image-19911" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image12-1.png" alt="image12" width="433" height="200" srcset="http://technovationchallenge.org/wp-content/uploads/2016/12/image12-1.png 918w, http://technovationchallenge.org/wp-content/uploads/2016/12/image12-1-300x138.png 300w, http://technovationchallenge.org/wp-content/uploads/2016/12/image12-1-768x354.png 768w" sizes="(max-width: 433px) 100vw, 433px" /></p>
 
-<h5>التعليقات</h5>
+<h5 id="comments">التعليقات</h5>
 
 <p><span style="font-weight: 400;">المبرمجون الجيدون بالعادة يتركون تعليقات على الكود لشرح ماذا يفعل. التعليقات يمكن أن تكون مفيدة عندما ينظر أشخاص آخرون للكود الخاص بك, مثلا أعضاء الفريق, الموجهون, والحكام. التعليقات تساعدك أيضا عند عودتك للكود فيما بعد وقد نسيتي ماذا تفعل بعض الأجزاء منه. لاضافة تعليق في App Inventor اضغطي بالزر الايمن على الكتلة واختاري "add comment" اضافة تعليق.</span></p>
 
@@ -105,7 +106,7 @@
 	<p align="right">- Regina Agyare, مؤوسسة Soronko Solutions.</p>
 </div>	
 
-<h3>التحكم بالنسخ </h3>
+<h3 id="version">التحكم بالنسخ </h3>
 
 <p><span style="font-weight: 400;">لنقل أنه لديك جزء من التطبيق قمت ببناءه ويعمل بشكل صحيح. عندما تنشئين وتفحصين الجزء الثاني من تطبيقك, كل شيء يتوقف عن العمل بما في ذلك الجزء الذي كان يعمل من قبل! تحاولين أن تحذفي الأجزاء التي قمت باضافتها ولكن كل التطبيق ما زال لا يعمل! والآن أنت لست متأكدة ما الخطأ وتتمنين لو كان هناك زر للتراجع.</span></p>
 
@@ -128,7 +129,7 @@
 <p><center><br />
 <iframe src="https://www.youtube.com/embed/HNM5Mxf7eZU" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></center></p>
 <div style="background-color: #006667; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
-	<h1>إنعكاس</h1>
+	<h1 id="reflect">إنعكاس</h1>
 
 	<p><span style="font-weight: 400;">تهانينا ! أنت تقريبا انتهيتي من بناء تطبيق جاهز لتسجيل الدخول ل Technovation. نحن متحمسون لوصولك لهذه المرحلة, ونعلم أنه كان جهدا كبيرا لفريقك.</span></p>
 
@@ -138,7 +139,7 @@
 
 	<h3><span style="font-weight: 400;">مصادر إضافية</span></h3>
 	<ul>
-		<li style="font-weight: 400;"><a href="http://ai2.appinventor.mit.edu/reference/other/testing.html" target="_blank">MIT Testing Documentation</a></li>
-		<li style="font-weight: 400;">هنا يوجد فيديو آخر يمكن أن يساعدك في تصحيح الأخطاء:: <a href="https://www.youtube.com/watch?v=itCnknI5PlY" target="_blank"> Debugging Video</a></li>
+		<li style="font-weight: 400;"><a href="http://ai2.appinventor.mit.edu/reference/other/testing.html" target="_blank" style="color: #eae46f;" >MIT Testing Documentation</a></li>
+		<li style="font-weight: 400;">هنا يوجد فيديو آخر يمكن أن يساعدك في تصحيح الأخطاء:: <a href="https://www.youtube.com/watch?v=itCnknI5PlY" target="_blank" style="color: #eae46f;" > Debugging Video</a></li>
 	</ul>	
 </div>
