@@ -1,27 +1,27 @@
 <h1><span style="font-weight: 400">Programación 3</span></h1>
 <h1><b style="color: #6e466b;font-family: Eagle;font-size: 1.688rem">Lógica, Ciclos y Condicionales</b></h1>
 <ul>
- 	<li style="font-weight: 400"><a href="http://iridescent.staging.wpengine.com/wp-admin/admin.php?page=wpml-translation-management%2Fmenu%2Ftranslations-queue.php&amp;job_id=122#conditions"><span style="font-weight: 400">Condiciones</span></a></li>
- 	<li style="font-weight: 400"><a href="http://iridescent.staging.wpengine.com/wp-admin/admin.php?page=wpml-translation-management%2Fmenu%2Ftranslations-queue.php&amp;job_id=122#ifelse"><span style="font-weight: 400">Estatuto Si / Entonces  (If/Else Statements)</span></a></li>
- 	<li style="font-weight: 400"><a href="http://iridescent.staging.wpengine.com/wp-admin/admin.php?page=wpml-translation-management%2Fmenu%2Ftranslations-queue.php&amp;job_id=122#act1"><span style="font-weight: 400">Actividad 1</span></a></li>
- 	<li style="font-weight: 400"><a href="http://iridescent.staging.wpengine.com/wp-admin/admin.php?page=wpml-translation-management%2Fmenu%2Ftranslations-queue.php&amp;job_id=122#elseif"><span style="font-weight: 400">Estatuto Si No (Else/If Statements)</span></a></li>
- 	<li style="font-weight: 400"><a href="http://iridescent.staging.wpengine.com/wp-admin/admin.php?page=wpml-translation-management%2Fmenu%2Ftranslations-queue.php&amp;job_id=122#act2"><span style="font-weight: 400">Actividad 2</span></a></li>
- 	<li style="font-weight: 400"><a href="http://iridescent.staging.wpengine.com/wp-admin/admin.php?page=wpml-translation-management%2Fmenu%2Ftranslations-queue.php&amp;job_id=122#andop"><span style="font-weight: 400">Operador Lógico Y  (And)</span></a></li>
- 	<li style="font-weight: 400"><a href="http://iridescent.staging.wpengine.com/wp-admin/admin.php?page=wpml-translation-management%2Fmenu%2Ftranslations-queue.php&amp;job_id=122#orop"><span style="font-weight: 400">Operador Lógico O  (Or)</span></a></li>
- 	<li style="font-weight: 400"><a href="http://iridescent.staging.wpengine.com/wp-admin/admin.php?page=wpml-translation-management%2Fmenu%2Ftranslations-queue.php&amp;job_id=122#notop"><span style="font-weight: 400">Operador Lógico No  (Not)</span></a></li>
- 	<li style="font-weight: 400"><a href="http://iridescent.staging.wpengine.com/wp-admin/admin.php?page=wpml-translation-management%2Fmenu%2Ftranslations-queue.php&amp;job_id=122#act3"><span style="font-weight: 400">Actividad 3</span></a></li>
- 	<li style="font-weight: 400"><span style="font-weight: 400">Ciclos Por (For Loops)</span></li>
- 	<li style="font-weight: 400"><span style="font-weight: 400">Ciclo Por Cada  (For Each Loop)</span></li>
- 	<li style="font-weight: 400"><span style="font-weight: 400">Ciclo Mientras (While Loop)</span></li>
- 	<li style="font-weight: 400"><span style="font-weight: 400">Desafío de Código</span></li>
+ 	<li style="font-weight: 400"><a href="#conditions"><span style="font-weight: 400">Condiciones</a></li>
+ 	<li style="font-weight: 400"><a href="#ifelse"><span style="font-weight: 400">Estatuto Si / Entonces  (If/Else Statements)</a></li>
+ 	<li style="font-weight: 400"><a href="#act1"><span style="font-weight: 400">Actividad 1</span></a></li>
+ 	<li style="font-weight: 400"><a href="#elseif"><span style="font-weight: 400">Estatuto Si No (Else/If Statements)</a></li>
+ 	<li style="font-weight: 400"><a href="#act2"><span style="font-weight: 400">Actividad 2</a></li>
+ 	<li style="font-weight: 400"><a href="#andop"><span style="font-weight: 400">Operador Lógico Y  (And)</a></li>
+ 	<li style="font-weight: 400"><a href="#orop"><span style="font-weight: 400">Operador Lógico O  (Or)</a></li>
+ 	<li style="font-weight: 400"><a href="#notop"><span style="font-weight: 400">Operador Lógico No  (Not)</a></li>
+ 	<li style="font-weight: 400"><a href="#act3"><span style="font-weight: 400">Actividad 3</a></li>
+ 	<li style="font-weight: 400"><a href="#forloop">Ciclos Por (For Loops)</a></li>
+ 	<li style="font-weight: 400"><a href="#foreach">Ciclo Por Cada  (For Each Loop)</a></li>
+ 	<li style="font-weight: 400"><a href="#whileloop">Ciclo Mientras (While Loop)</a></li>
+ 	<li style="font-weight: 400"><a href="#codechal">Desafío de Código</a></li>
 </ul>
-<h2><b>Objetivos de aprendizaje:</b></h2>
+<h3><b>Objetivos de aprendizaje:</b></h3>
 <span style="font-weight: 400">En esta unidad:</span>
 <ul>
- 	<li style="font-weight: 400"><span style="font-weight: 400">Aprenderás sobre declaraciones condicionales y cómo escribirlas</span></li>
- 	<li style="font-weight: 400"><span style="font-weight: 400">Aprenderás a usar operadores lógicos en tu código</span></li>
- 	<li style="font-weight: 400"><span style="font-weight: 400">Aprenderás cómo usar los</span><span style="font-weight: 400"> bucles for y while</span></li>
- 	<li style="font-weight: 400"><span style="font-weight: 400">Crea una aplicación que busque una base de datos</span></li>
+ 	<li style="font-weight: 400">Aprenderás sobre declaraciones condicionales y cómo escribirlas</li>
+ 	<li style="font-weight: 400">Aprenderás a usar operadores lógicos en tu código</li>
+ 	<li style="font-weight: 400">Aprenderás cómo usar los</span><span style="font-weight: 400"> bucles for y while</li>
+ 	<li style="font-weight: 400">Crea una aplicación que busque una base de datos</li>
 </ul>
 <span style="font-weight: 400">¡Felicidades por todo su arduo trabajo hasta ahora! Esta es una unidad realmente larga pero contiene muchos de los conceptos de código que son esenciales para programar tu aplicación. ¡No te obsesiones con cosas que no entiendes porque siempre puedes volver a hablar con ellas más tarde!</span>
 
@@ -32,21 +32,19 @@
  	<li style="font-weight: 400"><span style="font-weight: 400"><strong>Los controladores de eventos</strong> dicen a tu aplicación qué hacer cuando sucede algo.</span></li>
  	<li style="font-weight: 400"><span style="font-weight: 400"><strong>Las variables</strong> son nombres de datos que pueden cambiar.</span></li>
 </ul>
-<span style="font-weight: 400">Juego  con este divertido juego </span><a href="https://www.madewithcode.com/projects/robots"><span style="font-weight: 400">Made With Code Robot</span></a><span style="font-weight: 400"> antes de comenzar con esta unidad. Te ayudará a familiarizarte con los conceptos que estás a punto de aprender. Si no puedes resolver los cinco niveles ahora, intenta regresar a él una vez que haz terminado esta unidad.</span>
-<h2><span style="font-weight: 400">Condiciones</span></h2>
+<p style="text-align: center;">
+<span style="font-weight: 400">Juego  con este divertido juego </span><a href="https://www.madewithcode.com/projects/robots" target = "_blank"><span style="font-weight: 400">Made With Code Robot</span></a><span style="font-weight: 400"> antes de comenzar con esta unidad. Te ayudará a familiarizarte con los conceptos que estás a punto de aprender. Si no puedes resolver los cinco niveles ahora, intenta regresar a él una vez que haz terminado esta unidad.</span>
+
+<h2 id="conditions"><span style="font-weight: 400">Condiciones</span></h2>
 <span style="font-weight: 400">¡Has estado usando mucho los controladores de eventos hasta ahora! En los últimos dos desafíos de codificación cuando su usuario presionó un botón, su aplicación hizo algo. Por ejemplo, en la aplicación que creó en Code Challenge 2, el botón Intro agregó elementos a una lista de tareas pendientes. El evento fue cuando el usuario presiona "enter" y la forma en que la aplicación lo manejó fue agregando el texto del usuario a la lista de tareas pendientes. El código de tu aplicación funcionaba así:</span>
 
-&nbsp;
-
-&nbsp;
-
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Enter-Pressed1-533x1024.png" alt="enter-pressed1" width="99" height="189" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Enter-Pressed1-533x1024.png" alt="enter-pressed1" width="99" height="189" />
 
 <span style="font-weight: 400">Es posible que haya notado en nuestra aplicación de ejemplo o en su propia aplicación 'lista de tareas' que el usuario podría agregar un cuadro en blanco a la lista. ¡Debido a esto, el usuario podría tener una lista realmente larga sin nada en ella!</span>
 
 <span style="font-weight: 400">Digamos que no deseas que tu usuario pueda agregar un cuadro en blanco a su lista de tareas pendientes. Entonces, cada vez que el usuario ingresa, escribe el código para preguntarle a tu aplicación "¿ha introducido el usuario el texto"? Si la respuesta es sí, la aplicación agrega el texto a la lista de tareas pendientes. Si la respuesta es no, entonces la aplicación no lo agrega. Ahora su código se ve más como esto (</span><i><span style="font-weight: 400">Cuando Inicio es presionado ¿el usuario ha ingresado texto? Si, hacer esto. No, hacer eso.</span></i><span style="font-weight: 400">):</span>
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Enter-Pressed2-352x1024.png" alt="enter-pressed2" width="142" height="411" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Enter-Pressed2-352x1024.png" alt="enter-pressed2" width="142" height="411" />
 
 <span style="font-weight: 400">En este caso, "hacer esto" significa "agregar el texto", y "hacer eso" significa "no agregar nada". Esta es una gran manera de solucionar tu problema, pero recuerda que las computadoras no pueden pensar por sí mismas, por lo que no puedes hacerles directamente preguntas como las que le harías a una persona.</span>
 
@@ -54,57 +52,49 @@
 
 <span style="font-weight: 400">En la programación, cuando deseas hacer una pregunta a tu aplicación la programas para verificar una </span><b>condición</b><span style="font-weight: 400">. Una condición es algo que una computadora determina que es <strong>verdadera</strong> (true) o <strong>falso</strong> (false). Verdadero es cuando la computadora responde que sí y lo falso es como responder no. Puedes decirle a tu aplicación que haga cosas diferentes dependiendo de si la condición es verdadera o falsa. A continuación, te indicamos cómo preguntar a tu aplicación si el usuario ha ingresado texto usando una condición:</span>
 
-&nbsp;
+<img  class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Enter-Pressed3-343x1024.png" alt="enter-pressed3" width="152" height="455" />
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Enter-Pressed3-343x1024.png" alt="enter-pressed3" width="152" height="455" />
+<span style="font-weight: 400">¿Recuerdas el tipo de datos booleanos del </span><a href="http://technovationchallenge.org/curriculum/programacion-2-datos-y-variables/?lang=es" target = "_blank"><span style="font-weight: 400">Programación 2: datos y variables</span></a><span style="font-weight: 400">? <strong>Los booleanos</strong> son un tipo de datos que puede ser verdadero o falso. Cuando tu aplicación evalúa una condición, ¡emite un booleano!</span>
 
-<span style="font-weight: 400">¿Recuerdas el tipo de datos booleanos del </span><a href="http://technovationchallenge.org/curriculum/programacion-2-datos-y-variables/?lang=es"><span style="font-weight: 400">Programación 2: datos y variables</span></a><span style="font-weight: 400">? <strong>Los booleanos</strong> son un tipo de datos que puede ser verdadero o falso. Cuando tu aplicación evalúa una condición, ¡emite un booleano!</span>
 <h2><span style="font-weight: 400">Declaraciones condicionales</span></h2>
-<h5><span style="font-weight: 400">Si / otras declaraciones</span></h5>
+<h5 id="ifelse"><span style="font-weight: 400">Si / otras declaraciones</span></h5>
 <span style="font-weight: 400">Entonces ahora sabes qué es una <strong>condición</strong>, pero ¿cómo la usas en la programación? En la  programación, pides a tu computadora que evalúe las condiciones escribiendo <strong>enunciados condicionales</strong>. Las declaraciones condicionales son la forma en que las computadoras pueden tomar decisiones. Las declaraciones condicionales siempre tienen una parte </span><b>if</b><span style="font-weight: 400">, que le dice a la aplicación qué hacer cuando la condición es verdadera. Los enunciados condicionales también suelen tener una parte </span><b>else</b><span style="font-weight: 400">, que indica a la aplicación qué hacer cuando la condición es falsa. Si omites la parte else, tu aplicación no hará nada cuando la condición sea falsa. Ahora tu código para su botón de inicio se vería así:</span>
 
-&nbsp;
-
-&nbsp;
-
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Enter-Pressed4-550x1024.png" alt="enter-pressed4" width="262" height="488" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Enter-Pressed4-550x1024.png" alt="enter-pressed4" width="262" height="488" />
 
 <span style="font-weight: 400">Así es como se ven  las declaraciones condicionales en App Inventor:</span>
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Screen-Shot-2016-11-01-at-12.05.58-PM.png" alt="screen-shot-2016-11-01-at-12-05-58-pm" width="254" height="161" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Screen-Shot-2016-11-01-at-12.05.58-PM.png" alt="screen-shot-2016-11-01-at-12-05-58-pm" width="254" height="161" />
 
 <span style="font-weight: 400">Así es como funcionan estos bloques. Pones una condición al lado de <strong>si (if)</strong>. Colocas el código de lo que tu aplicación debería hacer si la condición es verdadera al lado de <strong>entonces (then)</strong>  y lo qué quieres que tu aplicación haga si la condición es falsa al lado de la<strong> otra (else)</strong>. Si la condición es verdadera, solo se ejecutará el código al lado de <strong>entonces (then)</strong> y se ignorará todo el código al lado de <strong>otra (else)</strong>. Si su condición es falsa, se ignorará el código a un lado de <strong>entonces (then)</strong>  y se ejecutará el código al lado de <strong>otra (else)</strong>. Piénsalo como diciendo "<strong>Si (if)</strong> esta condición es verdadera, <strong>entonces (then)</strong> haz esto, <strong>sino (else)</strong> haz esto".</span>
 
-<span style="font-weight: 400">Regresemos al ejemplo que usamos en <a href="http://technovationchallenge.org/curriculum/programacion-2-datos-y-variables/?lang=es">Programación 2: Datos y Variables.</a> A continuación se muestra cómo se ve el condicional.</span>
+<span style="font-weight: 400">Regresemos al ejemplo que usamos en <a href="http://technovationchallenge.org/curriculum/programacion-2-datos-y-variables/?lang=es" target = "_blank">Programación 2: Datos y Variables.</a> A continuación se muestra cómo se ve el condicional.</span>
 
-&nbsp;
-
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/if-statement.png" alt="if-statement" width="463" height="243" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/if-statement.png" alt="if-statement" width="463" height="243" />
 
 <span style="font-weight: 400">Aquí, cuando el usuario hace clic en el botón "Entrar" o "Inicio", la aplicación evaluará esta condición: "la longitud de la cadena (string) ingresada en el <strong>cuadro de texto</strong> no es igual a cero". Si esta condición es verdadera (la longitud de la cadena (string) no es igual a cero) significa que el usuario ha ingresado texto, por lo que la aplicación agregará el texto a una lista. Si la condición es falsa (la longitud de la cadena es igual a cero), entonces la aplicación ignora todo el código que está al lado de <strong>entonces</strong> (<strong>then</strong>) y salta a <strong>otra</strong> (<strong>else)</strong>, que notifica al usuario "¡Ingrese  texto!".</span>
-<h2>Actividad 1</h2>
-¿Puedes pensar en algunas declaraciones condicionales que usas para tomar decisiones todos los días? Aquí hay algunos ejemplos para comenzar:
-<ul>
- 	<li>Si está lloviendo, llévate un paraguas contigo</li>
- 	<li>Si tienes hambre, come algo para comer, de lo contrario espera hasta más tarde</li>
- 	<li>Si hace frío afuera, trae una chaqueta</li>
- 	<li>Si estás enfermo, ve al médico, si no, ve a la escuela</li>
- 	<li>Si su teléfono está muerto, cárguelo</li>
-</ul>
-<h5>Declaraciones de lo contrario (else if statements)</h5>
+
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3 id="act1">Actividad 1</h3>
+	¿Puedes pensar en algunas declaraciones condicionales que usas para tomar decisiones todos los días? Aquí hay algunos ejemplos para comenzar:
+	<ul>
+	 	<li>Si está lloviendo, llévate un paraguas contigo</li>
+	 	<li>Si tienes hambre, come algo para comer, de lo contrario espera hasta más tarde</li>
+	 	<li>Si hace frío afuera, trae una chaqueta</li>
+	 	<li>Si estás enfermo, ve al médico, si no, ve a la escuela</li>
+	 	<li>Si su teléfono está muerto, cárguelo</li>
+	</ul>
+</div>
+
+<h5 id="elseif">Declaraciones de lo contrario (else if statements)</h5>
 Hasta ahora has aprendido cómo escribir declaraciones condicionales que evalúan una condición y tienen dos resultados posibles. En esta sección, aprenderás cómo escribir declaraciones condicionales que evalúan más de una condición y tienen más de dos resultados posibles.
 
 <strong>De lo contrario (else if)</strong> te permite agregar otra condición a tu declaración condicional. Esta segunda condición se evaluará después de la primera condición y solo si la primera condición es falsa. Si el segunda condición también es falsa, la aplicación cambiará a <strong>else</strong> o no hará nada. En el siguiente diagrama, las condiciones son azules y los posibles resultados son de color púrpura.
 
-&nbsp;
-
-&nbsp;
 <table>
 <tbody>
 <tr>
-<td style="text-align: center" width="50%">
-<p class="normal"><span lang="EN">Declaración condicional con una condición y dos resultados posibles.</span></p>
-</td>
+<td style="text-align: center" width="50%">Declaración condicional con una condición y dos resultados posibles.</td>
 <td style="text-align: center">Declaración condicional con dos condiciones y tres posibles resultados. Condición 2 es evaluados solamente si Condición 1 es falsa.</td>
 </tr>
 <tr>
@@ -113,7 +103,7 @@ Hasta ahora has aprendido cómo escribir declaraciones condicionales que evalúa
 </tr>
 </tbody>
 </table>
-<p class="normal"><span lang="EN">A continuación podemos ver como se ven los bloques en App Inventor:</span></p>
+<p><span lang="EN">A continuación podemos ver como se ven los bloques en App Inventor:</span></p>
 
 <table>
 <tbody>
@@ -133,7 +123,7 @@ Estás diseñando una aplicación que solo está destinada a usuarios de entre 1
 </ol>
 El usuario debe ingresar su edad en la aplicación y almacenarla en una variable llamada "edad". A continuación, le mostramos cómo puede usar una declaración <strong>if / else if / else</strong> para verificar la edad de su usuario.
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image08-1-1024x457.png" alt="if/else else/if response blocks" width="633" height="283" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image08-1-1024x457.png" alt="if/else else/if response blocks" width="633" height="283" />
 
 La primera condición prueba si el usuario es menor de 13 años. Si lo es, la aplicación le avisa que es demasiado joven. Si no es así, la aplicación prueba si es mayor de 18 años. Si lo es, la aplicación le avisa que es demasiado gradnde. Si no es así, que el usuario tiene menos de 13 años o es mayor a 18 años, la aplicación le dice que tiene la edad adecuada.
 
@@ -145,41 +135,43 @@ Aquí hay algunas cosas para recordar cuando se usan declaraciones <strong>if / 
  	<li>La afirmación funciona de arriba hacia abajo, por lo que debe poner la condición que desea que se pruebe primero en la parte superior de la declaración</li>
  	<li>El único código que se llevará a cabo es el código bajo la primera declaración que se encuentre como verdadero</li>
 </ul>
-Para obtener más información sobre condicionales, consulte el sitio web del MIT <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/control.html">aqui.</a>
-<h2>Actividad 2</h2>
-¡Identificar qué condiciones debe evaluar tu aplicación puede ser complicado! A veces sabes lo que quieres que haga tu aplicación, pero puede ser difícil saber qué condiciones verificar. Practiquemos escribir algunas condiciones que cree que las aplicaciones verifican cuando las usa. ¡Aquí hay un ejemplo para comenzar! Vea si puede encontrar más ejemplos.
+Para obtener más información sobre condicionales, consulte el sitio web del MIT <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/control.html" target = "_blank">aqui.</a>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3 id="act2">Actividad 2</h3>
+	¡Identificar qué condiciones debe evaluar tu aplicación puede ser complicado! A veces sabes lo que quieres que haga tu aplicación, pero puede ser difícil saber qué condiciones verificar. Practiquemos escribir algunas condiciones que cree que las aplicaciones verifican cuando las usa. ¡Aquí hay un ejemplo para comenzar! Vea si puede encontrar más ejemplos.
 
-Iniciando sesión en una cuenta de redes sociales:
-<ul>
- 	<li>Condiciones para verificar:
-<ul>
- 	<li>El nombre de usuario es correcto</li>
- 	<li>La contraseña es correcta</li>
- 	<li>El usuario no ha intentado iniciar sesión más de cinco veces</li>
-</ul>
-</li>
-</ul>
-Otra parte difícil de escribir declaraciones condicionales es traducir la condición que tienes en mente en algo que tu aplicación realmente pueda entender. En el ejemplo anterior, verificamos la edad de un usuario creando primero una variable que sería igual a la edad del usuario. ¡No siempre es intuitivo establecer condiciones y tomará práctica! Aquí hay preguntas que debes hacerte al tratar de establecer la condición correcta:
-<ol>
- 	<li>¿Tu condición depende de la información ingresada por el usuario?</li>
- 	<li>¿Necesitas configurar alguna variable?</li>
- 	<li>Si es así, ¿qué tipo? ¿Es un número, lista o cadena?</li>
- 	<li>¿Puedes usar operadores matemáticos tales como menor que (&lt;), mayor que (&gt;), igual a (=), no igual a (≠) en tu condición?</li>
- 	<li>¿Necesitas comparar el valor de algo con un valor en una base de datos?</li>
- 	<li>¿Necesitas comparar algo con datos de otro lugar, como un sitio web? (Esto lo discutiremos más en el <strong>Programacion 4</strong>)</li>
- 	<li>¿En qué tipo de datos se basa tu condición? ¿Ves alguna operación para ese tipo de datos que te ayudaría?
-<ul>
- 	<li>Ej: comparar dos <strong>cadenas (string)</strong>, encontrar la longitud de una cadena, agregar elementos a una lista, comparar dos listas, etc.</li>
- 	<li>Intenta revisar las operaciones en App Inventor para ver si te ayuda.</li>
-</ul>
-</li>
-</ol>
-<h2>Lógica</h2>
+	Iniciando sesión en una cuenta de redes sociales:
+	<ul>
+	 	<li>Condiciones para verificar:
+	<ul>
+	 	<li>El nombre de usuario es correcto</li>
+	 	<li>La contraseña es correcta</li>
+	 	<li>El usuario no ha intentado iniciar sesión más de cinco veces</li>
+	</ul>
+	</li>
+	</ul>
+	Otra parte difícil de escribir declaraciones condicionales es traducir la condición que tienes en mente en algo que tu aplicación realmente pueda entender. En el ejemplo anterior, verificamos la edad de un usuario creando primero una variable que sería igual a la edad del usuario. ¡No siempre es intuitivo establecer condiciones y tomará práctica! Aquí hay preguntas que debes hacerte al tratar de establecer la condición correcta:
+	<ol>
+	 	<li>¿Tu condición depende de la información ingresada por el usuario?</li>
+	 	<li>¿Necesitas configurar alguna variable?</li>
+	 	<li>Si es así, ¿qué tipo? ¿Es un número, lista o cadena?</li>
+	 	<li>¿Puedes usar operadores matemáticos tales como menor que (&lt;), mayor que (&gt;), igual a (=), no igual a (≠) en tu condición?</li>
+	 	<li>¿Necesitas comparar el valor de algo con un valor en una base de datos?</li>
+	 	<li>¿Necesitas comparar algo con datos de otro lugar, como un sitio web? (Esto lo discutiremos más en el <strong>Programacion 4</strong>)</li>
+	 	<li>¿En qué tipo de datos se basa tu condición? ¿Ves alguna operación para ese tipo de datos que te ayudaría?
+	<ul>
+	 	<li>Ej: comparar dos <strong>cadenas (string)</strong>, encontrar la longitud de una cadena, agregar elementos a una lista, comparar dos listas, etc.</li>
+	 	<li>Intenta revisar las operaciones en App Inventor para ver si te ayuda.</li>
+	</ul>
+	</li>
+	</ol>
+</div>	
+
+<h2 id="andop">Lógica</h2>
 Hasta ahora has aprendido a hacer que tu aplicación haga cosas diferentes usando <strong>declarciones condicionales</strong>. Puedes abordar muchos problemas nuevos conociendo algunos <strong>operadores lógicos</strong>. <strong>Los operadores lógicos</strong> toman múltiples entradas booleanas y las simplifican en una salida booleana. Como tu aplicación ve las condiciones como verdaderas o falsas, puede usar condiciones como entradas para operadores lógicos. Hay tres operadores lógicos principales que aprenderá en esta sección: <strong>y, o,</strong> y<strong> no </strong>(<strong>and</strong>, <strong>or, </strong> y <strong>not)</strong>. Aunque pueden parecer extraños, verás ejemplos a continuación sobre cómo los operadores lógicos pueden ayudarlo a construir tu aplicación.
 <h5>Operador Y (and)</h5>
 Para que el operador y sea verdadero, todas sus entradas deben ser verdaderas. Si alguna de las condiciones de entrada es falsa, su código evaluará toda la declaración como falsa. Aquí están todos los resultados posibles al usar <strong>and</strong> <strong>y</strong> function.
 
-&nbsp;
 <p style="text-align: center">Verdadera <strong>y</strong> Verdadera = Verdadera</p>
 <p style="text-align: center">True <strong>and</strong> True = True</p>
 <img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image34.png" alt="true/true blocks" width="318" height="62" />
@@ -193,37 +185,38 @@ Para que el operador y sea verdadero, todas sus entradas deben ser verdaderas. S
 <p style="text-align: center">False <strong>and</strong> False = False<strong><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image07-1.png" alt="false/false blocks" width="353" height="66" /></strong></p>
 Aquí es como puedes pensar sobre el uso de <strong>y (and)</strong> en una declaración de condiciones:
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Condition3-1024x608.png" alt="condition3" width="407" height="242" />
-
-&nbsp;
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Condition3-1024x608.png" alt="condition3" width="407" height="242" />
 
 Nota: Usar el operador <strong>y (and)</strong> es diferente a usar <strong>else if</strong> porque ambas condiciones se evalúan al mismo tiempo en lugar de una después de la otra. También ambos deben ser verdaderos para que la app vea el condicional como verdadero.
-<h5>Ejemplos</h5>
-Debes usar <strong>y (and)</strong> cuando necesites dos condiciones para que algo suceda. ¡Aquí hay algunos ejemplos de cuándo puedes usar <strong>y (and)</strong> en tu aplicación!
-<ul>
- 	<li>Iniciando sesión en las redes sociales:
-<ul>
- 	<li>Si (el nombre de usuario es correcto) <strong>y (and)</strong> (la contraseña es correcta) → permita que el usuario inicie sesión</li>
-</ul>
-</li>
- 	<li>Ganar un juego
-<ul>
- 	<li>Si (el jugador termina el nivel) <strong>y (and)</strong> (el tiempo no está activo) → el usuario gana</li>
-</ul>
-</li>
- 	<li>Encontrar una tienda de comestibles:
-<ul>
- 	<li>Si (la tienda está abierta) <strong>y (and)</strong> (la tienda está cerca del usuario) → luego, muéstrela en los resultados de búsqueda</li>
-</ul>
-</li>
- 	<li>Publicando imágenes:
-<ul>
- 	<li>Si (el usuario ha seleccionado una imagen) <strong>y (and)</strong> (el usuario ha ingresado un título) → permita al usuario publicar la imagen</li>
-</ul>
-</li>
-</ul>
-¿Puedes pensar en más ejemplos?
-<h5>Operador o (or)</h5>
+<div style="background-color: #00abad; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h5><strong><span style="color: #ffffff;">Ejemplos</span></strong></h5>
+	Debes usar <strong>y (and)</strong> cuando necesites dos condiciones para que algo suceda. ¡Aquí hay algunos ejemplos de cuándo puedes usar <strong>y (and)</strong> en tu aplicación!
+	<ul>
+	 	<li>Iniciando sesión en las redes sociales:
+		<ul>
+		 	<li>Si (el nombre de usuario es correcto) <strong>y (and)</strong> (la contraseña es correcta) → permita que el usuario inicie sesión</li>
+		</ul>
+		</li>
+		 	<li>Ganar un juego
+		<ul>
+		 	<li>Si (el jugador termina el nivel) <strong>y (and)</strong> (el tiempo no está activo) → el usuario gana</li>
+		</ul>
+		</li>
+		 	<li>Encontrar una tienda de comestibles:
+		<ul>
+		 	<li>Si (la tienda está abierta) <strong>y (and)</strong> (la tienda está cerca del usuario) → luego, muéstrela en los resultados de búsqueda</li>
+		</ul>
+		</li>
+		 	<li>Publicando imágenes:
+		<ul>
+		 	<li>Si (el usuario ha seleccionado una imagen) <strong>y (and)</strong> (el usuario ha ingresado un título) → permita al usuario publicar la imagen</li>
+		</ul>
+		</li>
+	</ul>
+	¿Puedes pensar en más ejemplos?
+</div>	
+
+<h2 id = "orop"><strong>Operador o (or)</strong></h2>
 Para que el operador <strong>o (or)</strong> sea verdadero, solo una de las entradas debe ser verdadera. Aquí están todos los resultados posibles al usar el operador <strong>o</strong>.
 <p style="text-align: center">Verdadero <strong>o</strong> verdadero = verdadero</p>
 <p style="text-align: center">True <strong>or</strong> True = True</p>
@@ -239,28 +232,32 @@ Para que el operador <strong>o (or)</strong> sea verdadero, solo una de las entr
 <p style="text-align: center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image49.png" alt="false or false blocks" width="313" height="61" /></p>
 Así es como puedes pensar usando <strong>o</strong> en una declaración condicional:
 
-<img src="http://technovationchallenge.org/wp-content/uploads/2016/09/Condition4-3.png" alt="" width="408" height="239" />
+<img class="aligncenter" src="http://technovationchallenge.org/wp-content/uploads/2016/09/Condition4-3.png" alt="" width="408" height="239" />
 
 <em>Nota</em>: El operador <strong>o (or)</strong> también puede parecer similar a <strong>de lo contrario</strong> (<strong>else if)</strong>. El operador <strong>o (or)</strong>es diferente porque ambas condiciones se evalúan al mismo tiempo en lugar de una después de la otra. Es mejor usar el operador <strong>o (or)</strong> cuando tienes dos condiciones que deberían tener el mismo resultado si son verdaderas.
-<h5>Ejemplos</h5>
-<ul>
- 	<li>Perdiendo un juego:
-<ul>
- 	<li>(Si se acaba el tiempo) <strong>o (or)</strong> (el jugador pierde todas sus vidas) → el jugador pierde</li>
-</ul>
-</li>
- 	<li>Mostrando resultados de búsqueda
-<ul>
- 	<li>(Si el título coincide) <strong>o (or)</strong> (la descripción coincide) → muéstrela en los resultados de búsqueda</li>
-</ul>
-</li>
- 	<li>Recomendar videos a un usuario
-<ul>
- 	<li>(Si el usuario lo vio en el pasado) <strong>o (or)</strong> (es similar a algo que le gustó al usuario) → recomendarlo al usuario</li>
-</ul>
-</li>
-</ul>
-<h5>Operador no (not)</h5>
+
+<div style="background-color: #00abad; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h5>Ejemplos</h5>
+	<ul>
+		 	<li>Perdiendo un juego:
+		<ul>
+		 	<li>(Si se acaba el tiempo) <strong>o (or)</strong> (el jugador pierde todas sus vidas) → el jugador pierde</li>
+		</ul>
+		</li>
+		 	<li>Mostrando resultados de búsqueda
+		<ul>
+		 	<li>(Si el título coincide) <strong>o (or)</strong> (la descripción coincide) → muéstrela en los resultados de búsqueda</li>
+		</ul>
+		</li>
+		 	<li>Recomendar videos a un usuario
+		<ul>
+		 	<li>(Si el usuario lo vio en el pasado) <strong>o (or)</strong> (es similar a algo que le gustó al usuario) → recomendarlo al usuario</li>
+		</ul>
+		</li>
+	</ul>
+</div>
+
+<h5 id="notop">Operador no (not)</h5>
 ¡El operador <strong>no (not) </strong>no es fácil! El operador <strong>no (not)</strong> cambia el valor de un booleano para que sea lo contrario de lo que es.
 <p style="text-align: center"><strong>no</strong> es verdadero = falso</p>
 <p style="text-align: center"><strong>not</strong> true = false</p>
@@ -269,37 +266,41 @@ Así es como puedes pensar usando <strong>o</strong> en una declaración condici
 <p style="text-align: center"><strong>not</strong> false = true</p>
 <img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image43.png" alt="not false blocks" width="178" height="44" />
 
-&nbsp;
-
 A veces es más fácil escribir una condición que hace que tu aplicación marque lo contrario de lo que deseas. Para estos escenarios, puede usar el operador <strong>no (not)</strong>. Así es como puedes pensar sobre este operador en una declaración condicional.
 
 <img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Condition5-1024x825.png" alt="condition5" width="283" height="228" />
-<h5>Ejemplos</h5>
-<ul>
- 	<li>Deseas verificar si hay texto en un cuadro de texto, pero es más fácil verificar si el cuadro de texto está vacío que verificar si hay algo ahí. Utiliza el operador <strong>no (not)</strong> para que puedas verificar si el cuadro de texto no está vacío.
-<ul>
- 	<li>Si <strong>no (not)</strong> (textbox = "") → haz esto</li>
-</ul>
-</li>
- 	<li>Deseas excluir resultados de búsqueda sobre cachorros, por lo que debe asegurarte de que la palabra cachorro no esté allí utilizando el operador <strong>no (not)</strong>.
-<ul>
- 	<li>Si <strong>no (not) </strong>(el artículo contiene la palabra cachorro) → mostrar resultados</li>
-</ul>
-</li>
- 	<li>Puedes combinar <strong>operadores lógicos</strong> para hacer más cosas. A continuación, te mostramos cómo podrías mostrar los resultados de búsqueda que tienen la palabra gatito y no tienen la palabra cachorro.</li>
- 	<li>Si <strong>no (not) </strong>(el artículo contiene la palabra cachorro) <strong>y (and)</strong> (el artículo contiene la palabra gatito) → muestra los resultados</li>
-</ul>
-Actividad 3
-¿Sabes que puedes usar<strong> y (and)</strong>, <strong>o (or)</strong> y <strong>no (not)</strong>, en una búsqueda en Google? Esta es una buena manera de reducir o ampliar los resultados de búsqueda cuando estás buscando algo. ¡Pruébalo! Asegúrese de escribir "Y", "O" o "NO" en todas las mayúsculas. Mira los ejemplos a continuación:
 
-Buscando 2017 <strong>Y</strong> <strong>(and)</strong> Technovation da resultados que contienen tanto 2017 como Technovation:
+<div style="background-color: #00abad; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h5><strong><span style="color: #ffffff;">Ejemplos</span></strong></h5>
+	<ul>
+	 	<li>Deseas verificar si hay texto en un cuadro de texto, pero es más fácil verificar si el cuadro de texto está vacío que verificar si hay algo ahí. Utiliza el operador <strong>no (not)</strong> para que puedas verificar si el cuadro de texto no está vacío.
+	<ul>
+	 	<li>Si <strong>no (not)</strong> (textbox = "") → haz esto</li>
+	</ul>
+	</li>
+	 	<li>Deseas excluir resultados de búsqueda sobre cachorros, por lo que debe asegurarte de que la palabra cachorro no esté allí utilizando el operador <strong>no (not)</strong>.
+	<ul>
+	 	<li>Si <strong>no (not) </strong>(el artículo contiene la palabra cachorro) → mostrar resultados</li>
+	</ul>
+	</li>
+	 	<li>Puedes combinar <strong>operadores lógicos</strong> para hacer más cosas. A continuación, te mostramos cómo podrías mostrar los resultados de búsqueda que tienen la palabra gatito y no tienen la palabra cachorro.</li>
+	 	<li>Si <strong>no (not) </strong>(el artículo contiene la palabra cachorro) <strong>y (and)</strong> (el artículo contiene la palabra gatito) → muestra los resultados</li>
+	</ul>
+</div>	
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">	
+	<h3 id="act3">Actividad 3</h3>
+	¿Sabes que puedes usar<strong> y (and)</strong>, <strong>o (or)</strong> y <strong>no (not)</strong>, en una búsqueda en Google? Esta es una buena manera de reducir o ampliar los resultados de búsqueda cuando estás buscando algo. ¡Pruébalo! Asegúrese de escribir "Y", "O" o "NO" en todas las mayúsculas. Mira los ejemplos a continuación:
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image45.png" alt="image45" width="482" height="331" />
+	Buscando 2017 <strong>Y</strong> <strong>(and)</strong> Technovation da resultados que contienen tanto 2017 como Technovation:
 
-La búsqueda de 2017 <b>O (or)</b> Technovation ofrece resultados que contienen 2017 o Technovation:
+	<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image45.png" alt="image45" width="482" height="331" />
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image25-1.png" alt="image25" width="481" height="313" />
-<h2>Ciclos</h2>
+	La búsqueda de 2017 <b>O (or)</b> Technovation ofrece resultados que contienen 2017 o Technovation:
+
+	<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image25-1.png" alt="image25" width="481" height="313" />
+</div>
+
+<h2 id="forloop"><strong>Ciclos</strong></h2>
 Imagínete si te pidieran escribir tu nombre cien veces seguidas. No solo sería realmente aburrido, sino que te llevaría mucho tiempo. Si te cansas, ¡quizás incluso comiences a cometer errores! Si le pides a una computadora que imprimiera tu nombre cien veces, ¡lo haría realmente rápido sin cometer errores! A diferencia de las personas, las computadoras son excelentes para hacer lo mismo una y otra vez. Puedes aprovechar esto al usar <strong>ciclos</strong>. Un ciclo es un bloque de código que se repetirá una y otra vez.
 
 Hay dos tipos de bucles, <strong>ciclos mientras (</strong><b>while loops)</b> y <strong>ciclos por (for loops)</strong>. <strong>Ciclos mientras</strong> se repetirán hasta que una condición que establezcas ya no sea verdadera, y los <strong>ciclos por (for loops)</strong> se repetirán una cierta cantidad de veces.
@@ -310,107 +311,98 @@ Hay dos tipos de bucles, <strong>ciclos mientras (</strong><b>while loops)</b> y
 
 En App Inventor, los <strong>ciclos por (for loops)</strong> se ven así:
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image21.png" alt="for loop block" width="276" height="153" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image21.png" alt="for loop block" width="276" height="153" />
 
 La parte que dice <em>número</em> (number) es el <strong>contador</strong>. Por ahora, el <strong>contador</strong> tiene el nombre de número (number) , pero puedes cambiar eso. El número (number) comenzará en 1 y se detendrá cuando sea igual a 5. Cada vez que se repite el código dentro del ciclo, el número aumenta en 1. Entonces este ciclo repetirá el código dentro de él 5 veces. Como esta en este momento, este ciclo no hace nada, ya que la parte <em>do</em> está vacía. Veamos un ejemplo.
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image41-1024x449.png" alt="image41" width="431" height="189" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image41-1024x449.png" alt="image41" width="431" height="189" />
 
 No hemos cambiado nada sobre la variable <em>numérica (number)</em>, pero hemos agregado algún código a la parte <em>do</em> del ciclo. Cada vez que se ejecuta este ciclo, la aplicación alertará a su usuario "hola", por lo que el usuario recibirá alertas 5 veces. Así es como la aplicación se ejecutará a través de este ciclo:
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Screen-Shot-2016-11-01-at-2.00.15-PM.png" alt="screen-shot-2016-11-01-at-2-00-15-pm" width="448" height="414" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Screen-Shot-2016-11-01-at-2.00.15-PM.png" alt="screen-shot-2016-11-01-at-2-00-15-pm" width="448" height="414" />
 
 Este ciclo sería útil si deseas alertar al usuario "hola" 5 veces. Esto puede no parecer tan útil ya que no es tan difícil poner 5 bloques notificadores seguidos diciendo "hola". Pero, ¿y si quisieras alertar al usuario "hola" 100 veces? ¡Esto sería mucho más fácil de hacer con un ciclo que colocar 100 bloques seguidos!
 
 Otra forma en que los <strong>ciclos for (for loops)</strong> pueden ser útiles es mediante el uso de la <strong>variable de contador</strong> en su código. Cada vez que se ejecuta el ciclo, la <strong>variable de contador</strong> tendrá un valor diferente y esto puede ser realmente útil. Aquí hay un ejemplo.
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image27-1-1024x402.png" alt="image27" width="464" height="182" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image27-1-1024x402.png" alt="image27" width="464" height="182" />
 
 En este ciclo <em>for</em> estamos usando el variable <em>número (number)</em> en el código adjuntándolo a la palabra "hola". <em>Number (número)</em> aumenta en 1 cada vez, por lo que la aplicación seguirá imprimiendo cosas diferentes cada vez que se ejecute. Así es como la aplicación se ejecutará a través de este ciclo ahora:
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Screen-Shot-2016-11-01-at-2.04.17-PM.png" alt="screen-shot-2016-11-01-at-2-04-17-pm" width="445" height="381" />
-<h5><span style="font-weight: 400">Ciclo Por Cada (</span>For Each Loops)</h5>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Screen-Shot-2016-11-01-at-2.04.17-PM.png" alt="screen-shot-2016-11-01-at-2-04-17-pm" width="445" height="381" />
+
+<h5 id="foreach"><span style="font-weight: 400">Ciclo Por Cada (</span>For Each Loops)</h5>
 Otro tipo útil de <strong>ciclo por (for loop)</strong> que puede usar en App Inventor es este:
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image16-1.png" alt="image16" width="219" height="88" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image16-1.png" alt="image16" width="219" height="88" />
 
 Aquí, la <strong>variable de contador</strong> es llamado <em>item</em> y ya está configurada para repetirse para la cantidad de items (elementos) en una lista. Estos ciclos son muy útiles cuando necesitas hacer algo con una lista. Aquí hay un ejemplo.
 
 Supongamos que tienes una lista de números y deseas sumar cada número dentro de la lista y almacenarla en una variable llamada suma. Así es como harías esto con <strong>por cada ciclo (for each loop)</strong>.
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/listofnumbers.png" alt="listofnumbers" width="404" height="94" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/listofnumbers.png" alt="listofnumbers" width="404" height="94" />
 
-<b><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/numberlist.png" alt="numberlist" width="500" height="106" /></b>
+<b><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/numberlist.png" alt="numberlist" width="500" height="106" /></b>
 
 Cada vez que se ejecuta el ciclo, la suma variable obtendrá un elemento de numberList añadida a él. ¡El ciclo se detendrá automáticamente después de que se hayan agregado todos los números en la lista!
 
-<em>Nota</em>: ¡Puede haber notado que las variables de contador en esta sección se parecen mucho a las variables locales que aprendió en el <a href="http://www.technovationchallenge.org/curriculum/code-2/">Programación 2</a>! Al igual que las variables locales, solo puede usarlas dentro del ciclo.
-<h5>Mientras que Loops (While Loops)</h5>
+<em>Nota</em>: ¡Puede haber notado que las variables de contador en esta sección se parecen mucho a las variables locales que aprendió en el <a href="http://www.technovationchallenge.org/curriculum/code-2/" target = "_blank">Programación 2</a>! Al igual que las variables locales, solo puede usarlas dentro del ciclo.
+<h5 id="whileloop" ><strong>Mientras que Loops (While Loops)</strong></h5>
 Los ciclos mientras que  (while loops) son ciclos que continuarán hasta que una condición ya no sea verdadera. La razón por la que se llamanmientras que (while loops) es porque el código se repetirá mientras una condición sigue siendo verdadera. Puedes pensar en los ciclos mientras que  (while loops) como decirle a tu aplicación "mientras esto sucede, repite esto" o "mientras esto no haya cambiado, repite esto".
-<h5>Ejemplo</h5>
-Vas a tener una fiesta y quieres que la música siga sonando hasta que todos tus invitados se vayan. Podría describir su fiesta como este ciclo:
-<ul>
- 	<li><strong>Mientras (while)</strong> (personas en la fiesta&gt; 0)</li>
- 	<li><strong>hacer (do</strong>): seguir tocando música</li>
-</ul>
-¿Qué pasa si también quieres que tu música deje de reproducirse cuando sea más tarde de la medianoche? Puedes programar ciclos mientras (while) para finalizar el ciclo en función de múltiples condiciones usando<strong> la lógica</strong>. Ahora puedes describir tu fiesta con este ciclo.
-<ul>
- 	<li><strong>Mientras (while)</strong> (personas en fiesta&gt; 0) y (hora &lt;medianoche)</li>
- 	<li><strong>hacer (do)</strong> : seguir tocando música</li>
-</ul>
-En este caso, la música se detendría tan pronto como todos se fueran de la fiesta o si ya pasó la medianoche.
+<div style="background-color: #00abad; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h5> <strong><span style="color: #ffffff;">Ejemplo</span></strong></h5>
+	Vas a tener una fiesta y quieres que la música siga sonando hasta que todos tus invitados se vayan. Podría describir su fiesta como este ciclo:
+	<ul>
+	 	<li><strong>Mientras (while)</strong> (personas en la fiesta&gt; 0)</li>
+	 	<li><strong>hacer (do</strong>): seguir tocando música</li>
+	</ul>
+	¿Qué pasa si también quieres que tu música deje de reproducirse cuando sea más tarde de la medianoche? Puedes programar ciclos mientras (while) para finalizar el ciclo en función de múltiples condiciones usando<strong> la lógica</strong>. Ahora puedes describir tu fiesta con este ciclo.
+	<ul>
+	 	<li><strong>Mientras (while)</strong> (personas en fiesta&gt; 0) y (hora &lt;medianoche)</li>
+	 	<li><strong>hacer (do)</strong> : seguir tocando música</li>
+	</ul>
+	En este caso, la música se detendría tan pronto como todos se fueran de la fiesta o si ya pasó la medianoche.
+</div>	
 
 Para usar <strong>un ciclo mientras</strong> <strong>(while loop)</strong>, debes configurar una condición que comience como verdadera. Si tu condición comienza como falsa, entonces tu ciclo nunca se ejecutará. El ciclo verificará la condición cada vez que se repita para asegurarse de que la condición sigue siendo verdadera.
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/StartLoop-Arrow3-436x1024.png" alt="startloop-arrow3" width="169" height="397" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/StartLoop-Arrow3-436x1024.png" alt="startloop-arrow3" width="169" height="397" />
 
 Estos son los ciclos miemntras (while loop) en App Inventor:
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image35.png" alt="while loop block" width="159" height="105" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image35.png" alt="while loop block" width="159" height="105" />
 
 ¡Con <strong>ciclos mientras (while loop)</strong> es posible encontrar errores! Si eliges una condición que nunca será falsa, entonces tu ciclo nunca terminará. Esto se llama <strong>ciclo infinito</strong>. Aquí hay un ejemplo:
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image52.png" alt="image52" width="389" height="156" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image52.png" alt="image52" width="389" height="156" />
 
 Como 1 siempre será igual a 1, esta condición nunca puede ser falsa. Cuando ejecutamos este código en App Inventor nuestro teléfono se congeló y no pudimos hacer nada. También puedes recibir un mensaje que dice que la aplicación App Inventor Companion ha dejado de funcionar.
-<h3>Desafío del Código 3: Buscar en una base de datos</h3>
+
+<h2 id="codechal"> Desafío del Código 3: Buscar en una base de datos</h2>
 Crear una aplicación que le permita al usuario buscar en una base de datos de información y ver sus resultados. La base de datos debe contener nombres y descripciones de personas famosas, lugares, películas, música, eventos o cualquier otra cosa que desee. Asegúrete de tener al menos tres entradas en su base de datos.
 
 Intenta averiguar cómo completar el desafío de codificación por tu cuenta antes de mirar las instrucciones. Las instrucciones muestran solo una forma de cómo se puede resolver este desafío.
 
-<a href="http://www.technovationchallenge.org/curriculum/code-3-challenge/">Ver las instrucciones</a>
+<a href="http://www.technovationchallenge.org/curriculum/code-3-challenge/" target = "_blank">Ver las instrucciones</a>
 
-<a href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.DatabaseSearch">Descarga la aplicación de ejemplo</a>
-<h1>Reflexión</h1>
-¡Felicitades por completar esta lección! ¡Esta fue una lección muy larga, pero será muy útil cuando estés creando tu aplicación! No olvides que siempre puedes revisar cualquier cosa que no comprendiste ahora.
+<a href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.DatabaseSearch" target = "_blank">Descarga la aplicación de ejemplo</a>
 
-Revisión de palabras clave:
-<ul>
- 	<li>Booleanos: tipo de datos que puede ser verdadero o falso</li>
- 	<li>Condiciones: algo que una aplicación evalúa como verdadera o falsa</li>
- 	<li>Declaración condicional: le dice a la aplicación qué hacer después de evaluar las condiciones</li>
- 	<li>Y (AND) Operator: se evalúa como verdadero si todas las entradas son verdaderas</li>
- 	<li>O (OR)Operador: se evalúa como verdadero si una de las entradas es verdadera</li>
- 	<li>NO (NOT) operador: se evalúa como el opuesto a la entrada</li>
- 	<li>Loop: un bloque repetitivo de código</li>
- 	<li>Para Ciclo (For Loop: repite un bloque de código una cierta cantidad de elementos</li>
- 	<li>Para cada Ciclo (For Each Loop): repite un bloque de código para la cantidad de elementos en una lista</li>
- 	<li>Mientras Ciclo (While Loop) - repite un bloque de código mientras una condición es verdadera</li>
-</ul>
-&nbsp;
+<div style="background-color: #006667; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
 
-&nbsp;
+	<h2><strong><span style="color: #ffffff;">Reflexión</span></strong></h2>
+	¡Felicitades por completar esta lección! ¡Esta fue una lección muy larga, pero será muy útil cuando estés creando tu aplicación! No olvides que siempre puedes revisar cualquier cosa que no comprendiste ahora.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
+	Revisión de palabras clave:
+	<ul>
+	 	<li>Booleanos: tipo de datos que puede ser verdadero o falso</li>
+	 	<li>Condiciones: algo que una aplicación evalúa como verdadera o falsa</li>
+	 	<li>Declaración condicional: le dice a la aplicación qué hacer después de evaluar las condiciones</li>
+	 	<li>Y (AND) Operator: se evalúa como verdadero si todas las entradas son verdaderas</li>
+	 	<li>O (OR)Operador: se evalúa como verdadero si una de las entradas es verdadera</li>
+	 	<li>NO (NOT) operador: se evalúa como el opuesto a la entrada</li>
+	 	<li>Loop: un bloque repetitivo de código</li>
+	 	<li>Para Ciclo (For Loop: repite un bloque de código una cierta cantidad de elementos</li>
+	 	<li>Para cada Ciclo (For Each Loop): repite un bloque de código para la cantidad de elementos en una lista</li>
+	 	<li>Mientras Ciclo (While Loop) - repite un bloque de código mientras una condición es verdadera</li>
+	</ul>
+</div>
