@@ -5,7 +5,7 @@
  	<li><a href="#build">Construye tu Prototipo de Papel </a></li>
  	<li><a href="#test">Comprueba y Recolecta Retroalimentación de Usuarios </a></li>
 </ul>
-<h3>Construye tu prototipo de papel</h3>
+<h3 id="build"><strong>Construye tu prototipo de papel</strong></h3>
 Diseña tu aplicación creando un prototipo de papel. La creación de prototipos de papel es un proceso rápido, que te permite probar varios diseños, recopilar comentarios y realizar mejoras.
 
 <strong>Que necesitarás:</strong>
@@ -42,7 +42,7 @@ Recordatorio de MVP (<em>minimum viable product</em>): ¿Cuál es el conjunto m�
  	<li>Una vez que tengas un prototipo en funcionamiento, crees una vista previa de cómo el usuario navegaría la aplicación. Puedes tomar fotos como se muestra en el video de arriba y crear un .gif o video. Luego puedes llevar esto a las partes interesadas (las personas que entrevistaron), probarlo con ellos y obtener sus comentarios.</li>
  	<li>Te recomendamos que guardes tu prototipo en papel, ya que es posible que necesites volver a consultarlo como parte de tu trabajo mediante la creación de tu aplicación. Asegúrete de dejarlo en un lugar seguro para que no perderlo, o pida a uno de los miembros de tu equipo que sea responsable de ello.</li>
 </ol>
-<h3>Pruebe y recopile comentarios de los usuarios</h3>
+<h3 id="test"><strong>Pruebe y recopile comentarios de los usuarios</strong></h3>
 ¡Ahora que tienes un prototipo de papel, es hora de compartirlo para obtener comentarios! Recuerde las personas interesadas a quienes entrevistaron? Ahora descubrirás si la aplicación cumple con sus necesidades y expectativas.
 
 Aquí hay un divertido diseño de interfaz de usuario: un estudio de prototipos de papel que puedes ver para obtener inspiración: <a href="https://www.youtube.com/watch?v=V8LNDqMIapY" target="_blank" rel="noopener">User Interface Design: Paper Prototyping Study*</a> . Aunque es un prototipo de un iPhone en el video, la idea es similar para los androides. ¿Te das cuenta de que hay una narración que coincide con la experiencia del usuario?
@@ -59,7 +59,7 @@ Aquí hay un divertido diseño de interfaz de usuario: un estudio de prototipos 
  	<li style="font-weight: 400">Si deseas crear una demostración de video, puedes hacerlo en vez de lo aneterior. ¡Puede ser una buena práctica para el video de <em>pitch</em> que creará más tarde para enviarlo al Technovation Challenge!</li>
  	<li>Consulte con tu mentor y comparta lo que planeas mostrar a las personas interesadas. Pide comentarios e incorpóralo. [Mentor Check In: ​​revise el video o la demostración en vivo y deje que tu equipo sepa si falta algo de la demostración, o si tiene sugerencias de mejora antes de que el equipo la comparta con las partes interesadas para sus comentarios iniciales]</li>
  	<li>Traiga tu prototipo en papel o tu video a las personas interesadas, y pídales sus comentarios. ¿Qué funcionó bien, qué se puede mejorar en su opinión?</li>
- 	<li>Hágales las preguntas que se encuentran en <a href="http://www.technovationchallenge.org/wp-content/uploads/2016/12/User-Testing-Worksheet.pdf">la hoja de trabajo de prueba del usuario</a>; por ejemplo, ¿había algo que no estaba claro en la interfaz del usuario y qué características tienen el mayor valor? Escriba las respuestas.</li>
+ 	<li>Hágales las preguntas que se encuentran en <a href="http://www.technovationchallenge.org/wp-content/uploads/2016/12/User-Testing-Worksheet.pdf" target = "_blank">la hoja de trabajo de prueba del usuario</a>; por ejemplo, ¿había algo que no estaba claro en la interfaz del usuario y qué características tienen el mayor valor? Escriba las respuestas.</li>
  	<li>Un recordatorio para ser amable al recibir cualquier comentario, incluyendo comentarios negativos. ¡Esta es tu oportunidad de mejorar tu aplicación! Si tienes preguntas aclaratorias, puedes preguntarlas. Tenga en cuenta que sus comentarios son sobre la aplicación y no sobre tú personalmente.</li>
  	<li>Envíe una nota de agradecimiento a tus evaluadores y hágales saber que estarás interesada en reunirse con ellos nuevamente para probar su prototipo digital cuando esté listo.</li>
  	<li>¡Considere pedirle a tus compañeros y a tu mentor que completen también la hoja de trabajo de prueba del usuario!</li>
