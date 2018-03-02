@@ -17,11 +17,12 @@ En esta unidad, aprendarás…
  	<li style="font-weight: 400">Maneras de manejar tu proyecto y estructurar tu tiempo</li>
 </ul>
 <h3><strong>Planificando tu código</strong></h3>
-En el capítulo <a href="/?p=26095">Programación 5</a> planificaste cómo se verá tu aplicación y cómo los usuarios interactuarán con ella. En la siguiente sección, aprenderás dos técnicas para ayudarte a planificar tu código y a pensar en cómo funcionará realmente tu aplicación. ¡Es realmente importante planificar tu código para que puedas descubrir si necesitas aprender algo que no conoces y pensar cómo van a funcionar las cosas antes de llegar a la computadora!
-<h5>Pseudocódigo</h5>
+En el capítulo <a href="http://www.technovationchallenge.org/curriculum/code-5/" target="blank"><span style="font-weight: 400;">Programación 5</span></a> planificaste cómo se verá tu aplicación y cómo los usuarios interactuarán con ella. En la siguiente sección, aprenderás dos técnicas para ayudarte a planificar tu código y a pensar en cómo funcionará realmente tu aplicación. ¡Es realmente importante planificar tu código para que puedas descubrir si necesitas aprender algo que no conoces y pensar cómo van a funcionar las cosas antes de llegar a la computadora!
+
+<h3 id="pseudo">Pseudocódigo</h3>
 Escribir <strong>pseudocódigo</strong> es una parte importante del proceso de planificación de tu aplicación. El pseudocódigo usa lenguaje sencillo con algún código mezclado para explicar lo que hace tu aplicación. Debes usar los términos de programación que conozcas, como cíclo o condicionales, y cualquier componente de App Inventor que deseas usar, como ListView o botones. No hay muchas reglas sobre cómo escribir pseudocódigos, pero el objetivo es tener una idea de cómo funcionará tu aplicación antes de programarla.
 
-Veamos un ejemplo del <a href="/?p=25662">Programación 3</a>. En esta aplicación, el usuario puede buscar en una base de datos de mujeres científicas. La aplicación muestra los nombres en un ListView y el usuario puede seleccionar una científico para aprender más sobre ella.
+<span style="font-weight: 400;">Veamos un ejemplo del</span> <a href="/?p=25662" target="blank"><span style="font-weight: 400;">Programación 3</span></a>. En esta aplicación, el usuario puede buscar en una base de datos de mujeres científicas. La aplicación muestra los nombres en un ListView y el usuario puede seleccionar una científico para aprender más sobre ella.
 
 <em>Botón de búsqueda</em>
 <ul>
@@ -50,93 +51,105 @@ Veamos un ejemplo del <a href="/?p=25662">Programación 3</a>. En esta aplicaci�
  	<li style="font-weight: 400">La aplicación recupera la descripción y el nombre de la  científico de <b>TinyDB</b></li>
  	<li style="font-weight: 400">La aplicación muestra la descripción y el nombre de la científico</li>
 </ul>
-<h3>Actividad</h3>
-Escribe un pseudocódigo para dos controladores de eventos (<em>event handlers</em>)en tu aplicación. Si tienes problemas para descifrar cómo funcionará un controlador de eventos en tu aplicación, ¡puedes pedir ayuda a sus compañeros de equipo o mentores!
 
-Preguntas que debe hacerse:
-<ul>
- 	<li style="font-weight: 400">¿Cuál es el evento que comienza este código?</li>
- 	<li style="font-weight: 400">¿Tu aplicación necesitará usar algun valor almacenado?
-<ul>
- 	<li style="font-weight: 400">Si es así, ¿dónde se almacenarán los valores?</li>
-</ul>
-</li>
- 	<li style="font-weight: 400">¿Tu aplicación necesitará usar alguna variable? Si es así, ayuda a darles un nombre para hacer un seguimiento de ellos.</li>
-</ul>
-<h3><strong>Diagramas de flujo</strong></h3>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3 id="activity1">Actividad</h3>
+	Escribe un pseudocódigo para dos controladores de eventos (<em>event handlers</em>)en tu aplicación. Si tienes problemas para descifrar cómo funcionará un controlador de eventos en tu aplicación, ¡puedes pedir ayuda a sus compañeros de equipo o mentores!
+
+	Preguntas que debe hacerse:
+	<ul>
+	 	<li style="font-weight: 400">¿Cuál es el evento que comienza este código?</li>
+	 	<li style="font-weight: 400">¿Tu aplicación necesitará usar algun valor almacenado?
+	<ul>
+	 	<li style="font-weight: 400">Si es así, ¿dónde se almacenarán los valores?</li>
+	</ul>
+	</li>
+	 	<li style="font-weight: 400">¿Tu aplicación necesitará usar alguna variable? Si es así, ayuda a darles un nombre para hacer un seguimiento de ellos.</li>
+	</ul>
+</div>
+<h3 id="flow"><strong>Diagramas de flujo</strong></h3>
 Un diagrama de flujo es un diagrama que representa un algoritmo. Utiliza formas y flechas para mostrar cómo los datos se mueven a través del programa. Siempre se lee de arriba abajo. Los programadores usan diferentes formas para representar diferentes cosas que pueden sucederle a los datos. Aquí hay un ejemplo de un algoritmo para descubrir por qué duele el estómago de alguien:
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/flowchart-1.png" alt="flowchart-1" width="426" height="434" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/flowchart-1.png" alt="flowchart-1" width="426" height="434" />
+&nbsp;
 
-Un <strong>óvalo</strong> muestra dónde comienza y termina el algoritmo En el ejemplo anterior, hay tres lugares diferentes donde el algoritmo puede finalizar, ya sea que la persona necesite comer algo, necesite descansar o necesite ver a un médico. Estos se llaman <strong>terminales</strong>.
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/terminal.png" alt="terminal" width="139" height="41" />
+
+<p style="text-align: left;">Un <strong>óvalo</strong> muestra dónde comienza y termina el algoritmo En el ejemplo anterior, hay tres lugares diferentes donde el algoritmo puede finalizar, ya sea que la persona necesite comer algo, necesite descansar o necesite ver a un médico. Estos se llaman <strong>terminales</strong></p>.
 
 &nbsp;
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/decision.png" alt="decision" width="139" height="76" />
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/decision.png" alt="decision" width="139" height="76" /></p>
 
 &nbsp;
 
-<strong>Un</strong> <strong>diamante</strong> muestra dónde se debe tomar <strong>una</strong> <strong>decisión</strong>. Son como "tenedores en el camino". Esto es siempre que un condicional necesita decidir verdadero o falso para una condición. Dos flechas deberían salir de una decisión, una para verdadero y otra para falso. Observa cómo las flechas salen del diamante en el ejemplo anterior, uno sale del fondo y el otro del lado.
+<p style="text-align: left;"><strong>Un</strong> <strong>diamante</strong> muestra dónde se debe tomar <strong>una</strong> <strong>decisión</strong>. Son como "tenedores en el camino". Esto es siempre que un condicional necesita decidir verdadero o falso para una condición. Dos flechas deberían salir de una decisión, una para verdadero y otra para falso. Observa cómo las flechas salen del diamante en el ejemplo anterior, uno sale del fondo y el otro del lado.</p>
 
 Aquí hay otro ejemplo de diagrama de flujo:
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/flowchart-2-1.png" alt="flowchart-2" width="124" height="281" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/flowchart-2-1.png" alt="flowchart-2" width="124" height="281" />
 
 &nbsp;
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/process.png" alt="process" width="139" height="41" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/process.png" alt="process" width="139" height="41" />
 
 Este diagrama usa <strong>un rectángulo</strong>, que representa un <strong>proceso</strong>. Un proceso es lo que sea que tienes a tu código haciendo. Podría alertar a un usuario, configurar una etiqueta para decir algo o agregar dos números.
 
-Este diagrama de flujo muestra un <strong>ciclo mientras (while)</strong>. La condición y el proceso (en este caso, acceder a una entrada) se repetirán hasta que se cumpla la condición. Hay otro tipo de ciclo que aprendiste en la <a href="http://www.technovationchallenge.org/curriculum/code-3/"><strong>Programación 3</strong></a>: un ciclo <strong>para (for)</strong>. La condición en un ciclo para (for) es comprobar si el contador ha alcanzado lo suficiente, por lo que el proceso se repetirá un número determinado de veces hasta que se cumpla la condición.
+Este diagrama de flujo muestra un <strong>ciclo mientras (while)</strong>. La condición y el proceso (en este caso, acceder a una entrada) se repetirán hasta que se cumpla la condición. Hay otro tipo de ciclo que aprendiste en la <a href="http://www.technovationchallenge.org/curriculum/code-3/" target = "_blank"><strong>Programación 3</strong></a>: un ciclo <strong>para (for)</strong>. La condición en un ciclo para (for) es comprobar si el contador ha alcanzado lo suficiente, por lo que el proceso se repetirá un número determinado de veces hasta que se cumpla la condición.
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/flowchart-3-1.png" alt="flowchart-3" width="424" height="314" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/flowchart-3-1.png" alt="flowchart-3" width="424" height="314" />
 
 &nbsp;
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/input-1.png" alt="input" width="145" height="41" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/input-1.png" alt="input" width="145" height="41" />
 
 La última forma que debes tener en cuenta es el <strong>paralelogramo</strong>. Debe usar esta forma cada vez que necesite obtener datos de un usuario o de otro lugar, como un sitio web. El paralelogramo es para <strong>entradas (inputs)</strong>.
-<h3>Actividad</h3>
-En esta actividad, convertirás tu pseudocódigo en un diagrama de flujo. Use el pseudocódigo que creó para la actividad anterior y siga estos pasos.
 
-&nbsp;
-<ol>
- 	<li><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/Artboard-16outline.png" alt="terminal oval" width="112" height="36" />Pon un óvalo alrededor del principio y del final de tu controlador de eventos. Esto se llama terminal. A menudo hay más de un final para un diagrama de flujo. En el ejemplo del botón de búsqueda anterior, el controlador de eventos finaliza mostrando los resultados de búsqueda en una <strong>vista de lista (listview)</strong> o notificando al usuario que no hay coincidencias.</li>
- 	<li><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/decision_1outline.png" alt="conditional diamond" width="112" height="36" />Coloque un diamante donde se debe tomar una decisión. Esto ocurre cuando la aplicación necesita decidir si es verdadera o falsa para una condición. Recuerda, los condicionales pueden conducir a más de una posibilidad para el final.</li>
-</ol>
-<ol start="3">
- 	<li><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/Artboard-28outline.png" alt="input" width="112" height="36" />
-Agregue un paralelogramo alrededor de todas las entradas en su código o en los lugares donde obtiene datos del usuario u otro lugar, como un sitio web o una base de datos local.</li>
- 	<li><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/process_1outline.png" width="112" height="36" /> Pon un rectángulo alrededor de todos los procesos en tu código. Esto ocurre cuando su aplicación está haciendo algo que no está dentro de las categorías anteriores. Esto podría ser agregar elementos a una lista o enviar una alerta al usuario.</li>
-</ol>
-<ol start="5">
- 	<li><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/arrow_1outline.png" alt="arrow" height="36" />
-¡Conecta todo junto con flechas! Preste especial atención a la forma en que dibuja las flechas para bucles y condicionales y consulte los ejemplos anteriores si necesita ayuda.</li>
-</ol>
-Tome una fotografía de uno de sus diagramas de flujo e inclúyalo con su presentación para ganar <strong>un</strong> <strong>punto</strong>. ¡No se preocupe si no es exactamente exacto, todo el propósito es ayudar a planificar y aprender algo nuevo! Está bien si su código no coincide con su diagrama de flujo al final de compilar su aplicación, no necesita actualizar su diagrama de flujo.
-<h3><b>Pair Programming</b></h3>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3 id="activity2">Actividad</h3>
+	En esta actividad, convertirás tu pseudocódigo en un diagrama de flujo. Use el pseudocódigo que creó para la actividad anterior y siga estos pasos.
+
+	&nbsp;
+	<ol>
+	 	<li><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/Artboard-16outline.png" alt="terminal oval" width="112" height="36" />Pon un óvalo alrededor del principio y del final de tu controlador de eventos. Esto se llama terminal. A menudo hay más de un final para un diagrama de flujo. En el ejemplo del botón de búsqueda anterior, el controlador de eventos finaliza mostrando los resultados de búsqueda en una <strong>vista de lista (listview)</strong> o notificando al usuario que no hay coincidencias.</li>
+	 </ol>
+	 <ol start="2">	
+	 	<li><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/decision_1outline.png" alt="conditional diamond" width="112" height="36" />Coloque un diamante donde se debe tomar una decisión. Esto ocurre cuando la aplicación necesita decidir si es verdadera o falsa para una condición. Recuerda, los condicionales pueden conducir a más de una posibilidad para el final.</li>
+	</ol>
+	<ol start="3">
+	 	<li><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/Artboard-28outline.png" alt="input" width="112" height="36" />
+	Agregue un paralelogramo alrededor de todas las entradas en su código o en los lugares donde obtiene datos del usuario u otro lugar, como un sitio web o una base de datos local.</li>
+	 	<li><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/process_1outline.png" width="112" height="36" /> Pon un rectángulo alrededor de todos los procesos en tu código. Esto ocurre cuando su aplicación está haciendo algo que no está dentro de las categorías anteriores. Esto podría ser agregar elementos a una lista o enviar una alerta al usuario.</li>
+	</ol>
+	<ol start="5">
+	 	<li><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/arrow_1outline.png" alt="arrow" height="36" />
+	¡Conecta todo junto con flechas! Preste especial atención a la forma en que dibuja las flechas para bucles y condicionales y consulte los ejemplos anteriores si necesita ayuda.</li>
+	</ol>
+	Tome una fotografía de uno de sus diagramas de flujo e inclúyalo con su presentación para ganar <strong>un</strong> <strong>punto</strong>. ¡No se preocupe si no es exactamente exacto, todo el propósito es ayudar a planificar y aprender algo nuevo! Está bien si su código no coincide con su diagrama de flujo al final de compilar su aplicación, no necesita actualizar su diagrama de flujo.
+</div>
+<h3 id="pair"><b>Pair Programming</b></h3>
 <strong>La programación en pareja</strong> o<em> pair programming</em> se produce cuando dos programadores comparten una única estación de trabajo (una pantalla, teclado y mouse entre el par) y trabajan juntos o se turnan para "conducir" y "navegar". En este escenario, la persona sentada en el teclado o la pantalla táctil es el conductor, y la otra persona es el navegador. El navegador también participa activamente en la tarea de programación, pero se enfoca más en la imagen más grande, responde las preguntas que tiene el conductor y vigila el código para detectar errores. El controlador y el navegador intercambian roles cada cierto tiempo.
 
 Existen ventajas para emparejar la programación, como:
 <ul>
- 	<li>Mejor calidad de código ya que el navegador puede verificar el trabajo del controlador.</li>
- 	<li>Mejor comunicación entre los miembros del equipo porque el conductor está proporcionando un comentario continuo sobre lo que está haciendo (o programando en voz alta), y el navegador puede responder o preguntar qué sucede si el controlador está en silencio.</li>
- 	<li>El conocimiento se puede compartir y transferir en su equipo, especialmente si una persona es más principiante y otras más avanzadas.</li>
- 	<li>Puede ayudarlo a hacer que su trabajo en equipo sea más eficiente porque el conductor puede ayudar a corregir un error mientras el navegador puede concentrarse en la tarea y ayudar a recuperar el enfoque después.</li>
+ 	<li style="font-weight: 400;">Mejor calidad de código ya que el navegador puede verificar el trabajo del controlador.</li>
+ 	<li style="font-weight: 400;">Mejor comunicación entre los miembros del equipo porque el conductor está proporcionando un comentario continuo sobre lo que está haciendo (o programando en voz alta), y el navegador puede responder o preguntar qué sucede si el controlador está en silencio.</li>
+ 	<li style="font-weight: 400;">El conocimiento se pu ede compartir y transferir en su equipo, especialmente si una persona es más principiante y otras más avanzadas.</li>
+ 	<li style="font-weight: 400;">Puede ayudarlo a hacer que su trabajo en equipo sea más eficiente porque el conductor puede ayudar a corregir un error mientras el navegador puede concentrarse en la tarea y ayudar a recuperar el enfoque después.</li>
 </ul>
 Consejos para la programación de pares:
 <ul>
- 	<li>No tengas miedo de decir: "¡Primero probemos tu idea!". A veces, cuando conduces, debes saber cuándo escuchar a tu navegador. El objetivo es utilizar las mejores ideas y llegar a ellas a través de la colaboración y evitar errores.</li>
- 	<li>Aquí hay <a href="https://www.thoughtworks.com/insights/blog/10-ways-improve-your-pairing-experience"><strong>diez sugerencias*</strong></a> para mejorar la experiencia.</li>
+ 	<li style="font-weight: 400;">No tengas miedo de decir: "¡Primero probemos tu idea!". A veces, cuando conduces, debes saber cuándo escuchar a tu navegador. El objetivo es utilizar las mejores ideas y llegar a ellas a través de la colaboración y evitar errores.</li>
+ 	<li style="font-weight: 400;">Aquí hay <a href="https://www.thoughtworks.com/insights/blog/10-ways-improve-your-pairing-experience" target="_blank" rel="noopener"><strong>diez sugerencias*</strong></a> para mejorar la experiencia.</li>
 </ul>
-<blockquote>
-<p style="text-align: center">“Ninguno de nosotros es tan inteligente como todos nosotros."</p>
-</blockquote>
-&nbsp;
-<p align="right">–Ken Blanchard, autor y experto en gestión</p>
-
-<h3> Gestión del tiempo</h3>
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<blockquote>
+	<p style="text-align: center">“Ninguno de nosotros es tan inteligente como todos nosotros."</p>
+	</blockquote>
+	&nbsp;
+	<p align="right">–Ken Blanchard, autor y experto en gestión</p>
+</div>
+<h3 id="time"> Gestión del tiempo</h3>
 En este punto, es posible que tengas preguntas, tales como:
 <ul>
  	<li>¿Cómo puedo trabajar de manera eficiente para alcanzar este objetivo y cumplir con la fecha límite?</li>
@@ -145,7 +158,7 @@ En este punto, es posible que tengas preguntas, tales como:
 </ul>
 Para ayudarte a lograr que la parte de programación de tu proyecto siga su curso, revisemos las etapas del proceso de desarrollo de software.
 <ul>
- 	<li>Los usuarios, sus necesidades y un MVP han sido identificados (del <a href="/?p=26095"><strong>Programación</strong> 5)</a></li>
+ 	<li>Los usuarios, sus necesidades y un MVP han sido identificados (del <a href="http://www.technovationchallenge.org/curriculum/code-5/" target="_blank" rel="noopener"><strong>Programación</strong> 5)</a></li>
  	<li>Las acciones que los usuarios tomarán en su aplicación se han diseñado con un diagrama de flujo</li>
  	<li>El software es creado</li>
  	<li>Las pruebas de usuario suceden, se identifican errores</li>
@@ -156,7 +169,7 @@ Consejos:
 <ul>
  	<li>Establecer un horario
 <ul>
- 	<li>Puedes crear un Diagrama de Gantt para ayudarte a crear un cronograma de cuándo se deben hacer las cosas, y saber si algo depende de que suceda algo más. Aquí hay un ejemplo de cómo se usa un diagrama de Gantt para el desarrollo de software a partir de <a href="http://www.dreamincode.net/forums/topic/60048-creating-a-gantt-chart/">dreamincode</a>.</li>
+ 	<li>Puedes crear un Diagrama de Gantt para ayudarte a crear un cronograma de cuándo se deben hacer las cosas, y saber si algo depende de que suceda algo más. Aquí hay un ejemplo de cómo se usa un diagrama de Gantt para el desarrollo de software a partir de <a href="http://www.dreamincode.net/forums/topic/60048-creating-a-gantt-chart/" target = "_blank">dreamincode</a>.</li>
 </ul>
 </li>
  	<li>¡Asigna tareas a los miembros del equipo y establece plazos y recordatorios de objetivos en tus calendarios!
@@ -184,11 +197,12 @@ Consejos:
 </ul>
 </li>
 </ul>
-Aquí está la <a href="http://www.technovationchallenge.org/wp-content/uploads/2017/01/Technical-Checklist-2017.pdf">Lista de verificación técnic</a>a que los jueces usarán. Puedes usar esto para marcar y explicar los componentes que utilizaste en tu aplicación y asegurarte de obtener los puntajes más altos posibles. Esta parte de la rúbrica del jurado asciende a 10 puntos y los jueces querrán ver que utilizaste cosas como: <em>strings</em>, números, variables, listas, bucles, condicionales, bases de datos y funciones para dispositivos móviles. También puedes obtener puntos por proporcionar imágenes de tu diagrama de flujo, prototipo de papel y capturas de pantalla de la aplicación. Definitivamente es una buena idea documentar tu proceso y guardar todo. Podrás acceder a cosas como las diferentes versiones de tu aplicación, tu diagrama de flujo o tu prototipo en papel en caso de que se pierda algo, para que no pierdas tiempo. También puedes usarlos cuando debata cualquier obstáculo que encuentre para exponer con mayor claridad el problema con tu mentor.
-<h1>Reflexión</h1>
-¡Felicidades! Estás en camino de crear tu aplicación para que estes lista para enviarla a Technovation. Si te ves atorada mucho al codificar tu aplicación, consulte la siguiente unidad de codificación para obtener sugerencias sobre cómo depurar. ¡Buena suerte con tu prototipo digital y en Technovation estamos muy contentas de que hayas llegado tan lejos!
-<h3>Recursos adicionales</h3>
-<ul>
- 	<li style="font-weight: 400"><a href="http://ai2.appinventor.mit.edu/reference/other/testing.html" target="_blank" rel="noopener">MIT Testing Documentation*</a></li>
-</ul>
-&nbsp;
+Aquí está la <a href="http://www.technovationchallenge.org/wp-content/uploads/2017/01/Technical-Checklist-2017.pdf" target = "_blank">Lista de verificación técnic</a>a que los jueces usarán. Puedes usar esto para marcar y explicar los componentes que utilizaste en tu aplicación y asegurarte de obtener los puntajes más altos posibles. Esta parte de la rúbrica del jurado asciende a 10 puntos y los jueces querrán ver que utilizaste cosas como: <em>strings</em>, números, variables, listas, bucles, condicionales, bases de datos y funciones para dispositivos móviles. También puedes obtener puntos por proporcionar imágenes de tu diagrama de flujo, prototipo de papel y capturas de pantalla de la aplicación. Definitivamente es una buena idea documentar tu proceso y guardar todo. Podrás acceder a cosas como las diferentes versiones de tu aplicación, tu diagrama de flujo o tu prototipo en papel en caso de que se pierda algo, para que no pierdas tiempo. También puedes usarlos cuando debata cualquier obstáculo que encuentre para exponer con mayor claridad el problema con tu mentor.
+<div style="background-color: #00abad; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h1 id="reflect">Reflexión</h1>
+	¡Felicidades! Estás en camino de crear tu aplicación para que estes lista para enviarla a Technovation. Si te ves atorada mucho al codificar tu aplicación, consulte la siguiente unidad de codificación para obtener sugerencias sobre cómo depurar. ¡Buena suerte con tu prototipo digital y en Technovation estamos muy contentas de que hayas llegado tan lejos!
+	<h3>Recursos adicionales</h3>
+	<ul>
+	 	<li style="font-weight: 400"><a style="color: yellow;" href="http://ai2.appinventor.mit.edu/reference/other/testing.html" target="_blank" rel="noopener">MIT Testing Documentation*</a></li>
+	</ul>
+</div>
