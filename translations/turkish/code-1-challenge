@@ -27,7 +27,7 @@ Bu uygulamada kullanıcının farklı görselleri görmesini sağlayan bir yazı
  	<li>Fotoğraf dosyanızda kullanmak istediğiniz bir resmi yükleyin.</li>
  	<li>Fotoğraf dosyanızın başında bulunmasını istediğiniz fotoğrafı seçin.
 <ul>
- 	<li> "components" kısmından resim1'e tıklayın, daha sonra "picture" (resim) tuşuna tıklayın. Böylece istediğiniz resmi seçebilirsiniz.</li>
+ 	<li>"components" kısmından resim1'e tıklayın, daha sonra "picture" (resim) tuşuna tıklayın. Böylece istediğiniz resmi seçebilirsiniz.</li>
 </ul>
 </li>
  	<li>En az 2 tane daha sayfa ekleyin. Biz kendi dosyamız için üç sayfa kullandık ama siz istediğiniz kadar sayfa kullanabilirsiniz.
@@ -47,13 +47,13 @@ Bu uygulamada kullanıcının farklı görselleri görmesini sağlayan bir yazı
 
 10. Aynı şeyleri "sonraki" butonu için de tekrarlayın.
 <h3>Kontrol Noktası!</h3>
-Daha çok ilerlemeden önce kodunuzun çalışıp çalışmadığını mutlaka kontrol edin. Her zaman tüm uygulamanın kodunu yazmadan önce adım adım ilerleyip kontrol ederek gitmek daha iyidir.  Aksi taktirde uygulamanızda çalışmayan bir kod olduğunda sebebini anlamakta zorluk çekebilirsiniz.
+Daha çok ilerlemeden önce kodunuzun çalışıp çalışmadığını mutlaka kontrol edin. Her zaman tüm uygulamanın kodunu yazmadan önce adım adım ilerleyip kontrol ederek gitmek daha iyidir. Aksi taktirde uygulamanızda çalışmayan bir kod olduğunda sebebini anlamakta zorluk çekebilirsiniz.
 
 App Inventor'ı telefonunuza, tabletinize veya emülatörünüze bağlayın ve kullanın. Kodunuzun istediğiniz gibi çalışıp çalışmadığını kontrol edin. Eğer istediğiniz gibi çalışmıyorlarsa kodunuzu değiştirerek düzeltmeyi deneyin.
 
 <em>Not: Yaptığımız ilk sayfa haricindekilerde henüz hiç bir şey olmadığından telefonunuz üzerinden sayfa değiştiremezsiniz. Bu nedenle bilgisayarınızı kullanarak değiştirmeyi deneyin. Bu ileride işinize yarayabilir.</em>
 <h3>Uygulamayı bitiriyoruz</h3>
-Şu an bir sayfayı tasarlamayı ve kodlamayı öğrendiğinize göre diğer sayfaları da programlayabilirsiniz! İsterseniz başka sayfalar ekleyerek  fotoğraf dosyanızın daha uzun olmasını sağlayabilirsiniz ama en az 3 tane sayfanızın olduğundan emin olmalısınız. Aşağıdaki adımlar size uygulamanızın nasıl çalıştığını ve neler yapmanız gerektiğini anlatacak.
+Şu an bir sayfayı tasarlamayı ve kodlamayı öğrendiğinize göre diğer sayfaları da programlayabilirsiniz! İsterseniz başka sayfalar ekleyerek fotoğraf dosyanızın daha uzun olmasını sağlayabilirsiniz ama en az 3 tane sayfanızın olduğundan emin olmalısınız. Aşağıdaki adımlar size uygulamanızın nasıl çalıştığını ve neler yapmanız gerektiğini anlatacak.
 
 13. 1 ve 12 arasındaki tüm adımları her sayfa için tekrar edin. "önceki" butonunun önceki sayfaya "sonraki" butonun ise her zaman bir sonraki sayfaya gittiğinden emin olun.
 <h3>Son Kontrol Noktası</h3>
@@ -61,7 +61,7 @@ Uygulamanızın çalıştığından emin olun! Her "sonraki" ve "önceki" tuşla
 
 Tebrikler! Şu an ilk kodlama görevini tamamladınız! Unutmayın, herkes bir mobil uygulama kodlayamaz!
 
-Bir yerde takıldınız mı? Kodumuzu yükleyebilirsiniz. Kodların nasıl yükleneceğini anlatan yönergeler burada:  <a href="http://appinventor.mit.edu/explore/ai2/share.html" target="_blank" rel="noopener">Kod yönergeleri</a>
+Bir yerde takıldınız mı? Kodumuzu yükleyebilirsiniz. Kodların nasıl yükleneceğini anlatan yönergeler burada: <a href="http://appinventor.mit.edu/explore/ai2/share.html" target="_blank" rel="noopener">Kod yönergeleri</a>
 
 &nbsp;
 
