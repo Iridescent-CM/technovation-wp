@@ -2,33 +2,32 @@
 <h1><span style="font-weight: 400">Negocios 4</span></h1>
 <h2><span style="font-weight: 400">Plan de negocios</span></h2>
 *Recursos con un * están en inglés
-<div style="background-color: #28a880;color: white;padding: 25px;margin-top: 25px;margin-bottom: 25px"><em><span style="font-weight: 400">Esta unidad es requerimiento solamente para los equipos de la División Senior, quienes presentarán un plan de negocios. Sin embargo, invitamos a los equipos de la División Junior a seguir esta unidad para obtener una mejor comprensión del desarrollo empresarial.</span></em></div>
+<div style="background-color: #006540; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;"><em><span style="font-weight: 400">Esta unidad es requerimiento solamente para los equipos de la División Senior, quienes presentarán un plan de negocios. Sin embargo, invitamos a los equipos de la División Junior a seguir esta unidad para obtener una mejor comprensión del desarrollo empresarial.</span></em></div>
 <div>
 
 &nbsp;
 <ul>
- 	<li style="font-weight: 400"><a href="#how"><span style="font-weight: 400">Cómo crear un plan de negocios</span></a></li>
- 	<li style="font-weight: 400"><a href="#anat"><span style="font-weight: 400">Anatomía de un plan de negocios</span></a></li>
- 	<li style="font-weight: 400"><a href="#summ"><span style="font-weight: 400">Resumen ejecutivo</span></a></li>
- 	<li style="font-weight: 400"><a href="#desc"><span style="font-weight: 400">Descripción de la empresa</span></a></li>
- 	<li style="font-weight: 400"><a href="#prod"><span style="font-weight: 400">Productos y servicios</span></a></li>
- 	<li style="font-weight: 400"><a href="#market"><span style="font-weight: 400">Análisis de mercado</span></a></li>
- 	<li style="font-weight: 400"><a href="#strat"><span style="font-weight: 400">Implementación de la estrategia</span></a></li>
- 	<li style="font-weight: 400"><a href="#team"><span style="font-weight: 400">Equipo de organización y administración</span></a></li>
- 	<li style="font-weight: 400"><a href="#proj"><span style="font-weight: 400">Plan financiero y proyecciones</span></a></li>
- 	<li style="font-weight: 400"><a href="#create"><span style="font-weight: 400">Crear un plan de negocios</span></a></li>
- 	<li style="font-weight: 400"><a href="#reflect"><span style="font-weight: 400">Reflexionar</span></a></li>
+ 	<li style="font-weight: 400"><a href="#how">Cómo crear un plan de negocios</a></li>
+ 	<li style="font-weight: 400"><a href="#anat">Anatomía de un plan de negocios</a></li>
+ 	<li style="font-weight: 400"><a href="#summ">Resumen ejecutivo</a></li>
+ 	<li style="font-weight: 400"><a href="#desc">Descripción de la empresa</a></li>
+ 	<li style="font-weight: 400"><a href="#prod">Productos y servicios</a></li>
+ 	<li style="font-weight: 400"><a href="#market">Análisis de mercado</a></li>
+ 	<li style="font-weight: 400"><a href="#strat">Implementación de la estrategia</a></li>
+ 	<li style="font-weight: 400"><a href="#team">Equipo de organización y administración</a></li>
+ 	<li style="font-weight: 400"><a href="#proj">Plan financiero y proyecciones</a></li>
+ 	<li style="font-weight: 400"><a href="#create">Crear un plan de negocios</a></li>
+ 	<li style="font-weight: 400"><a href="#reflect">Reflexionar</a></li>
 </ul>
 <em><span style="font-weight: 400">Este módulo no es obligatorio para la División Junior, pero se recomienda que los equipos Junior que deseen obtener más información sobre cómo construir un negocio lo lean. Solo los equipos de Senior División deben presentar un plan de negocios.</span></em>
 
-</div>
-<h2><strong>Objetivos de aprendizaje</strong></h2>
+<h3><strong>Objetivos de aprendizaje</strong></h3>
 <span style="font-weight: 400">En este módulo, aprenderás ...</span>
 <ul>
  	<li><span style="font-weight: 400">Lo que constituye un plan de negocios</span></li>
  	<li><span style="font-weight: 400">Cómo crear un plan de negocios</span></li>
 </ul>
-<h3><strong>Cómo crear un plan de negocios</strong></h3>
+<h3 id="how"><strong>Cómo crear un plan de negocios</strong></h3>
 <span style="font-weight: 400">¡Has logrado mucho! Repasemos lo que has hecho:</span>
 <ul>
  	<li><span style="font-weight: 400">Aprendiste sobre diferentes tipos de negocios en <strong>Negocios 1</strong></span></li>
@@ -42,23 +41,22 @@
  	<li><span style="font-weight: 400">Las visiones y posibilidades futuras para el producto</span></li>
 </ul>
 <span style="font-weight: 400">Para obtener más información sobre de qué se trata un plan de negocios, echa un vistazo a este video en inglés.</span>
-<h2></h2>
-&nbsp;
+
 
 
 También puedes consultar este video en español
 
 
-&nbsp;
-<h2></h2>
-<h3><strong>Anatomía de un plan de negocios</strong></h3>
+<center>
+<iframe src="https://www.youtube.com/embed/PDWvcsTloJo" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></center>&nbsp;
+<h3 id="anat"><strong>Anatomía de un plan de negocios</strong></h3>
 <span style="font-weight: 400">Sin un plan de negocios, es difícil construir un negocio. Es como construir una casa sin planos. Un plan describe los roles, responsabilidades y futuro de su negocio. Para simplificar, vamos a repasar los componentes del plan de negocios que debes enviar. En este capítulo, aprenderás sobre lo siguiente:</span>
 <ul>
  	<li style="font-weight: 400"><span style="font-weight: 400"><strong>Resumen ejecutivo</strong>: una descripción breve y concisa de tu negocio.</span></li>
  	<li style="font-weight: 400"><span style="font-weight: 400"><strong>Descripción de la empresa</strong>: información sobre lo que hace, cómo tu negocio es diferente de los demás y a quién sirve tu empresa.</span></li>
  	<li style="font-weight: 400"><span style="font-weight: 400"><strong>Descripción de productos y / o servicios</strong>: defina qué productos y / o servicios vendes, explica por qué beneficia a tus clientes y cómo se desarrollará tu aplicación móvil.</span></li>
  	<li style="font-weight: 400"><span style="font-weight: 400"><strong>Análisis de mercado</strong>: brinde antecedentes sobre el mercado al que planeas ingresar. Aquí es donde incluyes el trabajo que realizaste en Investigación de Mercado, como investigación del consumidor y análisis competitivo.</span></li>
- 	<li style="font-weight: 400"><span style="font-weight: 400"><strong>Estrategia e implementación</strong>: aquí explicarás cómo se ejecutarás u operarás tu empresa, y cómo planeas presentar tu producto y / o servicios en el mercado. Esto se tomará de tu <a href="http://www.iridescent.staging.wpengine.com/curriculum/market-1/"><strong>Branding</strong></a> y Modelo de Negocio.</span></li>
+ 	<li style="font-weight: 400"><span style="font-weight: 400"><strong>Estrategia e implementación</strong>: aquí explicarás cómo se ejecutarás u operarás tu empresa, y cómo planeas presentar tu producto y / o servicios en el mercado. Esto se tomará de tu <a href="https://iridescent.wpengine.com/?p=21344" target = "_blank"><strong>Branding</strong></a> y Modelo de Negocio.</span></li>
  	<li style="font-weight: 400"><span style="font-weight: 400"><strong>Plan financiero y proyecciones</strong>: resumen de cómo va a gastar dinero, ganar dinero y usar el dinero para el futuro, que es información que desarrolló a partir de su Modelo de negocio.</span></li>
 </ul>
 <span style="font-weight: 400">A lo largo de esta unidad, puede usar ejemplos de otros planes de negocios como referencia para ayudarte a medida que creas tu propio plan. Asegúrate de no tomar directamente de los planes de los demás, ya que cada uno es diferente y debe desarrollar uno que sea único para tu propio negocio.</span>
@@ -81,14 +79,14 @@ También puedes consultar este video en español
  	<li style="font-weight: 400"><a href="http://www.bplans.com/agriculture_farm_business_plan/strategy_and_implementation_summary_fc.php" target="_blank" rel="noopener">Agriculture Farm</a></li>
 </ul>
 &nbsp;
-<div style="background-color: #6f466b;color: white;padding: 25px;margin-top: 25px;margin-bottom: 25px">
-<blockquote><span style="font-weight: 400">"Nunca te limites por la limitada imaginación de los demás, nunca limites a los demás por tu propia imaginación limitada".</span></blockquote>
-&nbsp;
-<p style="text-align: right">–Mae Jemison, ingeniera, médico y astronauta de la NASA</p>
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<blockquote><span style="font-weight: 400">"Nunca te limites por la limitada imaginación de los demás, nunca limites a los demás por tu propia imaginación limitada".</span></blockquote>
+	&nbsp;
+	<p style="text-align: right">–Mae Jemison, ingeniera, médico y astronauta de la NASA</p>
 
 </div>
-<h3></h3>
-<h3><strong>El Resumen Ejecutivo</strong></h3>
+
+<h3 id="summ"><strong>El Resumen Ejecutivo</strong></h3>
 <span style="font-weight: 400">El resumen ejecutivo debe ser la primera sección. Es una descripción general de tu plan de negocios, y no debe ser más de una página. El resumen ejecutivo da una primera impresión, por lo que debe estar bien redactado. Quieres que el lector se interese en tu negocio y que quiera saber más. Puedes pensar en esto como un avance de una película: debes darle al lector una idea de lo que es tu negocio, pero también tentarlo a seguir leyendo.</span>
 
 <span style="font-weight: 400">Aunque esta sección es lo primero, <strong>¡deberías considerar escribirla hasta lo último!</strong> De esta forma, conoces bien todos los detalles de tu plan de negocios y puedes resumir eficazmente tus pensamientos. </span>
@@ -101,13 +99,13 @@ También puedes consultar este video en español
 </ul>
 <span style="font-weight: 400">Si necesita ayuda adicional, estos son algunos recursos recomendados:</span>
 <ul>
- 	<li style="font-weight: 400"><span style="font-weight: 400">*Cómo escribir un resumen ejecutivo </span><a href="http://articles.bplans.com/writing-an-executive-summary/"><span style="font-weight: 400">BPlans: How to Write an Executive Summary</span></a></li>
- 	<li style="font-weight: 400"><span style="font-weight: 400">*Elaboración de un poderoso resumen ejecutivo </span><a href="http://hbswk.hbs.edu/archive/3660.html"><span style="font-weight: 400">Harvard Business School: Crafting a Powerful Executive Summary </span></a></li>
- 	<li style="font-weight: 400"><span style="font-weight: 400">*Redacción de resúmenes ejecutivos </span><a href="http://www.umuc.edu/writingcenter/writingresources/exec_summaries.cfm"><span style="font-weight: 400">University of Maryland: Writing Executive Summaries</span></a></li>
- 	<li style="font-weight: 400"><b>Español</b><span style="font-weight: 400"><a href="https://www.entrepreneur.com/article/261325"> Como escribir un buen resumen ejecutivo</a></span></li>
- 	<li style="font-weight: 400"><b>Español</b> <a href="http://www.emprendedores.es/crear-una-empresa/como-hacer-resumen-ejecutivo-de-un-plan-de-negocio"><span style="font-weight: 400">Cómo elaborar el resumen ejecutivo de tu plan de negocio</span></a></li>
+ 	<li style="font-weight: 400"><span style="font-weight: 400">*Cómo escribir un resumen ejecutivo </span><a href="http://articles.bplans.com/writing-an-executive-summary/" target="_blank"><span style="font-weight: 400">BPlans: How to Write an Executive Summary</span></a></li>
+ 	<li style="font-weight: 400"><span style="font-weight: 400">*Elaboración de un poderoso resumen ejecutivo </span><a href="http://hbswk.hbs.edu/archive/3660.html" target="_blank"><span style="font-weight: 400">Harvard Business School: Crafting a Powerful Executive Summary </span></a></li>
+ 	<li style="font-weight: 400"><span style="font-weight: 400">*Redacción de resúmenes ejecutivos </span><a href="http://www.umuc.edu/writingcenter/writingresources/exec_summaries.cfm" target="_blank"><span style="font-weight: 400">University of Maryland: Writing Executive Summaries</span></a></li>
+ 	<li style="font-weight: 400"><b>Español</b><span style="font-weight: 400"><a href="https://www.entrepreneur.com/article/261325" target="_blank"> Como escribir un buen resumen ejecutivo</a></span></li>
+ 	<li style="font-weight: 400"><b>Español</b> <a href="http://www.emprendedores.es/crear-una-empresa/como-hacer-resumen-ejecutivo-de-un-plan-de-negocio" target="_blank"><span style="font-weight: 400">Cómo elaborar el resumen ejecutivo de tu plan de negocio</span></a></li>
 </ul>
-<h3><strong>Descripción de la Empresa</strong></h3>
+<h3 id="desc"><strong>Descripción de la Empresa</strong></h3>
 <span style="font-weight: 400">Una descripción de la empresa es una descripción general de tu empresa, que debe describir en términos generales quién eres, cómo funciona y opera tu empresa, y cuáles son tus objetivos. Es una elaboración del </span><b>Resumen Ejecutivo</b><span style="font-weight: 400"> y proporciona muchos más detalles y explicaciones.  Debería cubrir:</span>
 <ul>
  	<li style="font-weight: 400"><span style="font-weight: 400">El tipo de negocio (con fines de lucro, empresa social, sin fines de lucro, etc.)</span></li>
@@ -119,13 +117,13 @@ También puedes consultar este video en español
 </ul>
 <span style="font-weight: 400">Si necesitas ayuda adicional, estos son algunos recursos recomendados:</span>
 <ul>
- 	<li style="font-weight: 400"><a href="http://articles.bplans.com/write-company-overview/"><span style="font-weight: 400">*BPlans: How to Write a Company Description</span></a></li>
- 	<li style="font-weight: 400">*<a href="https://www.thebalance.com/how-to-write-a-company-description-2951558"><span style="font-weight: 400">The Balance: How to Write a Company Description</span></a></li>
- 	<li style="font-weight: 400"><b>Español: </b><a href="http://mercadeoparaemprendedores.com/blog/como-hacer-una-correcta-descripcion-de-mi-negocio/"><span style="font-weight: 400">¿Cómo hacer una correcta descripción de mi negocio?</span></a></li>
- 	<li style="font-weight: 400"><b>Español</b><span style="font-weight: 400">: </span><span style="font-weight: 400"><a href="https://www.entrepreneur.com/article/263655">Aprende a describir tu negocio</a></span></li>
- 	<li style="font-weight: 400"><b>Español</b><span style="font-weight: 400">: </span><a href="https://www.entrepreneur.com/article/261688"><span style="font-weight: 400">Consejos para describir tu empresa y tu negocio</span></a></li>
+ 	<li style="font-weight: 400"><a href="http://articles.bplans.com/write-company-overview/" target = "_blank"><span style="font-weight: 400">*BPlans: How to Write a Company Description</span></a></li>
+ 	<li style="font-weight: 400">*<a href="https://www.thebalance.com/how-to-write-a-company-description-2951558" target = "_blank" ><span style="font-weight: 400">The Balance: How to Write a Company Description</span></a></li>
+ 	<li style="font-weight: 400"><b>Español: </b><a href="http://mercadeoparaemprendedores.com/blog/como-hacer-una-correcta-descripcion-de-mi-negocio/" target = "_blank" ><span style="font-weight: 400">¿Cómo hacer una correcta descripción de mi negocio?</span></a></li>
+ 	<li style="font-weight: 400"><b>Español</b><span style="font-weight: 400">: </span><span style="font-weight: 400"><a href="https://www.entrepreneur.com/article/263655" target = "_blank" >Aprende a describir tu negocio</a></span></li>
+ 	<li style="font-weight: 400"><b>Español</b><span style="font-weight: 400">: </span><a href="https://www.entrepreneur.com/article/261688" target = "_blank"><span style="font-weight: 400">Consejos para describir tu empresa y tu negocio</span></a></li>
 </ul>
-<h3><strong>Productos/Servicios</strong></h3>
+<h3 id="prod"><strong>Productos/Servicios</strong></h3>
 <span style="font-weight: 400">En la sección de Productos/Servicios, debes describir claramente lo que estás vendiendo y centrarte en cómo se beneficia el cliente. Deberias incluir detalles sobre cómo estás desarrollando tu aplicación móvil, si hay alguien con quien estas trabajando o si estas creando la aplicación móvil por tu cuenta. Aquí, deberías considerar agregar imágenes o capturas de pantalla de tu aplicación móvil, o incluir diagramas sobre cómo funcionará tu aplicación móvil. </span>
 
 <span style="font-weight: 400">En general, esta sección debe incluir:</span>
@@ -142,10 +140,10 @@ También puedes consultar este video en español
 </ul>
 <span style="font-weight: 400">Si necesitas ayuda adicional, estos son algunos recursos recomendados:</span>
 <ul>
- 	<li style="font-weight: 400"><span style="font-weight: 400">*</span><span style="font-weight: 400"><a href="http://smallbusiness.chron.com/describe-companys-products-services-39987.html">Houston Chronicle: How to Describe Your Company's Products and Services</a></span></li>
- 	<li style="font-weight: 400">*<a href="http://www.inc.com/jeff-haden/how-to-write-a-great-business-plan-products-and-services.html"><span style="font-weight: 400">Inc: How to Write a Great Business Plan: Products and Services</span></a></li>
+ 	<li style="font-weight: 400"><span style="font-weight: 400">*</span><span style="font-weight: 400"><a href="http://smallbusiness.chron.com/describe-companys-products-services-39987.html" target = "_blank">Houston Chronicle: How to Describe Your Company's Products and Services</a></span></li>
+ 	<li style="font-weight: 400">*<a href="http://www.inc.com/jeff-haden/how-to-write-a-great-business-plan-products-and-services.html" target = "_blank"><span style="font-weight: 400">Inc: How to Write a Great Business Plan: Products and Services</span></a></li>
 </ul>
-<h3><b>Análisis</b><strong> de Mercado</strong></h3>
+<h3 id="market"><b>Análisis</b><strong> de Mercado</strong></h3>
 <span style="font-weight: 400">Aquí es donde mostrarás toda la tarea que hiciste en Investigación de Mercado. Haz un resumen de lo que aprendiste sobre el mercado para el que está diseñada tu aplicación móvil y tus conclusiones sobre cómo crees que funcionará la app. Tu análisis de mercado debe incluir:</span>
 <ul>
  	<li style="font-weight: 400"><span style="font-weight: 400">Descripción del mercado</span>
@@ -166,17 +164,17 @@ También puedes consultar este video en español
 </ul>
 <span style="font-weight: 400">Si necesitas ayuda adicional, estos son algunos recursos recomendados*:</span>
 <ul>
- 	<li style="font-weight: 400"><span style="font-weight: 400">*</span><a href="https://www.sba.gov/starting-business/write-your-business-plan/market-analysis"><span style="font-weight: 400">Small Business Administration: What to Include in Your Market Analysis</span></a></li>
- 	<li style="font-weight: 400"><span style="font-weight: 400">*</span><a href="http://articles.bplans.com/how-to-write-a-market-analysis/"><span style="font-weight: 400">BPlans: How to Write a Market Analysis</span></a></li>
- 	<li style="font-weight: 400"><span style="font-weight: 400">*</span><a href="https://www.thebalance.com/small-business-plans-writing-the-market-analysis-section-1794229"><span style="font-weight: 400">The Balance: Writing the Market Analysis Section</span></a></li>
+ 	<li style="font-weight: 400"><span style="font-weight: 400">*</span><a href="https://www.sba.gov/starting-business/write-your-business-plan/market-analysis" target = "_blank"><span style="font-weight: 400">Small Business Administration: What to Include in Your Market Analysis</span></a></li>
+ 	<li style="font-weight: 400"><span style="font-weight: 400">*</span><a href="http://articles.bplans.com/how-to-write-a-market-analysis/" target = "_blank"><span style="font-weight: 400">BPlans: How to Write a Market Analysis</span></a></li>
+ 	<li style="font-weight: 400"><span style="font-weight: 400">*</span><a href="https://www.thebalance.com/small-business-plans-writing-the-market-analysis-section-1794229" target = "_blank"><span style="font-weight: 400">The Balance: Writing the Market Analysis Section</span></a></li>
 </ul>
-<div style="background-color: #6f466b;color: white;padding: 25px;margin-top: 25px;margin-bottom: 25px">
-<blockquote><span style="font-weight: 400">"Si no sabes hacia dónde vas, terminarás en otro lugar".</span></blockquote>
-&nbsp;
-<p style="text-align: right"><span style="font-weight: 400">-Yogi Berra, Gerente de béisbol y jugador</span></p>
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<blockquote><span style="font-weight: 400">"Si no sabes hacia dónde vas, terminarás en otro lugar".</span></blockquote>
+	&nbsp;
+	<p style="text-align: right"><span style="font-weight: 400">-Yogi Berra, Gerente de béisbol y jugador</span></p>
 
 </div>
-<h3><strong>Implementación de la estrategia</strong></h3>
+<h3 id="strat"><strong>Implementación de la estrategia</strong></h3>
 <span style="font-weight: 400">En esta sección, lo primero que debes hacer es explicar tu estrategia de marketing y cómo promocionarás tu aplicación a clientes potenciales. También querrás incluir detalles como cuánto costará la aplicación, cómo los clientes escucharán sobre tu aplicación y cómo los clientes comprarán y obtendrán tu aplicación. Básicamente, deberias explicar cómo mostrarás a las personas tu producto, cómo conseguirás que te lo compren y qué sucede una vez que las personas compren tu aplicación. Para describir esto, necesitarás:</span>
 <ul>
  	<li style="font-weight: 400"><span style="font-weight: 400">Una explicación de cómo alcanzarás a tus clientes objetivo e ingresarás al mercado</span></li>
@@ -186,10 +184,10 @@ También puedes consultar este video en español
 </ul>
 <span style="font-weight: 400">Si necesita ayuda adicional, estos son algunos recursos recomendados:</span>
 <ul>
- 	<li><span style="font-weight: 400">*Futuros comunitarios: plan de implementación y cronograma </span><span style="font-weight: 400"><a href="http://www.cf-sn.ca/business/business_plans_pre_feb_2014/implementation.php">Community Futures: Implementation Plan &amp; Timeline</a></span></li>
- 	<li>*En Strategic HQ: Implementación estratégica  <a href="http://onstrategyhq.com/resources/strategic-implementation/"><span style="font-weight: 400">On Strategy HQ: Strategic Implementation</span></a></li>
+ 	<li><span style="font-weight: 400">*Futuros comunitarios: plan de implementación y cronograma </span><span style="font-weight: 400"><a href="http://www.cf-sn.ca/business/business_plans_pre_feb_2014/implementation.php" target = "_blank">Community Futures: Implementation Plan &amp; Timeline</a></span></li>
+ 	<li>*En Strategic HQ: Implementación estratégica  <a href="http://onstrategyhq.com/resources/strategic-implementation/" target = "_blank"><span style="font-weight: 400">On Strategy HQ: Strategic Implementation</span></a></li>
 </ul>
-<h3><strong>Equipo de organización y administración</strong></h3>
+<h3 id="team"><strong>Equipo de organización y administración</strong></h3>
 <span style="font-weight: 400">En esta sección es donde describirás a todas las personas clave que están en tu compañía. Esto explicará quién hace qué en tu negocio y justificará por qué están en tu equipo. Proporciona una descripción detallada de cada división o departamento de tu empresa y de lo que hace. Si tienes cualquier asesor debes incluir los antecedentes y el razonamiento del porque también. Si tu equipo es pequeño, puedes demostrar todos los diferentes roles claves que desempeñan en tu empresa. </span>
 
 <span style="font-weight: 400">Debes proporcionar:</span>
@@ -197,19 +195,19 @@ También puedes consultar este video en español
  	<li style="font-weight: 400"><span style="font-weight: 400">Información sobre los propietarios, incluyendo sus nombres, grado de participación dentro de la empresa y una biografía que enumere sus antecedentes y habilidades</span></li>
  	<li style="font-weight: 400"><span style="font-weight: 400">Perfiles de tu equipo de administración, incluyendo sus nombres, cargos, responsabilidades principales y experiencia pasada (lo que cada miembro del equipo hizo para crear el negocio y la aplicación)</span>
 <ul>
- 	<li style="font-weight: 400"><span style="font-weight: 400">Puede crear títulos de trabajo para los miembros de su equipo, como el Director Ejecutivo (CEO) o el Director Técnico (CTO). ¡También puedes hacer lo divertido, como Chief Idea Maker (Creadora Principal de Ideas)! </span><b><a href="https://en.wikipedia.org/wiki/List_of_corporate_titles">Aquí</a>*</b><span style="font-weight: 400"> hay unos ejemplos y <a href="https://pyme.lavoztx.com/lista-de-ttulos-corporativos-5290.html">aquí</a> ejemplos en español.</span></li>
+ 	<li style="font-weight: 400"><span style="font-weight: 400">Puede crear títulos de trabajo para los miembros de su equipo, como el Director Ejecutivo (CEO) o el Director Técnico (CTO). ¡También puedes hacer lo divertido, como Chief Idea Maker (Creadora Principal de Ideas)! </span><b><a href="https://en.wikipedia.org/wiki/List_of_corporate_titles" target = "_blank">Aquí</a>*</b><span style="font-weight: 400"> hay unos ejemplos y <a href="https://pyme.lavoztx.com/lista-de-ttulos-corporativos-5290.html" target = "_blank">aquí</a> ejemplos en español.</span></li>
 </ul>
 </li>
  	<li style="font-weight: 400"><span style="font-weight: 400">Lista de consejeros, como tu mentor (es).</span></li>
 </ul>
 <span style="font-weight: 400">Si necesitas ayuda adicional, estos son algunos recursos recomendados:</span>
 <ul>
- 	<li style="font-weight: 400"><span style="font-weight: 400"><a href="https://www.sba.gov/starting-business/write-your-business-plan/organization-management">Administración de Pequeñas Empresas: Organización y Gestión</a>*</span></li>
+ 	<li style="font-weight: 400"><span style="font-weight: 400"><a href="https://www.sba.gov/starting-business/write-your-business-plan/organization-management" target = "_blank">Administración de Pequeñas Empresas: Organización y Gestión</a>*</span></li>
  	<li style="font-weight: 400"><span style="font-weight: 400"><a href="http://us.accion.org/business-resources/articles-videos/business-plan-section-3-organization-and-management" target="_blank" rel="noopener">Accion: Business Plan Section 3: Organization and Management</a>* </span></li>
- 	<li style="font-weight: 400"><span style="font-weight: 400"><a href="https://www.thebalance.com/business-plan-organization-and-management-section-1794228">The Balance: Sección de Organización y Gestión</a>* </span></li>
+ 	<li style="font-weight: 400"><span style="font-weight: 400"><a href="https://www.thebalance.com/business-plan-organization-and-management-section-1794228" target = "_blank">The Balance: Sección de Organización y Gestión</a>* </span></li>
 </ul>
-<h3><strong>Plan financiero y proyecciones</strong></h3>
-<span style="font-weight: 400">Para la última sección, deberías de dar una explicación monetaria de cómo lograrás todas las cosas que describiste en tu plan de negocios, esto proviene del <a href="http://www.iridescent.staging.wpengine.com/curriculum/business3/">Modelo de Negocio</a>. Esta es una pieza clave que une todo. Debes demostrar que tu plan es alcanzable y que tu empresa será exitosa, ¡ya que es un trabajo difícil comenzar un negocio! Usa tablas y gráficos para mostrar la información en un formato simple. Las partes clave de su plan son:</span>
+<h3 id="proj"><strong>Plan financiero y proyecciones</strong></h3>
+<span style="font-weight: 400">Para la última sección, deberías de dar una explicación monetaria de cómo lograrás todas las cosas que describiste en tu plan de negocios, esto proviene del <a href="http://www.iridescent.staging.wpengine.com/curriculum/business3/" target = "_blank">Modelo de Negocio</a>. Esta es una pieza clave que une todo. Debes demostrar que tu plan es alcanzable y que tu empresa será exitosa, ¡ya que es un trabajo difícil comenzar un negocio! Usa tablas y gráficos para mostrar la información en un formato simple. Las partes clave de su plan son:</span>
 <ul>
  	<li style="font-weight: 400"><span style="font-weight: 400">¿Cuánto dinero tienes ahora y cómo lo va a usar?</span></li>
  	<li style="font-weight: 400"><span style="font-weight: 400">¿Cuánto dinero necesitarás y qué objetivos has establecido?</span>
@@ -223,33 +221,38 @@ También puedes consultar este video en español
 
 <span style="font-weight: 400">Si necesitas ayuda adicional, estos son algunos recursos recomendados:</span>
 <ul>
- 	<li style="font-weight: 400"><span style="font-weight: 400"><a href="http://www.inc.com/guides/business-plan-financial-section.html">Inc: Cómo escribir la sección financiera de un plan de negocios</a>*</span></li>
- 	<li style="font-weight: 400"><span style="font-weight: 400"><a href="https://www.sba.gov/starting-business/write-your-business-plan/financial-projections">Administración de Pequeñas Empresas: proyecciones financieras</a>*</span></li>
- 	<li style="font-weight: 400"><span style="font-weight: 400"><a href="https://www.entrepreneur.com/article/220653">Emprendedor: Tres cálculos financieros que todo plan de negocios necesita</a>*</span></li>
+ 	<li style="font-weight: 400"><span style="font-weight: 400"><a href="http://www.inc.com/guides/business-plan-financial-section.html" target = "_blank">Inc: Cómo escribir la sección financiera de un plan de negocios</a>*</span></li>
+ 	<li style="font-weight: 400"><span style="font-weight: 400"><a href="https://www.sba.gov/starting-business/write-your-business-plan/financial-projections" target = "_blank">Administración de Pequeñas Empresas: proyecciones financieras</a>*</span></li>
+ 	<li style="font-weight: 400"><span style="font-weight: 400"><a href="https://www.entrepreneur.com/article/220653" target = "_blank">Emprendedor: Tres cálculos financieros que todo plan de negocios necesita</a>*</span></li>
 </ul>
-<h3><strong>Crear un plan de negocios</strong></h3>
-<span style="font-weight: 400">Ahora que conoces todas las partes diferentes de un plan de negocios, ¡tendrás que comenzar a armarlo todo! Es un documento grande, por lo que será útil si trabajas con tu equipo y el mentor para crearlo juntas. Divida el trabajo en diferentes secciones para que cada miembro del equipo pueda ayudar. Recapitulemos lo que aprendimos (video en inglés)</span>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3 id="create"><strong>Crear un plan de negocios</strong></h3>
+	<span style="font-weight: 400">Ahora que conoces todas las partes diferentes de un plan de negocios, ¡tendrás que comenzar a armarlo todo! Es un documento grande, por lo que será útil si trabajas con tu equipo y el mentor para crearlo juntas. Divida el trabajo en diferentes secciones para que cada miembro del equipo pueda ayudar. Recapitulemos lo que aprendimos (video en inglés)</span>
 
 
-&nbsp;
+	<center>
+	<iframe src="https://www.youtube.com/embed/SMr_uLZV-eM" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></center>&nbsp;
 
-<span style="font-weight: 400">Al juntar las diferentes partes, intenta utilizar la siguiente lista de verificación para asegurarte de tener todo lo que necesitas para finalizar tu plan de negocios.</span>
+	<span style="font-weight: 400">Al juntar las diferentes partes, intenta utilizar la siguiente lista de verificación para asegurarte de tener todo lo que necesitas para finalizar tu plan de negocios.</span>
 
-<a href="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/BusinessPlanChecklist.pdf"><strong>Checklist de Plan de Negocio</strong></a>
-<h3><strong>Reflexión</strong></h3>
-<span style="font-weight: 400">¡Escribir un plan de negocios es <strong>un gran logro</strong>, especialmente porque eres un estudiante! ¡Anímate, estás casi lista para entregar!</span>
+	<span style="color: #eae46f;"><a style="color: #eae46f;" href="http://www.technovationchallenge.org/wp-content/uploads/2016/12/BusinessPlanChecklist.pdf" target = "_blank"><strong>Checklist de Plan de Negocio</strong></a></span>
+</div>
+<div style="background-color: #066677; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3 id="reflect"><span style="color: #ffffff;"><strong>Reflexión</strong></span></h3>
+	<span style="font-weight: 400">¡Escribir un plan de negocios es <strong>un gran logro</strong>, especialmente porque eres un estudiante! ¡Anímate, estás casi lista para entregar!</span>
 
-<span style="font-weight: 400">Después de que tu mentor o tu equipo hayan analizado el plan de negocios como un grupo, asegúrete de incorporar tus comentarios. Es buena idea pedir el punto de vista de las personas diferentes, ya que este es un documento que cualquier tipo de persona puede leer. Lee tu plan de negocios como un grupo y finaliza tu plan de negocios utilizando <a href="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/BusinessPlanChecklist.pdf"><strong>el checklist</strong></a> para confirmar que ha incorporado todas las diferentes partes.</span>
+	<span style="font-weight: 400">Después de que tu mentor o tu equipo hayan analizado el plan de negocios como un grupo, asegúrete de incorporar tus comentarios. Es buena idea pedir el punto de vista de las personas diferentes, ya que este es un documento que cualquier tipo de persona puede leer. Lee tu plan de negocios como un grupo y finaliza tu plan de negocios utilizando <span style="color: #eae46f;"><a style="color: #eae46f;" href="http://www.technovationchallenge.org/wp-content/uploads/2016/12/BusinessPlanChecklist.pdf" target = "_blank"><strong>el checklist</strong></a></span> para confirmar que ha incorporado todas las diferentes partes.</span>
 
-<span style="font-weight: 400">Mientras estabas trabajando en este plan de negocios con tu equipo, reflexiona en:</span>
-<ul>
- 	<li style="font-weight: 400"><span style="font-weight: 400">¿Cuáles fueron los desafíos de trabajar en equipo?</span></li>
- 	<li style="font-weight: 400"><span style="font-weight: 400">¿Cuáles fueron las cosas buenas de trabajar en este documento como equipo?</span></li>
-</ul>
-<h3><strong>Recursos adicionales</strong></h3>
-<ul>
- 	<li><span style="font-weight: 400"><a href="https://www.entrepreneur.com/article/247574">Emprendedor: Planes de negocios: una guía paso a paso</a>*</span></li>
- 	<li><a style="font-weight: 400" href="https://www.sba.gov/starting-business/write-your-business-plan">Administración de Pequeñas Empresas: Escriba su plan de negocios</a><span style="font-weight: 400">*</span></li>
- 	<li><span style="font-weight: 400"><a href="http://smallbusiness.chron.com/importance-purpose-business-plan-760.html">Chron: ¿Cuál es la importancia y el propósito de un plan de negocios?*</a></span></li>
- 	<li><a style="font-weight: 400" href="https://www.entrepreneur.com/article/38308">Emprendedor: elementos de un plan de negocios</a><span style="font-weight: 400"> *</span></li>
-</ul>
+	<span style="font-weight: 400">Mientras estabas trabajando en este plan de negocios con tu equipo, reflexiona en:</span>
+	<ul>
+	 	<li style="font-weight: 400"><span style="font-weight: 400">¿Cuáles fueron los desafíos de trabajar en equipo?</span></li>
+	 	<li style="font-weight: 400"><span style="font-weight: 400">¿Cuáles fueron las cosas buenas de trabajar en este documento como equipo?</span></li>
+	</ul>
+	<h3><span style="color: #ffffff;"><strong>Recursos adicionales</strong></span></h3>
+	<ul>
+	 	<li><span style="font-weight: 400"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.entrepreneur.com/article/247574" target = "_blank">Emprendedor: Planes de negocios: una guía paso a paso</a>*</span></span></li>
+	 	<li><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.sba.gov/starting-business/write-your-business-plan" target = "_blank">Administración de Pequeñas Empresas: Escriba su plan de negocios</a></span><span style="font-weight: 400">*</span></li>
+	 	<li><span style="font-weight: 400"><span style="color: #eae46f;"><a style="color: #eae46f;" href="http://smallbusiness.chron.com/importance-purpose-business-plan-760.html" target = "_blank">Chron: ¿Cuál es la importancia y el propósito de un plan de negocios?*</a></span></span></li>
+	 	<li><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.entrepreneur.com/article/38308" target = "_blank">Emprendedor: elementos de un plan de negocios</a><span style="font-weight: 400"> *</span></span></li>
+	</ul>
+</div>
