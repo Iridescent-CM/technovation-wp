@@ -5,90 +5,106 @@
 <li><a href="#tips">Recomendaciones para Depurar </a></li>
 <li><a href="#testdata">Usando Datos de Prueba</a></li>
 <li><a href="#notifer">Usando el Notificador (Notifer)</a></li>
-<li><a href="#collapse">Colapsando y Deshabilitando Bloques </a><a href="#comments">Adding Comments</a></li>
+<li><a href="#collapse">Colapsando y Deshabilitando Bloques </a></li>
+<li><a href="#comments">Adding Comments</a></li>
 <li><a href="#version">Control de Versiones </a></li>
 <li><a href="#reflect">Reflexionar </a></li>
 </ul>
-<h3>Objetivos de Aprendizaje:</h3>
+<h3><strong>Objetivos de Aprendizaje:</strong></h3>
 <p>En esta unidad, aprenderás:</p>
 <ul>
 <li style="font-weight: 400">Consejos para depurar tu código (debugging your code)</li>
 </ul>
-<h3>Consejos para depurar</h3>
+<h3 id="tips"><strong>Consejos para depurar</strong></h3>
 <p>Tomaste tus ideas y las tradujiste a código. Pero estás encontrando errores. ¡Qué coraje!</p>
-<p>Estamos tan confiados en el software que ni siquiera podemos imaginarnos la vida sin él. En muchos sentidos, el software nos ha facilitado la vida: escribimos correos electrónicos, chateamos con amigos en Facebook, jugamos juegos y buscamos información en Google. El software está prácticamente en todas partes, por lo que ni siquiera sabemos que lo estamos usando, por ejemplo en automóviles, semáforos, televisores, lavadoras y audífonos. ¡Estamos tan acostumbrados a tener un software que esperamos que funcione todo el tiempo!</p>
+<p>Estamos tan confiados en el software que ni siquiera podemos imaginarnos la vida sin él. En muchos sentidos, el software nos ha facilitado la vida: escribimos correos electrónicos, chateamos con amigos en Facebook, jugamos juegos y buscamos información en Google. El software está prácticamente en todas partes, por lo que ni siquieraid="tips"><strong> sabemos que lo estamos usando, por ejemplo en automóviles, semáforos, televisores, lavadoras y audífonos. ¡Estamos tan acostumbrados a tener un software que esperamos que funcione todo el tiempo!</p>
 <p>Entonces, ¿por qué no? ¿Por qué obtenemos errores en primer lugar? Como resultado, escribir software no siempre es fácil. El software no es un producto físico, por lo que no podemos mirarlo para ver si es correcto.</p>
 <p><strong>La depuración (debugging)</strong> es el nombre del proceso que utilizan los codificadores para descubrir por qué su código no funciona. Cuando hiciste los Desafíos del Código, es posible que ya hayas topado con algo que te haya obligado a volver sobre tu código y descubrir dónde cometiste un error. Esta es la esencia de la depuración y esta próxima sección le proporcionará consejos sobre cómo hacer que la depuración sea más fácil para ti.</p>
 <p>A veces es posible que ya sepas cómo codificar algo, pero aún te llevará mucho tiempo hacerlo. Los grandes codificadores aún cometen errores, incluso cuando saben exactamente lo que están haciendo, por lo que es importante crear una caja de herramientas con técnicas de depuración que puedan ayudarte cuando no estas segura de lo que salió mal. Todos tienen un método diferente para depurar su código y descubrirás lo que es el tuyo después de practicar un poco. La depuración a menudo puede ser la parte más lenta de la codificación, por lo que es muy importante dejar suficiente tiempo para ello.</p>
 <p>¡Mira este video* para conocer algunos de los errores que puedes encontrar en tu código y cómo App Inventor te ayuda a detectarlos!</p>
-<p>&nbsp;</p>
-<p>Si tienes preguntas que son específicas de App Inventor mientras estás depurando, hay un foro de App Inventor al que puedes unirte <a href="https://groups.google.com/forum/#!forum/mitappinventortest">aquí</a> y luego publicar tu pregunta. Aunque la comunidad más grande de App Inventor suele ser bastante útil y receptiva a las preguntas, intenta buscar en el foro primero para ver si tu pregunta ya ha sido formulada y respondida. Esto te ahorrará tiempo.</p>
-<h5>Usando datos de prueba</h5>
+<center><iframe src="https://www.youtube.com/embed/IlFAwSj-YsQ" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></center>&nbsp;
+
+<p>Si tienes preguntas que son específicas de App Inventor mientras estás depurando, hay un foro de App Inventor al que puedes unirte <a href="https://groups.google.com/forum/#!forum/mitappinventortest" target = "_blank">aquí</a> y luego publicar tu pregunta. Aunque la comunidad más grande de App Inventor suele ser bastante útil y receptiva a las preguntas, intenta buscar en el foro primero para ver si tu pregunta ya ha sido formulada y respondida. Esto te ahorrará tiempo.</p>
+<h5 id="testdata"><strong>Usando datos de prueba</strong></h5>
 <p>Si tienes muchos datos realmente complicados para usar en su aplicación, puede ser útil usar <strong>datos de prueba (test data)</strong>. Los datos de prueba son un conjunto de datos más simple que solo usarás para probar tu aplicación y asegurarte de que esté funcionando correctamente.</p>
 <p>Como ejemplo, digamos que estás haciendo una aplicación que muestra al usuario dónde está el restaurante más cercano. Deseas utilizar tablas de fusión para almacenar los nombres de restaurantes, los datos de ubicación y los números de teléfono. Para comenzar a construir su aplicación, no necesitas tener una lista completa de restaurantes listos en sus tablas de fusión para comenzar a codificar su aplicación. Puedes poner en uno o dos restaurantes de prueba y hacer que su aplicación funcione antes de agregar los datos reales.</p>
-<blockquote>
-<p style="text-align: center"> "Es bastante difícil encontrar un error en tu código cuando lo estás buscando; es aún más difícil cuando has asumido que tu código está libre de errores.”</p>
-</blockquote>
-<p>&nbsp;</p>
-<p style="text-align: right">-Steve McConnell, experto en ingeniería de software y autor</p>
-<h5>Usando Notifer</h5>
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<blockquote>
+	<p style="text-align: center"> "Es bastante difícil encontrar un error en tu código cuando lo estás buscando; es aún más difícil cuando has asumido que tu código está libre de errores.”</p>
+	</blockquote>
+
+	<p style="text-align: right">-Steve McConnell, experto en ingeniería de software y autor</p>
+</div>	
+<h5 id="notifer">Usando Notifer</h5>
 <p>¡Digamos que tu aplicación se está atascando y no estás segura de por qué! Puedes usar el notificador para identificar dónde se rompe tu código. Para poner un notificador en tu aplicación, arrástrelo desde la paleta de la interfaz de usuario. Aparecerá como un componente no visible como este:</p>
-<h1><a href="non-visible notifer"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image00-1.png" alt="image00" width="289" height="120" /></a></h1>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image00-1.png" alt="image00" width="289" height="120" /></a>
+
 <p>Puedes utilizar estas alertas para indicarle dónde se está estancando tu aplicación. Por ejemplo, supongamos que estabas usando una condicional <strong>if</strong> en tu aplicación para llevar a cabo un procedimiento. Cuando seleccionas la <strong>Opción 1</strong> del girador, esperas que ocurra el <strong>Procedimiento1</strong>. Sin embargo, cuando pruebas nuestra aplicación, ¡no ocurre nada! Tu código se ve así:</p>
-<h1><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image17.png" alt="image17" width="635" height="285" /></h1>
+
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image17.png" alt="image17" width="635" height="285" />
 <p>No estás segura de si el problema está en el <strong>Procedimiento1</strong>, o si está en la condicional que configuraste. Tu problema también podría ser con los elementos que están en el spinner. Hay muchas cosas que revisar, de modo que usar el notificador puede ayudarte a reducir tus opciones y descubrir dónde está tu error. Agregas una alerta a cada parte de tu enunciado condicional como esta:</p>
-<p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image19.png" alt="image19" width="662" height="452" /></p>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image19.png" alt="image19" width="662" height="452" />
+
 <p>Cuando prueba tu aplicación ahora, recibes una alerta que dice "¡Esta aplicación no está haciendo nada!". Ahora sabes que el problema está en tu condicional, no en el Procedimiento1. La instrucción condicional está llevando a cabo el código en la sección <strong>else</strong> en lugar de la sección <strong>if</strong>. Ahora puedes verificar tu condicional y ver si hay algún error de dedo o si hay un error con los elementos en tu spinner.</p>
 <p>Si has probado la aplicación y has recibido una alerta que dice "Esta aplicación está haciendo la opción 1", sabría que la declaración condicional está funcionando correctamente y que hay un error con el <strong>Procedimiento1</strong> que no hace lo que debería. Luego puede verificar el código en el <strong>Procedimiento1</strong>. Aquí hay algunos otros escenarios en los que este método de prueba puede ser útil:</p>
 <ul>
-<li style="font-weight: 400">Para resolver problemas con un ciclo que se atasca
-<p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/ForLoop.png" alt="forloop" width="395" height="160" /></li>
+	<li style="font-weight: 400">Para resolver problemas con un ciclo que se atasca
+	<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/ForLoop.png" alt="forloop" width="395" height="160" /></li>
 </ul>
 <ul>
-<li style="font-weight: 400">Para probar si una pantalla se está cargando o atascándose<br />
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/ScreenInitalize.png" alt="screeninitalize" width="355" height="111" /></li>
+	<li style="font-weight: 400">Para probar si una pantalla se está cargando o atascándose<br />
+	<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/ScreenInitalize.png" alt="screeninitalize" width="355" height="111" /></li>
 </ul>
-<h5>Contraer y deshabilitando bloques</h5>
+<h5 id="collapse"><strong>Contraer y deshabilitando bloques</strong></h5>
 <p>Dos cosas que pueden ayudarte son deshabilitar y colapsar bloques que no estás usando. Si haces clic derecho en el bloque, App Inventor te dará la opción de contraer o deshabilitar un bloque:</p>
-<h1><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image11.png" alt="image11" width="442" height="216" /></h1>
-<p>Al colapsar el bloque, se comprimirá en una barra en tu pantalla de esta manera:<img class="" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image16.png" alt="image16" width="236" height="40" /></p>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image11.png" alt="image11" width="442" height="216" />
+
+<p>Al colapsar el bloque, se comprimirá en una barra en tu pantalla de esta manera:
+	<img class="" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image16.png" alt="image16" width="236" height="40" /></p>
 <p>Esto puede ser útil cuando tienes mucho código en la pantalla y no necesitas ver ciertas partes del mismo en las que no estás trabajando. Para expandir tu bloque nuevamente, debes hacer clic derecho sobre ellos.</p>
-<h1><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image04.png" alt="image04" width="397" height="178" /></h1>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image04.png" alt="image04" width="397" height="178" />
 <p>También puedes desactivar bloques. Esto los mantendrá en tu pantalla pero les impedirá hacer nada. Esto puede ser muy útil si tienes un trozo de código que no funciona y quieres probar tu aplicación sin él. También puedes hacer esto si tienes un bloque notificador que solo estabas utilizando para fines de prueba, pero no deseas eliminarlo todavía. Los bloques deshabilitados se ven así:</p>
-<p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image18.png" alt="image18" width="415" height="143" /></p>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image18.png" alt="image18" width="415" height="143" />
 <p>Para habilitar nuevamente tus bloques, haz clic derecho sobre ellos y haz clic en "Habilitar bloque".</p>
-<p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image12-1.png" alt="image12" width="433" height="200" /></p>
-<h5>Comentarios</h5>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image12-1.png" alt="image12" width="433" height="200" />
+
+<h5 id="comments"><strong>Comentarios</strong></h5>
 <p>Los buenos programadores suelen dejar comentarios en su código para explicar lo que hace. Los comentarios pueden ser útiles cuando otras personas miran tu código, como compañeros de equipo, mentores y jueces. Los comentarios también pueden ayudar si vuelves a tu código más tarde y olvidas qué partes de él hacen. Para agregar un comentario en App Inventor, haga clic derecho en los bloques y seleccione "agregar comentario":</p>
-<h1><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image11.png" alt="image11" width="387" height="189" /></h1>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image11.png" alt="image11" width="387" height="189" />
 <p>Después de eso aparecerá un signo de interrogación azul en la esquina del bloque y podrás agregar texto. Puedes ver el comentario haciendo clic en el signo de interrogación.</p>
-<p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image14.png" alt="image14" width="423" height="226" /></p>
-<blockquote>
-<p style="text-align: center">
-<p style="text-align: center">"Al aprender a crear tecnología, las niñas aprenden a alzar la voz".</p>
-<p>&nbsp;</p></blockquote>
-<p>&nbsp;</p>
-<p style="text-align: right">-Regina Agyare, Fundadora de Soronko Solutions</p>
-<p>&nbsp;</p>
-<h3>Control de versiones</h3>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image14.png" alt="image14" width="423" height="226" />
+
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<blockquote>
+	
+	<p style="text-align: center">"Al aprender a crear tecnología, las niñas aprenden a alzar la voz".</p>
+	</blockquote>
+	<p style="text-align: right">-Regina Agyare, Fundadora de Soronko Solutions</p>
+</div>	
+
+<h3 id="version">Control de versiones</h3>
 <p>Supongamos que tienes una parte de tu aplicación construida y en funcionamiento. Cuando construyes y pruebas una segunda parte de tu aplicación, ¡todo ha dejado de funcionar, incluida la parte en la que solía trabajar! Intentas eliminar los bloques que acabas de agregar, ¡pero toda tu aplicación aún no funciona! Ahora no estás segura de lo que salió mal y quisieras tener un botón de "deshacer".</p>
 <p>Para evitar escenarios como este, puede ser útil crear diferentes versiones de tu aplicación. Estas diferentes versiones guardarán su código exactamente como está, de modo que si luego comete un error y no sabes cómo solucionarlo, puedes volver a la última versión que haya guardado. También puede usar el control de versiones si está experimentando con funciones para su aplicación y no estás segura de si deseas conservarlas. Hay dos maneras de guardar diferentes versiones en App Inventor, usando "guardar como" y "punto de control".</p>
-<p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image13.png" alt="save as" width="452" height="316" /></p>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image13.png" alt="save as" width="452" height="316" />
 <p>La opción "guardar proyecto como" te permite crear una copia del código que está trabajando y guardarlo con un nuevo nombre.</p>
 <p>Por ejemplo, digamos que el proyecto en el que está trabajando se llama "prueba". Puedes guardar el proyecto en el que está trabajando como "test_version2" y seguir agregando código a él. Si arruinas algo, puedes volver a tu proyecto llamado "prueba".</p>
-<p><a href="e"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image09.png" alt="checkpoint" width="1000" height="700" /></a></p>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image09.png" alt="checkpoint" width="1000" height="700" />
+
 <p>La opción "punto de control" te permite guardar tu código como está bajo un nuevo nombre.</p>
 <p>Por ejemplo, digamos que el proyecto en el que estás trabajando se llama "prueba". Checkpoint guardará tu código actual como un proyecto llamado "test_checkpoint1". Entonces puedes seguir trabajando y si te equivocas, puedes volver al proyecto llamado "test_checkpoint1".</p>
 <p>Mire este video para obtener más información sobre el ahorro de versión en App Inventor.</p>
-<p></p>
-<p>&nbsp;</p>
-<h1>Reflexionar</h1>
-<p>¡Felicidades! Ya casi has terminado de crear una aplicación que está lista para enviar a Technovation. Estamos muy contentas de que hayas llegado hasta aquí, y sabemos que ha sido un trabajo muy difícil para tu equipo.</p>
-<p>Si esta es la primera vez que ha creado una aplicación o programado, sin duda has aprendido mucho y has superado la frustración. Algunos equipos incluso superaron las barreras del idioma y las limitaciones a los recursos que hicieron que comenzar sea muy difícil.</p>
-<p>Estamos orgullosos de ti y esperamos que estés tan orgulloso de ti mismo. Has perseverada, trabajado duro y aprendido la una de la otra. Eres una inspiración para nosotros, y muchos más.</p>
-<h3>Recursos Adicionales</h3>
-<ul>
-<li style="font-weight: 400"><a href="http://ai2.appinventor.mit.edu/reference/other/testing.html" target="_blank" rel="noopener">MIT Testing Documentation</a>*</li>
-<li style="font-weight: 400">Aquí otro video que pudiera ayudar con la depuración: <a href="https://www.youtube.com/watch?v=itCnknI5PlY" target="_blank" rel="noopener">Debugging Video</a>*</li>
-</ul>
-<p>&nbsp;</p>
+<center>
+<iframe src="https://www.youtube.com/embed/HNM5Mxf7eZU" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></center>
+
+<div style="background-color: #006667; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h1 id="reflect" style="color: white;"><strong>Reflexionar</strong></h1>
+	<p>¡Felicidades! Ya casi has terminado de crear una aplicación que está lista para enviar a Technovation. Estamos muy contentas de que hayas llegado hasta aquí, y sabemos que ha sido un trabajo muy difícil para tu equipo.</p>
+	<p>Si esta es la primera vez que ha creado una aplicación o programado, sin duda has aprendido mucho y has superado la frustración. Algunos equipos incluso superaron las barreras del idioma y las limitaciones a los recursos que hicieron que comenzar sea muy difícil.</p>
+	<p>Estamos orgullosos de ti y esperamos que estés tan orgulloso de ti mismo. Has perseverada, trabajado duro y aprendido la una de la otra. Eres una inspiración para nosotros, y muchos más.</p>
+	<h3 style="color: white;"><strong>Recursos Adicionales</strong></h3>
+	<ul>
+		<li style="font-weight: 400"><a style="color: #eae46f;" href="http://ai2.appinventor.mit.edu/reference/other/testing.html" target="_blank" rel="noopener">MIT Testing Documentation</a>*</li>
+		<li style="font-weight: 400">Aquí otro video que pudiera ayudar con la depuración: <a style="color: #eae46f;" href="https://www.youtube.com/watch?v=itCnknI5PlY" target="_blank" rel="noopener">Debugging Video</a>*</li>
+	</ul>
+	
+</div>	
