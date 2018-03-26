@@ -1,0 +1,377 @@
+<ul>
+ 	<li><a href="#color">Cores </a></li>
+ 	<li><a href="#act2">Atividade: Escolher uma cor</a></li>
+ 	<li><a href="#fonts">Esquemas de cores</a></li>
+ 	<li><a href="#act2">Atividade - Escolher um esquema de cores</a></li>
+ 	<li><a href="#fonts">Fontes</a></li>
+ 	<li><a href="#act3">Atividade: Escolher fonte(s)</a></li>
+ 	<li><a href="#logo">Como criar uma logo</a></li>
+ 	<li><a href="#act4">Atividade</a></li>
+ 	<li><a href="#apply">Aplicar</a></li>
+ 	<li><a href="#reflect">Reflexão</a></li>
+ 	<li><a href="#bonus">Seção bônus: cores para programadore</a></li>
+</ul>
+<h3><strong>Objetivos de aprendizagem</strong>:</h3>
+Neste módulo, você...
+<ul>
+ 	<li>Aprenderá sobre logos, fontes e esquemas de cores</li>
+ 	<li>Escolherá esquemas de cores e fontes para sua marca</li>
+ 	<li>Criará uma logo para sua marca</li>
+</ul>
+<h3 id="color"><strong>Cores </strong></h3>
+Vocês já criaram um nome e já devem ter uma ideia de qual é a "personalidade" do seu negócio, então é hora de criar a identidade visual da sua marca! <strong>Identidade visual</strong> é como as pessoas veem sua marca. Isso abrange sua logo, esquema de cores e fonte. É importante manter a identidade visual consistente, porque é como as pessoas identificarão e reconhecerão sua marca. Para começar, vamos identificar cores que ajudem a expressar sua marca.
+
+Vocês podem ter cores favoritas, mas isso não significa que sejam as melhores cores para a marca da empresa! Sabiam que cores estão associadas a emoções e podem fazer pessoas se sentirem de uma certa maneira? Isso pode mudar de pessoa para pessoa, mas é importante considerar essas emoções ao escolher um esquema de cores para sua marca. Nesta seção, falaremos de preferências e associações de cores comuns nos Estados Unidos. Como essas associações variam de país ou cultura, vocês devem buscar o que elas significam no Brasil. Alguns exemplos:
+<table>
+<tbody>
+<tr>
+<td style="text-align: center; color: #ffffff;" bgcolor="red">Vermelho</td>
+<td>Paixão, agressividade, importância, revolução</td>
+</tr>
+<tr>
+<td style="text-align: center; color: #ffffff;" bgcolor="orange">Alaranjado</td>
+<td>Brincadeira, energia, barateza, vibração</td>
+</tr>
+<tr>
+<td style="text-align: center;" bgcolor="yellow">Amarelo</td>
+<td>Felicidade, amizade, cuidado, sabedoria</td>
+</tr>
+<tr>
+<td style="text-align: center; color: #ffffff;" bgcolor="green">Verde</td>
+<td>Natureza, estabilidade, prosperidade, honestidade</td>
+</tr>
+<tr>
+<td style="text-align: center; color: #ffffff;" bgcolor="blue">Azul</td>
+<td>Serenidade, confiança, empatia, lealdade</td>
+</tr>
+<tr>
+<td style="text-align: center; color: #ffffff;" bgcolor="purple">Roxo</td>
+<td>Luxo, mistério, romance, inspiração</td>
+</tr>
+<tr>
+<td style="text-align: center; color: #ffffff;" bgcolor="brown">Marrom</td>
+<td>Terra, força, rusticidade</td>
+</tr>
+<tr>
+<td style="text-align: center; color: #ffffff;" bgcolor="black">Preto</td>
+<td>Poder, sofisticação, modernidade, formalidade</td>
+</tr>
+<tr>
+<td style="text-align: center;" bgcolor="WHITE">Branco</td>
+<td>Limpeza, virtude, saúde, inocência</td>
+</tr>
+<tr>
+<td style="text-align: center; color: #ffffff;" bgcolor="gray">Cinza</td>
+<td>Neutralidade, formalidade, tristeza, modéstia</td>
+</tr>
+</tbody>
+</table>
+Assista a este vídeo para aprender mais sobre a psicologia das cores!
+<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/r9gYdD-REI0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></p>
+Escolher cores que complementem a personalidade da marca é uma parte importante da criação da sua identidade visual! A escolha pode intimidar pela infinidade de combinações de cores possíveis. Mas, vocês entendem a personalidade da sua marca e, agora, sabem quais emoções e qualidades são geralmente associadas às cores. 
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px, margin-bottom:25px;">
+<h3 id="act1"><strong><span lang="UK">Atividade: Escolher uma cor</span></strong></h3>
+Em equipe, identifiquem algumas cores na tabela anterior que melhor representem a personalidade da marca. Por exemplo, se quiserem que as pessoas identifiquem seu produto como sendo algo novo e excitante, a cor alaranjada pode ser a melhor para representar sua marca.
+
+</div>
+<h4 id="colorschemes"><strong><span lang="UK">Esquemas de cores </span></strong><span lang="UK"></span><strong><span lang="UK"></span></strong><span lang="UK"></span><strong><span lang="UK"></span></strong></h4>
+Agora vocês têm uma cor! Parabéns! Calma aí, não comecem a fazer todo o material visual ainda. Cores funcionam melhor ainda quando têm amigas! Mas, assim como com pessoas, escolher os amigos certos é muito importante! Temos algumas dicas para ajudar a escolher cores que combinam com aquela que vocês escolheram! 
+
+Para começar, vamos entender melhor como cores funcionam juntas e como estão relacionadas. É possível que já tenham visto um círculo cromático como este:
+<p class="western" align="center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/COLOR-WHEEL@4x-2-1024x1024.png" alt="color-wheel4x" width="429" height="429" /></p>
+<p class="western">Esse círculo cromático possui diferentes cores, como vermelho, azul, verde, alaranjado etc. Essas cores estão acompanhadas de <b>matizes</b> (cor + branco) e <b>tonalidades</b> (cor + preto). </p>
+<p class="western">Como podem ver, mesmo após escolher uma cor, vocês devem também escolher uma variação daquela cor, mesmo que seja uma cor saturada (sem matiz ou tonalidade), misturada com outra cor (como vermelho-alaranjado), ou uma matiz/tonalidade! </p>
+<p class="western">Essa escolha realça como a sua cor expressa as qualidades da marca. Por exemplo, uma color alaranjada bastante saturada pode indicar excitação e aventura. Mas se a cor for amarela-alaranjada, ela pode passar uma sensação de leveza e felicidade. No entanto, se escolher uma tonalidade dessa mesma cor amarela-alaranjada, vocês podem passar uma sensação de escuridão ou doença! Uma matiz dessa mesma cor passa a sensação de luminosidade e ar. 
+
+Ao fazer essa escolha, é bom ter em mente como essa cor funciona com as outras escolhidas. Cores geralmente são combinadas de diferentes maneiras, mas as combinações básicas são as seguintes:</p>
+<p class="western"><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/comp@2x-1.png" alt="comp2x" width="50%" /></p>
+<p class="western"><b>Combinações de cores complementares </b>juntam uma cor com seu oposto exato no círculo cromático, como mostrado abaixo. Essas podem ser as combinações mais vibrantes, especialmente se as cores forem completamente saturadas. Pode ficar desgastante quando usadas em grande quantidade, mas chamam a atenção para algo que queiram destacar.</p>
+<p class="western"><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/slip-comp@2x.png" alt="slip-comp2x" width="50%" /></p>
+<p class="western"><b>Combinações de cores com divisão complementar </b>são similares a esquemas complementares, com a diferença de que uma das cores é substituída pelas duas cores adjacentes (vizinhas) a ela. Isso reduz a tensão que pode se apresentar em esquemas de cores complementares, mantendo o contraste.</p>
+<p class="western"><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/analogous@2x.png" alt="analogous2x" width="50%" /></p>
+<p class="western"><b>Combinações de cores análogas </b>são cores que estão lado a lado no círculo cromático. Essas combinações passam a sensação de serenidade e calma. No entanto, ao usar essas combinações, vocês devem ter cuidado para criar contraste suficiente para que a identidade visual seja fácil de ler. </p>
+<p class="western"><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/triadic@2x.png" alt="triadic2x" width="50%" /></p>
+<p class="western"><b>Combinações de tríades de cor </b> são cores equidistantes no círculo cromático. Mesmo usando matizes ou tonalidades, essas combinações de cores podem ser fortes e energéticas. </p>
+
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px, margin-bottom:25px;">
+<h3 id="act2" class="western"><strong>Atividade - Escolher um esquema de cores</strong>)</h3>
+<p class="western">Em equipe, escolham um esquema de cores. Utilizem a cor escolhida na última atividade como a principal, e então, a partir dela e do círculo cromático, escolham a combinação. Lembrem-se de considerar matizes e tonalidades, além dos significados das cores e suas combinações. Recursos para facilitar essa escolha: </p>
+
+<ul>
+ 	<li><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.sessions.edu/color-calculator/" target="_blank">Sessions color calculator</a></span></li>
+ 	<li><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://coolors.co/" target="_blank">Coolors</a></span></li>
+ 	<li><span style="color: #eae46f;"><a style="color: #eae46f;" href="http://www.palettable.io/FFFFFF" target="_blank">Palattable</a></span></li>
+</ul>
+<p class="western">Dica: Não se preocupem em escolher uma cor que não esteja disponível no App Inventor. Em seguida, há instruções sobre como adicionar cores novas pelo ao App Inventor.</p>
+<p class="western">Presa? Comece com fotos! Tirem fotos de coisas que ajudem a identificar a marca. Locais, objetos ou qualquer outra coisa! Esta  <span style="color: #eae46f;"><a style="color: #eae46f;" href="https://designschool.canva.com/blog/100-color-combinations/" target="_blank">postagem de blog</a></span></span><span style="color: #eae46f;"> </span>tem exemplos incríveis! </p>
+
+</div>
+<h3 id="fonts" class="western"><strong>Fontes</strong></h3>
+<p class="western">Fontes também são muito importantes ao criar sua identidade visual. Os exemplos que daremos se aplicam mais diretamente a fontes com caracteres latinos, mas os princípios básicos também podem ser aplicados em alfabetos não latinos.</p>
+<p class="western">Assim como cores, a fonte, ou o desenho das letras, pode ajudar a expressar a identidade da marca. Fontes têm personalidade e significado/contexto histórico reconhecido e associado pelas pessoas, mesmo que elas não percebam! Existem centenas de fontes que podem ser escolhidas. Então, saber um pouco mais sobre elas pode ajudar a fazer a melhor escolha. Essa seção abordará princípios básicos sobre fontes para ajudar vocês a escolher. Quais são as diferenças entre estas duas letras?</p>
+<p class="western">O "F" da esquerda tem círculos em volta das marcas adicionais nas extremidades. Essas marcas são chamadas de serifas, ou serifs, e fontes com essas marcas são chamadas de fontes serif. O "F" sem serifas é chamado de sans-serif. É engraçado se pensarmos que essas marcas adicionais são pezinhos. Tente identificar as diferenças entre as letras abaixo!</p>
+
+<table class=" aligncenter">
+<tbody>
+<tr>
+<td width="50%"><strong>Serif</strong></td>
+<td width="50%"><strong>Sans-Serif</strong></td>
+</tr>
+<tr>
+<td><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Merriweather-Serif@2x.png" alt="merriweather-serif2x" width="50" /></td>
+<td> <a href="https://fonts.google.com/specimen/Merriweather+Sans" target="_blank"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Merriweather-Sans@2x.png" alt="merriweather-sans2x" width="40" /></a></td>
+</tr>
+<tr>
+<td><a href="https://fonts.google.com/specimen/PT+Serif" target="_blank"><img style="margin: 1%;" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/PT-Serif@2x.png" alt="pt-serif2x" width="58" height="67" /></a></td>
+<td><a href="https://fonts.google.com/specimen/PT+Sans" target="_blank"><img style="margin: 1%;" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/PT-Sans@2x.png" alt="pt-sans2x" width="46" height="67" /></a></td>
+</tr>
+<tr>
+<td><a href="https://typekit.com/fonts/ff-tisa" target="_blank"><img style="margin: 1%;" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Tisa-Serif@2x.png" alt="tisa-serif2x" width="43" height="70" /></a></td>
+<td><a href="https://typekit.com/fonts/ff-tisa-sans" target="_blank"><img style="margin: 1%;" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Tisa-Sans@2x.png" alt="tisa-sans2x" width="44" /></a></td>
+</tr>
+</tbody>
+</table>
+<h5 class="western" style="text-align: left;">Serif</h5>
+<p class="western" style="text-align: left;"><span style="font-family: Cambria, serif;">As marcas adicionais nas extremidades de letras serifadas podem mudar muito de fonte para fonte. Algumas fontes serif têm pés pequenos, como a <a href="https://www.prepressure.com/images/fonts_sample_times_new_roman_regular.png" target="_blank">Times New Roman</a><, enquanto outras têm pezões, como a fonte <a href="http://www.creativebeacon.com/wp-content/uploads/2012/08/Screen-shot-2012-08-27-at-10.23.55-AM.png" target="_blank">slab</a></span>! Veja as fontes diferentes que seu computador tem. Você consegue ver alguma com serifas? </p>
+<p class="western" style="text-align: left;"><span style="font-family: Cambria, serif;">Fontes serifadas passam a sensação de história e, às vezes, autoridade ou formalidade. Isso acontece porque as primeiras letras impressas eram letras serifadas chamadas de <a href="https://www.sitepoint.com/the-blackletter-typeface-a-long-and-colored-history/" target="_blank">blackletter</a>, ou escrita gótica! Se escolher uma fonte serifada, saiba que ela carregará um pouco de história com ela e passará uma sensação de sabedoria e idade. No entanto, há exceções, como a família das fontes chamadas de slab-serifs, que são mais recentes e se assemelham às fontes <a href="https://fonts.google.com/?category=Serif&amp;query=slab" target="_blank">slab-serifs</a>.</span></p>
+
+<h4 class="western" style="text-align: left;">Sans-Serif</h4>
+<p class="western" style="text-align: left;"><span style="font-family: Impact, serif;">As fontes sans-serif podem ser muito diferentes, </span><span style="font-family: Raleway, serif;"> então vejam quais vocês mais gostam no seu computador! </span><span style="font-family: Raleway, serif;"><span lang="uk-UA"></span></span></p>
+<p class="western" style="text-align: left;">Fontes sans-serif são uma família muito mais nova. Elas representam a juventude ou uma nova maneira de pensar e foram desenvolvidas para suprir as necessidades de leitura em propagandas modernas, em uma variedade de tamanhos e distâncias. É mais provável que vocês escolham uma dessas para sua marca. </p>
+<p class="western" style="text-align: left;">Caso tenham ficado curiosas sobre isso, estes recursos ensinam mais sobre a história da tipografia ou os tipos de tipografia.</p>
+<p class="western" style="text-align: center;"><iframe src="https://www.youtube.com/embed/wOgIkxAfJsk" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></p>
+
+<ul style="text-align: center;">
+ 	<li style="text-align: left;"><a href="https://www.fonts.com/content/learning/fontology/level-1/type-anatomy/type-classifications" target="_blank">Types of type</a></li>
+ 	<li style="text-align: left;"><a href="http://practicaltypography.com/font-recommendations.html" target="_blank">Butterick's font recommendations</a></li>
+</ul>
+<div style="background-color: #28a880; color: white; padding: 25px; text-align: center;">
+<h3 id="act3" class="western" style="text-align: left;"><strong>Atividade </strong>: <strong>Escolher fonte(s)</strong></h3>
+<p class="western" style="text-align: left;">Agora, vamos escolher uma (ou duas) fonte(s)!  Para ajudar a escolherem as melhores fontes, sigam essas etapas:</p>
+
+<ol>
+ 	<li style="text-align: left;">
+<p class="western">Mesmo se não tiverem uma compreensão profunda sobre tipografia, vocês podem identificar fontes que expressem a identidade da sua marca. Uma boa maneira de se fazer isso é testar diferentes fontes com uma frase ou palavra e neutra e tentar ouvir qual "voz" elas têm. Por exemplo, fontes mais grossas, pesadas, com menos espaço entre as letras, como a <span style="color: #eae46f;"> <a style="color: #eae46f;" href="http://ufonts.com/fonts/impact.html" target="_blank"><span style="font-family: Impact, serif;">Impact </span></a></span> podem "falar" com uma voz mais alta, quase como um grito! Ou fontes delicadas e finas, como a <span style="color: #eae46f;"> <a style="color: #eae46f;" href="https://fonts.google.com/specimen/Syncopate" target="_blank">Syncopate</a></span>, parecem falar com um sussurro mais sofisticado. Façam uma lista com as fontes que fazem sentido para sua marca. Busquem não deixar as favoritas de cada integrante influenciarem a escolha.</p>
+</li>
+ 	<li>
+<p class="western" style="text-align: left;">Agora, vamos testar a leitura das fontes escolhidas. Testem fontes nas palavras que quiserem em diferentes tamanhos para verificar se elas ficam legíveis. Alguma delas é mais difícil de ler em tamanhos maiores e de mais longe? Podem deixar essas de fora. Encontrem aquela fonte que funciona melhor. Essa vai ser a sua fonte de <a href="https://www.fonts.com/content/learning/fontology/level-1/type-anatomy/text-v-display" target="_blank"><span style="color: #eae46f;">display</span><i> </i></a>, para cabeçalhos ou para a logo. </p>
+</li>
+ 	<li>
+<p class="western" style="text-align: left;">Agora, busquem uma fonte altamente legível para textos maiores. Atenção! Escolham uma fonte para texto que complemente a fonte de display, pois elas podem conflitar, assim como as cores! Algumas dicas breves:</p>
+
+<ol style="text-align: left;" type="a">
+ 	<li>
+<p class="western">Fontes com e sem serifa podem ser combinadas facilmente. Pensem que são como cores complementares: os opostos se atraem!</p>
+</li>
+ 	<li>
+<p class="western">O contraste é legal! Evitem usar fontes muito parecidas. </p>
+</li>
+ 	<li>
+<p class="western">Imaginem as "vozes" das fontes. A voz da fonte de texto e da fonte de display combinam?</p>
+</li>
+ 	<li>
+<p class="western">Considerem a (<span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.fonts.com/content/learning/fontology/level-1/type-anatomy/x-height" target="_blank">readability</a></span>). Uma fonte escolhida para o texto deve ser legível em tamanhos menores. Façam o teste, assim como com a fonte de display.</p>
+</li>
+ 	<li>
+<p class="western">Testem as duas fontes em conjunto, da mesma maneira como elas estarão no seu aplicativo.</p>
+</li>
+ 	<li>
+<p class="western">Vejam as fontes do App Inventor! Caso escolham alguma delas, a programação do aplicativo será muito mais fácil!</p>
+</li>
+</ol>
+</li>
+</ol>
+<p class="western" style="text-align: left;">Precisam de ajuda? Estes são ótimos recursos:</p>
+
+<ul style="text-align: left;">
+ 	<li>
+<p class="western" style="text-align: left;"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.canva.com/font-combinations/" target="_blank">Canva Font Combinations</a></span> é uma forma fácil de testar pares de fontes</p>
+</li>
+ 	<li>
+<p class="western"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://fonts.google.com/" target="_blank">Google Fonts</a></span> tem centenas de fontes gratuitas! Recomendamos usar as fontes do Google por elas serem gratuitas para usar em qualquer lugar. Outras fontes podem ter restrições.</p>
+</li>
+ 	<li>
+<p class="western"><span style="color: #eae46f;"><a style="color: #eae46f;" href="http://practicaltypography.com/" target="_blank">Butterick's Practical Typography</a></span> tem muitas informações e dicas sobre tipografia</p>
+</li>
+ 	<li style="font-weight: 400;"><span style="color: #eae46f;"><a style="color: #eae46f;" href="http://thinkingwithtype.com/" target="_blank">Thinking with Type</a></span> is another great digital book on all things typography</li>
+</ul>
+<p class="western" style="text-align: left;">Assim que escolherem uma ou duas fontes, será necessário instalá-las. Vejam este vídeos para o  <span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.youtube.com/watch?v=rnFfbk8J940" target="_blank">Windows 10</a></span> ou este vídeo para o  <span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.youtube.com/watch?v=vY0wJzWyxRI" target="_blank">Mac OS X</a></span>.</p>
+
+</div>
+<h3 id="logo" style="text-align: left;"><strong>Como criar uma logo</strong></h3>
+<p class="western" style="text-align: left;">Após terem escolhido cores e fontes para a marca, é hora de criarem sua logo! Uma  <b>logo </b>é um símbolo que representa uma empresa. A logo de uma empresa busca representar seus objetivos, propósito e personalidade em uma simples mistura de símbolos e palavras. Soa um pouco difícil, mas vamos dividir isso em partes menores. Há três tipos mais comuns de logos:</p>
+
+<table class=" aligncenter" width="936" cellspacing="0" cellpadding="7"><colgroup> <col width="296" /> <col width="298" /> <col width="296" /> </colgroup>
+<tbody>
+<tr>
+<td style="color: white;" bgcolor="#53042d">
+<p class="western" align="center"><b>Tipo</b></p>
+</td>
+<td style="color: white;" bgcolor="#53042d">
+<p class="western" align="center"><b>Exemplo</b></p>
+</td>
+<td style="color: white;" bgcolor="#53042d">
+<p class="western" align="center"><b>Exemplo das Equipes Technovation </b></p>
+</td>
+</tr>
+<tr>
+<td style="color: white; vertical-align: middle;" bgcolor="#903d54" width="25%">
+<p class="western" align="center">Marca nominativa</p>
+</td>
+<td style="text-align: center; vertical-align: middle;">
+<p class="western" align="center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image13.png" alt="facebook" width="234" height="187" /></p>
+</td>
+<td style="text-align: center; vertical-align: middle;">
+<p class="western" align="center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image08-1.png" alt="image08" width="92" height="97" /></p>
+<p class="western" align="center">Loc8 don8 pela equipe California Coders 2016</p>
+</td>
+</tr>
+<tr>
+<td style="color: white; vertical-align: middle;" bgcolor="#903d54">
+<p class="western" align="center">Símbolo ou ícone</p>
+</td>
+<td style="text-align: center; vertical-align: middle;">
+<p class="western" align="center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Artboard-1@2x.png" alt="artboard-12x" width="106" height="124" /></p>
+</td>
+<td style="text-align: center; vertical-align: middle;">
+<p class="western" align="center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image12.png" alt="image12" width="136" height="105" /></p>
+<p class="western" align="center"><span style="font-size: small;">Degreebee app pela equipe CRException 2016</span></p>
+</td>
+</tr>
+<tr>
+<td style="color: white; vertical-align: middle;" bgcolor="#903d54">
+<p class="western" align="center">Combinação</p>
+</td>
+<td style="text-align: center; vertical-align: middle;">
+<p class="western" align="center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image04-1.png" alt="image04" width="135" height="112" /></p>
+</td>
+<td style="text-align: center; vertical-align: middle;">
+<p class="western" align="center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image07-1.png" alt="image07" width="152" height="155" /></p>
+<p class="western" align="center"><span style="font-size: small;">cAppAble pela equipe X-Women 2015</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="western" style="text-align: left;">Agora, pensem sobre as logos acima e em outros exemplos que não foram mostrados. Quais são melhores para uma foto de perfil de rede social? Quais são melhores para um pôster? Quais são imediatamente reconhecíveis? Qual é a razão do sucesso (ou fracasso) delas?</p>
+
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px; text-align: center;">
+<h3 id="act4" class="western" style="text-align: left;"><b>Atividade</b></h3>
+<p class="western" style="text-align: left;">Fazer um brainstorm de uma logo. Para essa atividade, cada integrante da equipe vai precisar de muitos pedaços de papel ou cartões. </p>
+<p class="western" style="text-align: left;">1. Façam um brainstorm para imagens que vocês acham que representam o problema que querem resolver. Pensem em quem está envolvido, em como o ambiente é afetado e na solução proposta. Vejam figuras online e em livros, revistas e o que mais tiverem por perto!</p>
+<p class="western" style="text-align: left;">2.	Deem 15 minutos para todas desenharem ou rabiscarem o que pode ser a logo, a caneta ou lápis. A logo pode ser qualquer um dos tipos citados na tabela acima (marca nominal, ícone ou combinação). Desenhem o mais rápido que conseguirem e sem parar para pensar. Só para ver o que acontece!</p>
+<p class="western" style="text-align: left;">3.	Após 15 minutos, você e sua equipe devem ter uma pilha de propostas desenhadas. Caso não tenham, repitam a etapa 1.</p>
+
+<ol style="text-align: left;">
+<ul>
+ 	<li>
+<p class="western">Juntas, observem os desenhos. Escolham alguns que parecerem mais promissores ou que podem ser combinados para formar uma logo mais forte. Debatam sobre esses e desenhem 5 outros, dessa vez, com mais cuidado e pensando realmente em usar esse desenho como logo: mantenham a simplicidade. Isso torna mais fácil a distinção dos traços em tamanhos grandes ou pequenos.</p>
+</li>
+ 	<li>
+<p class="western">Pensem sobre como e onde essa logo ficará no aplicativo</p>
+</li>
+ 	<li>
+<p class="western">Logos representam a identidade, então, pensem em coisas que definem a empresa</p>
+</li>
+</ul>
+</ol>
+<p class="western" style="text-align: left;">2.	Desenhem uma ou mais logos no computador. Vocês podem usar esta <span lang="uk-UA">ferramenta para design de logos!<span style="color: #eae46f;"><a style="color: #eae46f;" href="https://logo.squarespace.com/" target="_blank">logo design tool</a></span>!</span></p>
+<p class="western" style="text-align: left;">Assim que terminarem, vocês devem enviar a logo, o esquema de cores e as fontes para o mentor!</p>
+
+</div>
+<h3 id="apply" class="western" style="text-align: center;"></h3>
+<h3 class="western" style="text-align: left;"><strong>Aplicar: </strong></h3>
+<p class="western" style="text-align: left;">Apliquem o esquema de cores e a logo ao aplicativo! Tentem mudar o lugar e as cores da logo para ver o que se encaixa melhor!</p>
+
+<h5 class="western" style="text-align: left;"><strong>Dicas para adicionar cores e fontes no :</strong> App Inventor</h5>
+<p class="western" style="text-align: left;">Não se preocupe se não encontrarem as cores escolhidas no App Inventor. Nele, vocês podem fazer uma nova cor da seguinte forma:  <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/colors.html" target="_blank"> Como fazer cores customizadas no App Inventor</a>.   Para fazer cores novas no App Inventor, vocês precisam saber o valor RGB da cor. É possível que tenham usado esse valor nas ferramentas que falamos antes, mas caso não tenham, vocês podem usar essa outra ferramenta para descobrir o RGB das suas cores:  <a href="http://www.rapidtables.com/web/color/RGB_Color.htm" target="_blank">RGB Color Finder</a>.</p>
+<p class="western" style="text-align: left;">É útil salvar as cores que escolherem como variáveis para usá-las no desenvolvimento do seu aplicativo! Vamos ver um exemplo de como fazer isso!</p>
+<p class="western" style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Screen-Shot-2016-11-09-at-4.27.53-PM.png" alt="screen-shot-2016-11-09-at-4-27-53-pm" width="538" height="283" /></p>
+<p class="western" style="text-align: left;">Outra maneira de adicionar cores ao App Inventor é através desta  <a href="http://appinventor.mit.edu/explore/app-inventor-color-chart.html" target="&quot;_blank">lista de cores</a>em que várias cores estão listadas como códigos. Usamos o código -8388652 para deixar o botão verde-azulado.</p>
+<p class="western" style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image10-1.png" alt="color list blocks" width="537" height="94" /></p>
+<p class="western" style="text-align: left;">Nosso botão ficou assim:</p>
+<p class="western" style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image18.png" alt="image18" width="108" height="56" /></p>
+<p class="western" style="text-align: left;">Fontes são um pouco mais complicadas de adicionar. Neste momento, o App Inventor dá três opções de fontes, uma serif, uma sans-serif, e uma monospaced, ou monoespaçada. Caso não alterem a fonte, o padrão é a sans-serif. Uma maneira mais fácil de usar uma fonte customizada é fazer o upload de uma imagem com o texto na fonte que quiser. Esse método é melhor para títulos. Se tiverem muitos textos menores, é mais fácil usar uma das predefinições do App Inventor. Se estiverem nessa situação, testem as fontes disponíveis no App Inventor para ver o que ficar melhor no seu título!</p>
+<p class="western" style="text-align: left;">Por exemplo, capturamos uma imagem da tela de "Headline" na fonte de display,  <a href="https://store.typenetwork.com/foundry/fontbureau/fonts/eagle">Eagle Book</a> depois fazemos o upload dela em uma caixa horizontal ao lado da logo. Ajustamos a altura e a largura da caixa para ficar da maneira como queremos! Depois, escolhemos a fonte serifada padrão para complementar o título. </p>
+<p class="western" style="text-align: center;"><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image05-heading_0000_Heading.png" alt="image05-heading_0000_heading" width="223" height="65" /></p>
+<p style="text-align: center;">Dica: Para deixar mais espaço acima do título e da logo, adicionamos uma label vazia no topo da tela e ajustamos seu tamanho para ficar exatamente como queríamos.</p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image05-edit.png" alt="image05-edit" width="337" height="600" /></p>
+<p class="western" style="text-align: left;"><span style="font-size: medium;"><em>Dica:</em> Para deixar mais espaço acima do título e da logo, adicionamos uma label vazia no topo da tela e ajustamos seu tamanho para ficar exatamente como queríamos.</span></p>
+
+<div style="background-color: #006667; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px; text-align: center;">
+<h3 id="reflect" style="color: white; text-align: left;">Reflexão</h3>
+<p class="western" style="text-align: left;">Parabéns por criar a identidade visual da marca! Essa identidade visual é uma grande parte do que as pessoas vão pensar quando verem seu aplicativo! Completem a atividade abaixo antes de continuar!</p>
+<p class="western" style="text-align: left;">Mostre a identidade visual a alguém que não seja o mentor ou parte da equipe. Perguntem o que a logo, esquema de cores e fontes fazem essa pessoa sentir. A resposta dessa pessoa faz sentido para a sua marca? Se não, quais mudanças podem ser feitas para que a identidade visual fique alinhada com as metas da empresa?</p>
+<p class="western" style="text-align: left;"><span style="font-size: medium;"><b>Recursos adicionais:</b></span></p>
+
+<ul>
+ 	<li style="font-weight: 400; text-align: left;"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://designschool.canva.com/tutorials/building-brand-kit/" target="_blank">Tutorial Canva Branding Kit</a></span></li>
+ 	<li style="font-weight: 400; text-align: left;"><span style="color: #eae46f;"><a style="color: #eae46f;" href="http://www.awwwards.com/99-creative-logo-designs-for-inspiration.html" target="_blank">Inspiração para logos</a></span>
+<ul>
+ 	<li style="font-weight: 400; text-align: left;"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://dribbble.com/search?q=logo" target="_blank">Dribbble, resultados para “logo”!</a></span></li>
+ 	<li style="font-weight: 400; text-align: left;"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.behance.net/search?content=projects&amp;sort=appreciations&amp;time=week&amp;search=logo" target="_blank">Behance, resultados para “logo”</a></span></li>
+ 	<li style="font-weight: 400; text-align: left;"><span style="color: #eae46f;"><a style="color: #eae46f;" href="http://qz.com/461040/how-to-design-an-enduring-logo-lessons-from-ibm-and-paul-rand/" target="_blank">Descubra a história da logo da IBM</a></span></li>
+ 	<li style="font-weight: 400; text-align: left;"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.youtube.com/watch?v=x3jTSB2ez-g" target="_blank">Aprenda mais sobre o processo e a história do design de logos</a></span></li>
+</ul>
+</li>
+</ul>
+</div>
+<h3 id="bonus" class="western" style="text-align: left;"><b>Seção bônus - cores para programadores</b></h3>
+<h5 class="western" style="text-align: left;"><b> Кольори для програмістів</b></h5>
+<p class="western" style="text-align: left;">Se alguém falar que uma cor é "verde-azulado claro", vocês terão uma ideia de qual cor é. No entanto, computadores não conseguem entender isso, então eles usam um sistema chamado RGB para avaliar as cores. </p>
+<p class="western" style="text-align: left;">Valores RGB são três números usados para descrever uma cor a um computador. O primeiro número diz ao computador a intensidade dos vermelhos, o segundo, a intensidade dos verdes, e o terceiro, a intensidade dos azuis. Os números podem variar de 0 à 255. Vejam os exemplos!</p>
+
+<table class=" aligncenter">
+<tbody>
+<tr>
+<td style="color: white;" bgcolor="black" width="33%">Preto
+
+(0,0,0)</td>
+<td bgcolor="white" width="33%">Branco
+<p style="text-align: center;">(255,255,255)</p>
+</td>
+<td bgcolor="#808080" width="33%">
+<p style="text-align: center; color: white;">Cinza</p>
+<p style="text-align: center; color: white;">(128,128,128)</p>
+</td>
+</tr>
+<tr>
+<td bgcolor="red">
+<p style="text-align: center; color: white;">Vermelho</p>
+<p style="text-align: center; color: white;">(255,0,0)</p>
+</td>
+<td style="text-align: center;" bgcolor="#00ff00">Verde-limão
+
+(0,255,0)</td>
+<td bgcolor="blue">
+<p style="text-align: center; color: white;">Azul</p>
+<p style="text-align: center; color: white;">(0,0,255)</p>
+</td>
+</tr>
+<tr>
+<td bgcolor="yellow">
+<p style="text-align: center;">Amarelo</p>
+<p style="text-align: center;">(255,255,0)</p>
+</td>
+<td style="text-align: center;" bgcolor="purple"><span style="color: #ffffff;">Roxo</span>
+
+<span style="color: #ffffff;">(128,0,128)</span></td>
+<td bgcolor="teal">
+<p style="text-align: center; color: white;">Verde-azulado</p>
+<p style="text-align: center; color: white;">(0,128,128)</p>
+</td>
+</tr>
+<tr>
+<td bgcolor="green">
+<p style="text-align: center;"><span style="color: #ffffff;">Verde</span></p>
+<p style="text-align: center;"><span style="color: #ffffff;">(0,128,0)</span></p>
+</td>
+<td style="text-align: center;" bgcolor="navy"><span style="color: #ffffff;">Azul-marinho</span>
+
+<span style="color: #ffffff;">(0,0,128)</span></td>
+<td bgcolor="Maroon">
+<p style="text-align: center; color: white;">Bordô</p>
+<p style="text-align: center; color: white;">(128,0,0)</p>
+</td>
+</tr>
+</tbody>
+</table>  
