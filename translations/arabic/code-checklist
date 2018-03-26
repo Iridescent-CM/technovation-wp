@@ -9,89 +9,99 @@
 على سبيل المثال:
 <strong>النصوص</strong>
 "<em>لقد قمنا باستخدام النصوص لإظهار اسم المتسخدم في أعلى الشاشة .</em>"
-<h3>العناصر التقنية</h3>
+
+<h3><strong>العناصر التقنية</strong></h3>
 <em>استخدمي على الأقل أربعة عناصر(نقطة واحدة لكل عنصر، 4 نقاط هو الحد الأعلى)</em>
 
-هذه العناصر موجودة في وحدة <a href="/?p=21094" target="_blank">البرمجة 2</a>.
+<p>هذه العناصر موجودة في وحدة <a href="/?p=21094" target="_blank"><strong>البرمجة 2</strong></a>.</p>
 
- النصوص
+<p><input type="checkbox" /> النصوص</p>
 
- الأرقام
+<p><input type="checkbox" /> الأرقام</p>
 
- المتغيرات
+<p><input type="checkbox" /> المتغيرات</p>
 
- القوائم او المصفوفات
+<p><input type="checkbox" /> القوائم او المصفوفات</p>
 
-هذه العناصر موجودة في وحدة <a href="/?p=21138" target="_blank">البرمجة 3</a>.
+<p>هذه العناصر موجودة في وحدة <a href="/?p=21138" target="_blank"><strong>البرمجة 3</strong></a>.</p>
 
- القيم المنطقية
+<p><input type="checkbox" /> القيم المنطقية</p>
 
- الحلقات
+ <p><input type="checkbox" />الحلقات</p>
 
- الجمل الشرطية
+<p> <input type="checkbox" />الجمل الشرطية</p>
+
 <h3>قواعد البيانات والاتصال</h3>
 <em>استخدمي على الأقل عنصر واحد(نقطة واحدة لكل عنصر ، نقطة واحدة الحد الأعلى )</em>
 
-هذه العناصر موجودة في وحدة <a href="/?p=21094" target="_blank">البرمجة 2</a>.
+<p>هذه العناصر موجودة في وحدة <a href="/?p=21094" target="_blank">البرمجة 2</a>.</p>
 
- قاعدة البيانات المحلية
+<p> <input type="checkbox" /> قاعدة البيانات المحلية</p>
 
-هذه العناصر موجودة في وحدة <a href="/?p=17673" target="_blank">البرمجة 4</a>.
+<p>هذه العناصر موجودة في وحدة <a href="/?p=17673" target="_blank">البرمجة 4</a>.</p>
 
- قاعدة البيانات الخارجية أو واجهة البرمجة للتطبيقات
+<p><input type="checkbox" /> قاعدة البيانات الخارجية أو واجهة البرمجة للتطبيقات</p>
+
 <h3>ميزات في الهاتف المحمول</h3>
 <em>استخدمي على الأقل عنصر واحد(نقطتين لكل عنصر ، نقطتين الحد الأعلى)</em>
 
-هذه العناصر موجودة في وحدة <a href="/?p=17673" target="_blank">البرمجة 4</a>.
+<p>هذه العناصر موجودة في وحدة <a href="/?p=17673" target="_blank">البرمجة 4</a>.</p>
 
-حساس الموقع
+<p><input type="checkbox" /> حساس الموقع</p>
 
-الكاميرا أو الفيديو
+<p><input type="checkbox" /> الكاميرا أو الفيديو</p>
 
-مقياس التسارع
+<p><input type="checkbox" /> مقياس التسارع</p>
 
-الرسائل النصية أو المكالمات الهاتفية
+<p><input type="checkbox" /> الرسائل النصية أو المكالمات الهاتفية</p>
 
-صوت أو السماعات
+<p><input type="checkbox" /> صوت أو السماعات</p>
 
-المشاركة
+<p><input type="checkbox" /> المشاركة</p>
 
-الساعة
+<p><input type="checkbox" /> الساعة</p>
 
-لوحة الرسم
+<p><input type="checkbox" /> لوحة الرسم</p>
+
 <h3>صور للعملية</h3>
 <em>استخدمي العناصر الثلاث(نقطة واحدة لكل عنصر ، 3 نقاط الحد الأعلى)</em>
 
-ارفعي صورة واحدة على الأقل من النماذج الورقية من وحدة <a href="/?p=19535" target="_blank">البرمجة 5</a>.
+<p>ارفعي صورة واحدة على الأقل من النماذج الورقية من وحدة <a href="/?p=19535" target="_blank">البرمجة 5</a>.</p>
 
-ارفعي صورة واحدة على الأقل من  <a href="/?p=19686" target="_blank">وحدة البرمجة 6</a>.
+<p>ارفعي صورة واحدة على الأقل من  <a href="/?p=19686" target="_blank">وحدة البرمجة 6</a>.</p>
 
-ارفعي على الأقل صورتين لتطبيقك
+<p>ارفعي على الأقل صورتين لتطبيقك</p>
 <a href="http://www.technovationchallenge.org/wp-content/uploads/2017/01/Technical-Checklist-2017.pdf" target="_blank">
 نسخة للطباعة
 </a>
 <h2>الجدول الزمني لمسابقة Technovation</h2>
-آب
-أيلول
-تشرين أول
-تشرين ثاني
-كانون أول
-كانون ثاني
-شباط
-آذار
-نيسان
-أيار
-حزيران
-تموز
-فترة استقطاب
-الموسم الرسمي
-الفعالية الختامية المحلية
-الفعالية الختامية العالمية
-<h3 style="color: #ececec" align="center">تاوريخ مهمة for 2017</h3>
-<p style="color: #ececec;text-align: center;font-size: 15px"><strong>التسجيل</strong>: 8 مارس
-<strong>اتهاء التقديم</strong>: 26 ابريل
-<strong>المؤتمر العالمي</strong>: اغسطس 7-11</p>
-<p style="text-align: center">هل أنتي مستعدة لدخول التحدي العالمي لتيكنوفيشن؟</p>
-<a href="https://my.technovationchallenge.org" target="_self">
-التسجيل
-</a>
+<p><input type="checkbox" /> آب</p>
+<p><input type="checkbox" /> أيلول</p>
+<p><input type="checkbox" /> تشرين أول</p>
+<p><input type="checkbox" /> تشرين ثاني</p>
+<p><input type="checkbox" /> كانون أول</p>
+<p><input type="checkbox" /> كانون ثاني</p>
+<p><input type="checkbox" /> شباط</p>
+<p><input type="checkbox" /> آذار</p>
+<p><input type="checkbox" /> نيسان</p>
+<p><input type="checkbox" /> أيار</p>
+<p><input type="checkbox" /> حزيران</p>
+<p><input type="checkbox" /> تموز</p>
+<p><input type="checkbox" /> فترة استقطاب</p>
+<p><input type="checkbox" /> الموسم الرسمي</p>
+<p><input type="checkbox" /> الفعالية الختامية المحلية</p>
+<p><input type="checkbox" /> الفعالية الختامية العالمية</p>
+
+
+
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+
+	<h2 style="text-align: center;"><span style="color: #ffffff;"><strong>تاوريخ مهمة for 2017</strong></h2>
+	<p style="text-align: center"><strong>التسجيل</strong>: 8 مارس</p>
+	<p style="text-align: center">اتهاء التقديم</strong>: 26 ابريل</p>
+	<p style="text-align: center">المؤتمر العالمي</strong>: اغسطس 7-11</p>
+	<p style="text-align: center">هل أنتي مستعدة لدخول التحدي العالمي لتيكنوفيشن؟</p>
+	<p style="text-align: center"><a style="color: #eae46f;" href="https://my.technovationchallenge.org" target="_self">
+	التسجيل
+	</a></p>
+</div>
