@@ -1,0 +1,198 @@
+<ul>
+ 	<li><a href="#pseudo">Pseudocódigo</a></li>
+ 	<li><a href="#activity1">Atividade</a></li>
+ 	<li><a href="#flow">Fluxograma</a></li>
+ 	<li><a href="#activity2">Atividade</a></li>
+ 	<li><a href="#pair">Programação em pares</a></li>
+ 	<li><a href="#time">Gestão de tempo</a></li>
+ 	<li><a href="#reflect">Reflexão</a></li>
+</ul>
+<h3>Objetivos de aprendizagem:</h3>
+Nesta unidade, você aprenderá a...
+<ul>
+ 	<li style="font-weight: 400;">Como planejar de que forma programar</li>
+ 	<li style="font-weight: 400;">Maneiras de gerir o projeto e estruturar o tempo </li>
+</ul>
+<h3><b>Como planejar a programação</b></h3>
+Na <a href="http://www.technovationchallenge.org/curriculum/code-5/" target="blank"><span style="font-weight: 400;">unidade de programação 5</span></a> vocês planejaram como seu aplicativo deverá se parecer e como os usuários interagirão com ele. Nesta seção, vocês aprenderão duas técnicas para ajudar a planejar a programação e pensar sobre como o aplicativo deverá funcionar. É importante planejar o que programar para que possam descobrir se precisam aprender algo novo e pensar em como as coisas vão funcionar antes de passar para o computador!
+<h3 id="pseudo">Pseudocódigo (Pseudocode)</h3>
+Escrever pseudocódigo é uma parte importante do processo de planejamento do aplicativo. Pseudocódigo é uma mistura de linguagem comum com linguagem de programação, para explicar o que o aplicativo deve fazer. Vocês devem usar termos de programação que já conhecem, como loop e estruturas condicionais, além dos componentes do App Inventor que queiram usar, como ListView ou botões. Não há muitas regras sobre como escrever pseudocódigo, mas o objetivo é ter uma ideia de como o aplicativo funcionará antes de começar a programá-lo. 
+
+<span style="font-weight: 400;">Vamos ver o exemplo da </span><a href="/?p=21279&amp;lang=uk" target="blank"><span style="font-weight: 400;">unidade de programação 3</span></a><span style="font-weight: 400;">. Neste aplicativo, o usuário pode pesquisar sobre mulheres cientistas em uma base de dados. O aplicativo exibe os nomes em uma ListView e o usuário pode escolher uma cientista para conhecer sua história.
+</span>
+
+<i>Botão "Search", ou buscar (Search Button)</i>
+<ul>
+ 	<li style="font-weight: 400;">Quando o usuário apertar em "Search"</li>
+ 	<li style="font-weight: 400;">O aplicativo usa um loop for para buscar pelos nomes e descrições armazenados na TinyDB</li>
+ 	<li style="font-weight: 400;">Se houver correspondência
+<ul>
+ 	<li style="font-weight: 400;">O aplicativo adiciona o nome da cientista a uma lista de variáveis vazia, chamada searchResults, ou resultados da busca</li>
+</ul>
+</li>
+ 	<li style="font-weight: 400;">Se a lista searchResults estiver vazia depois de o loop terminar
+<ul>
+ 	<li style="font-weight: 400;">O aplicativo notifica que não há correspondências</li>
+</ul>
+</li>
+ 	<li><b>Se não</b>
+<ul>
+ 	<li>O aplicativo exibe a lista searchResults em uma ListView</li>
+</ul>
+</li>
+</ul>
+<i>Seleção de cientistas</i>
+<ul>
+ 	<li style="font-weight: 400;">Quando o usuário seleciona algo da ListView1</li>
+ 	<li style="font-weight: 400;">O aplicativo abre uma tela "Screen2"</li>
+ 	<li style="font-weight: 400;">O aplicativo recupera a descrição e o nome da cientista na TinyDB</li>
+ 	<li style="font-weight: 400;">O aplicativo exibe a descrição e o nome da cientista</li>
+</ul>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 id="activity1">Atividade</h3>
+Escrevam pseudocódigos para dois event handlers do aplicativo. Se tiverem problemas para definir como um event handler funcionará no aplicativo, peçam ajuda para as colegas ou para o mentor!
+
+Perguntas a se fazer:
+<ul>
+ 	<li style="font-weight: 400;">Qual é o evento que aciona o código? </li>
+ 	<li style="font-weight: 400;">O aplicativo precisará usar valores armazenados?
+<ul>
+ 	<li style="font-weight: 400;">Se for o caso, onde os valores serão armazenados?</li>
+</ul>
+</li>
+ 	<li style="font-weight: 400;">O aplicativo precisará usar variáveis? Se for o caso, é bom nomeá-las para manter o controle.</li>
+</ul>
+</div>
+<h3 id="flow"><b>Fluxograma</b></h3>
+Fluxogramas são diagramas que representam algoritmos. Eles usam formas e setas para demonstrar como dados percorrem um programa.  Eles são sempre lidos de cima para baixo. Programadores usam formas diferentes para representar coisas diferentes que podem acontecer com os dados. A figura seguinte é um exemplo de algoritmo para descobrir a razão da dor de barriga de alguém:
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/flowchart-1.png" alt="flowchart-1" width="426" height="434" />
+
+&nbsp;
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/terminal.png" alt="terminal" width="139" height="41" />
+<p style="text-align: left;">A forma oval representa onde o algoritmo começa e termina. No exemplo acima, há três diferentes locais em que o algoritmo pode terminar: a pessoa deve comer algo, descansar ou ir ao médico. Esses locais são chamados de terminais.</p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/decision.png" alt="decision" width="139" height="76" /></p>
+<p style="text-align: left;">Os losangos representam tomadas de decisão. São como bifurcações em estradas. Isso é quando uma estrutura condicional precisa decidir se uma condição é verdadeira ou falsa. Duas setas saem de uma decisão, uma para verdadeiro e uma para falso. Observem como as setas saem dos losangos no exemplo acima: um sai de baixo e outro da lateral.</p>
+Outro exemplo de fluxograma:
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/flowchart-2-1.png" alt="flowchart-2" width="124" height="281" />
+
+&nbsp;
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/process.png" alt="process" width="139" height="41" />
+
+Esse diagrama usa retângulos, que representam processos. Um processo é algo que seu código precisa fazer. Pode ser alertar um usuário, configurar uma label para dizer algo, ou adicionar números.
+
+Este fluxograma representa um loop while. A condição e o processo (neste caso, acessar um input) se repetirão até que a condição seja satisfeita. Esse é outro tipo de loop que aprenderam da <a href="/?p=21279&amp;lang=uk" target="_blank" rel="noopener">unidade de programação 3</a>: um loop for. A condição em um loop for é verificar se o contador atingiu o número definido de repetições que o processo se repetirá.
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/flowchart-3-1.png" alt="flowchart-3" width="424" height="314" />
+
+&nbsp;
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/input-1.png" alt="input" width="145" height="41" />
+
+A última forma é o paralelogramo. Usem essa forma sempre que precisarem obter algum dado, seja de usuários ou de outras fontes, como sites. O paralelogramo é para inputs.
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 id="activity2">Atividade</h3>
+Nesta atividade, vocês transformarão o pseudocódigo em um fluxograma. Utilizem o pseudocódigo da última atividade e sigam as etapas a seguir.
+<ol>
+ 	<li><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/Artboard-16outline.png" alt="terminal oval" width="112" height="36" />
+Coloquem uma oval no começo e nos finais do event handler. Esses são os terminais. Normalmente, há mais de uma maneira de um fluxograma terminar. No exemplo acima do botão "Search", o event handler termina mostrando os resultados da busca em uma ListView ou alertando o usuário de que não há correspondências.</li>
+</ol>
+<ol start="2">
+ 	<li><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/decision_1outline.png" alt="conditional diamond" width="112" height="36" />
+Os losangos devem ser postos onde há tomadas de decisão. Isso é, quando o aplicativo precisa decidir se uma condição é verdadeira ou falsa. Lembrem-se, estruturas condicionais podem ter mais de uma forma de terminar.</li>
+</ol>
+<ol start="3">
+ 	<li><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/Artboard-28outline.png" alt="input" width="112" height="36" />
+Adicionem paralelogramos em todos os inputs do código, ou para os lugares de onde retiram dados, seja do usuário ou de outros locais, como sites ou bases de dados locais.</li>
+</ol>
+<ol start="5">
+ 	<li><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/process_1outline.png" width="112" height="36" />
+Adicionem retângulos para todos os processos do código. Isso é, sempre que o aplicativo estiver fazendo algo que não se encaixa nas categorias acima. Podem ser coisas como adicionar itens a uma lista ou enviar um alerta ao usuário.</li>
+ 	<li><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/arrow_1outline.png" alt="arrow" height="36" />
+Conectem tudo com setas! Prestem atenção especial ao desenhar setas para loops e estruturas condicionais. Consultem os exemplos acima se precisarem de ajuda.</li>
+</ol>
+Tirem fotos de um dos fluxogramas e incluam na entrega para ganhar um ponto extra! Não se preocupem se ele está exato, pois o propósito é ajudar a planejar e aprender coisas novas! Não tem problema se o código não corresponder ao fluxograma depois do desenvolvimento do aplicativo, não é necessário atualizar o fluxograma.
+
+</div>
+<h3 id="pair"><b>Programação em pares</b></h3>
+Programação em par é quando dois programadores compartilham uma única estação de trabalho (uma tela, teclado e mouse para o par) e trabalham juntos ou trocam turnos "dirigindo" e "navegando". Nesse cenário, a pessoa sentada no teclado ou touchscreen é o "motorista" e a outra pessoa é o "navegador". O navegador se envolve ativamente com a programação, mas ele está mais focado no todo, respondendo às perguntas do motorista e buscando bugs no código. O motorista e o navegador devem trocar de função frequentemente.
+
+Há vantagens na programação em par, como as seguintes:
+<ul>
+ 	<li style="font-weight: 400;">Código de melhor qualidade, graças à supervisão do navegador.</li>
+ 	<li style="font-weight: 400;">Melhor comunicação entre integrantes de equipe, pois o motorista comenta sobre o que está fazendo (ou até programa em voz alta) e o navegador pode responder ou perguntar o que está acontecendo se o motorista estiver em silêncio.</li>
+ 	<li style="font-weight: 400;">Compartilhamento de conhecimento na equipe, especialmente se uma pessoa se encaixa mais como iniciante e outras como mais avançadas.</li>
+ 	<li style="font-weight: 400;">Trabalho em equipe mais eficiente, pois o motorista pode reparar um bug ao mesmo tempo em que o navegador pode se focar na tarefa.</li>
+</ul>
+Dicas para programação em par:
+<ul>
+ 	<li style="font-weight: 400;">Não tenha medo de dizer "vamos testar a sua ideia primeiro!" Algumas vezes, ao "dirigir", é preciso saber quando ouvir o navegador. O objetivo é usar as melhores ideias, chegar a elas através da colaboração e evitar erros.</li>
+ 	<li style="font-weight: 400;">Aqui estão  <a href="https://www.thoughtworks.com/insights/blog/10-ways-improve-your-pairing-experience" target="_blank" rel="noopener">dez sugestões</a> para aprimorar a experiência.</li>
+</ul>
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<blockquote>
+<p style="text-align: center;">"Nenhum de nós é tão inteligente quanto todos nós juntos".</p>
+</blockquote>
+&nbsp;
+<p align="right">– Ken Blanchard, autor e expert em gestão</p>
+
+</div>
+<h3 id="time">Gestão de tempo</h3>
+Neste ponto, vocês podem ter dúvidas como:
+<ul>
+ 	<li>Como trabalhar de maneira eficiente para atingir o objetivo e cumprir o prazo?</li>
+ 	<li>Quem testará o protótipo digital e quando?</li>
+ 	<li>Como saberemos quando o protótipo digital estará pronto para entrega?</li>
+</ul>
+Para ajudar a controlar a parte de programação, vamos rever as etapas do processo de desenvolvimento de software.
+<ul>
+ 	<li>Identificar os usuários, suas necessidades e um MVP (da  <a href="http://www.technovationchallenge.org/curriculum/code-5/" target="_blank" rel="noopener">unidade de programação 5</a>)</li>
+ 	<li>Mapear as ações dos usuários no aplicativo em forma de fluxograma</li>
+ 	<li>Criar software</li>
+ 	<li>Testar com usuários, identificar bugs</li>
+ 	<li>Consertar bugs, garantir que o aplicativo não tenha erros</li>
+ 	<li>Se o aplicativo funcionar sem erros em um dispositivo mobile e a equipe estiver satisfeita com o resultado final, ele estará pronto para ser compartilhado</li>
+</ul>
+Dicas:
+<ul>
+ 	<li>Definiam um cronograma
+<ul>
+ 	<li>Vocês podem criar um gráfico de Gantt para criar um planejamento para quando as coisas precisam ser feitas e saber se algo depende de outra coisa acontecer. Este é um exemplo de como um gráfico de Gantt é usado no desenvolvimento de software da dreamincode.</li>
+ 	<li>Atribuam tarefas para cada integrante e definam prazos e lembretes dos objetivos nos seus calendários!</li>
+ 	<li>Se estiverem usando o currículo de 20 semanas, sua equipe deve dedicar 8 semanas para a programação do aplicativo</li>
+ 	<li>Se estiverem usando o currículo de 12 semanas, sua equipe deve dedicar 5 semanas para a programação do aplicativo</li>
+ 	<li>Certifiquem-se de que o protótipo digital estará pronto para compartilhar pelo menos dois dias antes do prazo final de entrega do Desafio Technovation, que será no dia 26 de abril de 2017. Isso economiza muito estresse no caso de problemas de conectividade</li>
+</ul>
+</li>
+ 	<li>Dividam as tarefas em mais partes
+<ul>
+ 	<li>Trabalhem em pares para lidar com mais de uma tarefa ao mesmo tempo. Isso ajuda a acelerar a parte de desenvolvimento de software.</li>
+</ul>
+</li>
+ 	<li>Definam prioridades
+<ul>
+ 	<li>Certifiquem-se de que o aplicativo funciona antes de melhorar sua aparência. Lembrem-se, vocês apresentarão um protótipo digital e os jurados vão querer saber se ele funciona, cumpre sua função e é simples de usar. Podem usar o vídeo demo e o plano de negócios para informar os juízes de seus planos futuros para o aplicativo em termos de novos recursos. Neste momento, vocês devem se focar no MVP.</li>
+ 	<li>Peçam ajuda para o mentor se tiverem dificuldades em priorizar atividades</li>
+</ul>
+</li>
+ 	<li>Tenham foco
+<ul>
+ 	<li>Desliguem todos os dispositivos que não estejam sendo usados ativamente durante as reuniões ou durante o processo de desenvolvimento. Vocês também podem silenciar notificações para não se distraírem.</li>
+ 	<li>Certifiquem-se de terminar uma tarefa antes de seguir para a próxima. Fazer várias coisas ao mesmo tempo normalmente não é a forma mais eficiente. Se estiverem trabalhando em pares, o navegador ajuda a manter o foco.</li>
+</ul>
+</li>
+</ul>
+Aqui está a  <a href="/?p=20244" target="_blank" rel="noopener">lista técnica </a>que será usada pelos jurados. Podem usá-la para marcar o que foi feito e explicar os componentes do aplicativo para garantir o melhor resultado possível. Essa parte do gabarito dos jurados representa um total de 10 pontos, e eles querem ver se vocês usaram coisas como strings, numerais, variáveis, listas, loops, estruturas condicionais, bases de dados e recursos mobile. Vocês podem ganhar pontos com imagens dos fluxogramas, protótipos em papel e capturas de tela do aplicativo.
+
+Definitivamente é uma boa ideia registrar e salvar todo o processo. É possível acessar coisas como versões diferentes do aplicativo, seu fluxograma, ou seu protótipo em papel, para que não percam tempo. Isso também pode ser usado quando encontrarem obstáculos e precisarem discutir de maneira mais clara com o mentor.
+<div style="background-color: #00abad; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h1 id="reflect">Reflexão</h1>
+Parabéns! Vocês estão no caminho certo para terminar de desenvolver o aplicativo e entregá-lo para o Technovation. Se tiverem alguma dificuldade no desenvolvimento do aplicativo, vejam a próxima unidade de programação, que dará dicas sobre como depurar bugs. Boa sorte com o protótipo digital, nós aqui do Technovation estamos animados por vocês terem chegado até aqui!
+<h3>Recursos adicionais</h3>
+<ul>
+ 	<li style="font-weight: 400;"><a style="color: yellow;" href="http://ai2.appinventor.mit.edu/reference/other/testing.html" target="_blank" rel="noopener">Documentação de testagem do MIT</a></li>
+</ul>
+</div>
