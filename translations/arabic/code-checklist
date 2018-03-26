@@ -1,107 +1,69 @@
 <h1>القائمة التقنية</h1>
-<p style="text-align: center">استخدمي العناصر الموجودة في هذه القائمة لكي تحصلي على 10 نقاط إضافية على تطبيقك</p>
+<p style="text-align: center;">استخدمي العناصر الموجودة في هذه القائمة لكي تحصلي على 10 نقاط إضافية على تطبيقك</p>
 
 <h3>التعليمات</h3>
-احصلي على 10 نقاط إضافية في الجزء في الخاص بتطبيقك عند تسليمه عن طريق إنهاء هذه القائمة، شاهدي  <a href="/?p=17262" target="_blank">دليل التحكيم الكامل</a>
+احصلي على 10 نقاط إضافية في الجزء في الخاص بتطبيقك عند تسليمه عن طريق إنهاء هذه القائمة، شاهدي  <a href="/?p=17262" target="_blank" rel="noopener">دليل التحكيم الكامل</a>
 
 في الطلب الذي سوف تقدمينه، تحتاجين لشرح العناصر التي قمتي باستحدامها في تطبيقك في جمل بسيطة، حيث تذكرين كل عنصر أين قمتي باستحدامه.
 
 على سبيل المثال:
 <strong>النصوص</strong>
 "<em>لقد قمنا باستخدام النصوص لإظهار اسم المتسخدم في أعلى الشاشة .</em>"
-
 <h3><strong>العناصر التقنية</strong></h3>
 <em>استخدمي على الأقل أربعة عناصر(نقطة واحدة لكل عنصر، 4 نقاط هو الحد الأعلى)</em>
 
-<p>هذه العناصر موجودة في وحدة <a href="/?p=21094" target="_blank"><strong>البرمجة 2</strong></a>.</p>
+هذه العناصر موجودة في وحدة <a href="/?p=21094" target="_blank" rel="noopener"><strong>البرمجة 2</strong></a>.
 
-<p><input type="checkbox" /> النصوص</p>
+<input type="checkbox" /> النصوص
 
-<p><input type="checkbox" /> الأرقام</p>
+<input type="checkbox" /> الأرقام
 
-<p><input type="checkbox" /> المتغيرات</p>
+<input type="checkbox" /> المتغيرات
 
-<p><input type="checkbox" /> القوائم او المصفوفات</p>
+<input type="checkbox" /> القوائم او المصفوفات
 
-<p>هذه العناصر موجودة في وحدة <a href="/?p=21138" target="_blank"><strong>البرمجة 3</strong></a>.</p>
+هذه العناصر موجودة في وحدة <a href="/?p=21138" target="_blank" rel="noopener"><strong>البرمجة 3</strong></a>.
 
-<p><input type="checkbox" /> القيم المنطقية</p>
+<input type="checkbox" /> القيم المنطقية
 
- <p><input type="checkbox" />الحلقات</p>
+<input type="checkbox" />الحلقات
 
-<p> <input type="checkbox" />الجمل الشرطية</p>
-
+<input type="checkbox" />الجمل الشرطية
 <h3>قواعد البيانات والاتصال</h3>
 <em>استخدمي على الأقل عنصر واحد(نقطة واحدة لكل عنصر ، نقطة واحدة الحد الأعلى )</em>
 
-<p>هذه العناصر موجودة في وحدة <a href="/?p=21094" target="_blank">البرمجة 2</a>.</p>
+هذه العناصر موجودة في وحدة <a href="/?p=21094" target="_blank" rel="noopener">البرمجة 2</a>.
 
-<p> <input type="checkbox" /> قاعدة البيانات المحلية</p>
+<input type="checkbox" /> قاعدة البيانات المحلية
 
-<p>هذه العناصر موجودة في وحدة <a href="/?p=17673" target="_blank">البرمجة 4</a>.</p>
+هذه العناصر موجودة في وحدة <a href="/?p=17673" target="_blank" rel="noopener">البرمجة 4</a>.
 
-<p><input type="checkbox" /> قاعدة البيانات الخارجية أو واجهة البرمجة للتطبيقات</p>
-
+<input type="checkbox" /> قاعدة البيانات الخارجية أو واجهة البرمجة للتطبيقات
 <h3>ميزات في الهاتف المحمول</h3>
 <em>استخدمي على الأقل عنصر واحد(نقطتين لكل عنصر ، نقطتين الحد الأعلى)</em>
 
-<p>هذه العناصر موجودة في وحدة <a href="/?p=17673" target="_blank">البرمجة 4</a>.</p>
+هذه العناصر موجودة في وحدة <a href="/?p=17673" target="_blank" rel="noopener">البرمجة 4</a>.
 
-<p><input type="checkbox" /> حساس الموقع</p>
+<input type="checkbox" /> حساس الموقع
 
-<p><input type="checkbox" /> الكاميرا أو الفيديو</p>
+<input type="checkbox" /> الكاميرا أو الفيديو
 
-<p><input type="checkbox" /> مقياس التسارع</p>
+<input type="checkbox" /> مقياس التسارع
 
-<p><input type="checkbox" /> الرسائل النصية أو المكالمات الهاتفية</p>
+<input type="checkbox" /> الرسائل النصية أو المكالمات الهاتفية
 
-<p><input type="checkbox" /> صوت أو السماعات</p>
+<input type="checkbox" /> صوت أو السماعات
 
-<p><input type="checkbox" /> المشاركة</p>
+<input type="checkbox" /> المشاركة
 
-<p><input type="checkbox" /> الساعة</p>
+<input type="checkbox" /> الساعة
 
-<p><input type="checkbox" /> لوحة الرسم</p>
-
+<input type="checkbox" /> لوحة الرسم
 <h3>صور للعملية</h3>
 <em>استخدمي العناصر الثلاث(نقطة واحدة لكل عنصر ، 3 نقاط الحد الأعلى)</em>
 
-<p>ارفعي صورة واحدة على الأقل من النماذج الورقية من وحدة <a href="/?p=19535" target="_blank">البرمجة 5</a>.</p>
+ارفعي صورة واحدة على الأقل من النماذج الورقية من وحدة <a href="/?p=19535" target="_blank" rel="noopener">البرمجة 5</a>.
 
-<p>ارفعي صورة واحدة على الأقل من  <a href="/?p=19686" target="_blank">وحدة البرمجة 6</a>.</p>
+ارفعي صورة واحدة على الأقل من  <a href="/?p=19686" target="_blank" rel="noopener">وحدة البرمجة 6</a>.
 
-<p>ارفعي على الأقل صورتين لتطبيقك</p>
-<a href="http://www.technovationchallenge.org/wp-content/uploads/2017/01/Technical-Checklist-2017.pdf" target="_blank">
-نسخة للطباعة
-</a>
-<h2>الجدول الزمني لمسابقة Technovation</h2>
-<p><input type="checkbox" /> آب</p>
-<p><input type="checkbox" /> أيلول</p>
-<p><input type="checkbox" /> تشرين أول</p>
-<p><input type="checkbox" /> تشرين ثاني</p>
-<p><input type="checkbox" /> كانون أول</p>
-<p><input type="checkbox" /> كانون ثاني</p>
-<p><input type="checkbox" /> شباط</p>
-<p><input type="checkbox" /> آذار</p>
-<p><input type="checkbox" /> نيسان</p>
-<p><input type="checkbox" /> أيار</p>
-<p><input type="checkbox" /> حزيران</p>
-<p><input type="checkbox" /> تموز</p>
-<p><input type="checkbox" /> فترة استقطاب</p>
-<p><input type="checkbox" /> الموسم الرسمي</p>
-<p><input type="checkbox" /> الفعالية الختامية المحلية</p>
-<p><input type="checkbox" /> الفعالية الختامية العالمية</p>
-
-
-
-<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
-
-	<h2 style="text-align: center;"><span style="color: #ffffff;"><strong>تاوريخ مهمة for 2017</strong></h2>
-	<p style="text-align: center"><strong>التسجيل</strong>: 8 مارس</p>
-	<p style="text-align: center">اتهاء التقديم</strong>: 26 ابريل</p>
-	<p style="text-align: center">المؤتمر العالمي</strong>: اغسطس 7-11</p>
-	<p style="text-align: center">هل أنتي مستعدة لدخول التحدي العالمي لتيكنوفيشن؟</p>
-	<p style="text-align: center"><a style="color: #eae46f;" href="https://my.technovationchallenge.org" target="_self">
-	التسجيل
-	</a></p>
-</div>
+ارفعي على الأقل صورتين لتطبيقك
