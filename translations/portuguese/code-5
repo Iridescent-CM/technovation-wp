@@ -1,0 +1,185 @@
+<ul>
+ 	<li><a href="#ux">Aprender: O que é design de experiência de usuário (UX) e usabilidade?</a></li>
+ 	<li><a href="#act1">Análise</a></li>
+ 	<li><a href="#act2">Atividade: Mapeamento de stakeholders</a></li>
+ 	<li><a href="#act3">Atividade: Entrevistar stakeholders e coletar personas e histórias de usuários</a></li>
+ 	<li><a href="#what">Aprender: O que é um protótipo em papel?</a></li>
+ 	<li><a href="#reflect">Criar: Protótipo em papel do aplicativo</a></li>
+ 	<li><a href="#reflect">Reflexão</a></li>
+</ul>
+<h3><strong>Objetivos de aprendizagem</strong>:</h3>
+Nesta unidade, você...
+<ul>
+ 	<li>Aprenderá sobre design de experiência de usuário (UX) e mínimo produto viável (MVP)</li>
+ 	<li>Esclarecerá os objetivos do seu aplicativo</li>
+ 	<li>Coletará informações sobre as necessidades do seu usuário</li>
+ 	<li>Criará um protótipo em papel e receberá feedback sobre ele</li>
+</ul>
+Vocês aprenderam sobre o App Inventor e sua equipe já tem uma ideia de um problema para resolver, além de ideias de soluções. Vocês podem estar se perguntando como transformar essas ideias em um aplicativo mobile confiável e que faça o que os usuários querem. Criar um aplicativo útil é mais que só programação. Na verdade, a programação pode ser apenas 20% do projeto! 
+
+Imaginem que uma amiga peça para vocês fazerem um aplicativo que ajude-a a chegar em tempo na aula de manhã. Vocês criam um aplicativo que usa GPS para rastrear a rota para a escola e avisar quando ela se atrasará. Ao mostrarem o aplicativo final a ela, vocês descobrem que ela vai de ônibus para a escola. Ela precisava, na verdade, de um aplicativo que fornecesse rotas e horários de ônibus. Vocês gastaram horas de trabalho em vão, pois não conseguiram entender as necessidades dela. Agora, precisam gastar ainda mais horas de retrabalho para refazer o design. 
+
+O que pode ser feito diferentemente da próxima vez para garantir que isso não se repita? 
+<h3 id="ux">Aprender: O que é design de experiência de usuário (UX) e usabilidade?</h3>
+<strong>UX Design</strong> (User Experience, ou experiência de usuário) ajuda as pessoas a criarem tecnologias de uso fácil e intuitivo. Esse conceito está relacionado à qualidade da experiência que alguém terá ao usar um sistema ou tecnologia. Pode-se pensar nisso como melhorar a "experiência do usuário", o que significa que ele não terá problemas para usar a tecnologia e continuará usando, porque está satisfeito.
+
+Ao desenvolver um aplicativo para resolver um problema, é preferível criar algo fácil de usar, que ajude a realizar a função e proporcione uma experiência divertida para o usuário. Ele deve ser usável. O que faz um aplicativo ser usável?
+
+Usabilidade é medida em que um sistema, produto ou serviço pode ser usado, por usuários específicos, para alcançar objetivos específicos de maneira eficaz, eficiente e com satisfação, em um contexto de uso específico. 
+
+Não é apenas achar algo bonito, ou achar que vocês gostariam de algo por se considerarem usuárias do aplicativo que será criado. É sobre contexto. Pensem em quem mais vai usar o aplicativo e quais são suas necessidades. As pessoas usariam uma vez por ano, por semana ou por dia? 
+
+Em que lugar as pessoas usariam ele? Antes, quando pensávamos em aplicativos, pensávamos em algo que as pessoas usariam sentadas em suas mesas. Quais são seus aplicativos favoritos e o que eles fazem? Onde e como vocês os usam? Eles fazem muitas coisas ou apenas uma coisa bem feita? Para que sua equipe não perca horas de trabalho, é importante focar em um aplicativo com menos recursos. Isso é chamado de MVP, ou Mínimo Produto Viável. 
+<h5>Mínimo produto viável <strong></strong>(MVP)</h5>
+No mundo de desenvolvimento de produtos, o <strong>MVP</strong> é um produto com apenas os recursos necessários para cumprir sua função e ser testado pelos usuários, para depois ser aprimorado. O objetivo é criar o produto final mais desejável. Em geral, produtos com mais recursos têm maiores custos e risco de falhar. Isso pode acontecer por causa de suposições equivocadas sobre usuários. 
+
+É importante pensar sobre onde o aplicativo será usado e se ele funcionaria bem em uma tela pequena e portátil, como de um smartphone. Vocês não querem que alguém pare de usar seu aplicativo porque ele é muito difícil de entender e usar, certo? Como aprender mais sobre seus usuários para impedir que isso aconteça? 
+<h5><strong>Design centrado no usuário</strong> (User Centered Design)</h5>
+No <strong>design centrado no usuário</strong>, o usuário é colocado dentro do processo de pesquisa, planejamento, desenvolvimento e testagem. Esse é um processo iterativo, o que significa que a sequência de operações deve se repetir até se aproximar do produto final e desejável. As etapas são as seguintes:
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/research.png" alt="research" width="50" height="50" /></p>
+<p style="text-align: center;">Análise e pesquisa</p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/Design.png" alt="design" width="50" height="50" /></p>
+<p style="text-align: center;">Design</p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/Test.png" alt="test" width="50" height="50" /></p>
+<p style="text-align: center;">Testagem</p>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/Circular-Flow700x270.png" alt="circular-flow700x270" width="166" height="166" />
+<p style="text-align: center;">Repetir até ficar pronto para construir</p>
+Uma das coisas mais valiosas a se fazer antes de começar é esclarecer qual será o objetivo do seu aplicativo. Essa parte do projeto se chama análise porque vocês precisam saber o que o aplicativo deve conseguir fazer, e acertar todos os detalhes pode ser complicado. 
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 id="act1"><strong>Análise</strong></h3>
+<em>Atividade</em>: Como revisar a exposição de problema e criar um objetivo 
+
+Vocês se lembram da exposição do problema que sua equipe criou na   <a style="color: #eae46f;" href="http://www.technovationchallenge.org/curriculum/ideation" target="_blank">pré-unidade de ideação? </a>
+
+Revisem essa parte para que sua equipe foque no problema e nos objetivos iniciais. Essa é uma parte importante do processo porque ajuda a analisar as necessidades das pessoas que usarão o aplicativo, além de entender suas exigências técnicas.  
+
+Em suma, a <strong>exposição do problema </strong>é um texto breve que explica o problema que sua equipe busca resolver. Ela deve percorrer os fatos básicos do problema, explicar por que ele é importante, quem ele afeta e como, além de apresentar uma solução direta.
+
+Vocês vão precisar de:
+<ul>
+ 	<li style="font-weight: 400;">Sua exposição inicial do problema. Aqui está um modelo para criar a exposição do problema, caso isso ainda não tenha sido feito na pré-unidade de ideação. </li>
+ 	<li style="font-weight: 400;"><a style="color: #eae46f;" href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/CreateaProblemStatement.pdf" target="_blank">template</a></li>
+</ul>
+Descrição da atividade: 
+<ol>
+ 	<li>Revisar a exposição do problema ou completá-la caso ainda não tenha sido terminada. Ela deve responder a quatro perguntas:
+<ul>
+ 	<li style="font-weight: 400;"><strong>Qual é o problema? </strong> Em termos de design, qual é a necessidade</li>
+ 	<li style="font-weight: 400;"><strong>Quem é afetado pelo problema e como? </strong> Isso é importante porque quem for afetado pelo problema será o usuário do seu aplicativo. Eles serão seus stakeholders</li>
+ 	<li style="font-weight: 400;"><strong>Por que é importante resolvê-lo? </strong> Porque esse problema chamou a atenção do grupo e, para reforçar o argumento, existem evidências desse problema? </li>
+ 	<li style="font-weight: 400;"><strong>Qual é a solução?  </strong>Vocês já podem ter uma ideia inicial para uma solução. Vocês testarão mais a solução nesta unidade, conforme conhecem melhor o usuário e através da prototipagem em papel!</li>
+</ul>
+</li>
+ 	<li style="font-weight: 400;">Será que vocês conseguem resumir a exposição do problema em uma única frase que diga qual problema seu aplicativo quer resolver e como? Ele será usado como o objetivo daqui para a frente.</li>
+</ol>
+<p style="text-align: center;"><a style="color: #eae46f;" href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/CreateaProblemStatement.pdf " target="_blank"> download the template
+</a></p>
+
+</div>
+<h5><strong>Pesquisa</strong></h5>
+Assim que esclarecer o objetivo, é necessário definir os seus (<strong>stakeholders</strong>), que são as pessoas que usarão ou que serão afetadas pelo aplicativo. Vocês devem conversar e aprender com essas pessoas sobre o que elas precisam que o aplicativo faça. Você e sua equipe podem pensar que são os usuários típicos, mas vocês ainda devem falar, entrevistar e receber feedback dessas outras pessoas, além de observá-las no ambiente em que elas usariam o aplicativo. 
+
+Imaginem que estão desenvolvendo um aplicativo que permite a estudantes pedir comida antecipadamente da cantina da escola. Eles podem usar o aplicativo para pedir a comida de manhã e pegá-la na hora do almoço. A ideia é que isso ajude a reduzir a fila na cantina. Quem seria seu público nessa situação? 
+
+Os stakeholders potenciais dessa situação são:
+<ul>
+ 	<li>Estudantes (que usariam o aplicativo)</li>
+ 	<li>Equipe da cantina (que recebe pedidos pelo aplicativo)</li>
+ 	<li>Pais (que precisam comprar smartphones para que seus filhos usem o aplicativo)</li>
+ 	<li>Direção da escola (que pode considerar que celulares não devem ser utilizados dentro da escola) </li>
+ 	<li>Equipe  de TI da escola (que precisaria ajudar estudantes que não conseguem usar o aplicativo ou se conectar à rede)</li>
+</ul>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 id="act2"><strong>Atividade</strong>:<strong> Mapeamento de stakeholders </strong></h3>
+Vocês vão precisar de:
+<ul>
+ 	<li>Post-its </li>
+ 	<li>Marcadores</li>
+</ul>
+Descrição da atividade:
+<ol>
+ 	<li>Fazer um brainstorm de possíveis stakeholders para o projeto, apenas um por post-it</li>
+ 	<li>Juntar os stakeholders em grupos similares como "adultos", "crianças", "equipe da escola"</li>
+ 	<li>Decidir em quais stakeholders o aplicativo será focado</li>
+ 	<li>Escrever perguntas para eles</li>
+ 	<li>Entrevistar esses stakeholders: sua equipe pode se separar para economizar tempo, ou podem ir juntas, se isso for melhor</li>
+</ol>
+Assim que esclarecer o objetivo e identificar os stakeholders que serão entrevistados, vocês estarão prontas para saber mais como eles pensam.
+
+</div>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3 id="act3"><strong>Atividade</strong>:<strong> Entrevistar stakeholders e coletar personas e histórias de usuários</strong></h3>
+Para saber o que os stakeholders querem com o aplicativo, é necessário entrevistá-los. Fazer perguntas pode ajudar a encontrar requisitos funcionais para o aplicativo. <strong>Requisitos funcionais</strong> são coisas que o aplicativo precisa fazer. No exemplo anterior, o aplicativo precisaria permitir que estudantes escolhessem o tipo de comida que querem pedir. Ele envia o pedido para a cantina associado ao nome do aluno, para que sua identificação seja fácil na hora de pegar a comida.
+
+Entrevistem stakeholders potenciais do aplicativo para aprender mais sobre o problema e para saber o que eles pensam sobre a solução. Se souberem de outros aplicativos existentes que ajudem a resolver o problema que sua equipe escolheu, vocês podem perguntar aos seus usuários sobre o que funciona e o que não funciona
+
+Vocês vão precisar de:
+<ul>
+ 	<li style="font-weight: 400;">Um roteiro de perguntas escritas na atividade de mapeamento de stakeholders</li>
+ 	<li>Folhas com o <span style="color: #eae46f;"> <a style="color: #eae46f;" href="http://www.technovationchallenge.org/wp-content/uploads/2016/12/Persona-Template.pdf" target="_blank">modelo de persona</a></span></li>
+ 	<li style="font-weight: 400;">Folhas com o  <span style="color: #eae46f;"><a style="color: #eae46f;" href="http://www.technovationchallenge.org/wp-content/uploads/2016/12/User-Story-Template.pdf" target="_blank">modelo de história de usuário</a></span></li>
+ 	<li>Papel</li>
+ 	<li>Algo para escrever</li>
+ 	<li>Gravador ou aplicativo para gravar a entrevista</li>
+</ul>
+Descrição da atividade:
+<ol>
+ 	<li>Apresentem-se para a pessoa entrevistada e façam um breve resumo sobre o projeto. Por que vocês têm interesse em seu feedback? </li>
+ 	<li>Façam as perguntas elaboradas pela equipe</li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Usem o  <a style="color: #eae46f;" href="http://www.technovationchallenge.org/wp-content/uploads/2016/12/Persona-Template.pdf" target="_blank">modelo de persona</a> do Goldman Sachs Web UI Toolkit para coletar mais informações. Uma persona é a descrição de uma pessoa (real ou fictícia) que usa o aplicativo. Isso ajuda vocês a desenvolverem o aplicativo com um usuário específico em mente, ao invés de desenvolver para "todos". Criem quantas personas for necessário para captar as categorias principais de usuários do aplicativo. Certifiquem-se de perguntar quais são seus objetivos com o aplicativo, quais são suas necessidades particulares e quais são suas dificuldades, ou pain points. Pain points, ou dificuldades, são problemas, reais ou percebidos, enfrentados por pessoas. Seu aplicativo essencialmente tentará oferecer soluções a essas dificuldades. </li>
+ 	<li style="font-weight: 400;">Usem o <a style="color: #eae46f;" href="http://www.technovationchallenge.org/wp-content/uploads/2016/12/User-Story-Template.pdf" target="_blank">modelo de história do usuário</a> do Goldman Sachs Web UI Toolkit para saber melhor quais funções seu usuário gostaria que o aplicativo tivesse e por qual razão.</li>
+ 	<li>Reúnam-se e compartilhem as experiências do processo de entrevistas, bem como os modelos de persona e histórias de usuário. </li>
+ 	<li>Se acharem que precisam entrevistar mais stakeholders para obter mais informações, façam isso agora antes de seguir para a próxima etapa, que é o design! Logo, vocês criarão um protótipo em papel, que é um processo divertido e criativo.</li>
+</ol>
+</div>
+<h3 id="what"><strong>Aprender: O que é um protótipo em papel?</strong> </h3>
+A palavra protótipo vem do grego πρωτότυπον prototypon, que significa "forma primitiva". <strong>Prototipagem </strong> é uma maneira de modelar ideias e conceitos para que sejam testados e comunicados às pessoas assim que possível.  
+
+Há diferentes tipos de protótipos, mas falaremos apenas em <strong>prototipagem em papel </strong>nesta unidade. Um protótipo em papel é uma representação desenhada à mão da interface do usuário, o que geralmente parece com capturas de tela. Ele pode servir como guia para os usuários navegarem pelo aplicativo. 
+
+<center><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image01.png" /></center>Quais os benefícios da prototipagem em papel?
+<ul>
+ 	<li>As ideias podem ser comunicadas fácil e visualmente. Por exemplo, vocês podem mostrar o que acontece quando se clica em um botão no aplicativo </li>
+ 	<li>É colaborativo! Trabalhar com papel é mais descontraído e conversas surgem no meio dos experimentos</li>
+ 	<li>É barato! Não é necessário gastar muito dinheiro para criar um protótipo em papel. Você podem usar materiais como papel, recortes de revista, post-its, marcadores, figurinhas, fita e cola</li>
+ 	<li>Vocês não precisam ser especialistas para essa parte do processo </li>
+ 	<li>Observar a interação humana com a interface ajuda a aprender rápido o que pode funcionar ou não no design</li>
+ 	<li>Protótipos ajudam a confirmar decisões sobre o design antes de gastar mais tempo no desenvolvimento</li>
+</ul>
+Lembrem-se de que o design do aplicativo pode mudar para se adaptar ao usuário após testes e feedbacks. O que não é problema, pois é preferível saber dessas coisas o quanto antes! Algumas de vocês podem ter medo de testar ideias por esperar feedbacks negativos e enxergar isso como uma falha. 
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h3><span style="color: #ffffff;"><strong>A importância de errar</strong></span></h3>
+Lembrem-se: errar é uma parte do processo e vocês podem aprender muito com isso. Richard DeVaul fala sobre isso neste <a style="color: #eae46f;" href="https://www.youtube.com/watch?v=5oKmb7U3H6U" target="_blank">vídeo</a>.  Ele é o Chefe da Equipe de Avaliação Rápida do laboratório secreto da Google chamado Design Kitchen. Vocês também podem aprender mais sobre como o erro e a rejeição de ideias é uma parte do processo de inovação neste  <a style="color: #eae46f;" href="https://www.fastcompany.com/3028156/united-states-of-innovation/the-google-x-factor" target="_blank">artigo</a>.
+
+<center>
+<iframe src="https://www.youtube.com/embed/5oKmb7U3H6U" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></center>&nbsp;
+
+Vocês estão inspiradas? Esperamos que sim! Agora, vocês estão prontas para a etapa do design. 
+
+</div>
+<h3 id="challenge"><strong>Criar: Protótipo em papel do aplicativo   </strong></h3>
+Todo design começa em algum lugar! Desenhar é uma parte fundamental do processo de design e pode ajudar vocês a tomar decisões importantes sobre o que projetar. Pode ser simples como desenhar algo numa folha de papel e ajuda a trabalhar suas ideias iniciais. Vocês podem exibir a estrutura básica do aplicativo, além de experimentar como será a interação das pessoas com o aplicativo. Vocês também podem testar as cores e a posição dos botões. Passar mais tempo testando ideias no papel agora economiza muito tempo depois, na hora de transferir para um protótipo digital. 
+
+Antes de começar, vocês podem aprender mais sobre a prototipagem em papel, user flow (caminho que o usuário percorre) e teoria das cores neste <a href="https://www.youtube.com/watch?v=JMjozqJS44M&amp;t=1m17s" target="_blank">vídeo</a> da Melissa Powel, que faz parte da equipe de Relações de Desenvolvimento da Google, e da Mariam Shaikh, uma Designer Sênior de UX também da Google.
+
+<center><iframe src="https://www.youtube.com/embed/JMjozqJS44M" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></center>&nbsp;
+
+</div>
+<div style="background-color: #066677; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<h2 id="reflect" style="color: white;"><strong>Reflexão: o que mudar no design, com base no feedback?</strong></h2>
+Se vocês chegaram até aqui, vocês realmente merecem parabéns! Esta unidade está quase acabando.
+
+É hora de repetir o processo enquanto o feedback está fresco! Analisem os feedbacks em equipe, façam as mudanças necessárias ao protótipo e repitam o quanto for necessário! 
+
+Sua equipe pode estar tentada a simplesmente seguir e transferir o protótipo para o meio digital. Vocês se certificaram de que já têm o MVP antes de prosseguir? Há vício em recursos?
+
+Não dói repetir mais uma vez e compartilhar com seu mentor e suas colegas.
+<h3 style="color: white;"><strong>Recursos adicionais</strong></h3>
+<ul>
+ 	<li style="font-weight: 400;"><a style="color: #eae46f;" href="https://www.youtube.com/watch?v=876EQd5Osi8" target="_blank">UX design: 2016 Technovation webinar with Debra Herschmann</a> Global Head of User Experience in Client Platforms at Goldman Sachs</li>
+ 	<li style="font-weight: 400;"><a style="color: #eae46f;" href="http://www.uistencils.com/products/android-stencil-kit" target="_blank">Android Stencil Kit</a></li>
+ 	<li style="font-weight: 400;"><a style="color: #eae46f;" href="http://wireframesketcher.com/sample-mockups.html" target="_blank">WireframeSketcher</a></li>
+ 	<li style="font-weight: 400;"><a style="color: #eae46f;" href="https://developers.google.com/design-sprint/downloads/DesignSprintMethods.pdf" target="_blank">Design Sprint Methods</a> by Google</li>
+ 	<li style="font-weight: 400;">Luke Wroblewski’s <a style="color: #eae46f;" href="http://www.creativebloq.com/design/luke-wroblewski-mobile-first-7126204" target="_blank">Think Mobile First</a> Philosophy</li>
+</ul>
+</div>
