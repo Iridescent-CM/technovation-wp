@@ -13,14 +13,14 @@
  	<li><a href="#reflect">प्रतिबिंबित</a></li>
  	<li><a href="#bonus">बोनस: प्रोग्रामर्स के लिए रंग</a></li>
 </ul>
-<h2><b>सीखने के मकसद:</b></h2>
+<h3><b>सीखने के मकसद:</b></h3>
 इस मॉड्यूल में, आप ...
 <ul>
  	<li style="font-weight: 400">लोगो, फोंट और रंग योजनाओं के बारे में जानें</li>
  	<li style="font-weight: 400">अपने ब्रांड के लिए एक रंग योजना और फ़ॉन्ट चुनें</li>
  	<li style="font-weight: 400">अपने ब्रांड के लिए लोगो बनाएं</li>
 </ul>
-<h3>रंग</h3>
+<h3 id="color"><strong>रंग</strong></h3>
 आप पहले से ही एक व्यावसायिक नाम के साथ आ चुके हैं और आपके व्यवसाय की 'व्यक्तित्व' क्या है, इसकी एक भावना है, इसलिए यह आपके ब्रांड के लिए कुछ दृश्य बनाने का समय है! <b> विज़ुअल्स </b> हैं कि आपका ब्रांड सभी को कैसे दिखता है इसमें आपके लोगो, रंग योजना और फ़ॉन्ट शामिल हैं। अपने दृश्यों को संगत रखने के लिए यह वास्तव में महत्वपूर्ण है क्योंकि यह वैसे ही है कि लोग आपके ब्रांड की पहचान कैसे करेंगे और इसे कब देखते हैं इसे पहचान लेंगे। शुरू करने के लिए, चलो अपने ब्रांड को व्यक्त करने में मदद करने के लिए कुछ रंगों की पहचान करने से शुरू करें।</b>
 
 आपके पास एक पसंदीदा रंग हो सकता है, लेकिन इसका मतलब यह नहीं है कि यह आपकी कंपनी के ब्रांड के लिए सबसे अच्छा रंग है! क्या आप जानते हैं कि रंगों में उनके साथ जुड़े भावनाएं हैं और लोगों को एक निश्चित तरीके से महसूस करना है? यह हर किसी के लिए अलग हो सकता है, लेकिन जब आप अपने ब्रांड के लिए रंग योजना चुनते हैं तो इन भावनाओं पर विचार करना महत्वपूर्ण है यह अगले खंड संयुक्त राज्य अमेरिका में रंग वरीयताओं और संगठनों के बारे में बात करेगा। चूंकि ये सहयोग अलग-अलग देशों या संस्कृतियों में भिन्न होता है, इसलिए आपको यह देखने के लिए देखना चाहिए कि वे आपके देश या संस्कृति में क्या मतलब हैं। यहाँ कुछ उदाहरण हैं:
@@ -74,209 +74,244 @@
 
 रंग मनोविज्ञान के बारे में कुछ और जानने के लिए इस वीडियो को देखें:
 
-अपने ब्रांड के "व्यक्तित्व" को पूरक और निर्माण करने वाले रंगों को चुनना आपके ब्रांड के लिए दृश्य बनाने का एक बड़ा हिस्सा है! इस्तेमाल किया जा सकता है कि अनंत संभव रंग संयोजन के साथ, यह विकल्प बहुत डरा देता हो सकता है लेकिन, आप <i> करना </i> में पहले से ही आपके ब्रांड के व्यक्तित्व की समझ है, और अब आप जानते हैं कि भावनाओं और गुणों का जो लोग आम तौर पर रंगों से संबद्ध होते हैं</i>
-<h3><b>गतिविधि: कोई रंग चुनें </b></h3>
-आपकी टीम के साथ, ऊपर दिए गए चार्ट में से किसी एक को पहचानें जो आपके ब्रांड के व्यक्तित्व को सर्वश्रेष्ठ दर्शाती है। उदाहरण के लिए, यदि आप चाहते हैं कि लोग आपके उत्पाद को रोमांचक और नए होने के रूप में पहचान लें, तो आप नारंगी को रंग के रूप में चुन सकते हैं, जो आपके ब्रांड का सर्वश्रेष्ठ प्रतिनिधित्व करता है!
-<h5>रंग योजना</h5>
+<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/r9gYdD-REI0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></p>
+
+<p>अपने ब्रांड के "व्यक्तित्व" को पूरक और निर्माण करने वाले रंगों को चुनना आपके ब्रांड के लिए दृश्य बनाने का एक बड़ा हिस्सा है! इस्तेमाल किया जा सकता है कि अनंत संभव रंग संयोजन के साथ, यह विकल्प बहुत डरा देता हो सकता है लेकिन, आप <i> करना </i> में पहले से ही आपके ब्रांड के व्यक्तित्व की समझ है, और अब आप जानते हैं कि भावनाओं और गुणों का जो लोग आम तौर पर रंगों से संबद्ध होते हैं</i></p>
+
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px, margin-bottom:25px;">
+	<h3 id="act1"><strong>गतिविधि: कोई रंग चुनें </strong></h3>
+	<p>आपकी टीम के साथ, ऊपर दिए गए चार्ट में से किसी एक को पहचानें जो आपके ब्रांड के व्यक्तित्व को सर्वश्रेष्ठ दर्शाती है। उदाहरण के लिए, यदि आप चाहते हैं कि लोग आपके उत्पाद को रोमांचक और नए होने के रूप में पहचान लें, तो आप नारंगी को रंग के रूप में चुन सकते हैं, जो आपके ब्रांड का सर्वश्रेष्ठ प्रतिनिधित्व करता है!</p>
+</div>
+<h4 id="colorschemes"><strong>रंग योजना</strong></h4>
 अब आपके पास एक रंग है! बधाई! अभी तक अपने सभी दृश्य सामग्री बनाने शुरू न करें, यद्यपि। जब वे दोस्त होते हैं तो रंग अच्छे काम करते हैं! लेकिन, लोगों के रूप में, सही दोस्त चुनना <i> बहुत महत्वपूर्ण है! </i> आप और आपके चुने रंग के लिए भाग्यशाली, हमारे पास कुछ सुझाव हैं!</i>
 
 शुरू करने के लिए, चलो बेहतर ढंग से समझें कि रंग एक साथ कैसे काम करते हैं। इससे पहले, आपने शायद एक रंगीन पहिया देखा होगा:
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/COLOR-WHEEL@4x-2-1024x1024.png" alt="color-wheel4x" width="429" height="429" />
+<p class="western" align="center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/COLOR-WHEEL@4x-2-1024x1024.png" alt="color-wheel4x" width="429" height="429" /></p>
 
-इस रंग का पहिया रंगों की 3 पंक्तियों में शामिल है। वो हैं:
+<p class="western">इस रंग का पहिया रंगों की 3 पंक्तियों में शामिल है। वो हैं:</p>
 <ul>
  	<li><strong>H</strong><b>ues</b>, जो कि <strong> लाल, नीले, हरे, नारंगी, &lt;/ strong&gt; आदि जैसे रंग हैं, ये रंग व्हील के "मध्य पंक्ति" में पाए जाते हैं।</strong></li>
  	<li><strong>T</strong><b>ints</b> (रंग + सफेद) रंग पहिया की सबसे ऊपरी पंक्ति में पाए जाते हैं</li>
  	<li><strong>S</strong><b>hades</b> (रंग + सफ़ेद) रंग की सबसे बाहरी पंक्ति (रंग + काले) में पाए जाते हैं रंग चक्र के अंदरूनी पंक्ति में पाए जाते हैं पहिया।...</li>
 </ul>
-जैसा कि आप देख सकते हैं, भले ही आपने एक ब्रांड का रंग चुना है, आपको उस रंग का एक भिन्नता चुनना होगा- चाहे वह पूरी तरह संतृप्त <strong> रंग &lt;/ strong&gt; (कोई रंग या छाया न हो) एक और रंग (जैसे <strong> नारंगी-लाल </strong>), या एक <strong> टिंट </strong>; या <strong> छाया </strong> है!</strong></strong></strong></strong>
+<p class="western">जैसा कि आप देख सकते हैं, भले ही आपने एक ब्रांड का रंग चुना है, आपको उस रंग का एक भिन्नता चुनना होगा- चाहे वह पूरी तरह संतृप्त <strong> रंग &lt;/ strong&gt; (कोई रंग या छाया न हो) एक और रंग (जैसे <strong> नारंगी-लाल </strong>), या एक <strong> टिंट </strong>; या <strong> छाया </strong> है!</strong></p>
 
-यह पसंद यह बढ़ा सकता है कि आपके चुने गए रंग आपके ब्रांड के गुणों को कितनी अच्छी तरह व्यक्त करते हैं उदाहरण के लिए, <strong> अत्यधिक संतृप्त नारंगी रंग </strong>; उत्तेजना और रोमांच का संकेत दे सकता है यदि नारंगी रंग वास्तव में <strong> पीले-नारंगी </strong> है, तो यह हल्का दिल, खुश महसूस करेगा हालांकि, यदि आप <strong> इस पीले-नारंगी रंग के नारंगी </strong> को चुनते हैं, तो यह संदिग्ध लग सकता है या यहां तक कि बीमारी की भावना भी महसूस कर सकता है! एक <strong> एक ही पीले-नारंगी रंग का रंग </strong> उज्ज्वल और हवादार दिखता है</strong></strong></strong></strong>
+<p class="western">यह पसंद यह बढ़ा सकता है कि आपके चुने गए रंग आपके ब्रांड के गुणों को कितनी अच्छी तरह व्यक्त करते हैं उदाहरण के लिए, <strong> अत्यधिक संतृप्त नारंगी रंग </strong>; उत्तेजना और रोमांच का संकेत दे सकता है यदि नारंगी रंग वास्तव में <strong> पीले-नारंगी </strong> है, तो यह हल्का दिल, खुश महसूस करेगा हालांकि, यदि आप <strong> इस पीले-नारंगी रंग के नारंगी </strong> को चुनते हैं, तो यह संदिग्ध लग सकता है या यहां तक कि बीमारी की भावना भी महसूस कर सकता है! एक <strong> एक ही पीले-नारंगी रंग का रंग </strong> उज्ज्वल और हवादार दिखता है</p>
 
-यह पसंद करते समय, यह ध्यान रखना सबसे अच्छा होगा कि आपका रंग आपके द्वारा चुने गए अन्य लोगों के साथ कैसे काम करेगा। रंग आमतौर पर अलग-अलग तरीकों से जोड़ा जाता है, लेकिन यहां मूल बातें हैं:
+<p class="western">यह पसंद करते समय, यह ध्यान रखना सबसे अच्छा होगा कि आपका रंग आपके द्वारा चुने गए अन्य लोगों के साथ कैसे काम करेगा। रंग आमतौर पर अलग-अलग तरीकों से जोड़ा जाता है, लेकिन यहां मूल बातें हैं:</p>
 
-<b>पूरक रंग संयोजन </b> रंग पहिया पर सटीक विपरीत के साथ एक रंग जोड़ते हैं, जैसा कि नीचे दिखाया गया है ये सबसे अधिक जीवंत रंग संयोजन हो सकते हैं, खासकर यदि दोनों रंग पूरी तरह संतृप्त हो। बड़ी खुराक में इस्तेमाल होने पर यह बहुत भारी हो सकता है, लेकिन उन चीजों पर ध्यान ला सकता है जिन्हें आप बाहर खड़े करना चाहते हैं
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/comp@2x-1.png" alt="comp2x" width="50%" /></b>
+<p class="western"><b>पूरक रंग संयोजन </b> रंग पहिया पर सटीक विपरीत के साथ एक रंग जोड़ते हैं, जैसा कि नीचे दिखाया गया है ये सबसे अधिक जीवंत रंग संयोजन हो सकते हैं, खासकर यदि दोनों रंग पूरी तरह संतृप्त हो। बड़ी खुराक में इस्तेमाल होने पर यह बहुत भारी हो सकता है, लेकिन उन चीजों पर ध्यान ला सकता है जिन्हें आप बाहर खड़े करना चाहते हैं</p>
+<p class="western"><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/comp@2x-1.png" alt="comp2x" width="50%" /></p>
 
-<b>स्प्लिट-पूरक रंग संयोजन </b> पूरक रंग योजनाओं के समान हैं, सिवाय इसके कि रंगों में से किसी एक को दो तरफ से प्रतिस्थापित किया जाता है। यह तनाव को कम कर देता है जो कि पूरक रंग योजनाओं में मौजूद हो सकता है, जबकि इसके बहुत सारे विपरीत होते हैं</b>
-<p style="text-align: center"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/slip-comp@2x.png" alt="slip-comp2x" width="50%" /></p>
-<p style="text-align: left"><b>एनालॉगस रंग संयोजन </b>; वे रंग हैं जो रंग चक्र पर एक-दूसरे के बगल में बैठते हैं। ये संयोजन शांति और शांति की भावना देने में मदद करते हैं। हालांकि, इन का उपयोग करते समय आपको पर्याप्त कंट्रास्ट बनाने की ज़रूरत होगी ताकि आपके ब्रांड दृश्यों को पढ़ने में आसान हो।</b></p>
-<p style="text-align: center"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/analogous@2x.png" alt="analogous2x" width="50%" /></p>
-<p style="text-align: left"><b>त्रिआदी रंग संयोजन </b> 3 रंगों से बने होते हैं, जो समान रंग व्हील पर समान हैं। यहां तक कि अगर आप टिंट या रंगों का उपयोग करते हैं, तो ये रंग संयोजन बहुत ही बोल्ड और ऊर्जावान हो सकते हैं।</b></p>
-<p style="text-align: center"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/triadic@2x.png" alt="triadic2x" width="50%" /></p>
+<p class="western"><b>स्प्लिट-पूरक रंग संयोजन </b> पूरक रंग योजनाओं के समान हैं, सिवाय इसके कि रंगों में से किसी एक को दो तरफ से प्रतिस्थापित किया जाता है। यह तनाव को कम कर देता है जो कि पूरक रंग योजनाओं में मौजूद हो सकता है, जबकि इसके बहुत सारे विपरीत होते हैं</p>
+<p class="western"><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/slip-comp@2x.png" alt="slip-comp2x" width="50%" /></p>
+<p class="western"><b>एनालॉगस रंग संयोजन </b>; वे रंग हैं जो रंग चक्र पर एक-दूसरे के बगल में बैठते हैं। ये संयोजन शांति और शांति की भावना देने में मदद करते हैं। हालांकि, इन का उपयोग करते समय आपको पर्याप्त कंट्रास्ट बनाने की ज़रूरत होगी ताकि आपके ब्रांड दृश्यों को पढ़ने में आसान हो।</b></p>
+<p class="western"><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/analogous@2x.png" alt="analogous2x" width="50%" /></p>
+<p class="western"><b>त्रिआदी रंग संयोजन </b> 3 रंगों से बने होते हैं, जो समान रंग व्हील पर समान हैं। यहां तक कि अगर आप टिंट या रंगों का उपयोग करते हैं, तो ये रंग संयोजन बहुत ही बोल्ड और ऊर्जावान हो सकते हैं।</b></p>
+<p class="western"><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/triadic@2x.png" alt="triadic2x" width="50%" /></p>
 
-<h3>गतिविधि: एक रंग योजना चुनें</h3>
-अपने साथियों के साथ, एक रंग योजना चुनें अपने प्राथमिक रंग के रूप में अंतिम गतिविधि में चुना गया रंग का उपयोग करें, जिसमें से रंग के पहिये पर अन्य सभी रंगों का चयन किया जाएगा विभिन्न टिंट्स और रंगों पर विचार करना याद रखें, और रंगों का अर्थ भी ध्यान में रखें और जो लोग एक साथ अच्छे दिखते हैं! यहां कुछ संसाधन हैं जो रंग चुनने में मदद कर सकते हैं:
-<ul>
- 	<li style="font-weight: 400"><a href="https://www.sessions.edu/color-calculator/" target="_blank" rel="noopener">सत्र का रंग कैलकुलेटर</a></li>
- 	<li style="font-weight: 400"><a href="https://coolors.co/" target="_blank" rel="noopener">Coolors</a></li>
- 	<li style="font-weight: 400"><a href="http://www.palettable.io/FFFFFF" target="_blank" rel="noopener">Palattable</a></li>
-</ul>
-ऐप इन्वेंटर में प्रीसेट में उपलब्ध नहीं होने वाला रंग चुनने के बारे में चिंता न करें ऐप्लिकेशन आविष्कारक को नए रंगों को जोड़ने के तरीके के बारे में नीचे दिए निर्देश दिए जाएंगे।
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px, margin-bottom:25px;">
+	<h3 id="act2" class="western"><strong>गतिविधि: एक रंग योजना चुनें </strong></h3>
+	<p class="western">अपने साथियों के साथ, एक रंग योजना चुनें अपने प्राथमिक रंग के रूप में अंतिम गतिविधि में चुना गया रंग का उपयोग करें, जिसमें से रंग के पहिये पर अन्य सभी रंगों का चयन किया जाएगा विभिन्न टिंट्स और रंगों पर विचार करना याद रखें, और रंगों का अर्थ भी ध्यान में रखें और जो लोग एक साथ अच्छे दिखते हैं! यहां कुछ संसाधन हैं जो रंग चुनने में मदद कर सकते हैं:</p>
+	<ul>
+	 	<li style="font-weight: 400"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.sessions.edu/color-calculator/" target="_blank">सत्र का रंग कैलकुलेटर</a></span></li>
+	 	<li style="font-weight: 400"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://coolors.co/" target="_blank" rel="noopener">Coolors</a></span></li>
+	 	<li style="font-weight: 400"><span style="color: #eae46f;"><a style="color: #eae46f;" href="http://www.palettable.io/FFFFFF" target="_blank" rel="noopener">Palattable</a></span></li>
+	</ul>
+	<p class="western">ऐप इन्वेंटर में प्रीसेट में उपलब्ध नहीं होने वाला रंग चुनने के बारे में चिंता न करें ऐप्लिकेशन आविष्कारक को नए रंगों को जोड़ने के तरीके के बारे में नीचे दिए निर्देश दिए जाएंगे।</p>
 
-<em>Tip:</em> अटक गया? एक तस्वीर के साथ शुरू करो! अपने ब्रांड की पहचान करने में मदद करने वाली किसी ऐसी तस्वीर का पता लगाएं या उसे लें यह एक स्थान, एक ऑब्जेक्ट, या कुछ और हो सकता है! यह <a href="https://designschool.canva.com/blog/100-color-combinations/" target="_blank" rel="noopener">blog post</a> एक अच्छा उदाहरण है !
-<h3>फोंट्स</h3>
-अपनी दृश्य पहचान स्थापित करते समय फ़ॉन्ट्स भी महत्वपूर्ण होते हैं उदाहरण हम लैटिन वर्ण सेट (अंग्रेजी, स्पेनिश, फ्रेंच, आदि में लिखने के लिए चरित्र सेट) के साथ फोंट पर सबसे अधिक सीधे आवेदन करते हैं, लेकिन कुछ बुनियादी सिद्धांत गैर-लैटिन भाषा (अरबी, हिंदी, चीनी, आदि।)।
+	<p class="western"><em>Tip:</em> अटक गया? एक तस्वीर के साथ शुरू करो! अपने ब्रांड की पहचान करने में मदद करने वाली किसी ऐसी तस्वीर का पता लगाएं या उसे लें यह एक स्थान, एक ऑब्जेक्ट, या कुछ और हो सकता है! यह <span style="color: #eae46f;"><a style="color: #eae46f;" href="https://designschool.canva.com/blog/100-color-combinations/" target="_blank" rel="noopener">blog post</a></span> एक अच्छा उदाहरण है !</p>
+</div>
 
-जैसे ही रंग, फ़ॉन्ट, या जिस तरह से पाठ दिखता है, आपके ब्रांड की पहचान को व्यक्त करने में मदद कर सकता है। हर फ़ॉन्ट में एक व्यक्तित्व और ऐतिहासिक अर्थ / संदर्भ होता है जो लोग इसे पहचानते हैं और इसके साथ संबद्ध करते हैं, भले ही उन्हें इसके बारे में पता नहीं हो। ऐसे सैकड़ों फोंट हैं जिनसे आप चुन सकते हैं, इसलिए यह सबसे अच्छा विकल्प बनाने के लिए उनके बारे में कुछ जानने में मदद करता है। फोंट चुनने में आपकी मदद करने के लिए यह खंड कुछ फ़ॉन्ट मूल बातें से गुजरता है! क्या आप नीचे दिए गए दो समूहों के बीच के अंतर को बता सकते हैं?
+<h3 id="fonts" class="western"><strong>फोंट्स</strong></h3>
+<p class="western">अपनी दृश्य पहचान स्थापित करते समय फ़ॉन्ट्स भी महत्वपूर्ण होते हैं उदाहरण हम लैटिन वर्ण सेट (अंग्रेजी, स्पेनिश, फ्रेंच, आदि में लिखने के लिए चरित्र सेट) के साथ फोंट पर सबसे अधिक सीधे आवेदन करते हैं, लेकिन कुछ बुनियादी सिद्धांत गैर-लैटिन भाषा (अरबी, हिंदी, चीनी, आदि।)।</p>
 
-<a href="https://fonts.google.com/specimen/Merriweather" target="_blank" rel="noopener"><img style="margin: 1%" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/Merriweather-Serif@2x.png" alt="merriweather-serif2x" width="50" /></a>
-<a href="https://fonts.google.com/specimen/PT+Serif" target="_blank" rel="noopener"><img style="margin: 1%" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/PT-Serif@2x.png" alt="pt-serif2x" width="58" height="67" /></a>
-<a href="https://typekit.com/fonts/ff-tisa" target="_blank" rel="noopener"><img style="margin: 1%" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/Tisa-Serif@2x.png" alt="tisa-serif2x" width="43" height="70" /></a>
-<p style="text-align: center"> इन अक्षरों पर ये लाल निशान <b> सेरिफ  कहा जाता है, और उन फ़ॉन्ट्स को जिन्हें <b> सेरिफ़ फ़ॉन्ट </b> कहा जाता है उन अतिरिक्त अंकों के बारे में सोचना मज़ेदार है, जैसे कि छोटे पैर!</b></b></p>
-<a href="https://fonts.google.com/specimen/Merriweather+Sans" target="_blank" rel="noopener"><img style="margin: 1%" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/Merriweather-Sans@2x.png" alt="merriweather-sans2x" width="40" /></a>
-<a href="https://fonts.google.com/specimen/PT+Sans" target="_blank" rel="noopener"><img style="margin: 1%" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/PT-Sans@2x.png" alt="pt-sans2x" width="46" height="67" /></a>
-<a href="https://typekit.com/fonts/ff-tisa-sans" target="_blank" rel="noopener"><img style="margin: 1%" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/Tisa-Sans@2x.png" alt="tisa-sans2x" width="44" /></a>
+<p class="western">जैसे ही रंग, फ़ॉन्ट, या जिस तरह से पाठ दिखता है, आपके ब्रांड की पहचान को व्यक्त करने में मदद कर सकता है। हर फ़ॉन्ट में एक व्यक्तित्व और ऐतिहासिक अर्थ / संदर्भ होता है जो लोग इसे पहचानते हैं और इसके साथ संबद्ध करते हैं, भले ही उन्हें इसके बारे में पता नहीं हो। ऐसे सैकड़ों फोंट हैं जिनसे आप चुन सकते हैं, इसलिए यह सबसे अच्छा विकल्प बनाने के लिए उनके बारे में कुछ जानने में मदद करता है। फोंट चुनने में आपकी मदद करने के लिए यह खंड कुछ फ़ॉन्ट मूल बातें से गुजरता है! क्या आप नीचे दिए गए दो समूहों के बीच के अंतर को बता सकते हैं?</p>
+
+<table class=" aligncenter">
+<tbody>
+<tr>
+<td width="50%"><strong>Serif</strong></td>
+<td width="50%"><strong>Sans-Serif</strong></td>
+</tr>
+<tr>
+	<td><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Merriweather-Serif@2x.png" alt="merriweather-serif2x" width="50" /></td>	
+	<td> <a href="https://fonts.google.com/specimen/Merriweather+Sans" target="_blank"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Merriweather-Sans@2x.png" alt="merriweather-sans2x" width="40" /></a></td>
+</tr>
+<tr>
+<tr>
+<td><a href="https://fonts.google.com/specimen/PT+Serif" target="_blank"><img style="margin: 1%;" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/PT-Serif@2x.png" alt="pt-serif2x" width="58" height="67" /></a></td>
+<td><a href="https://fonts.google.com/specimen/PT+Sans" target="_blank"><img style="margin: 1%;" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/PT-Sans@2x.png" alt="pt-sans2x" width="46" height="67" /></a></td>
+</tr>
+<tr>
+<td><a href="https://typekit.com/fonts/ff-tisa" target="_blank"><img style="margin: 1%;" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Tisa-Serif@2x.png" alt="tisa-serif2x" width="43" height="70" /></a></td>
+<td><a href="https://typekit.com/fonts/ff-tisa-sans" target="_blank"><img style="margin: 1%;" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Tisa-Sans@2x.png" alt="tisa-sans2x" width="44" /></a></td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center"> इन अक्षरों पर ये लाल निशान <b> सेरिफ  कहा जाता है, और उन फ़ॉन्ट्स को जिन्हें <b> सेरिफ़ फ़ॉन्ट </b> कहा जाता है उन अतिरिक्त अंकों के बारे में सोचना मज़ेदार है, जैसे कि छोटे पैर!</b></p>
+
 <p style="text-align: center"> जिन फ़ॉन्ट्स को सेरिफ नहीं हैं उन्हें <b> sans-serifs कहा जाता है</b>.</p>
 
 <h5>सेरिफ़ फ़ॉन्ट्स</h5>
 सेरिफ़ पत्रों के अंत में अतिरिक्त अंक विभिन्न फ़ॉन्ट्स में वास्तव में अलग दिख सकते हैं। कुछ सेरिफ़ फोंट में वास्तव में छोटे पैर हैं<a href="https://www.prepressure.com/images/fonts_sample_times_new_roman_regular.png" target="_blank" rel="noopener"> टाइम्स न्यू रोमन की तरह </a>, और कुछ वाकई बड़े पैर हैं, <a href="http://www.creativebeacon.com/wp-content/uploads/2012/08/Screen-shot-2012-08-27-at-10.23.55-AM.png" target="_blank" rel="noopener">इस स्लैब फ़ॉन्ट की तरह! अपने कंप्यूटर पर मौजूद फोंट के माध्यम से एक नज़र डालें क्या आप किसी भी फोंट को देख सकते हैं जिसमें सेरिफ हैं?</a>
 
 सेरिफ़ फोंट इतिहास की भावना देते हैं, और अक्सर प्राधिकरण या औपचारिकता। यह एक बहुत ही अच्छे कारण के लिए है- सबसे पहले मुद्रित अक्षरों को एक प्रकार का सर्फ कहा जाता था <a href="https://www.sitepoint.com/the-blackletter-typeface-a-long-and-colored-history/" target=" _ blank "> ब्लैकलेटर </a>! यदि आप एक सेरिफ़ फ़ॉन्ट चुनते हैं, तो आप उम्मीद कर सकते हैं कि यह इस इतिहास में से कुछ का पालन करें, और ज्ञान और उम्र की भावना। हालांकि, कुछ अपवाद हैं, जिसमें <a href="https://fonts.google.com/?category=Serif&amp;query=slab" target="_blank" rel="noopener"> स्लैब-सेरिफ </a> नामक फोंट के परिवार शामिल हैं , जो कि हाल के एक विकास के हैं और इसलिए वे कुछ चरित्र समानताएं बिना-सेरिफ के साझा किए गए हैं
-<h5>संस-सेरीफ़ फ़ॉन्ट्स</h5>
+
+<h4 class="western" style="text-align: left;">संस-सेरीफ़ फ़ॉन्ट्स</h4>
 संस-सेरिफ़ फोंट एक अधिक हाल के परिवार हैं। वे युवाओं और सोच के नए तरीके का प्रतिनिधित्व करते हैं। वे पहले आकार और दूरी की एक किस्म में आधुनिक विज्ञापन और पठनीयता की जरूरतों को पूरा करने के लिए विकसित हुए थे। ये सबसे अधिक संभावना है कि आप अपने ब्रांड के लिए क्या चुन लेंगे बिना-सेरिफ़ फोंट के बीच कई विकल्प हैं अपने कंप्यूटर के माध्यम से कुछ को ढूंढने के लिए देखो जो आपको पसंद है!
+<p class="western" style="text-align: center;"><iframe src="https://www.youtube.com/embed/wOgIkxAfJsk" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></p>
 <p style="text-align: left">यहां कुछ संसाधन हैं यदि आप अधिक जानने के लिए उत्सुक हैं:</p>
 
 <ul>
  	<li><a href="https://www.fonts.com/content/learning/fontology/level-1/type-anatomy/type-classifications" target="_blank" rel="noopener">प्रकार के प्रकार</a></li>
  	<li><a href="http://practicaltypography.com/font-recommendations.html" target="_blank" rel="noopener">बटरिक के फ़ॉन्ट अनुशंसाएं</a></li>
 </ul>
-<h3>गतिविधि: एक फ़ॉन्ट चुनें</h3>
-अब, एक फ़ॉन्ट (या दो) चुनने के लिए तैयार हो जाओ! आपकी टीम के साथ अपने ब्रांड के लिए सबसे अच्छा फ़ॉन्ट चुनने में आपकी सहायता करने के लिए यहां कुछ कदम हैं।
-<ol>
- 	<li style="font-weight: 400">यहां तक कि अगर आपके पास टाइपोग्राफी की पूरी तरह से समझ नहीं है, तो आप शायद आपके ब्रांड की पहचान को व्यक्त करने वाले फोंट की पहचान कर सकते हैं। ऐसा करने का एक शानदार तरीका तटस्थ वाक्यांश या शब्द पर अलग-अलग फोंटों का परीक्षण करना है और यह देखने के लिए कि यह क्या आवाज है। उदाहरण के लिए, कड़े ढंग से दूरी के अक्षरों जैसे मोटे, भारी फ़ॉन्ट जैसे <a href="http://ufonts.com/fonts/impact.html" target="_blank" rel="noopener"> प्रभाव </a> एक बड़ी आवाज में बोल सकते हैं , एक चिल्लाओ की तरह! या, एक पतली और नाजुक फ़ॉन्ट जैसे <a href="https://fonts.google.com/specimen/Syncopate" target="_blank" rel="noopener"> Syncopate </a> एक परिष्कृत कानाफूसी के साथ बात करने लग सकता है कुछ फोंट को सूचीबद्ध करें जो आपके ब्रांड के लिए सही महसूस करते हैं। अपने व्यक्तिगत पसंदीदा को आपकी पसंद पर प्रभाव डालने की कोशिश न करें</li>
- 	<li style="font-weight: 400">अब, हम पठनीयता के लिए आपके द्वारा चुने गए फोंट का परीक्षण करते हैं। उन शब्दों में टेस्ट फोंट करें जिन्हें आप विभिन्न आकारों में देखना चाहते हैं ताकि वे पठनीय हो सकें। क्या कोई ऐसा है जो दूरी से बड़े आकारों में पढ़ना मुश्किल है? इन नियमों का पालन करें सबसे अच्छा काम करता है जो एक फ़ॉन्ट खोजें यह आपका <a href="https://www.fonts.com/content/learning/fontology/level-1/type-anatomy/text-v-display" target="_blank" rel="noopener"> प्रदर्शित होगा </a> फ़ॉन्ट, हेडर और / या लोगोप्रयोग के लिए उपयोग किया जाता है</li>
- 	<li style="font-weight: 400">अब, आप शरीर के पाठ के लिए एक उच्च पठनीय फ़ॉन्ट, या प्रकार के बड़े वर्गों की खोज करेंगे। आप शरीर के पाठ को चुनने में बहुत सावधान रहना चाहते हैं जो आपके डिस्प्ले टेक्स्ट को पूरा करता है क्योंकि फोंट रंगों की तरह संघर्ष कर सकते हैं! यहां कुछ त्वरित युक्तियां दी गई हैं:
-<ol>
- 	<li style="font-weight: 400">सेरिफ़ अक्सर बिना-सेरिफ़ के साथ जोड़ा जा सकता है पूरक रंगों के विपरीत संस्करणों के प्रकार के रूप में इनके बारे में सोचें!</li>
- 	<li style="font-weight: 400">कंट्रास्ट अच्छा है! ऐसे फोंट जो कि बहुत समान दिखते हैं, से बचें।</li>
- 	<li style="font-weight: 400">"आवाज" की कल्पना करें कि फ़ॉन्ट के साथ बोलता है, जैसा कि आप प्रदर्शन फ़ॉन्ट के साथ करते थे। क्या यह आपके ब्रांड और प्रदर्शन फ़ॉन्ट का पूरक है?</li>
- 	<li style="font-weight: 400"><a href="https://www.fonts.com/content/learning/fontology/level-1/type-anatomy/x-height" target="_blank" rel="noopener"> पठनीयता </a> पर विचार करें शरीर के पाठ के लिए चुना गया फ़ॉन्ट फ़ॉन्ट आकार में छोटे आकारों में पठनीय होना चाहिए। इस तरह टेस्ट करें जैसे आपने प्रदर्शन फ़ॉन्ट के लिए किया था।</li>
- 	<li style="font-weight: 400">अपने प्रदर्शन फ़ॉन्ट के बगल में स्थित फ़ॉन्ट का परीक्षण करें, जैसे आपको लगता है कि यह आपके ऐप में दिखाया जाएगा।</li>
- 	<li style="font-weight: 400"><a href="#apply">ऐप आविष्कारक में फ़ॉन्ट विकल्प पर एक नज़र डालें </a>! यदि आप इनमें से किसी एक का उपयोग करने में सक्षम हैं, तो यह आपके ऐप को आसान बना देगा!</li>
-</ol>
-</li>
-</ol>
-कुछ मदद की जरूरत है? यहां कुछ महान संसाधन हैं:
-<ul>
- 	<li style="font-weight: 400"><a href="https://www.canva.com/font-combinations/" target="_blank" rel="noopener">कैनवा फ़ॉन्ट संयोजन) फ़ॉन्ट जोड़े की जांच करने का एक आसान तरीका है</a></li>
- 	<li style="font-weight: 400"><a href="https://fonts.google.com/" target="_blank" rel="noopener">Google Fonts </a> सैकड़ों मुफ्त फोंट के लिए एक महान संसाधन! हम Google फोंट का उपयोग करने के लिए अत्यधिक अनुशंसा करते हैं क्योंकि वे कहीं भी उपयोग करने के लिए स्वतंत्र हैं अन्य फ़ॉन्ट्स के प्रतिबंध हो सकते हैं</li>
- 	<li style="font-weight: 400"><a href="http://practicaltypography.com/" target="_blank" rel="noopener">बटररिक की व्यावहारिक टाइपोग्राफी </a> टाइपोग्राफ़िक जानकारी और सुझावों का धन</li>
- 	<li style="font-weight: 400"><a href="http://thinkingwithtype.com/" target="_blank" rel="noopener">टाइपिंग के साथ विचार करना * सभी प्रकार की टाइपोग्राफी पर एक महान डिजिटल पुस्तक है</a></li>
-</ul>
-एक बार जब आप एक या दो फ़ॉन्ट्स का फैसला कर लेंगे, तो आपको उन्हें स्थापित करना होगा। <a href="https://www.youtube.com/watch?v=rnFfbk8J940" target="_blank" rel="noopener"> Windows 10 </a> या <a href="https:// के लिए इस वीडियो के लिए इस वीडियो को देखें www.youtube.com/watch?v=vY0wJzWyxRI" target=" _ blank "> Mac OS X</a>.
-<h3>चिन्ह (Logos)</h3>
-अब जब आपने अपने ब्रांड के लिए रंग और फोंट चुने हैं, तो अपना लोगो बनाने का समय आ गया है! <b>लोगो (Logo) </b> एक प्रतीक है जो किसी कंपनी का प्रतिनिधित्व करता है। कंपनी के लोगो का उद्देश्य लक्ष्य, उद्देश्य और व्यक्तित्व को प्रतीकों और शब्दों के सरल मिश्रण में हासिल करना है। यह कठिन लगता है, लेकिन इसे छोटे टुकड़ों में तोड़ दें। लोगो के तीन सामान्य प्रकार हैं:
 
-&nbsp;
-<table>
+<div style="background-color: #28a880; color: white; padding: 25px; text-align: center;">
+	<h3 id="act3" class="western" style="text-align: left;"><strong>गतिविधि: एक फ़ॉन्ट चुनें</strong></h3>
+	<p class="western" style="text-align: left;">अब, एक फ़ॉन्ट (या दो) चुनने के लिए तैयार हो जाओ! आपकी टीम के साथ अपने ब्रांड के लिए सबसे अच्छा फ़ॉन्ट चुनने में आपकी सहायता करने के लिए यहां कुछ कदम हैं।</p>
+	<ol>
+	 	<li style="font-weight: 400">यहां तक कि अगर आपके पास टाइपोग्राफी की पूरी तरह से समझ नहीं है, तो आप शायद आपके ब्रांड की पहचान को व्यक्त करने वाले फोंट की पहचान कर सकते हैं। ऐसा करने का एक शानदार तरीका तटस्थ वाक्यांश या शब्द पर अलग-अलग फोंटों का परीक्षण करना है और यह देखने के लिए कि यह क्या आवाज है। उदाहरण के लिए, कड़े ढंग से दूरी के अक्षरों जैसे मोटे, भारी फ़ॉन्ट जैसे <span style="color: #eae46f;"> <a style="color: #eae46f;" href="http://ufonts.com/fonts/impact.html" target="_blank" rel="noopener"> प्रभाव </a></span> एक बड़ी आवाज में बोल सकते हैं , एक चिल्लाओ की तरह! या, एक पतली और नाजुक फ़ॉन्ट जैसे <span style="color: #eae46f;"> <a style="color: #eae46f;" href="https://fonts.google.com/specimen/Syncopate" target="_blank" rel="noopener"> Syncopate </a></span> एक परिष्कृत कानाफूसी के साथ बात करने लग सकता है कुछ फोंट को सूचीबद्ध करें जो आपके ब्रांड के लिए सही महसूस करते हैं। अपने व्यक्तिगत पसंदीदा को आपकी पसंद पर प्रभाव डालने की कोशिश न करें</li>
+	 	<li style="font-weight: 400">अब, हम पठनीयता के लिए आपके द्वारा चुने गए फोंट का परीक्षण करते हैं। उन शब्दों में टेस्ट फोंट करें जिन्हें आप विभिन्न आकारों में देखना चाहते हैं ताकि वे पठनीय हो सकें। क्या कोई ऐसा है जो दूरी से बड़े आकारों में पढ़ना मुश्किल है? इन नियमों का पालन करें सबसे अच्छा काम करता है जो एक फ़ॉन्ट खोजें यह आपका <a style="color: #eae46f;" href="https://www.fonts.com/content/learning/fontology/level-1/type-anatomy/text-v-display" target="_blank" rel="noopener"><span style="color: #eae46f;"> प्रदर्शित होगा </span></a> फ़ॉन्ट, हेडर और / या लोगोप्रयोग के लिए उपयोग किया जाता है</li>
+	 	<li style="font-weight: 400">अब, आप शरीर के पाठ के लिए एक उच्च पठनीय फ़ॉन्ट, या प्रकार के बड़े वर्गों की खोज करेंगे। आप शरीर के पाठ को चुनने में बहुत सावधान रहना चाहते हैं जो आपके डिस्प्ले टेक्स्ट को पूरा करता है क्योंकि फोंट रंगों की तरह संघर्ष कर सकते हैं! यहां कुछ त्वरित युक्तियां दी गई हैं:
+		<ol style="text-align: left;" type="a">
+		 	<li style="font-weight: 400">सेरिफ़ अक्सर बिना-सेरिफ़ के साथ जोड़ा जा सकता है पूरक रंगों के विपरीत संस्करणों के प्रकार के रूप में इनके बारे में सोचें!</li>
+		 	<li style="font-weight: 400">कंट्रास्ट अच्छा है! ऐसे फोंट जो कि बहुत समान दिखते हैं, से बचें।</li>
+		 	<li style="font-weight: 400">"आवाज" की कल्पना करें कि फ़ॉन्ट के साथ बोलता है, जैसा कि आप प्रदर्शन फ़ॉन्ट के साथ करते थे। क्या यह आपके ब्रांड और प्रदर्शन फ़ॉन्ट का पूरक है?</li>
+		 	<li style="font-weight: 400"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.fonts.com/content/learning/fontology/level-1/type-anatomy/x-height" target="_blank" rel="noopener"> पठनीयता </a></span> पर विचार करें शरीर के पाठ के लिए चुना गया फ़ॉन्ट फ़ॉन्ट आकार में छोटे आकारों में पठनीय होना चाहिए। इस तरह टेस्ट करें जैसे आपने प्रदर्शन फ़ॉन्ट के लिए किया था।</li>
+		 	<li style="font-weight: 400">अपने प्रदर्शन फ़ॉन्ट के बगल में स्थित फ़ॉन्ट का परीक्षण करें, जैसे आपको लगता है कि यह आपके ऐप में दिखाया जाएगा।</li>
+		 	<li style="font-weight: 400"><span style="color: #eae46f;"><a style="color: #eae46f;" href="#apply">ऐप आविष्कारक में फ़ॉन्ट विकल्प पर एक नज़र डालें </a></span>! यदि आप इनमें से किसी एक का उपयोग करने में सक्षम हैं, तो यह आपके ऐप को आसान बना देगा!</li>
+		</ol>
+		</li>
+	</ol>
+	कुछ मदद की जरूरत है? यहां कुछ महान संसाधन हैं:
+	<ul>
+	 	<li style="font-weight: 400"><p class="western" style="text-align: left;"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.canva.com/font-combinations/" target="_blank" rel="noopener">कैनवा फ़ॉन्ट संयोजन) फ़ॉन्ट जोड़े की जांच करने का एक आसान तरीका है</a></span></p></li>
+
+	 	<li style="font-weight: 400"><p class="western" style="text-align: left;"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://fonts.google.com/" target="_blank" rel="noopener">Google Fonts </a></span> सैकड़ों मुफ्त फोंट के लिए एक महान संसाधन! हम Google फोंट का उपयोग करने के लिए अत्यधिक अनुशंसा करते हैं क्योंकि वे कहीं भी उपयोग करने के लिए स्वतंत्र हैं अन्य फ़ॉन्ट्स के प्रतिबंध हो सकते हैं</p></li>
+
+	 	<li style="font-weight: 400"><p class="western" style="text-align: left;"><span style="color: #eae46f;"><a style="color: #eae46f;" href="http://practicaltypography.com/" target="_blank" rel="noopener">बटररिक की व्यावहारिक टाइपोग्राफी </a></span> टाइपोग्राफ़िक जानकारी और सुझावों का धन</p></li>
+
+	 	<li style="font-weight: 400"><p class="western" style="text-align: left;"><span style="color: #eae46f;"><a style="color: #eae46f;" href="http://thinkingwithtype.com/" target="_blank" rel="noopener">टाइपिंग के साथ विचार करना * सभी प्रकार की टाइपोग्राफी पर एक महान डिजिटल पुस्तक है</a></span></p></li>
+	</ul>
+	<p class="western" style="text-align: left;">एक बार जब आप एक या दो फ़ॉन्ट्स का फैसला कर लेंगे, तो आपको उन्हें स्थापित करना होगा। <span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.youtube.com/watch?v=rnFfbk8J940" target="_blank" rel="noopener"> Windows 10 </a></span> या <span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.youtube.com/watch?v=vY0wJzWyxRI" target=" _ blank "> Mac OS X</a></span></p>.
+</div>
+<h3 id="logo" style="text-align: left;"><strong>चिन्ह (Logos)</strong></h3>
+<p class="western" style="text-align: left;">अब जब आपने अपने ब्रांड के लिए रंग और फोंट चुने हैं, तो अपना लोगो बनाने का समय आ गया है! <b>लोगो (Logo) </b> एक प्रतीक है जो किसी कंपनी का प्रतिनिधित्व करता है। कंपनी के लोगो का उद्देश्य लक्ष्य, उद्देश्य और व्यक्तित्व को प्रतीकों और शब्दों के सरल मिश्रण में हासिल करना है। यह कठिन लगता है, लेकिन इसे छोटे टुकड़ों में तोड़ दें। लोगो के तीन सामान्य प्रकार हैं:</p>
+
+<table class=" aligncenter" width="936" cellspacing="0" cellpadding="7"><colgroup> <col width="296" /> <col width="298" /> <col width="296" /> </colgroup>
 <tbody>
 <tr>
-<td style="color: white" bgcolor="#53042d"><b>प्रकार</b></td>
-<td style="color: white" bgcolor="#53042d"><b>उदाहरण</b></td>
-<td style="color: white" bgcolor="#53042d"><b>तकनीकी टीम का उदाहरण</b></td>
+<td style="color: white" bgcolor="#53042d"><p class="western" align="center"><b>प्रकार</b></p></td>
+<td style="color: white" bgcolor="#53042d"><p class="western" align="center"><b>उदाहरण</b></p></td>
+<td style="color: white" bgcolor="#53042d"><p class="western" align="center"><b>तकनीकी टीम का उदाहरण</b></p></td>
 </tr>
 <tr>
-<td style="color: white;vertical-align: middle" bgcolor="#903d54"><b>Word Mark</b></td>
-<td style="vertical-align: middle"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image13.png" alt="facebook" width="234" height="187" /></td>
-<td style="text-align: center;vertical-align: middle"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image08-1.png" alt="image08" width="92" height="97" />
+<td style="color: white;vertical-align: middle" bgcolor="#903d54"><p class="western" align="center"><b>Word Mark</b></p></td>
+<td style="vertical-align: middle"><p class="western" align="center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image13.png" alt="facebook" width="234" height="187" /></p></td>
+<td style="text-align: center;vertical-align: middle"><p class="western" align="center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image08-1.png" alt="image08" width="92" height="97" /></p>
 
-टीम कैलीफोर्निया कॉडर्स 2016 द्वारा लोक 8 डोन 8</td>
+<p class="western" align="center">टीम कैलीफोर्निया कॉडर्स 2016 द्वारा लोक 8 डोन 8</p></td>
 </tr>
 <tr>
-<td style="color: white;vertical-align: middle" bgcolor="#903d54"><b>Symbol or Icon</b></td>
-<td style="vertical-align: middle"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/Artboard-1@2x.png" alt="artboard-12x" width="106" height="124" /></td>
-<td style="text-align: center;vertical-align: middle"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image12.png" alt="image12" width="136" height="105" />
+<td style="color: white;vertical-align: middle" bgcolor="#903d54"><p class="western" align="center"><b>Symbol or Icon</b></p></td>
+<td style="vertical-align: middle"><p class="western" align="center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Artboard-1@2x.png" alt="artboard-12x" width="106" height="124" /></p></td>
+<td style="text-align: center;vertical-align: middle"><p class="western" align="center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image12.png" alt="image12" width="136" height="105" /></p>
 
-टीम क्रेक्सेशशन 2016 द्वारा डिगरीबी ऐप</td>
+<p class="western" align="center"><span style="font-size: small;">टीम क्रेक्सेशशन 2016 द्वारा डिगरीबी ऐप</span></p></td>
 </tr>
 <tr>
-<td style="color: white;vertical-align: middle" bgcolor="#903d54"><b>Combination</b></td>
-<td style="text-align: center;vertical-align: middle"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image04-1.png" alt="image04" width="135" height="112" /></td>
-<td style="text-align: center"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image07-1.png" alt="image07" width="152" height="155" />
+<td style="color: white;vertical-align: middle" bgcolor="#903d54"><p class="western" align="center"><b>Combination</b></p></td>
+<td style="text-align: center;vertical-align: middle"><p class="western" align="center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image04-1.png" alt="image04" width="135" height="112" /></p></td>
+<td><p class="western" align="center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image07-1.png" alt="image07" width="152" height="155" /></p>
 
-2015 में टीम X-Women द्वारा cAppAble</td>
+<p class="western" align="center"><span style="font-size: small;">2015 में टीम X-Women द्वारा cAppAble</span></p></td>
 </tr>
 </tbody>
 </table>
 &nbsp;
-<p style="text-align: left"> अब, उपर्युक्त प्रत्येक लोगो के बारे में सोचें, और कोई भी उदाहरण जो दिमाग में आते हैं जो कि दिखाए नहीं जाते हैं। सोशल मीडिया प्रोफाइल की छवि के रूप में प्रदर्शित करने के लिए सबसे अच्छा कौन सा है? पोस्टर पर प्रदर्शित करने के लिए सबसे अच्छा कौन सा है? कौन सी सबसे तुरंत पहचानने योग्य हैं? आपको क्या लगता है कि उन्हें सफल बनाते हैं (या नहीं)?</p>
+<p class="western" style="text-align: left;"> अब, उपर्युक्त प्रत्येक लोगो के बारे में सोचें, और कोई भी उदाहरण जो दिमाग में आते हैं जो कि दिखाए नहीं जाते हैं। सोशल मीडिया प्रोफाइल की छवि के रूप में प्रदर्शित करने के लिए सबसे अच्छा कौन सा है? पोस्टर पर प्रदर्शित करने के लिए सबसे अच्छा कौन सा है? कौन सी सबसे तुरंत पहचानने योग्य हैं? आपको क्या लगता है कि उन्हें सफल बनाते हैं (या नहीं)?</p>
 
-<h3>गतिविधि: मंथन एक लोगो</h3>
-इस गतिविधि के लिए, प्रत्येक टीम के सदस्य को कई छोटे कागज या इंडेक्स कार्ड की आवश्यकता होगी।
-<ol>
- 	<li style="font-weight: 400">कुछ छवियों को समझें जो आपको लगता है कि समस्या को हल करने की कोशिश कर रहे हैं शामिल लोगों के बारे में सोचें, पर्यावरण प्रभावित होता है, और आपके द्वारा प्रस्तावित समाधान। इंटरनेट के साथ-साथ पुस्तकों, पत्रिकाओं और आपके आस-पास के कुछ भी चित्र देखें!</li>
- 	<li style="font-weight: 400">प्रत्येक टीम के सदस्य के लिए कलम या पेंसिल में त्वरित स्केच आकर्षित करने के लिए 15 मिनट का समय लें जो लोगो की तरह दिख सकता है लोगो ऊपर दिए गए चार्ट में दिखाए गए किसी भी प्रकार का हो सकता है (शब्दचिह्न, आइकन या संयोजन)। सोचने के लिए रोक के बिना, जितनी जल्दी संभव हो, स्केच को बनाने का प्रयास करें। बस आकर्षित और देखो क्या होता है!</li>
- 	<li style="font-weight: 400">15 मिनट के बाद आप और आपके साथियों को स्केचेस का बड़ा ढेर होना चाहिए। यदि नहीं, तो चरण 1 को दोहराएं।</li>
-</ol>
-<ul>
- 	<li style="list-style-type: none">
-<ul>
- 	<li style="font-weight: 400">साथ में, स्केचेस को देखें एक मुट्ठी भर का चयन करें जो वादा कर रहे हैं, या ऐसे गुण हैं जिन्हें मजबूत लोगो बनाने के लिए भी जोड़ा जा सकता है इन पर बात करें और 5 और लोगो के विचारों का संक्षिप्त वर्णन करें, इस बार और अधिक सावधानी से ध्यान रखें और जिस तरह से आप अपना लोगो इस्तेमाल करना चाहते हैं, उसे ध्यान में रखते हुए: अपना लोगो सरल रखें इससे बड़े और छोटे आकारों को समझना आसान होगा।</li>
- 	<li style="font-weight: 400">इस बारे में सोचें कि आपका लोगो आपके ऐप पर कैसे दिखाई देगा और यह कहां जाएगा।</li>
- 	<li style="font-weight: 400">लोगो एक पहचान व्यक्त करते हैं, इसलिए उन चीजों के बारे में सोचें जो आपके व्यवसाय को परिभाषित करती हैं</li>
- 	<li style="font-weight: 400">अपने आप से पूछें, "जब लोग इस लोगो को देखते हैं तो मैं क्या सोचता हूं?”</li>
-</ul>
-</li>
- 	<li style="font-weight: 400">कंप्यूटर पर एक या अधिक लोगो को डिजाइन करने का प्रयास करें आप इस नि: शुल्क <a href="https://logo.squarespace.com/" target="_blank" rel="noopener"> लोगो डिजाइन टूल </a> का उपयोग करने की कोशिश कर सकते हैं!</li>
-</ul>
-एक बार आपके काम के बाद, अपने गुरु, रंग योजना और फ़ॉन्ट को अपने गुरु के पास भेजें!
-<h3>अपने ऐप पर आवेदन करना</h3>
-अब जब आपने रंग योजना, फोंट का चयन किया है और एक लोगो बनाया है, तो यह आपके ऐप पर लागू करने का समय है! अपने लोगो और रंगों के विभिन्न प्लेसमेंट को देखने के लिए प्रयास करें कि क्या सबसे अच्छा काम करता है
-<h5>ऐप इन्वेंटर में रंग जोड़ने के लिए टिप्स</h5>
-चिंता न करें कि आपके द्वारा चुने गए रंग ऐप इन्वेंटर्स के प्रीसेट्स में नहीं हैं। ऐप इन्वेंटर में एक नया रंग बनाने का तरीका यहां है: <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/colors.html" target="_blank" rel="noopener"> बनाओ ऐप इन्वेंटर में कस्टम रंग </a> ऐप इन्वेंटर में नए रंग बनाने के लिए, आपको रंग के आरबीजी मूल्य जानने की आवश्यकता होगी। आपके पास पहले से ही रंग योजना टूल से यह मान हो सकता है, लेकिन यदि आप नहीं करते हैं, तो अपने रंगों के आरजीबी मूल्यों को जानने के लिए इस उपकरण का उपयोग करें: <a href="http://www.rapidtables.com/web/ रंग / RGB_Color.htm" target=" _ blank " rel=" noopener "> आरजीबी रंग खोजक </a>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px; text-align: center;">
+	<h3 id="act4" class="western" style="text-align: left;">गतिविधि: मंथन एक लोगो</h3>
+	<p class="western" style="text-align: left;">इस गतिविधि के लिए, प्रत्येक टीम के सदस्य को कई छोटे कागज या इंडेक्स कार्ड की आवश्यकता होगी।</p>
+	<ol style="text-align: left;">
+	 	<li style="font-weight: 400"><p class="western">कुछ छवियों को समझें जो आपको लगता है कि समस्या को हल करने की कोशिश कर रहे हैं शामिल लोगों के बारे में सोचें, पर्यावरण प्रभावित होता है, और आपके द्वारा प्रस्तावित समाधान। इंटरनेट के साथ-साथ पुस्तकों, पत्रिकाओं और आपके आस-पास के कुछ भी चित्र देखें!</p></li>
+	 	<li style="font-weight: 400"><p class="western">प्रत्येक टीम के सदस्य के लिए कलम या पेंसिल में त्वरित स्केच आकर्षित करने के लिए 15 मिनट का समय लें जो लोगो की तरह दिख सकता है लोगो ऊपर दिए गए चार्ट में दिखाए गए किसी भी प्रकार का हो सकता है (शब्दचिह्न, आइकन या संयोजन)। सोचने के लिए रोक के बिना, जितनी जल्दी संभव हो, स्केच को बनाने का प्रयास करें। बस आकर्षित और देखो क्या होता है!</p></li>
+	 	<li style="font-weight: 400"><p class="western">15 मिनट के बाद आप और आपके साथियों को स्केचेस का बड़ा ढेर होना चाहिए। यदि नहीं, तो चरण 1 को दोहराएं।</p></li>
+	</ol>
+	<ul>
+	 	<li style="list-style-type: none">
+	<ul>
+	 	<li style="font-weight: 400"><p class="western">साथ में, स्केचेस को देखें एक मुट्ठी भर का चयन करें जो वादा कर रहे हैं, या ऐसे गुण हैं जिन्हें मजबूत लोगो बनाने के लिए भी जोड़ा जा सकता है इन पर बात करें और 5 और लोगो के विचारों का संक्षिप्त वर्णन करें, इस बार और अधिक सावधानी से ध्यान रखें और जिस तरह से आप अपना लोगो इस्तेमाल करना चाहते हैं, उसे ध्यान में रखते हुए: अपना लोगो सरल रखें इससे बड़े और छोटे आकारों को समझना आसान होगा।</p></li>
+	 	<li style="font-weight: 400"><p class="western">इस बारे में सोचें कि आपका लोगो आपके ऐप पर कैसे दिखाई देगा और यह कहां जाएगा।</p></li>
+	 	<li style="font-weight: 400"><p class="western">लोगो एक पहचान व्यक्त करते हैं, इसलिए उन चीजों के बारे में सोचें जो आपके व्यवसाय को परिभाषित करती हैं</p></li>
+	 	<li style="font-weight: 400"><p class="western">अपने आप से पूछें, "जब लोग इस लोगो को देखते हैं तो मैं क्या सोचता हूं?”</p></li>
+	</ul>
+	</li>
+	 	<p class="western" style="text-align: left;">कंप्यूटर पर एक या अधिक लोगो को डिजाइन करने का प्रयास करें आप इस नि: शुल्क <span style="color: #eae46f;"><a style="color: #eae46f;" href="https://logo.squarespace.com/" target="_blank" rel="noopener"> लोगो डिजाइन टूल </a></span> का उपयोग करने की कोशिश कर सकते हैं!</p></li>
+	</ul>
+	<p class="western" style="text-align: left;">एक बार आपके काम के बाद, अपने गुरु, रंग योजना और फ़ॉन्ट को अपने गुरु के पास भेजें!</p>
+</div>
+<h3 id="apply" class="western" style="text-align: center;">अपने ऐप पर आवेदन करना</h3>
+<p class="western" style="text-align: left;">अब जब आपने रंग योजना, फोंट का चयन किया है और एक लोगो बनाया है, तो यह आपके ऐप पर लागू करने का समय है! अपने लोगो और रंगों के विभिन्न प्लेसमेंट को देखने के लिए प्रयास करें कि क्या सबसे अच्छा काम करता है</p>
+<h5 class="western" style="text-align: left;">ऐप इन्वेंटर में रंग जोड़ने के लिए टिप्स</h5>
+<p class="western" style="text-align: left;">चिंता न करें कि आपके द्वारा चुने गए रंग ऐप इन्वेंटर्स के प्रीसेट्स में नहीं हैं। ऐप इन्वेंटर में एक नया रंग बनाने का तरीका यहां है: <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/colors.html" target="_blank" rel="noopener"> बनाओ ऐप इन्वेंटर में कस्टम रंग </a> ऐप इन्वेंटर में नए रंग बनाने के लिए, आपको रंग के आरबीजी मूल्य जानने की आवश्यकता होगी। आपके पास पहले से ही रंग योजना टूल से यह मान हो सकता है, लेकिन यदि आप नहीं करते हैं, तो अपने रंगों के आरजीबी मूल्यों को जानने के लिए इस उपकरण का उपयोग करें: <a href="http://www.rapidtables.com/web/color/RGB_Color.htm" target="_blank" rel=" noopener "> आरजीबी रंग खोजक </a></p>
 
-आपके द्वारा चुने जाने वाले रंगों को बचाने के लिए यह उपयोगी है ताकि आप उन्हें अपने ऐप में इस्तेमाल कर सकें! यह कैसे करना है इसका एक उदाहरण है!
+<p class="western" style="text-align: left;">आपके द्वारा चुने जाने वाले रंगों को बचाने के लिए यह उपयोगी है ताकि आप उन्हें अपने ऐप में इस्तेमाल कर सकें! यह कैसे करना है इसका एक उदाहरण है!</p>
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/Screen-Shot-2016-11-09-at-4.27.53-PM.png" alt="screen-shot-2016-11-09-at-4-27-53-pm" width="538" height="283" />
+<p class="western" style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Screen-Shot-2016-11-09-at-4.27.53-PM.png" alt="screen-shot-2016-11-09-at-4-27-53-pm" width="538" height="283" /></p>
 
-ऐप आविष्कारक में रंग जोड़ने का दूसरा तरीका इस <a href="http://appinventor.mit.edu/explore/app-inventor-color-chart.html" target="&quot;_blank"> रंग सूची का संदर्भ दे रहा है </a> जहां एक मुट्ठी भर रंग संख्या कोड के रूप में सूचीबद्ध हैं। हमने एक बटन रंग बदलने के लिए रंग कोड -8388652 का उपयोग किया था <strong> aquamarine:</strong>
+<p class="western" style="text-align: left;">ऐप आविष्कारक में रंग जोड़ने का दूसरा तरीका इस <a href="http://appinventor.mit.edu/explore/app-inventor-color-chart.html" target="_blank"> रंग सूची का संदर्भ दे रहा है </a> जहां एक मुट्ठी भर रंग संख्या कोड के रूप में सूचीबद्ध हैं। हमने एक बटन रंग बदलने के लिए रंग कोड -8388652 का उपयोग किया था <strong> aquamarine:</strong></p>
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image10-1.png" alt="color list blocks" width="537" height="94" />
+<p class="western" style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image10-1.png" alt="color list blocks" width="537" height="94" /></p>
 
-हमारे डिस्प्ले पर हमारे बटन को देखा गया है:
+<p class="western" style="text-align: left;">हमारे डिस्प्ले पर हमारे बटन को देखा गया है:</p>
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image18.png" alt="image18" width="108" height="56" />
+<p class="western" style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image18.png" alt="image18" width="108" height="56" /></p>
+
 <h5>ऐप इन्वेंटर में फोंट जोड़ने के लिए टिप्स</h5>
-ऐप आविर्टर में जोड़ने के लिए फ़ॉन्ट्स कपटपूर्ण हो सकते हैं अभी, ऐप आविष्कारक आपको तीन फोंट, एक सेरिफ़, बिना सेरिफ़, और मोनोपेस्ड की पसंद का विकल्प देता है। यदि आप फ़ॉन्ट को "डिफ़ॉल्ट" के रूप में छोड़ देते हैं तो यह बिना-सेरिफ़ होगा एक कस्टम फ़ॉन्ट का उपयोग करने का एक आसान तरीका है कि आप इच्छित फ़ॉन्ट में अपने टेक्स्ट की तस्वीर अपलोड करें। यह सुर्खियाँ और खिताब के लिए सर्वश्रेष्ठ काम करता है </p>
+<p class="western" style="text-align: left;">ऐप आविर्टर में जोड़ने के लिए फ़ॉन्ट्स कपटपूर्ण हो सकते हैं अभी, ऐप आविष्कारक आपको तीन फोंट, एक सेरिफ़, बिना सेरिफ़, और मोनोपेस्ड की पसंद का विकल्प देता है। यदि आप फ़ॉन्ट को "डिफ़ॉल्ट" के रूप में छोड़ देते हैं तो यह बिना-सेरिफ़ होगा एक कस्टम फ़ॉन्ट का उपयोग करने का एक आसान तरीका है कि आप इच्छित फ़ॉन्ट में अपने टेक्स्ट की तस्वीर अपलोड करें। यह सुर्खियाँ और खिताब के लिए सर्वश्रेष्ठ काम करता है </p>
 
-बड़ी मात्रा में छोटे टेक्स्ट के लिए ऐप इन्वेंटर्स के प्रीसेट्स में से एक को चुनना आसान होगा यदि आप इस स्थिति में स्वयं पाते हैं, तो जांच लें कि कौन से ऐप आविर्टर प्रीसेट आपके शीर्षक और लोगो के साथ सबसे अच्छा लग रहा है! </p>
+<p class="western" style="text-align: left;">बड़ी मात्रा में छोटे टेक्स्ट के लिए ऐप इन्वेंटर्स के प्रीसेट्स में से एक को चुनना आसान होगा यदि आप इस स्थिति में स्वयं पाते हैं, तो जांच लें कि कौन से ऐप आविर्टर प्रीसेट आपके शीर्षक और लोगो के साथ सबसे अच्छा लग रहा है! </p>
 
-उदाहरण के लिए, हमने हमारे डिस्प्ले फॉन्ट में "हेडलाइन" का एक स्क्रीनशॉट लिया, <a href="https://store.typenetwork.com/foundry/fontbureau/fonts/eagle" target="_blank" rel="noopener"> ईगल बुक </a>, और उसके बाद हमारे लोगो के आगे एक क्षैतिज व्यवस्था में इसे अपलोड किया। हमने क्षैतिज व्यवस्था की ऊँचाई और चौड़ाई को समायोजित कर दिया जब तक कि यह नहीं देखा कि हम कैसे चाहते थे! तब हम अपने शीर्षक के साथ जाने के लिए डिफ़ॉल्ट सेरिफ़ फ़ॉन्ट का चयन करते हैं। </p>
+<p class="western" style="text-align: left;">उदाहरण के लिए, हमने हमारे डिस्प्ले फॉन्ट में "हेडलाइन" का एक स्क्रीनशॉट लिया, <a href="https://store.typenetwork.com/foundry/fontbureau/fonts/eagle" target="_blank" rel="noopener"> ईगल बुक </a>, और उसके बाद हमारे लोगो के आगे एक क्षैतिज व्यवस्था में इसे अपलोड किया। हमने क्षैतिज व्यवस्था की ऊँचाई और चौड़ाई को समायोजित कर दिया जब तक कि यह नहीं देखा कि हम कैसे चाहते थे! तब हम अपने शीर्षक के साथ जाने के लिए डिफ़ॉल्ट सेरिफ़ फ़ॉन्ट का चयन करते हैं। </p>
 
-<em> टिप: </em> लोगो और शीर्षक के ऊपर कुछ अतिरिक्त जगह पाने के लिए, हमने स्क्रीन के शीर्ष पर एक खाली लेबल जोड़ा और उसमें टेक्स्ट के आकार को समायोजित कर दिया जब तक कि हमें अंतरिक्ष की मात्रा न मिली हो हम चाहते थे। </p></em>
+<p class="western" style="text-align: left;"><em> टिप: </em> लोगो और शीर्षक के ऊपर कुछ अतिरिक्त जगह पाने के लिए, हमने स्क्रीन के शीर्ष पर एक खाली लेबल जोड़ा और उसमें टेक्स्ट के आकार को समायोजित कर दिया जब तक कि हमें अंतरिक्ष की मात्रा न मिली हो हम चाहते थे। </p>
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image05-heading_0000_Heading.png" alt="image05-heading_0000_heading" width="223" height="65" /> &lt;/ p&gt;
+<p class="western" style="text-align: center;"><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image05-heading_0000_Heading.png" alt="image05-heading_0000_heading" width="223" height="65" /></p> 
 <p style="text-align: center">↑ यह पाठ एक छवि है,
-जो हमने ऐप में रख दिया था↓ </p></p>
-<p style="text-align: center"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image05-edit.png" alt="image05-edit" width="337" height="600" /></p>
+जो हमने ऐप में रख दिया था↓ </p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image05-edit.png" alt="image05-edit" width="337" height="600" /></p>
 
-<h3>प्रतिबिंब</h3>
-अपने ब्रांड के लिए दृश्य बनाने पर बधाई! विज़िअस आपके ऐप को देखते हुए लोगों का एक बड़ा हिस्सा होगा! आगे बढ़ने से पहले नीचे प्रतिबिंब गतिविधि पूरी करें! </p>
+<div style="background-color: #006667; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px; text-align: center;">
+	<h3 id="reflect" style="color: white; text-align: left;">प्रतिबिंब</h3>
+	<p class="western" style="text-align: left;">अपने ब्रांड के लिए दृश्य बनाने पर बधाई! विज़िअस आपके ऐप को देखते हुए लोगों का एक बड़ा हिस्सा होगा! आगे बढ़ने से पहले नीचे प्रतिबिंब गतिविधि पूरी करें! </p>
 
-अपने ब्रैंड विज़ुअल्स को किसी ऐसे व्यक्ति को दिखाएं जो आपकी संरक्षक या आपकी टीम नहीं है। उनसे पूछें कि आपके लोगो, रंग योजना और फ़ॉन्ट विकल्प किस तरह से उनके बारे में सोचते हैं क्या उनका जवाब आपके ब्रांड के साथ समझ में आता है? अगर ऐसा नहीं होता है, तो आप अपने दृश्यों को आपकी कंपनी के लक्ष्यों को संरेखित करने के लिए क्या बदलाव कर सकते हैं? </p>
+	<p class="western" style="text-align: left;">अपने ब्रैंड विज़ुअल्स को किसी ऐसे व्यक्ति को दिखाएं जो आपकी संरक्षक या आपकी टीम नहीं है। उनसे पूछें कि आपके लोगो, रंग योजना और फ़ॉन्ट विकल्प किस तरह से उनके बारे में सोचते हैं क्या उनका जवाब आपके ब्रांड के साथ समझ में आता है? अगर ऐसा नहीं होता है, तो आप अपने दृश्यों को आपकी कंपनी के लक्ष्यों को संरेखित करने के लिए क्या बदलाव कर सकते हैं? </p>
 
-<b> अतिरिक्त संसाधन: </p></b>
-<ul>
- 	<li style="font-weight: 400"><a href="https://designschool.canva.com/tutorials/building-brand-kit/" target="_blank" rel="noopener">कैनो ब्रांडिंग किट ट्यूटोरियल</a></li>
- 	<li style="font-weight: 400"><a href="http://www.awwwards.com/99-creative-logo-designs-for-inspiration.html" target="_blank" rel="noopener">लोगो/logo के लिए प्रेरणा</a>
-<ul>
- 	<li style="font-weight: 400"><a href="https://dribbble.com/search?q=logo" target="_blank" rel="noopener">Dribbble, "लोगो" “logo” के लिए खोज परिणाम </a></li>
- 	<li style="font-weight: 400"><a href="https://www.behance.net/search?content=projects&amp;sort=appreciations&amp;time=week&amp;search=logo" target="_blank" rel="noopener">बीहंस, "लोगो"(logo) के लिए खोज परिणाम</a></li>
- 	<li style="font-weight: 400"><a href="http://qz.com/461040/how-to-design-an-enduring-logo-lessons-from-ibm-and-paul-rand/" target="_blank" rel="noopener">आईबीएम लोगो के इतिहास के बारे में जानें</a></li>
- 	<li style="font-weight: 400"><a href="https://www.youtube.com/watch?v=x3jTSB2ez-g" target="_blank" rel="noopener">लोगो डिजाइन की प्रक्रिया और इतिहास के बारे में और जानें</a></li>
-</ul>
-</li>
-</ul>
-<h3>बोनस अनुभाग </h3>
-<h5>प्रोग्रामर्स के लिए रंग </h5>
-अगर कोई आपको बताता है कि एक रंग "हल्का नीला हरा" है, तो आपके पास उस रंग का एक विचार होगा, जिसके बारे में वे बात कर रहे हैं। हालांकि, कंप्यूटर इसे समझ नहीं सकते हैं, इसलिए वे कुछ जानने के लिए आरजीबी मूल्यों पर भरोसा करते हैं जो एक रंग है </p>
+	<p class="western" style="text-align: left;"><span style="font-size: medium;"><b> अतिरिक्त संसाधन: </b></span></p>
+	<ul>
+	 	<li style="font-weight: 400; text-align: left;"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://designschool.canva.com/tutorials/building-brand-kit/" target="_blank" rel="noopener">कैनो ब्रांडिंग किट ट्यूटोरियल</a></span></li>
+	 	<li style="font-weight: 400; text-align: left;"><span style="color: #eae46f;"><a style="color: #eae46f;" href="http://www.awwwards.com/99-creative-logo-designs-for-inspiration.html" target="_blank" rel="noopener">लोगो/logo के लिए प्रेरणा</a></span>
+	<ul>
+	 	<li style="font-weight: 400; text-align: left;"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://dribbble.com/search?q=logo" target="_blank" rel="noopener">Dribbble, "लोगो" “logo” के लिए खोज परिणाम </a></span></li>
+	 	<li style="font-weight: 400; text-align: left;"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.behance.net/search?content=projects&amp;sort=appreciations&amp;time=week&amp;search=logo" target="_blank" rel="noopener">बीहंस, "लोगो"(logo) के लिए खोज परिणाम</a></span></li>
+	 	<li style="font-weight: 400; text-align: left;"><span style="color: #eae46f;"><a style="color: #eae46f;" href="http://qz.com/461040/how-to-design-an-enduring-logo-lessons-from-ibm-and-paul-rand/" target="_blank" rel="noopener">आईबीएम लोगो के इतिहास के बारे में जानें</a></span></li>
+	 	<li style="font-weight: 400; text-align: left;"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.youtube.com/watch?v=x3jTSB2ez-g" target="_blank" rel="noopener">लोगो डिजाइन की प्रक्रिया और इतिहास के बारे में और जानें</a></span></li>
+	</ul>
+	</li>
+	</ul>
+</div>	
+<h3 id="bonus" class="western" style="text-align: left;">बोनस अनुभाग </h3>
+<h5 class="western" style="text-align: left;">प्रोग्रामर्स के लिए रंग </h5>
+<p class="western" style="text-align: left;">अगर कोई आपको बताता है कि एक रंग "हल्का नीला हरा" है, तो आपके पास उस रंग का एक विचार होगा, जिसके बारे में वे बात कर रहे हैं। हालांकि, कंप्यूटर इसे समझ नहीं सकते हैं, इसलिए वे कुछ जानने के लिए आरजीबी मूल्यों पर भरोसा करते हैं जो एक रंग है </p>
 
-कंप्यूटर पर रंग का वर्णन करने के लिए एक आरजीबी मूल्य तीन नंबरों का उपयोग करता है पहला नंबर कंप्यूटर को बताता है कि लाल रंग कितना तीव्र है, दूसरा बताता है कि ग्रीन कितना तीव्र है, और तीसरा ब्लूज़ कितना तेज़ है। संख्या 0 और 225 के बीच कहीं भी हो सकती है। चलो कुछ उदाहरणों पर गौर करें! </p>
+<p class="western" style="text-align: left;">कंप्यूटर पर रंग का वर्णन करने के लिए एक आरजीबी मूल्य तीन नंबरों का उपयोग करता है पहला नंबर कंप्यूटर को बताता है कि लाल रंग कितना तीव्र है, दूसरा बताता है कि ग्रीन कितना तीव्र है, और तीसरा ब्लूज़ कितना तेज़ है। संख्या 0 और 225 के बीच कहीं भी हो सकती है। चलो कुछ उदाहरणों पर गौर करें! </p>
 
-&nbsp;
-<table>
+<table class=" aligncenter">
 <tbody>
 <tr>
 <td style="color: white" bgcolor="black" width="33%">
@@ -332,4 +367,3 @@
 </tr>
 </tbody>
 </table>
-&nbsp;
