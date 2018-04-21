@@ -3,26 +3,26 @@
 <h2>व्यापार की योजना</h2>
 यह इकाई केवल वरिष्ठ डिवीजन टीमों, जो एक व्यापार की योजना प्रस्तुत करेगा लिए आवश्यक है। हालांकि, जूनियर डिवीजन टीमों व्यवसाय विकास का एक बेहतर समझ हासिल करने के लिए इस इकाई में आगे बढ़ने के लिए प्रोत्साहित किया जाता।
 <ul>
- 	<li><a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_google_translate#how">एक व्यापार योजना बनाने के लिए कैसे</a></li>
- 	<li><a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_google_translate#anat">एक व्यापार योजना के एनाटॉमी</a></li>
- 	<li><a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_google_translate#summ">कार्यकारी सारांश</a></li>
- 	<li><a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_google_translate#desc">कंपनी विवरण</a></li>
- 	<li><a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_google_translate#prod">उत्पाद और सेवाएं</a></li>
- 	<li><a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_google_translate#market">बाजार का विश्लेषण</a></li>
- 	<li><a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_google_translate#strat">रणनीति के कार्यान्वयन</a></li>
- 	<li><a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_google_translate#team">संगठन और प्रबंधन दल</a></li>
- 	<li><a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_google_translate#proj">वित्तीय योजना और अनुमान</a></li>
- 	<li><a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_google_translate#create">एक व्यापार योजना बनाएं</a></li>
- 	<li><a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_google_translate#reflect">प्रतिबिंबित</a></li>
+ 	<li><a href="#how">एक व्यापार योजना बनाने के लिए कैसे</a></li>
+ 	<li><a href="#anat">एक व्यापार योजना के एनाटॉमी</a></li>
+ 	<li><a href="#summ">कार्यकारी सारांश</a></li>
+ 	<li><a href="#desc">कंपनी विवरण</a></li>
+ 	<li><a href="#prod">उत्पाद और सेवाएं</a></li>
+ 	<li><a href="#market">बाजार का विश्लेषण</a></li>
+ 	<li><a href="#strat">रणनीति के कार्यान्वयन</a></li>
+ 	<li><a href="#team">संगठन और प्रबंधन दल</a></li>
+ 	<li><a href="#proj">वित्तीय योजना और अनुमान</a></li>
+ 	<li><a href="#create">एक व्यापार योजना बनाएं</a></li>
+ 	<li><a href="#reflect">प्रतिबिंबित</a></li>
 </ul>
 <em>इस मॉड्यूल जूनियर डिवीजन के लिए अनिवार्य नहीं है, लेकिन जूनियर टीमों जो एक व्यवसाय बनाने के बारे में अधिक जानना चाहते हैं इसे पढ़ने के लिए प्रोत्साहित किया जाता है। केवल वरिष्ठ डिवीजन टीमों को एक व्यापार की योजना प्रस्तुत करने के लिए आवश्यक हैं।</em>
-<h2>सीखने के मकसद</h2>
+<h3><strong>सीखने के मकसद</strong></h3>
 इस मॉड्यूल में आप यह जानेंगे ...
 <ul>
  	<li>क्या एक व्यापार की योजना का निर्माण करता है</li>
  	<li>एक व्यवसाय योजना कैसे बनाएं</li>
 </ul>
-<h3>एक व्यापार योजना बनाने के लिए कैसे</h3>
+<h3 id="how"><strong>>एक व्यापार योजना बनाने के लिए कैसे</strong></h3>
 आप एक बहुत पूरा किया है! की समीक्षा आप क्या किया है करते हैं:
 <ul>
  	<li>में कारोबार के विभिन्न प्रकार के बारे में सीखा <a href="https://iridescent.staging.wpengine.com/curriculum/business-1/" target="_blank" rel="noopener">व्यापार 1</a></li>
@@ -37,15 +37,16 @@
 </ul>
 क्या एक व्यवसाय योजना के बारे में के बारे में और अधिक जानकारी प्राप्त करने के लिए, इस वीडियो पर एक नज़र डालें।
 
-
-<h3>एक व्यापार योजना के एनाटॉमी</h3>
+<center>
+<iframe src="https://www.youtube.com/embed/PDWvcsTloJo" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></center>&nbsp;
+<h3 id="anat"><strong>एक व्यापार योजना के एनाटॉमी</strong></h3>
 एक व्यवसाय योजना के बिना, यह एक व्यवसाय बनाने के लिए मुश्किल है। यह किसी भी ब्लूप्रिंट के बिना एक घर का निर्माण की तरह है। एक योजना भूमिकाओं, जिम्मेदारियों, और आपके व्यापार के लिए भविष्य की रूपरेखा। यह सरल रखने के लिए, हम व्यापार की योजना है कि आप सबमिट करना होगा के घटकों पर जाने के लिए जा रहे हैं। इस अध्याय में, आपको निम्न के बारे में सीखेंगे
 <ul>
  	<li><b>कार्यकारी सारांश</b> - अपने व्यापार का एक संक्षिप्त और संक्षिप्त विवरण।</li>
  	<li><b>कंपनी विवरण</b> - आप क्या करते हैं के बारे में जानकारी, कैसे अपने व्यापार को दूसरों से अलग है, और जो आपके व्यवसाय में कार्य करता है।</li>
  	<li><b>उत्पाद और / या सेवा विवरण</b> - परिभाषित उत्पादों और / या सेवाओं आप बेचते हैं क्या, समझाने क्यों यह अपने ग्राहकों को लाभ, और अपने मोबाइल ऐप्लिकेशन विकसित किया जाएगा।</li>
  	<li><b>बाजार विश्लेषण</b> - बाजार है कि आप में प्रवेश करने की योजना पर पृष्ठभूमि दे। यह जहां आप अपने काम आप बाजार अनुसंधान में किया था, उपभोक्ता अनुसंधान और प्रतिस्पर्धी विश्लेषण की तरह शामिल होंगे है।</li>
- 	<li><b>रणनीति और कार्यान्वयन</b> - यहाँ, आप कैसे अपने व्यापार चलेंगे समझा जाएगा, या काम करते हैं, और आप कैसे बाजार के लिए अपने उत्पाद और / या सेवाओं को पेश करने की योजना है। यह आपके से लिया जाएगा <a href="http://www.iridescent.staging.wpengine.com/curriculum/market-1/" target="_blank" rel="noopener">ब्रांडिंग</a> और बिजनेस मॉडल।</li>
+ 	<li><b>रणनीति और कार्यान्वयन</b> - यहाँ, आप कैसे अपने व्यापार चलेंगे समझा जाएगा, या काम करते हैं, और आप कैसे बाजार के लिए अपने उत्पाद और / या सेवाओं को पेश करने की योजना है। यह आपके से लिया जाएगा <a href="http://www.technovationchallenge.org/curriculum/market-1/" target="_blank" rel="noopener">ब्रांडिंग</a> और बिजनेस मॉडल।</li>
  	<li><b>वित्तीय योजना और अनुमानों</b> - कैसे आप पैसा खर्च किया जाएगा, पैसा बनाने, और भविष्य है, जो जानकारी आप अपनी बिजनेस मॉडल से विकसित है के लिए पैसे का उपयोग करने का सारांश।</li>
 </ul>
 इस यूनिट के दौरान, आप मदद करने के लिए एक संदर्भ के रूप में अन्य व्यापार की योजना के उदाहरण का उपयोग के रूप में आप अपने खुद के बना सकते हैं। के बाद से हर एक अलग है यकीन है कि सीधे दूसरे की योजनाओं से लेने के लिए नहीं है, और आप एक है कि अपने काम से काम के लिए अद्वितीय है का विकास करना चाहिए! <em>अनुस्मारक: इस मॉड्यूल जूनियर डिवीजन के लिए अनिवार्य नहीं है, लेकिन जूनियर टीमों जो एक व्यवसाय बनाने के बारे में अधिक जानना चाहते हैं इसे पढ़ने के लिए प्रोत्साहित किया जाता है। केवल वरिष्ठ डिवीजन टीमों को एक व्यापार की योजना प्रस्तुत करने के लिए आवश्यक हैं।</em>
@@ -65,149 +66,157 @@
  	<li><a href="http://www.bplans.com/agriculture_farm_business_plan/strategy_and_implementation_summary_fc.php" target="_blank" rel="noopener">कृषि फार्म</a></li>
 </ul>
 &nbsp;
-<blockquote>"कभी अपने आप को दूसरों की सीमित कल्पना की वजह से सीमित कर; अपने खुद के सीमित कल्पना की वजह से दूसरों को सीमित नहीं किया।"</blockquote>
-&nbsp;
-
--Mae Jemison, इंजीनियर, चिकित्सक, और नासा के अंतरिक्ष यात्री
-<h3>कार्यकारी सारांश</h3>
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<blockquote>"कभी अपने आप को दूसरों की सीमित कल्पना की वजह से सीमित कर; अपने खुद के सीमित कल्पना की वजह से दूसरों को सीमित नहीं किया।"</blockquote>
+	&nbsp;
+	<p style="text-align: right;">-Mae Jemison, इंजीनियर, चिकित्सक, और नासा के अंतरिक्ष यात्री</p>
+</div>
+<h3 id="summ"><strong>कार्यकारी सारांश</strong></h3>
 कार्यकारी सारांश प्रथम खंड होना चाहिए। यह अपने व्यापार की योजना के एक सिंहावलोकन है, और पेज 1 से अधिक होना चाहिए। तो यह अच्छी तरह से लिखा जा करने की जरूरत है यह एक पहली छाप दे देंगे। आप पाठक आपके व्यवसाय में रुचि बनाना चाहते और अधिक जानना चाहते हैं। आप एक के ट्रेलर की तरह इस बारे में सोच सकते फिल्म यह पाठक आपका व्यवसाय क्या है की एक विचार देने के लिए, लेकिन यह भी उन्हें लुभाने पढ़ने रखने के लिए है। हालांकि इस खंड पहले चला जाता है, तो आप चाहिए <b>यह पिछले लिखने पर विचार! </b>इस तरह, आप अपने व्यापार की योजना के सभी विवरण पता है और अपने विचारों को अच्छी तरह से संक्षेप में प्रस्तुत कर सकते हैं। एक मानक व्यापार की योजना के लिए कार्यकारी सारांश शामिल करना चाहिए:
 <ul>
- 	<li>आपके व्यवसाय का नाम और स्थान</li>
- 	<li>उत्पादों और / या सेवाओं की पेशकश की (मोबाइल एप्लिकेशन)</li>
- 	<li>अपने व्यापार की योजना का उद्देश्य है (निवेशकों को सुरक्षित करने के लिए, एक एप्लिकेशन लॉन्च, आदि)</li>
+ 	<li style="font-weight: 400;">आपके व्यवसाय का नाम और स्थान</li>
+ 	<li style="font-weight: 400;">उत्पादों और / या सेवाओं की पेशकश की (मोबाइल एप्लिकेशन)</li>
+ 	<li style="font-weight: 400;">अपने व्यापार की योजना का उद्देश्य है (निवेशकों को सुरक्षित करने के लिए, एक एप्लिकेशन लॉन्च, आदि)</li>
 </ul>
 आप किसी भी अतिरिक्त मदद की जरूरत है, तो यहां कुछ सिफारिश संसाधन हैं:
 <ul>
- 	<li><a href="http://articles.bplans.com/writing-an-executive-summary/" target="_blank" rel="noopener">BPlans: कैसे एक कार्यकारी सारांश लिखें</a></li>
- 	<li><a href="http://hbswk.hbs.edu/archive/3660.html" target="_blank" rel="noopener">हार्वर्ड बिजनेस स्कूल: क्राफ्टिंग एक शक्तिशाली कार्यकारी सारांश </a></li>
- 	<li><a href="http://www.umuc.edu/writingcenter/writingresources/exec_summaries.cfm" target="_blank" rel="noopener">मैरीलैंड विश्वविद्यालय: कार्यकारी सारांश लेखन</a></li>
+ 	<li style="font-weight: 400;"><a href="http://articles.bplans.com/writing-an-executive-summary/" target="_blank" rel="noopener">BPlans: कैसे एक कार्यकारी सारांश लिखें</a></li>
+ 	<li style="font-weight: 400;"><a href="http://hbswk.hbs.edu/archive/3660.html" target="_blank" rel="noopener">हार्वर्ड बिजनेस स्कूल: क्राफ्टिंग एक शक्तिशाली कार्यकारी सारांश </a></li>
+ 	<li style="font-weight: 400;"><a href="http://www.umuc.edu/writingcenter/writingresources/exec_summaries.cfm" target="_blank" rel="noopener">मैरीलैंड विश्वविद्यालय: कार्यकारी सारांश लेखन</a></li>
 </ul>
-<h3>कंपनी विवरण</h3>
+<h3 id="desc"><strong>कंपनी विवरण</strong></h3>
 एक कंपनी विवरण अपने व्यापार के एक सिंहावलोकन है, जो मोटे तौर पर वर्णन करना चाहिए कि आप कौन हैं, कैसे आपकी कंपनी चलाता है और कार्य (संचालित), और अपने लक्ष्यों को क्या कर रहे हैं। यह कार्यकारी सारांश का विस्तार है, और अधिक विस्तार और स्पष्टीकरण देता है। यह कवर करना चाहिए:
 <ul>
- 	<li>व्यवसाय के प्रकार (लाभदायक, सामाजिक उद्यम, गैर लाभ, आदि)</li>
- 	<li>आपकी कंपनी के मिशन वक्तव्य</li>
- 	<li>अपने व्यवसाय में महत्वपूर्ण लोगों और भूमिकाओं वे खेलते हैं</li>
- 	<li>अपने उत्पाद / सेवा का अवलोकन और जो अपने बाजार हो जाएगा</li>
- 	<li>कैसे अपने व्यापार बनाया गया था का एक संक्षिप्त इतिहास</li>
- 	<li>तुम क्या व्यापार की योजना के बाकी हिस्सों में जानकारी और अपने भविष्य के लक्ष्यों के आधार पर निकट भविष्य में पूरा करना चाहते हैं की एक रूपरेखा।</li>
+ 	<li style="font-weight: 400;">व्यवसाय के प्रकार (लाभदायक, सामाजिक उद्यम, गैर लाभ, आदि)</li>
+ 	<li style="font-weight: 400;">आपकी कंपनी के मिशन वक्तव्य</li>
+ 	<li style="font-weight: 400;">अपने व्यवसाय में महत्वपूर्ण लोगों और भूमिकाओं वे खेलते हैं</li>
+ 	<li style="font-weight: 400;">अपने उत्पाद / सेवा का अवलोकन और जो अपने बाजार हो जाएगा</li>
+ 	<li style="font-weight: 400;">कैसे अपने व्यापार बनाया गया था का एक संक्षिप्त इतिहास</li>
+ 	<li style="font-weight: 400;">तुम क्या व्यापार की योजना के बाकी हिस्सों में जानकारी और अपने भविष्य के लक्ष्यों के आधार पर निकट भविष्य में पूरा करना चाहते हैं की एक रूपरेखा।</li>
 </ul>
 आप किसी भी अतिरिक्त मदद की जरूरत है, तो यहां कुछ सिफारिश संसाधन हैं:
 <ul>
- 	<li><a href="http://articles.bplans.com/write-company-overview/" target="_blank" rel="noopener">BPlans: कैसे लिखें एक कंपनी विवरण</a></li>
- 	<li><a href="https://www.thebalance.com/how-to-write-a-company-description-2951558" target="_blank" rel="noopener">शेष राशि: कैसे लिखें एक कंपनी विवरण</a></li>
+ 	<li style="font-weight: 400;"><a href="http://articles.bplans.com/write-company-overview/" target="_blank" rel="noopener">BPlans: कैसे लिखें एक कंपनी विवरण</a></li>
+ 	<li style="font-weight: 400;"><a href="https://www.thebalance.com/how-to-write-a-company-description-2951558" target="_blank" rel="noopener">शेष राशि: कैसे लिखें एक कंपनी विवरण</a></li>
 </ul>
-<h3>उत्पाद और सेवाएं</h3>
+<h3 id="prod"><strong>उत्पाद और सेवाएं</strong></h3>
 उत्पाद / सेवा अनुभाग में, आप स्पष्ट रूप से वर्णन करना चाहिए आप क्या बेच रहे हैं और कैसे ग्राहक लाभ पर ध्यान केंद्रित। आप अपने मोबाइल ऐप्लिकेशन विकसित-अगर किया जा रहा है वहाँ किसी को भी आप उस पर काम कर रहे हैं, या आप अपने आप से मोबाइल एप्लिकेशन बना रहे हैं तो है के बारे में जानकारी शामिल करने के लिए चाहता हूँ। यहाँ, आप अपने मोबाइल एप्लिकेशन के चित्र या स्क्रीनशॉट जोड़ने पर विचार करें, या अपने मोबाइल ऐप्लिकेशन के लिए काम करेंगे पर चित्र शामिल करना चाहिए। सामान्य तौर पर, इस खंड को शामिल करना चाहिए:
 <ul>
- 	<li>अपने उत्पाद / सेवा के बारे में गहराई से विवरण, ग्राहकों के लिए विशेष लाभ पर बल
+ 	<li style="font-weight: 400;">अपने उत्पाद / सेवा के बारे में गहराई से विवरण, ग्राहकों के लिए विशेष लाभ पर बल
 <ul>
- 	<li>इस चित्रित करने के लिए दृश्यों या छवियों का उपयोग करने का प्रयास करें। एप्लिकेशन की स्क्रीनशॉट कर सकते हैं। शो, बस बता नहीं है!</li>
+ 	<li style="font-weight: 400;">इस चित्रित करने के लिए दृश्यों या छवियों का उपयोग करने का प्रयास करें। एप्लिकेशन की स्क्रीनशॉट कर सकते हैं। शो, बस बता नहीं है!</li>
 </ul>
 </li>
- 	<li>कैसे अपने उत्पाद / सेवा की एक व्याख्या प्रतियोगिता का लाभ होता है</li>
- 	<li>आपका उत्पाद विकास; विकास उत्पाद की वर्तमान अवस्था में है, और कैसे तैयार बाजार में लाए गए के लिए यह है</li>
- 	<li>अनुसंधान और विकास गतिविधियों है कि नए उत्पादों / सेवाओं को जन्म दे सकती</li>
+ 	<li style="font-weight: 400;">कैसे अपने उत्पाद / सेवा की एक व्याख्या प्रतियोगिता का लाभ होता है</li>
+ 	<li style="font-weight: 400;">आपका उत्पाद विकास; विकास उत्पाद की वर्तमान अवस्था में है, और कैसे तैयार बाजार में लाए गए के लिए यह है</li>
+ 	<li style="font-weight: 400;">अनुसंधान और विकास गतिविधियों है कि नए उत्पादों / सेवाओं को जन्म दे सकती</li>
 </ul>
 आप किसी भी अतिरिक्त मदद की जरूरत है, तो यहां कुछ सिफारिश संसाधन हैं:
 <ul>
  	<li><a href="http://smallbusiness.chron.com/describe-companys-products-services-39987.html" target="_blank" rel="noopener">ह्यूस्टन क्रॉनिकल: कैसे आपकी कंपनी के उत्पादों और सेवाओं का वर्णन करने के लिए</a></li>
  	<li><a href="http://www.inc.com/jeff-haden/how-to-write-a-great-business-plan-products-and-services.html" target="_blank" rel="noopener">इंक: एक महान व्यापार योजना कैसे लिखें: उत्पाद और सेवाएं</a></li>
 </ul>
-<h3>बाजार का विश्लेषण</h3>
+<h3 id="market"><strong>बाजार का विश्लेषण</strong></h3>
 यहाँ आप होमवर्क आप बाजार अनुसंधान में किया था के सभी दिखावा जाएगा। आप संक्षेप में प्रस्तुत करने आप आप कैसे लगता है कि यह प्रदर्शन करेंगे पर बाजार अपने मोबाइल एप्लिकेशन के लिए बनाया गया है, और अपने निष्कर्ष के बारे में क्या सीखा चाहता हूँ। आपका बाजार विश्लेषण शामिल करना चाहिए:
 <ul>
- 	<li>बाजार का विवरण
+ 	<li style="font-weight: 400;">बाजार का विवरण
 <ul>
- 	<li>कुंजी प्रतियोगियों कौन हैं?</li>
- 	<li>आपको क्या लगता है अपने मोबाइल एप्लिकेशन करते हैं और क्यों जाएगी?</li>
+ 	<li style="font-weight: 400;">कुंजी प्रतियोगियों कौन हैं?</li>
+ 	<li style="font-weight: 400;">आपको क्या लगता है अपने मोबाइल एप्लिकेशन करते हैं और क्यों जाएगी?</li>
 </ul>
 </li>
- 	<li>ग्राहक अनुसंधान
+ 	<li style="font-weight: 400;">ग्राहक अनुसंधान
 <ul>
- 	<li>बाजार का आकार</li>
- 	<li>जनसांख्यिकी</li>
+ 	<li style="font-weight: 400;">बाजार का आकार</li>
+ 	<li style="font-weight: 400;">जनसांख्यिकी</li>
 </ul>
 </li>
- 	<li>प्रतिद्वन्द्वी का विश्लेषण
+ 	<li style="font-weight: 400;">प्रतिद्वन्द्वी का विश्लेषण
 <ul>
- 	<li>प्रतियोगी शक्तियों और कमजोरियों</li>
- 	<li>कैसे अपने अनुप्रयोग इन प्रतियोगियों के खिलाफ खड़े होंगे</li>
+ 	<li style="font-weight: 400;">प्रतियोगी शक्तियों और कमजोरियों</li>
+ 	<li style="font-weight: 400;">कैसे अपने अनुप्रयोग इन प्रतियोगियों के खिलाफ खड़े होंगे</li>
 </ul>
 </li>
 </ul>
 आप किसी भी अतिरिक्त मदद की जरूरत है, तो यहां कुछ सिफारिश संसाधन हैं:
 <ul>
- 	<li><a href="https://www.sba.gov/starting-business/write-your-business-plan/market-analysis" target="_blank" rel="noopener">लघु व्यवसाय प्रशासन: अपने बाजार विश्लेषण में क्या शामिल करना</a></li>
- 	<li><a href="http://articles.bplans.com/how-to-write-a-market-analysis/" target="_blank" rel="noopener">BPlans: कैसे एक बाजार विश्लेषण लिखें</a></li>
- 	<li><a href="https://www.thebalance.com/small-business-plans-writing-the-market-analysis-section-1794229" target="_blank" rel="noopener">शेष राशि: बाजार विश्लेषण धारा लेखन</a></li>
+ 	<li style="font-weight: 400;"><a href="https://www.sba.gov/starting-business/write-your-business-plan/market-analysis" target="_blank" rel="noopener">लघु व्यवसाय प्रशासन: अपने बाजार विश्लेषण में क्या शामिल करना</a></li>
+ 	<li style="font-weight: 400;"><a href="http://articles.bplans.com/how-to-write-a-market-analysis/" target="_blank" rel="noopener">BPlans: कैसे एक बाजार विश्लेषण लिखें</a></li>
+ 	<li style="font-weight: 400;"><a href="https://www.thebalance.com/small-business-plans-writing-the-market-analysis-section-1794229" target="_blank" rel="noopener">शेष राशि: बाजार विश्लेषण धारा लेखन</a></li>
 </ul>
 &nbsp;
-<blockquote>"यदि आप नहीं जानते कि तुम कहाँ जा रहे हैं, आप ऊपर किसी ऐसे स्थान पर किसी और को समाप्त कर देंगे।"</blockquote>
-&nbsp;
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<blockquote>"यदि आप नहीं जानते कि तुम कहाँ जा रहे हैं, आप ऊपर किसी ऐसे स्थान पर किसी और को समाप्त कर देंगे।"</blockquote>
+	&nbsp;
 
--Yogi Berra, बेसबॉल प्रबंधक और प्लेयर
-<h3>रणनीति के कार्यान्वयन</h3>
+    <p style="text-align: right;">-Yogi Berra, बेसबॉल प्रबंधक और प्लेयर</p>
+</div>
+<h3 id="strat"><strong>रणनीति के कार्यान्वयन</strong></h3>
 इस खंड में, पहली बात आप क्या करना चाहते अपनी विपणन रणनीति की व्याख्या है, और कैसे आप संभावित ग्राहकों के लिए अपने ऐप्लिकेशन का प्रचार करेंगे। आप यह भी कितना एप्लिकेशन खर्च होंगे, ग्राहकों द्वारा आपके एप्लिकेशन के बारे में कैसे सुनेंगे, और कैसे ग्राहकों को खरीदने और अपने अनुप्रयोग मिल जाएगा की तरह विवरण शामिल करना चाहते हैं। अनिवार्य रूप से, आप को समझाने के लिए कि कैसे आप लोगों को अपने उत्पाद प्रदर्शित करेगा, आप कैसे लोगों को इसे खरीदने के लिए मिल जाएगा चाहते हैं, और एक बार लोग आपके एप्लिकेशन खरीद क्या होता है। आदेश में इस का वर्णन करने के लिए, आप की आवश्यकता होगी:
 <ul>
- 	<li>कैसे आप लक्षित ग्राहकों तक पहुंचने और बाजार में प्रवेश करेंगे की एक व्याख्या</li>
- 	<li>मूल्य निर्धारण, पदोन्नति, और ऐप के वितरण के बारे में विवरण</li>
- 	<li>कैसे कंपनी जब एप्लिकेशन जब एप्लिकेशन ग्राहक को दिया जाता है करने के लिए उत्पादन किया जाता है से कार्य करेगा, की एक व्याख्या</li>
- 	<li>संख्या और कर्मचारियों के प्रकार के बारे में जानकारी आप वर्तमान में है या आवश्यकता होगी</li>
+ 	<li style="font-weight: 400;">कैसे आप लक्षित ग्राहकों तक पहुंचने और बाजार में प्रवेश करेंगे की एक व्याख्या</li>
+ 	<li style="font-weight: 400;">मूल्य निर्धारण, पदोन्नति, और ऐप के वितरण के बारे में विवरण</li>
+ 	<li style="font-weight: 400;">कैसे कंपनी जब एप्लिकेशन जब एप्लिकेशन ग्राहक को दिया जाता है करने के लिए उत्पादन किया जाता है से कार्य करेगा, की एक व्याख्या</li>
+ 	<li style="font-weight: 400;">संख्या और कर्मचारियों के प्रकार के बारे में जानकारी आप वर्तमान में है या आवश्यकता होगी</li>
 </ul>
 आप किसी भी अतिरिक्त मदद की जरूरत है, तो यहां कुछ सिफारिश संसाधन हैं:
 <ul>
- 	<li><a href="http://www.cf-sn.ca/business/business_plans_pre_feb_2014/implementation.php" target="_blank" rel="noopener">समुदाय फ्यूचर्स: कार्यान्वयन योजना और समय</a></li>
- 	<li><a href="http://onstrategyhq.com/resources/strategic-implementation/" target="_blank" rel="noopener">रणनीति मुख्यालय पर: सामरिक कार्यान्वयन</a></li>
+ 	<li style="font-weight: 400;"><a href="http://www.cf-sn.ca/business/business_plans_pre_feb_2014/implementation.php" target="_blank" rel="noopener">समुदाय फ्यूचर्स: कार्यान्वयन योजना और समय</a></li>
+ 	<li style="font-weight: 400;"><a href="http://onstrategyhq.com/resources/strategic-implementation/" target="_blank" rel="noopener">रणनीति मुख्यालय पर: सामरिक कार्यान्वयन</a></li>
 </ul>
-<h3>संगठन और प्रबंधन दल</h3>
+<h3 id="team"><strong>>संगठन और प्रबंधन दल</strong></h3>
 अब आप प्रमुख लोग है कि आपकी कंपनी में हैं के सभी का वर्णन करना चाहते हैं। यह जो आपके व्यवसाय में क्या करता है समझाने और औचित्य साबित क्यों तुम उन्हें अपनी टीम पर होगा। प्रत्येक विभाग या आपकी कंपनी के विभाग तथा उसके द्वारा का विस्तृत विवरण दे। किसी भी सलाहकार के लिए पृष्ठभूमि और तर्क को शामिल करें यदि आप उन्हें यहाँ भी है। अपनी टीम छोटा है, तो आप सभी विभिन्न महत्वपूर्ण भूमिका वे आपकी कंपनी में खेलने का प्रदर्शन कर सकते हैं। आप प्रदान करने के लिए चाहता हूँ:
+<ul>कारी, उनके नाम, कंपनी और एक जीवनी के भीतर भागीदारी की सीमा उनकी पृष्ठभूमि और कौशल लिस्टिंग सहित</li>
+ 	<li style="font-weight: 400;">अपने प्रबंधन टीम के प्रोफाइल, उनके नाम, स्थिति, प्रमुख दायित्वों, और पिछले अनुभव (क्या प्रत्येक टीम के सदस्य व्यापार और एप्लिकेशन को बनाने के लिए किया था) सहित
 <ul>
- 	<li>मालिकों के बारे में जानकारी, उनके नाम, कंपनी और एक जीवनी के भीतर भागीदारी की सीमा उनकी पृष्ठभूमि और कौशल लिस्टिंग सहित</li>
- 	<li>अपने प्रबंधन टीम के प्रोफाइल, उनके नाम, स्थिति, प्रमुख दायित्वों, और पिछले अनुभव (क्या प्रत्येक टीम के सदस्य व्यापार और एप्लिकेशन को बनाने के लिए किया था) सहित
-<ul>
- 	<li>आप अपनी टीम के सदस्यों, मुख्य कार्यकारी अधिकारी (सीईओ) या मुख्य तकनीकी अधिकारी (सीटीओ) की तरह के लिए नौकरी के शीर्षक के साथ आ सकते हैं। तुम भी इसके साथ मूर्खतापूर्ण प्राप्त कर सकते हैं, मुख्य आइडिया निर्माता की तरह! <a href="https://en.wikipedia.org/wiki/List_of_corporate_titles" target="_blank" rel="noopener">यहाँ</a> कुछ उदाहरण हैं।</li>
+ 	<li style="font-weight: 400;">आप अपनी टीम के सदस्यों, मुख्य कार्यकारी अधिकारी (सीईओ) या मुख्य तकनीकी अधिकारी (सीटीओ) की तरह के लिए नौकरी के शीर्षक के साथ आ सकते हैं। तुम भी इसके साथ मूर्खतापूर्ण प्राप्त कर सकते हैं, मुख्य आइडिया निर्माता की तरह! <a href="https://en.wikipedia.org/wiki/List_of_corporate_titles" target="_blank" rel="noopener">यहाँ</a> कुछ उदाहरण हैं।</li>
 </ul>
 </li>
- 	<li>जैसे आपका संरक्षक (रों) के रूप में किसी भी सलाहकार, की सूची।</li>
+ 	<li style="font-weight: 400;">जैसे आपका संरक्षक (रों) के रूप में किसी भी सलाहकार, की सूची।</li>
 </ul>
 आप किसी भी अतिरिक्त मदद की जरूरत है, तो यहां कुछ सिफारिश संसाधन हैं:
 <ul>
- 	<li><a href="https://www.sba.gov/starting-business/write-your-business-plan/organization-management" target="_blank" rel="noopener">लघु व्यवसाय प्रशासन: संगठन और प्रबंधन</a></li>
- 	<li><a href="http://us.accion.org/business-resources/articles-videos/business-plan-section-3-organization-and-management" target="_blank" rel="noopener">ACCION: व्यापार योजना धारा 3: संगठन और प्रबंधन</a></li>
- 	<li><a href="https://www.thebalance.com/business-plan-organization-and-management-section-1794228" target="_blank" rel="noopener">शेष राशि: संगठन और प्रबंधन धारा</a></li>
+ 	<li style="font-weight: 400;"><a href="https://www.sba.gov/starting-business/write-your-business-plan/organization-management" target="_blank" rel="noopener">लघु व्यवसाय प्रशासन: संगठन और प्रबंधन</a></li>
+ 	<li style="font-weight: 400;"><a href="http://us.accion.org/business-resources/articles-videos/business-plan-section-3-organization-and-management" target="_blank" rel="noopener">ACCION: व्यापार योजना धारा 3: संगठन और प्रबंधन</a></li>
+ 	<li style="font-weight: 400;"><a href="https://www.thebalance.com/business-plan-organization-and-management-section-1794228" target="_blank" rel="noopener">शेष राशि: संगठन और प्रबंधन धारा</a></li>
 </ul>
-<h3>वित्तीय योजना और अनुमान</h3>
-अपने पिछले अनुभाग के लिए, आप आप चीजों को आप अपने व्यापार की योजना-इस से आ रही है वर्णित के सभी कैसे प्राप्त करेंगे के लिए एक मौद्रिक स्पष्टीकरण देने की जरूरत होगी <a href="http://www.iridescent.staging.wpengine.com/curriculum/business3/" target="_blank" rel="noopener">बिजनेस मॉडल</a> । यह एक महत्वपूर्ण भाग है कि सब कुछ एक साथ बांध है। आप पता चलता है कि अपनी योजना प्राप्त है और उसे अपने व्यवसाय, सफल हो जाएगा, क्योंकि यह कड़ी मेहनत एक व्यवसाय शुरू करने के लिए है की जरूरत है! टेबल और ग्राफ़ का उपयोग एक सरल प्रारूप में जानकारी प्रदान करेंगे। अपनी योजना के मुख्य भागों हैं:
+<h3 id="proj"><strong>>वित्तीय योजना और अनुमान</strong></h3>
+अपने पिछले अनुभाग के लिए, आप आप चीजों को आप अपने व्यापार की योजना-इस से आ रही है वर्णित के सभी कैसे प्राप्त करेंगे के लिए एक मौद्रिक स्पष्टीकरण देने की जरूरत होगी <a href="http://www.technovationchallenge.org/curriculum/business-3/" target="_blank" rel="noopener">बिजनेस मॉडल</a> । यह एक महत्वपूर्ण भाग है कि सब कुछ एक साथ बांध है। आप पता चलता है कि अपनी योजना प्राप्त है और उसे अपने व्यवसाय, सफल हो जाएगा, क्योंकि यह कड़ी मेहनत एक व्यवसाय शुरू करने के लिए है की जरूरत है! टेबल और ग्राफ़ का उपयोग एक सरल प्रारूप में जानकारी प्रदान करेंगे। अपनी योजना के मुख्य भागों हैं:
 <ul>
- 	<li>पैसा कितना आप अब और आप इसे कैसे उपयोग किया जाएगा</li>
- 	<li>कितने पैसे आप की आवश्यकता होगी और क्या लक्ष्यों को निर्धारित किया है
+ 	<li style="font-weight: 400;">पैसा कितना आप अब और आप इसे कैसे उपयोग किया जाएगा</li>
+ 	<li style="font-weight: 400;">कितने पैसे आप की आवश्यकता होगी और क्या लक्ष्यों को निर्धारित किया है
 <ul>
- 	<li>आप वित्त पोषण के साथ क्या कर यदि आप एक फाइनल थे होगा? कैसे आप अपने व्यापार के कुछ हिस्सों के लिए उन निधियों का आवंटन होगा? यह आप कर सकते हैं के रूप में के रूप में विशिष्ट होने के लिए मदद करता है, यह अगर आप ठीक से पता नहीं-अपने व्यापार के लिए नए और विकासशील है समझ में आता है!</li>
+ 	<li style="font-weight: 400;">आप वित्त पोषण के साथ क्या कर यदि आप एक फाइनल थे होगा? कैसे आप अपने व्यापार के कुछ हिस्सों के लिए उन निधियों का आवंटन होगा? यह आप कर सकते हैं के रूप में के रूप में विशिष्ट होने के लिए मदद करता है, यह अगर आप ठीक से पता नहीं-अपने व्यापार के लिए नए और विकासशील है समझ में आता है!</li>
 </ul>
 </li>
- 	<li>कितने पैसे आप अगले 3-5 साल में बनाने के लिए योजना बनाई है और कैसे (लाभ प्रक्षेपण)</li>
+ 	<li style="font-weight: 400;">कितने पैसे आप अगले 3-5 साल में बनाने के लिए योजना बनाई है और कैसे (लाभ प्रक्षेपण)</li>
 </ul>
 यदि आप अटक जाते हैं मदद के लिए अपने गुरु से पूछो! उन्हें सवाल पूछने और आप के लिए प्रतिक्रिया देने के लिए सुनिश्चित करें। वे यहाँ हो मदद करने के लिए। आप किसी भी अतिरिक्त मदद की जरूरत है, तो यहां कुछ सिफारिश संसाधन हैं:
 <ul>
- 	<li><a href="http://www.inc.com/guides/business-plan-financial-section.html" target="_blank" rel="noopener">इंक: एक व्यापार योजना के वित्तीय धारा कैसे लिखें</a></li>
- 	<li><a href="https://www.sba.gov/starting-business/write-your-business-plan/financial-projections" target="_blank" rel="noopener">लघु व्यवसाय प्रशासन: वित्तीय अनुमान</a></li>
- 	<li><a href="https://www.entrepreneur.com/article/220653" target="_blank" rel="noopener">उद्यमी: तीन वित्तीय guesstimates हर व्यापार योजना की जरूरत</a></li>
+ 	<li style="font-weight: 400;"><a href="http://www.inc.com/guides/business-plan-financial-section.html" target="_blank" rel="noopener">इंक: एक व्यापार योजना के वित्तीय धारा कैसे लिखें</a></li>
+ 	<li style="font-weight: 400;"><a href="https://www.sba.gov/starting-business/write-your-business-plan/financial-projections" target="_blank" rel="noopener">लघु व्यवसाय प्रशासन: वित्तीय अनुमान</a></li>
+ 	<li style="font-weight: 400;"><a href="https://www.entrepreneur.com/article/220653" target="_blank" rel="noopener">उद्यमी: तीन वित्तीय guesstimates हर व्यापार योजना की जरूरत</a></li>
 </ul>
-<h3>एक व्यापार योजना बनाएं</h3>
-अब जब कि तुम एक व्यापार की योजना के सभी भिन्न भागों पता है, तुम यह सब एक साथ डाल शुरू करने के लिए करने जा रहे हैं! यदि आप अपनी टीम के साथ काम तो यह मदद और इसे एक साथ बनाने के परामर्श देंगे यह एक बड़ा दस्तावेज है। विभिन्न अनुभागों में काम विभाजित इसलिए प्रत्येक टीम के सदस्य बाहर कर सकते हैं। के हम क्या सीखा सारांश यह करते हैं:
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3 id="create"><strong>एक व्यापार योजना बनाएं</strong></h3>
+	अब जब कि तुम एक व्यापार की योजना के सभी भिन्न भागों पता है, तुम यह सब एक साथ डाल शुरू करने के लिए करने जा रहे हैं! यदि आप अपनी टीम के साथ काम तो यह मदद और इसे एक साथ बनाने के परामर्श देंगे यह एक बड़ा दस्तावेज है। विभिन्न अनुभागों में काम विभाजित इसलिए प्रत्येक टीम के सदस्य बाहर कर सकते हैं। के हम क्या सीखा सारांश यह करते हैं:
+	<center>
+	<iframe src="https://www.youtube.com/embed/SMr_uLZV-eM" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></center>&nbsp;
 
-आप सभी अलग-अलग हिस्सों को एक साथ रखा के रूप में, सुनिश्चित करें कि आप सब कुछ आप अपने व्यापार की योजना को अंतिम रूप देने की जरूरत है सुनिश्चित करने के लिए नीचे दी गई चेकलिस्ट का उपयोग करके देखें। <a role="button" href="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/BusinessPlanChecklist.pdf" target="_blank" rel="noopener">व्यापार योजना चेकलिस्ट</a>
-<h3>प्रतिबिंब</h3>
-एक व्यवसाय योजना लेखन एक है <b>विशाल</b> उपलब्धि, खासकर जब से तुम अब भी एक छात्र रहे हैं! उत्साहित हो, आप लगभग प्रस्तुत करने के लिए तैयार हैं! बाद अपने गुरु या अपनी टीम के एक समूह के रूप व्यापार की योजना से अधिक ध्यान दिया है, उनकी प्रतिक्रिया को शामिल करना सुनिश्चित करें। यह देखने के अलग अलग लोगों के बात समझ में मदद करता है के बाद से इस एक दस्तावेज है कि लोगों के सभी विभिन्न प्रकार के द्वारा पढ़ा जा सकता है। एक समूह के रूप में अपने व्यापार की योजना पढ़ें, और का उपयोग करके अपने व्यापार की योजना को अंतिम रूप देने <a href="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/BusinessPlanChecklist.pdf" target="_blank" rel="noopener">चेकलिस्ट</a> पुष्टि करने के लिए अलग-अलग हिस्सों के सभी शामिल किया। जैसा कि आप अपनी टीम के साथ इस व्यापार की योजना पर काम कर रहे थे, के बारे में सोचना:
-<ul>
- 	<li>एक टीम के रूप में काम की चुनौतियों क्या थे?</li>
- 	<li>एक टीम के रूप में इस दस्तावेज़ पर काम कर के बारे में अच्छी बातें क्या थे?</li>
-</ul>
-<h3><b>अतिरिक्त संसाधन</b></h3>
-<ul>
- 	<li><a href="https://www.entrepreneur.com/article/247574" target="_blank" rel="noopener">उद्यमी: व्यावसायिक योजनाएं: एक चरण-दर-चरण मार्गदर्शिका</a></li>
- 	<li><a href="https://www.sba.gov/starting-business/write-your-business-plan" target="_blank" rel="noopener">लघु व्यवसाय प्रशासन: लिखें आपका व्यवसाय योजना</a></li>
- 	<li><a href="http://smallbusiness.chron.com/importance-purpose-business-plan-760.html" target="_blank" rel="noopener">इति: महत्व और एक व्यापार योजना का उद्देश्य क्या है?</a></li>
- 	<li><a href="https://www.entrepreneur.com/article/38308" target="_blank" rel="noopener">उद्यमी: एक व्यापार योजना के तत्वों</a></li>
-</ul>
+	आप सभी अलग-अलग हिस्सों को एक साथ रखा के रूप में, सुनिश्चित करें कि आप सब कुछ आप अपने व्यापार की योजना को अंतिम रूप देने की जरूरत है सुनिश्चित करने के लिए नीचे दी गई चेकलिस्ट का उपयोग करके देखें। <span style="color: #eae46f;"><a style="color: #eae46f;" href="http://www.technovationchallenge.org/wp-content/uploads/2016/12/BusinessPlanChecklist.pdf" target="_blank" rel="noopener">व्यापार योजना चेकलिस्ट</a></span>
+</div>
+<div style="background-color: #066677; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3 id="reflect"><span style="color: #ffffff;"><strong>प्रतिबिंब</strong></span></h3>
+	एक व्यवसाय योजना लेखन एक है <b>विशाल</b> उपलब्धि, खासकर जब से तुम अब भी एक छात्र रहे हैं! उत्साहित हो, आप लगभग प्रस्तुत करने के लिए तैयार हैं! बाद अपने गुरु या अपनी टीम के एक समूह के रूप व्यापार की योजना से अधिक ध्यान दिया है, उनकी प्रतिक्रिया को शामिल करना सुनिश्चित करें। यह देखने के अलग अलग लोगों के बात समझ में मदद करता है के बाद से इस एक दस्तावेज है कि लोगों के सभी विभिन्न प्रकार के द्वारा पढ़ा जा सकता है। एक समूह के रूप में अपने व्यापार की योजना पढ़ें, और का उपयोग करके अपने व्यापार की योजना को अंतिम रूप देने <span style="color: #eae46f;"><a style="color: #eae46f;" href="http://www.technovationchallenge.org/wp-content/uploads/2016/12/BusinessPlanChecklist.pdf" target="_blank" rel="noopener">चेकलिस्ट</a></span> पुष्टि करने के लिए अलग-अलग हिस्सों के सभी शामिल किया। जैसा कि आप अपनी टीम के साथ इस व्यापार की योजना पर काम कर रहे थे, के बारे में सोचना:
+	<ul>
+	 	<li>एक टीम के रूप में काम की चुनौतियों क्या थे?</li>
+	 	<li>एक टीम के रूप में इस दस्तावेज़ पर काम कर के बारे में अच्छी बातें क्या थे?</li>
+	</ul>
+	<h3><span style="color: #ffffff;"><strong>अतिरिक्त संसाधन</strong></span></h3>
+	<ul>
+	 	<li style="font-weight: 400;"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.entrepreneur.com/article/247574" target="_blank" rel="noopener">उद्यमी: व्यावसायिक योजनाएं: एक चरण-दर-चरण मार्गदर्शिका</a></li>
+	 	<li style="font-weight: 400;"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.sba.gov/starting-business/write-your-business-plan" target="_blank" rel="noopener">लघु व्यवसाय प्रशासन: लिखें आपका व्यवसाय योजना</a></li>
+	 	<listyle="font-weight: 400;"><span style="color: #eae46f;"><a style="color: #eae46f;" href="http://smallbusiness.chron.com/importance-purpose-business-plan-760.html" target="_blank" rel="noopener">इति: महत्व और एक व्यापार योजना का उद्देश्य क्या है?</a></li>
+	 	<li style="font-weight: 400;"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.entrepreneur.com/article/38308" target="_blank" rel="noopener">उद्यमी: एक व्यापार योजना के तत्वों</a></li>
+	</ul>
+</div>
