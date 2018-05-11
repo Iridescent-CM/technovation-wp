@@ -1,66 +1,62 @@
-<h1>Desafío de Programación 5: Prototipo de Papel</h1>
-<h1>Protytípo de Papel</h1>
-<em>*todo los recursos con un * son en inglés</em>
 <ul>
- 	<li><a href="#build">Construye tu Prototipo de Papel </a></li>
- 	<li><a href="#test">Comprueba y Recolecta Retroalimentación de Usuarios </a></li>
+ 	<li style="font-weight: 400;"><a href="#build"><span style="font-weight: 400;">Bilde deinen Papier Prototyp</span></a></li>
+ 	<li style="font-weight: 400;"><a href="#test"><span style="font-weight: 400;">Teste und Sammle Nutzer Feedback</span></a></li>
 </ul>
-<h3 id="build"><strong>Construye tu prototipo de papel</strong></h3>
-Diseña tu aplicación creando un prototipo de papel. La creación de prototipos de papel es un proceso rápido, que te permite probar varios diseños, recopilar comentarios y realizar mejoras.
+<h3 id="build"><strong>Bilde deinen Papier Prototypen</strong></h3>
+<span style="font-weight: 400;">Designe deine App indem du einen Papier Prototypen nutzt. Mit Hilfe eines Prototyps kannst du viele unterschiedliche Designs schnell testen, Feedback sammeln und Verbesserungen machen.</span>
 
-<strong>Que necesitarás:</strong>
+<b>Was du brauchst:</b>
 <ul>
- 	<li style="font-weight: 400">Impresiones de la plantilla de boceto móvil <a href="http://www.technovationchallenge.org/wp-content/uploads/2016/10/Prototype-worksheet.pdf" target="_blank" rel="noopener">Mobile Sketching Template</a>*</li>
- 	<li style="font-weight: 400">Marcadores</li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Drucke die </span><a href="http://www.technovationchallenge.org/wp-content/uploads/2016/10/Prototype-worksheet.pdf" target="_blank" rel="noopener"><span style="font-weight: 400;">Mobile Sketching Vorlage</span></a><span style="font-weight: 400;"> aus</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Stifte</span></li>
 </ul>
-Opcional:
+<span style="font-weight: 400;">Optional:</span>
 <ul>
- 	<li style="font-weight: 400">Pegatinas</li>
- 	<li style="font-weight: 400">Pegamento</li>
- 	<li style="font-weight: 400">Tijeras</li>
- 	<li style="font-weight: 400">Cinta</li>
- 	<li style="font-weight: 400">Revistas</li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Sticker</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Kleber</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Schere</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Klebeband</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Zeitschriften</span></li>
 </ul>
-<strong>Qué harás:</strong>
+<b>So geht's:</b>
 <ol>
- 	<li style="font-weight: 400">Como equipo, dibuja cada pantalla de tu aplicación. Ponga los ideas del equipo a medida que vienen e intentan no juzgarlas todavía. ¡Puedes cuestionarlas más tarde! Al hacer esto, es posible que desean considerar:
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Skizziert als Team alle unterschiedlichen Bildschirme eurer App. Sammelt alle Ideen, die euch in den Kopf kommen, ohne sie zu bewerten. Ihr könnt euch später darüber beraten! Während ihr zeichnet gibt es ein paar Sachen zu beachten:</span>
 <ul>
- 	<li style="font-weight: 400">¿Cómo se vería la primera pantalla?
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Wie soll der Startbildschirm aussehen?</span>
 <ul>
- 	<li style="font-weight: 400">¿Tendrá un logo? (Sugerencia: Echa un vistazo a tus aplicaciones favoritas para obtener inspiración)</li>
- 	<li style="font-weight: 400">¿Cuál es el esquema de color?</li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Habt ihr ein Logo? (Tipp: Schaut euch doch eure Lieblingsapps an um mehr Ideen zu kriegen)</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Welches Farbschema wollt ihr verwenden?</span></li>
 </ul>
 </li>
- 	<li style="font-weight: 400">¿Qué sucede si haces clic en un botón para pasar a la siguiente pantalla?</li>
- 	<li style="font-weight: 400">¿Cómo se verá cada pantalla?</li>
- 	<li style="font-weight: 400">¿Cómo navegará el usuario por las diferentes pantallas?</li>
- 	<li style="font-weight: 400">¿Puedes mostrar con flechas cómo sucederá esto?</li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Was passiert, wenn ihr auf einen Knopf drückt um zum nächsten Bildschirm zu gelangen?</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Wie sehen die einzelnen Bildschirme aus?</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Auf welche Weise gelangt der Nutzer von einem Bildschirm zum anderen?</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Kannst du in deine Skizzen Pfeile einfügen, die dies verdeutlichen?</span></li>
 </ul>
 </li>
- 	<li style="font-weight: 400">Aquí hay un ejemplo de un prototipo de papel. ¿Te das cuenta de la forma en que se usan las pegatinas para mostrar dónde los usuarios pueden hacer clic en los botones? Además, parece que en algunos casos hay bocetos debajo, lo que posiblemente sea la siguiente pantalla en la que se accede al usuario una vez que se presiona un botón.
-Recordatorio de MVP (<em>minimum viable product</em>): ¿Cuál es el conjunto más pequeño y conciso de funciones que puede entregar para ayudar a sus usuarios a alcanzar tu objetivo? <img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image00.png" alt="image00" width="486" height="552" /></li>
- 	<li>Una vez que tengas un prototipo en funcionamiento, crees una vista previa de cómo el usuario navegaría la aplicación. Puedes tomar fotos como se muestra en el video de arriba y crear un .gif o video. Luego puedes llevar esto a las partes interesadas (las personas que entrevistaron), probarlo con ellos y obtener sus comentarios.</li>
- 	<li>Te recomendamos que guardes tu prototipo en papel, ya que es posible que necesites volver a consultarlo como parte de tu trabajo mediante la creación de tu aplicación. Asegúrete de dejarlo en un lugar seguro para que no perderlo, o pida a uno de los miembros de tu equipo que sea responsable de ello.</li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Hier siehst du ein Beispiel, wie ein Papier Prototyp aussehen kann. Fällt dir auf wie die Sticker genutzt wurden um Buttons, auf die die Nutzer klicken können, darzustellen? Manchmal sieht es auch so aus als ob noch weitere Skizzen unter dem aktuellen Bildschirm sind, zu denen der Nutzer kommt, wenn er auf einen Knopf drückt.</span><span style="font-weight: 400;">MVP Erinnerung: Was ist der kleinste und übersichtlichste Satz von Funktionen, die du benötigst, damit Ihre Benutzer sein Ziel erreichen können?</span><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image00.png" alt="image00" width="486" height="552" /></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Sobald du deinen Prototypen fertig hast, solltest du testen wie sich ein Nutzer durch die App navigieren würde. Du kannst wie in dem Video oben gezeigt Fotos machen und aus diesen ein .gif oder Video erstellen. Anschließend kannst du dieses Video den Leuten, die interessiert an deiner App sind, zeigen und von ihnen Feedback erhalten.</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Wir raten dir deinen Papier Prototyp aufzubewahren, da du ihn vielleicht noch einmal benötigst während du deine App entwickelst. Bewahre ihn an einem sicheren Ort auf und pass auf, dass du ihn nicht verlierst.</span></li>
 </ol>
-<h3 id="test"><strong>Pruebe y recopile comentarios de los usuarios</strong></h3>
-¡Ahora que tienes un prototipo de papel, es hora de compartirlo para obtener comentarios! Recuerde las personas interesadas a quienes entrevistaron? Ahora descubrirás si la aplicación cumple con sus necesidades y expectativas.
+<h3 id="test"><strong>Teste und Sammle Nutzer Feedback</strong></h3>
+<span style="font-weight: 400;">Nachdem du nun deinen Papier Prototypen fertig hast ist es an der Zeit Feedback zu bekommen. Erinnerst du dich noch an die Stakeholder, die du interviewet hast? Finde heraus ob deine App ihren Ansprüchen genügt und ihre Erwartungen erfüllt.</span>
 
-Aquí hay un divertido diseño de interfaz de usuario: un estudio de prototipos de papel que puedes ver para obtener inspiración: <a href="https://www.youtube.com/watch?v=V8LNDqMIapY" target="_blank" rel="noopener">User Interface Design: Paper Prototyping Study*</a> . Aunque es un prototipo de un iPhone en el video, la idea es similar para los androides. ¿Te das cuenta de que hay una narración que coincide con la experiencia del usuario?
+<span style="font-weight: 400;">Hier findest du ein lustiges Video, das dir helfen kann Ideen zu sammeln: </span><a href="https://www.youtube.com/watch?v=V8LNDqMIapY" target="_blank" rel="noopener"><span style="font-weight: 400;">User Interface Design: Paper Prototyping Studie</span></a><span style="font-weight: 400;">. Auch wenn in dem Video ein Prototyp für ein iPhone gezeigt wird, ist die Idee die gleiche für Android. Achte auch auf die Stimme im Hintergrund, die die Nutzererfahrungen beschreibt.</span>
 
-<strong>Que necesitarás:</strong>
+<b>Das brauchst du:</b>
 <ul>
- 	<li>Tus bocetos</li>
- 	<li>Impresiones de la hoja de trabajo de prueba del usuario  <a href="http://www.technovationchallenge.org/wp-content/uploads/2016/12/User-Testing-Worksheet.pdf" target="_blank" rel="noopener">User Testing Worksheet*</a></li>
- 	<li>Una cámara, computadora portátil o teléfono que puede grabar video</li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Deine Zeichnungen</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Einen Ausdruck des Arbeitsblattes </span><a href="http://www.technovationchallenge.org/wp-content/uploads/2016/12/User-Testing-Worksheet.pdf" target="_blank" rel="noopener"><span style="font-weight: 400;">User Testing Worksheet</span></a></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Eine Kamera, einen Computer oder ein Handy mit dem man ein Video aufnehmen kann</span></li>
 </ul>
-<strong>Qué harás:</strong>
+<b>So geht's:</b>
 <ol>
- 	<li style="font-weight: 400">¡Ensayar! Analice diferentes escenarios antes de reunirse con los interesados ​​y practique la presentación de su prototipo. Ajústalo si crees que puede ser mejor.</li>
- 	<li style="font-weight: 400">Si deseas crear una demostración de video, puedes hacerlo en vez de lo aneterior. ¡Puede ser una buena práctica para el video de <em>pitch</em> que creará más tarde para enviarlo al Technovation Challenge!</li>
- 	<li>Consulte con tu mentor y comparta lo que planeas mostrar a las personas interesadas. Pide comentarios e incorpóralo. [Mentor Check In: ​​revise el video o la demostración en vivo y deje que tu equipo sepa si falta algo de la demostración, o si tiene sugerencias de mejora antes de que el equipo la comparta con las partes interesadas para sus comentarios iniciales]</li>
- 	<li>Traiga tu prototipo en papel o tu video a las personas interesadas, y pídales sus comentarios. ¿Qué funcionó bien, qué se puede mejorar en su opinión?</li>
- 	<li>Hágales las preguntas que se encuentran en <a href="http://www.technovationchallenge.org/wp-content/uploads/2016/12/User-Testing-Worksheet.pdf" target = "_blank">la hoja de trabajo de prueba del usuario</a>; por ejemplo, ¿había algo que no estaba claro en la interfaz del usuario y qué características tienen el mayor valor? Escriba las respuestas.</li>
- 	<li>Un recordatorio para ser amable al recibir cualquier comentario, incluyendo comentarios negativos. ¡Esta es tu oportunidad de mejorar tu aplicación! Si tienes preguntas aclaratorias, puedes preguntarlas. Tenga en cuenta que sus comentarios son sobre la aplicación y no sobre tú personalmente.</li>
- 	<li>Envíe una nota de agradecimiento a tus evaluadores y hágales saber que estarás interesada en reunirse con ellos nuevamente para probar su prototipo digital cuando esté listo.</li>
- 	<li>¡Considere pedirle a tus compañeros y a tu mentor que completen también la hoja de trabajo de prueba del usuario!</li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Probe! Teste verschiedene Szenarios und probe die Präsentation deines Prototyps bevor du dich mit deinen Stakeholdern (Leuten, die an deiner App ein Interesse haben) triffst.</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Du kannst stattdessen auch ein Demo Video erstellen. Dies ist gleichzeitig eine gute Übung für das Demo Video, das du später bei der Technovation Challenge einreichst!</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Berate dich mit deinem Mentor und stelle ihm vor, was du deinen Stakeholdern später präsentieren willst. Hole dir sein Feedback und versuche dieses zu berücksichtigen. [Mentoren Aufgabe: Nimm dir Zeit um das Video oder die live Demo anzusehen und lasse dein Team wissen ob noch irgendetwas wichtiges fehlt oder ob du noch Verbesserungsvorschläge hast, die das Team berücksichtigen sollte bevor sie das Video den Stakeholdern zeigen]</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Zeigt entweder euren Papier Prototyp oder euer Video euren Stakeholdern und bittet sie um Feedback. Was funktioniert gut, wo kann auch ihrer Sicht noch etwas verbessert werden?</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Stelle ihnen auch die Fragen, die du auf dem </span><a href="http://www.technovationchallenge.org/wp-content/uploads/2016/12/User-Testing-Worksheet.pdf" target = "_blank"><span style="font-weight: 400;">User Testing Worksheet</span></a><span style="font-weight: 400;"> findest - zum Beispiel, ob irgendetwas bei der Benutzung unklar war oder welche Funktionen am wichtigsten sind. Notiere dir ihre Antworten.</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Denk immer daran, dass Feedback wichtig ist, auch negatives Feedback. Es ist eine Chance für dich deine App besser zu machen! Wenn du etwas nicht verstanden hast, frage nach. Denke immer daran, dass das Feedback sich auf die App bezieht und nicht auf dich persönlich!</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Bedanke dich bei deinen Testnutzern und lass sie wissen, dass du daran interessiert bist dich noch einmal mit ihnen zu treffen um den digitalen Prototypen zu testen.</span></li>
+ 	<li style="font-weight: 400;"><span style="font-weight: 400;">Frage doch auch Freunde und deinen Mentor das User Testing Worksheet auszufüllen!</span></li>
 </ol>
