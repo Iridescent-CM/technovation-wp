@@ -16,7 +16,7 @@ In dieser Einheit wirst du lernen...
  	<li style="font-weight: 400">Was die Bestandteile deines Marketingplans sind</li>
  	<li style="font-weight: 400">Wie ein Marketingplan entwickelt wird</li>
 </ul>
-<h3>Bestandteile eines Marketingplans</h3>
+<h3 id="parts">Bestandteile eines Marketingplans</h3>
 Ein <strong>Marketingplan</strong> ist ein Dokument das das Marketing eines Unternehmens, die Marke und wie sie im aktuellen Jahr beworben werden soll beschreibt. Der Marketingplan ist eng mit dem Unternehmensplan verknüpft, da das wesentliche Ziel ist das Unternehmen zu stärken und Einnahmen zu erzielen. Meistens bedeutet dies, dass die Marke gestärkt wird indem die Leute durch Werbung auf das Produkt aufmerksam gemacht werden. Ohne einen Marketingplan kann ein Unternehmen scheitern, da potentielle Kunden nichts über das Produkt und warum es ihr Leben verbessert erfahren. Du musst zunächst überlegen wem du dein Produkt verkaufen willst bevor du einen Plan entwickeln kannst wie du es ihnen verkaufen willst.
 
 Es gibt viele verschiedene Arten von Marketingplänen. Manche sind <a href="https://en.wikipedia.org/wiki/Marketing_plan" target="_blank" rel="noopener">sehr detailreich</a> und andere wiederum sehr einfach, wir werden uns mit drei Hauptbestandteilen eines Marketingplans beschäftigen:
@@ -26,12 +26,15 @@ Es gibt viele verschiedene Arten von Marketingplänen. Manche sind <a href="htt
  	<li style="font-weight: 400">Analyse - bestimmen ob du deine Ziele erreicht hast oder nicht</li>
 </ul>
 Während du deinen Marketingplan erstellen wirst, wirst du einige Ergebnisse aus deiner Marktanalyse benötigen, halte sie also bereit.
-<blockquote>
-<p style="text-align: center">“Knowing what must be done does away with fear.”</p>
-</blockquote>
-<p style="text-align: right">–Rosa Parks</p>
 
-<h5>Marketingziele</h5>
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<blockquote>
+	<p style="text-align: center">“Knowing what must be done does away with fear.”</p>
+	</blockquote>
+	<p style="text-align: right">–Rosa Parks</p>
+</div>	
+
+<h3 id="goals"><strong>Marketingziele</strong></h3>
 Bevor du dich in die Arbeit stürzt solltest du die überlegen, was du erreichen willst. Deine Ziele sollten allgemein, aber dennoch genau genug sein um herauszufinden, auf welche Wege du dein Unternehmen stärken kannst. Diese Ziele sind die <a href="https://www.entrepreneur.com/article/234204" target="_blank" rel="noopener">Bausteile (building blocks)</a> deines Marketingplans, sie sollten den Zielen deines Unternehmensplans entsprechen.
 
 Du solltest dich auch auf deine Ergebnisse der Marktanalyse beziehen. Es ist wichtig zu wissen was deine Konkurrenten machen und was auf dem Markt vor sich geht, um die eigenen Ziele zu bestimmen. Vielleicht hilft es dir die Marketingziele und Strategien deiner Konkurrenten zu studieren - was funktioniert und was nicht?
@@ -52,25 +55,27 @@ Hier sind ein paar Ziele die jemand haben könnte, wenn er eine neue App auf den
  	<li style="font-weight: 400">Wiedererkennung des Logos, des Namens und ein besserer Ruf</li>
  	<li style="font-weight: 400">Gesteigerte Einnahmen, mehr Nutzer oder Mitglieder</li>
 </ul>
-<h3><b>Aktivität: Bestimme deine Ziele </b></h3>
-Überlegt euch als Team welche Ziele ihr erreichen wollt. Überlegt euch auch wie ihr bestimmen könnt, ob ihr diese Ziele erreicht habt. Der einfachste Weg zu bestimmen ob ein Ziel erreicht wurde ist die Wachstumsrate (<a href="http://hubpages.com/education/How-to-Calculate-Growth-Rate" target="_blank" rel="noopener"><b>growth rate</b></a>). Wachstumsraten werden normalerweise durch die prozentuale Zunahme (oder Abnahme) des Wertes einer Variable über die Zeit bestimmt. Diese Art der Auswertung stellt die Zunahme einfacher dar, als wenn man einfach nur zwei Zahlen vergleicht. Du musst einen Wert festlegen den du in einem bestimmten Zeitraum erreichen willst. Zum Beispiel:
-<ul>
- 	<li style="font-weight: 400">Mindestens 100 Downloads der App pro Monat</li>
- 	<li style="font-weight: 400">Mindestens 10 Likes</li>
- 	<li style="font-weight: 400">Umsatz von $100 pro Woche</li>
-</ul>
-Nachdem ihr euch jetzt bereits einige Ziele überlegt habt, versucht aus diesen die 2-3 wichtigsten Ziele zu finden. Überlegt euch realistische Ziele die ihr auch erreichen könnt, zu hohe Ziele können dazu führen, dass ihr entmutigt seid, wenn ihr die Ziele nicht erreicht. Wenn ihr nicht weiterkommt oder euch nicht sicher seid, ob ihr die richtigen Ziele identifiziert habt, stellt euch folgende Fragen:
-<ul>
- 	<li style="font-weight: 400">Können wir eine Strategie entwickeln um dieses Ziel zu erreichen?</li>
- 	<li style="font-weight: 400">Sind die Zahlen, der Zeitraum und die Kosten realistisch?</li>
- 	<li style="font-weight: 400">Haben unsere Konkurrenten oder andere Firmen schon mal ähnliches gemacht?</li>
- 	<li style="font-weight: 400">Können wir überprüfen, ob wir diese Ziele erreicht haben?</li>
-</ul>
-Wenn du auf mehr als zwei der Fragen mit 'nein' geantwortet hast, solltest du deine Marketingziele noch einmal überdenken.
-Vielleicht musst du einige Zahlen ändern oder ein großes Ziel in kleinere Ziele, die erreichbar sind, unterteilen. Nur mit klaren, erreichbaren Zielen kann dein Unternehmen wachsen und erfolgreich werden.
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3 id="act1"><b>Aktivität: Bestimme deine Ziele </b></h3>
+	Überlegt euch als Team welche Ziele ihr erreichen wollt. Überlegt euch auch wie ihr bestimmen könnt, ob ihr diese Ziele erreicht habt. Der einfachste Weg zu bestimmen ob ein Ziel erreicht wurde ist die Wachstumsrate (<span style="color: #eae46f;"><a style="color: #eae46f;"a href="http://hubpages.com/education/How-to-Calculate-Growth-Rate" target="_blank" rel="noopener"><b>growth rate</b></a></span>). Wachstumsraten werden normalerweise durch die prozentuale Zunahme (oder Abnahme) des Wertes einer Variable über die Zeit bestimmt. Diese Art der Auswertung stellt die Zunahme einfacher dar, als wenn man einfach nur zwei Zahlen vergleicht. Du musst einen Wert festlegen den du in einem bestimmten Zeitraum erreichen willst. Zum Beispiel:
+	<ul>
+	 	<li style="font-weight: 400">Mindestens 100 Downloads der App pro Monat</li>
+	 	<li style="font-weight: 400">Mindestens 10 Likes</li>
+	 	<li style="font-weight: 400">Umsatz von $100 pro Woche</li>
+	</ul>
+	Nachdem ihr euch jetzt bereits einige Ziele überlegt habt, versucht aus diesen die 2-3 wichtigsten Ziele zu finden. Überlegt euch realistische Ziele die ihr auch erreichen könnt, zu hohe Ziele können dazu führen, dass ihr entmutigt seid, wenn ihr die Ziele nicht erreicht. Wenn ihr nicht weiterkommt oder euch nicht sicher seid, ob ihr die richtigen Ziele identifiziert habt, stellt euch folgende Fragen:
+	<ul>
+	 	<li style="font-weight: 400">Können wir eine Strategie entwickeln um dieses Ziel zu erreichen?</li>
+	 	<li style="font-weight: 400">Sind die Zahlen, der Zeitraum und die Kosten realistisch?</li>
+	 	<li style="font-weight: 400">Haben unsere Konkurrenten oder andere Firmen schon mal ähnliches gemacht?</li>
+	 	<li style="font-weight: 400">Können wir überprüfen, ob wir diese Ziele erreicht haben?</li>
+	</ul>
+	Wenn du auf mehr als zwei der Fragen mit 'nein' geantwortet hast, solltest du deine Marketingziele noch einmal überdenken.
+	Vielleicht musst du einige Zahlen ändern oder ein großes Ziel in kleinere Ziele, die erreichbar sind, unterteilen. Nur mit klaren, erreichbaren Zielen kann dein Unternehmen wachsen und erfolgreich werden.
 
-Denk dran, niemand isst den ganzen Kuchen auf einmal! Iss immer nur ein Stück. Wenn du glaubst gute Ziele für dein Unternehmen gesetzt zu haben kannst du mit dem nächsten Abschnitt, der Marketingstrategie, weitermachen.
-<h3>Marketingstrategie</h3>
+	Denk dran, niemand isst den ganzen Kuchen auf einmal! Iss immer nur ein Stück. Wenn du glaubst gute Ziele für dein Unternehmen gesetzt zu haben kannst du mit dem nächsten Abschnitt, der Marketingstrategie, weitermachen.
+</div>
+<h3 id="strat">Marketingstrategie</h3>
 Wenn es ums Marketing geht gibt es viele unterschiedliche Strategien, wir werden uns auf die 4 folgenden konzentrieren: Produkt, Preis, Werbung und Ort (4P’s:<b> product, price, promotion, and place</b>). Wir werden uns mit jeder einzeln beschäftigen und du wirst bestimmt schnell merken, wie Marketing und Business zusammengehören.
 
 <strong>Produkt </strong>
@@ -98,7 +103,7 @@ Hier findest du ein paar typische Werbestrategien:
 
 Hier kommt es darauf an wo deine Kunden dein Produkt erwerben können. Da du eine mobile App entwickelt hast werden sie diese typischerweise von Google Play oder aus dem Apple Store herunterladen. Deine App wird in diesen virtuellen Stores besonders gut zur Geltung kommen, wenn du Screenshots deiner App und eine gute Beschreibung hochlädst, die Schlagworte enthält, die den Nutzer ansprechen. Du kannst auch eine eigene Webseite erstellen um für deine App zu werben.
 
-Vielleicht hilfst es dir noch einmal in deiner <a href="http://www.iridescent.staging.wpengine.com/curriculum/business2/" target="_blank" rel="noopener">Marktanalyse</a> nach Schlagworten zu suchen, die Nutzer ansprechen. Schau dir auch noch mal diene <a href="http://www.iridescent.staging.wpengine.com/curriculum/market-1/" target="_blank" rel="noopener">Marke</a> an um deine App so zu beschreiben, wie sie die Leute im Kopf behalten sollen.
+Vielleicht hilfst es dir noch einmal in deiner <a href="http://www.technovationchallenge.org/curriculum/business-2/" target = "_blank">Marktanalyse</a> nach Schlagworten zu suchen, die Nutzer ansprechen. Schau dir auch noch mal diene <a href="http://www.technovationchallenge.org//curriculum/market-1/" target="_blank" rel="noopener">Marke</a> an um deine App so zu beschreiben, wie sie die Leute im Kopf behalten sollen.
 
 Mehr Informationen über Marketingstrategien findest du auf den folgenden Seiten:
 <ul>
@@ -107,24 +112,26 @@ Mehr Informationen über Marketingstrategien findest du auf den folgenden Seiten
  	<li style="font-weight: 400"><a href="http://creativealgorithms.com/blog/category/tags/applying-4ps-marketing-apps" target="_blank" rel="noopener">Kreative Algorithmen: Anwendung der 4Ps um eine App zu vermarkten</a></li>
  	<li style="font-weight: 400"><a href="http://www.bluecaribu.com/mobile-app-marketing/" target="_blank" rel="noopener">Blue Caribu: Schaubild zur Vermarktung von Apps</a></li>
 </ul>
-<blockquote>
-<p style="text-align: center">"Stay focused, go after your dreams and keep moving toward your goals."</p>
-</blockquote>
-<p style="text-align: right">–LL Cool J</p>
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<blockquote>
+	<p style="text-align: center">"Stay focused, go after your dreams and keep moving toward your goals."</p>
+	</blockquote>
+	<p style="text-align: right">–LL Cool J</p>
+</div>	
 
-<h3>Marktanalyse</h3>
+<h3 id="assess">Marktanalyse</h3>
 Um nachvollziehen zu können wie dein Marketingplan in der Realität funktioniert musst du darüber nachdenken wie du messen kannst, ob du deine Ziele erreicht hast. Dies nennt man eine <strong>Metrik (metrics)</strong>. Die Metriken, die du messen willst, hängen von den unterschiedlichen Arten von Zielen, die du erreichen willst, ab. Wenn du zum Beispiel nachvollziehen willst wie oft deine App runtergeladen wurde, kannst du Funktionen, die bei <a href="https://support.google.com/googleplay/android-developer/answer/139628?co=GENIE.Platform%3DDesktop&amp;hl=en" target="_blank" rel="noopener">Google Play</a> und im <a href="https://developer.apple.com/app-store/app-analytics/" target="_blank" rel="noopener">Apple Store</a> integriert sind, verwenden.
 Sieh dir doch mal unsere Google Play Developer Console aus der App, die wir in der ersten Programmierherausforderung erstellt haben, an. Hier können wir nachvollziehen wie viele Nutzer die App installiert oder deinstalliert haben und sogar in welchem Land sie dabei waren.
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/Screen-Shot-2016-11-17-at-3.46.36-PM.png" alt="screen-shot-2016-11-17-at-3-46-36-pm" width="952" height="697" />
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Screen-Shot-2016-11-17-at-3.46.36-PM.png" alt="screen-shot-2016-11-17-at-3-46-36-pm" width="952" height="697" />
 
 Unsere App war nur 3 Monate im Google Play Store verfügbar, in dieser Zeit wurde sie 11-mal runtergeladen. Wir können auch erkennen, dass wir ein paar Downloads am 2.September, im Oktober und bereits 6 im November hatten! Wir können auch sehen, dass eine Person die App wieder deinstalliert hat. Wenn wir etwas weiter unten schauen sehen wir wie viele Leute unsere App bewertet haben.
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/Screen-Shot-2016-11-17-at-4.33.03-PM.png" alt="screen-shot-2016-11-17-at-4-33-03-pm" width="908" height="307" />
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Screen-Shot-2016-11-17-at-4.33.03-PM.png" alt="screen-shot-2016-11-17-at-4-33-03-pm" width="908" height="307" />
 
 Insgesamt haben wir 6 Bewertungen bekommen, eine im September und 5 weitere im November. Wir können uns auch anzeigen lassen wie viele Sterne wir erhalten haben.
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/Screen-Shot-2016-11-17-at-3.48.10-PM.png" alt="screen-shot-2016-11-17-at-3-48-10-pm" width="722" height="261" />
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Screen-Shot-2016-11-17-at-3.48.10-PM.png" alt="screen-shot-2016-11-17-at-3-48-10-pm" width="722" height="261" />
 
 All diese Daten helfen uns dabei zu erfahren, ob unsere App erfolgreich ist! Auch die Apps der sozialen Medien können zum Marketing beisteuern, sie haben sogar ihre eigenen <a href="https://www.brandwatch.com/2013/08/top-10-free-social-media-monitoring-tools/" target="_blank" rel="noopener">tracking tools</a> die du verwenden kannst. Du musst selbst keine entwickeln. eine der bekanntesten und vielseitigsten Anwendungen ist <a href="https://www.google.com/analytics/web/#home/" target="_blank" rel="noopener">Google Analytics</a>. Hier kannst du aus vielen unterschiedlichen Optionen auswählen wie du deine Ziele verfolgen willst, wie du sie messen willst und welche Informationen dir angezeigt werden sollen. Zunächst kann es etwas schwer sein mit Google Analytics zu arbeiten, daher haben wir hier ein paar hilfreiche Seiten für dich zusammengestellt:
 <ul>
@@ -133,21 +140,24 @@ All diese Daten helfen uns dabei zu erfahren, ob unsere App erfolgreich ist! Auc
  	<li style="font-weight: 400"><a href="http://www.socialmediaexaminer.com/google-analytics-basics/" target="_blank" rel="noopener">Social Media Examiner: Wie nutzt man Google Analytics</a></li>
  	<li style="font-weight: 400"><a href="https://blog.kissmetrics.com/50-resources-for-getting-the-most-out-of-google-analytics/" target="_blank" rel="noopener">Kissmetrics: 50 Tipps um das Meiste aus Google Analytics zu holen</a></li>
 </ul>
-<h3>Reflexion</h3>
-Herzlichen Glückwunsch, du hast deinen Marketingplan erstellt! Lass uns noch einmal schauen, was du bisher geschafft hast:
-<ol>
- 	<li style="font-weight: 400">Du hast deine Marketingziele definiert</li>
- 	<li style="font-weight: 400">Du hast Strategien entwickelt um deine Ziele zu erreichen</li>
- 	<li style="font-weight: 400">Du hast einen Weg gefunden um deinen Fortschritt zu überprüfen</li>
-</ol>
-Vollende auf jeden Fall deinen Marketingplan - vielleicht solltest du ihn sogar kurz schriftlich festhalten. Du kannst immer zu diesem Schritt zurückgehen und deinen Marketingplan verbessern, wenn du mehr gelernt hast und dein Unternehmen wächst. Denk daran, dass du nur mit Hilfe der <a href="http://smallbusiness.chron.com/differences-between-marketing-research-marketing-strategy-1408.html" target="_blank" rel="noopener">Informationen</a> aus deiner Marktanalyse und deinem Marketingplan herausfinden kannst, wie du deine App den Nutzern am besten verkaufst. Vielleicht musst du sogar manchmal deine Marktanalyse überprüfen und neue Nachforschungen anstellen. Dein Marketingplan wird sich verändern, wenn sich andere Faktoren wie dein Produkt (oder seine Funktionen), die Art und Weise wie Nutzer deine Marke sehen oder dein Budget sich verändern. Du musst flexibel sein und deine Pläne immer bestmöglich an die neue Situation anpassen.
-<h5>Senior Division</h5>
-Der Marketingplan ist ein Teil des Unternehmensplans den ihr einreichen werdet. Ihr könnt als Team zusammenarbeiten oder Teammitglieder für diese Aufgabe bestimmen. Denkt daran euch auch Hilfe und Feedback von einem Außenstehendem (z.B. Mentor oder Lehrer) zu holen. Das Marketing ist für Investoren besonders wichtig, da auch großartige Produkte scheitern können, wenn das Marketing nicht stimmt.
-<h5><b>Weitere Quellen:</b></h5>
-<ul>
- 	<li style="font-weight: 400"><a href="https://www.entrepreneur.com/article/43018" target="_blank" rel="noopener">Entrepreneur: Wie erstelle ich einen Marketingplan</a></li>
- 	<li style="font-weight: 400"><a href="https://www.youtube.com/watch?v=N3XX1QekLc4" target="_blank" rel="noopener">Eine Einführung zur Erstellung eines Marketingplans </a></li>
- 	<li style="font-weight: 400"><a style="font-weight: 400" href="https://www.entrepreneur.com/article/234204" target="_blank" rel="noopener">Entrepreneur: Wie du deine Marketingziele entwickelst</a></li>
- 	<li style="font-weight: 400"><a href="http://www.apptamin.com/blog/app-marketing-strategy/#marketing-within" target="_blank" rel="noopener">Apptamin: Die iOS App Marketing Strategie</a></li>
- 	<li style="font-weight: 400"><a href="https://blog.kissmetrics.com/how-to-market-your-mobile-app/" target="_blank" rel="noopener">Kissmetrics: Wie vermarkte ich meine App</a></li>
-</ul>
+
+<div style="background-color: #006667; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3 id="reflect"><span style="color: #ffffff;"><strong>Reflexion</strong></span></h3>
+	Herzlichen Glückwunsch, du hast deinen Marketingplan erstellt! Lass uns noch einmal schauen, was du bisher geschafft hast:
+	<ol>
+	 	<li style="font-weight: 400">Du hast deine Marketingziele definiert</li>
+	 	<li style="font-weight: 400">Du hast Strategien entwickelt um deine Ziele zu erreichen</li>
+	 	<li style="font-weight: 400">Du hast einen Weg gefunden um deinen Fortschritt zu überprüfen</li>
+	</ol>
+	Vollende auf jeden Fall deinen Marketingplan - vielleicht solltest du ihn sogar kurz schriftlich festhalten. Du kannst immer zu diesem Schritt zurückgehen und deinen Marketingplan verbessern, wenn du mehr gelernt hast und dein Unternehmen wächst. Denk daran, dass du nur mit Hilfe der <span style="color: #eae46f;"><a style="color: #eae46f;" href="http://smallbusiness.chron.com/differences-between-marketing-research-marketing-strategy-1408.html" target="_blank" rel="noopener">Informationen</a></span> aus deiner Marktanalyse und deinem Marketingplan herausfinden kannst, wie du deine App den Nutzern am besten verkaufst. Vielleicht musst du sogar manchmal deine Marktanalyse überprüfen und neue Nachforschungen anstellen. Dein Marketingplan wird sich verändern, wenn sich andere Faktoren wie dein Produkt (oder seine Funktionen), die Art und Weise wie Nutzer deine Marke sehen oder dein Budget sich verändern. Du musst flexibel sein und deine Pläne immer bestmöglich an die neue Situation anpassen.
+	<h5>Senior Division</h5>
+	Der Marketingplan ist ein Teil des Unternehmensplans den ihr einreichen werdet. Ihr könnt als Team zusammenarbeiten oder Teammitglieder für diese Aufgabe bestimmen. Denkt daran euch auch Hilfe und Feedback von einem Außenstehendem (z.B. Mentor oder Lehrer) zu holen. Das Marketing ist für Investoren besonders wichtig, da auch großartige Produkte scheitern können, wenn das Marketing nicht stimmt.
+	<h5><b>Weitere Quellen:</b></h5>
+	<ul>
+	 	<li style="font-weight: 400"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.entrepreneur.com/article/43018" target="_blank" rel="noopener">Entrepreneur: Wie erstelle ich einen Marketingplan</a></span></li>
+	 	<li style="font-weight: 400"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.youtube.com/watch?v=N3XX1QekLc4" target="_blank" rel="noopener">Eine Einführung zur Erstellung eines Marketingplans </a></span></li>
+	 	<li style="font-weight: 400"><span style="color: #eae46f;"><a style="color: #eae46f;" style="font-weight: 400" href="https://www.entrepreneur.com/article/234204" target="_blank" rel="noopener">Entrepreneur: Wie du deine Marketingziele entwickelst</a></span></li>
+	 	<li style="font-weight: 400"><span style="color: #eae46f;"><a style="color: #eae46f;" href="http://www.apptamin.com/blog/app-marketing-strategy/#marketing-within" target="_blank" rel="noopener">Apptamin: Die iOS App Marketing Strategie</a></span></li>
+	 	<li style="font-weight: 400"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://blog.kissmetrics.com/how-to-market-your-mobile-app/" target="_blank" rel="noopener">Kissmetrics: Wie vermarkte ich meine App</a></span></li>
+	</ul>
+</div>
