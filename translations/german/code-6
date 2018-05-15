@@ -16,11 +16,11 @@ In dieser Einheit wirst du lernen…
  	<li style="font-weight: 400">wie du dein Projekt managest und deine Zeit einteilst</li>
 </ul>
 <h3><b>Plane deinen Code</b></h3>
-In <a href="http://www.iridescent.staging.wpengine.com/curriculum/code-5/" target="_blank" rel="noopener">Code 5</a> hast du dir überlegt wie deine App aussehen wird und wie Nutzer mit ihr interagieren werden. In dieser Einheit wirst du zwei Techniken lernen die dir dabei helfen deinen Code zu planen und zu verstehen wie deine App eigentlich funktionieren wird. Es ist wirklich wichtig deinen Code in Voraus zu planen damit du weißt, ob du noch etwas lernen musst, was du bisher nicht weißt. Auch solltest du genau überlegen wie die App funktioniert bevor du mit der Programmierung am Computer beginnst!
-<h5>Pseudocode</h5>
+In <a href="http://www.technovationchallenge.org/curriculum/code-5/" target="blank">Code 5</a> hast du dir überlegt wie deine App aussehen wird und wie Nutzer mit ihr interagieren werden. In dieser Einheit wirst du zwei Techniken lernen die dir dabei helfen deinen Code zu planen und zu verstehen wie deine App eigentlich funktionieren wird. Es ist wirklich wichtig deinen Code in Voraus zu planen damit du weißt, ob du noch etwas lernen musst, was du bisher nicht weißt. Auch solltest du genau überlegen wie die App funktioniert bevor du mit der Programmierung am Computer beginnst!
+<h3 id="pseudo">Pseudocode</h3>
 Das Aufschreiben eines <b>Pseudocodes </b>ist ein wichtiger Teil der Planung deiner App. Pseudocodes sind ein Mix aus der normalen Sprache und einigen Code-Fragmenten, die erklären was die App macht. Du solltest Programmier-Ausdrücke, die du bereits kennst, verwenden, z.B. Schleifen (loops), Bedingungen (conditionals) oder andere App Inventor Komponenten wie ListView oder Buttons, die du verwenden willst. Eigentlich gibt es nicht viele Regeln wie man einen Pseudocode aufschreibt, das Ziel ist jedoch immer eine Idee davon zu bekommen wie die App arbeiten wird, bevor man sie programmiert.
 
-Lass uns ein Beispiel aus <a href="http://www.iridescent.staging.wpengine.com/curriculum/code-3/" target="_blank" rel="noopener">Code 3</a> noch einmal anschauen. In dieser App kann der Nutzer in einer Datenbank nach Wissenschaftlerinnen suchen. Die App Zeigt die Namen mit Hilfe von ListView an und der Nutzer kann eine Wissenschaftlerin auswählen über die er mehr erfahren will.
+Lass uns ein Beispiel aus <a href="http://www.technovationchallenge.org/curriculum/code-3/" target="_blank" rel="noopener">Code 3</a> noch einmal anschauen. In dieser App kann der Nutzer in einer Datenbank nach Wissenschaftlerinnen suchen. Die App Zeigt die Namen mit Hilfe von ListView an und der Nutzer kann eine Wissenschaftlerin auswählen über die er mehr erfahren will.
 
 <i>Suchknopf (Search Button)</i>
 <ul>
@@ -49,66 +49,85 @@ Lass uns ein Beispiel aus <a href="http://www.iridescent.staging.wpengine.com/c
  	<li style="font-weight: 400">Die App ruft den Namen und die Beschreibung der Wissenschaftlerin von <b>TinyDB </b>ab</li>
  	<li style="font-weight: 400">Die App zeigt den Namen und die Beschreibung der Wissenschaftlerin an</li>
 </ul>
-<h3>Aktivität</h3>
-Schreibe den Pseudocode für zwei Funktionen deiner App. Wenn du Probleme dabei hast zu beschreiben wie eine Funktion in deiner App arbeitet kannst du deine Teammitglieder oder Mentoren um Hilfe bitten!
 
-Fragen zur Vorbereitung:
-<ul>
- 	<li style="font-weight: 400">Wodurch wird die Funktion gestartet?</li>
- 	<li style="font-weight: 400">Benötigt deine App irgendwelche gespeicherten Werte?
-<ul>
- 	<li style="font-weight: 400">Falls ja, wo sind diese Werte gespeichert?</li>
-</ul>
-</li>
- 	<li style="font-weight: 400">Benötigt deine App irgendwelche gespeicherten Variablen? Um die Übersicht zu behalten hilft es den Variablen Namen zu geben</li>
-</ul>
-<h3><b>
-Flussdiagramme</b></h3>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3 id="activity1">Aktivität</h3>
+	Schreibe den Pseudocode für zwei Funktionen deiner App. Wenn du Probleme dabei hast zu beschreiben wie eine Funktion in deiner App arbeitet kannst du deine Teammitglieder oder Mentoren um Hilfe bitten!
+
+	Fragen zur Vorbereitung: 
+	<ul>
+	 	<li style="font-weight: 400">Wodurch wird die Funktion gestartet?</li>
+	 	<li style="font-weight: 400">Benötigt deine App irgendwelche gespeicherten Werte?
+	<ul>
+	 	<li style="font-weight: 400">Falls ja, wo sind diese Werte gespeichert?</li>
+	</ul>
+	</li>
+	 	<li style="font-weight: 400">Benötigt deine App irgendwelche gespeicherten Variablen? Um die Übersicht zu behalten hilft es den Variablen Namen zu geben</li>
+	</ul>
+</div>	
+<h3 id="flow"><b>Flussdiagramme</b></h3>
 Ein<b> Flussdiagramm </b>ist ein Diagramm das einen Algorithmus darstellt. Es nutzt Formen und Pfeile um zu zeigen, wie Daten im Programm verwendet werden. Programmierer nutzen unterschiedliche Formen um unterschiedliche Verarbeitungen von Daten darzustellen. Hier ist ein Beispiel das einen Algorithmus zeigt mit dem man herausfinden kann warum jemand Bauchschmerzen hat:
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/flowchart-1.png" alt="flowchart-1" width="426" height="434" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/flowchart-1.png" alt="flowchart-1" width="426" height="434" />
+&nbsp;
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/terminal.png" alt="terminal" width="139" height="41" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/terminal.png" alt="terminal" width="139" height="41" />
+
 <p style="text-align: left">Eine <strong>Ellipse</strong> zeigt an, wo ein Algorithmus beginnt und wo er endet. Im oberen Beispiel gibt es drei unterschiedliche Stellen, an denen der Algorithmus enden kann: entweder die Person muss etwas essen, sich ausruhen oder einen Arzt aufsuchen. Diese drei möglichen Enden werden als <strong>Endstationen (terminals)</strong> bezeichnet.</p>
-<p style="text-align: center"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/decision.png" alt="decision" width="139" height="76" /></p>
+&nbsp;
+
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/decision.png" alt="decision" width="139" height="76" /></p>
+
+&nbsp;
 <p style="text-align: left">Ein <strong>Diamant</strong> zeigt an, dass an dieser Stelle eine Entscheidung getroffen werden muss. Sie sind so ähnlich wie "Weggabenlungen". Sie treten immer auf, wenn entschieden werden muss ob eine Bedingung (condition) wahr oder falsch ist. Auf jede Entscheidung sollten zwei Pfeile folgen, einer für <strong>wahr</strong> und einer für <strong>falsch</strong>. Schau dir an wie die Pfeile oben im Beispiel bei dem Diamanten beginnen, einer beginnt unten, der andere an der Seite des Diamanten.</p>
 Hier ist noch ein weiteres Beispiel für ein Flussdiagramm:
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/flowchart-2-1.png" alt="flowchart-2" width="124" height="281" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/flowchart-2-1.png" alt="flowchart-2" width="124" height="281" />
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/process.png" alt="process" width="139" height="41" />
+&nbsp;
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/process.png" alt="process" width="139" height="41" />
+
 
 Dieses Diagramm nutzt <strong>Rechtecke</strong> um einen <strong>Prozess (process)</strong> darzustellen. Ein Prozess ist was dein Code tut. Zum Beispiel kann er dem Nutzer eine Mitteilung anzeigen oder zwei Zahlen addieren.
 
-Dieses Flussdiagramm zeigt eine <strong>während Schleife (while loop)</strong><i>.</i> Die Bedingung und der Prozess (in diesem Fall der Zugriff auf eine Eingabe) wird sich so lange wiederholen bis die Bedingung erfüllt ist. Es gibt noch eine weitere Schleifen Art, die du in <a href="http://www.iridescent.staging.wpengine.com/curriculum/code-3/" target="_blank" rel="noopener">Code 3</a> kennen gelernt hast: eine <strong>für Schleife (for loop)</strong><i>.</i> Die Bedingung in einer <strong>für Schleife</strong> ist zu kontrollieren ob der <strong>Zähler (counter)</strong> einen bestimmten Wert erreicht hat. Der Prozess wird sich also so lange wiederholen bis die Bedingung erfüllt ist.
+Dieses Flussdiagramm zeigt eine <strong>während Schleife (while loop)</strong><i>.</i> Die Bedingung und der Prozess (in diesem Fall der Zugriff auf eine Eingabe) wird sich so lange wiederholen bis die Bedingung erfüllt ist. Es gibt noch eine weitere Schleifen Art, die du in <a href="http://www.technovationchallenge.org/curriculum/code-3/" target = "_blank">Code 3</a> kennen gelernt hast: eine <strong>für Schleife (for loop)</strong><i>.</i> Die Bedingung in einer <strong>für Schleife</strong> ist zu kontrollieren ob der <strong>Zähler (counter)</strong> einen bestimmten Wert erreicht hat. Der Prozess wird sich also so lange wiederholen bis die Bedingung erfüllt ist.
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/flowchart-3-1.png" alt="flowchart-3" width="424" height="314" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/flowchart-3-1.png" alt="flowchart-3" width="424" height="314" />
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/input-1.png" alt="input" width="145" height="41" />
+&nbsp;
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/input-1.png" alt="input" width="145" height="41" />
+
+
 
 Die letzte Form, die du kennen solltest, ist das <strong>P</strong><b>arallelogramm</b>. Diese Form solltest du immer verwenden, wenn du Daten vom Nutzer oder einer anderen Quelle, wie einer Webseite, benötigst. Das Parallelogramm steht für <strong>Eingaben (</strong><b>inputs).</b>
-<h3>Aktivität</h3>
-In dieser Aktivität wirst du aus deinem Pseudocode ein Flussdiagramm erstellen. Nutze den Pseudocode, den du in der vorherigen Aktivität erstellt hast, und folgen diesen Schritten.
-<ol>
- 	<li><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/Artboard-16outline.png" alt="terminal oval" width="112" height="36" />
-Zeichne eine Ellipse um den Anfang und das Ende deines Prozesses. Diese werden Endstationen (terminal) genannt. Häufig hat ein Flussdiagramm mehr als ein Ende. In dem Beispiel der Suche nach Wissenschaftlerinnen endet die Funktion indem sie entweder die Suchergebnisse mit <strong>listview</strong> anzeigt oder indem dem Nutzer mitgeteilt wird, dass es keine passenden Suchergebnisse gibt.</li>
-</ol>
-<ol start="2">
- 	<li><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/decision_1outline.png" alt="conditional diamond" width="112" height="36" />
-Zeichne einen Diamanten um jede Entscheidung die getroffen werden muss. Dies ist immer der Fall, wenn entschieden werden muss ob eine Bedingung wahr oder falsch ist. Denk dran, Bedingungen können zu mehr als einem möglichen Ende der Funktion führen.</li>
-</ol>
-<ol start="3">
- 	<li><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/Artboard-28outline.png" alt="input" width="112" height="36" />
-Zeichne ein Parallelogramm um alle Eingaben (inputs) vom Nutzer oder von anderen Stellen, wie einer Webseite oder Datenbank, die deine App benötigt.</li>
-</ol>
-<ol start="5">
- 	<li><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/process_1outline.png" width="112" height="36" />
-Zeichne ein Rechteck um alle Prozesse in deinem Code. Prozesse finden immer statt, wenn deine App etwas macht was nicht in die bisherigen Kategorien passt. Dies kann zum Beispiel eine Rechnung oder das Senden einer Nachricht an den Nutzer sein.</li>
- 	<li><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/arrow_1outline.png" alt="arrow" height="36" />
-Verbinde dein Flussdiagramm mit Pfeilen! Achte dabei besonders auf Schleifen (loops) und Bedingungen (conditions). Wenn du Hilfe brauchst kannst du dir auch noch einmal die bisherigen Beispiele anschauen.</li>
-</ol>
-Mache ein Foto von deinem Flussdiagramm und reich es mit ein um einen <strong>Punkt</strong> zu erhalten! Mach dir keine Sorgen, wenn es nicht sonderlich ordentlich ist. Der Sinn dieser Aufgabe ist, dass du etwas Neues lernst und dass es dir bei der Planung hilft. Es ist auch okay, wenn dein Code am Ende nicht mit deinem Flussdiagramm übereinstimmt, du brauchst dein Flussdiagramm nicht noch mal zu zeichnen.
-<h3><b>Paar-Programmierung</b></h3>
+
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+
+	<h3 id="activity2"><strong>Aktivität</strong></h3>
+	In dieser Aktivität wirst du aus deinem Pseudocode ein Flussdiagramm erstellen. Nutze den Pseudocode, den du in der vorherigen Aktivität erstellt hast, und folgen diesen Schritten.
+	<ol>
+	 	<li><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/Artboard-16outline.png" alt="terminal oval" width="112" height="36" />
+	Zeichne eine Ellipse um den Anfang und das Ende deines Prozesses. Diese werden Endstationen (terminal) genannt. Häufig hat ein Flussdiagramm mehr als ein Ende. In dem Beispiel der Suche nach Wissenschaftlerinnen endet die Funktion indem sie entweder die Suchergebnisse mit <strong>listview</strong> anzeigt oder indem dem Nutzer mitgeteilt wird, dass es keine passenden Suchergebnisse gibt.</li>
+	</ol>
+	<ol start="2">
+	 	<li><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/decision_1outline.png" alt="conditional diamond" width="112" height="36" />
+	Zeichne einen Diamanten um jede Entscheidung die getroffen werden muss. Dies ist immer der Fall, wenn entschieden werden muss ob eine Bedingung wahr oder falsch ist. Denk dran, Bedingungen können zu mehr als einem möglichen Ende der Funktion führen.</li>
+	</ol>
+	<ol start="3">
+	 	<li><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/Artboard-28outline.png" alt="input" width="112" height="36" />
+	Zeichne ein Parallelogramm um alle Eingaben (inputs) vom Nutzer oder von anderen Stellen, wie einer Webseite oder Datenbank, die deine App benötigt.</li>
+	</ol>
+	<ol start="5">
+	 	<li><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/process_1outline.png" width="112" height="36" />
+	Zeichne ein Rechteck um alle Prozesse in deinem Code. Prozesse finden immer statt, wenn deine App etwas macht was nicht in die bisherigen Kategorien passt. Dies kann zum Beispiel eine Rechnung oder das Senden einer Nachricht an den Nutzer sein.</li>
+	 	<li><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/arrow_1outline.png" alt="arrow" height="36" />
+	Verbinde dein Flussdiagramm mit Pfeilen! Achte dabei besonders auf Schleifen (loops) und Bedingungen (conditions). Wenn du Hilfe brauchst kannst du dir auch noch einmal die bisherigen Beispiele anschauen.</li>
+	</ol>
+	Mache ein Foto von deinem Flussdiagramm und reich es mit ein um einen <strong>Punkt</strong> zu erhalten! Mach dir keine Sorgen, wenn es nicht sonderlich ordentlich ist. Der Sinn dieser Aufgabe ist, dass du etwas Neues lernst und dass es dir bei der Planung hilft. Es ist auch okay, wenn dein Code am Ende nicht mit deinem Flussdiagramm übereinstimmt, du brauchst dein Flussdiagramm nicht noch mal zu zeichnen.
+</div>	
+<h3 id="pair"><b>Paar-Programmierung</b></h3>
 Paar-Programmierung (Pair programming) heißt, dass zwei Programmierer am gleichen Arbeitsplatz (workstation) (ein Bildschirm, eine Tastatur und eine Maus) entweder zusammenarbeiten oder sich abwechseln. In dieser Situation ist die Person die an der Tastatur oder dem Touchscreen sitzt der Driver und die andere Person ist der Navigator. Der Navigator ist zwar aktiv am Programmieren beteiligt, ist aber mehr auf das große Ganze fokussiert, er beantwortet Fragen des Drivers und achtet darauf, dass keine Fehler im Code sind. Nach einer gewissen Zeit tauschen Driver und Navigator die Rollen.
 
 Vorteile der Paar-Programmierung sind:
@@ -123,13 +142,15 @@ Tipps zur Paar-Programmierung:
  	<li style="font-weight: 400">Hab keine Angst davor zu sagen: "Lass uns deine Idee zuerst ausprobieren!". Manchmal musst du als Driver auf deinen Navigator hören. Das Ziel ist es die beste Idee finden, die häufig erst durch Zusammenarbeit aufkommt, und Fehler zu vermeiden.</li>
  	<li style="font-weight: 400">Hier findest du  <a href="https://www.thoughtworks.com/insights/blog/10-ways-improve-your-pairing-experience" target="_blank" rel="noopener">zehn Vorschläge</a> die dir bei der Arbeit helfen können.</li>
 </ul>
-<blockquote>
-<p style="text-align: center">“None of us is as smart as all of us."</p>
-</blockquote>
-&nbsp;
-<p align="right">–Ken Blanchard, Autor und Manager</p>
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<blockquote>
+	<p style="text-align: center">“None of us is as smart as all of us."</p>
+	</blockquote>
+	&nbsp;
+	<p align="right">–Ken Blanchard, Autor und Manager</p>
+</div>	
 
-<h3>Zeit Management</h3>
+<h3 id="time">Zeit Management</h3>
 An diesem Punkt hast du vielleicht einige Fragen:
 <ul>
  	<li>Wie kann ich effektiv auf mein Ziel hinarbeiten und den Abgabetermin einhalten?</li>
@@ -138,7 +159,7 @@ An diesem Punkt hast du vielleicht einige Fragen:
 </ul>
 Lass uns die verschiedenen Stationen der Softwareentwicklung noch einmal anschauen, um den Programmier-Teil deines Projektes am Laufen zu halten.
 <ul>
- 	<li>Die Nutzer, ihre Bedürfnisse und das MVP sind bekannt (aus <a href="http://www.iridescent.staging.wpengine.com/curriculum/code-5/" target="_blank" rel="noopener">Code 5</a>)</li>
+ 	<li>Die Nutzer, ihre Bedürfnisse und das MVP sind bekannt (aus <a href="http://www.technovationchallenge.org/curriculum/code-5/" target="_blank" rel="noopener">Code 5</a>)</li>
  	<li>Ein Flussdiagramm beschreibt, was der Nutzer in der App machen kann</li>
  	<li>Software wird entwickelt</li>
  	<li>Nutzer testen die App und Fehler werden identifiziert</li>
@@ -174,12 +195,14 @@ Tipps:
 </ul>
 </li>
 </ul>
-Hier findest du die <a href="/?p=20244" target="_blank" rel="noopener">Code Checklist </a>die die Jury verwenden wird. Du kannst sie nutzen um zu kontrollieren ob du an alles gedacht hast und ob du in der Lage bist alle Komponenten deiner App zu erklären. Versuch so viele Punkte wie möglich zu erzielen. Diese Rubrik kann dir insgesamt bis zu 10 Punkte bringen. Die Jurymitglieder wollen auch sehen, dass du Sachen wie strings, numbers, variables, lists, loops, conditionals, databases, und mobile features verwendet hast. Du kannst auch Punkte für Bilder deines Flussdiagrammes, des Papier Prototypen und für Bildschirmfotos deiner App erhalten.
+Hier findest du die <a href="http://www.technovationchallenge.org/wp-content/uploads/2017/01/Technical-Checklist-2017.pdf" target = "_blank">Code Checklist </a>die die Jury verwenden wird. Du kannst sie nutzen um zu kontrollieren ob du an alles gedacht hast und ob du in der Lage bist alle Komponenten deiner App zu erklären. Versuch so viele Punkte wie möglich zu erzielen. Diese Rubrik kann dir insgesamt bis zu 10 Punkte bringen. Die Jurymitglieder wollen auch sehen, dass du Sachen wie strings, numbers, variables, lists, loops, conditionals, databases, und mobile features verwendet hast. Du kannst auch Punkte für Bilder deines Flussdiagrammes, des Papier Prototypen und für Bildschirmfotos deiner App erhalten.
 
 Es ist auf jeden Fall eine gute Idee deine Arbeit zu dokumentieren und alles zu speichern. Auf diese Weise verlierst du keine Zeit, wenn etwas (unterschiedliche Versionen deiner App, dein Flussdiagramm oder deines Papier-Prototypen) verloren geht, du kannst immer darauf zurück greifen. Du kannst diese Sachen auch nutzen um mit deinem Mentor über Probleme genauer zu diskutieren.
-<h1>Reflexion</h1>
-Herzlichen Glückwunsch! Du bist jetzt auf dem Weg deine eigene App zu entwickeln, die du bei Technovation einreichen kannst! Wenn du bei der Programmierung einmal nicht weiter kommst findest du einige Tipps zur Fehlerbehebung in der nächsten Einheit. Viel Erfolg bei der Erstellung deines digitalen Prototypen! Wir von Technovation freuen uns, dass du es bereits soweit geschafft hast!
-<h3>Weitere Quellen</h3>
-<ul>
- 	<li style="font-weight: 400"><a href="http://ai2.appinventor.mit.edu/reference/other/testing.html" target="_blank" rel="noopener">MIT Testing Documentation</a></li>
-</ul>
+<div style="background-color: #00abad; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h1>Reflexion</h1>
+	Herzlichen Glückwunsch! Du bist jetzt auf dem Weg deine eigene App zu entwickeln, die du bei Technovation einreichen kannst! Wenn du bei der Programmierung einmal nicht weiter kommst findest du einige Tipps zur Fehlerbehebung in der nächsten Einheit. Viel Erfolg bei der Erstellung deines digitalen Prototypen! Wir von Technovation freuen uns, dass du es bereits soweit geschafft hast!
+	<h3 id="reflect">Weitere Quellen</h3>
+	<ul>
+	 	<li style="font-weight: 400"><a style="color: yellow;" href="http://ai2.appinventor.mit.edu/reference/other/testing.html" target="_blank" rel="noopener">MIT Testing Documentation</a></li>
+	</ul>
+</div>	
