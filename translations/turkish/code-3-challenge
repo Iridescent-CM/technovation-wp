@@ -1,0 +1,101 @@
+<h1>Kod Görevi 3</h1>
+<h1>Veritabanı aramak</h1>
+<ul>
+<li><a href="#design">Sayfanın tasarımı</a></li>
+<li><a href="#data">Veritabanına veri eklemek</a></li>
+<li><a href="#list">Değerlerin listesini yaratmak</a></li>
+<li><a href="#check1">Kontrol Noktası 1</a></li>
+<li><a href="#search">Arama tuşunu kodlama</a></li>
+<li><a href="#check2">Kontrol Noktası 2</a></li>
+<li><a href="#newscreen">Arama sonuçlarını görüntülemek</a></li>
+<li><a href="#finalcheck">Son Kontrol noktası</a></li>
+</ul>
+<h3>Tanıtım</h3>
+<p>Kullanıcının veritabanı  (database)içerisinde veri arayacağı bir uygulama yapın. Database'inizin içerisinde ad, yaş, yer gibi bilgiler yer almalı. Database'inizin içinde en az 3 satır olduğuna emin olun.</p>
+<p>Örnek uygulama: <a href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.DatabaseSearch">Technovation Challenge #3</a></p>
+<p>Yönergelere bakmadan önce bu uygulamayı kendi başınıza yapmayı deneyin.</p>
+<h3>Genel Bakış</h3>
+<p>Bu ünitede TinyDB içerisinde kadın biliminsanlarının  adları ve bazı açıklamaları depolayacağız. Burada biliminsanının adını "tag" (etiket) olarak aldık ve altına da yaptığı çalışmaları depoladık. Kullanıcı bir arama yaptığında uygulama iki listeyi (birinde adlar diğerinde yaptığı çalışmalar) de arayacak ve eğer eşleşirse kadının adı <strong>listview </strong>'da (liste görüntüleyicisi)  gözükecek. Daha sonra kullanıcı hangi insan hakkında daha çok bilgi almak istiyorsa onun üstüne basacak ve içinde o biliminsanın yaptıkları da bulunan yeni bir sayfa açılacak. Bu uygulama için TinyDB kullanmamız gerekti.</p>
+<table>
+<tbody>
+<tr>
+<td style="text-align: right;"><b>Name (Tag)</b></td>
+<td><b>Açıklama</b></td>
+</tr>
+<tr>
+<td style="text-align: right;">Ada Lovelace</td>
+<td>Ada was an English mathematician and writer, who lived in the 1800s and is known for her work on Charles Babbage's early mechanical general-purpose computer, the Analytical Engine. Ada is often credited as being the first programmer ever because she wrote the first algorithm intended to be carried out by a machine.</td>
+</tr>
+<tr>
+<td style="text-align: right;">Marie Curie</td>
+<td>Marie was a physicist and chemist who was born in Warsaw, Poland in 1867. With her husband Pierre, she discovered 2 new radioactive elements. Marie won the nobel prize in physics in 1903. She also discovered that radium gas could be used for cancer treatment.</td>
+</tr>
+<tr>
+<td style="text-align: right;">Alice Ball</td>
+<td>Alice was a chemist born in Seattle in 1892. She was the first African American and the first woman to graduate from the University of Hawaii.  At only 23 years old, Alice developed a cure for leprosy, which prior to her work seemed like a hopeless disease.</td>
+</tr>
+<tr>
+<td style="text-align: right;">Sau Lan Wu</td>
+<td>Sau Lan is a particle physicist who was born in the early 1940s during the Japanese occupation of Hong Kong. She earned her PhD at Harvard. She led the team that discovered gluon. She is one of the most important particle physicist in her field and has made many groundbreaking discoveries.</td>
+</tr>
+<tr>
+<td style="text-align: right;">Patricia Bath</td>
+<td>Patricia is an ophthalmologist and inventor who was born in 1942 in Harlem, New York City. She finished high school in only 2 and a half years and knew she wanted to be a doctor. In 1985 she finished an invention that removes cataracts and restore people’s  sight around the world.</td>
+</tr>
+</tbody>
+</table>
+<h3>Sayfayı Tasarlama</h3>
+<p>Kullanıcı arama yapmak için bir yazı yazmalı bu yüzden sayfaya bir textbox ve buton ekleyeceğiz.  Kullanıcı yazmak istediği anahtar kelimeyi yazınca butona basıp arama yapacak. Verileri <strong>TinyDB</strong> içerisinde depolayacağımızdan sayfaya bir TinyDB sürükleyeceğiz. Aynı zamanda arama sonuçlarını göstermek için bir <strong>listview</strong> koyacağız.</p>
+<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image17-1024x553.png" alt="image17" width="1024" height="553" /></p>
+<h3>Veritabanına veri eklemek</h3>
+<p>Biz biliminsanının adını "tag", yaptığı çalışmaları ise "value" yani tag altına kaydedilen veriler olarak depolamaya karar verdik. Bilgileri veritabanın şu şekilde girdik:</p>
+<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image37-1024x580.png" alt="image37" width="497" height="282" /></p>
+<p>Bu bilgileri veritabanımıza sayfa açıldığı an kaydettik böylece uygulamada o sayfa açıldığı an veritabanına bu bilgiler kaydedilmiş olacak. Farklı sayfalar arasındaki bilgi akışını sağlamak için TinyDB kullanmamız gerekiyordu. APp Inventor'da bu iki şekilde yapılabilir: Database kullanarak, storeValue bloğunu kullanarak. Bunun hakkında daha çok bilgi almak istiyorsanız <a href="http://appinventor.mit.edu/explore/ai2/concepts.html#Screens" target="_blank" rel="noopener">linki</a> görüntüleyiniz.</p>
+<h3>Bilgilerin listesini çıkarmak</h3>
+<p>Öncelikle "TagNames" adlı boş bir liste yarattık. Daha sonra içine tüm isimleri ekledik. Bunu yaparken girdiğiniz isimlerin veritabanındakilerle tıpatıp aynı olduğuna emin olmalısınız. (Büyük harf, boşluk, noktalam işaretleri...)</p>
+<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image58-1024x548.png" alt="image58" width="849" height="455" /></p>
+<p>Şimdi tüm adların (tags) olduğu bir listeye sahip olduğumuza göre yapılan çalışmaların olduğu (values) ayrı bir liste daha oluşturmalıyız. Bu maddelerin diğer listedeki adlarla aynı sırada olmasına dikkat edin. Önce veritabanındaki bilgileri saklaması için "databaseValues" adlı bir liste yarattık. Daha osnra, her değeri listeye tag'ler ile aynı sırada ekledik. "tagNames" listesindeki her madde için, database'den "databaseValues" listesine madde ekledik.</p>
+<p><img src="http://iridescent.staging.wpengine.com/wp-content/uploads/2016/11/DBvar.png" alt="" width="419" height="42" /></p>
+<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image42-1024x314.png" alt="image42" width="600" height="184" /></p>
+<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image50-1024x470.png" alt="image50" width="650" height="298" /></p>
+<h3>Kontrol Noktası 1</h3>
+<p>Şu anda tüm verilerinizi veri tabanına kaydedebiliyor olmalısınız. Listelerinizin istediğiniz tüm değerleri içerdiğinden emin olun. Şu an uygulamanız hiç bir şey yapmadığından listeleri kontrol edebilmek için "listview" kullanabilirsiniz. Bunun için aşağıdaki kodları ekleyin:</p>
+<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image00-1024x90.png" alt="image00" width="418" height="37" /></p>
+<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image48-1024x78.png" alt="image48" width="456" height="35" /></p>
+<p>Listelerinizi kontrol ettikten sonra bu kodlari sildiğinizden emin olun.</p>
+<h3>Arama butonunu proglamlama</h3>
+<p>Kullanıcının textbox içine yazı girib "search" (arama) tuşuna basarak bir veri tabanını arayabilmesini istiyoruz. Bunu yapmak için "tagName" ve "databaseValues" listelerini kontrol eden bir kod yazıp arama tuşunun içine koyacağız. Eğer bir eşleşme varsa biliminsanının adını "listView"un içine koyacağız. Biz bunu yapmak için;</p>
+<p>Öncelikle "searchResults" (arama sonuçları) adlı bir liste yarattık.</p>
+<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image03-1-1024x88.png" alt="image03" width="439" height="38" /></p>
+<p>Sonradan bu butonun içine arama sonuçlarını boş bir listeye ayarlayan bir blok koyduk çünkü kullanıcı her yeni bir arama yaptığında bir önceki aramadan kalan sonuçları silmek istiyoruz.</p>
+<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image02-1024x183.png" alt="image02" width="441" height="79" /></p>
+<p>Daha sonradan <b>for loop </b>kullanarak "tagName" ve "databaseValue" listelerinin içindeki tüm elementlere balan bir kod yazdık. <strong>for each</strong> loop kullanmadık çünkü bu durumda iki listemiz var. Bu nedenle <strong>for loop</strong> u 1'de başlatıp, listedeki element sayısında bitirdik. Değişken adını "index e çevirdik.</p>
+<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image54-1024x383.png" alt="image54" width="519" height="194" /></p>
+<p>Kullanıcının arama kısmına girdiği kelimeyle "tagName" listesindeki kelimeleri karşılaştırmak için de "index" değişkenini loop her çalıştığında 1 sayı arttırdık böylece listedeki her elemente sırasıyla bakacak. Eğer eşleşme olursa <strong>doğru,</strong> olmazsa<strong> yanlış </strong>olarak geri dönüt verecek.</p>
+<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image28-1024x172.png" alt="image28" width="508" height="85" /></p>
+<p>Kullanıcının yazdığı yazıyı "databaseValues" ile karşılaştırmak için de aynı kodu kullandık, sadece liste adını değiştirdik.</p>
+<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image51-1024x161.png" alt="image51" width="585" height="92" /></p>
+<p><em>Not: "index" bir </em><strong>counter variable </strong>olduğu için sadece "for loop" içinde kullanılabilir. Bu değişkeni menünüzün içinde görebilmek için "for loop" içerisinde kullanmanız gerekir. Ama bunun için endişelenmeyin.</p>
+<p>Kullanıcıya aradığı isimle eşleşen biliminsanı ve çalışmalarını göstermek istiyoruz. Bunun için bir koşuş ve "veya" (or) bağlacı kullandık.</p>
+<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image05.png" alt="image05" width="215" height="93" /></p>
+<p>Bu ifade şu şekilde gözüküyor;</p>
+<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image10-1024x223.png" alt="image10" width="1024" height="223" /></p>
+<p>Kodumuzun, biliminsanının adını "searchResults" listesine eklemek istiyoruz. Bunu yapmak için, bir eşleşme olduğunda "tagNames"deki adı "index" değişkenini kullanarak ekledik. Bloğumuza bir <strong>else</strong> kısmı eklemedik çünkü eğer koşulumuz yanlışsa yani bir eşleşme bulunamazsa uygulamamızın hiç bir şey yapmasını istemiyoruz. Daha sonra "searchResults" lietseindeki elementleri ListView'a ekledik. Bu blok for loop'un dışında olduğundan bu liste for loop'un çalışması bittiğinde yüklenecek.</p>
+<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image39-1024x302.png" alt="image39" width="1024" height="302" /></p>
+<h3><b>Kontrol Noktası 2</b></h3>
+<p>Şu ana kadar çok fazla kod yazdınız! Bir arama yapıp yapamadığınızı kontrol etmek için kodunuzu deneyin. "Alice" gibi bir ad aramayı deneyin. Daha sonra da "chemist" gibi bir arama yapmayı deneyin. Daha çok ilerlemeden önce istediğiniz sonuçları aldığınızdan emin olun.</p>
+<h3>Arama sonuçlarını farklı bir sayfada görüntülemek</h3>
+<p>Kullanıcı aradığı ismi bulduktan sonra onun üstüne tıklayarak daha fazla bilgi alacak. Bunu yapmak için kullanıcı listeden bir kadın seçtiğinde yeni bir sayfa açacağız. Bir önceki sayfadan bu sayfaya kullanıcının seçmiş olduğu insanın bilgilerini taşıyacak. Bunu <strong>startValue</strong> ile yapacağız.</p>
+<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image31.png" alt="image31" width="597" height="108" /></p>
+<p>İkinci sayfamıza iki label ekledik. Biri biliminsanının adını, diğeri ise yaptığı çalışmaları görüntülemek için. Bir önceki sayfaya geri dönebilmek için bir buton ekledik. Sayfanın altına arama sonucunu alabilmek için TinyDB koyduk.</p>
+<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image56-1024x509.png" alt="image56" width="1024" height="509" /></p>
+<p>Başlangıç verimiz (startValue) biliminsanımızın adı olduğundan bunu Label1'de görüntüleyeceğiz ve biliminsanının yaptığı çalışmaları almak için de bu veriyi kullanacağız. Yapılan çalışmaları ise Label2'de göstereceğiz. startValue bloğunu <em>control</em> kategorisinden bulabilirsiniz.</p>
+<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image06.png" alt="image06" width="636" height="175" /></p>
+<p>Bir önceki sayfaya dönmek için "geri" tuşunu da kodlamayı unutmayın.</p>
+<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image11-1024x198.png" alt="image11" width="471" height="91" /></p>
+<p>Kullanıcı bir önceki sayfaya geri dönünce sayfa yeniden yüklenir ve tüm süreç yeniden başlar.</p>
+<h3>Son Kontrol Noktası</h3>
+<p>Uygulamanızdaki tüm kodların çalıştığına emin olun! ListView'dan bir isim seçince Screen2'ye geçiyor ve istediğiniz bilgileri görüyor musunuz?</p>
+<p>Sorunlarla karşılaşıyor ve çözemiyor musunuz? Örnek kodu yükleme<a href="http://appinventor.mit.edu/explore/ai2/share.html"> yönerglerine buradan</a> ulaşabilirsiniz.</p>
+<p>&nbsp;</p>
+<p><a role="button" href="https://drive.google.com/file/d/0B9HV58UviqU_YXU1eTBKMDN1ZVE/view" target="_blank" rel="noopener">Örnek kodu yükle</a></p>
