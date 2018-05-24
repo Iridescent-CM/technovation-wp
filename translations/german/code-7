@@ -9,123 +9,133 @@
  	<li><a href="#version">Versionen Kontrolle</a></li>
  	<li><a href="#reflect">Reflexion</a></li>
 </ul>
-<h3>Lernziele:</h3>
+<h3><strong>Lernziele:</strong></h3>
 In dieser Einheit wirst du lernen…
 <ul>
  	<li style="font-weight: 400">wie du Fehler in deinem Code beheben kannst</li>
 </ul>
-<h3>Tipps zur Fehlerbehebung</h3>
-Du hast deine Ideen in einen Programmcode übersetzt. Leider kann man dabei manchmal auch auf Fehler (bugs) stoßen.
+<h3 id="tips"><strong>Tipps zur Fehlerbehebung</strong></h3>
+<p>Du hast deine Ideen in einen Programmcode übersetzt. Leider kann man dabei manchmal auch auf Fehler (bugs) stoßen.</p>
 
-Wir sind so stark von Software abhängig, dass wir uns gar nicht mehr vorstellen können ohne sie zu leben. Software hat unser Leben auf vielerlei Weise vereinfacht: wir schreiben E-Mails, chatten mit Freunden auf Facebook, spielen Computerspiele und suchen nach Informationen auf Google. Software ist überall um uns herum, selbst wenn wir uns nicht einmal bewusst sind, dass wir sie gerade verwenden. Denk zum Beispiel mal an Autos, Ampeln, Fernseher, Waschmaschinen oder Hörgeräte. Wir sind inzwischen so an Software gewöhnt, dass wir einfach davon ausgehen, dass sie immer funktioniert!
+<p>Wir sind so stark von Software abhängig, dass wir uns gar nicht mehr vorstellen können ohne sie zu leben. Software hat unser Leben auf vielerlei Weise vereinfacht: wir schreiben E-Mails, chatten mit Freunden auf Facebook, spielen Computerspiele und suchen nach Informationen auf Google. Software ist überall um uns herum, selbst wenn wir uns nicht einmal bewusst sind, dass wir sie gerade verwenden. Denk zum Beispiel mal an Autos, Ampeln, Fernseher, Waschmaschinen oder Hörgeräte. Wir sind inzwischen so an Software gewöhnt, dass wir einfach davon ausgehen, dass sie immer funktioniert!</p>
 
-Aber warum tut sie es nicht immer? Wo kommen die Fehler her? Wie sich herausstellt, ist es nicht so einfach gute Software zu schreiben. Software ist kein berührbares Produkt, wir können sie nicht anschauen und direkt sehen, ob alles richtig ist.
+<p>Aber warum tut sie es nicht immer? Wo kommen die Fehler her? Wie sich herausstellt, ist es nicht so einfach gute Software zu schreiben. Software ist kein berührbares Produkt, wir können sie nicht anschauen und direkt sehen, ob alles richtig ist.</p>
 
-<b>Fehlerbehebung oder -suche (debugging) </b>ist der Ausdruck für den Prozess, in dem Programmierer versuchen herauszufinden warum ihr Programm nicht funktioniert. Wenn ihr die Code Herausforderung bearbeitet habt ist es euch vielleicht auch schon passiert, dass ihr euren Code noch einmal nach einem Fehler durchsuchen musstet. Dies ist der Kern der Fehlerbehebung. In den nächsten Abschnitten werden wir dir hilfreiche Tipps geben, die dir die Fehlersuche vereinfachen.
+<p><b>Fehlerbehebung oder -suche (debugging) </b>ist der Ausdruck für den Prozess, in dem Programmierer versuchen herauszufinden warum ihr Programm nicht funktioniert. Wenn ihr die Code Herausforderung bearbeitet habt ist es euch vielleicht auch schon passiert, dass ihr euren Code noch einmal nach einem Fehler durchsuchen musstet. Dies ist der Kern der Fehlerbehebung. In den nächsten Abschnitten werden wir dir hilfreiche Tipps geben, die dir die Fehlersuche vereinfachen.</p>
 
-Manchmal weißt du vielleicht schon wie du etwas programmieren musst, dennoch dauert es sehr lange es wirklich zu tun! Auch gute Programmierer machen Fehler, selbst wenn sie genau wissen, was zu tun ist. Es ist also wichtig verschiedene Vorgehensweisen für die Fehlersuche und -behebung zu lernen, die dir helfen können, wenn du nicht mehr weiterweißt. Jeder benutzt verschiedene Strategien bei der Fehlersuche im Code, auch du wirst nach etwas Übung herausfinden, wie du am besten Fehler findest. Die Fehlersuche nimmt häufig einen Großteil der Zeit beim Programmieren ein, nimm dir also wirklich viel Zeit dafür!
+<p>Manchmal weißt du vielleicht schon wie du etwas programmieren musst, dennoch dauert es sehr lange es wirklich zu tun! Auch gute Programmierer machen Fehler, selbst wenn sie genau wissen, was zu tun ist. Es ist also wichtig verschiedene Vorgehensweisen für die Fehlersuche und -behebung zu lernen, die dir helfen können, wenn du nicht mehr weiterweißt. Jeder benutzt verschiedene Strategien bei der Fehlersuche im Code, auch du wirst nach etwas Übung herausfinden, wie du am besten Fehler findest. Die Fehlersuche nimmt häufig einen Großteil der Zeit beim Programmieren ein, nimm dir also wirklich viel Zeit dafür!</p>
 
-Schau dir dieses Video an um mehr über Fehler, die in deinem Code sein könnten, zu lernen und zu erfahren, wie App Inventor dir dabei hilft sie zu finden!
-
+<p>Schau dir dieses Video an um mehr über Fehler, die in deinem Code sein könnten, zu lernen und zu erfahren, wie App Inventor dir dabei hilft sie zu finden!</p>
+<center><iframe src="https://www.youtube.com/embed/IlFAwSj-YsQ" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></center>
 &nbsp;
 
-Wenn du bei der Fehlersuche spezielle Fragen zu App Inventor hast, kann dir das App Inventor Forum helfen. <a href="https://groups.google.com/forum/#!forum/mitappinventortest" target="_blank" rel="noopener">Hier</a> kannst du dich anmelden und deine Fragen stellen. Auch wenn die App Inventor Nutzer meistens sehr hilfsbereit sind und schnell auf Fragen antworten, solltest du zunächst das Forum nach älteren Beiträgen durchsuchen, in denen vielleicht schon auf deine Frage geantwortet wurde. Auf diese Wiese kannst du Zeit sparen.
-<h5>Nutze Testdaten</h5>
-Wenn du viele komplizierte Daten in deiner App verwendest kann es hilfreich sein zunächst <strong>Testdaten (test data)</strong> zu verwenden. Testdaten sind ein Set von einfacheren Daten, die du nur nutzt, um zu testen ob deine App richtig funktioniert.
+<p>Wenn du bei der Fehlersuche spezielle Fragen zu App Inventor hast, kann dir das App Inventor Forum helfen. <a href="https://groups.google.com/forum/#!forum/mitappinventortest" target="_blank" rel="noopener">Hier</a> kannst du dich anmelden und deine Fragen stellen. Auch wenn die App Inventor Nutzer meistens sehr hilfsbereit sind und schnell auf Fragen antworten, solltest du zunächst das Forum nach älteren Beiträgen durchsuchen, in denen vielleicht schon auf deine Frage geantwortet wurde. Auf diese Wiese kannst du Zeit sparen.</p>
 
-Stell dir zum Beispiel vor du entwickelst eine App die dem Nutzer anzeigt, welches Restaurant am nächsten ist. Du willst verbundene Tabellen nutzen um die Namen der Restaurants, ihr Adresse und ihre Telefonnummer zu speichern. Wenn du anfängst deine App zu programmieren brauchst du noch keine komplette Liste aller Restaurants in deiner Datenbank. Es reicht, wenn du nur ein oder zwei Restaurants speicherst und mit diesen testest, ob deine App richtig funktioniert. Anschließend kannst du die realen Daten deiner Datenbank hinzufügen.
+<h5 id="testdata">Nutze Testdaid="testdata"ten</h5>
+<p>Wenn du viele komplizierte Daten in deiner App verwendest kann es hilfreich sein zunächst <strong>Testdaten (test data)</strong> zu verwenden. Testdaten sind ein Set von einfacheren Daten, die du nur nutzt, um zu testen ob deine App richtig funktioniert.</p>
+
+<p>Stell dir zum Beispiel vor du entwickelst eine App die dem Nutzer anzeigt, welches Restaurant am nächsten ist. Du willst verbundene Tabellen nutzen um die Namen der Restaurants, ihr Adresse und ihre Telefonnummer zu speichern. Wenn du anfängst deine App zu programmieren brauchst du noch keine komplette Liste aller Restaurants in deiner Datenbank. Es reicht, wenn du nur ein oder zwei Restaurants speicherst und mit diesen testest, ob deine App richtig funktioniert. Anschließend kannst du die realen Daten deiner Datenbank hinzufügen.</p>
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
 <blockquote>
-<p style="text-align: center">“It's hard enough to find an error in your code when you're looking for it; it's even harder when you've assumed your code is error-free. ”</p>
-</blockquote>
-&nbsp;
-<p align="right">–Steve McConnell, Software-Engineering-Experte und Autor</p>
+	<p style="text-align: center">“It's hard enough to find an error in your code when you're looking for it; it's even harder when you've assumed your code is error-free. ”</p>
+	</blockquote>
+	&nbsp;
+	<p align="right">–Steve McConnell, Software-Engineering-Experte und Autor</p>
+</div>	
 
-<h5>Nutze Notizen</h5>
-Stell dir vor deine App funktioniert nicht und du weißt nicht warum! Du kannst <strong>Notizen (notifier)</strong> verwenden um zu notieren wo dein Code nicht funktioniert. Um eine Notiz in deinen Code einzufügen, ziehe das Notizensymbol aus der Benutzerleiste in deinen Code. Es wird als nicht sichtbare Komponente an dieser Stelle erscheinen und so aussehen:
+<h5 id="notifer">Nutze Notizen</h5>
+<p>Stell dir vor deine App funktioniert nicht und du weißt nicht warum! Du kannst <strong>Notizen (notifier)</strong> verwenden um zu notieren wo dein Code nicht funktioniert. Um eine Notiz in deinen Code einzufügen, ziehe das Notizensymbol aus der Benutzerleiste in deinen Code. Es wird als nicht sichtbare Komponente an dieser Stelle erscheinen und so aussehen:</p>
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/image00-1.png" alt="image00" width="289" height="120" />
+<p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image00-1.png" alt="image00" width="289" height="120" /></a></p>
 
-Du kannst diese Meldungen nutzen um dir anzeigen zu lassen, an welchen Stellen deine App nicht richtig arbeitet. Stell dir zum Beispiel vor, dass du eine wenn (if) Funktion in deiner App nutzt, um einen Prozess zu starten. Wenn du <strong>Option 1</strong> auswählst gehst du davon aus, dass der <strong>Prozess 1</strong> startet. Wenn du jedoch deine App testest passiert gar nichts! Dein Code könnte ungefähr so aussehen:
+<p>Du kannst diese Meldungen nutzen um dir anzeigen zu lassen, an welchen Stellen deine App nicht richtig arbeitet. Stell dir zum Beispiel vor, dass du eine wenn (if) Funktion in deiner App nutzt, um einen Prozess zu starten. Wenn du <strong>Option 1</strong> auswählst gehst du davon aus, dass der <strong>Prozess 1</strong> startet. Wenn du jedoch deine App testest passiert gar nichts! Dein Code könnte ungefähr so aussehen:</p>
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/image17.png" alt="image17" width="635" height="285" />
+<p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image17.png" alt="image17" width="635" height="285" /></p>
 
-Du bist dir nicht sicher, ob der Fehler im <strong>Prozess 1</strong> liegt oder ob deine Bedingung einen Fehler enthält. Der Fehler könnte auch in den Elementen im Spinner liegen! Es gibt viele Stellen zu überprüfen, Notizen können dir dabei helfen die möglichen Fehler einzugrenzen und herauszufinden an welcher Stelle der Fehler nun genau liegt. Du kannst Meldungen oder Alarme (alerts) wie folgt in die einzelnen Teile deines Codes einfügen:
+<p>Du bist dir nicht sicher, ob der Fehler im <strong>Prozess 1</strong> liegt oder ob deine Bedingung einen Fehler enthält. Der Fehler könnte auch in den Elementen im Spinner liegen! Es gibt viele Stellen zu überprüfen, Notizen können dir dabei helfen die möglichen Fehler einzugrenzen und herauszufinden an welcher Stelle der Fehler nun genau liegt. Du kannst Meldungen oder Alarme (alerts) wie folgt in die einzelnen Teile deines Codes einfügen:</p>
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/image19.png" alt="image19" width="662" height="452" />
+<p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image19.png" alt="image19" width="662" height="452" /></p>
 
-Wenn du deine App nun testest und sie die Meldung “This app isn’t doing anything!” ausgibt weißt du, dass das Problem in deiner Bedingung liegt, nicht in dem <strong>Prozess 1</strong>. Die Bedingung führt den Code im <strong>sonst (else)</strong> Abschnitt aus anstatt im <strong>wenn (if)</strong> Anschnitt. Jetzt kannst du deine Bedingungen überprüfen und kontrollieren, ob du zum Beispiel einen Tippfehler oder Fehler in den Elementen deines Spinners hast.
+<p>Wenn du deine App nun testest und sie die Meldung “This app isn’t doing anything!” ausgibt weißt du, dass das Problem in deiner Bedingung liegt,<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image19.png" alt="image19" width="662" height="452" /> nicht in dem <strong>Prozess 1</strong>. Die Bedingung führt den Code im <strong>sonst (else)</strong> Abschnitt aus anstatt im <strong>wenn (if)</strong> Anschnitt. Jetzt kannst du deine Bedingungen überprüfen und kontrollieren, ob du zum Beispiel einen Tippfehler oder Fehler in den Elementen deines Spinners hast.</p>
 
-Wenn du die App testest und die Meldung “This app is doing option1” erhältst, weißt du, dass die Bedingung richtig arbeitet und der Fehler im <strong>Prozess 1</strong> liegt, da dieser nicht macht was er soll. Hier sind eine paar Situationen in denen diese Testmethode hilfreich ist:
+<p>Wenn du die App testest und die Meldung “This app is doing option1” erhältst, weißt du, dass die Bedingung richtig arbeitet und der Fehler im <strong>Prozess 1</strong> liegt, da dieser nicht macht was er soll. Hier sind eine paar Situationen in denen diese Testmethode hilfreich ist:</p>
 <ul>
  	<li style="font-weight: 400">Um Probleme bei einer Schleife (loop), die nicht endet, zu finden
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/ForLoop.png" alt="forloop" width="395" height="160" /></li>
+    <img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/ForLoop.png" alt="forloop" width="395" height="160" /></li>
 </ul>
 <ul>
  	<li style="font-weight: 400">Um zu testen ob ein Bildschirm geladen wird oder hängenbleibt
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/ScreenInitalize.png" alt="screeninitalize" width="355" height="111" /></li>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/ScreenInitalize.png" alt="screeninitalize" width="355" height="111" /></li>
 </ul>
 &nbsp;
-<h5>Verbergen und Deaktivieren von Blöcken</h5>
-Zwei Dinge können dir dabei helfen Blöcke zu deaktivieren oder zu verbergen, wenn du sie nicht benötigst. Ein Rechtsklick auf den App Inventor gibt dir die Optionen einen Block zu verbergen (collaps) oder zu deaktivieren (disable):
+<h5 id="collapse">Verbergen und Deaktivieren von Blöcken</h5>
+<p>Zwei Dinge können dir dabei helfen Blöcke zu deaktivieren oder zu verbergen, wenn du sie nicht benötigst. Ein Rechtsklick auf den App Inventor gibt dir die Optionen einen Block zu verbergen (collaps) oder zu deaktivieren (disable):
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/image11.png" alt="image11" width="442" height="216" />
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image11.png" alt="image11" width="442" height="216" /></p>
 
-Wenn du den Block verbergen lässt wird nur noch ein Balken auf dem Bildschirm zu sehen sein:<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/image16.png" alt="image16" width="236" height="40" />
+<p>Wenn du den Block verbergen lässt wird nur noch ein Balken auf dem Bildschirm zu sehen sein:
+<img class="" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image16.png" alt="image16" width="236" height="40" /></p>
 
-Dies kann hilfreich sein, wenn dir viel Code auf deinem Bildschirm angezeigt wird und du Teile, an denen du gerade nicht arbeiten willst, nicht sehen willst. Um den Block wieder komplett zu sehen (expand), klicke mit der rechten Maustaste auf ihn.
+<p>Dies kann hilfreich sein, wenn dir viel Code auf deinem Bildschirm angezeigt wird und du Teile, an denen du gerade nicht arbeiten willst, nicht sehen willst. Um den Block wieder komplett zu sehen (expand), klicke mit der rechten Maustaste auf ihn.
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/image04.png" alt="image04" width="397" height="178" />
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image04.png" alt="image04" width="397" height="178" /></p>
 
-Du kannst auch Blocks deaktivieren. Sie werden noch auf deinem Bildschirm angezeigt, werden aber nicht mehr ausgeführt. Dies kann hilfreich sein, wenn ein großer Teil deines Codes nicht funktioniert und du die App ohne diesen Abschnitt testen willst. Du kannst diese Funktion auch verwenden, wenn du einen Notizblock zum Testen eingefügt hast und diesen zwar nicht mehr verwenden, aber auch noch nicht komplett löschen willst. So deaktivierst du Blöcke:
+<p>Du kannst auch Blocks deaktivieren. Sie werden noch auf deinem Bildschirm angezeigt, werden aber nicht mehr ausgeführt. Dies kann hilfreich sein, wenn ein großer Teil deines Codes nicht funktioniert und du die App ohne diesen Abschnitt testen willst. Du kannst diese Funktion auch verwenden, wenn du einen Notizblock zum Testen eingefügt hast und diesen zwar nicht mehr verwenden, aber auch noch nicht komplett löschen willst. So deaktivierst du Blöcke:
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/image18.png" alt="image18" width="415" height="143" />
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image18.png" alt="image18" width="415" height="143" /></p>
 
-Um Blöcke wieder zu aktivieren, klicke mit der rechten Maustaste auf sie und wähle “Enable Block”.
+<p>Um Blöcke wieder zu aktivieren, klicke mit der rechten Maustaste auf sie und wähle “Enable Block”.
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/image12-1.png" alt="image12" width="433" height="200" />
-<h5>Kommentieren</h5>
-Gute Programmierer schreiben Kommentare in ihren Code um zu erklären was er macht. Kommentare können hilfreich sein, wenn andere Leute, z.B. Teammitglieder, Mentoren oder Juroren, sich deinen Code ansehen. Kommentare helfen aber auch dir dabei zu verstehen, was du zu einem früheren Zeitpunkt gemacht hast. Um einen Kommentar im App Inventor hinzuzufügen, klicke mit der rechten Maustaste auf den Block und wähle “add comment” aus:
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image12-1.png" alt="image12" width="433" height="200" />
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/image11.png" alt="image11" width="387" height="189" />
+<h5 id="comments"><strong>Kommentieren</strong></h5>
+<p>Gute Programmierer schreiben Kommentare in ihren Code um zu erklären was er macht. Kommentare können hilfreich sein, wenn andere Leute, z.B. Teammitglieder, Mentoren oder Juroren, sich deinen Code ansehen. Kommentare helfen aber auch dir dabei zu verstehen, was du zu einem früheren Zeitpunkt gemacht hast. Um einen Kommentar im App Inventor hinzuzufügen, klicke mit der rechten Maustaste auf den Block und wähle “add comment” aus:</p>
 
-Daraufhin erscheint ein blaues Fragezeichen in der Ecke des Blockes und du kannst deine Kommentare einfügen. Du kannst dir die Kommentare wieder anschauen, indem du auf das Fragezeichen klickst.
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image11.png" alt="image11" width="387" height="189" />
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/image14.png" alt="image14" width="423" height="226" />
-<blockquote>
-<p style="text-align: center">“By learning to create technology, girls learn to speak up."</p>
-</blockquote>
-&nbsp;
-<p align="right">–Regina Agyare, Gründerin von Soronko Solutions</p>
+<p>Daraufhin erscheint ein blaues Fragezeichen in der Ecke des Blockes und du kannst deine Kommentare einfügen. Du kannst dir die Kommentare wieder anschauen, indem du auf das Fragezeichen klickst.</p>
 
-<h3>Versionen Kontrolle</h3>
-Stell dir vor du hast einen Teil deiner App fertig programmiert und er funktioniert. Nachdem du weitergearbeitet hast und einen neuen Teil programmiert hast, funktioniert gar nichts mehr, nicht einmal der vorherige Code! Selbst wenn du versuchst die neuen Abschnitte zu löschen, funktioniert auch der alte Code nicht mehr! Du weißt nicht was falsch gelaufen ist und wünscht dir du hättest einen "Rückgängig" ("undo") Knopf.
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image14.png" alt="image14" width="423" height="226" />
 
-Um so eine Situation zu vermeiden kannst du verschiedene <strong>Versionen</strong> deiner App erstellen. Diese unterschiedlichen Versionen speichern deinen Code genau so wie er gerade ist. Wenn du später einen Fehler machst und nicht weißt wie du ihn beheben kannst, kannst du immer wieder zu deiner letzten funktionsfähigen Version zurückgehen. Du kannst verschiedene Versionen auch verwenden, wenn du neue Funktionen für deine App ausprobierst und dir noch nicht sicher bist, ob du sie später wirklich einbauen willst. Es gibt zwei unterschiedliche Wege verschiedene Versionen deines Codes in App Inventor zu speichern, du kannst die Befehle “Speichern unter” (“save as”) oder “Checkpoint” nutzen.
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<blockquote>
+	<p style="text-align: center">“By learning to create technology, girls learn to speak up."</p>
+	</blockquote>
+	&nbsp;
+	<p align="right">–Regina Agyare, Gründerin von Soronko Solutions</p>
+</div>
+<h3 id="version"><strong>Versionen Kontrolle</strong></h3>
+<p>Stell dir vor du hast einen Teil deiner App fertig programmiert und er funktioniert. Nachdem du weitergearbeitet hast und einen neuen Teil programmiert hast, funktioniert gar nichts mehr, nicht einmal der vorherige Code! Selbst wenn du versuchst die neuen Abschnitte zu löschen, funktioniert auch der alte Code nicht mehr! Du weißt nicht was falsch gelaufen ist und wünscht dir du hättest einen "Rückgängig" ("undo") Knopf.</p>
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/image13.png" alt="save as" width="452" height="316" />
+<p>Um so eine Situation zu vermeiden kannst du verschiedene <strong>Versionen</strong> deiner App erstellen. Diese unterschiedlichen Versionen speichern deinen Code genau so wie er gerade ist. Wenn du später einen Fehler machst und nicht weißt wie du ihn beheben kannst, kannst du immer wieder zu deiner letzten funktionsfähigen Version zurückgehen. Du kannst verschiedene Versionen auch verwenden, wenn du neue Funktionen für deine App ausprobierst und dir noch nicht sicher bist, ob du sie später wirklich einbauen willst. Es gibt zwei unterschiedliche Wege verschiedene Versionen deines Codes in App Inventor zu speichern, du kannst die Befehle “Speichern unter” (“save as”) oder “Checkpoint” nutzen.</p>
 
-Der Befehl “Speichern unter” (“save project as”) erlaubt dir eine Kopie deines aktuellen Codes unter einem anderen Namen zu speichern.
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image13.png" alt="save as" width="452" height="316" />
 
-Stell dir zum Beispiel vor dein aktuelles Projekt heißt “test”. Du kannst dein Projekt nun unter dem Namen “test_version2” speichern und weiter daran arbeiten. Wenn bei deiner Arbeit etwas schief geht kannst du immer auf das Projekt “test” zurückgreifen und daran weiterarbeiten.
+<p>Der Befehl “Speichern unter” (“save project as”) erlaubt dir eine Kopie deines aktuellen Codes unter einem anderen Namen zu speichern.</p>
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/image09.png" alt="checkpoint" width="1000" height="700" />
+<p>Stell dir zum Beispiel vor dein aktuelles Projekt heißt “test”. Du kannst dein Projekt nun unter dem Namen “test_version2” speichern und weiter daran arbeiten. Wenn bei deiner Arbeit etwas schief geht kannst du immer auf das Projekt “test” zurückgreifen und daran weiterarbeiten.</p>
 
-Die “Checkpoint” Funktion speichert den Code, an dem du gerade arbeitest, unter einem neuen Namen.
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image09.png" alt="checkpoint" width="1000" height="700" />
 
-Stell dir zum Beispiel vor dein aktuelles Projekt heißt “test”. Der Checkpoint speichert deinen Code unter dem Namen “test_checkpoint1”. Wenn bei deiner Arbeit nun etwas schief geht kannst du immer auf das Projekt “test_checkpoint1” zurückgreifen.
+<p>Die “Checkpoint” Funktion speichert den Code, an dem du gerade arbeitest, unter einem neuen Namen.</p>
 
-Schau dir dieses Video an, um noch mehr darüber zu erfahren wie man verschiedene Versionen des Codes in App Inverntor speichert.
+<p>Stell dir zum Beispiel vor dein aktuelles Projekt heißt “test”. Der Checkpoint speichert deinen Code unter dem Namen “test_checkpoint1”. Wenn bei deiner Arbeit nun etwas schief geht kannst du immer auf das Projekt “test_checkpoint1” zurückgreifen.</p>
 
+<p>Schau dir dieses Video an, um noch mehr darüber zu erfahren wie man verschiedene Versionen des Codes in App Inverntor speichert.</p>
 
+<center>
+<iframe src="https://www.youtube.com/embed/HNM5Mxf7eZU" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></center>
 
-<h1>Reflexion</h1>
-Herzlichen Glückwunsch! Du bist bald mit deiner App fertig und bereit sie bei Technovation einzureichen. Wir freuen uns, dass du es so weit geschafft hast und wissen wie hart die Arbeit für dich und dein Team war.
+<div style="background-color: #006667; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h1 id="reflect" style="color: white;"><strong>Reflexion</strong></h1>
+	<p>Herzlichen Glückwunsch! Du bist bald mit deiner App fertig und bereit sie bei Technovation einzureichen. Wir freuen uns, dass du es so weit geschafft hast und wissen wie hart die Arbeit für dich und dein Team war.</p>
 
-Falls du zum ersten Mal eine App entwickelt oder Programmiert hast, hast du bestimmt sehr viel gelernt und auch Rückschläge einstecken müssen. Manche Teams haben sogar Sprachbarrieren und technische Probleme überwunden, die ihnen den Anfang erschwert haben.
+	<p>Falls du zum ersten Mal eine App entwickelt oder Programmiert hast, hast du bestimmt sehr viel gelernt und auch Rückschläge einstecken müssen. Manche Teams haben sogar Sprachbarrieren und technische Probleme überwunden, die ihnen den Anfang erschwert haben.</p>
 
-Wir sind stolz auf euch und hoffen, dass ihr es auch seid. Ihr habt durchgehalten, hart gearbeitet und voneinander gelernt. Ihr seid eine Inspiration für uns und viele andere.
-<h3>Weitere Quellen</h3>
-<ul>
- 	<li style="font-weight: 400"><a href="http://ai2.appinventor.mit.edu/reference/other/testing.html" target="_blank" rel="noopener">MIT Test Dokumentation</a></li>
- 	<li style="font-weight: 400">Hier ist noch ein Video, dass dir bei der Fehlersuche helfen kann: <a href="https://www.youtube.com/watch?v=itCnknI5PlY" target="_blank" rel="noopener">Debugging Video</a></li>
-</ul>
+	<p>Wir sind stolz auf euch und hoffen, dass ihr es auch seid. Ihr habt durchgehalten, hart gearbeitet und voneinander gelernt. Ihr seid eine Inspiration für uns und viele andere.</p>
+	<h3 style="color: white;"><strong>Weitere Quellen</strong></h3>
+	<ul>
+	 	<li style="font-weight: 400"><a style="color: #eae46f;" href="http://ai2.appinventor.mit.edu/reference/other/testing.html" target="_blank" rel="noopener">MIT Test Dokumentation</a></li>
+	 	<li style="font-weight: 400">Hier ist noch ein Video, dass dir bei der Fehlersuche helfen kann: <a style="color: #eae46f;" href="https://www.youtube.com/watch?v=itCnknI5PlY" target="_blank" rel="noopener">Debugging Video</a></li>
+	</ul>
+</div>
