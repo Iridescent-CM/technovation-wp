@@ -21,13 +21,13 @@ In dieser Einheit wirst du...
 Herzlichen Glückwunsch! Ihr habt bereits euren Quellcode, den Videopitch, das Demovideo und weitere Materialien bei der Technovation Challenge eingereicht. Wenn ihr in einer Region lebt, in der es ein regionales Live Pitch Event gibt, kann euer Team die App in der ersten Runde direkt vor einer Jury vorstellen. Eine Mannschaft des regionalen Pitch Events kommt direkt ins Halbfinale. Es ist also wichtig, dass ihr die Jury mit eurem Pitch überzeugt.
 
 &nbsp;
-<h3>Warum einen Pitch vortragen?</h3>
+<h3 id="why"><strong>Warum einen Pitch vortragen?</strong></h3>
 Das Ziel eines Pitches ist es das Interesse von möglichen Investoren zu wecken, so dass sie sich mit euch noch einmal treffen und mehr über euer Projekt erfahren möchten. Ihr könnt euch einen Pitch wie einen Filmtrailer vorstellen, der die Highlights hervorhebt und Leute neugierig macht, so dass sie den ganzen Film sehen wollen.
 
 Euer Live Pitch kann, genauso wie euer Videopitch, bis zu vier Minuten lang sein. Um ihn live vorzutragen kommt es aber auf andere Fähigkeiten an. Nachdem ihr euren Pitch vorgetragen habt, folgt eine kurze Frage-Antwort Runde mit den Jurymitgliedern. Wir empfehlen euch, dass ihr euren Pitch mit einer Präsentation kombiniert. Auf diese Weise könnt ihr euren Pitch mit Bildern oder Grafiken hinterlegen und die Präsentation einprägsamer gestalten. Nur so könnt ihr euch von anderen Teams unterscheiden. Ich solltet auch darüber nachdenken, wie ihr auf mögliche Fragen antworten wollt.
 
 <b>Eine Präsentation gehört zu jedem guten Pitch. </b>Eine Pitch-Präsentation ist eine kurze Präsentation, die ihr zum Beispiel mit <a href="https://office.live.com/start/PowerPoint.aspx" target="_blank" rel="noopener">PowerPoint</a>, <a href="http://www.apple.com/keynote/" target="_blank" rel="noopener">Keynote</a>, <a href="https://www.google.com/slides/about/" target="_blank" rel="noopener">Google Slides</a> oder <a href="https://prezi.com" target="_blank" rel="noopener">Prezi</a> erstellen könnt. Sie gibt potentiellen Investoren und Nutzern einen kurzen Überblick über euren Unternehmensplan. Aber wie lang sollte eure Präsentation sein und worauf solltet ihr euch konzentrieren? Hier findet ihr ein paar Vorschläge.
-<h5>10/20/30 Regel</h5>
+<h5><strong>10/20/30 Regel</strong></h5>
 Die <a href="http://guykawasaki.com/the_102030_rule/" target="_blank" rel="noopener">10/20/30 Regel</a> ist sehr simpel: Die Präsentation sollte nicht mehr als 10 Folien haben, nicht länger als 20 Minuten dauern (in eurem Fall sind es 4 Minuten) und die Schrift sollte nicht kleiner als 30 pt. sein, damit jeder sie einfach lesen kann.
 
 Diese Regel wurde von <a href="http://guykawasaki.com/guy-kawasaki/" target="_blank" rel="noopener">Guy Kawasaki</a> entwickelt, er ist Risikokapitalgeber und <span style="font-family: 'Source Sans';font-size: medium;font-style: normal;font-weight: 400">Marketingspezialist, zudem </span>arbeitet er als "evangelist" (Prediger) bei Apple. Durch ihn wurde der Begriff "evangelist" in der Marketing- und Technikbranche erst bekannt, er hat Hunderten von Unternehmensgründern zugehört, wie sie ihren Pitch gehalten haben.
@@ -43,34 +43,38 @@ Unten findest du die <a href="http://guykawasaki.com/the-only-10-slides-you-nee
  	<li style="font-weight: 400"><strong>Konkurrenzanalyse.</strong> Stellt eine Übersicht über eure Konkurrenz dar und wodurch ihr (eure App) sich von ihr unterscheidet.</li>
  	<li style="font-weight: 400"><strong>Ausblick und Meilensteine.</strong> Teilnehmer in der Junior Devision können sich darauf beschränken von ihren Meilensteinen bei der Verbreitung und Verbesserung der App zu berichten. Teilnehmer in der Senior Devision sollten die Finanzprognose für die nächsten 3 Jahre und die Meilensteine bei der Entwicklung beschreiben. Ihr könnt auch von euren bisherigen Ergebnissen berichten und wie viel und wie ihr das Geld, das ihr versucht zu sammeln, in der nahen Zukunft verwenden wollt. Nutzt die letzte Folie um eure Botschaft ein letztes Mal zusammen zu fassen.</li>
 </ul>
-Mehr Informationen über die Präsentation zum Pitch findet ich auch <a href="https://pitchdeck.improvepresentation.com/what-is-a-pitch-deck" target="blank">hier</a>.
-<h3>Aktivität</h3>
-Bevor ihr mit eurer Präsentation beginnt solltet ihr euch noch einmal euren Videopitch und das Demovideo anschauen und Notizen darüber machen, was ihr der Jury vermitteln wollt.
+<p style="text-align: left;">Mehr Informationen über die Präsentation zum Pitch findet ich auch <a href="https://pitchdeck.improvepresentation.com/what-is-a-pitch-deck" target="blank">hier</a>.</p>
 
-Wir empfehlen euch, dass ich euch als nächstes die zwei live Pitches der Technovation Finalisten aus 2016 anschaut. Denkt dabei über die folgenden Fragen nach:
-<ul>
- 	<li>Warum sind diese zwei live Pitche so besonders?</li>
- 	<li>Welche Techniken haben sie in ihrem Pitch verwendet?</li>
- 	<li>Warum sind die Folien ihrer Präsentation so effektiv?</li>
- 	<li>Was würdet ihr hinsichtlich der Folien und der Präsentation anders machen?</li>
-</ul>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3 id="act1">Aktivität</h3>
+	<p>Bevor ihr mit eurer Präsentation beginnt solltet ihr euch noch einmal euren Videopitch und das Demovideo anschauen und Notizen darüber machen, was ihr der Jury vermitteln wollt.</p>
+
+	<p>Wir empfehlen euch, dass ich euch als nächstes die zwei live Pitches der Technovation Finalisten aus 2016 anschaut. Denkt dabei über die folgenden Fragen nach:
+	<ul>
+	 	<li>Warum sind diese zwei live Pitche so besonders?</li>
+	 	<li>Welche Techniken haben sie in ihrem Pitch verwendet?</li>
+	 	<li>Warum sind die Folien ihrer Präsentation so effektiv?</li>
+	 	<li>Was würdet ihr hinsichtlich der Folien und der Präsentation anders machen?</li>
+	</ul></p>
+
+	 <a style="color: #eae46f;" href="https://www.youtube.com/watch?v=JxUvdUVA3D4" target="_blank" rel="noopener"> <b>Team A</b> OOL , 2016</a>
+
+	OOL verbindet zukünftige Freiwillige mit lokalen Organisationen, die Hilfe benötigen. Hier findet ihr ihre <span style="color: #eae46f;"><a style="color: #eae46f;" href="http://www.technovationchallenge.org/wp-content/uploads/2016/12/5.-OOL_FINAL.pptx.pdf" target="_blank" rel="noopener">Präsentation</a></span>.
 
 
-<b>Team A</b> <a href="https://play.google.com/store/apps/details?id=appinventor.ai_Lilia_Arceli.OOL&amp;hl=en" target="_blank" rel="noopener">OOL</a>, 2016
+	 <a style="color: #eae46f;" href="https://play.google.com/store/apps/details?id=appinventor.ai_jenniferneda.generalDonations&amp;hl=en" target="_blank" rel="noopener"><b>California Coders</b> Loc8Don8 , 2016</a>
 
-OOL verbindet zukünftige Freiwillige mit lokalen Organisationen, die Hilfe benötigen. Hier findet ihr ihre <a href="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/5.-OOL_FINAL.pptx.pdf" target="_blank" rel="noopener">Präsentation</a>.
+	Loc8Don8 vereinfacht die Art und Weise, wie man herausfindet, wo Spenden jeglicher Art abgegeben werden können. Hier findet ihr ihre <a style="color: #eae46f;" href="http://www.technovationchallenge.org/wp-content/uploads/2016/12/loc8don8-WORLD-PITCH-SLIDES.pdf" target="_blank" rel="noopener">Präsentation</a>.
+</div>
 
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<blockquote>
+	<p style="text-align: center">“An entrepreneur is anyone who is willing to risk it all to change the world. You can still be entrepreneurial-minded, even if you are not a CEO.”</p>
+	</blockquote>
+	<p style="text-align: right">–Nathan Gold, <a href="http://www.democoach.com" target="_blank" rel="noopener">Der Demo Trainer</a></p>
+</div>
 
-
-<b>California Coders</b> <a href="https://play.google.com/store/apps/details?id=appinventor.ai_jenniferneda.generalDonations&amp;hl=en" target="_blank" rel="noopener">Loc8Don8</a>, 2016
-
-Loc8Don8 vereinfacht die Art und Weise, wie man herausfindet, wo Spenden jeglicher Art abgegeben werden können. Hier findet ihr ihre <a href="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/loc8don8-WORLD-PITCH-SLIDES.pdf" target="_blank" rel="noopener">Präsentation</a>.
-<blockquote>
-<p style="text-align: center">“An entrepreneur is anyone who is willing to risk it all to change the world. You can still be entrepreneurial-minded, even if you are not a CEO.”</p>
-</blockquote>
-<p style="text-align: right">–Nathan Gold, <a href="http://www.democoach.com" target="_blank" rel="noopener">Der Demo Trainer</a></p>
-
-<h3>Halte einen Pitch der in Erinnerung bleibt</h3>
+<h3 id="deliver">Halte einen Pitch der in Erinnerung bleibt</h3>
 <a href="http://www.democoach.com" target="_blank" rel="noopener">Nathan Gold</a> hat über 15.000 Präsentationen gehalten und ist Co-Autor eines Buches über gute Produktpräsentationen. Er hat Leuten aus aller Welt beigebracht, wie man Investoren gewinnt und 2016 die Technovation Finalisten unterstützt, als sie sich auf den World Pitch Event vorbereitet haben. Hier sind ein paar Tipps, die er den Teams gegeben hat.
 
 Das wichtigste ist, dass ihr euch darauf vorbereitet einen unvergesslichen Pitch zu halten. Eurer Pitch muss besonders herausstechen, da die Jurymitglieder viele weitere Vorträge von anderen Teams hören werden.
@@ -87,26 +91,31 @@ Eine Möglichkeit sich von den anderen zu unterscheiden ist ein guter Einstieg. 
 <em><strong>Tipp!</strong> </em>Wenn ihr über das Wertversprechen redet, seid euch dessen bewusst, dass euer Projekt vielleicht größer und besser ist als ihr denkt! Versucht einen Weg zu finden dies kurz zusammenzufassen.
 
 Weitere Beispiele findet ihr <a href="http://www.wordstream.com/blog/ws/2016/04/27/value-proposition-examples" target="_blank" rel="noopener">hier</a>, ihr könnt euch auch Nathan’s Seminar für die letzten Technovation Finalisten <a href="https://drive.google.com/file/d/0B3rEYL3DkWfAOTNpZURfa3hZT28/view?usp=sharing" target="_blank" rel="noopener">hier</a> anschauen.
-<h3>Erstelle deine Präsentation</h3>
-<h5>Mache einen ersten Entwurf</h5>
-Erstelle einen ersten Entwurf deiner Präsentation. Ihr könnt PowerPoint, Keynote, Google Slides oder Prezi benutzen. Macht euch um die Formatierung zu Beginn keine Gedanken. Ihr könnt einfach mit einem weißen Hintergrund und schwarzer Schrift beginnen. Konzentriert euch nur auf die Informationen, die auf euren Folien präsentiert werden sollen. Wenn ihr euch zu sehr auf das Aussehen konzentriert, könnt ihr viel Zeit verlieren, wenn ihr später doch noch mal etwas ändern müsst.
 
-Vergesst nicht euer Zeitlimit. Durchschnittlich spricht ein Mensch 120-140 Wörter pro Minute. Ihr könnt den Text, den ihr während des Pitches vortragen wollt, auch einmal aufschreiben. Wenn ihr mehr als 560 Wörter habt lauft ihr Gefahr die 4 Minuten zu überschreiten. Ihr solltet eure Idee auf die wesentlichen Punkte vereinfachen und euch darauf konzentrieren das Interesse der Zuhörer zu gewinnen.
-<h5>Mache einen zweiten Entwurf</h5>
-In eurem zweiten Entwurf könnt ihr Bilder und Zitate einfügen, um eure Botschaft zu verstärken. Jetzt ist es auch an der Zeit sich mit dem Aussehen eurer Präsentation zu beschäftigen. Designs, Bilder, Farben solltet ihr jedoch erst einfügen, wenn der Inhalt der Folien steht. Nutzt auch Bilder eurer App und Bilder die euch dabei helfen eure Geschichte zu erzählen.
 
-Verfeinert euren Aufhänger oder euren Einstieg. Die ersten 10 Sekunden eurer Präsentationen sind sehr wichtig, da zu diesem Zeitpunkt Zuhörer entscheiden, ob sie sich den Rest eurer Geschichte und eures Vortrages anhören wollen. Nutzt Bilder, um eure Geschichte in diesen ersten Sekunden zu vermitteln.
+<h3 id="create"><strong>Erstelle deine Präsentation</strong></h3>
+<h5><strong>Mache einen ersten Entwurf</strong></h5>
+<p>Erstelle einen ersten Entwurf deiner Präsentation. Ihr könnt PowerPoint, Keynote, Google Slides oder Prezi benutzen. Macht euch um die Formatierung zu Beginn keine Gedanken. Ihr könnt einfach mit einem weißen Hintergrund und schwarzer Schrift beginnen. Konzentriert euch nur auf die Informationen, die auf euren Folien präsentiert werden sollen. Wenn ihr euch zu sehr auf das Aussehen konzentriert, könnt ihr viel Zeit verlieren, wenn ihr später doch noch mal etwas ändern müsst.</p>
 
-Hier findet ihr ein Beispiel, wie der erste und zweite Entwurf eurer Präsentation aussehen kann. Auf der linken Seite seht ihr den ersten, auf der rechten Seite den zweiten Entwurf.
+<p>Vergesst nicht euer Zeitlimit. Durchschnittlich spricht ein Mensch 120-140 Wörter pro Minute. Ihr könnt den Text, den ihr während des Pitches vortragen wollt, auch einmal aufschreiben. Wenn ihr mehr als 560 Wörter habt lauft ihr Gefahr die 4 Minuten zu überschreiten. Ihr solltet eure Idee auf die wesentlichen Punkte vereinfachen und euch darauf konzentrieren das Interesse der Zuhörer zu gewinnen.</p>
 
-<a href="https://blog.hubspot.com/marketing/mary-meeker-ugly-presentation-redesign" target="_blank" rel="noopener"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/BusinessWeekMaryMeekers.jpg" alt="businessweekmarymeekers" width="650" height="243" /></a>
+<h5><strong>Mache einen zweiten Entwurf</strong></h5>
+<p>In eurem zweiten Entwurf könnt ihr Bilder und Zitate einfügen, um eure Botschaft zu verstärken. Jetzt ist es auch an der Zeit sich mit dem Aussehen eurer Präsentation zu beschäftigen. Designs, Bilder, Farben solltet ihr jedoch erst einfügen, wenn der Inhalt der Folien steht. Nutzt auch Bilder eurer App und Bilder die euch dabei helfen eure Geschichte zu erzählen.</p>
+
+<p>Verfeinert euren Aufhänger oder euren Einstieg. Die ersten 10 Sekunden eurer Präsentationen sind sehr wichtig, da zu diesem Zeitpunkt Zuhörer entscheiden, ob sie sich den Rest eurer Geschichte und eures Vortrages anhören wollen. Nutzt Bilder, um eure Geschichte in diesen ersten Sekunden zu vermitteln.</p>
+
+<p>Hier findet ihr ein Beispiel, wie der erste und zweite Entwurf eurer Präsentation aussehen kann. Auf der linken Seite seht ihr den ersten, auf der rechten Seite den zweiten Entwurf.</p>
+
+<a href="https://blog.hubspot.com/marketing/mary-meeker-ugly-presentation-redesign" target="_blank" rel="noopener"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/BusinessWeekMaryMeekers.jpg" alt="businessweekmarymeekers" width="650" height="243" /></a>
 
 Viel Glück! Hier findet ihr noch weitere hilfreiche Tipps zum Umgang mit Grafiken und Pitch-Präsentationen einiger Startup-Unternahmen, die euch inspirieren könnten:
 <ul>
  	<li><a href="http://www.slideshare.net/EmilandDC/7-tips-to-create-visual-presentations" target="_blank" rel="noopener">7 Tipps zum Erstellen von Präsentationen</a></li>
  	<li><a href="https://www.cbinsights.com/blog/billion-dollar-startup-pitch-decks/" target="_blank" rel="noopener">CB Insights: Die Pitch-Präsentationen von 7 Startups</a></li>
 </ul>
-<h5>Probe</h5>
+
+
+<h5><strong>Probe</strong></h5>
 Du hast bereits den zweiten Entwurf deiner Pitch-Präsentation entworfen und bist bereit sie zu testen. Es ist jetzt an der Zeit zu Proben und deinen Pitch einer Zuhörerschaft vorzutragen. Ihr könnt damit beginnen, indem ihr vor eurem Mentor vortragt.
 
 Macht euch keine Sorgen, wenn euer Team mit einem virtuellen Mentor zusammenarbeitet. Ihr könnt für eure erste Probe auch <a href="https://hangouts.google.com" target="_blank" rel="noopener">Google Hangout</a> oder <a href="https://www.skype.com" target="_blank" rel="noopener">Skype</a> nutzen.
@@ -121,10 +130,12 @@ Hier findet ihr ein paar Techniken, die euch beim Proben helfen können:
 Lasst euer Testpublikum Fragen stellen, damit ihr eine Idee davon bekommt welche Fragen die Jury stellen könnte. Bittet nach jeder Probe um Feedback und versucht dieses das nächste Mal zu berücksichtigen.
 
 &nbsp;
-<blockquote>“For preparing for the live pitch, I think it's most important to practice a lot to build confidence. I was at a summer program during the weeks leading up to the World Pitch and Allison and I would use Google Hangouts to practice our pitch together, which is a good option if the teams have difficulties arranging meeting times. It's also important to describe the app and all of its functions clearly so that the judges can really understand why it is new/special/exciting.”</blockquote>
-<p style="text-align: right">–Jennifer John, 2016 Technovation Finalistin</p>
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<blockquote>“For preparing for the live pitch, I think it's most important to practice a lot to build confidence. I was at a summer program during the weeks leading up to the World Pitch and Allison and I would use Google Hangouts to practice our pitch together, which is a good option if the teams have difficulties arranging meeting times. It's also important to describe the app and all of its functions clearly so that the judges can really understand why it is new/special/exciting.”</blockquote>
+	<p style="text-align: right">–Jennifer John, 2016 Technovation Finalistin</p>
+</div>	
 
-<h3>Umgang mit Fragen (Q&amp;A)</h3>
+<h3 id="QA"><strong>Umgang mit Fragen (Q&amp;A)</strong></h3>
 Der Frage und Antworten Teil (Questions &amp; Answers, Q&amp;A) hat einen großen Einfluss darauf, welche Teams eine Runde weiter kommen. Ihr solltet auf diesen Teil vorbereitet sein. Hier findet ihr ein paar Tipps von Nathan Gold.
 <ul>
  	<li style="font-weight: 400"><strong>Behalte die Kontrolle.</strong> Denk daran, euer Team hat die Kontrolle! Lasst euch nicht von Fragen überwältigen. Ein Teammitglied sollte entscheiden, wer auf welche bestimmten Fragen antwortet. Wer von euch hat am Prototypen gearbeitet? Diese Teammitglieder sollten auch alle Fragen zum Prototypen beantworten. Wer hat sich das Logo ausgedacht? Lass diese Person auf alle Fragen zum Logo antworten. Eure Antworten sollten niemals länger als 30 Sekunden sein. Atmet tief durch und nehmt euch eure Zeit. Auf diese Weise kommt eure Antwort besonders selbstbewusst rüber.</li>
@@ -145,32 +156,35 @@ Der Frage und Antworten Teil (Questions &amp; Answers, Q&amp;A) hat einen große
  	<li style="font-weight: 400"><strong>Sei aufmerksam.</strong> Es kommt darauf an, wie du auf mit einer Frage und Kritik umgehst. Wenn ein Jurymitglied zum Beispiel etwas Allgemeines wie “I think your product is too expensive.” sagt, kannst du antworten: “I appreciate that you think it’s too expensive. What are you comparing it to?” Wenn du weißt, womit sie dein Produkt vergleichen kannst du besser auf diesen Kommentar reagieren.</li>
  	<li style="font-weight: 400"><strong>Antizipiert Fragen. </strong>Stelle eine Liste mit allen Fragen, die du erwartest, auf. Du kannst dich oder dein Team dabei aufnehmen wie ihr die Fragen beantwortet und anschließend darüber diskutieren, ob die Antwort gut war oder ob ihr etwas anders machen solltet. Auf der <a href="http://www.democoach.com/questions" target="_blank" rel="noopener">Webseite</a> von Nathan Gold findet ihr eine Liste mit den 40 meist gestellten Fragen, die Investoren beim Pitch stellen.</li>
 </ul>
-<h3>Achte auf dein Auftreten</h3>
-Ihr habt hart gearbeitet und seid verständlicherweise erschöpft und vielleicht noch etwas verunsichert wegen des Live Pitches. Habt ihr darüber nachgedacht, wie ihr mit konstruktivem Feedback und Fragen umgehen wollt?
+<h3 id="attitude"><strong>Achte auf dein Auftreten</strong></h3>
+<p>Ihr habt hart gearbeitet und seid verständlicherweise erschöpft und vielleicht noch etwas verunsichert wegen des Live Pitches. Habt ihr darüber nachgedacht, wie ihr mit konstruktivem Feedback und Fragen umgehen wollt?</p>
 
-Denkt daran euch genug Zeit zu nehmen um die Fragen, die euch gestellt werden, zu verstehen. Ihr könnt die Situation kontrollieren, indem ihr euch Zeit zum Zuhören nehmt, eure spontane Reaktion beobachtet und verschiedene Antworten einübt. Vielleicht kommt es euch manchmal auch so vor, als seinen Fragen oder Feedback eigentlich Kritik. Hier findet ihr mehr <a href="https://www.themuse.com/advice/taking-constructive-criticism-like-a-champ" target="_blank" rel="noopener">Informationen</a> dazu.
+<p>Denkt daran euch genug Zeit zu nehmen um die Fragen, die euch gestellt werden, zu verstehen. Ihr könnt die Situation kontrollieren, indem ihr euch Zeit zum Zuhören nehmt, eure spontane Reaktion beobachtet und verschiedene Antworten einübt. Vielleicht kommt es euch manchmal auch so vor, als seinen Fragen oder Feedback eigentlich Kritik. Hier findet ihr mehr <a href="https://www.themuse.com/advice/taking-constructive-criticism-like-a-champ" target="_blank" rel="noopener">Informationen</a> dazu.</p>
 
-Während des Pitch Events wird entschieden, ob euer Team eine Runde weiter kommt oder nicht. Lass uns kurz darüber nachdenken, wie ihr auf diese beiden unterschiedlichen Situationen reagieren könntet.
+<p>Während des Pitch Events wird entschieden, ob euer Team eine Runde weiter kommt oder nicht. Lass uns kurz darüber nachdenken, wie ihr auf diese beiden unterschiedlichen Situationen reagieren könntet.</p>
 
-Wie wäre es, wenn euer Schulteam in einem Spiel verliert und die gegnerische Mannschaft mit ihrem Sieg angibt? Wie würdet ihr euch fühlen? Nicht so gut, oder?
+<p>Wie wäre es, wenn euer Schulteam in einem Spiel verliert und die gegnerische Mannschaft mit ihrem Sieg angibt? Wie würdet ihr euch fühlen? Nicht so gut, oder?</p>
 
-Würdet ihr vom Spielfeld laufen oder die Trophäe für den zweiten Platz nicht annehmen, wenn euer Team verliert? Auch wenn es sich im Moment vielleicht gut anfühlt wütend zu sein, kann es auf lange Sicht negative Auswirkungen haben. Was könnten diese Auswirkungen sein?
+<p>Würdet ihr vom Spielfeld laufen oder die Trophäe für den zweiten Platz nicht annehmen, wenn euer Team verliert? Auch wenn es sich im Moment vielleicht gut anfühlt wütend zu sein, kann es auf lange Sicht negative Auswirkungen haben. Was könnten diese Auswirkungen sein?</p>
 
-Wir hoffen, dass ihr nicht aus dem Auge verliert was ihr alles erreicht habt, egal ob euer Team gewinnt oder verliert. Nicht viele Leute können von sich behaupten, dass sie eine App programmiert haben, die ein Problem in ihrer Gemeinde löst! Ihr habt allen Grund dazu stolz auf euch zu sein und den Leuten, die euch unterstützt haben, zu danken.
+<p>Wir hoffen, dass ihr nicht aus dem Auge verliert was ihr alles erreicht habt, egal ob euer Team gewinnt oder verliert. Nicht viele Leute können von sich behaupten, dass sie eine App programmiert haben, die ein Problem in ihrer Gemeinde löst! Ihr habt allen Grund dazu stolz auf euch zu sein und den Leuten, die euch unterstützt haben, zu danken.</p>
 
-Hier findet ihr noch ein paar Tipps wie ihr mit dem <a href="http://lifehacker.com/how-to-avoid-being-a-sore-loser-at-competitive-games-1711492385" target="_blank" rel="noopener">Gewinnen und Verlieren</a> umgehen solltet.
-<h3>Reflexion</h3>
-Freut ihr euch schon auf euren Pitch? Das hoffen wir! Ihr habt bereits eine Präsentation erstellt, geprobt, über mögliche Fragen nachgedacht und seid beriet für euren großen Auftritt. bis ihr euren Pitch vortragt solltet ihr noch einmal über folgende Fragen nachdenken:
-<ul>
- 	<li style="font-weight: 400">Wie unterscheidet sich eure Pitch-Präsentation von dem Videopitch und dem Demovideo?</li>
- 	<li style="font-weight: 400">Warum sind eure Lösung und euer Team besonders? Warum ist es für euch so wichtig das Problem zu lösen?</li>
- 	<li style="font-weight: 400">Was habt ihr auf eurem Weg gelernt und wem habt ihr das zu verdanken? Auch wenn ihr wahrscheinlich jede freie Minute verwendet um euren Pitch zu übern, solltet ihr euch auch gegenseitig loben.</li>
- 	<li style="font-weight: 400">Wen wollt ihr zum Pitch Event einladen?</li>
-</ul>
-<h3><b>Weitere Quellen</b></h3>
-<ul>
- 	<li>Nathan Gold (The Demo Coach) <a href="https://drive.google.com/file/d/0B3rEYL3DkWfAc1pfWlBHa1BqQWc/view" target="_blank" rel="noopener">2016 Webinar mit Technovation Finalisten </a> in dem er erklärt, wie man gute Präsentationen hält und Fragen beantwortet</li>
- 	<li><a href="http://www.democoach.com/hidden-gems/" target="_blank" rel="noopener">Quellen Vorschläge</a> von Nathan Gold</li>
- 	<li><a href="https://www.youtube.com/watch?v=51TLge2peLc" target="_blank" rel="noopener">Guy Kawasaki Video</a></li>
- 	<li>Simon Sinek <a href="https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action" target="_blank" rel="noopener">Wie große Köpfe zu Taten inspirieren</a></li>
-</ul>
+<p>Hier findet ihr noch ein paar Tipps wie ihr mit dem <a href="http://lifehacker.com/how-to-avoid-being-a-sore-loser-at-competitive-games-1711492385" target="_blank" rel="noopener">Gewinnen und Verlieren</a> umgehen solltet.</p>
+
+<div style="background-color: #006667; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3 id="reflect" style="color: white;"><strong>Reflexion</strong></h3>
+	Freut ihr euch schon auf euren Pitch? Das hoffen wir! Ihr habt bereits eine Präsentation erstellt, geprobt, über mögliche Fragen nachgedacht und seid beriet für euren großen Auftritt. bis ihr euren Pitch vortragt solltet ihr noch einmal über folgende Fragen nachdenken:
+	<ul>
+	 	<li style="font-weight: 400">Wie unterscheidet sich eure Pitch-Präsentation von dem Videopitch und dem Demovideo?</li>
+	 	<li style="font-weight: 400">Warum sind eure Lösung und euer Team besonders? Warum ist es für euch so wichtig das Problem zu lösen?</li>
+	 	<li style="font-weight: 400">Was habt ihr auf eurem Weg gelernt und wem habt ihr das zu verdanken? Auch wenn ihr wahrscheinlich jede freie Minute verwendet um euren Pitch zu übern, solltet ihr euch auch gegenseitig loben.</li>
+	 	<li style="font-weight: 400">Wen wollt ihr zum Pitch Event einladen?</li>
+	</ul>
+	<h3 style="color: white;"><strong>Weitere Quellen</strong></h3>
+	<ul> 
+	 	<li>Nathan Gold (The Demo Coach) <a style="color: #eae46f;" href="https://drive.google.com/file/d/0B3rEYL3DkWfAc1pfWlBHa1BqQWc/view" target="_blank" rel="noopener">2016 Webinar mit Technovation Finalisten </a> in dem er erklärt, wie man gute Präsentationen hält und Fragen beantwortet</li>
+	 	<li><a style="color: #eae46f;" href="http://www.democoach.com/hidden-gems/" target="_blank" rel="noopener">Quellen Vorschläge</a> von Nathan Gold</li>
+	 	<li><a style="color: #eae46f;" href="https://www.youtube.com/watch?v=51TLge2peLc" target="_blank" rel="noopener">Guy Kawasaki Video</a></li>
+	 	<li>Simon Sinek <a style="color: #eae46f;" href="https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action" target="_blank" rel="noopener">Wie große Köpfe zu Taten inspirieren</a></li>
+	</ul>
+</div>
