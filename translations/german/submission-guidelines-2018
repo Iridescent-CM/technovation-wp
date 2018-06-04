@@ -1,8 +1,9 @@
 <h1 style="text-align: center">Richtlinien für die Teilnahme</h1>
 <h3 style="text-align: center">Abgabe bis: 25. April, 17:00 Uhr PST</h3>
-<h1 style="text-align: center">Was muss ich einreichen?</h1>
-<p style="text-align: center">Hier findest du die Richtlinien um die maximal mögliche Punktzahl zu erhalten.</p>
-
+<div style="background-color: #006667; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h1 style="text-align: center;"><span style="color: #eae46f;">Was muss ich einreichen?</span></h1>
+	<p style="text-align: center"><span style="font-weight: 400; color: #ffffff; font-size: 16px;">Hier findest du die Richtlinien um die maximal mögliche Punktzahl zu erhalten.</span></p>
+</div>
 <h4>1. Videopitch</h4>
 <ul>
  	<li>Sollte 3-4 Minuten lang sein</li>
@@ -53,37 +54,44 @@
  	<li>Die Präsentation muss nicht vor dem 25. April eingereicht werden, der Abgabetermin hängt von dem Event ab an dem ihr teilnehmt</li>
 </ul>
 * <strong>Wichtig</strong>: Alle YouTube Videos und Google Drive/Dropbox Links müssen öffentlich zugänglich sein, damit die Jurymitglieder sich euren Beitrag anschauen können. <strong>Bitte kontrolliert eure Links doppelt.</strong>
-<p style="text-align: center">Bei weiteren Fragen zu den Teilnahmebedingungen, Einreichungen oder dem Bewertungsverfahren besucht die FAQ.</p>
-<a role="button" href="https://iridescentsupport.zendesk.com/hc/en-us/categories/115000091348-Technovation" target="_blank" rel="noopener">
-Hilfe und Teilnahmebedingungen
-</a>
-<p style="text-align: center">Finde heraus, wie deine Einreichung bewertet wird.</p>
-<a role="button" href="/?p=17262" target="_blank" rel="noopener">
-Bewertung der Kategorien
-</a>
-<h2>Technovation Zeitplan</h2>
-Aug
-Sep
-Okt
-Nov
-Dez
-Jan
-Feb
-Mär
-Apr
-Mai
-Jun
-Jul
-Rekrutierungs-Saison
-Offizielle Saison
-Pitch Events
-World Pitch
-<h3 style="color: #ececec" align="center"><strong>Wichtige Termine für die Saison 2018</strong></h3>
-<p style="color: #ececec;text-align: center;font-size: 15px"><strong>Start der Registrierung:</strong> 18. Oktober 2017
-<strong>Start der offiziellen Saison:</strong> 10. Januar 2018
-<strong>Ende der Registrierung:</strong> 7. März 2018
-<strong>Abgabetermin:</strong> 25. April 2018</p>
-<p style="text-align: center">Bist du bereit für die Technovation World Challenge?</p>
-<a role="button" href="https://my.iridescent.staging.wpengine.com" target="_self">
-Anmelden
-</a>
+
+<div style="background-color: #006667; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<p style="text-align: center">Bei weiteren Fragen zu den Teilnahmebedingungen, Einreichungen oder dem Bewertungsverfahren besucht die FAQ.</p>
+	<p style="text-align: center"><span style="color: #eae46f;"><a style="color: #eae46f;" role="button" href="https://iridescentsupport.zendesk.com/hc/en-us/categories/115000091348-Technovation" target="_blank" rel="noopener">	Hilfe und Teilnahmebedingungen	</a></span></p>
+	<p style="text-align: center">Finde heraus, wie deine Einreichung bewertet wird.</p>
+	<p style="text-align: center"><span style="color: #eae46f;"><a style="color: #eae46f;" role="button" href="/?p=17262" target="_blank" rel="noopener">
+	Bewertung der Kategorien</a></span></p>
+	
+</div>	
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h2 style="text-align: center"><span style="font-weight: 400">Technovation Zeitplan</h2>
+	<p style="text-align: center"><span style="font-weight: 400">Aug</span>
+	<span style="font-weight: 400">Sep</span>
+	<span style="font-weight: 400">Okt</span>
+	<span style="font-weight: 400">Nov</span>
+	<span style="font-weight: 400">Dez</span>
+	<span style="font-weight: 400">Jan</span>
+	<span style="font-weight: 400">Feb</span>
+	<span style="font-weight: 400">Mär</span>
+	<span style="font-weight: 400">Apr</span>
+	<span style="font-weight: 400">Mai</span>
+	<span style="font-weight: 400">Jun</span>
+	<span style="font-weight: 400">Jul</span></p>
+	<p style="text-align: center"><span style="font-weight: 400">Rekrutierungs-Saison</span>
+	<span style="font-weight: 400">Offizielle Saison</span>
+	<span style="font-weight: 400">Pitch Events</span>
+	<span style="font-weight: 400">World Pitch</span></p>
+</div>	
+<div style="background-color:#421b41 ; color:white; padding:25px; margin-top:25px; margin-bottom:25px"> 
+	<h3 style="color: #ececec" align="center"><strong>Wichtige Termine für die Saison 2018</strong></h3>
+	<p style="color: #ececec;text-align: center;font-size: 15px"><strong>Start der Registrierung:</strong> 18. Oktober 2017</p>
+	<p style="color: #ececec;text-align: center;font-size: 15px"><strong>Start der offiziellen Saison:</strong> 10. Januar 2018</p>
+	<p style="color: #ececec;text-align: center;font-size: 15px"><strong>Ende der Registrierung:</strong> 7. März 2018</p>
+	<p style="color: #ececec;text-align: center;font-size: 15px"><strong>Abgabetermin:</strong> 25. April 2018</p>
+</div>
+<div style="background-color:#53042D ; color:white; padding:25px; margin-top:25px; margin-bottom:25px">	
+	<p style="text-align: center">Bist du bereit für die Technovation World Challenge?</p>
+	<p style="text-align: center"><a role="button" href="https://my.technovationchallenge.org" target="_self">
+	Anmelden
+	</a></p>
+</div>	
