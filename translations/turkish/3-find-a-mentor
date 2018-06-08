@@ -12,9 +12,9 @@ Bu modülde öğrenecekleriniz:
  	<li style="font-weight: 400">Bir Technovation mentoru bulup takımınıza ekleyin</li>
  	<li style="font-weight: 400"> Takım Kurmaya başlayın</li>
 </ul>
-<h3></h3>
-<h3>Başlangıç</h3>
-<a href="https://iridescent.staging.wpengine.com/curriculum/buildateam/" target="_blank" rel="noopener">Takım Kurmaya</a> ve takımınızı <a href="https://my.iridescent.staging.wpengine.com/" target="_blank" rel="noopener">my.iridescent.staging.wpengine.com </a>sitesine kaydettiğinize göre, sıra mentor bulmakta!
+
+<h3 id="getstarted">Başlangıç</h3>
+<a href="https://technovationchallenge.org/curriculum/buildateam/" target="_blank" rel="noopener">Takım Kurmaya</a> ve takımınızı <a href="https://my.technovationchallenge.org/" target="_blank" rel="noopener">my.technovationchallenge.org </a>sitesine kaydettiğinize göre, sıra mentor bulmakta!
 
 Mentorlar, Technovation deneyiminizde  <b>büyük bir fark</b> yaratabilir. Sizinle ve takımınızla çalışmak için sabırsızlık duyan bir sürü mentorumuz var!  Her mentor, takımınızın internet üzerindeki Technovation müfredatını tamamlamanıza yardımcı olabilecek bir öğretmen, veli veya fen, mühendislik, teknoloji, işletme veya eğitim alanlarında bir uzman. Technovation mentorları, öğreniminize yardımcı olacak çeşitli geçmişlere ve deneyimlere sahip ve sizin gibi takımların harika şeyler yapmalarını destekleme konusunda tutkulu.
 
@@ -31,13 +31,13 @@ Bölgenizde mevcut mentorlara bağlı olarak Skype, Google Hangouts veya bir kaf
 Bir mentorunuz olmasının çok fazla yararı var, umarız takımınız bu sezon bir mentorla çalışma fırsatından yararlanır.
 
 Bir mentorla iletişim kurmak korkutucu olabilir, ama hepsi bu programa size yardımcı olmak için kaydoldu! Aslında bu çok harika. Siz de onların özel hissetmesine yardımcı olabilirsiniz, iletişim kurup yardım istemeniz yeterli. İletişim kurmanın yolları aşağıda.
-<h3>Technovation Mentoru Bulun</h3>
-Takımınız için en iyi Technovation mentorunu  <a href="https://my.iridescent.staging.wpengine.com/" target="_blank" rel="noopener">my.iridescent.staging.wpengine.com </a>adresinden bulmanız için birkaç adım:
+<h3 id="findmentor">Technovation Mentoru Bulun</h3>
+Takımınız için en iyi Technovation mentorunu  <a href="https://my.technovationchallenge.org/" target="_blank" rel="noopener">my.technovationchallenge.org</a>adresinden bulmanız için birkaç adım:
 <ol>
- 	<li style="font-weight: 400"><a href="https://my.iridescent.staging.wpengine.com/" target="_blank" rel="noopener">my.iridescent.staging.wpengine.com</a> sitesine giriş yapın. Ekranınız böyle görünmeli:
-<img style="padding: 1px;border: 1px #cccccc solid" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/10/Slide5.jpg" alt="dashboard: team created, no mentor" width="650" /></li>
+ 	<li style="font-weight: 400"><a href="https://my.technovationchallenge.org/" target="_blank" rel="noopener">my.technovationchallenge.org</a> sitesine giriş yapın. Ekranınız böyle görünmeli:
+<img style="padding: 1px;border: 1px #cccccc solid" src="http://www.technovationchallenge.org/wp-content/uploads/2016/10/Slide5.jpg" alt="dashboard: team created, no mentor" width="650" /></li>
  	<li style="font-weight: 400"> Sayfanın tepesindeki "Find a Mentor" (Mentor Bulun) tabine tıklayın. Böyle bir sayfaya geleceksiniz:
-<img style="padding: 1px;border: 1px #cccccc solid" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/Slide5_v2.jpg" alt="dashboard: find a mentor" width="650" /></li>
+<img style="padding: 1px;border: 1px #cccccc solid" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Slide5_v2.jpg" alt="dashboard: find a mentor" width="650" /></li>
  	<li style="font-weight: 400">Bölgenizdeki mentorları inceleyin.
 <ol>
  	<li> “Filter Options” (Filtre Opsiyonları) ekranın sol tarafında bulunmaktadır. Buradan takımınızın aradığı uzmanlık alanı doğrultusunda mentorları filtreleyebilirsiniz.</li>
@@ -46,24 +46,26 @@ Takımınız için en iyi Technovation mentorunu  <a href="https://my.iridescen
  	<li style="text-indent: -1em"> → Eğer bölgenizde mentor yok ise, sol taraftan filtrenizi başka şehirlerde yer alan, size internet üzerinden yardımcı olabilecek mentorları gösterecek şekilde düzenleyin.</li>
 </ol>
 </li>
- 	<li style="font-weight: 400">Once you find the mentor you think will be the best fit for your team, click the "View Full Profile" button to open their profile page, then click the green button at the bottom of the page that says “Invite [Mentor Name] to Mentor your Team”. The mentor will have the option to view your team page and accept or decline the request.</li>
- 	<li style="font-weight: 400">If they decline, don’t worry! There are plenty of other mentors out there. It probably means that they have already connected with another team. You can repeat the steps above to find another mentor.
+ 	<li style="font-weight: 400">Takımınıza uygun olacağını düşündüğünüz bir mentor bulduğunuzda, "View Full Profile" (Tüm Profili Görüntüle) düğmesine basarak profilini açın, sonra da sayfanın altındaki yeşil “Invite [Mentor Name] to Mentor your Team” ([Mentor Adı]'nı Takımını Mentor Etmeye Davet Et) düğmesine basın. Daha sonra mentor, takımınızın sayfasına bakarak davetiyenizi kabul etmeyi veya reddetmeyi seçebilir.</li>
+ 	<li style="font-weight: 400">Eğer kabul etmezlerse, merak etmeyin! Davet edebileceğiniz bir sürü mentor var. Büyük ihtimalle başka bir takım ile daha önce anlaştıkları için reddetmişlerdir. Yukarıdaki adımları tekrarlayarak başka bir mentor bulabilirsiniz.
 <ul>
- 	<li style="text-indent: -1em"> → Make sure your Team Page is complete with a photo and detailed description of your team, including who you are looking for in a mentor. Mentors can search and request teams as well!</li>
+ 	<li style="text-indent: -1em"> → Takım Sayfanızın takımınızın fotoğrafını ve takımınız hakkında detaylı bilgi içerdiğinden emin olun, bir mentorda nasıl özellikler aradığınızı eklemeyi unutmayın. Mentorlar da takım arayıp takımlara tekliflerde bulunabilirler!</li>
 </ul>
 </li>
- 	<li style="font-weight: 400">Once the mentor accepts or declines your request, everyone on the team will receive an email. If they accept, you can login to your team page on <a href="https://my.iridescent.staging.wpengine.com/" target="_blank" rel="noopener">my.iridescent.staging.wpengine.com</a> and you will see your mentor’s email address. You can send them an email to set up your first meeting! Your email could look something like this:</li>
+ 	<li style="font-weight: 400">Bir mentor davetinizi kabul veya reddeder ise, takımınızdaki herkese email gidecektir. Kabul eder ise,  <a href="https://my.technovationchallenge.org/" target="_blank" rel="noopener">my.technovationchallenge.org</a> sitesinden takım sayfanıza giriş yapıp mentorunuzun email adresine ulaşabilirsiniz. İlk toplantınızı düzenlemek için onlara email yollayabilirsiniz! Atabileceğiniz email için bir örnek:</li>
 </ol>
 <table style="background-color: #ffffff;margin-left: auto;margin-right: auto" width="75%">
 <tbody>
 <tr>
-<td align="left">Dear [Mentor Name],Thank you for accepting our request to be our Technovation mentor. We can’t wait to start working with you to build our mobile app and business through Technovation! Our team typically meets on [day of the week] from [time] to [time] at [location where you meet]. We hope you can join us at our next meeting, or we can find a new time that works for you as well!
+<td align="left">Sevgili  [Mentor Adı],
 
-Looking forward to it!
+Technovation mentorumuz olma teklifini kabul ettiğiniz için teşekkür ederiz. Technovation üzerinden sizinle çalışmayı, mobil uygulamamızı yaratmayı ve işimizi kurmayı sabırsızlıkla bekliyoruz! Takımımız genellikle  [takım buluşmalarını yaptığınız gün] saat [saat]'tan [saat]'a  [buluşma yaptığınız yer]'de buluşur. Umarız bir sonraki toplantıda bize katılabilirsiniz! Eğer buluşma saatleri size uymuyorsa, farklı bir zamanda da buluşmalar ayarlayabiliriz.
 
-Sincerely,
+Buluşmayı heyecanla bekliyoruz!
 
-[Your Team Name]</td>
+Sevgiler,
+
+[Takım Adı]</td>
 </tr>
 </tbody>
 </table>
@@ -72,98 +74,110 @@ Sincerely,
 <ul>
  	<li>
 <ul>
- 	<li style="text-indent: -1em"> → If you don't hear back, be persistent. Email them again or move on to a new mentor until you find a match.</li>
+ 	<li style="text-indent: -1em"> → Eğer cevap almazsanız, pes etmeyin. Size uygun birini bulana kadar tekrar email atın yada başka bir mentor ile iletişime geçin.</li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
-<blockquote>
-<p style="text-align: center">“Coming together is a beginning, staying together is progress, and working together is success.”</p>
-</blockquote>
-<p style="text-align: right">—Henry Ford, founder of the Ford Motor Company</p>
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;"><center>
+	<blockquote>
+	<p style="text-align: center">“Bir araya gelmek bir başlangıç, birlikte kalmak ilerleme ve birlikte çalışmak ise başarıdır.”</p>
+	</blockquote>
+	<p style="text-align: right">—Henry Ford,  Ford Motor Company'nin kurucusu</p>
+</center></div>
 
-<h3>Recruit a Local Mentor</h3>
-<strong>If you couldn’t find a mentor through <a href="http://my.iridescent.staging.wpengine.com" target="_blank" rel="noopener">my.iridescent.staging.wpengine.com</a> don’t worry!</strong>
+<h3 id="recruitmentor">Yerel bir Mentor Bulun</h3>
+<strong>Eğer <a href="https://my.technovationchallenge.org" target="_blank" rel="noopener">my.technovationchallenge.org</a> sitesinden bir mentor bulamadıysanız, merak etmeyin!</strong>
 
-Mentors can be any adult who can support your team in developing your mobile app and business through Technovation. The most important thing is that the mentor can be available on a regular basis and they can help support you through the curriculum. They don’t need to have all the skills needed to build a tech business, but they must be willing to learn alongside you and your team.
+Mentorlar, takımınıza Technovation üzerinden mobil uygulamanızı ve işinizi kurmakta destek olacak herhangi bir yetişkin olabilir. Önemli olan, mentorun düzenli olarak size müfredat hakkında yardım edebilecek zamanının olması. Bir teknoloji şirketi kurmak için gereken bütün özelliklere sahip olmak zorunda değiller ama takımınızla birlikte öğrenmeye hevesli olmalılar.
 
-Here are some steps you can take to find a mentor in your community:
+Bölgenizde bir mentor bulmak için izleyebileceğiniz birkaç adım:
 
-<strong>Contact local business groups.</strong>
-Do some internet searches and check to see if there are any tech women-focused interest groups. Search on <a href="https://www.meetup.com/" target="_blank" rel="noopener">meetup.com</a> or social media sites to find groups of women who are already interested in the subject. Universities and professional women in technology or engineering groups often have local chapters, too. A few to begin researching are <a href="http://societyofwomenengineers.swe.org/" target="_blank" rel="noopener">SWE</a> (The Society of Women Engineers), <a href="http://www.ieee.org/membership_services/membership/women/index.html" target="_blank" rel="noopener">IEEE Women in Engineering</a>, and <a href="http://sites.nationalacademies.org/pga/cwsem/index.htm" target="_blank" rel="noopener">CWSEM</a> (The Committee for Women in Science Engineering and Math), and <a href="http://girlsintech.org/" target="_blank" rel="noopener">Girls in Tech</a>.
+<strong>Yerel şirketlerle iletişime geçin.</strong>
+Teknoloji ve kadın odaklı gruplar hakkında internetten araştırma yapın. Sosyal medya sitelerinden veya <a href="https://www.meetup.com/" target="_blank" rel="noopener">meetup.com</a> sitesinden konuya ilgi duyan kadınlar bulabilirsiniz. Üniversitelerin ve teknoloji ve mühendislik ile profesyonel olarak ilgilenen kadınların şirketleri genel olarak yerel bölümler de içerir. Araştırmaya başlamanız için birkaç örnek <a href="http://societyofwomenengineers.swe.org/" target="_blank" rel="noopener">SWE</a> (Kadın Mühendisler Toplumu), <a href="http://www.ieee.org/membership_services/membership/women/index.html" target="_blank" rel="noopener">IEEE Women in Engineering </a>(IEEE Mühendislik Alanında Kadınlar) ve <a href="http://sites.nationalacademies.org/pga/cwsem/index.htm" target="_blank" rel="noopener">CWSEM</a> (Kadınların Fen, Mühendislik ve Matematik Komitesi), and <a href="http://girlsintech.org/" target="_blank" rel="noopener">Girls in Tech</a> (Teknoloji ve Kızlar).
 
-<strong>Research the companies in your area.</strong>
-Are there any large companies in your area? Many companies have outreach or employee engagement departments that are often looking for opportunities for their employees to volunteer. Try using the e-mail template (below) or write your own and reach out. Remember, mentors can come from a diverse background of expertise, from marketing and finance to software and mobile app development.
+<strong>Bölgenizdeki şirketleri araştırın.</strong>
+Bölgenizde büyük şirketler var mı?  çoğu şirketin sosyal yardım veya çalışan teşvik departmanları var. Aşağıdaki email şablonunu kullanarak veya kendiniz bir email yazarak iletişime geçmeyi deneyin. Unutmayın, mentorlar pazarlama ve finanstan yazılım ve mobil uygulamaya bir çok uzmanlık alanından olabilirler.
 
-<strong>Check out the startup scene in your community.</strong>
-Emerging companies are also a great way to find mentors. Some cities even have maps or lists that track new companies. There might be tech incubators in your area, which are offices spaces that host and provide resources to rising tech companies. You might also research whether there are any youth hackathons or startup weekend events in your area where you might find a mentor.
+<strong>Bölgenizdeki girişim ve yeni şirket topluluğunu inceleyin.</strong>
+Yeni oluşan şirketlerle iletişime geçmek de mentor bulmak için güzel bir yöntem. Bazı şehirlerin yeni şirketleri takip etmek için harita veya listeleri bile var. Bölgenizde teknoloji kuluçkaları olabilir,  kuluçkalar yükselmekte olan teknoloji şirketlerine ofis alanı ve kaynak sağlarlar. Aynı zamanda bulunduğunuz alanda mentor bulabileceğiniz gençler için hackathon veya girişim etkinlikleri araştırabilirsiniz.
 
-<strong>Post on social media.</strong>
-Let everyone know you are looking! Many teams have had success by simply posting online that they are looking for tech mentors.
-<h3>Brainstorm Activity</h3>
-Think about other places you may be able to find mentors to support you, such as:
+<strong>Sosyal medyaya paylaşım yapın.</strong>
+Mentor aradığınızdan herkesin haberi olsun! Çoğu takım sadece internet üzerinden teknoloji mentoru aradıklarını paylaşarak başarıya ulaşıyor.
+
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3>Beyin Fırtınası</h3>
+	Size destek olacak mentorlar bulabileceğiniz başka yerleri düşünün, mesela:
+	<ul>
+	 	<li>Kütüphaneler</li>
+	 	<li>Okullar</li>
+	 	<li>Aile</li>
+	 	<li>Toplum Merkezleri</li>
+	</ul>
+	Artık elinizde iletişim kurabileceğiniz insan ve gruplardan oluşan harika bir listeniz olmalı!
+
+</div>
+<b>Takıma Almaya Başlayın</b>
+
+Takım arkadaşı bulmak için kullandığınız gibi, bu kaynakları mentor bulmak için de kullanabilirsiniz:
 <ul>
- 	<li>Libraries</li>
- 	<li>Schools</li>
- 	<li>Family</li>
- 	<li>Community Centers</li>
+ 	<li style="font-weight: 400"><a href="https://www.youtube.com/watch?v=YDrqtNE1ARI" target="_blank" rel="noopener">İlham Videosu</a><em>  CodeGirl belgeselinin tamamına Netflix üzerinden ulaşabilirsiniz</em></li>
+ 	<li style="font-weight: 400">Takıma Alma İlanı: <a href="www.technovationchallenge.org/wp-content/uploads/2016/09/Flyer-Recruitment_Mentor.pdf" target="_blank" rel="noopener">İngilizce</a> yada <a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Flyer-Recruitment_Mentor-editable.pdf" target="_blank" rel="noopener">düzenlenebilir</a> halleri <em>(ücretsiz <a href="https://get.adobe.com/reader/" target="_blank" rel="noopener">Adobe Reader</a> uygulamasından düzenleyebilirsiniz)</em></li>
+ 	<li style="font-weight: 400"><a href="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Tech-MarketingBooklet.pdf" target="_blank" rel="noopener">Technovation Bilgi Kitapçığı</a></li>
+ 	<li style="font-weight: 400">Neden Technovation'a katıldığınızla ilgili kişisel bir hikaye. İlham kaynağınızı paylaşın!</li>
 </ul>
-Now you should have a really awesome list of people and groups to contact about being your mentor!
-
-<b>Start Recruiting</b>
-Just like when you recruited other girls to join your team, you can use these resources to recruit a mentor:
+Unutmayın:
 <ul>
- 	<li style="font-weight: 400"><a href="https://www.youtube.com/watch?v=YDrqtNE1ARI" target="_blank" rel="noopener">Inspiration Video</a><em> The full CodeGirl documentary is available on Netflix</em></li>
- 	<li style="font-weight: 400">Recruitment Flyer: <a href="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/Flyer-Recruitment_Mentor.pdf" target="_blank" rel="noopener">English</a> or <a href="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/Flyer-Recruitment_Mentor-editable.pdf" target="_blank" rel="noopener">editable</a> <em>(edit in free <a href="https://get.adobe.com/reader/" target="_blank" rel="noopener">Adobe Reader</a>)</em></li>
- 	<li style="font-weight: 400"><a href="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/Tech-MarketingBooklet.pdf" target="_blank" rel="noopener">Technovation Information Booklet</a></li>
- 	<li style="font-weight: 400">A personal story about why you decided to join Technovation. Share your inspiration!</li>
+ 	<li style="font-weight: 400">İletişim bilgileri aldığınızdan emin olun (isim ve email), böylece daha fazla bilgi ve katılım linki ile iletişime devam edebilirsiniz: <a href="https://my.technovationchallenge.org" target="_blank" rel="noopener">my.technovationchallenge.org</a></li>
+ 	<li style="font-weight: 400">Heyecanınızı gösterin!</li>
 </ul>
-Keep in mind:
-<ul>
- 	<li style="font-weight: 400">Make sure you collect contact information (name and email) so you can follow-up with more information and the link to register: <a href="https://my.iridescent.staging.wpengine.com/" target="_blank" rel="noopener">my.iridescent.staging.wpengine.com</a></li>
- 	<li style="font-weight: 400">Show your excitement!</li>
-</ul>
-<b>Outreach Email Template</b>
+<b>Sosyal Yardım Email Şablonu</b>
 
-You can also use this email template to reach out to local businesses or organizations who can connect you to potential mentors. Be sure to customize it before sending!
+Sizi potansiyel mentorlarla tanıştıracak yerel şirket veya organizasyonlara bu email şablonunu kullanarak iletişime geçebilirsiniz. Yollamadan önce kişiselleştirmeyi unutmayın!
 
 &nbsp;
 <table style="background-color: #ffffff;margin-left: auto;margin-right: auto" width="75%">
 <tbody>
 <tr>
-<td align="left">Dear [Mentor Name],Hello! I'm a student at [School Name] and I’m reaching out to tell you about a nonprofit education program called Technovation, which is dedicated to inspiring women in technology and entrepreneurship. I am starting a Technovation club at my school, and I am looking for professionals in technology to volunteer as mentors in the program. I thought I would reach out to your company to see if I could recruit some of your employees to volunteer.
+<td align="left">Sevgili  [Mentor Adı],
 
-In Technovation, girls work in teams to develop mobile apps, conduct market research, write business plans, and create a “pitch” for funding. Each team works with a mentor/role model from the technology industry. The course culminates in a Technovation World Pitch Summit, where teams compete for $20k in funding to launch their company and take their app to market.
+Merhaba! Ben [Okul Adı]'nda bir öğrenciyim ve Technovation adında kendini genç kadınlara teknoloji ve girişim alanında ilham vermeye adayan bir gönüllü eğitim programı hakkında size bilgi vermek istiyorum.  Kendi okulumda bir Technovation kulübü başlatıyorum ve bu programda gönüllü olarak bize mentorluk yapacak teknoloji alanında profesyoneller arıyorum. Şirketinizle iletişime geçerek çalışanlarınızdan bazılarını bu konuda gönüllü olmaya yönlendirmenizi sağlayabileceğimi düşündüm.
 
-The goal of Technovation is to inspire girls to see themselves not just as users of technology, but as inventors, designers, builders and entrepreneurs. So far, Technovation has reached over 7,500 girls across the globe, and hopes to continue growing!
+Technovation'da kızlar birlikte çalışarak mobil uygulama geliştiriyor, pazar araştırması yapıyor, iş planı yazıyor ve yatırım bulabilmek için bir “pitch” sunumu hazırlıyor.  Her takım teknoloji sektöründen bir mentor/rol modeli ile çalışıyor. Kurs, Technovation World Pitch Summit'te doruğa ulaşıyor, takımlar şirketlerini başlatmak ve uygulamalarını pazara sunmak için 20 bin dolar yatırım  için yarışıyorlar.
 
-Can you direct me to the right person in your office that handles community affairs? Thank you very much for your time!
+Technovation'un amacı kızların kendilerini teknoloji sektöründe sadece tüketici değil, yaratıcı, tasarımcı, kurucu ve girişimci olarak görmeleri. Şimdiye kadar Technovation dünya çapında 7,500'ün üzerinde kıza ulaştı ve büyümeye devam etmeyi umuyor!
 
-Sincerely,
+Beni ofisinizde Halk İlişkileri ile ilgilenen kişiye yönlendirebilir misiniz? Zaman ayırdığınız için çok teşekkür ederim!
 
-[Your Name]
-[optional: Your LinkedIn Profile]</td>
+Sevgiler,
+
+[Adınız]
+[isteğe bağlı:  LinkedIn Profiliniz]</td>
 </tr>
 </tbody>
 </table>
-Once you’ve recruited your mentor, have them visit <a href="https://my.iridescent.staging.wpengine.com/" target="_blank" rel="noopener">my.iridescent.staging.wpengine.com</a> and complete their registration. Once they are registered, you can add them to your team using the <a href="#findmentor">steps above</a>.
-<h3>Get to Know Your Team</h3>
-You and your team should start some team building! Team building can involve anything from going on a walk, playing a get-to-know-you-game, or having a serious discussion. It’s important for the team to build relationships beyond developing your app and company. There may be times you find it’s difficult to communicate with one another. It’s important to set a strong foundation so that you know how to work with each other in difficult situations.
+Takımınıza bir mentor aldığınız zaman <a href="https://my.technovationchallenge.org/" target="_blank" rel="noopener">my.technovationchallenge.org</a> sitesine gidip kayıt formunu doldurmalarını isteyin. Formu doldurduktan sonra,  <a href="#findmentor">yukarıdaki adımları</a> kullanarak onları takımınıza ekleyebilirsiniz.
+<h3 id="knowteam">Takımınızı Tanıyın</h3>
+Takımınızla ekip oluşturmaya aktivitelerine başlamalısınız! Ekip oluşturma aktiviteleri bir yürüyüşe çıkmak, bir tanışma oyunu oynamak veya ciddi bir konuda tartışmak gibi şeyler olabilir. Takımınızla uygulama ve şirket geliştirme dışında ilşki kurmanız önemli. Aranızda iletişim kumakta zorluk çektiğiniz zamanlar olabilir. Zor durumlarda birlikte çalışabilmeniz açısından güçlü bir temel oluşturmanız önemli.
 
-This is a <a href="http://www.teampedia.net/wiki/index.php?title=Main_Page" target="_blank" rel="noopener">great resource</a> for finding team building games for you team to get to know one another. Here’s how you might get started:
+Bu birbirinizi daha iyi tanımanız için ekip oluşurma aktiviteleri bulmanız açısından <a href="http://www.teampedia.net/wiki/index.php?title=Main_Page" target="_blank" rel="noopener">çok iyi bir kaynak</a>.Böyle başlayabilirsiniz:
 <ul>
- 	<li style="font-weight: 400">Start with a <a href="http://www.teampedia.net/wiki/index.php?title=Category:Name_Games" target="_blank" rel="noopener">name game</a> if you don’t know everyone’s name yet.</li>
- 	<li style="font-weight: 400">Try a <a href="http://www.teampedia.net/wiki/index.php?title=Category:Icebreakers/Warmups" target="_blank" rel="noopener">warm-up activity</a> to get to know one another a little better.</li>
- 	<li style="font-weight: 400">Then, dive into some deeper <a href="http://www.teampedia.net/wiki/index.php?title=Category:Communication" target="_blank" rel="noopener">communication</a> and <a href="http://www.teampedia.net/wiki/index.php?title=Category:Collaboration" target="_blank" rel="noopener">team building</a> activities to help develop strategies that will bring the team together when problems may arise.</li>
- 	<li style="font-weight: 400">You could even try a fun hands-on problem solving activity, like <a href="http://www.tomwujec.com/design-projects/marshmallow-challenge/" target="_blank" rel="noopener">this</a>!</li>
+ 	<li style="font-weight: 400">Henüz herkesin adını bilmiyorsanız bir  <a href="http://www.teampedia.net/wiki/index.php?title=Category:Name_Games" target="_blank" rel="noopener">isim oyunu</a> ile başlayın.</li>
+ 	<li style="font-weight: 400">Birbirinizi daha iyi tanımak için bir <a href="http://www.teampedia.net/wiki/index.php?title=Category:Icebreakers/Warmups" target="_blank" rel="noopener">ısınma aktivitesi</a> deneyin.</li>
+ 	<li style="font-weight: 400">Sonra daha derin  <a href="http://www.teampedia.net/wiki/index.php?title=Category:Communication" target="_blank" rel="noopener">iletişim </a> ve <a href="http://www.teampedia.net/wiki/index.php?title=Category:Collaboration" target="_blank" rel="noopener">takım oluşturma</a> aktiviteleri deneyin. Böylece problem çıktığında takımınızı bir araya getirecek stratejiler geliştirebilirsiniz.</li>
+ 	<li style="font-weight: 400"> <a href="http://www.tomwujec.com/design-projects/marshmallow-challenge/" target="_blank" rel="noopener">Bunun gibi</a> eğlenceli problem çözme aktiviteleri bile deneyebilirsiniz!</li>
 </ul>
-There are a lot of activities available in the resources above. Perhaps you could nominate one team member to lead a team building or warm-up activity to start off each team meeting. That way you can continue your development as a team throughout the Technovation season!
+Yukarıdaki kaynaklarda kullanabileceğiniz bir sürü aktivite var. Belki takım arkadaşlarınızdan birini her buluşma öncesi bir ısınma aktivitesi organize etmek üzere görevlendirebilirsiniz. Böylece takım olarak Technovation sezonu boyunca gelişmeye devam edebilirsiniz!
 
-At this point, if you are still unable to find a mentor, do not feel discouraged. There are many teams who are successful working through the Technovation curriculum on their own (some of them have even made it to the finals at World Pitch!).
-<h3>Ready to move on?</h3>
-You’re ready for the next step in the process - Ideation!
+Bu noktada hala bir Technovation mentoru bulamadıysanız, cesaretinizi kırmayın. Technovation müfredatını tek başlarına tamamlayan bir sürü takım var (Bazıları World Pitch'te fınallere bile kalmayı başardı!).
 
-<a role="button" href="http://www.iridescent.staging.wpengine.com/curriculum/ideation/" target="_blank" rel="noopener">
-Ideation
-</a>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;"><center>
+	<h3>Devam etmeye hazır mısınız?</h3>
+	Sıradaki adıma geçmek için hazırsınız - Fikir Üretme!
+
+	<a role="button"  style="color: #eae46f;" href="http://my.technovationchallenge.org/" target="_blank" rel="noopener">
+	Fikir Üretme
+	</a>
+</center>
+</div>
