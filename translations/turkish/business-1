@@ -1,26 +1,26 @@
 <h1>İş Planı 1</h1>
-<ul>
- 	<li>
+
 <h2>İş Planı Türleri</h2>
 <ul>
- 	<li><a href="#whatis">İş Türleri</a></li>
- 	<li><a href="#real">Gerçek Hayat Örnekleri</a></li>
- 	<li><a href="#mstatement">Misyon Beyanı</a></li>
- 	<li><a href="#reflect">Değerlendirme Yansıtması</a></li>
+ 	<li><strong><a href="#whatis">İş Türleri</a></strong></li>
+ 	<li><strong><a href="#real">Gerçek Hayat Örnekleri</a></strong></li>
+ 	<li><strong><a href="#mstatement">Misyon Beyanı</a></strong></li>
+ 	<li><strong><a href="#reflect">Değerlendirme Yansıtması</a></strong></li>
 </ul>
 <h2>Öğrenme Objektifleri</h2>
 Bu modülde, yapacaklarınız:</li>
- 	<li>Farklı türde iş planı öğrenmek</li>
- 	<li>Hangi türde iş planları tasarlamak istediğinizi düşünmek</li>
+ 	<li style="font-weight: 400;">Farklı türde iş planı öğrenmek</li>
+ 	<li style="font-weight: 400;">Hangi türde iş planları tasarlamak istediğinizi düşünmek</li>
  	<li>Misyon beyanı yazma</li>
 </ul>
 &nbsp;
-<h3>İş Planı nedir?</h3>
-Bir girişimci olmanın önemli noktalarından biri de nasıl bir iş planı hazırlamaya başlamak ve bunu nasıl uyulayacağınızı anlamaktır! Uygulamanızı nasıl tasarlayacağınızı öğrenmeye ve uygulamanızın <a href="http://www.iridescent.staging.wpengine.com/curriculum/ideation/" target="_blank" rel="noopener">hangi problemleri çözeceğini  </a>düşünmeye başlıyorsunuz. Şimdi, iş planınızı düşünmeye başlama zamanı.
+<h3 id="whatis">İş Planı nedir?</h3>
+Bir girişimci olmanın önemli noktalarından biri de nasıl bir iş planı hazırlamaya başlamak ve bunu nasıl uyulayacağınızı anlamaktır! Uygulamanızı nasıl tasarlayacağınızı öğrenmeye ve uygulamanızın <strong><a href="/?p=20930" target="_blank">hangi problemleri çözeceğini  </a></strong> düşünmeye başlıyorsunuz. Şimdi, iş planınızı düşünmeye başlama zamanı.
 
 "İş planı" kelimesini duyduğunuzda aklınıza ne geliyor? Yerel bir çiftlik stamdı, bir market, banka,  hatta belki de Facebook or Whatsapp gibi büyük sosyal medya şirketleri aklınıza geliyor olabilir.  <b>bir iş planı, </b>herhangi bir insanın, organizasyonun para veya faydalı bir amaç karşılığında bir şey yapmasıdır. Kurumlar, mal yapabilir, satabilir, veya satın alabilirler (araba üreten firmalar gibi), veya belirli hizmetler sunabilirler (cep telefonu şirketleri gibi).
 
-Bir işi yürütebilmek için, bir vitrime, bir çok çalışana, hatta fiziksel bir ürüne ihtiyacınız bile yok. Kendi işinizi başlatmak için bir yetişkin olmanıza bile gerek yok. Kendi işlerini kuran bir çok genç var. Örneğin,   <a href="http://www.digitaljournal.com/article/346724">Maddie Bradshaw</a> kendi işiniz 13 yaşındayken kurdu. Okul dolabı için kendine hitap eden ve sevdiği bir dekorasyon bulamadığı için kendi dekorasyonlarını yapmaya ve satmaya başlamaya karar verdi. Genç insanları en iyi anlayabilecek kişinin kendisisi yani onların yaşındakiler olduğunu anladı!
+Bir işi yürütebilmek için, bir vitrime, bir çok çalışana, hatta fiziksel bir ürüne ihtiyacınız bile yok. Kendi işinizi başlatmak için bir yetişkin olmanıza bile gerek yok. Kendi işlerini kuran bir çok genç var. Örneğin,   <a href="http://www.digitaljournal.com/article/346724" target="_blank">Maddie Bradshaw</a> kendi işiniz 13 yaşındayken kurdu. Okul dolabı için kendine hitap eden ve sevdiği bir dekorasyon bulamadığı için kendi dekorasyonlarını yapmaya ve satmaya başlamaya karar verdi. Genç insanları en iyi anlayabilecek kişinin kendisisi yani onların yaşındakiler olduğunu anladı!
+
 <h5>Farklı Tipte İş Planları</h5>
 Her işin amacı yalnızca para kazanmak değildir. Bazıları da yalnızca sosyal sorumluluk ve toplumlarına yardım etmek amacıyla yaparlar. Örneğin ihtiyacı olan insanların beslenme ihtiyaçlarını karşılamak veya daha iyi eğitim almalarını sağlamak gibi. Sürdürebilirlik sağlayabilmeleri  için, işlerin zaman içinde <strong>kar</strong> etmeleri gerekir (gelirler eksi giderler). Bu kısımda, üç farklı tipte iş kategorileriyle ilgili bilgiler öğreneceksiniz: kar amaçlı, kar amacı olmayan ve sosyal girişimle ilgili olanlar.
 
@@ -30,13 +30,13 @@ Bu iş kategorileriyle ilgili daha fazla bilgiye sahip olmak için aşağıdaki 
 <tr bgcolor="#28a880">
 <td></td>
 <td width="28%">
-<h5>Kar Amaçlı</h5>
+<h5><strong><span style="color: #ffffff;">Kar Amaçlı</span></strong></h5>
 </td>
 <td width="28%">
-<h5>Sosyal Girişimcilik</h5>
+<h5><strong><span style="color: #ffffff;">Sosyal Girişimcilik</span></strong></h5>
 </td>
 <td width="28%">
-<h5>Kar amaçoı</h5>
+<h5><strong><span style="color: #ffffff;">Kar amaçoı</span></strong></h5>
 </td>
 </tr>
 <tr>
@@ -113,21 +113,25 @@ Sosyal girişimcilik ile ilgili daha çok bilgi edinmek ister misiniz?
 
 Aşağıdaki  videoyu izleyebilirsiniz:
 
+<iframe src="https://www.youtube.com/embed/1ecKK3S8DOE" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
-
-Aşağıda, sosyal girişimcilikle ilgili birkaç tane daha video bulabilirsiniz:
+<p style="text-align: left;">Aşağıda, sosyal girişimcilikle ilgili birkaç tane daha video bulabilirsiniz:</p>
 <ul>
  	<li><a href="https://youtu.be/7178mTndI6A" target="_blank" rel="noopener">Sosyal Girişimcilik Nasıl Başlatılır?,</a>  TEDxYouth@Toronto'da Greg Overholt</li>
  	<li><a href="https://youtu.be/M3fl1R2lZFk" target="_blank" rel="noopener">Başarılı Sosyal Girişimcilik Nasıl Oluşturulur? </a> TEDxTeachersCollege'de Marquis Cabrera</li>
 </ul>
-<h3>Düşünmek İçin</h3>
-Kar amaçlı ve kar amaçlı olmayanlar arasında her zaman belirgin bir sınır olmayabilir ancak işlerin kazandığı parayı nasıl harcayabileceği hakkındaki sınırlamaları ve işin nasıl yapılandırıldığına dayanarak farklı vergi sorumlulukları olabilir. Çoğu ülkede, tüm işlerin hükümetlerine vergi ödemeleri gerekir.hangi tip iş oldukları, Ödemeleri gereken vergi miktarında büyük bir etkisi vardır.
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3>Düşünmek İçin</h3>
+	Kar amaçlı ve kar amaçlı olmayanlar arasında her zaman belirgin bir sınır olmayabilir ancak işlerin kazandığı parayı nasıl harcayabileceği hakkındaki sınırlamaları ve işin nasıl yapılandırıldığına dayanarak farklı vergi sorumlulukları olabilir. Çoğu ülkede, tüm işlerin hükümetlerine vergi ödemeleri gerekir.hangi tip iş oldukları, Ödemeleri gereken vergi miktarında büyük bir etkisi vardır.
 
-Örneğin, Amerika'da kar amaçlı olmayan bir iş yürütüyorsanız, normaldekinden daha az vergi ödeyebilirsiniz, aynı zamanda size bağış yapanlar da vergi  molası alabilirler. Ancak, bir sosyal girişimcilik işi veya kar-amaçlı olmayan bir iş yürüttüğünüzü söylemeniz yeterli değildir. Belirli kurallara uymanız  ve bu kurallara uyduğunuzu kanıtlamanız gerekmektedir. Her ülkenin kuralları ve kanunları farklıdır. Bu kuralları kontrol etmek ve uymak Technovation'un kapsamında değildir, ancak Technovation'un dışında bir iş başlattığınızda bu kuralları göz önünde bulundurmak önemlidir.
-<h3>Gerçek Hayattan Örnekler:</h3>
+	Örneğin, Amerika'da kar amaçlı olmayan bir iş yürütüyorsanız, normaldekinden daha az vergi ödeyebilirsiniz, aynı zamanda size bağış yapanlar da vergi  molası alabilirler. Ancak, bir sosyal girişimcilik işi veya kar-amaçlı olmayan bir iş yürüttüğünüzü söylemeniz yeterli değildir. Belirli kurallara uymanız  ve bu kurallara uyduğunuzu kanıtlamanız gerekmektedir. Her ülkenin kuralları ve kanunları farklıdır. Bu kuralları kontrol etmek ve uymak Technovation'un kapsamında değildir, ancak Technovation'un dışında bir iş başlattığınızda bu kuralları göz önünde bulundurmak önemlidir.
+</div>	
+<h3 id="real">Gerçek Hayattan Örnekler:</h3>
+
 <a href="http://www.iridescent.staging.wpengine.com/curriculum/ideation/" target="_blank" rel="noopener">Fikir birimi ünitesinde, </a><a href="https://sustainabledevelopment.un.org/sdgs" target="_blank" rel="noopener">sürdürülebilir gelişme hedefleri </a>size sunulmuştu.
 
 Şimdi bu problemlerin üstesinden gelmeye çalışan  gerçek işleri düşünelim. Hangi türde işler olduklarını düşünüyorsunuz? Aklınıza dünyaya yardımcı  olan başka işler geliyor mu?
+
 <h5>Çevre</h5>
 (<a href="https://sustainabledevelopment.un.org/sdg6" target="_blank" rel="noopener">temiz su,  </a><a href="https://sustainabledevelopment.un.org/sdg13" target="_blank" rel="noopener">iklim eylemi, </a><a href="https://sustainabledevelopment.un.org/sdg7" target="_blank" rel="noopener">temiz enerji</a>, etc.)
 <ul>
@@ -137,12 +141,14 @@ Kar amaçlı ve kar amaçlı olmayanlar arasında her zaman belirgin bir sınır
  	<li><a href="http://www.wri.org/" target="_blank" rel="noopener">World Resource Institute</a></li>
  	<li><a href="http://earthwatch.org/" target="_blank" rel="noopener">EarthWatch</a></li>
 </ul>
+
 <h5>Cinsiyet Eşitliği</h5>
 <ul>
  	<li><a href="http://www.equalitynow.org/" target="_blank" rel="noopener">Equality Now</a></li>
  	<li><a href="http://www.womenforwomen.org/" target="_blank" rel="noopener">Women for Women</a></li>
  	<li><a href="http://www.pathfinder.org/" target="_blank" rel="noopener">Pathfinder International</a></li>
 </ul>
+
 Sağlık
 <ul>
  	<li><a href="http://www.pih.org/" target="_blank" rel="noopener">Partners in Health</a></li>
@@ -170,7 +176,7 @@ Eğitim
  	<li><a href="https://www.ted.com/about/our-organization" target="_blank" rel="noopener">TED</a></li>
  	<li><a href="http://iridescentlearning.org/" target="_blank" rel="noopener">Iridescent</a> (Technovation's parent organization!)</li>
 </ul>
-<h3><b>Hedef Beyanınızı Geliştirin</b></h3>
+<h3 id="mstatement"><strong>Hedef Beyanınızı Geliştirin</strong></h3>
 Technovation süresince işinizi geliştirdikçe, büyük ihtimalle işinizin kar amaçlı ve kar amaçlı olmayan arasında bir yere, yani sosyal girişimcilik alanına düştüğünü farkedeceksiniz. Bu tamamıyla kabul edilebilir. Şirketinizin amacı, içine düştüğünüz ve adlandırdığınız sorunu çözmek olacaktır, ancak işinizi devam ettirmek veya geliştirmek için (büyüklüğünü veya etkisini arttırmak) para kazanmak isteyecekti. işinizin temel amacına sadık kalmanınızı sağlayacak bir şey, her zaman hedef beyanınıza yakın kalmaktır.
 
 Bir <strong>Hedef Beyan</strong>'ı, şirketinizin, organizasyonunuzun veya kendinizin hedef ve değerlerinin formal özetidir. Hedef Beyanları,  şirketlerde neyin önemli olup olmadığını belirlemenize ve servisin kime ve nasıl yapılacağını netleştirilmesine yardımcı olunmasını sağlayacaktır. Bir hedef statement'ı genelde organizasyonun amaçlarını ve bu amaçlara nasıl ulaştığını gösteren kısa ve basit bir cümleden oluşur.
@@ -184,29 +190,35 @@ Tavsiye: Eğer takılırsanız, zor sorunlarla baş etmeye çalışan farklı or
  	<li><a href="http://www.amnestyusa.org/about-us/our-mission" target="_blank" rel="noopener">Amnesty International</a>: "Bizim vizyonumuz, -etnik köken, cinsiyet yönelim, cinsiyet kimliği, ırk veya din ayrımı olmadan- her insanın <a href="http://www.amnestyusa.org/node/83935" target="_blank" rel="noopener">Universal Declaration of Human Rights</a> (UDHR)'da ve diğer evrensel olarak kabul edilen insan hakları standartlarından yararlanabilmeleridir.</li>
  	<li><a href="http://about.nike.com/" target="_blank" rel="noopener">Nike</a>: "Dünyadaki her sporcuya* ilham ve yenilik verebilmek." Efsanevi University of Oregon atletizm koçu ve Nike'ın kurucularından, Bill Bowerman demiştir ki, "Eğer bir vücudun varsa, sen bir sporcusundur."</li>
 </ol>
-<h3><b>Düşünme Egzersizi</b></h3>
-<a style="color: #ffffff" href="http://www.forbes.com/sites/patrickhull/2013/01/10/answer-4-questions-to-get-a-great-mission-statement/#5cd6e51c35e1" target="_blank" rel="noopener">Hedef Beyanınızı</a>, aşağıdaki soruları düşünerek oluşturun ve  beyanınızda bu soruların yanıtlarından bahsettiğinize emin olun.
-<ul>
- 	<li style="color: #ffffff">Ne yaparız?</li>
- 	<li style="color: #ffffff">Nasıl yaparız?</li>
- 	<li style="color: #ffffff">Kim için yaparız?</li>
- 	<li style="color: #ffffff">Nasıl bir değer getirmekteyiz?</li>
-</ul>
+
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3><b>Düşünme Egzersizi</b></h3>
+	<a style="color: #ffffff" href="http://www.forbes.com/sites/patrickhull/2013/01/10/answer-4-questions-to-get-a-great-mission-statement/#5cd6e51c35e1" target="_blank" rel="noopener">Hedef Beyanınızı</a>, aşağıdaki soruları düşünerek oluşturun ve  beyanınızda bu soruların yanıtlarından bahsettiğinize emin olun.
+	<ul>
+	 	<li style="color: #ffffff">Ne yaparız?</li>
+	 	<li style="color: #ffffff">Nasıl yaparız?</li>
+	 	<li style="color: #ffffff">Kim için yaparız?</li>
+	 	<li style="color: #ffffff">Nasıl bir değer getirmekteyiz?</li>
+	</ul>
+</div>
+
 <h3><b>Bir İş Tipi Kararlaştırın</b></h3>
 Şimdi, iş tipleriyle aşina olduğunuza göre, takımınızla birlikte bir iş tipi düşünme ve seçme aşamasına geldiniz. Aşağıdaki soruları yanıtlayınız:
 <ul>
  	<li style="font-weight: 400">İşinizin ne tip bir iş olmasını istiyorsunuz (kar amaçlı, kar amaçlı olmayan, veya sosyal girişimcilik amacıyla yapılan işler)</li>
- 	<li>İşinizi başlatarak neyi başarmak istiyorsunuz?</li>
- 	<li>Hedefinizin ne olmasını istiyorsunuz?</li>
- 	<li>İşiniz için vizyonunuz nedir?</li>
- 	<li>Karınızın hedefinizi nasıl desteklemesini istiyorsunuz?</li>
- 	<li>İşinizi yürülükte kalmasını nasıl sağlamayı planlıyorsunuz?</li>
+ 	<li style="font-weight: 400;">İşinizi başlatarak neyi başarmak istiyorsunuz?</li>
+ 	<li style="font-weight: 400;">Hedefinizin ne olmasını istiyorsunuz?</li>
+ 	<li style="font-weight: 400;">İşiniz için vizyonunuz nedir?</li>
+ 	<li style="font-weight: 400;">Karınızın hedefinizi nasıl desteklemesini istiyorsunuz?</li>
+ 	<li style="font-weight: 400;">İşinizi yürülükte kalmasını nasıl sağlamayı planlıyorsunuz?</li>
 </ul>
 Bu sorular, işinizi oluştururken veya geliştirirken sormanız gereken tüm sorulardır. Bu soruların tümünü bugün cevaplamanız gerekmese de iş planınızı oluştururken bunları düşünüyor olmanız önemli. İş tipinizi, iş planınızı ve uygulamanızı geliştirirken her zaman değiştirebilirsiniz.
-<h3><b>Değerlendirin</b></h3>
-<ul>
- 	<li style="font-weight: 400">Neden farklı iş tipleri olduğunu düşünüyorsunuz?</li>
- 	<li>Sizce farklı iş tiplerinin avantajları nelerdir?</li>
- 	<li>Hangi iş tipinin toplumunuzda çözmeye çalıştığınız bir soruna en iyi şekilde yardımcı olacağını düşünüyorsunuz?</li>
- 	<li>Hedef beyanınızın işinize nasıl etkili olacağını düşünüyorsunuz?</li>
-</ul>
+<div style="background-color: #006667; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3 id="reflect"><strong>Değerlendirin</strong></h3>
+	<ul>
+	 	<li style="font-weight: 400">Neden farklı iş tipleri olduğunu düşünüyorsunuz?</li>
+	 	<li style="font-weight: 400;">Sizce farklı iş tiplerinin avantajları nelerdir?</li>
+	 	<li style="font-weight: 400;">Hangi iş tipinin toplumunuzda çözmeye çalıştığınız bir soruna en iyi şekilde yardımcı olacağını düşünüyorsunuz?</li>
+	 	<li style="font-weight: 400;">Hedef beyanınızın işinize nasıl etkili olacağını düşünüyorsunuz?</li>
+	</ul>
+</div>
