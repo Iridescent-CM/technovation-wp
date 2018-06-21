@@ -1,7 +1,7 @@
 <h1>Kod Kontrol Listesi</h1>
 <p style="text-align: center">Başvurunuzda 10 puana kadar kazanmak için bu kontrol listesini tamamlayın.</p>
 
-<h3>Talimatlar</h3>
+<h3><strong>Talimatlar</strong></h3>
 Bu kontrol listesini tamamlayarak teknik kategoride değerlendirme rubriği üzerinden 10 puana kadar kazanın. Değerlendirme rubriğinin tamamına<a href="/?p=17262" target="_blank" rel="noopener"> buaradan</a> ulaşabilirsiniz.
 
 Başvurunuzda, uygulamanızda kullandığınız bileşenleri basit bir cümle ile anlatmanız gerekecek. Sadece kullandığınız bir örneği açıklamanız yeterlidir.
@@ -14,83 +14,87 @@ Mesela:
 
 Bu bileşenler hakkında bilgiyi <strong>Kod 2'den </strong>bulabilirsiniz.
 
- Dizgiler (Strings)
+ <p><input type="checkbox" />Dizgiler (Strings)</p>
 
- Sayılar
+ <p><input type="checkbox" />Sayılar</p>
 
- Değişkenler
+ <p><input type="checkbox" />Değişkenler</p>
 
- Listeler veya Diziler
+<p> <input type="checkbox" />Listeler veya Diziler</p>
 
-Bu bileşenler hakkında bilgiyi <strong>Kod 3'ten </strong>bulabilirsiniz.
+Bu bileşenler hakkında bilgiyi <strong>Kod 3'ten </strong>bulabilirsiniz.</p>
 
-  Booleans (Doğru veya Yanlış bilgisi içeren bileşenler)
+ <p><input type="checkbox" /> Booleans (Doğru veya Yanlış bilgisi içeren bileşenler)</p>
 
- Döngüler
+ <p> <input type="checkbox" />Döngüler</p>
 
- Koşul İfadeleri
-<h3>Veritabanları ve Bağlanabilirlik</h3>
+<p> <input type="checkbox" /> Koşul İfadeleri</p>
+
+<h3><strong>Veritabanları ve Bağlanabilirlik</strong></h3>
 <em>En az 1 tane kullanın (her biri 1 puan, en fazla 1 puan)</em>
 
 Bu bileşen hakkında bilgiyi <strong>Kod 2'den </strong>bulabilirsiniz.
 
- Yerel Veritabanı
+ <input type="checkbox" />Yerel Veritabanı
 
 Bu bileşen hakkında bilgiyi <strong>Kod 4'ten </strong>bulabilirsiniz.
 
- Ağ Veritabanı veya API
+ <input type="checkbox" />Ağ Veritabanı veya API
 <h3>Mobil Özellikler</h3>
 <em>En az 1 tane kullanın (her biri 2 puan, en fazla 2 puan)</em>
 
 Bu bileşen hakkında bilgiyi <strong>Kod 4'ten </strong>bulabilirsiniz.
 
-Yer Sensörü
+<p><input type="checkbox" />Yer Sensörü</p>
 
-Kamera veya Video
+<p><input type="checkbox" />Kamera veya Video</p>
 
-İvmeölçer
+<p><input type="checkbox" />İvmeölçer</p>
 
-SMS veya Telefon
+<p><input type="checkbox" />SMS veya Telefon</p>
 
-Ses veya Hoparlör
+<p><input type="checkbox" />Ses veya Hoparlör</p>
 
-Paylaşma
+<p><input type="checkbox" />Paylaşma</p>
 
-Saat
+<p><input type="checkbox" />Saat</p>
 
 Tuval (Canvas)
 <h3>Sürecinizin Resimleri</h3>
 <em>3'ünü de yapın (her biri 1 puan, en fazla 3 puan)</em>
 
-<strong>Kod 5'ten</strong> kağıt prototipinizin resmini yükleyin.
+<p><strong>Kod 5'ten</strong> kağıt prototipinizin resmini yükleyin.</p>
 
-<strong>Kod 6'dan</strong> akış şemanızın veya kod açıklamanızın resmini yükleyin.
+<p><strong>Kod 6'dan</strong> akış şemanızın veya kod açıklamanızın resmini yükleyin.</p>
 
-Uygulamanızın en az 2 ekran resmin yükleyin.
+<p>Uygulamanızın en az 2 ekran resmin yükleyin.</p>
 
 &nbsp;
 <h2>Technovation Zaman Çizelgesi</h2>
-Ağustos
-Eylül
-Ekim
-Kasım
-Aralık
-Ocak
-Şubat
-Mart
-Nisan
-Mayıs
-Haziran
-Temmuz
-Takım Toplama Sezonu
-Resmi Sezon
-Pitch Sunumu Etkinliği
-Dünya Pitch Sunumu
+<p><input type="checkbox" />Ağustos</p>
+<p><input type="checkbox" />Eylül</p>
+<p><input type="checkbox" />Ekim</p>
+<p><input type="checkbox" />Kasım</p>
+<p><input type="checkbox" />Aralık</p>
+<p><input type="checkbox" />Ocak</p>
+<p><input type="checkbox" />Şubat</p>
+<p><input type="checkbox" />Mart</p>
+<p><input type="checkbox" />Nisan</p>
+<p><input type="checkbox" />Mayıs</p>
+<p><input type="checkbox" />Haziran</p>
+<p><input type="checkbox" />Temmuz</p>
+<p><input type="checkbox" />Takım Toplama Sezonu</p>
+<p><input type="checkbox" />Resmi Sezon</p>
+<p><input type="checkbox" />Pitch Sunumu Etkinliği</p>
+<p><input type="checkbox" />Dünya Pitch Sunumu</p>
+
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
 <h3 style="color: #ececec" align="center">Key Dates for 2018 Season</h3>
-<p style="color: #ececec;text-align: center;font-size: 15px"><strong>Registration Opens:</strong> October 18, 2017
-<strong>Official Season Launch:</strong> January 10, 2018
-<strong>Registration Deadline:</strong> March 7, 2018
+<p style="color: #ececec;text-align: center;font-size: 15px"><strong>Registration Opens:</strong> October 18, 2017<br>
+<strong>Official Season Launch:</strong> January 10, 2018<br>
+<strong>Registration Deadline:</strong> March 7, 2018<br>
 <strong>Submission Deadline</strong>: April 25, 2018</p>
 <p style="text-align: center">Technovation Dünya Görevi'ne başlamaya hazır mısınız?</p>
-<a role="button" href="https://my.iridescent.staging.wpengine.com" target="_self">
-Kaydolun</a>
+<p style="text-align: center"><a style="color: #eae46f;" role="button" href="https://www.technovationchallenge.org" target="_self">
+Kaydolun</a></p>
+</div>
