@@ -1,5 +1,3 @@
-<h1>Kod Çalışması 3</h1>
-<h2>Mantık, Tekrarlar ve şartlar</h2>
 <ul>
 <li><a href="#conditions">Koşullar</a></li>
 <li><a href="#ifelse">Eğer/ Aksi taktirde kodları</a></li>
@@ -32,36 +30,51 @@
 <li><strong>Değişkenler (variables) :</strong> Değişebilen veriler</li>
 </ul>
 <p>Bu üniteye başlamadan önce  <a href="https://www.madewithcode.com/projects/robots" target="_blank" rel="noopener">Made With Code Robot</a> oyununu oynamayı deneyin. Bu oyunda birazdan öğreneceğiniz kavramlarla tanışacaksınız. Eğer oyundaki beş seviyeyi tamamlayamıyorsanız endişelenmeyin. Bu üniteyi bitirdikten sonra yeniden deneyin.</p>
-<h2>Koşullar</h2>
+<h2 id="conditions"><strong>Koşullar</strong></h2>
 <p>Şu ana kadar olay kontrolleri (event handlers) çok kullandınız! Önceki iki kod çalışmanızda, kullanıcı butona bastığında uygulamanız bir tepki verdi. Örneğin, Kod Çalışması 2'de yaptığınız uygulamada, "enter" butonu listeye bir madde ekledi. Burada <strong>olay</strong>, kullanıcını butonas basması, appinizin bu olaya verdiği <strong>tepki</strong> ise kullanıcının yazdığı yazıyı listeye eklemekti. Uygulamanızın kodu bu şekilde çalışıyordu:</p>
-<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/Enter-Pressed1-533x1024.png" alt="enter-pressed1" width="99" height="189" /></p>
+
+<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Enter-Pressed1-533x1024.png" alt="enter-pressed1" width="99" height="189" /></p>
+
 <p>Uygulamada kullanıcının listeye boş bir madde ekleyebildiğini fark etmiş olabilirsiniz. Bu yüzden kullanıcı içi tamamen boş olan çok uzun bir listeye sahip olabilirdi!</p>
 <p>Bunu engellemek için kullanızı her butona bastığında uygulamanızın, "textbox" un boş olup olmadığını kontrol eden bir kod yazacaksınız. Eğer yazı girilmişse uygulamanız yazıyı listeye ekleyecek ama gitilmemişse uygulamanız listeye hiç bir yeni madde eklemeyecek. Yeni kodunuz böyle gözükecek:</p>
-<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/Enter-Pressed2-352x1024.png" alt="enter-pressed2" width="142" height="411" /></p>
+<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Enter-Pressed2-352x1024.png" alt="enter-pressed2" width="142" height="411" /></p>
 <p>Bu durumda "bunu yap", "yazıyı ekle"; "şunu yap", "yazıyı ekleme" demek. ama unutmayın, bilgisayarlarla, insanlarla konuşurmuş gibi konuşamazsınız.</p>
 <p>Kodlamada, bilgisayara bir soru sormak istediğinizde bir durumu kontrol edersiniz. Bunlara koşul (conditions) denir. Koşullar ya doğru (true) ya da yanlıştır (false). Cevap doğru ise evet demek, yanlış ise hayır demek gibidir. Uygulamanıza koşullar kullanarak farklı şeyler yaptırabilirsiniz. Aşağıda kullanıcının yazıyı yazıp yazmadığını bilgisayara nasıl sorabileceğiniz gösterilmiştir.</p>
-<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/Enter-Pressed3-343x1024.png" alt="enter-pressed3" width="152" height="455" /></p>
+
+<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Enter-Pressed3-343x1024.png" alt="enter-pressed3" width="152" height="455" /></p>
+
 <p>Kodlama Çalışması 2: Veriler ve değişkenler kısımında öğrendiğiniz "boolean"ların veri türünü hatırlıyor musunuz? Booleanlar sadece doğru veya yanlıştır. Uygulamanıza koşul içeren bir kod yazdığınızda alacağınız cevap bir booleandır.</p>
-<h2>Koşullu İfadeler</h2>
-<h5>Eğer/ Aksi takdirde ifadeleri</h5>
+<h2><strong>Koşullu İfadeler</strong></h2>
+<h5 id="ifelse"><strong>Eğer/ Aksi takdirde ifadeleri</strong></h5>
 <p>Artık "koşul" nedir biliyorsunuz ama bunu kodunuzda nasıl kullanırsınız? Kodlamada, bilgisayarın farklı koşullara farklı tepkiler vermesi için koşullu ifadeler (conditional statements) kullanılır. Bilgisayarlar bu şekilde karar verirler.  Koşullu ifadelerin her zaman bir uygulamaya koşul doğru olduğunda ne yapması gerektiğini söyleyen "eğer" (if ) kısmı ve kuşul yanlış olduğunda ne yapması gerektiğini söyleyen bir "aksi taktirde"(else)  kısmı vardır. Eğer "else" kısmını kullanmazsanız uygulamanız koşul yanlış olduğunda hiç bir şey yapmayacaktır. Yeni kodunuz böyle gözükmeli:</p>
-<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/Enter-Pressed4-550x1024.png" alt="enter-pressed4" width="262" height="488" /></p>
+
+<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Enter-Pressed4-550x1024.png" alt="enter-pressed4" width="262" height="488" /></p>
+
 <p>Aşağıda koşullu ifadelerin App Inventor'da nasıl gözüktüğünü görebilirsiniz.</p>
-<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/Screen-Shot-2016-11-01-at-12.05.58-PM.png" alt="screen-shot-2016-11-01-at-12-05-58-pm" width="254" height="161" /></p>
+
+<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Screen-Shot-2016-11-01-at-12.05.58-PM.png" alt="screen-shot-2016-11-01-at-12-05-58-pm" width="254" height="161" /></p>
+
 <p>Bu bloklar şöyle çalışır: "If" kısmının yanına koşul koyulur. "Then" (öyleyse) kısmının yanına da bu koşul doğru ise uygulamanızın ne yapmasını istediğinizi yazarsınız. "Else" kısmına ise yazdığınız koşul yanlış ise uygulamanızın ne yapmasını istediğinizi yazarsınız. Eğer koşul doğru ise else kısmındaki kod tamamen göz ardı edilip then kısmındaki kod çalışır, koşulunuz yanlış ise then kısmı tamamen göz ardı edilip else kısmı çalışır. Bunu şu şekilde düşünebilirsiniz "Eğer ... doğru ise ... yap, yanlış ise ... yap."</p>
-<p><a href="http://www.iridescent.staging.wpengine.com/curriculum/code-2-challenge/" target="_blank'">Kod Çalışması 2'</a>deki örneğimize geri dönelim. Buradaki koşul ifadesi doldurulunca aşağıdaki gibi gözükür.</p>
-<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/if-statement.png" alt="if-statement" width="463" height="243" /></p>
+
+<p><a href="http://www.technovationchallenge.org/curriculum/code-2-challenge/" target="_blank'">Kod Çalışması 2'</a>deki örneğimize geri dönelim. Buradaki koşul ifadesi doldurulunca aşağıdaki gibi gözükür.</p>
+
+<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/if-statement.png" alt="if-statement" width="463" height="243" />
+</p>
+
 <p>Burada kullanıcı "enter" tuşuna basınca uygulama "textbox'a girilen karakter sayısı sıfıra eşit değildir" koşulunu değerlendirecek. Bu koşulun doğru olması (girilen karakter sayısının sıfıra eşit olmaması) kullanıcının textbox'a bir yazı girdiğini gösterir. Koşulun yanlış olması (girilen karakter sayısının sıfıra eşit olması) ise kullanıcının textbox'a hiç bir şey yazmadığını gösterir. Bu durumda uygulama then kısmında olan kodu göz ardı edip else kısmındaki kodu uygular. Bu kod kullanıcıya şunı söyler "Enter some text!" ("Bir metin girin").</p>
-<h2>Aktivite 1</h2>
-<p>Günlük hayatta karar vermek için kullandığınız koşullu ifadeler aklınıza geliyor mu? Aşağıda bazı örnekler var:</p>
-<ul>
-<li>Eğer yağmur yağıyorsa yanına şemsiye al.</li>
-<li>Eğer açsan bir şeyler ye, değilsen (aksi taktirde) daha sonrayı bekle.</li>
-<li>Eğer dışarısı soğuksa mont giy.</li>
-<li>Eğer hastaysan doktora git, değilsen (aksi taktirde) okula git.</li>
-<li>Telefonunun şarjı bittiyse şarja tak.</li>
-</ul>
-<h5>eğer iksi de değilse (Else if) Kodları</h5>
+
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h2 id="act1"><strong>Aktivite 1</strong></h2>
+	<p>Günlük hayatta karar vermek için kullandığınız koşullu ifadeler aklınıza geliyor mu? Aşağıda bazı örnekler var:</p>
+	<ul>
+	<li>Eğer yağmur yağıyorsa yanına şemsiye al.</li>
+	<li>Eğer açsan bir şeyler ye, değilsen (aksi taktirde) daha sonrayı bekle.</li>
+	<li>Eğer dışarısı soğuksa mont giy.</li>
+	<li>Eğer hastaysan doktora git, değilsen (aksi taktirde) okula git.</li>
+	<li>Telefonunun şarjı bittiyse şarja tak.</li>
+	</ul>
+</div>	
+<h5 id="elseif"><strong>eğer iksi de değilse (Else if) Kodları</strong></h5>
 <p>Şu ana kadar bir koşulu inceleyip iki farklı çıkışı olan koşullu ifadeleri konuştuk. Bu bölümde birden fazla koşula ve ikiden fazla çıkışa sahip koşullu ifadeleri öğreneceksiniz.</p>
 <p>"Eğer yanlışsa" (else if) komudu, kodunuza bir tane daha koşul ekler. Bu koşul ilk koşuldan sonra ve sadece ilk koşul yanlış ise değerlendirilir. Eğer ikinci koşul da yanlışsa uygulama "else" (aksi takdirde) kısmını kontrol eder veya hiç bir şey yapmaz. Aşağıdaki diyagramda koşullar mavi, olası sonuçlar ise mordur.</p>
 <table>
@@ -71,8 +84,8 @@
 <td style="text-align: center;">İki koşul ve üç olası sonuç içeren koşullu ifade</td>
 </tr>
 <tr>
-<td style="vertical-align: top;"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/Condition-1024x664.png" alt="condition" width="246" height="159" /></td>
-<td style="vertical-align: top;"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image04-1-1024x851.png" alt="image04" width="314" height="261" /></td>
+<td style="vertical-align: top;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Condition-1024x664.png" alt="condition" width="246" height="159" /></td>
+<td style="vertical-align: top;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image04-1-1024x851.png" alt="image04" width="314" height="261" /></td>
 </tr>
 </tbody>
 </table>
@@ -80,8 +93,8 @@
 <table>
 <tbody>
 <tr>
-<td style="vertical-align: top;" width="25%"> <img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image29.png" alt="image29" width="150" height="230" /></td>
-<td style="vertical-align: top;"> <img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image19.gif" alt="how to use the if else block" width="640" height="480" /></td>
+<td style="vertical-align: top;" width="25%"> <img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image29.png" alt="image29" width="150" height="230" /></td>
+<td style="vertical-align: top;"> <img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image19.gif" alt="how to use the if else block" width="640" /></td>
 </tr>
 </tbody>
 </table>
@@ -93,7 +106,7 @@
 <li>Kullanıcı doğru yaş aralığında</li>
 </ol>
 <p>Bu durumda kullanıcının yaşını yazmasını istersiniz ve girilen değeri "yaş" (age) adlı değişkene kaydedersiniz. Kullanıcının yaşını kontrol etmek için <strong>if/else/ else if</strong> ifadelerini kullanabilirsiniz.</p>
-<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image08-1-1024x457.png" alt="if/else else/if response blocks" width="633" height="283" /></p>
+<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image08-1-1024x457.png" alt="if/else else/if response blocks" width="633" height="283" /></p>
 <p>Birinci koşul kullanıcının 13 yaşındna küçük olup olmadığını kontrol eder. Eğer küçükse, uygulama kullanıcıya yaşının küçük oldupunu bildirir. Eğer 13 yaşındam küçük değilse uygulama kullanıcının 18 yaşından büyük olup olmadığını kontrol eder. Eğer 18 yaşından büyük değilse, uygulama kullanıcıya doğru yaşta olduğunu bildirir.</p>
 <p>Kodunuza "else if" özelliğini kullanarak istediğiniz kadar koşul ekleyebilirsiniz ama bu koşulların ve komutların sırasına dikkat etmek çok önemli. Kodunuz her zaman ilk koşulunuzla başlamalı ve sırasıyla cevabı doğru olan bir koşul bulana kadar devam etmeli. Doğru olan koşulu bulduğunda geriye kalan koşulları uygulama dikkate almayacaktır. Eğer bu kodların hiç biri doğru değil ise "else" kısmındaki komudu uygulayacaktır.</p>
 <p><strong>If/else/else</strong> if kodlarını kullanırken dikkat etmeniz gerekenler:</p>
@@ -103,202 +116,220 @@
 <li>Gerçekleşecek olan sonuç yani yazdığınzı kod sonucunda alacağınız tepki, doğru olan ilk koşulun kodudur.</li>
 </ul>
 <p>Koşullu ifadeler hakkında daha çok bilgi almak için <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/control.html" target="_blank" rel="noopener">MIT'nin sitesini </a>ziyaret edebilirsiniz.</p>
-<h2>Aktivite 2</h2>
-<p>Uygulamanızın hangi koşulları değerlendireceğine karar vermek bazen biraz zor olabilir. Bazen uygulamanızın ne yapması gerektiğini bilmenize rağmen hangi koşulları değerlendirmesi gerektiğini bilemeyebilirsiniz. Bunun için bir kaç egzersiz yapalım.</p>
-<p>Sosyal medya hesabına giriş yaparken bilgisaraın kontrol ettiği koşullar:</p>
-<ul>
-<li>Kullanıcı adı doğru</li>
-<li>Şifre doğru</li>
-<li>Kullanıcı 5 seferden fazla giriş yapmayı denemedi</li>
-</ul>
-<p>Bu kodları yaparken zorlanılan noktalardan bir diğeri ise yazılan bu koşulları bilgisayarların anlayabileceği türde yazmaktır. Yukarıdaki örnekte kullanıcının yaşını kontrol etmek için bir değişken yaratmıştık. Koşulları doğru bir şekilde yazmak için kendinize sormanız gereken sorular:</p>
-<ol>
-<li>Koşulunuz kullanıcının girdiği bilgiye dayanıyor mu?</li>
-<li>Değişken yaratmanız gerekiyor mu?
-<ul>
-<li>Eğer gerekiyorsa ne tür bir değişken? Sayı mı, yazı mı vb</li>
-</ul>
-</li>
-<li>Koşulunuzu yazarken(küçüktür&lt;) ,büyüktür (&gt;), eşittir (=), eşit değildir (≠) gibi matematiksel ifadeler kullanabiliyor musunuz?</li>
-<li>Bir değer ile "database"deki (veritabanındaki) bir değeri karşılaştırmanız gerekiyor mu?</li>
-<li>Websitesindeki bir değer ile başka bir değer ile karşılaştırmanız gerekiyor mu? (<a href="http://www.iridescent.staging.wpengine.com/curriculum/code-4/" target="_blank" rel="noopener">Kod Çalışması 4'te </a>işlenecek)</li>
-<li>Koşulunuz hangi tür veriyi kullanıyor? Kodunuz yazmak için bu veri türü ile ilgili bloklar veya işlemler var mı?
-<ul>
-<li>Örnek: İki farklı metini karşılaştırmak, metinlerin uzunluğunu karşılaştırmak, listeye madde eklemek,, iki farklı listeyi karşılaştırmak vs.</li>
-<li>App Inventor'daki blokları inceleyip işinize yarayabilecek olan bloklar arayın.</li>
-</ul>
-</li>
-</ol>
-<h2>Mantık (Logic)</h2>
+
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h2 id="act2">Aktivite 2</h2>
+	<p>Uygulamanızın hangi koşulları değerlendireceğine karar vermek bazen biraz zor olabilir. Bazen uygulamanızın ne yapması gerektiğini bilmenize rağmen hangi koşulları değerlendirmesi gerektiğini bilemeyebilirsiniz. Bunun için bir kaç egzersiz yapalım.</p>
+	<p>Sosyal medya hesabına giriş yaparken bilgisaraın kontrol ettiği koşullar:</p>
+	<ul>
+		<li>Kullanıcı adı doğru</li>
+		<li>Şifre doğru</li>
+		<li>Kullanıcı 5 seferden fazla giriş yapmayı denemedi</li>
+	</ul>
+	<p>Bu kodları yaparken zorlanılan noktalardan bir diğeri ise yazılan bu koşulları bilgisayarların anlayabileceği türde yazmaktır. Yukarıdaki örnekte kullanıcının yaşını kontrol etmek için bir değişken yaratmıştık. Koşulları doğru bir şekilde yazmak için kendinize sormanız gereken sorular:</p>
+	<ol>
+		<li>Koşulunuz kullanıcının girdiği bilgiye dayanıyor mu?</li>
+		<li>Değişken yaratmanız gerekiyor mu?
+		<ul>
+			<li>Eğer gerekiyorsa ne tür bir değişken? Sayı mı, yazı mı vb</li>
+		</ul>
+		</li>
+		<li>Koşulunuzu yazarken(küçüktür&lt;) ,büyüktür (&gt;), eşittir (=), eşit değildir (≠) gibi matematiksel ifadeler kullanabiliyor musunuz?</li>
+		<li>Bir değer ile "database"deki (veritabanındaki) bir değeri karşılaştırmanız gerekiyor mu?</li>
+		<li>Websitesindeki bir değer ile başka bir değer ile karşılaştırmanız gerekiyor mu? (<a href="http://www.technovationchallenge.org/curriculum/code-4/" target="_blank" rel="noopener">Kod Çalışması 4'te </a>işlenecek)</li>
+		<li>Koşulunuz hangi tür veriyi kullanıyor? Kodunuz yazmak için bu veri türü ile ilgili bloklar veya işlemler var mı?
+		<ul>
+			<li>Örnek: İki farklı metini karşılaştırmak, metinlerin uzunluğunu karşılaştırmak, listeye madde eklemek,, iki farklı listeyi karşılaştırmak vs.</li>
+			<li>App Inventor'daki blokları inceleyip işinize yarayabilecek olan bloklar arayın.</li>
+		</ul>
+		</li>
+	</ol>
+</div>
+<h2 id="andop"><strong>Mantık (Logic)</strong></h2>
 <p>Şu ana kadar App Inventor'da koşullu ifadeler kullanarak uygulamanıza farklı şeyler yaptırmayı öğrendiniz. Mantık (logic) kodlarını öğrenerek şu ankinden çok daha fazla problem çözebilirsiniz. Mantık kodları birden çok "boolean" (değeri doğru veya yanlış olan ifadeler) alıp bunları sonuç olarak sadece bir "boolean"a çevirir. Bilgisayarlar olayları doğru veya yanlış olarak gördüğünden koşulları boolean yaratmak için kullanabilirsiniz. Bu bölümde üç farklı işlem öğreneceksiniz; <strong>and (ve</strong>), <strong>or (veya)</strong>, <strong>not (değil)</strong>.  Kulağa zor gelebilir fakat öğrenmeye başladıktan sonra ne kadar işinize yarayacağını göreceksiniz.</p>
 <h5>ve (and) Bağlacı</h5>
 <p>Bu işleminsonucunun doğru olması için girilen tüm koşulların doğru olması gerekir. Eğer bir tanesi bile yanlışsa işlemin sonucu yanlış olur.  "ve" bağlacının sonucunda alabileceğiniz tüm değerler:</p>
 <p><em>Doğru (True) , Yanlış (False)</em></p>
 <p style="text-align: center;">Doğru ve Doğru = Doğru</p>
-<p style="text-align: center;"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image34.png" alt="true/true blocks" width="318" height="62" /></p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image34.png" alt="true/true blocks" width="318" height="62" /></p>
 <p style="text-align: center;">Doğru ve Yanlış = Yanlış</p>
-<p style="text-align: center;"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image24-1.png" alt="true/false blocks" width="336" height="61" /></p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image24-1.png" alt="true/false blocks" width="336" height="61" /></p>
 <p style="text-align: center;">Yanlış ve Doğru = Yanlış</p>
-<p style="text-align: center;"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image38.png" alt="false/true blocks" width="331" height="60" /></p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image38.png" alt="false/true blocks" width="331" height="60" /></p>
 <p style="text-align: center;">Yanlış ve Yanlış = Yanlış</p>
-<p><img class="aligncenter" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image07-1.png" alt="false/false blocks" width="353" height="66" /></p>
+<p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image07-1.png" alt="false/false blocks" width="353" height="66" /></p>
 <p>"Ve" bağlacını kodunuzda aşağıdaki gibi kullanabilirsiniz.</p>
-<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/Condition3-1024x608.png" alt="condition3" width="407" height="242" /></p>
+<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Condition3-1024x608.png" alt="condition3" width="407" height="242" /></p>
 <p>Not: "Ve" bağlacını kullanmak "else if" bağlacını kullanmaktan daha farklıdır çünkü "else if" kodunda koşullar sırayla doğru bir koşul bulana kadar değerlendirilirken "ve" bağlacında iki koşul da aynı anda değerlendiriliyor ve uygulamanın sonucu doğru olarak görmesi için iki koşulun da doğru olması gerekiyor.</p>
-<h5>Örnekler</h5>
-<p>"ve" bağlacını iki koşulun da doğru olmasını istediğiniz zaman kullanmalısınız. Aşağıda "ve" bağlacını kullanabileceiğiniz bazı örnekler var.</p>
-<ul>
-<li>Sosyal medya hesaplarına giriş yaparken
-<ul>
-<li>Eğer (kullanıcı adı doğruysa) <strong>ve</strong> (şifre doğruysa) → kullanıcının giriş yapmasına izin ver.</li>
-</ul>
-</li>
-<li> Bir oyunu kazanmak için
-<ul>
-<li>Eğer (Oyuncu seviyeyi bitirdiyse) <strong>ve</strong> (süre dolmadıysa)  → oyuncu kazanır</li>
-</ul>
-</li>
-<li>Market ararken
-<ul>
-<li>Eğer (market açıksa) <strong>ve</strong> (yakındaysa) → marketi sonuçlar arasında göster</li>
-</ul>
-</li>
-<li>Fotoğraf paylaşırken
-<ul>
-<li>Eğer (kullanıcı bir fotoğraf seçtiyse) <strong>ve</strong> (bir başlık yazdıysa)  → kullanıcının fotoğrafı paylaşmasına izin ver</li>
-</ul>
-</li>
-</ul>
-<p>Aklınıza başka bir örnek geliyor mu?</p>
-<h5>veya (or) Bağlacı</h5>
+<div style="background-color: #00abad; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h5><strong><span style="color: #ffffff;">Örnekler</span></strong></h5>
+	<p>"ve" bağlacını iki koşulun da doğru olmasını istediğiniz zaman kullanmalısınız. Aşağıda "ve" bağlacını kullanabileceiğiniz bazı örnekler var.</p>
+	<ul>
+	<li>Sosyal medya hesaplarına giriş yaparken
+	<ul>
+	<li>Eğer (kullanıcı adı doğruysa) <strong>ve</strong> (şifre doğruysa) → kullanıcının giriş yapmasına izin ver.</li>
+	</ul>
+	</li>
+	<li> Bir oyunu kazanmak için
+	<ul>
+	<li>Eğer (Oyuncu seviyeyi bitirdiyse) <strong>ve</strong> (süre dolmadıysa)  → oyuncu kazanır</li>
+	</ul>
+	</li>
+	<li>Market ararken
+	<ul>
+	<li>Eğer (market açıksa) <strong>ve</strong> (yakındaysa) → marketi sonuçlar arasında göster</li>
+	</ul>
+	</li>
+	<li>Fotoğraf paylaşırken
+	<ul>
+	<li>Eğer (kullanıcı bir fotoğraf seçtiyse) <strong>ve</strong> (bir başlık yazdıysa)  → kullanıcının fotoğrafı paylaşmasına izin ver</li>
+	</ul>
+	</li>
+	</ul>
+	<p>Aklınıza başka bir örnek geliyor mu?</p>
+</div>	
+<h5 id = "orop">veya (or) Bağlacı</h5>
 <p>"veya" bağlacı ile yapılan işlemlerin sonucunun doğru olması için girilen koşullardan en az birinin doğru olması yeterlidir. Bu bağlacı kullanarak elde edebileceğiniz sonuçlar aşağıdadır:</p>
 <p style="text-align: center;">Doğru veya Doğru = Doğru</p>
-<p style="text-align: center;"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image33-1.png" alt="true or true blocks" width="284" height="53" /></p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image33-1.png" alt="true or true blocks" width="284" height="53" /></p>
 <p style="text-align: center;">Doğru veya Yanlış = Yanlış</p>
-<p style="text-align: center;"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image57.png" alt="true or false blocks" width="299" height="58" /></p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image57.png" alt="true or false blocks" width="299" height="58" /></p>
 <p style="text-align: center;">Yanlış veya Doğru = Doğru</p>
-<p style="text-align: center;"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image26-1.png" alt="false or true blocks" width="299" height="63" /></p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image26-1.png" alt="false or true blocks" width="299" height="63" /></p>
 <p style="text-align: center;">Yanlış veya Yanlış = Yanlış</p>
-<p style="text-align: center;"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image49.png" alt="false or false blocks" width="313" height="61" /></p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image49.png" alt="false or false blocks" width="313" height="61" /></p>
 <p style="text-align: center;">"Veya" bağlacını şu şekilde düşünebilirsiniz:</p>
-<p><img src="http://iridescent.staging.wpengine.com/wp-content/uploads/2016/09/Condition4-3.png" alt="" width="408" height="239" /></p>
+<p><img class="aligncenter" src="http://technovationchallenge.org/wp-content/uploads/2016/09/Condition4-3.png" alt="" width="408" height="239" /></p>
 <p>Not: "veya" bağlacı da "else if" ile benzer gelebilir fakat ikisi birbirinden farklıdır. "veya" bağlacında iki koşul aynı anda kontrol edilirken, "else if" bağlacında koşullar sırayla değerlendirilir. Sonuç doğru çıkınca aynı şeyin gerçekleşmesini istediğiniz iki farklı koşulunuz olduğunda "veya" bağlacını kullanabilirsiniz.</p>
-<h5>Örnekler</h5>
-<ul>
-<li>Oyun kaybetme
-<ul>
-<li>Eğer (zaman dolarsa) veya (oyuncu tüm canlarını kaybederse) → oyuncu oyunu kaybeder</li>
-</ul>
-</li>
-<li>Arama sonıuçları gösterme
-<ul>
-<li>Eğer (başlık uyuşursa) veya (tanım uyuşursa) →  arama sonuçlarında göster</li>
-</ul>
-</li>
-<li>Video önerme
-<ul>
-<li>Eğer (kişi videoyu daha önceden izlemişse) veya (kişinin daha önceden beğendiği bir videoya benziyorsa) →  vşdeoyu öner</li>
-</ul>
-</li>
-</ul>
-<h5>değil (not) Bağlacı</h5>
+<div style="background-color: #00abad; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h5><strong>Örnekler</strong></h5>
+	<ul>
+	<li>Oyun kaybetme
+	<ul>
+	<li>Eğer (zaman dolarsa) veya (oyuncu tüm canlarını kaybederse) → oyuncu oyunu kaybeder</li>
+	</ul>
+	</li>
+	<li>Arama sonıuçları gösterme
+	<ul>
+	<li>Eğer (başlık uyuşursa) veya (tanım uyuşursa) →  arama sonuçlarında göster</li>
+	</ul>
+	</li>
+	<li>Video önerme
+	<ul>
+	<li>Eğer (kişi videoyu daha önceden izlemişse) veya (kişinin daha önceden beğendiği bir videoya benziyorsa) →  vşdeoyu öner</li>
+	</ul>
+	</li>
+	</ul>
+</div>	
+<h5 id="notop"><strong>değil (not) Bağlacı</strong></h5>
 <p>Bu bağlaç diğerlerinden daha kolay. "değil" (not) bağlacı bir "boolean"ın değerini tersine çevirir.</p>
 <p style="text-align: center;">doğru <b>değil</b>  = yanlış</p>
-<p style="text-align: center;"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image13-1.png" alt="not true blocks" width="167" height="52" /></p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image13-1.png" alt="not true blocks" width="167" height="52" /></p>
 <p style="text-align: center;">yanlış <b>değil</b>  = doğru</p>
-<p style="text-align: center;"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image43.png" alt="not false blocks" width="178" height="44" /></p>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image43.png" alt="not false blocks" width="178" height="44" /></p>
 <p>Bazen uygulamanızın bir koşulun tersinin doğrulu değerini kontrol etmesi gerçek değerini kontrol etmesinden daha kolay olabilir. Bu durumlarda <strong>"değil"</strong> bağlacını kullanabilirsiniz.</p>
-<p><img class="aligncenter" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/Condition5-1024x825.png" alt="condition5" width="283" height="228" /></p>
-<h5>Örnekler</h5>
-<ul>
-<li>Örneğin bir textbox içerisinde yazı var mı diye kontrol etmek istiyorsunuz. Ama textbox içerisinde yazı olmadığını kontrol etmek, yazının varlığını kontrol etmekten daha kolay. Bu durumda <strong>değil</strong> bağlacını kullanarak textbox'un içinin dolu olup olmadığına bakabilirsiniz.
-<ul>
-<li>Eğer (textbox=" ") <strong>değilse</strong> → şunu yap</li>
-</ul>
-</li>
-<li>Köpek içeren arama sonuçlarını göstermek istemiyorsunuz. Değil bağlacını kullanarak köpek kelimesinin sonuçlarda olmadığına emin olabilirsiniz.
-<ul>
-<li>Eğer (belge köpek kelimesi içeriyor) <strong>değilse</strong> → sonuçları göster</li>
-</ul>
-</li>
-<li>Mantık kodlarını birleştirerek başka kodlar ortaya çıkarabilirsiniz. Örneğin içerisinde kedi kelimesi olan belgeleri gösterirken köpek kelimesi olanları eleyebilirsiniz.
-<ul>
-<li>Eğer (köpek kelimesi içeriyor) <strong>değilse</strong> <strong>ve</strong>(kedi kelimesi içeriyorsa) → sonuçları göster</li>
-</ul>
-</li>
-</ul>
-<h2>Aktivite 3</h2>
-<p>Google'da arama yaparken<strong> ve</strong>,<strong> veya</strong> ve <strong>değil</strong> bağlaçlarını kullanabileceğinizi biliyor muydunuz? Araştırma yaparken çıkacak olan sonuçları kısıtlamak için bu çok iyi bir yöntem.  Ama "and, or ve not" bağlaçlarını büyük harflerle yazdığınıza emin olun. Örnekler:</p>
-<p>2017 ve Technovation içeren sonuçlar aramak istiyorsanız " 2017 <strong>AND</strong> Technovation" yazmalısınız.</p>
-<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image45.png" alt="image45" width="482" height="331" /></p>
-<p>2017 veya Technovation içeren sonuçları bulmak için "2017<strong> OR</strong> Technovation" yazmalısınız.</p>
-<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image25-1.png" alt="image25" width="481" height="313" /></p>
-<h2>Tekrarlar (Loops)</h2>
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Condition5-1024x825.png" alt="condition5" width="283" height="228" /></p>
+
+<div style="background-color: #00abad; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h5><strong><span style="color: #ffffff;">Örnekler</span></strong></h5>
+	<ul>
+		<li>Örneğin bir textbox içerisinde yazı var mı diye kontrol etmek istiyorsunuz. Ama textbox içerisinde yazı olmadığını kontrol etmek, yazının varlığını kontrol etmekten daha kolay. Bu durumda <strong>değil</strong> bağlacını kullanarak textbox'un içinin dolu olup olmadığına bakabilirsiniz.
+		<ul>
+			<li>Eğer (textbox=" ") <strong>değilse</strong> → şunu yap</li>
+		</ul>
+		</li>
+		<li>Köpek içeren arama sonuçlarını göstermek istemiyorsunuz. Değil bağlacını kullanarak köpek kelimesinin sonuçlarda olmadığına emin olabilirsiniz.
+		<ul>
+			<li>Eğer (belge köpek kelimesi içeriyor) <strong>değilse</strong> → sonuçları göster</li>
+		</ul>
+		</li>
+			<li>Mantık kodlarını birleştirerek başka kodlar ortaya çıkarabilirsiniz. Örneğin içerisinde kedi kelimesi olan belgeleri gösterirken köpek kelimesi olanları eleyebilirsiniz.
+		<ul>
+			<li>Eğer (köpek kelimesi içeriyor) <strong>değilse</strong> <strong>ve</strong>(kedi kelimesi içeriyorsa) → sonuçları göster</li>
+		</ul>
+		</li>
+	</ul>
+</div>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">	
+	<h2 id="act3">Aktivite 3</h2>
+	<p>Google'da arama yaparken<strong> ve</strong>,<strong> veya</strong> ve <strong>değil</strong> bağlaçlarını kullanabileceğinizi biliyor muydunuz? Araştırma yaparken çıkacak olan sonuçları kısıtlamak için bu çok iyi bir yöntem.  Ama "and, or ve not" bağlaçlarını büyük harflerle yazdığınıza emin olun. Örnekler:</p>
+	<p>2017 ve Technovation içeren sonuçlar aramak istiyorsanız " 2017 <strong>AND</strong> Technovation" yazmalısınız.</p>
+	<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image45.png" alt="image45" width="482" height="331" />
+	</p>
+	<p>2017 veya Technovation içeren sonuçları bulmak için "2017<strong> OR</strong> Technovation" yazmalısınız.</p>
+	<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image25-1.png" alt="image25" width="481" height="313" /></p>
+</div>	
+<h2 id="forloop"><strong>Tekrarlar (Loops)</strong></h2>
 <p>Sizden adınızı 100 kere üst üste yazmanızı istediklerini düşünün. Bu sadece sıkıcı olmakla kalmaz aynı zaman da çok uzun zaman alır. Bir süre sonra yorgunluktan hata bile yapmaya başlayabilirsiniz! Fakat bir bilgisayardan isminizi 100 kere basmasını isteseydiniz bunu hızlı bir şekilde hata yapmadan yapabilirdi. İnsanların tersine, bilgisayarlar işleri üst üste rahatlıkla yapabilirler. Bunu <strong>loops</strong> yani <strong>tekrarlar</strong> kullanarak yapabilirsiniz. <strong>Loop</strong> kodu, içerisindeki kodu üst üste tekrarlamaya yarar.</p>
 <p>Kodlamada iki çeşit tekrar vardır. Birincisi "<strong>while loop</strong>" ikincisi ise "<strong>for loop</strong>" tur.  <strong>While loop</strong> kodu bir koşul doğru olduğu sürece işlemi tekrarlarken, <strong>for loop</strong> bir işlemi belli bir sayıda tekrarlar.</p>
 <h5>For loops</h5>
 <p><strong>For loop</strong> bir kodu belli bir sayıda tekrarlar. <strong>For loop</strong> olarak adlandırılmalarının nedeni, bilgisayara bu kodun kaç kez tekrar yapacağını söyleyebilmenizdir. Bunu şu şekilde düşünebiliriz. "Bunu 14 kere tekrarla"  (Repeat this <strong>for</strong> 14 times)</p>
 <p><strong>For loop</strong> kodu kaç kez tekrarladığını saymak için "<strong>counter</strong>" adlı bir değişken kullanırlar. Bir kodun kaç kez tekrarlayacağını ayarlamak için <strong>counter</strong>'ın başlangıç ve bitiş noktalarını ayarlayabilirsiniz. Kod her çalıştığında counter'ın ne kadar ilerlemesi gerektiğini de ayarlamalısınız. Çoğu zaman <strong>counter</strong> 'ın 1 ilerlemesini isteyeceksiniz fakat bu değişkenlik gösterebilir. app Inventor'da <strong>for loops</strong> aşağıdaki gibi gözükür.</p>
-<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image21.png" alt="for loop block" width="276" height="153" /></p>
+<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image21.png" alt="for loop block" width="276" height="153" /></p>
 <p>"Number" (sayı) yazan kısım <strong>counter</strong>. Yukarıdaki kodda <strong>counter</strong>'ın adı "number"  ama bunu istediğiniz gibi değiştirebilirsiniz. Yukarıdaki<strong> counter</strong> 1'de başlayacak ve 5'e gelince duracak. Kod her çalıştığında (her tekrarda) sayı 1 artacak ve 5 gelene kadar bu işlem devam edecek.  Kodda <em>"do"</em> (yap) kısmına hiç bir şey yazmadığımızdan dolayı şu an bu kod çalışmayacak.</p>
-<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image41-1024x449.png" alt="image41" width="431" height="189" /></p>
+<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image41-1024x449.png" alt="image41" width="431" height="189" /></p>
 <p>Şu ana kadar yazdığımız kısımdan hiçbir şey çıkarıp değiştirmedik ama do kısmına yeni bir kod ekledik. Bu kısımda her tekrarda yapılacak olan işlem yazar. Örneğin yukarıdaki örnekte, uygulama 5 defa kullanıcıya "hello" (merhaba) der. Kullanıcı, uygulama tarafından 5 defa uyarılır.</p>
-<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/Screen-Shot-2016-11-01-at-2.00.15-PM.png" alt="screen-shot-2016-11-01-at-2-00-15-pm" width="448" height="414" /></p>
+<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Screen-Shot-2016-11-01-at-2.00.15-PM.png" alt="screen-shot-2016-11-01-at-2-00-15-pm" width="448" height="414" /></p>
 <p>Bu kodu yazmak yerine direk 5 defa "hello" yazmak size daha kolay gelebilir. fakat ya 100 defa yazmanız gerekseydi?</p>
 <p>Bu kodu yazarken uygulamanızın her tekrarda yapacağı olan işlemde counter'dan yararlanarak değişiklikler yapabilirsiniz.</p>
-<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image27-1-1024x402.png" alt="image27" width="464" height="182" /></p>
+<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image27-1-1024x402.png" alt="image27" width="464" height="182" /></p>
 <p>Burada tekrar her arttığında "hello" nun yanındaki rakam da artıyor.</p>
-<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/Screen-Shot-2016-11-01-at-2.04.17-PM.png" alt="screen-shot-2016-11-01-at-2-04-17-pm" width="445" height="381" /></p>
-<h5>For Each Loops</h5>
+<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Screen-Shot-2016-11-01-at-2.04.17-PM.png" alt="screen-shot-2016-11-01-at-2-04-17-pm" width="445" height="381" /></p>
+
+<h5 id="foreach">For Each Loops</h5>
 <p>App Inventor'da kullanacağınız "for each loop" kodu aşağıdaki gibidir.</p>
-<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image16-1.png" alt="image16" width="219" height="88" /></p>
+<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image16-1.png" alt="image16" width="219" height="88" /></p>
 <p>Burada <strong>counter değişkeni</strong> <em>item</em> olarak adlandırılmıştır ve tekrar sayısı listedeki <em>item (madde)</em> sayısına eşittir. Bu blok listelerle çalışırken çok işinize yarayacak.</p>
 <p>Örneğin sayılardan oluşan bir listeye sahip oldupunuzu ve bu listedeki tüm sayıları toplayıp "sum" adlı bir değişkende toplamak istediğinizi düşünün. Bu durumda "for each loop" kodunu kullanmanız gerekir.</p>
-<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/listofnumbers.png" alt="listofnumbers" width="404" height="94" /></p>
-<p><b><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/numberlist.png" alt="numberlist" width="500" height="106" /></b></p>
+<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/listofnumbers.png" alt="listofnumbers" width="404" height="94" /></p>
+<p><b><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/numberlist.png" alt="numberlist" width="500" height="106" /></b></p>
 <p>Kod her çalıştığında "sum" değişkeni listeden bir element daha alıp toplayacak. Listedeki tüm sayılar toplandığında kod duracak.</p>
 <p>Not: Fark ettiğiniz üzere "counter variables" (sayıcı değişkenler) "local variables" (lokal değişkenler)'e çok benziyor. İkisi de sadece ait oldukları blokların içinde kullanılabiliyor.</p>
-<h5>While Loops (Sırasında Tekrarları)</h5>
+<h5 id="whileloop">While Loops (Sırasında Tekrarları)</h5>
 <p><strong>While loops </strong>bir koşul yanlış olana kadar çalışmaya devam eder. While loop (sırasında tekrarları) olarak adlandırılmalarının nedeni bir koşulun doğru olduğu sırada çalışmalarıdır. Bunu şu şekilde düşünebilirsiniz "..... süresince,.... yapmayı tekrarla."</p>
-<h5>Örnek</h5>
-<p>Verdiğiniz bir kutlamada müziğin tüm misafirler gidene kadar çalmasını istiyorsunuz.</p>
-<ul>
-<li>Kutlamadaki insan sayısı 0'dan büyük olduğu sürece</li>
-<li>Müzik çal</li>
-</ul>
-<p>Aynı zamanda gece yarısına gelince müziğin durmasını istiyorsanız birden fazla koşul kullanmanız gerekecek. Bunu da <strong>logic</strong> kodları ile yapacaksınız.</p>
-<ul>
-<li>(Partideki insan sayısı &gt; 0 ) <strong>ve</strong> (saat  &lt;  gece yarısı) olduğu sürece</li>
-<li>müzik çal</li>
-</ul>
+<div style="background-color: #00abad; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h5> <strong><span style="color: #ffffff;">Örnek</span></strong></h5>
+	<p>Verdiğiniz bir kutlamada müziğin tüm misafirler gidene kadar çalmasını istiyorsunuz.</p>
+	<ul>
+	<li>Kutlamadaki insan sayısı 0'dan büyük olduğu sürece</li>
+	<li>Müzik çal</li>
+	</ul>
+	<p>Aynı zamanda gece yarısına gelince müziğin durmasını istiyorsanız birden fazla koşul kullanmanız gerekecek. Bunu da <strong>logic</strong> kodları ile yapacaksınız.</p>
+	<ul>
+	<li>(Partideki insan sayısı &gt; 0 ) <strong>ve</strong> (saat  &lt;  gece yarısı) olduğu sürece</li>
+	<li>müzik çal</li>
+	</ul>
+</div>
 <p>Bu durumda müzik saat gece 12'yi geçtiğinde veya partideki her insan gittiğinde çalmayı bırakır.</p>
 <p><strong>While loop </strong>içine yazdığınız kodun çalışması için koşulunuzun doğru olması gerekir. Eğer koşulunuz yanlış olursa kodunuz çalışmayı bırakır.</p>
-<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/StartLoop-Arrow3-436x1024.png" alt="startloop-arrow3" width="169" height="397" /></p>
+<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/StartLoop-Arrow3-436x1024.png" alt="startloop-arrow3" width="169" height="397" /></p>
 <p>App Inventor'da <strong>while loop</strong>'lar aşağıdaki gibi gözükür.</p>
-<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image35.png" alt="while loop block" width="159" height="105" /></p>
+<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp- content/uploads/2016/09/image35.png" alt="while loop block" width="159" height="105" /></p>
 <p>While loops kullanırken hatalarla karşılaşmak oldukça olasıdır. Eğer hiç bir zaman yanlış olmayacak bir koşul yazarsanız kodunuz çalışmayı hiç bırakmaz. Buna <strong>sonsuz tekrar (infinite loop)</strong> denir. Örneğin:</p>
-<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image35.png" alt="while loop block" width="159" height="105" /></p>
+<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image52.png" alt="image52" width="389" height="156" /></p>
 <p>1 her zaman 1'e eşit olacağı için bu koşul hiç bir zaman yanlış olmayacak. Bu kodu App Inventor ile telefonumuzda çalıştırmayı denediğimizde telefonumuz dondu ve hiç bir şey yapamadık. Aynı zamanda "App Inventor Companion App has stopped working" yazan bir uyarı alabilirsiniz.</p>
-<h2>Görev: Veritabanı içerisinde bilgi aramak</h2>
+<h2 id="codechal">Görev: Veritabanı içerisinde bilgi aramak</h2>
 <p>Kullanıcının bir <strong>veritabanı (database</strong>) içerisinden bir bilgi aramasını sağlayacak bir uygulama yapın. Bu database ünlü insanların adını, yaşını, yerleri, müzikleri ve istediğiniz başka her hangi bir şeyi içermeli. Database'inizin içinde en az üç satır olduğundan emin olun.</p>
 <p>Yönergelere bakmadan önce bu görevi kendiniz yapmayı deneyin. Yönergeler bu kodu sadece bir şekilde çözmeyi gösteriyor.</p>
-<p><a role="button" href="http://www.iridescent.staging.wpengine.com/curriculum/code-3-challenge/" target="_blank" rel="noopener">Yönergeleri gör</a></p>
+<p style="text-align: center;"><strong><a href="http://www.technovationchallenge.org/curriculum/code-3-challenge/" target="_blank">Yönergeleri gör</a></strong></p>
 <p>&nbsp;</p>
 <p><a role="button" href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.DatabaseSearch" target="_blank" rel="noopener">örnek uygulamayı yükle</a></p>
-<h1>Özet</h1>
-<p>Tebrikler! Bu uzun üniteyi de tamamladınız. Bu ünitede öğrendiğiniz her şey uygulama tasarlarken çok işinize yarayacak. Anlamadığınız bir şeyi geri döüp tekrar edebileceğinizi hiç bir zaman unutmayın.</p>
-<p>Anahtar kelimelerin tekrarı:</p>
-<ul>
-<li>Booleans- doğru veya yanlış olan veri türü</li>
-<li>Koşullar (Conditions)- uygulamanın doğru veya yanlış olarak değerlendirdiği bir ifade</li>
-<li>Koşullu ifadeler (Conditional statement) - Uygulamanıza bir koşulu değerlendirdikten sonra ne yapması gerektiğini söyler</li>
-<li>ve bağlacı (and operator) - içerisindeki tüm bilgiler doğru ise sonucu doğru verir</li>
-<li>veya bağlacı (or operator) - içindeki bilgilerden en az biri doğru olduğunda sonucu doğru verir</li>
-<li>değil bağlacı (not operator) - girilen ifadenin zıttını değelendirir</li>
-<li>Tekrar (loop) - bir kodu tekrarlar</li>
-<li>For loop - bir kodu belirli bir sayıda tekrarlar</li>
-<li>For each loop- bir listedeki her madde için kodu tekrarlar</li>
-<li>While loop- Bir koşul doğru olduğu sürece kodu tekrarlar</li>
-</ul>
-<p>&nbsp;</p>
-<p style="text-align: center;">
+
+<div style="background-color: #006667; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h1><strong><span style="color: #ffffff;">Özet</span></strong></h1>
+	<p>Tebrikler! Bu uzun üniteyi de tamamladınız. Bu ünitede öğrendiğiniz her şey uygulama tasarlarken çok işinize yarayacak. Anlamadığınız bir şeyi geri döüp tekrar edebileceğinizi hiç bir zaman unutmayın.</p>
+	<p>Anahtar kelimelerin tekrarı:</p>
+	<ul>
+		<li>Booleans- doğru veya yanlış olan veri türü</li>
+		<li>Koşullar (Conditions)- uygulamanın doğru veya yanlış olarak değerlendirdiği bir ifade</li>
+		<li>Koşullu ifadeler (Conditional statement) - Uygulamanıza bir koşulu değerlendirdikten sonra ne yapması gerektiğini söyler</li>
+		<li>ve bağlacı (and operator) - içerisindeki tüm bilgiler doğru ise sonucu doğru verir</li>
+		<li>veya bağlacı (or operator) - içindeki bilgilerden en az biri doğru olduğunda sonucu doğru verir</li>
+		<li>değil bağlacı (not operator) - girilen ifadenin zıttını değelendirir</li>
+		<li>Tekrar (loop) - bir kodu tekrarlar</li>
+		<li>For loop - bir kodu belirli bir sayıda tekrarlar</li>
+		<li>For each loop- bir listedeki her madde için kodu tekrarlar</li>
+		<li>While loop- Bir koşul doğru olduğu sürece kodu tekrarlar</li>
+	</ul>
+	
+</div>
