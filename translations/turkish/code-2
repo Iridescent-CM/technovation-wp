@@ -19,10 +19,10 @@ Bu ünitede...
  	<li>Veritabanına bağlı bir "yapılacaklar " uygulaması yapmayı öğreneceksiniz.</li>
 </ul>
 Bu ünite çok fazla yeni bilgi içeriyor bu nedenle ilk seferde hepsini anlamayabilirsiniz. Daha iyi anlamak için tüm kod eğitimlerinin üstünden geçip kodların işlevlerini kendiniz denemelisiniz. Anlamadığınız yerleri her zaman geri dönüp tekrar edebilirsiniz.
-<h3>Veriler</h3>
+<h3 id="data">Veriler</h3>
 Hayatınızın bir bölümünde mutlaka <b>veri</b> kelimesini duymuşsunuzdur. Veri bir çok anlamda kullanılabilir, ama kodlamada <strong>veri, </strong>uygulamanızın çalışmak için ihtiyaç duyduğu bir takım bilgilerdir. Bu kavramı daha iyi anlamak için bir kaç örnek düşünelim.
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image10.png" alt="WhatsApp logo" width="46" height="46" />
+<p align="center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image10.png" width="45" height="45" align="bottom" border="0" /></p>
 <p style="text-align: center;"><strong>WhatsApp</strong></p>
 <p style="text-align: center;">Bu uygulama insanları arayabilir veya mesaj atabilir. Bu uygulamanın ihtiyaç duyduğu veriler:</p>
 
@@ -33,7 +33,7 @@ Hayatınızın bir bölümünde mutlaka <b>veri</b> kelimesini duymuşsunuzdur
  	<li>Zaman</li>
  	<li>Konumunuz</li>
 </ul>
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image32.jpg" alt="Angry Birds logo" width="46" height="46" />
+<p align="center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image32.jpg" width="48" height="46" align="bottom" border="0" /></p>
 <p style="text-align: center;"><strong>Angry Birds</strong></p>
 <p style="text-align: center;">Bu oyunda domuzları, kuşlar ile ateş ederek yenmeye çalışıyorsunuz. Bu uygulamanın ihtiyaç duyduğu veriler:</p>
 
@@ -43,7 +43,7 @@ Hayatınızın bir bölümünde mutlaka <b>veri</b> kelimesini duymuşsunuzdur
  	<li>Hangi seviyede olduğunuz</li>
  	<li>Her seviyede kaç kuşunuzun olduğu</li>
 </ul>
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/cropped-R-fullcolor-1.png" alt="Technovation logo" width="46" height="46" />
+<p align="center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/cropped-R-fullcolor-1.png" width="46" height="44" align="bottom" border="0" /></p>
 <p style="text-align: center;"><strong>Slideshow Challenge App</strong></p>
 Bu uygulama Kod Görevi1 'de yaptığınız uygulama. Bu uygulamanın ihtiyaç duyduğu veriler:
 <ul>
@@ -69,14 +69,17 @@ Uygulamanın gereken tüm verileri alabilecek bir şekilde kodlanması gerekiyor
 </li>
 </ol>
 Bazen uygulamalar kullanıcının girdiği bilgileri kaydeder. Örneğin, whatsapp mesajları kaydederek arkadaşınıza attığınız eski mesajları görebilmenizi sağlar. Bunu yapabilmek için programlayan kişi <strong>veritabanı (database</strong>) kullanır. Bu derste veritabanlarını öğreneceksiniz. Veritabanları hakkında daha detaylı olarak bir sonraki derslerde bahsedeceğiz.
-<h3>Alıştırma</h3>
-En yakındaki marketleri bulan bir uygulama yapacak olsaydınız uygulamanız hangi tür veriye ihtiyaç duyar?
-<h3>Veri Türleri</h3>
+
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3>Alıştırma</h3>
+	En yakındaki marketleri bulan bir uygulama yapacak olsaydınız uygulamanız hangi tür veriye ihtiyaç duyar?
+</div>
+<h3 id="types">Veri Türleri</h3>
 Yukarıdaki kısımda gördüğünüz gibi veriler bir çok şekilde görülebilir. Bilgisayarların hangi veri ile çalışmaları gerektiğini anlamaları için veriler farklı kategorilere ayrılır. Bu <strong>veri türleri</strong> olarak biliniz. Veriler üç ana başlık altında gruplandırılır: sayılar (numbers), yazılar (strings) ve booleans (doğru/ yanlış). App Inventor resimler ve renkler gibi daha karmaşık veriler kullanmanıza da izin verir.
 <h5>Sayılar (Numbers)</h5>
 Sayılardan oluşan verileri kullanmak için App Inventor'da "Math" bölümüne girebilirsiniz.
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image30.png" width="712" height="40" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image30.png" width="712" height="40" />
 
 Sayı kullanmanız gerektiğinde hep "Math" bölümündeki blokları kullanmanız gerekecek. Aşağıda sayı içeren veriler kullanmanız gerekebilecek durumlar var:
 <ul>
@@ -89,7 +92,7 @@ Matematik bloklarıyla yapabileceğiniz diğer şeyleri öğrenmek için MIT'in 
 <h5>Yazılar (Strings)</h5>
 Bir string (yazı) veri türü yazıdır. App Inventor'da bloklarda Text'e giderek bir string (yazı) oluşturabilirisiniz. Aşağıda kullanabileceğiniz bazı bloklar yer almaktadır.
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image20.png" width="815" height="100" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image20.png" width="815" height="100" />
 
 Kodunuza metin alanı eklemek istediğinizde  string (yazı) kullanabilirsiniz. Aşağıda uygulamanızda ne zaman yazı veri türü kullanabileceğinizin örnekleri verilmiştir.
 <ul>
@@ -102,10 +105,10 @@ Devam etnmeden MIT'nin sitesinden yazılarla yapabileceğiniz her şeyi detaylı
 <h5>Boolean</h5>
 Boolean'lar doğru veya yanlış olmak üzere iki farklı veridir. Doğru "evet" anlamına yanlış "hayır" anlamına gelir. Boolean bloğu almak için "logic" kısmına girip alttaki bloklardan birini alın.
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image27.png" width="347" height="39" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image27.png" width="347" height="39" />
 
-Şimdilik boolean'la rile yapabileceğiniz çok şey yok. Fakat aklınızda tutmanız gerekli çünkü ileride çok kullanacaksınız. <a href="http://www.iridescent.staging.wpengine.com/curriculum/code-3/" target="_blank" rel="noopener">Kod 3 </a>dersinde boolean'ları daha detaylı bir şekilde öğreneceksiniz.
-<h3>Değişkenler</h3>
+Şimdilik boolean'la rile yapabileceğiniz çok şey yok. Fakat aklınızda tutmanız gerekli çünkü ileride çok kullanacaksınız. <a href="http://www.technovationchallenge.org/curriculum/code-3/" target="_blank" rel="noopener">Kod 3 </a>dersinde boolean'ları daha detaylı bir şekilde öğreneceksiniz.
+<h3 id="variables">Değişkenler</h3>
 Kodlamada en önemli elementlerden biri değişkenlerdir. Bir değişken sürekli değişebilen bir değerin adıdır. Bunu<em> "değişmek"</em> kelimesinden aklınızda tutabilirsiniz. Aşağıdaki maddeler bazı değişken örnekleridir:
 <ul>
  	<li>Yaşınız</li>
@@ -115,48 +118,53 @@ Kodlamada en önemli elementlerden biri değişkenlerdir. Bir değişken sürekl
 </ul>
 Değişkenleri daha iyi anlamak için App Inventor'da bir örnek yapalım.  Kullanıcının puan kazanıp kaybedebildiği bir oyun yaptığınızı düşünün. Bu skorun gözükmesi için ekrana bir label koyun. Oyunun başında kullanıcının sıfır puanı olmasını istiyorsunuz.
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image16.png" width="316" height="56" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image16.png" width="316" height="56" />
 
 Kullanıcı ekranda sıfır yazısını görür. Ama skor kullanıcı oyunu oynadıkça değişir. Kullanıcı her puan kazanıp kaybettiğinde bu yazıyı yenilemeniz gerekir. Kullanıcı puan kazandığında aşağıdaki kodu yazmanız gerekir.
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image22.png" width="326" height="43" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image22.png" width="326" height="43" />
 
 Bu kod da çalışır fakat ya kullanıcı tekrar 10 puan kazanırsa? Veya 20 puan kaybederse? O zaman skoru tekrar değiştirmeniz gerekir. Bu, bir süre sonra çok karışık bir hal alabilir.
 
 Böyle durumlarda  bir değişken yaratıp oyuncunun skorunu takip edebilirsiniz. "score" ("skor") adlı bir değişken yaratıp bu değişkenin her zaman kullanıcının skorunu göstermesini sağlayabilirsiniz. Kullanıcı oyunu oynadıkça "score"a puan ekleyip puan çıkarabilirsiniz. Böylece o anki skoru hesaplamakla uğraşmak zorunda kalmazsınız. App Inventor'da bunu yapmak için aşağıdaki bloğu alın.
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image13.png" width="245" height="65" />
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image13.png" width="245" height="65" />
+
 
 This block tells the app that there will be a variable and asks you to give the variable a name and a value. Here’s what the block would look like for a game where the player's score started at zero.
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image28.png" width="284" height="51" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image28.png" width="284" height="51" />
 
 Bu blokla uygulamaya "score" adlı bir değişken olduğunu söylüyorsunuz. Bu değişken oyun oynandıkça değişecek. Uygulama her açıldığında uygulama "score" adlı bir değişken oluşturup değerini sıfır yapacak. Şimdi "set"(ayarla)  ve "get" (al) bloklarını kullanabiliriz. "Get" (al) bloğu bir veri almanızı yani skoru görmenizi sağlayacak. Aşağıda skoru label içinde nasıl göstereceğinizi görebilirsiniz.
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image17.png" width="476" height="45" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image17.png" width="476" height="45" />
 
 “Set" (ayarla) ile değişkene yeni bir değer tanımlamanızı sağlar.
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image19.png" width="508" height="61" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image19.png" width="508" height="61" />
 
 Bu kod uygulamanıza skoru kullanıcının o anki skoruna eşitlemesini sonra da buna kazanılan puanı eklemesini söyler. Eğer o anki skor 10 ise yeni skor 10 olur. Eğer o anki skor 25 ise yeni skor 35 olur. Şimdi kullanıcı her puan kazanıp kaybettiğinde skoru yenilemekle uğraşmayacaksınız. Uygulama o anki skoru alacak ve buna 10 ekleyecek.
-<h3>Zor Alıştırma</h3>
-En sevdiğiniz uygulamalardan birini seçin ve nerelerde değişkenler kullanıldığını bulmaya çalışın.
-<h3>Lokal ve Global Değişkenler</h3>
+
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3>Zor Alıştırma</h3>
+	En sevdiğiniz uygulamalardan birini seçin ve nerelerde değişkenler kullanıldığını bulmaya çalışın.
+</div>
+<h3 id="localglobal">Lokal ve Global Değişkenler</h3>
 Yukarıdaki kısmı yaparken değişkenin üzerinde "global" yazdığını fark etmişsinizdir. İki farklı değişken türü vardır; <strong>lokal değişkenler </strong>ve <strong>global değişkenler. </strong>Değişkenler yarattığınızda bu değişkeni kodunuzda sadece bir yerde mi yoksa farklı farklı yerlerde mi kullanacağınıza karar vermeniz gerekir.
 
 <b>Global</b> <b>değişkenler </b>kodunuzda her yerde kullanılabilirler.  Yukarıda da gördüğünüz gibi skor değişkenini farklı farklı yerlerde kullandık. Bu değişkeni kullanıcı puan kazandığında, kaybettiğinde skoru yenilemek ve label aracılığıyla gösterirken kullandınız. Bu aynı zamanda en yüksek skor tablosu yapmak için de kullanılabilir. Global değişkenlerle çalışırken hiç bir zaman bir adı iki kez kullanamazsınız. Eğer aynı adı iki veya daha fazla değişken için kullanırsanız uygulamanız hangi değişkenin hangisi olduğunu ayırt edemez ve çalışmaz. Zaten App Inventor aynı ada sahip iki farklı değişken yaratmanıza izin vermiyor. Eğer hangi değişken çeşidini kullanmanız gerektiğinden emin olamazsanız Global Değişken'i kullanın.
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image15.gif" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image15.gif" />
 
 <strong>Lokal Değişkenler </strong>sadece kodunuzun bir bölümünde kullanılabilir.  Eğer bir değişkeni kodunuzun sadece bir bölümünde kullanacaksanız lokal değişken kullanın. App Inventor sadece o lokal değişkeni oluşturduğunuz bloğun içerisinde kullanmanıza izin verir ve başka yerde kullanamazsınız.  Global değişkenlerden farklı olarak lokal değişkenlerin adlarını birden fazla kez kullanabilirsiniz.
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image34.gif" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image34.gif" />
 
 Kod Görevi 2'de ne zaman hangi değişken türünü kullanacağınıza dair örnekler göreceksiniz. Lokal ve global değişkenler hakkında daha fazla bilgi için MIT APp Inventor'un sitesinden aşağıdaki linki ziyaret edebilirsiniz.
 
 <a href="http://appinventor.mit.edu/explore/ai2/support/concepts/variables.html" target="_blank" rel="noopener">Global ve Lokal Değişkenler </a>
-<h3>Listeler</h3>
+<h3 id="lists">Listeler</h3>
 Dünyada hayal edemeyeceğimiz kadar çok bilgi var ve bu bilgiler tek başlarına etrafta dolaşırken çok karışık bir hal alıyor. Bu nedenle bu verileri düzenlemek için çeşitli teknikler var. Verileri düzenleyerek bu verilere daha kolayca ve hızlı ulaşabiliriz. Hayatınızdaki obje ve bilgileri nasıl düzenlediğiniz hakkında örnekler düşünebiliyor musunuz? Aşağıda bazı örnekleri görebilirsiniz:
 <ul>
  	<li>Arkadaşlarınızın telefon numaralarını telefon rehberinize kaydederek</li>
@@ -165,16 +173,16 @@ Dünyada hayal edemeyeceğimiz kadar çok bilgi var ve bu bilgiler tek başları
 </ul>
 Programlamacılar listeler kullanarak uygulamalarındaki verileri düzenlerler. Listeler içinde birden fazla veri barındırabilir ve bu verileri kolayca aktarabilir. Daha önceden hepimiz alışverişe giderken bir liste yapmışızdır, App Inventor'daki listeler de bunlara çok benzer. App Inventor'da bloklar kısmına gidip "lists" bölümüne giriniz.
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/MakeaList.png" alt="birlisteyap" width="160" height="70" />
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/ItemList.png" alt="maddelistesi" width="254" height="122" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/MakeaList.png" alt="makealist" width="160" height="70" />
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/Number-List.png" alt="sayı-listesi" width="194" height="119" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/ItemList.png" alt="itemlist" width="254" height="122" />
 
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Number-List.png" alt="number-list" width="194" height="119" />
 &nbsp;
 
 Listeler bilgileri tutarken bize çok yardımcı olur. Bir listedeki her maddenin bir <em>"index"</em>i vardır. "index" size o maddenin listede kaçıncı sırada olduğunu verir. Listedeki ilk maddenin "index"i bir, ikincisinin 2'dir. Ve bu böyle devam eder.
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image33.png" alt="meyve listesi" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image33.png" alt="fruit list" width="60%" />
 
 Uygulamanız bu bilgiyi şu şekilde görür:
 
@@ -186,11 +194,11 @@ Uygulamanız bu bilgiyi şu şekilde görür:
 </ul>
 Uygulamanızda her zaman tüm listeyi almak yerine bazen bir listenin içerisinden bir madde de alabilrisiniz. Örneğin "banana"(muz) yazan maddeyi bir label ile görüntülemek istiyorsanız uygulamanıza index'i 2 olan maddeyi almasını söylemelisiniz.
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image25.png" width="516" height="60" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image25.png" width="516" height="60" />
 
 Listelerdeki şeylerin yerlerini değiştirebilir, silebilir, bir şey ekleyebilir veya bir maddeyi değiştirebilirsiniz. Örneğin "kiviler" ve "üzümler" maddelerini listenize eklemeyi unuttuysanız aşağıdaki blokları kullanarak ekleyebilirsiniz.
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image37.png" alt="listeye ekleyin" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image37.png" alt="add to list" width="60%" />
 
 Şimdi uygulamanız listeyi şu şekilde görecek.
 <ul>
@@ -204,35 +212,35 @@ Elinizde birden fazla veri olduğunda ve bu verileri bir değişken altında top
 
 İkinci ve dah akısa bir yol olarak HighScores (YüksekSkorlar) adlı bir liste oluşturup bunun içine 10 yüksek skoru koyabilirsiniz ve bunları index'lerini kullanarak görüntüleyebilirsiniz. Liste kullanarak hem yeni skorlar ekleyip çıkarabilir hem de yerlerini değiştirebilirsiniz. Böylece oldukça zaman kazanırsınız.
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image05.png" alt="highscore1" /> (enyüksekskor1)
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/Arrow.png" alt="arrow" /> (ok)
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image31.png" alt="highscore2" /> (enyüksekskor2)
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image05.png" alt="highscore1" width="316" height="214" /> (enyüksekskor1)
+<img src="http://www.technovationchallenge.org/uploads/2016/09/Arrow.png" alt="arrow" /> (ok)
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image31.png" alt="highscore2" width="60%" /> (enyüksekskor2)
 
 MIT'nin sitesinden bu konu hakkında daha fazla bilgi edinebilirsiniz:  <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/lists.html#string" target="_blank" rel="noopener">listeler</a>
 
 <em>Not: Bir sürü programa dilinde listeler "arrays" olarak adlandırılır ve index'ler 1 değil 0'dan başlar. Bu nedenle yeni bir programlama dili öğrenirken kurallarına baktığınıza emin olun.</em>
-<h3>Veritabanları (Databases)</h3>
+<h3 id="databases">Veritabanları (Databases)</h3>
 Değişkenler, kullanıcı uygulamayı kullanırken veri depolamak için olan yöntemlerden biri ama eğer kullanıcı uygulamayı kapatıp açınca da depolanan verilerin korunmasını isterseniz bir <strong>veritabanı (database)</strong> kullanmalısınız. Veritabanları daha sonradan kullanmak üzere uygulama kapalıyken bile veri toplayabilirler. Veritabanlarını sonradan veri alabileceğiniz bir depo odası gibi düşünebilirsiniz. Aşağıda her gün kullandığımız bazı veri tabanı örnekleri var.
 <ul>
  	<li>Telefon rehberi- arkadaşlarımızın numaralarını daha sonradan kullanmak için kaydederiz</li>
  	<li>Mesajlaşma uygulamaları- bu uygulamaların çoğu daha sonradan mesajları okuyabilmek için kaydederler</li>
  	<li>Defter- daha sonradan okumak üzere defterinize yazılar yazarsınız.</li>
 </ul>
-App Inventor'da <strong>Tiny DB </strong>ile kullanıcının telefonuna bilgileri kaydedebilirsiniz ve kullanıcı her uygulamaya girdiğinde bu verileri geri alabilirsiniz. Ama Tiny DB verileri sadece bir cihaza kaydeder yani lokal bir veritabanıdır. İki farklı cihaz arası veri akışını sağlamaz. Bir kullanıcı TinyDB ile bir veri kaydettiğinde bu veri sadece onun telefonunda kayıtlı olacaktır. Farklı cihazlar arası bilgi alışverişini nasıl yapacağınızı <a href="http://www.iridescent.staging.wpengine.com/curriculum/code-4/" target="_blank" rel="noopener">Kod</a><a href="http://www.iridescent.staging.wpengine.com/curriculum/code-4/" target="_blank" rel="noopener"> 4: Mobil Özelliklerin Kullanımı ve İnternet ile Bağlantı </a>dersinde öğreneceksiniz.
+App Inventor'da <strong>Tiny DB </strong>ile kullanıcının telefonuna bilgileri kaydedebilirsiniz ve kullanıcı her uygulamaya girdiğinde bu verileri geri alabilirsiniz. Ama Tiny DB verileri sadece bir cihaza kaydeder yani lokal bir veritabanıdır. İki farklı cihaz arası veri akışını sağlamaz. Bir kullanıcı TinyDB ile bir veri kaydettiğinde bu veri sadece onun telefonunda kayıtlı olacaktır. Farklı cihazlar arası bilgi alışverişini nasıl yapacağınızı <a href="www.technovationchallenge.org/curriculum/code-4/" target="_blank" rel="noopener">Kod</a><a href="http://www.technovationchallenge.org/curriculum/code-4/" target="_blank" rel="noopener"> 4: Mobil Özelliklerin Kullanımı ve İnternet ile Bağlantı </a>dersinde öğreneceksiniz.
 
 Tiny DB kullanmak için App Inventor'un "design" (tasarım) kısmından TinyDB alın ve ekranınızın altına sürükleyin. Bu görünmez bir elementtir. Kullanıcı bunu görmez.
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image36.png" alt="TinyDB" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image36.png" alt="TinyDB" width="25%" />
 
 TinyDB'e bir görev vermek için "call" (çağır) bloğu kullanılır. TinyDB'i çağırdığınızda onda veri depolayabilir veya ondan veri alabilirsiniz. TinyDB'de bir veriler "tag"ler (etiketler) altında depolanır. Bu etiketler verileri geri alırken de kullanılır. Bu da değişken adları gibidir. Eğer iki farklı veriye de aynı etiketi verirseniz App Inventor eski veriyi siler ve yerine yenisini yazar. Bu veritabanınızdaki bilgileri yenilemek istediğinizde işinize yarayabilir ama onun haricindeki durumlarda aynı etiketi iki kez kullanmadığınızdan emin olmalısınız. Aşağıdaki TinyDB'in nasıl kullanıldığını görebilirsiniz.
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image04.png" alt="TinyDB store global fruits" />
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/Screen-Shot-2016-09-23-at-3.24.29-PM.png" alt="screen-shot-2016-09-23-at-3-24-29-pm" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image04.png" alt="TinyDB store global fruits" width="60%" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Screen-Shot-2016-09-23-at-3.24.29-PM.png" alt="screen-shot-2016-09-23-at-3-24-29-pm" />
 <p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">İlk blok, TinyDB'de değerlerin nasıl saklanacağını gösterir. Bu durumda, meyveler listemizi daha önce “Gıda” etiketi ile sakladık. İkinci blok, meyve listesinin veritabanından nasıl alınacağını gösterir. Etiketin, tüm büyük harfler dahil olmak üzere, verilerin saklandığı sırada olduğu gibi tam olarak yazılması gerekir.</span></p>
 <p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Bunu daha iyi anlamak için bir örnek üzerinde yürüyelim. Daha sonra kullanmak için bir veritabanında üç şeyi saklamanız gerektiğini varsayalım. Birincisi son bölümdeki Meyve listemizdir, bunlardan biri sizin yaşınız, diğeri yapmak için en sevdiğiniz şeylerin listesi. Veritabanına şu şekilde üç çağrı yaparsınız:</span></p>
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image04.png" alt="TinyDB küresel meyveleri sakla" />
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image00-1.png" alt="Tiny DB benim yaşım" />
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image24.png" alt="TinyDB mağaza favori listesi" />
+<img class="" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image04.png" alt="TinyDB store global fruits" width="284" height="64" />
+<img class="" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image00-1.png" alt="Tiny DB my age" width="300" height="81" />
+<img class="" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image24.png" alt="TinyDB store favorites list" width="294" height="78" />
 
 Artık veritabanınızda üç giriş var ve bunlar neye benziyor:
 
@@ -260,50 +268,52 @@ Veri:
 </ul>
 Şimdi, en sevdiğiniz şeyleri almak istediğinizde, böyle bir çağrı yapın:
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image26.png" alt="TinyDB favori değeri etiketlenmemiş" width="371" height="98" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image26.png" alt="TinyDB favorites value not tagged" width="371" height="98" />
 <p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Bu bloğu kullandığınızda “Kodun Nasıl Kullanılacağını Öğrenin Müzik Dinle'yi Öğrenin”. Şimdi yaşınızı almak istediğinizi söyleyelim, böylece böyle bir çağrı yapın:</span></p>
-<p dir="ltr"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/image12.png" alt="TinyDB eğer yaşımın değeri orada değilse etiketle" width="351" height="96" /></p>
+<p dir="ltr"><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image12.png" alt="TinyDB my age value tag if not there" width="351" height="96" /></p>
 <p dir="ltr">Bu bloğu kullandığınızda boş bir dize (string) alırsınız: “”. Bunun nedeni veritabanınızda “benimadım” etiketinin bulunmamasıdır! Bununla birlikte, “BenimAdım” etiketi mevcut. Veritabanınız etiketi tanımıyordu, size boş bir dize olan "eğerDeğerOradaDeğilseEtiketle" ("valueIfTagNotThere)" in yanındaki bloğu gösterecek şekilde varsayılan olarak ayarlandı. Bu dize istediğiniz herhangi bir şey söyleyebilirsiniz. Hatta kullanıcınıza bir hata mesajı bile yapabilirsiniz.</p>
 <p dir="ltr">Birden fazla ekranlı bir uygulama oluşturursanız (slayt gösterisi uygulamanız gibi), bileşenler ve değişkenler her ekran arasında birbirleriyle konuşamaz. Uygulamanızın bir ekranından diğerine bilgi aktarmak için TinyDB kullanmanız gerekecektir. Daha fazla bilgi için bu sayfayı ziyaret edin: <a href="http://appinventor.mit.edu/explore/ai2/concepts.html#Screens" target="_blank" rel="noopener">MIT Ekranları.</a></p>
 
 <div id="tw-target-text-container" class="tw-ta-container tw-nfl">
 <p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Bu ünitedeki tüm içeriği doldurduğunuz için tebrikler! Çok fazla bilgi vardı, bu yüzden şu an her şeyi anlamadıysanız sorun yok. Uygulamanızı oluştururken her zaman bu birime başvurabilirsiniz. Kod Mücadelesi, şimdiye kadar öğrendiğiniz her şeyi dahil etmek için tasarlanmıştır, bu yüzden bir deneyin!</span></p>
 
-<h2>Kod 2 Mücadelesi: Bir Yapılacaklar Listesi Hazırlayın</h2>
+<h2 id="challenge">Kod 2 Mücadelesi: Bir Yapılacaklar Listesi Hazırlayın</h2>
 Açıklama:
 <p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Kullanıcıların öğelere girip çıkarmasına izin veren bir yapılacaklar listesi yapın. Uygulamanız, kullanıcının uygulamayı her açışında öğeleri hatırlamalıdır. </span>Mücadeleyi denemeden önce <a href="http://ai2.appinventor.mit.edu/reference/components/userinterface.html#ListView" target="_blank" rel="noopener">ListView</a> (liste görünümü)'ün nasıl kullanılacağını öğrenmek isteyebilirsiniz!</p>
 <p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Talimatları okumadan bu mücadeleyi kendiniz yapabilmek için elinizden geldiği kadar uğraşın. Unutmayın, bu talimatlar, sorunun çözülebileceği tek yolu değildir! Örnek uygulamamızı Google Play Store'da da indirebilirsiniz. Mutlu kodlamalar!</span></p>
 
 </div>
-<p dir="ltr"><a role="button" href="http://www.iridescent.staging.wpengine.com/curriculum/code-2-challenge/" target="_blank" rel="noopener">
+<p dir="ltr"><a role="button" href="http://www.technovationchallenge.org/curriculum/code-2-challenge/" target="_blank" rel="noopener">
 Talimatları görün
 </a></p>
 <p dir="ltr"><a role="button" href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.ToDoList&amp;hl=en" target="_blank" rel="noopener">
 Örnek uygulamayı indirin
 </a></p>
 
-<h3>Değerlendirin</h3>
-Bu derste çok şeyin üzerinden geçtik! Tüm farklı veri türlerini ve bunları depolamak ve düzenlemek için farklı yollar öğrendiniz. Mentorunuz ile görüşmeniz gereken bazı yansıma soruları şunlardır:
-<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr"><strong>S1:</strong> Bu derste öğrendiğiniz bilgiler, her gün kullandığınız uygulamaları nasıl değiştiriyor? </span></p>
-<p class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr"><strong>S2:</strong> Bu dersten uygulamanızı oluştururken faydalı olacağını düşündüğünüz şeyler nelerdir?</span></p>
-<p class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Bu bölümde aşağıdaki anahtar kelimeleri öğrendiniz: </span></p>
+<div style="background-color: #006667; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3 id="reflect" style="color: #ffffff;">Değerlendirin</h3>
+	Bu derste çok şeyin üzerinden geçtik! Tüm farklı veri türlerini ve bunları depolamak ve düzenlemek için farklı yollar öğrendiniz. Mentorunuz ile görüşmeniz gereken bazı yansıma soruları şunlardır:
+	<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr"><strong>S1:</strong> Bu derste öğrendiğiniz bilgiler, her gün kullandığınız uygulamaları nasıl değiştiriyor? </span></p>
+	<p class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr"><strong>S2:</strong> Bu dersten uygulamanızı oluştururken faydalı olacağını düşündüğünüz şeyler nelerdir?</span></p>
+	<p class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Bu bölümde aşağıdaki anahtar kelimeleri öğrendiniz: </span></p>
 
-<ul>
- 	<li id="tw-target-text" class="tw-data-text tw-ta tw-text-small"><span lang="tr">Veri - Uygulamanızın kullandığı bilgiler</span></li>
- 	<li class="tw-data-text tw-ta tw-text-small"><span lang="tr">Veri Türü - Verilerin sınıflandırılma şekli </span></li>
- 	<li class="tw-data-text tw-ta tw-text-small"><span lang="tr">Number - Bir sayı olan bir veri tipi </span></li>
- 	<li class="tw-data-text tw-ta tw-text-small"><span lang="tr">Dize (String) - Metin olan bir veri türü </span></li>
- 	<li class="tw-data-text tw-ta tw-text-small"><span lang="tr">Boolean - Doğru veya yanlış bir veri türü </span></li>
- 	<li class="tw-data-text tw-ta tw-text-small"><span lang="tr">Değişken - Değişebilen bir veri parçası adı </span></li>
- 	<li class="tw-data-text tw-ta tw-text-small"><span lang="tr">Global Variable - Kodunuzda herhangi bir noktada kullanılabilecek bir değişken </span></li>
- 	<li class="tw-data-text tw-ta tw-text-small"><span lang="tr">Yerel Değişken - Yalnızca belirli bir kod bölümünde kullanılan bir değişken </span></li>
- 	<li class="tw-data-text tw-ta tw-text-small"><span lang="tr">Liste - Birden fazla veri parçasını organize etmenin bir yolu </span></li>
- 	<li class="tw-data-text tw-ta tw-text-small"><span lang="tr">Liste Dizini - Verilerin bir listede nerede olduğunu gösteren bir numara</span></li>
- 	<li class="tw-data-text tw-ta tw-text-small"><span lang="tr">Veritabanı - Bilgi depolamak ve düzenlemek için bir yer</span></li>
-</ul>
-<h3>Ek Kaynaklar</h3>
-Aşağıda veritabanlarında bazı ek kaynaklar bulabilirsiniz. Bunları şimdi  veya uygulamanızı oluştururken yardıma ihtiyacınız varsa kullanabilirsiniz!
-<ul>
- 	<li style="font-weight: 400;"><a href="https://drive.google.com/a/iridescentlearning.org/file/d/0B3rEYL3DkWfAd003UmM2cl9ITDg/view" target="_blank" rel="noopener">TinyDB101</a></li>
- 	<li style="font-weight: 400;"><a href="https://drive.google.com/a/iridescentlearning.org/file/d/0B3rEYL3DkWfAZUVQVGxPZzdXTXc/view" target="_blank" rel="noopener">TinyDB102</a></li>
-</ul>
+	<ul>
+	 	<li id="tw-target-text" class="tw-data-text tw-ta tw-text-small"><span lang="tr">Veri - Uygulamanızın kullandığı bilgiler</span></li>
+	 	<li class="tw-data-text tw-ta tw-text-small"><span lang="tr">Veri Türü - Verilerin sınıflandırılma şekli </span></li>
+	 	<li class="tw-data-text tw-ta tw-text-small"><span lang="tr">Number - Bir sayı olan bir veri tipi </span></li>
+	 	<li class="tw-data-text tw-ta tw-text-small"><span lang="tr">Dize (String) - Metin olan bir veri türü </span></li>
+	 	<li class="tw-data-text tw-ta tw-text-small"><span lang="tr">Boolean - Doğru veya yanlış bir veri türü </span></li>
+	 	<li class="tw-data-text tw-ta tw-text-small"><span lang="tr">Değişken - Değişebilen bir veri parçası adı </span></li>
+	 	<li class="tw-data-text tw-ta tw-text-small"><span lang="tr">Global Variable - Kodunuzda herhangi bir noktada kullanılabilecek bir değişken </span></li>
+	 	<li class="tw-data-text tw-ta tw-text-small"><span lang="tr">Yerel Değişken - Yalnızca belirli bir kod bölümünde kullanılan bir değişken </span></li>
+	 	<li class="tw-data-text tw-ta tw-text-small"><span lang="tr">Liste - Birden fazla veri parçasını organize etmenin bir yolu </span></li>
+	 	<li class="tw-data-text tw-ta tw-text-small"><span lang="tr">Liste Dizini - Verilerin bir listede nerede olduğunu gösteren bir numara</span></li>
+	 	<li class="tw-data-text tw-ta tw-text-small"><span lang="tr">Veritabanı - Bilgi depolamak ve düzenlemek için bir yer</span></li>
+	</ul>
+	<h3><span style="color: #ffffff;">Ek Kaynaklar</span></h3>
+	Aşağıda veritabanlarında bazı ek kaynaklar bulabilirsiniz. Bunları şimdi  veya uygulamanızı oluştururken yardıma ihtiyacınız varsa kullanabilirsiniz!
+	<ul>
+	 	<li style="font-weight: 400;"><a style="color: #eae46f;" href="https://drive.google.com/a/iridescentlearning.org/file/d/0B3rEYL3DkWfAd003UmM2cl9ITDg/view" target="_blank" rel="noopener">TinyDB101</a></li>
+	 	<li style="font-weight: 400;"><a style="color: #eae46f;" href="https://drive.google.com/a/iridescentlearning.org/file/d/0B3rEYL3DkWfAZUVQVGxPZzdXTXc/view" target="_blank" rel="noopener">TinyDB102</a></li>
+	</ul>
+</div>
