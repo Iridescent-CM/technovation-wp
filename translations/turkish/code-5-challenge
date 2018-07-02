@@ -1,0 +1,63 @@
+<h1>Kod 5 Görevi</h1>
+<h1>Kağıt Prototipi</h1>
+<ul>
+<li><a href="#build">Kağıt Prototipinizi oluşturun</a></li>
+<li><a href="#test">Kullanıcı geri bildirimini test edin ve toplayın</a></li>
+</ul>
+<h3>Kağıt Prototipinizi Oluşturun</h3>
+<p>Bir kağıt prototip oluşturarak uygulamanızı tasarlayın. Kağıt prototipleme, çoklu tasarımları test etmenizi, geribildirim almanızı ve iyileştirmeler yapmanızı sağlayan hızlı bir süreçtir.</p>
+<p><strong>İhtiyacınız Olacaklar:</strong></p>
+<ul>
+<li id="tw-target-text" class="tw-data-text tw-ta tw-text-small"><span lang="tr"><a href="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/10/Prototype-worksheet.pdf" target="_blank" rel="noopener">Mobil Çizim Şablonunun</a> Çıktıları </span></li>
+<li class="tw-data-text tw-ta tw-text-small"><span lang="tr">İşaretleyiciler (Kalemler)</span></li>
+</ul>
+<p>Opsiyonel:</p>
+<ul>
+<li>Etiketler</li>
+<li>Uhu</li>
+<li>Makas</li>
+<li>Bant</li>
+<li>Magazinler (dergiler)</li>
+</ul>
+<p><strong>Yapacaklarınız:</strong></p>
+<ol>
+<li>Bir takım olarak, uygulamanızın her sayfasını çizin. Fikirleriniz geldikçe onları kaydedin ve onları henüz yargılamamaya çalışın. Onları sonra sorgulayabilirsiniz! Bunu yaparken, şunları düşünmek isteyebilirsiniz:
+<ul>
+<li>İlk ekran neye benziyordu?
+<ul>
+<li>Logosu olacak mı? (İpucu: İlham almak için favori uygulamalarınıza bir göz atın)</li>
+<li>Renk şeması ne olacak?</li>
+</ul>
+</li>
+<li>Bir sonraki ekrana geçmek için bir düğmeye basarsanız ne olur?</li>
+<li>Her ekran nasıl görünecek?</li>
+<li>Kullanıcı farklı ekranlarda nasıl gezinecek?</li>
+<li>Bu nasıl olacağını oklarla gösterebilir misin?</li>
+</ul>
+</li>
+</ol>
+<p>2. İşte bir kağıt prototip örneği. Etiketlerin, kullanıcıların düğmelere tıklayabilecekleri yerleri göstermek için kullandıkları yola dikkat edin. Ayrıca, bazı durumlarda, bir düğme tıklandığında bir kullanıcının alacağı bir sonraki ekran olması muhtemel eskizler olduğu görülmektedir.</p>
+<p>MVP hatırlatıcısı: Kullanıcılarınızın hedefinize ulaşmasına yardımcı olmak için sunabileceğiniz en küçük, en kısa işlev kümesi hangisidir?</p>
+<p><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/image00.png" alt="görsel00" width="486" height="552" /></p>
+<p>3. Çalışan bir prototipiniz olduğunda, kullanıcının uygulamada nasıl gezineceği hakkında bir çalışma oluşturun. Yukarıdaki videoda gösterildiği gibi fotoğraf çekebilir ve bir .gif (hareketli görsel) veya video (klip) oluşturabilirsiniz. Ardından bunu görüştüğünüz paydaşlara getirebilir, onlarla test edebilir ve geri bildirimlerini alabilirsiniz.</p>
+<p>4. Kağıt prototipinizi kaydetmenizi öneririz, çünkü uygulamanızı oluşturarak işe geri dönmeniz gerekebilir. Onu güvenli bir alanda bıraktığınızdan emin olun, böylece kaybetmeyin ya da ekip üyelerinizden birisinin bundan sorumlu olmasını isteyin.</p>
+<h3>Kullanıcı Geri Bildirimini Test Edin ve Toplayın</h3>
+<p>Artık bir kağıt prototipiniz var, geri bildirim için paylaşmanın zamanı geldi! Görüştüğünüz paydaşları hatırlıyor musunuz? Uygulamanın kendi ihtiyaçlarını ve beklentilerini karşılayıp karşılamadığını öğreneceksiniz.</p>
+<p>İşte ilham için izleyebileceğiniz eğlenceli bir Kullanıcı Arayüzü Tasarımı:<a href="https://www.youtube.com/watch?v=V8LNDqMIapY" target="_blank" rel="noopener">Kullanıcı Arayüzü Tasarımı: Kağıt Prototip Çalışma </a>videosu. Videoda bir iPhone için bir prototip olmasına rağmen, fikir Android'ler için de benzerdir. Kullanıcı deneyimi hakkında onunla birlikte gelen anlatının nasıl olduğuna dikkat edin?</p>
+<p><strong>İhtiyacınız Olacaklar:</strong></p>
+<ul>
+<li>Çizimleriniz</li>
+<li><a href="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/User-Testing-Worksheet.pdf" target="_blank" rel="noopener">Kullanıcı Test etme Çalışma Kağıdı</a>'nın çıktıları</li>
+<li>Video çekebilen bir kamera, dizüstü bilgisayar, veya telefon</li>
+</ul>
+<p><strong>Yapacaklarınız:</strong></p>
+<ol>
+<li>Prova yapın! Paydaşlarınızla görüşmeden önce farklı senaryolardan geçin ve prototipinizin sunumunu yapın. Daha iyi olabileceğini düşünüyorsanız, onu düzeltin.</li>
+<li>Bir video demosu oluşturmak istiyorsanız, yerine onu yapabilirsiniz. Technovation Challenge'a sunmak için daha sonra oluşturacağınız demo video için iyi bir uygulama olabilir!</li>
+<li>Danışmanınızla görüşün ve paydaşlarınızı göstermeyi planladığınız şeyi paylaşın. Geri bildirim isteyin ve dahil edin. [Mentor ile Görüşmeniz: ​​Videoyu veya canlı demoyu gözden geçirin ve ekibinizin demodan eksik bir şey olup olmadığını veya ekibin ilk geri bildirimleri için paydaşlarla paylaşmadan önce iyileştirme önerileriniz olup olmadığını öğrenin.</li>
+<li>Kağıt prototipinizi veya videonuzu paydaşlarınıza getirin ve geri bildirimlerini isteyin. Neler iyi çalıştı, onların bakış açısıyla neler geliştirilebilir?</li>
+<li><a href="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/User-Testing-Worksheet.pdf" target="_blank" rel="noopener">Kullanıcı Test Etme Çalışma Kağıdı</a>'nda bulunan soruları sorun - örneğin, kullanıcı arayüzünde bir şey belirsizdi ve hangi özellikler en yüksek değere sahipti? Yanıtları yazınız.</li>
+<li>Olumsuz geri bildirim de dahil olmak üzere herhangi bir geri bildirim alırken nezaket sahibi olmak için bir hatırlatma. Bu, uygulamanızı daha iyi hale getirme şansınız! Açıklayıcı sorularınız varsa, onları sorabilirsiniz. Geri bildirimlerinin uygulama hakkında olduğunu ve kişisel olarak sizinle ilgili olmadığını unutmayın!</li>
+<li>Test edenlere bir teşekkür notu gönderin ve hazır olduğunda dijital prototipinizi test etmek için onlarla tekrar görüşmek isteyeceğinizi bildirin.</li>
+<li>Akranlarınızı ve mentorunuzun da Kullanıcı Testi Çalışma Sayfası'nı tamamlamasını isteyin!</li>
+</ol>
