@@ -1,96 +1,233 @@
-<h1>Kod Kontrol Listesi</h1>
-<p style="text-align: center">Başvurunuzda 10 puana kadar kazanmak için bu kontrol listesini tamamlayın.</p>
+<h1>Kod 1</h1>
+<h1>Kodlama ve App Inventor'a Giriş</h1>
+<ul>
+ 	<li><a href="#algo">Algoritmalar</a></li>
+ 	<li><a href="#proglang">Programlama Dilleri</a></li>
+ 	<li><a href="#getstarted">App Inventor</a></li>
+ 	<li><a href="#event">Olay Giderici</a></li>
+ 	<li><a href="#func">Fonskiyonlar</a></li>
+ 	<li><a href="#challenge">Kodlama Görevi</a></li>
+ 	<li><a href="#reflect">Özdeğerlendirme</a></li>
+</ul>
+<h2 class="p1"><span class="s1"><b>Öğrenme Hedefleri:</b></span></h2>
+<p class="p2"><span class="s1">Bu modülde...</span></p>
 
-<h3>Talimatlar</h3>
-Bu kontrol listesini tamamlayarak teknik kategoride değerlendirme rubriği üzerinden 10 puana kadar kazanın. Değerlendirme rubriğinin tamamına<a href="/?p=17262" target="_blank" rel="noopener"> buaradan</a> ulaşabilirsiniz.
+<ul class="ul1">
+ 	<li class="li2"><span class="s1">Programlama dilleri ve kullanışları ile tanışacaksın</span></li>
+ 	<li class="li2"><span class="s1">Bilgisayar mantığını basitçe anlayacaksın</span></li>
+ 	<li class="li2"><span class="s1">App Inventor ile kodlamaya başlayacaksın</span></li>
+</ul>
+<h3 id="algo" class="p3"><span class="s1">Algoritmalar</span></h3>
+<p class="p2"><span class="s1">Kuzey Amerika'da büyüyen çocukların çoğu fıstık ezmesi ve reçel sandviçlere bayılır. Bir sandviç yapmak kolay, sadece bir ekmek dilimine fıstık ezmesi sür diğerine de reçel! Zoe ve Pablo'nun arkadaşlarına bu sandvici nasıl yapacağı konusunda yönelendirmesini izleyebilirsin.</span></p>
+<div style="width: 47.5%; margin-right: 2.5%; float: left;">Video 1
+	<iframe src="https://www.youtube.com/embed/NTLnzZCxRDM?start=135&amp;end=201" width="425" height="344" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+</div>
+<div style="width: 47.5%; margin-left: 2.5%; float: right;">Video 2
+	<iframe src="https://www.youtube.com/embed/NTLnzZCxRDM?start=427&amp;end=531" width="425" height="344" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+</div>
+<p class="p1"><span class="s1">Eğer videoları oynatmakta zorluk çekiyorsan, bu sayfayı Google Chrome'dan yüklemeyi dene.</span></p>
+<p class="p1"><span class="s1">Jared, tıpkı bir bilgisayar gibi davranıyor— birisi ona basit, adım adım yönergeler vermediği sürece hiçbir şey yapmıyor. Bir insan, "ekmeğe biraz reçel sür" yönergesinin aslında reçel kavanozunu açmak, bıçağını kavanozun içine sokmak, çıkarmak, ve ekmeğe reçel sürmek için bıçağı kullanmak anlamına geldiğinde anlar. Ama bir bilgisayar, aynen Jared'ın yaptığını yapar; direkt bütün reçel kavanozunu ekmeğe sürerdi ve kafası karışırdı!</span></p>
+<p class="p1"><span class="s1">İnsanların aksine, bilgisayarlar hiçbir şey hakkında çıkarım yapamaz, veya tahminde bulunamaz! Sadece kendilerine söylenenleri yapabilirler. Zoe ve Pablo, Jared'a sandviç yapma bir <b>algoritma</b>sı verdi. <b>Algoritma</b>, adım adım yönergeler bütünüdür. Bilgisayarın bir şey yapmasını istiyorsan, onun anlaması için bir algoritma yazmalısın. </span></p>
+<p class="p1"><span class="s1">Technovation'da, mobil bir uygulama yapmak için algoritma yazmayı öğreneceksin!</span></p>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3 class="p2"><span class="s1">Etkinlik</span></h3>
+	<p class="p1"><span class="s1"><b>Bir parça kağıt al ve bu eğlenceli aktiviteyi yaparak bilgisayarın düşünme şeklini taklit et!</b></span></p>
+	<p class="p1"><span class="s1">Gündelik bir aktivite için bir algoritma yaz. Bu, bisiklete binmek olabilir, sandviç yapmak olabilir, oyun oynamak olabilir, veya başka herhangi bir şey! Bitirdiğinde, algoritmanı bir arkadaşına ver ve bu yönergeyi tamı tamına takip etmesini söyle, tıpkı Jared'in videoda yaptığı gibi. İşler senin beklediğin gibi gitti mi?</span></p>
+</div>
+<h3 id="proglang" class="p2"><span class="s1">Programlama Dilleri</span></h3>
+<p class="p1"><span class="s1">Bilgisayar algoritmaları <b>programlama dilleri </b>kullanılarak yazılır. Programlama dilleri, bilgisayarınla iletişime geçmek için araçlardır. Kodcular farklı işlevler için farklı programlama dilleri kullanırlar. Bazı diller mobil uygulamalar yapmak için daha kullanışlı iken, bazıları website için daha kullanışlı, bazıları da komplike hesaplamalar için. Tıpkı herhangi başka bir dil gibi, iletişim kurabilmek için dili nasıl kullancağını bilmen gerek!</span></p>
+<p class="p1"><span class="s1">Technovation'da <b>mobil uygulama</b> hazırlamak için kullanışlı olan bir programlama dili olan App Inventor'ı kullanmayı öğreneceksin. "Mobil uygulama", bilgisayar yerine telefon ve tablet gibi araçlarda kullanılması için yapılan yazılımdır. Aşağıda bazı programlama dillerinin ismleri ve genellikle hangi amaçla kullanıldıkları yazılı.</span></p>
+<p class="p1"><span class="s1"><b>Javascript</b>, web sayfalarında interaktif unsurları eklemek için kullanılır</span></p>
+<p class="p1"><span class="s1"><b>Objective C</b>, Android uygulamalar hazırlamak için kullanılır.</span></p>
+<p class="p1"><span class="s1"><b>Swift</b>, iPhone applerinin yapımında kullanılır (iOS uygulama geliştirme)</span></p>
+<p class="p1"><span class="s1"><b>App Inventor</b> Android uygulamalarının yapımında kullanılır. Bunun hakkında Technovation sırasında daha fazla bilgi sahibi olacaksın!</span></p>
+<p class="p1"><em><span class="s1">Tanımadığın kelimeleri burada araştır. Programcılar bir şeyin anlamını bilmediklerinde, internette araştırırlar!
+Yeni bir programcı olarak, soru sormak ve bilgisayar programcılarının kullandığı kelimelerle haşır neşir olmak  iyidir!</span></em></p>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3 class="p1"><span class="s1">Etkinlik</span></h3>
+	<p class="p2"><span class="s1">Mentorun veya tanıdığın bir kişi, teknoloji endüstrisinde tecrübeye mi sahip? Onların deneyimleri ve yaptıkları projeler hakkında soru sor!</span></p>
+</div>
+<ul class="ul1">
+ 	<li class="li2"><span class="s1">Teknoloji ile ilgili hangi projeler üstünde çalıştınız, neler öğrendiniz? Mentorun, teknolojinin oluşturulmasına, iş modelinin hazırlanmasında veya başka bir şekilde yardımcı olmuş olabilir.</span></li>
+ 	<li class="li2"><span class="s1">Programlama dilleriyle kişisel deneyimin olduysa, bu dilleri ne yapmak için kullandın?</span></li>
+</ul>
+<p class="p2"><span class="s1">Teknoloji endüstrisinden kimseyi tanımıyorsan, Facebook ve Google'da çalışan kadın mühendislerle yapılan şu videoları izle!</span></p>
+<div style="width: 47.5%; margin-right: 2.5%; float: left;"><iframe src="https://www.youtube.com/embed/s0JVc4q7d5M" width="425" height="344" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+<div style="width: 47.5%; margin-left: 2.5%; float: right;"><iframe src="https://www.youtube.com/embed/8UovCe5hEt4" width="425" height="344" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+</div>
+<h2 id = "getstarted"><span class="s1">App Inventor'a Başlarken</span></h2>
+<p class="p2"><span class="s1">Eğer App Inventor'ın nasıl kullanıldığını zaten biliyorsan veya uygulamanı hazırlarken başka bir programlama dili kullanacaksan,<i><a href="#event">sonraki bölüme </a> </i></span><span class="s1"> geçebilirsin.</span></p>
+<p class="p2"><span class="s1"><b>App Inventor</b>, kullanıcılarının Android telefon ve tabletler için uygulama hazırlamalarını imkan sağlayan ücretsiz bir web uygulamasıdır. App Inventor'a  web tarayıcısı ile ulaşmak için şu linki kullanabilirsin: <a href="http://appinventor.mit.edu/" target="_blank"><span class="s3">http://appinventor.mit.edu/</span></a>.</span></p>
+<p class="p2"><span class="s1">App Inventor'ı kullanmaya başlamak çok kolay! Uygulamanı bilgisayarından tasarlayıp programlayabilir, ardından da Android telefon veya bir emülatör ile uygulamanı test edebilirsin. Projen, App Inventor ağlarında kaydetilmiş olacak, o sayfaya siteye her giriş yaptığında çalışman orada olacak. App Inventor ile ilgili daha çok bilgi sahibi olmak için <a href="http://appinventor.mit.edu/explore/content/what-app-inventor.html" target="_blank"><span class="s3">bu sayfayı </span></a>ziyaret edebilirsin.</span></p>
 
-Başvurunuzda, uygulamanızda kullandığınız bileşenleri basit bir cümle ile anlatmanız gerekecek. Sadece kullandığınız bir örneği açıklamanız yeterlidir.
+<h3 class="p1"><span class="s1">İhtiyacın Olacaklar</span></h3>
+<p class="p2"><span class="s1">Bu bölümde, App Inventor'ı kullanarak bir Android cihazının anlayacağı bir algoritma yazmayı öğrenceksin! App Inventor'ı kullanmak için şunlara ihtiyacın olacak:</span></p>
 
-Mesela:
-<strong>Harf dizeleri (Strings)</strong>
-"<em>Kullanıcının adını ekranın üst kısmında gösterebilmek için harf dizeleri kullandık.</em>"
-<h3>Kod Bileşenleri</h3>
-<em>En az 4 tane kullanın (her biri 1 puan, en fazla 4 puan)</em>
+<ul class="ul1">
+ 	<li class="li2"><span class="s1">Bilgisayar</span></li>
+ 	<li class="li2"><span class="s1">İnternet erişimi</span></li>
+ 	<li class="li2"><span class="s1">Gmail hesabı</span>
+<ul class="ul2"> 
+ 	<li class="li2"><span class="s2"><a href="http://ai2.appinventor.mit.edu/" target="_blank"><span class="s3">App Inventor</span></a></span><span class="s1">'a giriş yapabilmek için bir Gmail hesabının olması gerek. Gmail hesabı açmak için <a href="https://accounts.google.com/signup" target="_blank"><span class="s4">buraya</span></a> tıkla.</span></li>
+</ul>
+</li>
+ 	<li class="li2"><span class="s1">Android telefon veya tablet (zorunlu değil ama şiddetle tavsiye edilir)</span>
+<ul class="ul2">
+ 	<li class="li2"><span class="s1">Android telefonun yoksa, aşağıda makul fiyatta olan ve servis planı gerektirmeyen seçenekler var. Biz, Ice Cream Sandwich version 4.0 ve daha sonraki işletim sistemlerini tavsiye ederiz.</span></li>
+ 	<li class="li3"><span class="s5"><a href="https://www.amazon.com/Motorola-Moto-LTE-Contract-Cellular/dp/B00XQVDW6Y/ref=sr_1_18?s=wireless&amp;ie=UTF8&amp;qid=1472241020&amp;sr=1-18&amp;keywords=android+phone" target="_blank"><span class="s3">Motorola Android</span></a></span></li>
+ 	<li class="li3"><span class="s5"><a href="https://www.amazon.com/BLU-Advance-5-0-Unlocked-Smartphone/dp/B018IZ0SWI/ref=sr_1_3?s=wireless&amp;ie=UTF8&amp;qid=1471294013&amp;sr=1-3&amp;keywords=android+phones" target="_blank"><span class="s3">BLU Android</span></a></span></li>
+ 	<li class="li3"><span class="s5"><a href="http://explore.appinventor.mit.edu/set-your-phone" target="_blank"><span class="s3">Android Tablet</span></a></span></li>
+</ul>
+</li>
+</ul>
+<p class="p2"><span class="s1">Gmail hesabı açtıktan sonra, App Inventor'da bir hesap açmak için <a href="http://ai2.appinventor.mit.edu/" target="_blank"><span class="s4">buraya</span></a> tıkla. App Iventor hesabını açtıktan sonra tekrar giriş yaparak bu sayfaya geri dön ve sonraki bölüme geç.</span></p>
 
-Bu bileşenler hakkında bilgiyi <strong>Kod 2'den </strong>bulabilirsiniz.
+<h3></h3>
+<h3>Connecting App Inventor to an Android Phone</h3>
+<p class="p1"><span class="s1">App Inventor'da hazırladığın uygulamayı Android telefon veya emülatöründe üç şekilde test edebilirsin. Eğer telefonun varsa WiFi ile veya USB girişi ile bağlayabilirsin. Android telefonunun yoksa, bilgisayarında sanal bir telefona sahip olmanı sağlayan bir yazılım olan bir emülatör kullanabilirsin. Bu yöntemlerden herhangi birini kullandığında, App Inventor senin <b>canlı test</b> yapmana izin verecek, yani uygulamanı bilgisayarında düzenleyebilirken aynı zamanda bu düzenlemelerin yarattığı değişimleri telefon veya emülatöründe görebileceksin. Bu bölümlerin üstünden geçtikten sonra, ilk uygulamanı hazırlamaya başlamadan önce alttaki aktiviteye kadar bekle.</span></p>
 
- Dizgiler (Strings)
+<h4>Wifi Method</h4>
+Bu, App Inventor'ı kullanmanın  en kolay yolu ve Technovation takımı tarafından <em>şiddetle tavsiye edilir.</em> Bu . yöntemi, <strong>Android telefon </strong>veya tablet, ve <strong>WiFi'ya erişim</strong>in varsa kullan. Bu yöntemin işe yaramsı için bilgisayar ve telefonunu <strong>aynı WiFi ağına </strong>bağlaman gerek.
 
- Sayılar
+WiFi metodunu kullanarak bilgisayarında uygulamanı oluşturabilecek, ve bu uygulamanı telfonunda App Inventor Companion, ya da MIT AI2 Companion'ı kullanarak test edebileceksin. MIT'nin WiFi'ya nasıl bağlanacağının anlatıldığı yönergeye ulaşmak için butona tıkla.
 
- Değişkenler
+<a role="button" href="http://appinventor.mit.edu/explore/ai2/setup-device-wifi.html" target="_blank" rel="noopener">
+Wifi Method
+</a>
+<h5>Sorun Giderme İpuçları</h5>
+<ol>
+ 	<li>Doğru MIT AI2 uygulamasını telefonuna indirdiğinden emin ol: <a href="https://play.google.com/store/apps/details?id=edu.mit.appinventor.aicompanion3&amp;hl=en" target="_blank" rel="noopener">AI Companion App</a>. Logosu buna benziyor:<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/unnamed.png" alt="AppInventorLogo" width="28" height="28" /></li>
+ 	<li>Bilgisayarının ve telefonunun aynı WiFi ağında olduklarından emin ol</li>
+ 	<li>Bir hata ile karşılaşırsan bağlantını kapat ve tekrar aç. <img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/ResetConnection.png" alt="resetconnection" width="799" height="215" /></li>
+ 	<li>Takıldıysan bu video sana yardımcı olabilir: <a href="https://www.youtube.com/watch?v=cvoQg-Q_h7M&amp;list=PL5T8bmLxd_T3XKbSIvi1OfwBra5KFlKij&amp;index=5" target="_blank" rel="noopener">Phil'inBilgisayarLaboratuvarı: Wi-Fi'ya Bağlanmak</a></li>
+</ol>
+Her şey çalışıyor ve hazırsan, <a href="#talktome">etkinliğe git.</a>
+<h4>USB Metodu</h4>
+Bu teknik açıdan kullanması en zor metod ve bilgissayarına yazılım indirmeni gerektiriyor. Bu metodu, <strong>Android telefon</strong> veya tablet, ve <strong>Wifi'ya erişimin yok</strong>sa kullan.
 
- Listeler veya Diziler
+Bu metod ile bilgisayarından App Inventor'ı kullanarak uygulamanı oluşturacaksın ve bilgisayarını telefonuna USB kablo ile bağlayarak uygulamanı telefonunda test edeceksin. Bilgisayarına yazılım, ve telefonuna da "companion" (arkadaş) uygulamasını yüklemen gerekecek. Eğer bir Windows bilgisayarı kullanıyorsan, telefonun için ayrıca bir <strong>USB Driver </strong>indirmen gerebilir. Mac bilgisayarın varsa USB Driver'lar hakkında endişe etmene gerek yok. MIT'nin USB Metodu için yönergelerin görmek için aşağıya tıkla.
 
-Bu bileşenler hakkında bilgiyi <strong>Kod 3'ten </strong>bulabilirsiniz.
+<a role="button" href="http://appinventor.mit.edu/explore/ai2/setup-device-usb.html" target="_blank" rel="noopener">
+USB METODU
+</a>
+<h5>Sorun Giderme İpuçları</h5>
+<ol>
+ 	<li>Doğru MIT AI2 uygulamasını telefonuna indirdiğinden emin ol: <a href="https://play.google.com/store/apps/details?id=edu.mit.appinventor.aicompanion3&amp;hl=en" target="_blank" rel="noopener">AI Companion App</a>. Logosu buna benziyor:<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/unnamed.png" alt="AppInventorLogo" width="28" height="28" /></li>
+ 	<li>Bir hata ile karşılaşırsan bağlantını kapat ve tekrar aç. <img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/ResetConnection.png" alt="resetconnection" width="799" height="215" /></li>
+ 	<li style="font-weight: 400;">Ayarlarında gözükmeden önce geliştirici seçeneklerini etkinleştirmen gerebilir. Çoğu Android telefonunda eliştirici seçeneklerini etkinleştirmek ve USB hatalarını ayıklamak için faydalı bir makale:  <a href="http://www.howtogeek.com/129728/how-to-access-the-developer-options-menu-and-enable-usb-debugging-on-android-4.2/" target="_blank" rel="noopener">howtogeek</a></li>
+ 	<li style="font-weight: 400;">Bilgisayarına bağlanmadan önce telefonundaki diyaloğu onaylaman gerekebilir.</li>
+</ol>
+Mac
+<ol>
+ 	<li style="font-weight: 400;">Eğer “”MITAppInventorSetup.pkg” isimli, "tanımlanamayan bir geliştiriciden yüklenmeye çalışılması" nedeniyle bir uyarı çıkrsa güvenlik ayarlarının değiştirmen gerekebilir. Bu ayarları değiştirebilmek için ayarlarından güvenlik ve gizliliği aç ve "yine de aç"a bas ya da ayarlarınla oynayarak her hangi bir yerden uygulama yüklenebilmesini sağla.<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/MacError.png" alt="macerror" width="475" height="399" /></li>
+</ol>
+Windows
+<ol>
+ 	<li style="font-weight: 400;">aiStarter'ın çalıştığından emin ol. Bilgisayarında arayıp açarak başlatman gerebilir.</li>
+ 	<li style="font-weight: 400;">Büyük ihtimalle telefonunun PC ile çalışmasını sağlamak için bir sürücüye ihtiyaç duyacaksın. Bu, MIT'nin bir sürücünün nasıl yüklendiği konusundaki belgeleri: <a href="http://appinventor.mit.edu/explore/ai2/connect-USB-win.html" target="_blank" rel="noopener">MIT USB yardım</a>
+<ol>
+ 	<li style="font-weight: 400;">Telefonun için doğru sürücünün hangisi olduğunu araştırmalısın. MIT'nin belgeleri bir google teefonuna sahipsen yarıdmcı olabilir.</li>
+ 	<li style="font-weight: 400;">Yeni bir sürücü yükledikten sonra yine de bilgisayarının telefonun için kullandığı sürücüyü güncellemen gerekebilir. Nasıl yapacağını burada görebilirsin: <a href="https://technet.microsoft.com/en-us/library/cc730965(v=ws.11).aspx" target="_blank" rel="noopener">Sürücü Yönergelerini Güncelle</a></li>
+</ol>
+</li>
+</ol>
+Her şeyin hazır ve çalışıyorsa, <a href="#talktome">etkinliğe geç.</a>
+<h4>Emülator Metodu</h4>
+Özellikle Windows  kullanıyorsan bu metodun kullanılması biraz zor olabilir ve Technovation takımı tarafınan <em>tavsiye edilmez. </em>Bu metodu <strong>Android telefon veya tabletin yoksa </strong>kullan.
 
-  Booleans (Doğru veya Yanlış bilgisi içeren bileşenler)
+Emülator, bilgisayarında sanal bir telefon işletmeni sağlayan bir yazılım. Emülator metodu ile <strong>emülatör </strong>kullanarak<strong> </strong>bilgisayarında oyunu oluşturabilecek ve test edebileceksin. MIT'nin emülator metodu ile ilgili yönergelerini görmek için butona tıkla.
 
- Döngüler
+<a role="button" href="http://appinventor.mit.edu/explore/ai2/setup-emulator.html" target="_blank" rel="noopener">
+Emülator Metodu
+</a>
+<h5>Sorun Giderme İpuçları</h5>
+<ol>
+ 	<li>Eğer Window kullanıyorsan, aiStarter'ın çalıştığından emin ol. Bilgisayarında arayıp açarak başlatman gerebilir.</li>
+ 	<li>Emülatorun çalışmaya başlaması zaman alabilir.</li>
+ 	<li>Telefonunun bilgisayarına kablo ile takılı olmadığından emin ol.</li>
+ 	<li>Eğer emülatorun tepki vermiyorsa bağlantını kapatıp tekrar aç.<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/ResetConnection.png" alt="resetconnection" width="799" height="215" /></li>
+ 	<li>Emülatora bağlanmanda yardımcı olacak bir video: <a href="https://www.youtube.com/watch?v=ly9RSDPWOEw" target="_blank" rel="noopener">Emülatoru Kullanmak</a></li>
+</ol>
+Her şeyin hazır ve çalışıyorsa, <a href="#talktome">etkinliğe geç.</a>
 
- Koşul İfadeleri
-<h3>Veritabanları ve Bağlanabilirlik</h3>
-<em>En az 1 tane kullanın (her biri 1 puan, en fazla 1 puan)</em>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3>Etkinlik</h3>
+	Bu iki öğretici dersi tamamla. App Inventor'daki ilk uygulamanı hazırlamanda yardımcı olacak ve sonraki bölümü anlamanı sağlayacaklar. Unutma, bu senin ilk uygulamadan o yüzden eğer takılırsan bu çok normal!
+	<h4>Öğretici Ders 1: Konuş Benimle Bölüm I</h4>
+	<iframe src="https://www.youtube.com/embed/Vdo8UdkgDD8" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+	<a style="color: #eae46f;" href="http://appinventor.mit.edu/explore/sites/all/files/hourofcode/TalkToMePart1.pdf" target="_blank" rel="noopener">Bu öğretici dersin PDF kopyasını burada indir</a>
+	<h4>Öğretici Ders 2: Konuş Benimle Bölüm II</h4>
+	<iframe src="https://www.youtube.com/embed/0hikoCvM3oc" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+	<a style="color: #eae46f;" href="http://appinventor.mit.edu/explore/sites/all/files/hourofcode/TalkToMePart2.pdf" target="_blank" rel="noopener">Bu öğretici dersin PDF yönergesini burada indir</a>
+</div>
 
-Bu bileşen hakkında bilgiyi <strong>Kod 2'den </strong>bulabilirsiniz.
+<h2 id="event">Olay Giderici</h2>
+Konuş Benimle uygulaması hazırlarken App Inventor'ın hem <em>tasarımcı</em> hem de <em>bloklar</em> kısmını kullandın. Ne zaman uygulamana tasarımla ilgili bir unsur eklersen bilgisayara o unsurun ne yapacağını söylemen gerek! Bu bilginin hepsi kod bloklarında olacak.
 
- Yerel Veritabanı
+Bu nedenle App Inventor'a 'blok programlama dili' denilir. Uygulamana yerleştirdiğin her tasarım unsuru için, bilgisayarına o unsurun ne yapması ve ne zaman yapması gerektiğini söylemen gerek. Buna <strong>olay giderici </strong>denir.
 
-Bu bileşen hakkında bilgiyi <strong>Kod 4'ten </strong>bulabilirsiniz.
+<b>Olay</b>, gerçekleşen bir şeydir. Muhtemelen arkadaşının doğum günü partisi veya bir okul gösterisi hakkında konuşurken "olay" demişsindir. Kodlamada, <strong>olay</strong>, kodun çalışmasını tetikleyecek bir şeydir. Örneğin, bu kullanıcının bir butona basışı, bir telefon ekranında yönlendirmenin değişmesi, veya bir kullanıcını metin kutusuna yazı yazması olabilir.
 
- Ağ Veritabanı veya API
-<h3>Mobil Özellikler</h3>
-<em>En az 1 tane kullanın (her biri 2 puan, en fazla 2 puan)</em>
+Konuş Benimle isimli uygulamanda, kullanıcı bir butona tıkladığında uygulamaya ne yapması gerektiğin söyledin, bu nedenle butonun üstünde bir olay gidereci koydun. Şuna benziyordu:
 
-Bu bileşen hakkında bilgiyi <strong>Kod 4'ten </strong>bulabilirsiniz.
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Screen-Shot-2016-08-26-at-1.04.52-PM.png" alt="screen-shot-2016-08-26-at-1-04-52-pm" width="334" height="108" />
 
-Yer Sensörü
+<em>Olay,</em> kullanıcının butona basmasıydı ve uygulama sesli yanıt sistemini kullanarak bir şey söyledi bu olayı <em>giderdi.</em><em> </em>Bu önemli bir şey bu nedenle aklında tutmalısın. Kodlama yaparken, uygulamanın ne yapmasını ve ne aman yapmasını istediğini düşünmen gerek.
 
-Kamera veya Video
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3>Etkinlik</h3>
+	Telefonunun yaptığı bazı olay gidericilikleri düşünebiliyor musun? Başlamak için birkaç örnek:
+	<ul>
+	 	<li style="font-weight: 400;">Mesaj atarken "gönder"e bastığında mesajı gönderir ve bir ses çıkarır.</li>
+	 	<li style="font-weight: 400;">Uygulama satın alırken, telefonun bir parola ister.</li>
+	 	<li style="font-weight: 400;">Bir uygulamanın ikonuna bastığında, o uygulama açılır.</li>
+	</ul>
+</div>
+<h3 id="func">Fonskiyonlar</h3>
+<p class="p1"><span class="s1">App Inventor'da bloklar ekranına girdiğinde, birçok farklı yerleşik fonskiyon kategorisinin olduğunu fark ettin mi? Buna benziyorlar:</span></p>
+<p class="p1"><span class="s1"><b>Fonskiyonlar</b> bir işlev yapan kod bloğu oluyor. Bir <b>girdi</b>yi kabul eder ve bir <b>çıktı</b>yı üretir. Girdi, bir fonskiyona giren bilgidir, ve çıktı da fonskiyondan sana geri dönen bilgidir. "Konuş Benimle" öğretici derslerinde, sesli yanıt sistemi fonskiyonunu kullandın, bu fonskiyon yazıyı alıp sese dönüştürür! Girdi, yazı; çıktı, ses olmuş oldu! Öğrenmeye ve programlamaya devam ettikçe, fonksiyonlar ile girdi ve çıktıları sana daha anlamlı gelecektir.</span></p>
+<p class="p1"><span class="s1">App Inventor'daki yerleşik fonksiyonlar aslında uygulamanı hazırlamak için kullanacaklarının temelini oluşturuyor. Tüm programlama dillerinin yerleşik fonksiyonları vardır, ve iyi programcılar bu fonskiyonları birbirine katarak bilgisayarlarının istediklerini yapamlarını sağlarlar. Bu fonskiyonları nasıl kullanman gerektiğini bildiğin zaman, hepsini birlikte farklı farklı kullanarak uygulamanı hazırlayabileceksin. Bu fonskiyonları <a href="https://technovationchallenge.org/curriculum/code-2"><span class="s2">Kod 2: Veri ve Değişkenler</span></a> ve <a href="https://technovationchallenge.org/curriculum/code-3"><span class="s2">Kod 3: Mantık, Döngüler ve Şartlılar</span></a>'da öğreneceksin.</span></p>
 
-İvmeölçer
 
-SMS veya Telefon
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3 class="p3"><span class="s1"><b>Etkinlik</b></span></h3>
+	<p class="p1"><span class="s1">İlerlemeden önce, biraz daha programlayalım! Konuş Benimle ismili uygulamanı sonraki seviyeye getirebilir misin? Al sana deneyebileceğin bazı fikirler!</span></p>
 
-Ses veya Hoparlör
+	<ol class="ol1">
+	 	<li class="li1"><span class="s1">Sesli yanıt sistemindeki sesin kalın ve inceliğini ayarla. Bloklar kısmındaki sesli yanıt kısmına bas ve bunu ayarlamak için gerekli olan tuşu bul. Sesine 0, 1 veya 2 kalınlık/incelik verebilirsin.</span>
+	<ul class="ul1">
+	 	<li class="li1"><span class="s1">Bunu nasıl yapacağını görmek için bunu kullan: <a href="http://ai2.appinventor.mit.edu/reference/components/media.html#TextToSpeech" target="_blank" rel="noopener"><span class="s2">App Inventor Sesli Yanıt Sistemi Bilgisi</span></a></span></li>
+	</ul>
+	</li>
+	 	<li class="li1"><span class="s1">Telefonunun sana ona dediğini tekrarlaması veya dediğini print etmesi için Ses Tanıyıcısı'nı kullan.</span></li>
+	</ol>
+	<p class="p1"><span class="s1">Her kodlama ünitesinin sonunda, bir kod görevi tamamlayacak ve mentoruna geri bildirim için yollaman gerekecek. Bu öğretici dersler sana temel kodlama unsurlarını öğretecek ve uygulamanın son halini hazırlamanda yardımcı olacak.</span></p>
+</div>
 
-Paylaşma
+<h1 id="challenge" class="p4"><span class="s1"><b>Kod Görevi 1: Bir Slayt Gösterisi Hazırla</b></span></h1>
+<p class="p1"><span class="s1">Görev: Kullanıcının fotoğraflardan oluşan bir slayt gösterisini tıklayarak izlemesini sağlayan bir uygulama hazırla!</span></p>
+<p class="p1"><span class="s1">Bu uygulama için kullanıcının fotoğraflar arasında gezineceği bir slayt gösterisi hazırlaman gerekecek. Ekranını tasarlarken, bir fotoğraf ile birlikte, kullanıcının tıklayabileceği 'önceki' ve 'sonraki' butonlarının bulunması gerecek. Bu tasarımcı ekranında yapılacak.</span></p>
+<p class="p1"><span class="s1">Yönergelere bakmadan önce kod görevini nasıl yapacağını kendin anlamaya çalış. Yönergeler bu görevin yapılma yöntemlerinden sadece bir tanesini kapsıyor. Örnek uygulamamızı Google Play Store'dan yükleyebilirsin. Mutlu kodlamalar!</span></p>
+<p class="p5"><span class="s1"><a href="http://www.technovationchallenge.org/curriculum/code-1-challenge/" target="_blank" rel="noopener">
+<span class="s3">Yönergelere bak</span><span class="s4">
+</span></a></span></p>
+<p class="p5"><span class="s1"><a href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.Slideshow" target="_blank" rel="noopener">
+<span class="s3">Örnek uygulamayı indir</span></a></span></p>
 
-Saat
+<div style="background-color: #006667; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h2 id="reflect" class="p3" style="color: white;"><span class="s1"><b>Öz Değerlendirme</b></span></h2>
+	<p class="p1"><span class="s1">Bu derste, çok şeyin üstünden geçtik! Başlamak için birçok anahtar kelime öğrendin ve ilk programını yazdın! Bunlar, bir mentor veya takımınla konuşabileceğin bazı öz değerlendirme soruları:</span></p>
+	<p class="p1"><span class="s1"><b>S1:</b> App Inventor'a başlarken en çok zorlandığın kısım hangisiydi? Belirli bir yerde takıldın mı?</span></p>
+	<p class="p1"><span class="s1"><b>S2:</b> Bu dersten sonra öğrendiğin ve uygulamanı hazırlarken işine yarayacağını düşündüğün bazı şeyler neler?</span></p>
+	<p class="p1"><span class="s1">Bunlar öğrendiğin anahtar kelimeler:</span></p>
 
-Tuval (Canvas)
-<h3>Sürecinizin Resimleri</h3>
-<em>3'ünü de yapın (her biri 1 puan, en fazla 3 puan)</em>
-
-<strong>Kod 5'ten</strong> kağıt prototipinizin resmini yükleyin.
-
-<strong>Kod 6'dan</strong> akış şemanızın veya kod açıklamanızın resmini yükleyin.
-
-Uygulamanızın en az 2 ekran resmin yükleyin.
-
-&nbsp;
-<h2>Technovation Zaman Çizelgesi</h2>
-Ağustos
-Eylül
-Ekim
-Kasım
-Aralık
-Ocak
-Şubat
-Mart
-Nisan
-Mayıs
-Haziran
-Temmuz
-Takım Toplama Sezonu
-Resmi Sezon
-Pitch Sunumu Etkinliği
-Dünya Pitch Sunumu
-<h3 style="color: #ececec" align="center">Key Dates for 2018 Season</h3>
-<p style="color: #ececec;text-align: center;font-size: 15px"><strong>Registration Opens:</strong> October 18, 2017
-<strong>Official Season Launch:</strong> January 10, 2018
-<strong>Registration Deadline:</strong> March 7, 2018
-<strong>Submission Deadline</strong>: April 25, 2018</p>
-<p style="text-align: center">Technovation Dünya Görevi'ne başlamaya hazır mısınız?</p>
-<a role="button" href="https://my.iridescent.staging.wpengine.com" target="_self">
-Kaydolun</a>
+	<ul class="ul2">
+	 	<li class="li1"><b></b><span class="s1"><b>Algoritmalar</b> - Bilgisayarının adım adım takip edeceği yönergeler</span></li>
+	 	<li class="li1"><b></b><span class="s1"><b>Programlama Dilleri</b> - Bilgisayarına konuşarak neler yapması gerektiğini sağlar</span></li>
+	 	<li class="li1"><b></b><span class="s1"><b>Olay</b> - Kullanıcı uygulamanda bir şey yaptığı zaman, mesela bit butona basması veya metin kutusuna yazı yazması</span></li>
+	 	<li class="li1"><b></b><span class="s1"><b>Olay Giderici</b> - Uygulamana bir olayın gerçekleşmesi durumunda ne yapması gerektiğini söyleyen kod bloğu</span></li>
+	 	<li class="li1"><b></b><span class="s1"><b>Fonksiyonlar</b> - Bir şey yapan kod blokları. Fonksiyona gireni (girdi) alıp değiştirerek başka bir şeye yani fonksiyondan çıkana (çıktı) değiştirir.</span></li>
+	 	<li class="li1"><b></b><span class="s1"><b>Girdi</b> - Fonskiyona giren bilgi</span></li>
+	 	<li class="li1"><b></b><span class="s1"><b>Çıktı </b>- Fonskiyondan sana geri dönen bilgi</span></li>
+	</ul>
+</div>	
