@@ -1,70 +1,206 @@
-<h1>Kod 5 Görevi</h1>
-<h1>Kağıt Prototipi</h1>
-<ul>
- 	<li><a href="#build">Kağıt Prototipinizi oluşturun</a></li>
- 	<li><a href="#test">Kullanıcı geri bildirimini test edin ve toplayın</a></li>
-</ul>
-<h3>Kağıt Prototipinizi Oluşturun</h3>
-Bir kağıt prototip oluşturarak uygulamanızı tasarlayın. Kağıt prototipleme, çoklu tasarımları test etmenizi, geribildirim almanızı ve iyileştirmeler yapmanızı sağlayan hızlı bir süreçtir.
+<h1>Kod 5</h1>
+<h2>UX Tasarımı ve Kağıt Prototiplemesi</h2>
+<a href="#ux">Tasarım ve Kullanılabilirlik</a>
 
-<strong>İhtiyacınız Olacaklar:</strong>
+<a href="#act1">Activity: Problem Statement and Goals</a>
+
+<a href="#act1">AEtkinlik: Sorun Bildirimi ve Hedefler</a>
+
+<a href="#act2">Paydaşlarınızı Haritalayın</a>
+
+<a href="#act3">Paydaş Görüşmeleri ve Öyküleri</a>
+
+<a href="#what">Bir kağıt prototip nedir?</a>
+
+<a href="#challenge">Kod Görevi</a>
+
+<a href="#reflect">Düşünün</a>
+<h3>Öğrenme Objektifleri:</h3>
+Bu ünitede yapacaklarınız...
 <ul>
- 	<li id="tw-target-text" class="tw-data-text tw-ta tw-text-small"><span lang="tr"><a href="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/10/Prototype-worksheet.pdf" target="_blank" rel="noopener">Mobil Çizim Şablonunun</a> Çıktıları </span></li>
- 	<li class="tw-data-text tw-ta tw-text-small"><span lang="tr">İşaretleyiciler (Kalemler)</span></li>
+ 	<li>Kullanıcı deneyimi (UX) tasarımı ve minimum canlı ürün (MVP) hakkında bilgi edinin.</li>
+ 	<li>Uygulamanız için hedeflerinizi belirginleştirin</li>
+ 	<li>Kullanıcı ihtiyaçlarıyla ilgili bilgi edinin</li>
+ 	<li>Bir kağıt prototipi hazırlayın ve hakkında geri bildirim alın.</li>
 </ul>
-Opsiyonel:
+App Inventor hakkında daha fazla şey öğrendiniz ve ekibinizin bir çözüm için bazı fikirlerin yanı sıra birlikte çözmek istediğiniz bir sorun hakkında da bir fikri vardır. Ancak bu fikirleri nasıl alacağınızı ve bunları güvenilir bir şekilde çalışan ve kullanıcıların yapmak istediği şeyi yapan bir mobil uygulamaya nasıl dönüştüreceğinizi merak ediyor olabilirsiniz. Kullanılabilir bir uygulama oluşturmak, programlamadan daha fazlasıdır. Aslında, gerçek programlama kısmı sadece projenin yaklaşık (yüzde yirmisini) 20%'sini oluşturabilir!
+<div class="tw-swapa">
+<div class="DHcWmd"></div>
+</div>
+<div class="oSioSc">
+<div id="tw-target">
+<div id="tw-target-text-container" class="tw-ta-container tw-nfl">
+<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Arkadaşınızın sizden, her sabah okula zamanında gitmesinde yardımcı olacak bir uygulama yapmanızı istediğini düşünün. Rotasını okula izlemek ve geç kalacağını bildirmek için GPS (navigasyon) kullanan bir uygulama oluşturursunuz. Ona gösterdiğinizde, okula otobüsle gittiği anlaşılıyor. Gerçek zamanlı olarak bir otobüs programına sahip olabilecek bir uygulamaya gerçekten ihtiyacı vardı. Uygulamayı birkaç saat boyunca harcayarak geçirdiniz çünkü ihtiyaçlarınızı anlayamadınız ve şimdi yeniden tasarlamayı daha çok zaman harcamanız gerekiyor!</span></p>
+<p dir="ltr">Bir daha böyle olmadığından emin olmak için bir dahaki sefere farklı olarak ne yaparsınız?</p>
+
+<h3><b>UX Design ve Kullanılabilirlik nedir?</b></h3>
+<strong>UX Design</strong> ((user experience) <strong>kullanıcı deneyiminin</strong> kısaltılışı), kullanıcıların kullanımı kolay ve sezgisel teknolojiyi yaratmalarına yardımcı olur. Birisi bir sistemi veya bir teknoloji parçasını kullanırken sahip olduğu deneyimin kalitesiyle ilgilidir. Bunu, "kullanıcının deneyimini" iyileştirmek olarak düşünebilirsiniz. Bu, bir kullanıcının teknolojiyi kullanarak kolay bir süreye sahip olacağı ve memnun olduklarından kullanmaya devam edeceği anlamına gelir.
+<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Uygulamanızı bir problemi çözmeye yardımcı olacak şekilde tasarlarken, kullanımı kolay bir şey oluşturmak, işin yapılmasına yardımcı olmak ve kullanıcı için eğlenceli bir deneyim sunmak istersiniz. Kullanılabilir hale getirmek isteyeceksiniz. Ancak bir uygulamayı kullanılabilir kılan nedir? </span></p>
+<p class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">
+Kullanılabilirlik, belirli kullanıcıların belirli bir kullanım bağlamında etkinlik, verimlilik ve memnuniyet ile belirli hedeflere ulaşmaları için bir sistem, ürün veya hizmetin ne ölçüde kullanılabileceğidir. </span></p>
+<p class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">
+Bu sadece neyin iyi göründüğünü düşünmenizin bir meselesi, ya da ne istediğinizi düşündüğünüzün bir meselesi değildir, çünkü kendinizi, yarattığınız uygulamanın bir kullanıcısı olarak düşünürsünüz. Bu, içerik hakkındadır. Uygulamayı kimlerin kullanacağını ve ihtiyaçlarının neler olduğunu düşünün. İnsanlar yılda bir kez, haftada bir veya günde bir kez mi kullanacak? </span></p>
+<p class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">
+İnsanlar nerede kullanacak? Uygulamaları, insanların masalarında otururken kullandıkları bir şey olarak düşünürdük. En sevdiğiniz uygulamalardan bazıları nelerdir ve ne yapar? Onları nerede ve nasıl kullanıyorsunuz? Çok şey mi yaparlar, yoksa gerçekten az şey ile iyi işler mi başarırlar? Ekibinizi zaman kaybettiğiniz mühendislik süresini korumak için, minimum özelliklere sahip bir uygulama oluşturmaya odaklanacaksınız. Buna <strong>Minimum Canlı Ürün</strong> (Minimum Viable Product) veya MVP denir.</span></p>
+
+<h5>Minimum Canlı Ürün (Minimum Viable Product) (MVP)</h5>
+<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr"><a href="https://en.wikipedia.org/wiki/New_product_development" target="_blank" rel="noopener">Ürün geliştirme</a> dünyasında, <strong>MVP</strong>, işi yapmak ve kullanıcılarla test yapmak için yeterli özelliklere sahip bir ürün olup, daha sonra geliştirmeler yapılabilir. Amaç en çok istenen son ürünü yaratmaktır. Genel olarak, daha fazla özelliklere sahip ürünler, artan maliyetler ve başarısızlık riskini içerir. Bu, kullanıcılar hakkında yanlış varsayımlar nedeniyle olabilir.</span></p>
+Uygulamanın nerede kullanılacağını ve küçük bir ekranda, akıllı telefon gibi taşınabilir cihazlarda neyin iyi çalışacağını düşünmek özellikle önemlidir. Bir kullanıcının uygulamanızı anlaşılması ve kullanılması çok zor olduğundan  kullanmayı bırakmasını istemezsiniz. Bunu önlemek için kullanıcılarınız hakkında daha fazla nasıl öğreneceksiniz?
+<h5>Kullanıcı Merkezli Tasarım</h5>
+<strong>Kullanıcı Merkezli Tasarımında</strong>, araştırırken, tasarladığınızda, geliştirirken ve test ederken kullanıcıyı döngüde tutarsınız. Bu yinelenen bir süreçtir, yani, en arzu edilen ürününüze yaklaşıncaya kadar tekrarlanacak bir dizi işlemin olacağı anlamına gelir. İlgili adımlar şunlardır:
+<p style="text-align: center"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/research.png" alt="araştırma" width="50" height="50" />
+Analiz etme ve araştırma</p>
+<p style="text-align: center"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/Design.png" alt="tasarım" width="50" height="50" />
+Tasarım</p>
+<p style="text-align: center"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/Test.png" alt="test" width="50" height="50" />
+Test</p>
+
+<div class="tw-swapa">
+<div class="DHcWmd"></div>
+</div>
+<div class="oSioSc">
+<div id="tw-target">
+<div id="tw-target-text-container" class="tw-ta-container tw-nfl">
+<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Bu adımlar ürün hazırlanmaya hazır olana kadar tekrar eder!</span></p>
+<p dir="ltr"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/Circular-Flow700x270.png" alt="dairesel-akış700x270" width="166" height="166" /></p>
+<p dir="ltr">Başlamadan önce yapabileceğiniz en değerli şey, uygulamanızın hedefi hakkında net olmaktır. Projenin bu kısmına <em>analiz</em> denir çünkü uygulamanızın yapabilmesi için gerekenleri bilmeniz ve ayrıntıları doğru bir şekilde almanız gerekebilir.</p>
+
+<h3><strong>Etkinlik 1: Sorun Bildiriminizi İnceleyin ve Bir Hedef Oluşturun</strong></h3>
+Takımınızın, <a href="http://www.iridescent.staging.wpengine.com/curriculum/ideation" target="_blank" rel="noopener">Fikir Birimi</a>'nde çalıştığı sorun bildirimini hatırlıyor musunuz? Şimdi onu tekrar ziyaret etmek isteyeceksiniz ve muhtemelen ekibiniz sorunun ve orijinal hedeflerinize odaklanmaya devam etmek için tekrar tekrar gelmek isteyeceksiniz. Bu, sürecin önemli bir parçasıdır çünkü uygulamanızı kullanan kişilerin ihtiyaçlarını analiz etmenize ve uygulamanızın teknik gereksinimlerini anlamanıza yardımcı olacaktır.
+<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Özetlemek gerekirse, <strong>sorun bildirimi</strong>, ekibinizin ele aldığı sorunu açıklayan kısa bir yazı parçasıdır. Problemin temel gerçeklerini çizmeli, sorunun neden önemli olduğunu, kimin etkilediğini ve nasıl bir çözüm sunacağını açıklamalıdır.</span></p>
+<p dir="ltr">İhtiyacınız olacaklar:</p>
+
 <ul>
- 	<li>Etiketler</li>
- 	<li>Uhu</li>
- 	<li>Makas</li>
- 	<li>Bant</li>
- 	<li>Magazinler (dergiler)</li>
+ 	<li>İlk problem beyanınız. Grubunuz henüz bunu Fikir Öncesi Birimi'nde yapmamışsa sorun bildiriminizi oluşturmak için bir<a href="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/CreateaProblemStatement.pdf"> şablon</a>.</li>
 </ul>
-<strong>Yapacaklarınız:</strong>
+<p dir="ltr">Yapacaklarınız:</p>
+
 <ol>
- 	<li>Bir takım olarak, uygulamanızın her sayfasını çizin. Fikirleriniz geldikçe onları kaydedin ve onları henüz yargılamamaya çalışın. Onları sonra sorgulayabilirsiniz! Bunu yaparken, şunları düşünmek isteyebilirsiniz:
-<ul>
- 	<li>İlk ekran neye benziyordu?
-<ul>
- 	<li>Logosu olacak mı? (İpucu: İlham almak için favori uygulamalarınıza bir göz atın)</li>
- 	<li>Renk şeması ne olacak?</li>
-</ul>
-</li>
- 	<li>Bir sonraki ekrana geçmek için bir düğmeye basarsanız ne olur?</li>
- 	<li>Her ekran nasıl görünecek?</li>
- 	<li>Kullanıcı farklı ekranlarda nasıl gezinecek?</li>
- 	<li>Bu nasıl olacağını oklarla gösterebilir misin?</li>
-</ul>
-</li>
+ 	<li><span lang="tr">Sorun bildirgesini gözden geçirin veya henüz yapmadıysanız üzerinde çalışın. Sorun beyanınız Dört soruya cevap vermeli:</span></li>
 </ol>
-2. İşte bir kağıt prototip örneği. Etiketlerin, kullanıcıların düğmelere tıklayabilecekleri yerleri göstermek için kullandıkları yola dikkat edin. Ayrıca, bazı durumlarda, bir düğme tıklandığında bir kullanıcının alacağı bir sonraki ekran olması muhtemel eskizler olduğu görülmektedir.
-
-MVP hatırlatıcısı: Kullanıcılarınızın hedefinize ulaşmasına yardımcı olmak için sunabileceğiniz en küçük, en kısa işlev kümesi hangisidir?
-
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/image00.png" alt="görsel00" width="486" height="552" />
-
-3. Çalışan bir prototipiniz olduğunda, kullanıcının uygulamada nasıl gezineceği hakkında bir çalışma oluşturun. Yukarıdaki videoda gösterildiği gibi fotoğraf çekebilir ve bir .gif (hareketli görsel) veya video (klip) oluşturabilirsiniz. Ardından bunu görüştüğünüz paydaşlara getirebilir, onlarla test edebilir ve geri bildirimlerini alabilirsiniz.
-
-4. Kağıt prototipinizi kaydetmenizi öneririz, çünkü uygulamanızı oluşturarak işe geri dönmeniz gerekebilir. Onu güvenli bir alanda bıraktığınızdan emin olun, böylece kaybetmeyin ya da ekip üyelerinizden birisinin bundan sorumlu olmasını isteyin.
-<h3>Kullanıcı Geri Bildirimini Test Edin ve Toplayın</h3>
-Artık bir kağıt prototipiniz var, geri bildirim için paylaşmanın zamanı geldi! Görüştüğünüz paydaşları hatırlıyor musunuz? Uygulamanın kendi ihtiyaçlarını ve beklentilerini karşılayıp karşılamadığını öğreneceksiniz.
-
-İşte ilham için izleyebileceğiniz eğlenceli bir Kullanıcı Arayüzü Tasarımı:<a href="https://www.youtube.com/watch?v=V8LNDqMIapY" target="_blank" rel="noopener">Kullanıcı Arayüzü Tasarımı: Kağıt Prototip Çalışma </a>videosu. Videoda bir iPhone için bir prototip olmasına rağmen, fikir Android'ler için de benzerdir. Kullanıcı deneyimi hakkında onunla birlikte gelen anlatının nasıl olduğuna dikkat edin?
-
-<strong>İhtiyacınız Olacaklar:</strong>
+<div id="tw-source">
+<div id="tw-smenu" class="tw-menu">
 <ul>
- 	<li>Çizimleriniz</li>
- 	<li><a href="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/User-Testing-Worksheet.pdf" target="_blank" rel="noopener">Kullanıcı Test etme Çalışma Kağıdı</a>'nın çıktıları</li>
- 	<li>Video çekebilen bir kamera, dizüstü bilgisayar, veya telefon</li>
+ 	<li id="tw-target-text" class="tw-data-text tw-ta tw-text-small"><span lang="tr"><strong>Sorun nedir?</strong> Tasarım terimlerinde, bu da şu şekilde tercüme edilir: ihtiyaç nedir
+</span></li>
+ 	<li class="tw-data-text tw-ta tw-text-small"><span lang="tr"><strong>Problemi kim ve nasıl etkiler?</strong> Bu önemlidir çünkü sorundan etkilenen kullanıcılar uygulamanızın kullanıcıları olacaktır. Bunlar sizin paydaşlarınız olacaklardır.
+</span></li>
+ 	<li class="tw-data-text tw-ta tw-text-small"><span lang="tr"><strong>Çözmek neden önemlidir?</strong> Bu problem neden zorlayıcıdır ve argümanınızı destekleyecek sorun olduğuna dair herhangi bir kanıtınız var mı?
+</span></li>
+ 	<li class="tw-data-text tw-ta tw-text-small"><span lang="tr"><strong>Çözüm nedir?</strong> Bir çözüm için ilk fikriniz olabilir. Bu ünitedeki çözümü kullanıcıyla tanıştığında ve kağıt prototipleme yoluyla daha fazla deneyeceksiniz!</span></li>
 </ul>
-<strong>Yapacaklarınız:</strong>
+<ol start="2">
+ 	<li style="font-weight: 400">Şimdi, problem ifadenizi uygulamanızın hangi sorunu çözmeye çalıştığını ve buna nasıl hitap edeceğini söyleyen tek bir cümle haline getirebilir misiniz? Bu, hedefiniz ilerledikçe kullanılacaktır.</li>
+</ol>
+<a role="button" href="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/09/CreateaProblemStatement.pdf" target="_blank" rel="noopener">
+şablonu indirin
+</a>
+<h5>Araştırma</h5>
+Hedefinizi netleştirdikten sonra, uygulamanızı kullanacak veya uygulamanızdan etkilenen kişiler olan paydaşlarınızı tanımlamanız gerekir. Bunlar, uygulamaya ihtiyaç duydukları şey hakkında daha fazla bilgi edinmek için konuşmak istediğiniz kişilerdir. Siz ve ekibiniz tipik kullanıcılar olduğunuzu düşünebilirsiniz, ancak yine de diğer insanlarla konuşmalı, röportaj yapmalı, geri bildirimlerini almalı ve bunları mümkün olduğunda uygulamanızı kullanacaklarını gözlemlemelisiniz.
+
+Öğrencilerin okul kafeteryasından yemek sipariş etmelerini sağlayan bir uygulama yaptığınızı hayal edin. Sabahları yemek talep etmek için uygulamayı kullanabilir ve ardından öğle yemeği saatinde teslim alabilirler. Buradaki fikir, kafeteryadaki bekleme hattının azaltılmasına yardımcı olacaktır. Bu durumda hitap edeceğiniz kitlenin kimler olacağını düşünüyorsunuz?
+
+Bunun için potansiyel paydaşlar:
+<ul>
+ 	<li>Öğrenciler (telefon uygulamasını kullanacaklar)</li>
+ 	<li>Kafeterya personeli (app aracılığıyla istek alacak)</li>
+ 	<li>Ebeveynler (çocuklarını bir akıllı telefon almalılar, böylece uygulamayı kullanabilsinler)</li>
+ 	<li>Okul yöneticileri (telefonların ders saatleri içinde kullanılmaması gerektiğini düşünebilirler)</li>
+ 	<li>Okul BT (bilgilendirme teknolojileri) desteği (uygulamayı nasıl çalıştıracağını veya ağa bağlanmayı öğrenemeyen öğrencilere yardımcı olması gerekir)</li>
+</ul>
+<h3><b>Aktivite 2: Paydaş Listesi</b></h3>
+İhtiyacınız olan malzemeler:
+<ul>
+ 	<li>Kalemler</li>
+ 	<li>Post-it / Kağıt parçaları</li>
+</ul>
+Ne yapacağız:
 <ol>
- 	<li>Prova yapın! Paydaşlarınızla görüşmeden önce farklı senaryolardan geçin ve prototipinizin sunumunu yapın. Daha iyi olabileceğini düşünüyorsanız, onu düzeltin.</li>
- 	<li>Bir video demosu oluşturmak istiyorsanız, yerine onu yapabilirsiniz. Technovation Challenge'a sunmak için daha sonra oluşturacağınız demo video için iyi bir uygulama olabilir!</li>
- 	<li>Danışmanınızla görüşün ve paydaşlarınızı göstermeyi planladığınız şeyi paylaşın. Geri bildirim isteyin ve dahil edin. [Mentor ile Görüşmeniz: ​​Videoyu veya canlı demoyu gözden geçirin ve ekibinizin demodan eksik bir şey olup olmadığını veya ekibin ilk geri bildirimleri için paydaşlarla paylaşmadan önce iyileştirme önerileriniz olup olmadığını öğrenin.</li>
- 	<li>Kağıt prototipinizi veya videonuzu paydaşlarınıza getirin ve geri bildirimlerini isteyin. Neler iyi çalıştı, onların bakış açısıyla neler geliştirilebilir?</li>
- 	<li><a href="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/User-Testing-Worksheet.pdf" target="_blank" rel="noopener">Kullanıcı Test Etme Çalışma Kağıdı</a>'nda bulunan soruları sorun - örneğin, kullanıcı arayüzünde bir şey belirsizdi ve hangi özellikler en yüksek değere sahipti? Yanıtları yazınız.</li>
- 	<li>Olumsuz geri bildirim de dahil olmak üzere herhangi bir geri bildirim alırken nezaket sahibi olmak için bir hatırlatma. Bu, uygulamanızı daha iyi hale getirme şansınız! Açıklayıcı sorularınız varsa, onları sorabilirsiniz. Geri bildirimlerinin uygulama hakkında olduğunu ve kişisel olarak sizinle ilgili olmadığını unutmayın!</li>
- 	<li>Test edenlere bir teşekkür notu gönderin ve hazır olduğunda dijital prototipinizi test etmek için onlarla tekrar görüşmek isteyeceğinizi bildirin.</li>
- 	<li>Akranlarınızı ve mentorunuzun da Kullanıcı Testi Çalışma Sayfası'nı tamamlamasını isteyin!</li>
+ 	<li>Muhtemel paydaşlarınız hakkında beyin fırtınası yapın ve her paydaşı ayrı bir kağıt parçasına yazın.</li>
+ 	<li>Paydaşlarınızı "yetişkinler", "çocuklar", "çalışanlar" gibi gruplara ayırın.</li>
+ 	<li>Uygulamanızda hangi paydaşa odaklanacağınızı seçin.</li>
+ 	<li>Onlara sormak istediğiniz soruları yazın.</li>
+ 	<li>Onlarla röportajlar planlayın. Herkes farklı insanlarla röportaj yaparak zaman kazanabilir veya grupça da röportaj yapabilirsiniz.</li>
 </ol>
+Hedef ve paydaşlarınızı belirledikten sonra onların ne düşündükleri hakkında daha çok bilgi alabilirsiniz.
+<h3>Aktivite 3: Paydaş Röportajları, İnsan Toplama ve Kullanıcı hikayeleri</h3>
+Paydaşların uygulamanın ne yapmasını istediğini bulmak için onlarla röportaj yapmanız gerekecek. Uygulamanızın içereceği özellikleri bulmak için onlara bazı sorular sorabilirsiniz. Örneğin yukarıdaki örnekte uygulamada çocuklar sipariş etmek istedikleri yemekleri seçebilirler. Daha sonra sipariş kafeteryaya çocuğun ismiyle beraber gider böylece çocuk rahatça siparişini alabilir.
+
+</div>
+Röportajlarınızı uygulamanızı kullanabilecek potensiyel paydaşlarla yapın ve onlara çözümünüz hakkında sorular sorun. Eğer çözdüğünüz soruna benzer bir uygulama çoktan varsa röportajınızda bu uygulama hakkında ne düşündüklerini, neyi beğenip neyi beğenmediklerini sorabilirsiniz. Başka bir derste bunun hakkında daha detaylı konuşacağız.  <a href="http://www.iridescent.staging.wpengine.com/curriculum/market-3/" target="_blank" rel="noopener">Market 3</a>
+
+İhtiyacınız olan malzemeler:
+<ul>
+ 	<li>Paydaş haritası aktivitesinden kalan kağıt parçaları.</li>
+ 	<li><a href="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/Persona-Template.pdf" target="_blank" rel="noopener">Karakter Şeması</a></li>
+ 	<li><a href="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/User-Story-Template.pdf" target="_blank" rel="noopener">Kullanıcı Hikayesi Şeması</a></li>
+ 	<li>Kağıt</li>
+ 	<li>Kalem</li>
+ 	<li> Ses kaydetmek için bir şey</li>
+</ul>
+Ne yapacaksınız:
+<ol>
+ 	<li>Röportaj yaptığınız kişiye kendinizi ve projenizi tanıtın. Onun görüşünü neden istediğinizi açıklayın.</li>
+ 	<li>Hazırladığınız soruları sorun.</li>
+ 	<li><a href="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/Persona-Template.pdf" target="_blank" rel="noopener">Karakter Şeması </a>ile kişi hakkında daha çok bilgi alın. (Karakter uygulamanızı kullanacak olan insan tipidir.) Uygulamanızı kullanacak karakteri belirlemek uygulamanızı onlara daha uygun bir şekilde tasarlamanızı sağlar. Röportaj yaptığınız insanlara ihtiyaçlarını ve bu uygulamayla ihtiyaçlarını nasıl çözmek istediklerini sormayı unutmayın. Uygulamanızın asıl amacı bu insanların ihtiyaçlarını karşılamak/ sorunlarını çözmek olacak.</li>
+ 	<li><a href="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/User-Story-Template.pdf" target="_blank" rel="noopener">Kullanıcı Hikayesi Şeması</a> ile insanların uygulamanızdan neler beklediğini öğrenin.</li>
+ 	<li>Takımınızı toparlayın ve elde ettiğiniz sonuçları tartışın.</li>
+ 	<li>Bir sonraki aşamaya yani kağıt prototiplerine geçmeden önce röportaj yapmanız gereken başka bir paydaş var mı diye kontrol etmeyi unutmayın!</li>
+</ol>
+<h3>Kağıt prototip nedir?</h3>
+<strong>Prototipler</strong> fikrinizi bir an önce test edebilmek ve sunmak için yapılan modellerdir.
+
+Prototiplerin farklı <a href="https://en.wikipedia.org/wiki/Prototype" target="_blank" rel="noopener">çeşitleri</a> vardır ama biz <strong>kağıt</strong> <strong>prototipler</strong> üzerinden ilerleyeceğiz. Kağıt prototipler el ile çizilen uygulamanın sayfa resimleridir. Bunlar sayesinde kullanıcının uygulamayı nasıl kullanacağını görebilirsiniz.
+
+<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/image01.png" />Kağıt prototipi yapmanın faydaları nelerdir?
+<ul>
+ 	<li>Uygulamanızın nasıl çalışacağını rahatça tartışabilir ve konuşabilirsiniz. Örneğin bir butona basınca ne olacağını görebilirsiniz.</li>
+ 	<li>Kağıtta çalışmak daha rahat ve hızlı olabilir.</li>
+ 	<li>Oldukça ucuz! Fazla para harcamanıza gerek yok.</li>
+ 	<li>Teknik bilgiye ihtiyacınız yok.</li>
+ 	<li>Tasarımınızda nelerin anlaşılır nelerin olmadığını görebilirsiniz.</li>
+ 	<li>Teknoloji kısmına girmeden önce çok zaman harcamamış olacaksınız.</li>
+</ul>
+</div>
+Bazılarınız negatif geri dönüş almaktan korkabilirsiniz ama bunun hiçbir zaman geri dönüş almanıza engel olmasına izin vermeyin.
+<h3>Başarısızlığın Önemi</h3>
+Başarısızlıktan öğrenmelisiniz. Bu<a href="https://www.youtube.com/watch?v=5oKmb7U3H6U" target="_blank" rel="noopener">video</a> ile Richard DeVaul'un görüşlerini öğrenebilirsiniz. Richard, Google'ın "Design Kitchen" laboratuvarında "Rapid Team Lead" görevindedir.  Aynı zamanda bu <a href="https://www.fastcompany.com/3028156/united-states-of-innovation/the-google-x-factor" target="_blank" rel="noopener">yazıdan</a> başarısızlığın serüveninizdeki yerini ve önemini öğrenebilirsiniz.
+
+
+Etkilendiğindiniz mi? Artık tasarım aşamasına geçmeye hazırsınız!
+<h3>Kod Görevi: Uygulamanızın Kağıt Prototipi</h3>
+Her ürünün bir başlangıç noktası vardır. Kağıt prototip de bu başlangıcın en önemli noktalarından biridir. Kağıt prototipinizde uygulamanızı en basit şekilde çizip insanların ne düşüneceğini ve nasıl tepki vereceğini gözlemleyebilirsiniz. Aynı zamanda renkleri ve butonların nasıl çalışacağını deneyebilirsiniz. Şimdi kağıtta harcayacağınız vakit sonradan kaybedeceğiniz çok daha büyük vakti ve emeği kurtarabilir.
+
+Başlamadan önce kağıt prototipler, ekran geçişleri ve renkler hakkında daha çok bilgi edinmek için Google'da çalışan Melissa Powel ve Mariam Shaikh videosunu izleyebilirsiniz.
+
+Hazırsanız yönergelere buradan ulaşabilirsiniz:
+
+<a role="button" href="http://www.iridescent.staging.wpengine.com/curriculum/code-5-challenge/" target="_blank" rel="noopener">Yönergeleri aç</a>
+<blockquote>"Benim başarılarım başarısızlıklarımla geldi."</blockquote>
+<p style="text-align: right">-Barbara Corcoran, işkadını, yatırımcı ve yazar</p>
+
+<h1>Özet</h1>
+Çok hızlı ilerledin, tebrikler! Bu üniteyi bitirdin sayılır.
+
+hazır bilgiler tazeyken şimdi tekrar zamanı! Takımınızla geri dönüşlerinizi inceleyin ve kağıt prototipinizdeki gerekli değişiklikleri yapın. Bu süreci gerektiği kadar tekrarlayın!
+
+Takımınız bir an önce ilerlemek isteyebilir ama siz<strong> en yalın ve sade ürününüzü</strong> (minimal vibal product- <strong>MVP</strong>) tasarladığınızdan emin olun. Hangi özelliklerin uygulamanızda gerekli olduğunu, hangilerinin ekstra olarak bulunması gerektiğine karar verin.
+
+İstediğiniz kadar kağıt prototip yapın ve bunu mentörlerinizle paylaşın.
+
+<b>Ek Kaynaklar</b>
+<ul>
+ 	<li style="font-weight: 400"><a href="https://www.youtube.com/watch?v=876EQd5Osi8" target="_blank" rel="noopener">UX tasarım:Debra Herschmann ile </a><a href="https://www.youtube.com/watch?v=876EQd5Osi8" target="_blank" rel="noopener"> 2016 Technovation</a> (Goldman Sachs)</li>
+ 	<li style="font-weight: 400"><a href="http://www.uistencils.com/products/android-stencil-kit" target="_blank" rel="noopener">Android Seti</a></li>
+ 	<li style="font-weight: 400"><a href="http://wireframesketcher.com/sample-mockups.html" target="_blank" rel="noopener">WireframeSketcher</a></li>
+ 	<li style="font-weight: 400"><a href="https://developers.google.com/design-sprint/downloads/DesignSprintMethods.pdf" target="_blank" rel="noopener">Tasarım metodları</a>  (Google)</li>
+ 	<li style="font-weight: 400">Luke Wroblewski’ın <a href="http://www.creativebloq.com/design/luke-wroblewski-mobile-first-7126204" target="_blank" rel="noopener">Önce Mobil Düşün</a> Felsefesi</li>
+</ul>
+&nbsp;
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
