@@ -14,8 +14,8 @@
  	<li><a href="#challenge">Kod Görevi</a></li>
  	<li><a href="#reflection">Özet</a></li>
 </ul>
-<h3>Kazanımlar:</h3>
-Bu ünitede...
+<h3><strong>Kazanımlar:</strong></h3>
+<span style="font-weight: 400;">Bu ünitede...</span>
 <ul>
  	<li style="font-weight: 400">Kullanıcı arayüzü araçları</li>
  	<li style="font-weight: 400">Medya araçları</li>
@@ -24,57 +24,62 @@ Bu ünitede...
  	<li style="font-weight: 400">Web database</li>
 </ul>
 öğreneceksiniz.
-<h3>Mobil Araçlar</h3>
+<h3 id="mobile"><strong>Mobil Araçlar</strong></h3>
 Dördüncü kod dersine kadar geldiğiniz için tebrikler! Bu derse kadar bir uygulama yapmak için gerekli olan şeyleri öğrendiniz. Bu ünitede telefonun sahip olduğu ve sizin uygulamanızda yararlanabileceğiniz özelliklerden bahsedeceğiz. Bunun yanı sıra uygulamanızdan internete nasıl geçebileceğinizi öğreneceksiniz.
 
 Bu üniteyi uygulamanızın yararlanabileceği özellikleri anlatan bir ders olarak düşünebilirsiniz. Aşağıda anlattığımız tüm araçlardan yararlanmak zorunda değilsiniz, uygulamanızda ihtiyaç duyduğunuzu kullanabilmeniz yeterli.
 
-Buradan <a href="http://iridescent.staging.wpengine.com/wp-content/uploads/judging-rubric.pdf" target="_blank" rel="noopener">Technovation değerlendirme rubriği</a> ve <a href="/?p=25231" target="_blank" rel="noopener">Kod kontrol listesi</a>'ne ulaşabilirsiniz.
-<h3>Kullanıcı Arayüzü Araçları</h3>
+Buradan <a href="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Judging-Rubric-2017.pdf" target="_blank" rel="noopener">Technovation değerlendirme rubriği</a> ve <a href="http://www.technovationchallenge.org/wp-content/uploads/2017/01/Technical-Checklist-2017.pdf" target="_blank" rel="noopener">Kod kontrol listesi</a>'ne ulaşabilirsiniz.
+
+<h3 id="ui"><strong>Kullanıcı Arayüzü Araçları</strong></h3>
 Uygulamanızda kullanıcının kullanacağı bazı araçlar olacak. Bu araçlar hakkında daha fazla bilgi için <a href="http://ai2.appinventor.mit.edu/reference/components/userinterface.html" target="_blank" rel="noopener">MIT’</a>nin internet sitesine bakabilirsiniz.
 <h5>Notifier (uyarıcı)</h5>
-Bu araç kullanıcıya bir mesaj veya uyarı gösterir. Kullanıcı bu uyarının kaybolması için bir butona basabilir veya uyarı kendiliğinden bir kaç saniye sonra kapanır. Notifier hem kullanıcıya bir uyarı vermek hem de kodunuzu hatalardan arındırmak (debugging) için kullanılabilir. (Bunu <a href="http://www.iridescent.staging.wpengine.com/curriculum/code-6/" target="_blank" rel="noopener">Code 6</a>'da öğreneceksiniz). Notifier öğrenmek için <a href="https://www.youtube.com/watch?v=4KdTuWJFCpM" target="_blank" rel="noopener">buraya</a> basın.
+Bu araç kullanıcıya bir mesaj veya uyarı gösterir. Kullanıcı bu uyarının kaybolması için bir butona basabilir veya uyarı kendiliğinden bir kaç saniye sonra kapanır. Notifier hem kullanıcıya bir uyarı vermek hem de kodunuzu hatalardan arındırmak (debugging) için kullanılabilir. (Bunu <a href="http://www.technovationchallenge.org/curriculum/code-6/" target="_blank" rel="noopener">Code 6</a>'da öğreneceksiniz). Notifier öğrenmek için <a href="https://www.youtube.com/watch?v=4KdTuWJFCpM" target="_blank" rel="noopener">buraya</a> basın.
 <h5>Canvas</h5>
 Bu araç kullanıcının resim çizmesini, karakterler kullanmasını ve resimleri oynatmasını sağlar. Bu araç bir oyun yapıyorsanız çok işinize yarayacak! Aşağıda Canvas hakkında bazı dersler var.
 <ul>
- 	<li><a href="https://www.youtube.com/watch?v=DNbZAzMEkvs" target="_blank" rel="noopener">Paintpot 1</a></li>
- 	<li><a href="https://www.youtube.com/watch?v=DNbZAzMEkvs" target="_blank" rel="noopener">Paintpot 2</a></li>
- 	<li><a href="https://www.youtube.com/watch?v=gpMPOSNWc_o" target="_blank" rel="noopener">Paintpot 3</a></li>
- 	<li><a href="https://www.youtube.com/watch?v=jw4QxAvOm6A" target="_blank" rel="noopener">Paintpot 4</a></li>
- 	<li><a href="https://www.youtube.com/watch?v=w0yxJSlC00w" target="_blank" rel="noopener">Ball MIT Tutorial</a></li>
- 	<li><a href="https://www.youtube.com/watch?v=fQKNzLYEN0M" target="_blank" rel="noopener">MIT digital doodle</a></li>
+ 	<li><a href="https://www.youtube.com/watch?v=DNbZAzMEkvs" target="_blank" rel="noopener"><span style="font-weight: 400;">Paintpot 1</span></a></li>
+ 	<li><a href="https://www.youtube.com/watch?v=DNbZAzMEkvs" target="_blank" rel="noopener"><span style="font-weight: 400;">Paintpot 2</span></a></li>
+ 	<li><a href="https://www.youtube.com/watch?v=gpMPOSNWc_o" target="_blank" rel="noopener"><span style="font-weight: 400;">Paintpot 3</span></a></li>
+ 	<li><a href="https://www.youtube.com/watch?v=jw4QxAvOm6A" target="_blank" rel="noopener"><span style="font-weight: 400;">Paintpot 4</span></a></li>
+ 	<li><a href="https://www.youtube.com/watch?v=w0yxJSlC00w" target="_blank" rel="noopener"><span style="font-weight: 400;">Ball MIT Tutorial</span></a></li>
+ 	<li><a href="https://www.youtube.com/watch?v=fQKNzLYEN0M" target="_blank" rel="noopener"><span style="font-weight: 400;">MIT digital doodle</span></a></li>
 </ul>
-<h5>WebView</h5>
+<h5><strong>WebView</strong></h5>
 Bu araç sayesinde uygulamanıza bir "web browser" ekleyebilirsiniz. Bunu kullanıcınızın belirli bir web sitesini görmesini istiyorsanız kullanabilirsiniz. Fakat bu tam olarak telefonunuzdaki internet gibi çalışmaz. Geri tuşuna bastığınızda bir önceki sayfaya gitmek yerine uygulamadan çıkar. Daha çok bilgi için <a href="https://www.youtube.com/watch?v=z5imFNSKnh0" target="_blank" rel="noopener">buraya </a>basın.
-<h5>Saat ve Tarih</h5>
+<h5><strong>Saat ve Tarih</strong></h5>
 Bu araç  uygulamanızın tarih ve saati algılamasını ve seçmesini sağlar. Bu araç kulanıcının uygulama üzerinden bir program yaptıkları durumlar için çok kullanışlıdır. Daha çok bilgi için <a href="https://www.youtube.com/watch?v=UbA3pDQALKY" target="_blank" rel="noopener">buraya </a>basın.
-<h3>Medya Araçları</h3>
+<h3 id="media"><strong>Medya Araçları</strong></h3>
 Bu araçlar fotoğraflar, ses ve videolarla ilgilidir. Daha detaylı bilgi için <a href="http://ai2.appinventor.mit.edu/reference/components/media.html" target="_blank" rel="noopener">MIT’nin websitesini</a> görüntüleyebilirsiniz.
-<h5>Camcorder</h5>
+
+<h5><strong>Camcorder</strong></h5>
 Bu araç sayesinde kullanıcılar video çekebilirler. Bu aracı kullanıcıların video paylaşacakları sosyal uygulamalarda kullanabilirsiniz. Bu araç hakkında daha çok bilgi için <a href="http://appinventor.pevest.com/?p=161" target="_blank" rel="noopener">buraya </a>basın.
-<h5>Kamera</h5>
+<h5><strong>Kamera</strong></h5>
 Bu araç sayesinde kullanıcılar fotoğraf çekebilir. Bu aracı kullanıcıların profil fotoğrafı çektiği veya fotoğraf paylaştığı uygulamalarda kullanabilirsiniz. Daha detaylı öğrenmek için <a href="https://docs.google.com/document/d/1trt9smFfyiztdVoaq5ONaOM8GWOMoSFxTRJ7Eyyajuw/pub" target="_blank" rel="noopener">buraya</a> basın.
-<h5>ImagePicker (Fotoğraf seçer)</h5>
+<h5><strong>ImagePicker (Fotoğraf seçer)</strong></h5>
 Bu araç sayesinde kullanıcı telefonundaki daha önceden çekmiş olduğu fotoğraflardan birini seçer ve görüntüleyebilir. Bu camcorder veya camera kullanılan uygulamalarda yararlı olabilir. Bu araç sayesinde sadece uygulama üzerinden fotoğraf çekmeniz gerekmez. Detaylı bilgi için <a href="https://www.youtube.com/watch?v=MAjoLSQB1yw" target="_blank" rel="noopener">buraya </a>basabilirsiniz.
-<h5>VideoPlayer</h5>
+<h5><strong>VideoPlayer</strong></h5>
 Kullanıcının uygulama üzerinden bir video görüntülemesini sağlar. Bu video .wmv, .3gp veya .mp4 formatında olmalıdır. Ve 1MB'tan büyük olmamalıdır. Detaylı bilgi için <a href="https://www.youtube.com/watch?v=3HtXOU9EHc8" target="_blank" rel="noopener">buraya </a>basabilirsiniz.
-<h5>Yandex Translate (Yandex Çeviri)</h5>
+<h5><strong>Yandex Translate (Yandex Çeviri)</strong></h5>
 Bu araç sayesinde yazıları başka bir dile çevirebilirsiniz. Bu özellik Yandex'e bağlı olarak çalıştığından, çalışırken internete erişim gerektirir.  Detaylı bilgi için <a href="https://www.youtube.com/watch?v=T9O6stYSDUQ" target="_blank" rel="noopener">buraya</a> basabilirsiniz.
-<h5>SoundRecorder (Ses Kaydedici)</h5>
+<h5><strong>SoundRecorder (Ses Kaydedici)</strong></h5>
 Bu araçla kullanıcı ses kaydı yapabilir. Bir örnek için <a href="http://puravidaapps.com/snippets.php#2soundrecorder" target="_blank" rel="noopener">buraya</a>  tıklayabilirsiniz.
-<h5>Player</h5>
+<h5><strong>Player</strong></h5>
 Bu araç daha önceden yüklenen sesleri oynatır. Örneğin şiirler, şarkılar, konuşmalar gibi "uzun" sesler için daha iyi çalışır. Örnek çalışma için <a href="https://www.youtube.com/watch?v=4tB_BuV1tew" target="_blank" rel="noopener">buraya</a>, özet çalışma için ise <a href="https://www.youtube.com/watch?v=ajG0NSsX0q4" target="_blank" rel="noopener">buraya </a>tıklayabilirsiniz. <strong>Video player</strong> aracı da buna çok benzerdir fakat o ses değil video oynatır.
-<h5>Sound (Ses)</h5>
+<h5><strong>Sound (Ses)</strong></h5>
 Bu player aracına çok benzer bir araçtır fakat player'dan farklı olarak "kısa" sesler için daha uygundur. Örneğin "ding" (notifikasyon sesi). Örnek çalışma için <a href="https://www.youtube.com/watch?v=KUZQrk0PN50f" target="_blank" rel="noopener">buraya </a>tıklayın.
-<h5>SpeechRecognizer (Ses algılayıcı)</h5>
+<h5><strong>SpeechRecognizer (Ses algılayıcı)</strong></h5>
 Bu araç kullanıcının söylediklerini yazıya çevirir. Örnek çalışma için <a href="https://www.youtube.com/watch?v=KUZQrk0PN50f" target="_blank" rel="noopener">tıklayın</a>.
-<h5>TexttoSpeech (Yazıdan sese)</h5>
+<h5><strong>TexttoSpeech (Yazıdan sese)</strong></h5>
 Bu araç <strong>speech recorder</strong>'ın tam tersini yapar. kullanıcı bir yazı yazar ve uygulama bu yazıyı seslendirir. Örnek çalışma için <a href="https://www.youtube.com/watch?v=Vdo8UdkgDD8" target="_blank" rel="noopener">tıklayın</a>.
-<h3>Sensörler</h3>
+
+<h3 id="sensors"><strong>Sensörler</strong></h3>
 Bir uygulama tasarlarken telefonların içerdiği özellikleri ve sensörleri de kullanmalısınız. Bu özellikler uygulamanızı websitelerinden ayıran özelliklerdir.
-
-
 App Inventor sayesinde bu sensörleri programlayabilirsiniz! Bu videoda bahsedilen tüm özellikler telefonunuzda olmayabilir ama çoğunlukla bu özellikler cihazlarda bulunur. App Inventor'da kullanabileceğiniz bazı özellikler için <a href="http://ai2.appinventor.mit.edu/reference/components/sensors.html" target="“_blank”">MIT’nin sitesini</a> ziyaret edebilirsiniz.
+
+<center>
+<iframe src="https://www.youtube.com/embed/lDVIcZSsONo" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></center>&nbsp;
+
 <h5 id="AccelerometerSensor">Accelerometer Sensor (Hareket Sensörü)</h5>
 Bu araç telefonunuzun hareket ettirilip ettirilmediğini ve baş aşağı tutulduğunu algılar. Sayfa duruşunun değişebildiği veya sallamaya tepki veren uygulamalarda bu araç çok kullanışlı olabilir. Bu araç hakkında detaylı bilgi için <a href="http://appinventor.mit.edu/explore/sites/all/files/hourofcode/TalkToMePart2.pdf" target="_blank" rel="noopener">tıklayın</a>.
 <h5>Pedometer (Adım algılayıcı)</h5>
@@ -93,23 +98,25 @@ Nasıl kullanıldığını öğrenmek için aşağıdaki adresleri kullanabilirs
 Bu sensör telefonun bulunduğu konumun enlem ve boylamını alır. Bu araç kullanıcının yanındaki belli yerleri tespit etmek istediğinizde işinize yarayabilir. Detaylı bilgi için <a href="https://docs.google.com/document/d/1V1Zm5cYoa12KVb_cTlfelSfyUkW7IH2WPHUoTa02XaY/pub" target="_blank" rel="noopener">tıklayın</a>.
 <h5>Proximity Sensor (Yüz algılayıcı)</h5>
 Bu sensör telefon birinin suratına tutulduğunda bunu algılayabilir. Fakat bu sensör tüm telefonlarda çalışmayabilir. Nasıl kullanıldığını öğrenmek için <a href="https://www.youtube.com/watch?v=TsmJNo5W4jU" target="_blank" rel="noopener">tıklayın</a>.
-<h3>Sosyal Araçlar</h3>
+
+<h3 id="social"><strong>Sosyal Araçlar</strong></h3>
 Bu araçlar kullanıcının uygulamanız üzerinden telefon araması yapabilmesini, mail ve mesaj atabilmesini kısacası paylaşım yapabilmesini sağlayan araçlardır. Daha fazla bilgi için<a href="http://appinventor.mit.edu/explore/content/social.html" target="“_blank”"> MIT'nin Websitesini </a>ziyaret edebilirsiniz.
-<h5>ContactPicker (Rehber)</h5>
+<h5><span style="font-weight: 400;">ContactPicker (Rehber)</span></h5>
 Bu araç kullanıcının telefonundaki kişileri görüntüler ve kullanıcı bu kişilerden birini seçebilir. Nasıl kullanıldığını öğrenmek için <a href="https://www.youtube.com/watch?v=I0L1iEeNTrs" target="_blank" rel="noopener">tıklayın</a>.
-<h5>EmailPicker (Email Seçici)</h5>
+<h5><span style="font-weight: 400;">EmailPicker (Email Seçici)</span></h5>
 Bu araç sayesinde kullanıcı uygulamaya mail adresini girebilir. Nasıl kullanıldığını öğrenmek için <a href="https://www.youtube.com/watch?v=wI9LzGCJ3vY" target="_blank" rel="noopener">tıklayın</a>.
-<h5>PhoneNumberPicker (Telefon Numarası Seçici)</h5>
+<h5><span style="font-weight: 400;">PhoneNumberPicker (Telefon Numarası Seçici)</span></h5>
 Bu araç sayesinde kullanıcı uygulama üzerinden, telefonunun rehberindeki bir kişiyi seçebilir.  Nasıl kullanıldığını öğrenmek için <a href="http://appinventor.mit.edu/explore/ai2/piccall.html" target="_blank" rel="noopener">tıklayın</a>.
-<h5>PhoneCall (Telefon Görüşmesi)</h5>
+<h5><span style="font-weight: 400;">PhoneCall (Telefon Görüşmesi)</span></h5>
 Bu araç sayesinde kullanıcı uygulamanız üzerinden birini arayabilir. Nasıl kullanıldığını öğrenmek için <a href="https://www.youtube.com/watch?v=I0L1iEeNTrs" target="_blank" rel="noopener">tıklayın</a>.
-<h5>Texting (Mesajlaşma)</h5>
+<h5><span style="font-weight: 400;">Texting (Mesajlaşma)</span></h5>
 Bu araç sayesinde kullanıcı başka birine uygulamanız üzerinden mesaj atabilir. Nasıl kullanıldığını öğrenmek için <a href="http://www.appinventor.org/content/ai2apps/simpleApps/noTexting" target="_blank" rel="noopener">tıklayın</a>.
-<h5>Sharing (Paylaşma)</h5>
+<h5><span style="font-weight: 400;">Sharing (Paylaşma)</span></h5>
 Bu özellik sayesinde kullanıcı uygulamanın içindeki bir resim, mesaj gibi içerikleri telefondaki başka uygulamalarla paylaşabilir. Nasıl kullanıldığını öğrenmek için <a href="https://www.youtube.com/watch?v=fCdxtYj09Zw" target="_blank" rel="noopener">tıklayın</a>.
-<h5>Twitter</h5>
+<h5><span style="font-weight: 400;">Twitter</span></h5>
 Bu araç sayesinde uygulamanız ve twitter iletişim kurabilir. Kullanıcı tweet aramaları yapabilir, tweet atabilir, tweet alabilir, kendi takipçilerini görebilir vs. Nasıl kullanıldığını öğrenmek için <a href="http://puravidaapps.com/twitter.php" target="_blank" rel="noopener">tıklayın</a>.
-<h3>Bağlantı Araçları</h3>
+
+<h3 id="connectivity"><strong>Bağlantı Araçları</strong></h3>
 Bu araçlar uygulamanız dışındaki şeylerle iletişime geçmenizi sağlar (örneğin internet veya başka uygulamalar). Daha fazla bilgi için <a href="http://ai2.appinventor.mit.edu/reference/components/connectivity.html" target="“_blank”">MIT'nin Websitesini</a> ziyaret edebilirsiniz.
 <h5 id="AccelerometerSensor">ActivityStarter (Aktivite Başlatıcı)</h5>
 Bu araç, kullanııcnın telefonunda yüklü olan başka uygulamaları açar. Bu uygulamalar APp Inventor tarafından yapılmış veya yapılmamış olabilir. Bu bir sorun yaratmaz.  Bu uygulamalar kamera, harita gibi önceden yüklenmiş uygulamalar da olabilir. Nasıl kullanıldığını öğrenmek için aşağıdaki linkleri kullanabilirsiniz.
@@ -122,24 +129,29 @@ Bu araç, kullanııcnın telefonunda yüklü olan başka uygulamaları açar. B
 Bu araç sayesinde internet sitelerinden bilgi/data alabilirsiniz. Bu araç sayesinde uygulamanızda bir web browser olmamasına rağmen internete erişim sağlayabilirsiniz. Nasıl kullanıldığını öğrenmek için <a href="http://explore.appinventor.mit.edu/ai2/stockquotes" target="_blank" rel="noopener">tıklayın</a>.
 <h5>BluetoothClient and BluetoothServer</h5>
 Bu araçlar sayesinde uygulamanız bluetooth ile bağlantı kurabilir. Nasıl kullanıldığını öğrenmek için bu <a href="http://appinventor.pevest.com/?p=520" target="_blank" rel="noopener">örneği </a>kullanabilirsiniz.
-<blockquote><strong>“Genç kalmanın sırrı, öğrenmeye devam etmek için bilmediğiniz şeyleri yapmayı denemektir.”</strong></blockquote>
-<p style="text-align: right">– Ruth Reichl</p>
 
-<h3>Web Databases</h3>
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+
+	<blockquote><span style="font-weight: 400;">“Genç kalmanın sırrı, öğrenmeye devam etmek için bilmediğiniz şeyleri yapmayı denemektir.”</span></blockquote>
+	<p style="text-align: right"><span style="font-weight: 400;">– Ruth Reichl</span></p>
+</div>
+
+<h3 id="web"><span style="font-weight: 400;">Web Databases</span></h3>
 Uygulamanızda kesinlikle kullanmanız gereken özelliklerden biri internete bağlanmadır. Kast ettiğimiz sadece internete ulaşmak veya mail atabilmek değil, internet üzerinde <strong>veri</strong> biriktirmek. İnternet üzerinde depolanan verilere sadece bir telefondan değil, tüm telefonlardan veya tabletlerden ulaşılabilir!
 
 Kod 2'de öğrendiğiniz <strong>TinyDB'i</strong> hatırlıyor musunuz? <strong>TinyDB</strong> lokal bir veritabanıdır. Sadece bir cihaz üzerinde verileri biriktirir ve sadece bir cihaz üzerinden bu verilere erişilebilir. Bu demektir ki başka kullanıcılar diğer kullanıcıların verilerini göremez.
 
 <strong>Web database (Web veritabanı)</strong> daha farklı çalışır. Örneğin iki farklı telefonun uygulamanızı kullandığını düşünün: Telefon A ve Telefon B. Telefon A web veritabanına bir veri depolayabilir. Bu veriye Telefon B de ulaşabilir. Bu durumda veritabanı sadece bir cihaz üzerinde değildir, farklı cihazlar da bu veritabanına ulaşabilir. Web veritabanının başka bir avantajı ise programcının da veritabanına ulaşıp bilgileri kontrol edebilmesidir.
+
 <h5 style="text-align: center">Lokal Veritabanı</h5>
-<p style="text-align: center"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/local-databig.png" alt="local-databig" width="101" height="186" /></p>
+<p style="text-align: center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/local-databig.png" alt="local-databig" width="101" height="186" /></p>
 
 <h5 style="text-align: center">Web Veritabanı</h5>
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/web-databasebig.png" alt="web-databasebig" width="380" height="470" />
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/web-databasebig.png" alt="web-databasebig" width="380" height="470" />
 
-Web Veritabanları sürekli olarak güncellenir ve bu veritabanını kullanan cihazlara da bu yansır. Örneğin bir restoran listesi içeren bir TinyDB ile bir uygulama yaptığınızı ve bu uygulamayı App Store'a koyduğunuzu düşünün. Sizin uygulamanızı kullanan insanlar bu listeyi görüntüleyebilir. Daha sonra listenize daha çok restoran eklediğinizi düşünün. Kullanıcının bu listeyi görüntüleyebilmesi için sizin uygulamanızı ve kodunuzu güncellemeniz daha sonra bunu tekrar app store 'a koymanız gerekir. Fakat, uygulamanızı güncellemeyen insanlar bu değişiklikleri göremez. Bu kullanıcıların uygulamanızı silip tekrar yüklemesi gerekir! Eğer web database kullanmış olsaydınız uygulama otomatik olarak sizin değişikliklerinizi görüp yansıtacaktı.
+<p>Web Veritabanları sürekli olarak güncellenir ve bu veritabanını kullanan cihazlara da bu yansır. Örneğin bir restoran listesi içeren bir TinyDB ile bir uygulama yaptığınızı ve bu uygulamayı App Store'a koyduğunuzu düşünün. Sizin uygulamanızı kullanan insanlar bu listeyi görüntüleyebilir. Daha sonra listenize daha çok restoran eklediğinizi düşünün. Kullanıcının bu listeyi görüntüleyebilmesi için sizin uygulamanızı ve kodunuzu güncellemeniz daha sonra bunu tekrar app store 'a koymanız gerekir. Fakat, uygulamanızı güncellemeyen insanlar bu değişiklikleri göremez. Bu kullanıcıların uygulamanızı silip tekrar yüklemesi gerekir! Eğer web database kullanmış olsaydınız uygulama otomatik olarak sizin değişikliklerinizi görüp yansıtacaktı.</p>
 
-Daha önceden hiç Facebook veya Instagram'da fotoğraf paylaştınız mı? Bunun gibi uygulamalar web database kullanarak çalışıyor. Bir arkadaşınız bir fotoğraf paylaştığında onun tüm takipçileri bu fotoğrafı görebiliyor. Web database sayesinde uygulamanızı kullanan herkes data paylaşıp alabilir.
+<p>Daha önceden hiç Facebook veya Instagram'da fotoğraf paylaştınız mı? Bunun gibi uygulamalar web database kullanarak çalışıyor. Bir arkadaşınız bir fotoğraf paylaştığında onun tüm takipçileri bu fotoğrafı görebiliyor. Web database sayesinde uygulamanızı kullanan herkes data paylaşıp alabilir.</p>
 
 Peki ne zaman web veritabanı kullanmalısınız? Web veritabanın sık kullanıldığı bazı durumlar:
 <ul>
@@ -149,25 +161,29 @@ Peki ne zaman web veritabanı kullanmalısınız? Web veritabanın sık kullanı
  	<li>Kaydolma gerektiren uygulamalar</li>
  	<li>Kullanıcının finansal, medikal veya başka bilgilerini hatırlaması gereken uygulamalar</li>
 </ul>
-App Inventor'da web veritabanı kullanmak için bir kaç yol var! Şimdi bu yolları ve nasıl kullanıldıklarını konuşacağız. Bunları okudukça uygulamanızda hangilerini kullanabileceğinizi düşünün.
-<h3>Alıştırma</h3>
-Web veritabanı kullanan 5 uygulama örneği bulabilir misiniz?
-<h3>TinyWebDB</h3>
+<p>App Inventor'da web veritabanı kullanmak için bir kaç yol var! Şimdi bu yolları ve nasıl kullanıldıklarını konuşacağız. Bunları okudukça uygulamanızda hangilerini kullanabileceğinizi düşünün.</p>
+
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3>Alıştırma</h3>
+	Web veritabanı kullanan 5 uygulama örneği bulabilir misiniz?
+</div>
+
+<h3 id="tinyweb">TinyWebDB</h3>
 <strong>TinyWebDB</strong> aslında <strong>TinyDB'e</strong> çok benzerdir çünkü ikisi de verileri depolayıp almak için "tag"ler ve veri çiftleri kullanır. Eğer verileriniz çoğunlukla çiftler halindeyse (örneğin kullanıcı adı ve şifre) TinyWebDB'i tercih edebilirsiniz. TinyWebDb'inizi ayarladığınızda burda veri depolayabilir ve verileri geri alabilirsiniz. TinyDB'den farklı olarak burda uygulamanızı kullanan herkes veri depolayabilir ve burada depolanan verileri geri alabilir. Programcı TinyWebDB'in sitesinden depolanan tüm verilere erişim sağlayabilir, bunları silebilir ve değiştirebilir. Bu site şöyle gözükecektir:
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/TinyWebDBOnline.png" alt="tinywebdbonline" width="1440" height="777" />
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/TinyWebDBOnline.png" alt="tinywebdbonline" width="1440" height="777" />
 
-İstediğiniz "tag"leri (etiketleri) silebileceğinizi fark ettiniz mi? Yani uygulamanızda kullanıcılar TinyWebDB üzerinde veri depolayacak olmasa bile siz yine de <strong>TinyWebDB</strong> kullanmak isteyebilirsiniz!
+<p>İstediğiniz "tag"leri (etiketleri) silebileceğinizi fark ettiniz mi? Yani uygulamanızda kullanıcılar TinyWebDB üzerinde veri depolayacak olmasa bile siz yine de <strong>TinyWebDB</strong> kullanmak isteyebilirsiniz!</p>
 
-<strong>TinyWebDB</strong> kullanmak için, TinyWebDB'in sitesinden kendi hesabınızı oluşturmanız gerekir. Bunu yapmak için  <a href="http://appinventor.mit.edu/explore/ai2/custom-tinywebdb.html" target="_blank" rel="noopener">MIT App Inventor'un yönergelerine </a>ihtiyacınız olabilir. <strong>TinyWebDb</strong>'inizi ayarladıktan sonra neler yapabileceğinizi görmek için  <a href="https://www.youtube.com/watch?v=qawFgeJldAQ" target="&quot;_blank">bu yönergeleri </a>kullanabilirsiniz.
+<p><strong>TinyWebDB</strong> kullanmak için, TinyWebDB'in sitesinden kendi hesabınızı oluşturmanız gerekir. Bunu yapmak için  <a href="http://appinventor.mit.edu/explore/ai2/custom-tinywebdb.html" target="_blank" rel="noopener">MIT App Inventor'un yönergelerine </a>ihtiyacınız olabilir. <strong>TinyWebDb</strong>'inizi ayarladıktan sonra neler yapabileceğinizi görmek için  <a href="https://www.youtube.com/watch?v=qawFgeJldAQ" target="&quot;_blank">bu yönergeleri </a>kullanabilirsiniz.</p>
 
-<strong>TinyWebDB</strong> görünmez bir araçtır yani kullanıcı sayfada bunu görmez. Programcı için şu şekilde sayfanın altında gözükür:<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/non-visible.png" alt="non-visible" width="315" height="124" />
+<strong>TinyWebDB</strong> görünmez bir araçtır yani kullanıcı sayfada bunu görmez. Programcı için şu şekilde sayfanın altında gözükür:<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/non-visible.png" alt="non-visible" width="315" height="124" />
 
 <strong>TinyWebDB</strong> programlamak <strong>TinyDB</strong> programlamaktan biraz daha farklıdır. Bir veri alacağınız zaman uygulamanın internetten veriyi almasını beklemeniz gerekir. Uygulamanız internetten veriyi aldıktan sonra bu veriyle istediğinizi yapabilirsiniz. Aşağıdaki kodu inceleyerek daha iyi anlayabilirsiniz.
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/tagname.png" alt="tagname" width="594" height="313" />
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/tagname.png" alt="tagname" width="594" height="313" />
 
-Kullanıcı Button1'e tıkladığında uygulama internetten User1 etiketi altında depolanmış veriyi isteyecek. Uygulama <strong>TinyWebDb</strong>'den veriyi aldığında, Label1 ve Label2 'yi etiket ve veriye göre değiştirecek. <em>"when TinyWebDb1.GotValue"</em> bloğu TinyWebDb'in aldığı son veriyi kullanacaktır.
+<p>Kullanıcı Button1'e tıkladığında uygulama internetten User1 etiketi altında depolanmış veriyi isteyecek. Uygulama <strong>TinyWebDb</strong>'den veriyi aldığında, Label1 ve Label2 'yi etiket ve veriye göre değiştirecek. <em>"when TinyWebDb1.GotValue"</em> bloğu TinyWebDb'in aldığı son veriyi kullanacaktır.</p>
 
 <strong>TinyWebDB</strong> kullanırken sorunları önlemek için:
 <ul>
@@ -175,7 +191,7 @@ Kullanıcı Button1'e tıkladığında uygulama internetten User1 etiketi altın
  	<li>Kredi kartınız hakkında bilgi girmenize gerek yok, kullanacağınız tüm özellikler bedava.</li>
  	<li>TinyDb'deki gibi bir etiketi tekrar kullanmayı denerseniz bu etiketin altındaki veri değişecektir, eski veri silinecektir.</li>
 </ul>
-<h3>Fusion Tables</h3>
+<h3 id="fusion">Fusion Tables</h3>
 <strong>Fusion Tables</strong> APp Inventor'daki başka bir web database türüdür. <strong>Fusion Tables</strong>'da direk olarak veri depolanır ve geri alınır yani etiket-veri çiftleri olarak çalışmaz. Böylece daha karışık veri setleri depolayabilirsiniz. <strong>TinyWebDb</strong>'deki gibi burda da kullanıcılar veri depolayıp geri alabilirler ve siz bu verileri kontrol edebilir, silebilir ve dilediğiniz gibi değiştirebilirsiniz.
 
 Fusion Tables'da verilerinizi tablolar halinde depolarsınız. Tablolar bir sürü veriyi depolamanız ve düzenlemeniz gerektiğinde çok işinize yarar. Fusion tables'ı anlamak için bir örnek üzerinden gidelim.
@@ -217,15 +233,15 @@ Fusion Tables'da verilerinizi tablolar halinde depolarsınız. Tablolar bir sür
 </table>
 &nbsp;
 
-Kağıt kalem kullanmak yerine tabloyu oluşturmak için <strong>fusion tables</strong> kullandınız. Bir uygulama yarattınız ve takım arkadaşlarınızdan bu uygulamayı yüklemesini istediniz. Kendi telefonlarından adlarınıi numaralarını ve forma bedenlerini girdiler ve bu bilgiler fusion tables'da kaydedildi. Daha sonra siz hesabınıdan fusion tables'a girip bu bilgileri görüntüleyebil,r ve değiştirebilirsiniz.
+<p>Kağıt kalem kullanmak yerine tabloyu oluşturmak için <strong>fusion tables</strong> kullandınız. Bir uygulama yarattınız ve takım arkadaşlarınızdan bu uygulamayı yüklemesini istediniz. Kendi telefonlarından adlarınıi numaralarını ve forma bedenlerini girdiler ve bu bilgiler fusion tables'da kaydedildi. Daha sonra siz hesabınıdan fusion tables'a girip bu bilgileri görüntüleyebil,r ve değiştirebilirsiniz.</p>
 
-Fusion Tables'ı daha iyi anlamak için eski Technovation takımlarının fusion tables'ı kullandığı bazı seneryoları inceliyelim.
+<p>Fusion Tables'ı daha iyi anlamak için eski Technovation takımlarının fusion tables'ı kullandığı bazı seneryoları inceliyelim.</p>
 <ul>
- 	<li>Bağış kabul eden mekanların telefon numaralarını, enlem ve boylamlarını ve kabul ettikleri ürünleri depolayan bir sistem</li>
- 	<li>Kullanıcıların lokasyon, kullanıcı adı ve sevdiği şeyleri kaydeden bir uygulama</li>
- 	<li>Haritada işaretlenen yerleri kaydeden bir sistem</li>
- 	<li>Veriler ile grafikler oluşturan bir uygulama</li>
- 	<li>Bir forumdaki paylaşım ve yorumları kaydeden bir uygulama</li>
+ 	<li style="font-weight: 400;">Bağış kabul eden mekanların telefon numaralarını, enlem ve boylamlarını ve kabul ettikleri ürünleri depolayan bir sistem</li>
+ 	<li style="font-weight: 400;">Kullanıcıların lokasyon, kullanıcı adı ve sevdiği şeyleri kaydeden bir uygulama</li>
+ 	<li style="font-weight: 400;">Haritada işaretlenen yerleri kaydeden bir sistem</li>
+ 	<li style="font-weight: 400;">Veriler ile grafikler oluşturan bir uygulama</li>
+ 	<li style="font-weight: 400;">Bir forumdaki paylaşım ve yorumları kaydeden bir uygulama</li>
 </ul>
 Aşağıda fusion tables kullanmış olan iki takımın örneklerini inceliyebilirsiniz.
 <ul>
@@ -243,14 +259,14 @@ MIT'nin Fusion Tables hakkında bir dersi için linki ziyaret edebilirsiniz: <a
 
 Sorunları Önlemek için:
 <ul>
- 	<li>Kredi kartı bilgilerinizi hiç bir zaman girmenize gerek yok. Kullanacağınız tüm özellikler bedava.</li>
- 	<li>Pizza Party dersinin kodunu yükleyin ve onunla istediğiniz gibi oynayın!</li>
+ 	<li style="font-weight: 400;">Kredi kartı bilgilerinizi hiç bir zaman girmenize gerek yok. Kullanacağınız tüm özellikler bedava.</li>
+ 	<li style="font-weight: 400;">Pizza Party dersinin kodunu yükleyin ve onunla istediğiniz gibi oynayın!</li>
 </ul>
-<h3>APIs</h3>
-Örneğin bir kullanıcıya dışardaki havaya göre ne giymesi gerektiğini söyleyen bir uygulama yaptığınızı düşünün. Bunu yapmak için Fusion Tables'a hava hakkında bir sürü veri ve bilgi girmekle uğraşabilridiniz ama biliyorsunuz ki etrafta hava durumunu söyleyen bir sürü uygulama zaten var. Bu nedenle bu uygulamalardan veri alıp kullanıcınıza bu verileri gösterebilirsiniz!
+<h3 id="api">APIs</h3>
+<p>Örneğin bir kullanıcıya dışardaki havaya göre ne giymesi gerektiğini söyleyen bir uygulama yaptığınızı düşünün. Bunu yapmak için Fusion Tables'a hava hakkında bir sürü veri ve bilgi girmekle uğraşabilridiniz ama biliyorsunuz ki etrafta hava durumunu söyleyen bir sürü uygulama zaten var. Bu nedenle bu uygulamalardan veri alıp kullanıcınıza bu verileri gösterebilirsiniz!</p>
 
-Programcılar bunu sürekli yapıyorlar. Bu olay API kullanmak olarak aslandırılıyor. Bunun açılımı Aplication Programming Interface yani uygulama programlama arayüzüdür. API uygulamanızın internetle konuşup istediği bilgiyi almasıdır.
-<p style="text-align: center"></p>
+<p>Programcılar bunu sürekli yapıyorlar. Bu olay API kullanmak olarak aslandırılıyor. Bunun açılımı Aplication Programming Interface yani uygulama programlama arayüzüdür. API uygulamanızın internetle konuşup istediği bilgiyi almasıdır.</p>
+<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/s7wmiS2mSXY?feature=oembed" width="500" height="281" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 İnternette bir sürü veri var ve sizin bu verileri almak için bir sürü farklı yolunuz var. Çoğunlukla tercih edilen şeylerin bir listesi:
 <table>
 <tbody>
@@ -277,23 +293,29 @@ Programcılar bunu sürekli yapıyorlar. Bu olay API kullanmak olarak aslandır�
 </tbody>
 </table>
 Başka bir websitesinde olduğunu bildiğiniz bir bilgiyi API kullanarak almalısınız.
-<h3>Aktivite: API Öğrenelim</h3>
-Uygulamanızda API'nin nasıl kullanılabileceğini düşünün. Kendinize sorabileceğiniz bazı sorular:
-<ul>
- 	<li>Hangi tür veriye ihtiyacım var?</li>
- 	<li>Bu veriyi nerden alabilirim?</li>
-</ul>
-<h3>Kod Görevi 4:</h3>
-Uygulamanızda işinize yarayacak bir mobil araç, web veritabanı veya API seçin. Bunları uygulamanızda kullanmayı deneyin. Böylece alıştırma yapmış olacaksınız ve son uygulamanızda kullanabilecek kadar iyi biliyor olacaksınız!
-<h3>Özet</h3>
-Bu dersi bitirdikten sorna uygulamanızda neleri kullanmanız gerektiğini yeterince iyi biliyor olacaksınız. Tebrikler!
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3>Aktivite: API Öğrenelim</h3>
+	Uygulamanızda API'nin nasıl kullanılabileceğini düşünün. Kendinize sorabileceğiniz bazı sorular:
+	<ul>
+	 	<li style="font-weight: 400;">Hangi tür veriye ihtiyacım var?</li>
+	 	<li style="font-weight: 400;">Bu veriyi nerden alabilirim?</li>
+	</ul>
+</div>
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3 id="challenge"><span style="color: #ffffff;">Kod Görevi 4:</span></h3>
+	Uygulamanızda işinize yarayacak bir mobil araç, web veritabanı veya API seçin. Bunları uygulamanızda kullanmayı deneyin. Böylece alıştırma yapmış olacaksınız ve son uygulamanızda kullanabilecek kadar iyi biliyor olacaksınız!
+</div>
+<div style="background-color: #066677; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3 id="reflection" style="color: #ffffff;">Özet</h3>
+	Bu dersi bitirdikten sorna uygulamanızda neleri kullanmanız gerektiğini yeterince iyi biliyor olacaksınız. Tebrikler!
 
-Önümüzdeki haftalarda bu özellikleri uyguluyor olacaksınız. Eğer ihtiyacınız olan bir özellik varsa ama bu derste listelenmemişse <a href="http://ai2.appinventor.mit.edu/reference/components/" target="_blank" rel="noopener">buraya</a> tıklayın.
-<h5>Ek Kaynaklar</h5>
-<ul>
- 	<li style="font-weight: 400"><a href="https://www.youtube.com/watch?v=dXi55Rai7pQ" target="“_blank”">Thunkable Google Maps Tutorial</a></li>
- 	<li style="font-weight: 400"><a href="https://www.youtube.com/watch?v=JLCLcU05FRc" target="“_blank”">Spinner Component Demonstration Video</a></li>
-</ul>
-Technovation mezunu Ashni Sheth tarafından yapılan bu videoyu izleyerek uygulamanızla "bot"ları nasıl birleştireceğinizi görebilirsiniz.
+	Önümüzdeki haftalarda bu özellikleri uyguluyor olacaksınız. Eğer ihtiyacınız olan bir özellik varsa ama bu derste listelenmemişse <a style="color: #eae46f;" href="http://ai2.appinventor.mit.edu/reference/components/" target="_blank" rel="noopener">buraya</a> tıklayın.
+	<h5><span style="color: #ffffff;"><strong>Ek Kaynaklar</strong></span></h5>
+	<ul>
+	 	<li style="font-weight: 400"><a style="color: #eae46f;" href="https://www.youtube.com/watch?v=dXi55Rai7pQ" target="“_blank”">Thunkable Google Maps Tutorial</a></li>
+	 	<li style="font-weight: 400"><a style="color: #eae46f;" href="https://www.youtube.com/watch?v=JLCLcU05FRc" target="“_blank”">Spinner Component Demonstration Video</a></li>
+	</ul>
+	Technovation mezunu Ashni Sheth tarafından yapılan bu videoyu izleyerek uygulamanızla "bot"ları nasıl birleştireceğinizi görebilirsiniz.
+	<iframe src="https://www.youtube.com/embed/GDGM5WWubOI?feature=oembed" width="500" height="281" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
-&nbsp;
+</div>
