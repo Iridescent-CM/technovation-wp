@@ -1,22 +1,21 @@
-<h1>Cod 3: Logică, Repetiție, și Condiții</h1>
-
 <ul>
-<li><a href="#design">Proiectarea Ecranului </a></li>
-<li><a href="#data">Adăugare de Date la Baza de Date</a></li>
-<li><a href="#list">Creare de Liste de Nume și Valori</a></li>
-<li><a href="#check1">Punct de Verificare 1</a></li>
-<li><a href="#search">Programare Buton Căutare</a></li>
-<li><a href="#check2">Punct de Verificare 2</a></li>
-<li><a href="#newscreen">Afișare Rezulate Căutări</a></li>
-<li><a href="#finalcheck">●	Punct Final de Verificare</a></li>
+ 	<li><a href="#design">Proiectarea Ecranului </a></li>
+ 	<li><a href="#data">Adăugare de Date la Baza de Date</a></li>
+ 	<li><a href="#list">Creare de Liste de Nume și Valori</a></li>
+ 	<li><a href="#check1">Punct de Verificare 1</a></li>
+ 	<li><a href="#search">Programare Buton Căutare</a></li>
+ 	<li><a href="#check2">Punct de Verificare 2</a></li>
+ 	<li><a href="#newscreen">Afișare Rezulate Căutări</a></li>
+ 	<li><a href="#finalcheck">● Punct Final de Verificare</a></li>
 </ul>
 <h3>Descriere</h3>
-<p>Crează o aplicație  care permite utilizatorului să facă căutări într-o bază de date de informații și să vizualizeze rezultatele acestora. Baza de date ar trebui să conțină nume și descrieri ale unor oameni celebri, locuri, filme, muzică, evenimente sau orice altceva dorești. Ai grijă să creezi cel puțin trei intrări în baza ta de date.</p>
-<p>Vezi exemplul nostru de aplicație aici:  <a href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.DatabaseSearch">Technovation - Provocarea #3</a></p>
-<p>Încearcă să înțelegi cum să execuți Provocare de Programare de sine stătător, înainte de a urmări instrucțiunile. Instrucțiunile arată doar un mod în care provocarea poate fi rezolvată. Succes!</p>
+Crează o aplicație care permite utilizatorului să facă căutări într-o bază de date de informații și să vizualizeze rezultatele acestora. Baza de date ar trebui să conțină nume și descrieri ale unor oameni celebri, locuri, filme, muzică, evenimente sau orice altceva dorești. Ai grijă să creezi cel puțin trei intrări în baza ta de date.
 
+Vezi exemplul nostru de aplicație aici:  <a href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.DatabaseSearch">Technovation - Provocarea #3</a>
+
+Încearcă să înțelegi cum să execuți Provocare de Programare de sine stătător, înainte de a urmări instrucțiunile. Instrucțiunile arată doar un mod în care provocarea poate fi rezolvată. Succes!
 <h3><strong>Overview</strong></h3>
-<p>Ne-am decis să abordăm această provocare de programare prin stocarea datelor noastre într-un TinyDB. Noi am stocat descrierea savanților cu nume de etichete ale numelui lor. După aceea am făcut două liste, una cu numele persoanei, și una cu descrierile muncii sale. Utilizatorul va introduce textul și aplicația va căuta potriviri pentru fiecare element în ambele liste. Dacă există o potrivire, numele femeii va apărea într-un ListView. Utilizatorul poate selecta apoi despre cine dintre oamenii de știință dorește să afle mai multe și un nou ecran se va deschide cu descrierea activității sale. Pentru această aplicație, a trebuit să folosim un TinyDB pentru a stoca datele, astfel încât să putem să-l folosim pe ecrane separate.</p>
+Ne-am decis să abordăm această provocare de programare prin stocarea datelor noastre într-un TinyDB. Noi am stocat descrierea savanților cu nume de etichete ale numelui lor. După aceea am făcut două liste, una cu numele persoanei, și una cu descrierile muncii sale. Utilizatorul va introduce textul și aplicația va căuta potriviri pentru fiecare element în ambele liste. Dacă există o potrivire, numele femeii va apărea într-un ListView. Utilizatorul poate selecta apoi despre cine dintre oamenii de știință dorește să afle mai multe și un nou ecran se va deschide cu descrierea activității sale. Pentru această aplicație, a trebuit să folosim un TinyDB pentru a stoca datele, astfel încât să putem să-l folosim pe ecrane separate.
 <table>
 <tbody>
 <tr>
@@ -25,7 +24,7 @@
 </tr>
 <tr>
 <td style="text-align: right;">Ada Lovelace</td>
-<td>Ada a fost un matematician și scriitor englez, care a trăit în anii 1850 și este cunoscută pentru munca asupra calculatorului mecanic de uz general al lui Charles Babbage, denumit Motorul Analitic. Ada este deseori creditată ca fiind primul programator pentru că ea a scris primul algoritm care urma să fie utilizat de către o mașină. </td>
+<td>Ada a fost un matematician și scriitor englez, care a trăit în anii 1850 și este cunoscută pentru munca asupra calculatorului mecanic de uz general al lui Charles Babbage, denumit Motorul Analitic. Ada este deseori creditată ca fiind primul programator pentru că ea a scris primul algoritm care urma să fie utilizat de către o mașină.</td>
 </tr>
 <tr>
 <td style="text-align: right;">Marie Curie</td>
@@ -46,86 +45,98 @@
 </tbody>
 </table>
 <h3 id="design">Proiectarea Ecranului</h3>
-<p>Vrem ca utilizatorul să facă căutări într-o bază de date, deci vom adăuga o casetă pentru text în care utilizatorul va introduce căutarea și un buton prin care să înceapă căutarea.  Știm că vom stoca datele noastre într-o bază de date, deci am adus un TinyDB pe ecran. De asemenea, știm că vom folosi liste, de aceea am adăugat un ListView pe ecran.</p>
-<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image17-1024x553.png" alt="image17" width="1024" height="553" /></p>
+Vrem ca utilizatorul să facă căutări într-o bază de date, deci vom adăuga o casetă pentru text în care utilizatorul va introduce căutarea și un buton prin care să înceapă căutarea. Știm că vom stoca datele noastre într-o bază de date, deci am adus un TinyDB pe ecran. De asemenea, știm că vom folosi liste, de aceea am adăugat un ListView pe ecran.
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image17-1024x553.png" alt="image17" width="1024" height="553" />
 <h3 id="data"><strong>Adăugare de Date la Baza de Date</strong></h3>
-<p>Am decis să adăugăm la baza de date numele savantului ca etichetă și descrierea activității ei ca valoare. Am copiat informația (copy)  și apoi am adăugat-o (paste) la baza de date:</p>
-<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image37-1024x580.png" alt="image37" width="680" height="386" /></p>
-<p>Se recomandă de a stoca informațiile în baza de date atunci când ecranul inițializează astfel încât acesta este primul lucru pe care îl face aplicația. Va trebui să folosești o bază de date pentru a stoca aceste informații, dacă planifici să o utilizezi în alte ecrane.</p>
+Am decis să adăugăm la baza de date numele savantului ca etichetă și descrierea activității ei ca valoare. Am copiat informația (copy) și apoi am adăugat-o (paste) la baza de date:
 
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image37-1024x580.png" alt="image37" width="680" height="386" />
+
+Se recomandă de a stoca informațiile în baza de date atunci când ecranul inițializează astfel încât acesta este primul lucru pe care îl face aplicația. Va trebui să folosești o bază de date pentru a stoca aceste informații, dacă planifici să o utilizezi în alte ecrane.
 <h3 id="list">Creare de liste de etichete și valori de baze de date</h3>
-<p>Am creat o listă în care vom stoca nume de etichete. Mai întâi am creat o listă goală numită "TagNames" (NumeEtichete). În continuare, am adăugat blocuri pentru a adăuga fiecare dintre numele noastre de etichete la această listă. Ne-am asigurat că numele tag-ului, fiind adăugate la listă, se potrivesc exact cu numele etichetei în baza de date, inclusiv  literele majuscule.</p>
-<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image58-1024x548.png" alt="image58" width="849" height="455" /></p>
-<p>Acum, dacă avem o listă completă cu toate numele de etichete, e nevoie să creăm o altă listă, care conține toate valorile din baza de date, și în aceeași ordine ca și numele de etichete. În primul rând, am creat o listă goală pentru a păstra toate valorile din baza de date numită "databaseValues"(ValoriBazadedate). În continuare, am adăugat la listă fiecare valoare în aceeași ordine ca și eticheta care-i corespunde prin utilizarea unui ciclu for. Pentru fiecare element din lista "tagNames", am adăugat valoarea din baza de date în lista "databaseValues". Am adăugat apoi acest ciclu for la handlerul de eveniment whenScreen1.Initialize.</p>
-<p><img class="aligncenter" src="http://technovationchallenge.org/wp-content/uploads/2016/11/DBvar.png" alt="" width="419" height="42" /></p>
+Am creat o listă în care vom stoca nume de etichete. Mai întâi am creat o listă goală numită "TagNames" (NumeEtichete). În continuare, am adăugat blocuri pentru a adăuga fiecare dintre numele noastre de etichete la această listă. Ne-am asigurat că numele tag-ului, fiind adăugate la listă, se potrivesc exact cu numele etichetei în baza de date, inclusiv literele majuscule.
 
-<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image42-1024x314.png" alt="image42" width="600" height="184" /></p>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image58-1024x548.png" alt="image58" width="849" height="455" />
 
-<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image50-1024x470.png" alt="image50" width="650" height="298" /></p>
+Acum, dacă avem o listă completă cu toate numele de etichete, e nevoie să creăm o altă listă, care conține toate valorile din baza de date, și în aceeași ordine ca și numele de etichete. În primul rând, am creat o listă goală pentru a păstra toate valorile din baza de date numită "databaseValues"(ValoriBazadedate). În continuare, am adăugat la listă fiecare valoare în aceeași ordine ca și eticheta care-i corespunde prin utilizarea unui ciclu for. Pentru fiecare element din lista "tagNames", am adăugat valoarea din baza de date în lista "databaseValues". Am adăugat apoi acest ciclu for la handlerul de eveniment whenScreen1.Initialize.
+
+<img class="aligncenter" src="http://technovationchallenge.org/wp-content/uploads/2016/11/DBvar.png" alt="" width="419" height="42" />
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image42-1024x314.png" alt="image42" width="600" height="184" />
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image50-1024x470.png" alt="image50" width="650" height="298" />
 <div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
-	<h3 id="check1"><strong>Punct de Verificare #1</strong></h3>
-	<p>In acest moment ar trebui să ai toate datele din baza de date precum și o listă cu numele de etichete și o listă cu valorile bazei de date. Ai grijă ca fiecare din liste să conțină valorile pe care le dorești! Deoarece aplicația ta încă nu face nimic, poți verifica rezultatul muncii tale afișând listele pe ListView ca să vezi că totul este acolo. Adaugă acest bloc la codul de dedesubtul  ciclului for în handlerul de eveniment when Screen1.Initialize pentru a verifica dacă lista "tagNames" este corectă.</p>
-	<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image00-1024x90.png" alt="image00" width="418" height="37" />
-	</p>
-	<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image48-1024x78.png" alt="image48" width="456" height="35" /></p>
-	<p>După ce te-ai asigurat că listele sunt corecte, ai grijă să eliminezi (delete) aceste blocuri!</p>
-</div>
+<h3 id="check1"><strong>Punct de Verificare #1</strong></h3>
+In acest moment ar trebui să ai toate datele din baza de date precum și o listă cu numele de etichete și o listă cu valorile bazei de date. Ai grijă ca fiecare din liste să conțină valorile pe care le dorești! Deoarece aplicația ta încă nu face nimic, poți verifica rezultatul muncii tale afișând listele pe ListView ca să vezi că totul este acolo. Adaugă acest bloc la codul de dedesubtul ciclului for în handlerul de eveniment when Screen1.Initialize pentru a verifica dacă lista "tagNames" este corectă.
 
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image00-1024x90.png" alt="image00" width="418" height="37" />
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image48-1024x78.png" alt="image48" width="456" height="35" />
+
+După ce te-ai asigurat că listele sunt corecte, ai grijă să eliminezi (delete) aceste blocuri!
+
+</div>
 <h3 id="search"><strong>Programare buton căutare</strong></h3>
-<p>Ne dorim ca utilizatorul nostru să fie în măsură să facă căutări în baza de date prin introducerea de text în caseta de text și apăsând butonul "căutare". Pentru a face acest lucru, vom pune un handler de eveniment pe butonul de căutare, care va răsfoi prin fiecare element atât în lista "tagName", cât și în lista "databaseValues" pentru a identifica siruri care se potrivesc cu textul întrodus de utilizator în caseta de text. Dacă există o potrivire, vom adăuga numele omului de știință în lista de vizualizare. Iată cum am făcut-o.</p>
-<p>În primul rând, am creat o variabilă numită "searchResults" (cautăRezultate) și am configutat-o ca o listă goală:</p>
-<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image03-1-1024x88.png" alt="image03" width="439" height="38" />
-</p>
-<p>În continuare,  am adăugat un handler de eveniment la butonul de căutare. In interiorul lui, am adaugat un bloc pentru a seta rezultatele căutării înapoi la a fi o listă goală. Acest lucru e necesar, pentru că de fiecare dată când utilizatorul apasă "căutare" vrem să scoatem orice elemente care ar fi putut fi adăugate în "searchresults" în ultima căutare.</p>
-<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image02-1024x183.png" alt="image02" width="441" height="79" /></p>
-<p>Apoi, am setat un ciclu for care caută fiecare element din lista "tagName" și în lista "databaseValue". Noi nu am utilizat ciclul for each element din listă, deoarece ne-am dorit să folosim o variabilă de numărare în ciclul for. Am pornit ciclul for de la "1" și am încheiat-o la numărul de elemente din listă. Am schimbat numele variabilei în indice.</p>
+Ne dorim ca utilizatorul nostru să fie în măsură să facă căutări în baza de date prin introducerea de text în caseta de text și apăsând butonul "căutare". Pentru a face acest lucru, vom pune un handler de eveniment pe butonul de căutare, care va răsfoi prin fiecare element atât în lista "tagName", cât și în lista "databaseValues" pentru a identifica siruri care se potrivesc cu textul întrodus de utilizator în caseta de text. Dacă există o potrivire, vom adăuga numele omului de știință în lista de vizualizare. Iată cum am făcut-o.
 
-<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image54-1024x383.png" alt="image54" width="519" height="194" /></p>
+În primul rând, am creat o variabilă numită "searchResults" (cautăRezultate) și am configutat-o ca o listă goală:
 
-<p>Aici e blocul pe care l-am folosit pentru a compara textul căutat de utilizator în caseta de text cu elemente din lista "tagNames". Variabila "indice" crește cu 1 de fiecare dată când cicluul se repetă astfel încât acesta va compara textul din casetă cu fiecare element în lista "tagNames". Am ales să scriem totul cu litere minuscule pentru a permite ca rezultatele căutării să nu depindă de tastatură. Blocul "conține text" arată adevărat dacă bucata apare în text.</p>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image03-1-1024x88.png" alt="image03" width="439" height="38" />
 
-<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image28-1024x172.png" alt="image28" width="508" height="85" /></p>
+În continuare, am adăugat un handler de eveniment la butonul de căutare. In interiorul lui, am adaugat un bloc pentru a seta rezultatele căutării înapoi la a fi o listă goală. Acest lucru e necesar, pentru că de fiecare dată când utilizatorul apasă "căutare" vrem să scoatem orice elemente care ar fi putut fi adăugate în "searchresults" în ultima căutare.
 
-<p>Pentru a compara căutarea utilizatorului la "databaseValues", am folosit aceleași blocuri, cu excepția pentru schimbarea numelui listei.</p>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image02-1024x183.png" alt="image02" width="441" height="79" />
 
-<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image51-1024x161.png" alt="image51" width="585" height="92" /></p>
+Apoi, am setat un ciclu for care caută fiecare element din lista "tagName" și în lista "databaseValue". Noi nu am utilizat ciclul for each element din listă, deoarece ne-am dorit să folosim o variabilă de numărare în ciclul for. Am pornit ciclul for de la "1" și am încheiat-o la numărul de elemente din listă. Am schimbat numele variabilei în indice.
 
-<p>Vrem să arătăm utilizatorului femei de știință, al cărui nume sau descriere se potrivește cu căutarea utilizatorului. Pentru aceasta noi am folosit aceste două blocuri cu o condițională și o operație logică or.</p>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image54-1024x383.png" alt="image54" width="519" height="194" />
 
-<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image05.png" alt="image05" width="215" height="93" />
-</p>
+Aici e blocul pe care l-am folosit pentru a compara textul căutat de utilizator în caseta de text cu elemente din lista "tagNames". Variabila "indice" crește cu 1 de fiecare dată când cicluul se repetă astfel încât acesta va compara textul din casetă cu fiecare element în lista "tagNames". Am ales să scriem totul cu litere minuscule pentru a permite ca rezultatele căutării să nu depindă de tastatură. Blocul "conține text" arată adevărat dacă bucata apare în text.
 
-<p>Iată cum arată codul or cu operația or completată</p>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image28-1024x172.png" alt="image28" width="508" height="85" />
 
-<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image10-1024x223.png" alt="image10" width="1024" height="223" /></p>
+Pentru a compara căutarea utilizatorului la "databaseValues", am folosit aceleași blocuri, cu excepția pentru schimbarea numelui listei.
 
-<p>Vrem ca codul nostru să adauge numele femeilor de știință la lista de "searchresults" în cazul în care, fie numele ei sau descrierea ei se potrivește cu termenii de căutare a utilizatorului. Pentru a face acest lucru, atunci când este o potrivire, am adăugat numele din tagNames folosind ciclul de execuție variabila "indice". Noi nu am adăugat else la condiția noastră pentru că, dacă numele sau descrierea nu se potrivesc, vrem codul nostru să nu facă nimic. Am adăugat apoi elementele din lista "searchResults" la ListView. Pentru că acest bloc se află în afara ciclului for, codul nostru actualizează numai ListView după ce ciclul s-a încheiat.</p>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image51-1024x161.png" alt="image51" width="585" height="92" />
 
-<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image39-1024x302.png" alt="image39" width="1024" height="302" />
+Vrem să arătăm utilizatorului femei de știință, al cărui nume sau descriere se potrivește cu căutarea utilizatorului. Pentru aceasta noi am folosit aceste două blocuri cu o condițională și o operație logică or.
 
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image05.png" alt="image05" width="215" height="93" />
+
+Iată cum arată codul or cu operația or completată
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image10-1024x223.png" alt="image10" width="1024" height="223" />
+
+Vrem ca codul nostru să adauge numele femeilor de știință la lista de "searchresults" în cazul în care, fie numele ei sau descrierea ei se potrivește cu termenii de căutare a utilizatorului. Pentru a face acest lucru, atunci când este o potrivire, am adăugat numele din tagNames folosind ciclul de execuție variabila "indice". Noi nu am adăugat else la condiția noastră pentru că, dacă numele sau descrierea nu se potrivesc, vrem codul nostru să nu facă nimic. Am adăugat apoi elementele din lista "searchResults" la ListView. Pentru că acest bloc se află în afara ciclului for, codul nostru actualizează numai ListView după ce ciclul s-a încheiat.
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image39-1024x302.png" alt="image39" width="1024" height="302" />
 <div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
-	<h3 id="check2"><strong>Punct de Verificare #2</strong>></h3>
-	<p>Tocmai ai scris mult într-o programare! Testează codul tău pentru a te asigura că poți căuta ceva. Încearcă să căuți un nume, cum ar fi "Alice", sau o profesie "chimist".</p>
+<h3 id="check2"><strong>Punct de Verificare #2</strong>&gt;</h3>
+Tocmai ai scris mult într-o programare! Testează codul tău pentru a te asigura că poți căuta ceva. Încearcă să căuți un nume, cum ar fi "Alice", sau o profesie "chimist".
+
 </div>
-
 <h3 id="newscreen"><strong>Afișare rezultate căutări într-un ecran nou</strong></h3>
-<p>Am decis că aplicația noastră va fi mai bună dacă utilizatorul ar putea alege una din femeile savanți, care au apărut în rezultatele căutării, pentru a afla mai multe despre ea. Pentru aceasta, după ce utilizatorul a ales ceva din listă, am deschis un nou ecran cu startValue selectat de utilizator. Ține minte, singurele două moduri de a trece date de la un ecran la altul este prin utilizarea unei baze de date sau a unui bloc startValue!</p>
-<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image31.png" alt="image31" width="597" height="108" /></p>
+Am decis că aplicația noastră va fi mai bună dacă utilizatorul ar putea alege una din femeile savanți, care au apărut în rezultatele căutării, pentru a afla mai multe despre ea. Pentru aceasta, după ce utilizatorul a ales ceva din listă, am deschis un nou ecran cu startValue selectat de utilizator. Ține minte, singurele două moduri de a trece date de la un ecran la altul este prin utilizarea unei baze de date sau a unui bloc startValue!
 
-<p>Am proiectat cel de-al doilea ecran al nostru cu două etichete. Una pentru a afișa numele femeii savant și una pentru a afișa descrierea ei. Am adăugat, de asemenea, un buton ‘înapoi’ pentru a reveni la Screen1. Nu uita că trebuie să adăugați un TinyDB și la acest ecran!</p>
-<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image56-1024x509.png" alt="image56" width="1024" height="509" /></p>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image31.png" alt="image31" width="597" height="108" />
 
-<p>Având în vedere că valoarea de pornire este numele cercetătorului, am afișat valoarea de pornire în Label1 și, am folosit-o, de asemenea, pentru a prelua descrierea femeii savant din baza de date pentru a afișa în Label2. Poți găsi blocul get start value în categoria de control.</p>
-<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image06.png" alt="image06" width="636" height="175" /></p>
+Am proiectat cel de-al doilea ecran al nostru cu două etichete. Una pentru a afișa numele femeii savant și una pentru a afișa descrierea ei. Am adăugat, de asemenea, un buton ‘înapoi’ pentru a reveni la Screen1. Nu uita că trebuie să adăugați un TinyDB și la acest ecran!
 
-<p>Nu uita să programezi butonul ‘înapoi’ să te întoarcă la ecranul întâi!</p>
-<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image11-1024x198.png" alt="image11" width="471" height="91" /></p>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image56-1024x509.png" alt="image56" width="1024" height="509" />
 
+Având în vedere că valoarea de pornire este numele cercetătorului, am afișat valoarea de pornire în Label1 și, am folosit-o, de asemenea, pentru a prelua descrierea femeii savant din baza de date pentru a afișa în Label2. Poți găsi blocul get start value în categoria de control.
 
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image06.png" alt="image06" width="636" height="175" />
+
+Nu uita să programezi butonul ‘înapoi’ să te întoarcă la ecranul întâi!
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image11-1024x198.png" alt="image11" width="471" height="91" />
 <div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
-	<h3 id="finalcheck"><strong>Punct Final de Verificare</strong></h3>
-	<p>Asigură-te că aplicația funcționează! Selectarea unui element în ListView te aduce la Screen2 și afișează numele etichetei și valoarea bazei de date?</p>
-	<p>Mai ai dificultăți? Descarcă codul sursă. Aici sunt <a style="color: #eae46f;" href="http://appinventor.mit.edu/explore/ai2/share.html" target="_blank"> instrucțiunile</a> cum să descarci și să folosești codurile sursă.</p>
-	
-	<p style="text-align: center;"><a style="color: #eae46f;" role="button" href="https://drive.google.com/file/d/0B9HV58UviqU_YXU1eTBKMDN1ZVE/view" target="_blank" rel="noopener">DESCARCĂ CODUL SURSĂ</a></p>
+<h3 id="finalcheck"><strong>Punct Final de Verificare</strong></h3>
+Asigură-te că aplicația funcționează! Selectarea unui element în ListView te aduce la Screen2 și afișează numele etichetei și valoarea bazei de date?
+
+Mai ai dificultăți? Descarcă codul sursă. Aici sunt <a style="color: #eae46f;" href="http://appinventor.mit.edu/explore/ai2/share.html" target="_blank" rel="noopener"> instrucțiunile</a> cum să descarci și să folosești codurile sursă.
+<p style="text-align: center;"><a style="color: #eae46f;" role="button" href="https://drive.google.com/file/d/0B9HV58UviqU_YXU1eTBKMDN1ZVE/view" target="_blank" rel="noopener">DESCARCĂ CODUL SURSĂ</a></p>
+
 </div>
