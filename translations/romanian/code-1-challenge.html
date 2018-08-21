@@ -1,0 +1,85 @@
+<h1>Crează un Slideshow</h1>
+<h3>Cuprins</h3>
+<ul>
+ 	<li><a href="#design">Designul Ecranului</a></li>
+ 	<li><a href="#blocks">Programarea Blocurilor</a></li>
+ 	<li><a href="#check">Punct de Verificare!</a></li>
+ 	<li><a href="#finish">Finalizarea Aplicației </a></li>
+ 	<li><a href="#final">Punct Final de Verificare!</a></li>
+</ul>
+
+<h3 id="design">Designul Ecranului</h3>
+Pentru această aplicație vei crea un slideshow care va permite utilizatorului să navigheze prin diferite imagini. Când vei face designul ecranului, vei pune o imagine și butoane pentru ca utilizatorul printr-un clic să treacă la o altă imagine. Va trebui să setezi asta mai întâi în screen designer.
+<ol>
+ 	<li>Adaugă o imagine pe ecranul tău.
+<ul>
+ 	<li>Ajustează-i dimensiunile după înălțimea și lățimea ecranului!</li>
+ 	<li>Noi am ales să facem imaginea noastră “fill parent”. Când selectezi “fill parent” tu îi spui componentei să umple spațiul, oricare ar fi el. Imaginea1 este în ecran, însă tastele sunt înăuntrul containerului de aranjament orizontal. Tu poți vedea ce lucruri sunt înăuntrul altor lucruri după cum ele sunt in lista componentelor din meniu. </li>
+</ul>
+</li>
+ 	<li>Adaugă o amplasare orizontală  ecranului mai jos de imagine.</li>
+ 	<li>Trage și plasează două butoane în poziție orizontală.
+<ul>
+ 	<li>Fă clic pe butoane în componenta meniu
+<ul>
+ 	<li>Redactează textul butoanelor în ‘Precedent’ și ‘Următor’.</li>
+ 	<li>Ar trebui, de asemena, să schimbi numele butoanelor ca să-ți amintești care este funcția lor! Noi le-am schimbat pe ale noastre în ‘Precedent’ și ‘Următor’. Tu poți face asta apăsând “redenumește” sub componente.</li>
+</ul>
+</li>
+</ul>
+</li>
+ 	<li>Descarcă o imagine pe care vrei să o folosești în slideshow!</li>
+ 	<li>Selectează imaginea care va fi proiectată prima în slideshow-ul tău.
+<ul>
+ 	<li>Fă clic pe “Imagine1” în meniul “Componente” și apoi “Imagine” în meniul de proprietăți. Poți apoi selecta imaginea descărcată.</li>
+</ul>
+</li>
+ 	<li>Poți adăuga încă două ecrane. Pentru slideshow-ul nostru, am folosit trei ecrane dar tu poți adăuga câte dorești.
+<ul>
+ 	<li>Pentru moment nu e nevoie să faci ceva cu ecranele, dar, după ce vei codifica blocuri, vei adăuga butoane și imagini pentru ele, așa cum ai făcut pentru acest ecran.</li>
+</ul>
+</li>
+</ol>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/designer.png" alt="designer" width="1440" height="772" />
+<h2 id="blocks"><strong>Programarea blocurilor</strong></h2>
+Explicație: Acum, dacă ai ecranul configurat, e nevoie să-l programezi să facă ceva. Atunci când utilizatorul apasă pe butoane, tu dorești ca aplicația ta să deschidă un alt ecran cu o altă imagine pe ea. Pentru a face acest lucru, se va utiliza butonul handler de eveniment.
+<ol start="7">
+ 	<li>Fă clic pe butonul pe care l-ai numit ‘Precedent’ pentru a vizualiza toate blocurile pe care le poți utiliza. Apucă blocul when button.click și trage-l pe spațiul tău de lucru.</li>
+ 	<li>Fă clic pe ‘control’ și găsește blocul open another screen screenName (deschide alt ecran Numele ecranului).</li>
+ 	<li>Ia o casetă de text goală și fă clic în blocul open another screen screenName. Tastează numele ultimului ecran care va fi în slideshow-ul tău. Pentru noi, a fost Ecran3.</li>
+ 	<li>Fă clic pe butonul  "Următor" și apucă blocul when button.click din nou.</li>
+ 	<li>Ia un alt bloc open another screen screenName din control.</li>
+ 	<li>Ia un bloc de text gol și tastează în următorul ecran care va apărea în slideshow-ul tău. (Pentru noi, a fost  Ecran2.)</li>
+</ol>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/blocks.png" alt="blocks" width="1440" height="766" />
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3 id="check"><strong>Punct de Verificare!</strong>!</h3>
+	Înainte de a trece mai departe, să ne asigurăm că codul pe care tocmai l-ai creat lucrează. E o deprindere bună să verifici fragmente de cod înainte de a scrie întreaga aplicație, pentru a te asigura că ea funcționează. În caz contrar, s-ar putea să creezi o aplicație cu mai multe caracteristici care nu funcționează și ar putea fi dificil să afli de ce aplicația nu lucrează!
+
+	Împerechează App Inventor cu telefonul, tableta si emulatorul. Lucrează butoanele conform așteptărilor? Butoanele noastre au funcționat: "Precedent" ne-a adus la un Ecran3 gol și "Următor", ne-a adus la un Ecran2 gol. În cazul în care butoanele nu funcționează cum te așteptai, încearcă să te întorci înapoi și să te asiguri că codul este corect.
+
+	<em>Sugestie: Pentru că pe Ecran2  sau Ecran3 nu este încă nimic, ne-am întors la Ecran1 prin mutare înapoi folosind App Inventor pe computerul  nostru. App Inventor permite navigarea prin diferite ecrane de pe telefonul conectat sau emulator cu ajutorul computerului. Acesta este un truc bun pentru a fi utilizat mai târziu.</em>
+
+</div>
+<h3 id="finish"><strong>Finisarea aplicației</strong></h3>
+Explicație: Acum, dacă ai configurat cu succes un ecran și l-ai programat, ai posibilitatea să codifici restul ecranelor! Poți adăuga mai multe ecrane dacă dorești ca slideshow-ul tău să aibă mai multe imagini, dar să ai grijă să fie întotdeauna cel puțin trei. Diagramele de mai jos arată fluxul de ecrane și modul în care butoanele le controlează.
+<ol start="13">
+ 	<li>1.	Repetă pașii 1-12 pentru fiecare ecran al slideshow. Verifică ca butonul ‘Următor’ să te ducă întotdeauna la ecranul următor și butonul ‘Precedent’ să te întoarcă la ecranul precedent.</li>
+</ol>
+<center>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/3Screen-Diagram.png" alt="3screen-diagram" />
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/4Screen-Diagram.png" alt="4screen-diagram" /></center>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3 id="final"><strong>Punctul de verificare final!</strong>!</h3>
+	Asigură-te că aplicația ta lucrează! Probează fiecare buton "Următor" și "Precedent". Te va duce fiecare din ele la un ecran nou? Dacă nu, verifică lucrul, vezi dacă ai întrodus numele ecranelor corect.
+
+	Felicitări! Tocmai ai finisat prima ta provocare de programare! Ar trebui să te simți perfect! Nu sunt mulți oameni care au codificat o aplicație!
+
+	Mai ești blocată? Descarcă codul nostru sursă. Aici sunt instrucțiuni despre cum se descarcă și se utilizează codurile sursă : 
+
+	<strong><a style="color: #eae46f;" href="http://appinventor.mit.edu/explore/ai2/share.html" target="_blank">instrucțiuni cod sursă</a> </strong>.
+	<p style="text-align: center;"><a style="color: #eae46f;" href="https://drive.google.com/file/d/0B9HV58UviqU_UUotS1BieWxGTWM/view?usp=sharing" target="_blank">
+	<strong>DESCARCĂ COD SURSĂ</strong>
+	</a></p>
+
+</div>

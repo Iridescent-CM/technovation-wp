@@ -1,0 +1,349 @@
+<h1>Cod 2</h1>
+<h1>Date și Variabile</h1>
+<ul>
+ 	<li><a href="#data">Date</a></li>
+ 	<li><a href="#types">Tipuri de Date</a></li>
+ 	<li><a href="#variables">Variabile</a></li>
+ 	<li><a href="#localglobal">Variabile Locale și Globale</a></li>
+ 	<li><a href="#lists">Liste</a></li>
+ 	<li><a href="#databases">Baze de Date</a></li>
+ 	<li><a href="#challenge">Provocare – Cod 2</a></li>
+ 	<li><a href="#reflect">Reflectează</a></li>
+</ul>
+&nbsp;
+<h2><strong>Obiective de Învățare:</strong></h2>
+În acest modul, vei...
+<ul>
+ 	<li>Învăța despre date și diferite tipuri de date</li>
+ 	<li>Învăța cum să folosești variabile și baze de date</li>
+ 	<li>Învăța să organizezi date în liste</li>
+ 	<li>Creezi o aplicație Lista lucruri de făcut care se conectează la baza de date</li>
+</ul>
+Această secțiune conține multă informație, și e firesc dacă nu o vei înțelege chiar acum. Cea mai bună metodă de a înțelege concepte de programare este  de a lucra în Provocări ale Codificării ca să le vezi în acțiune! Poți oricând reveni la această secțiune în caz dacă ai probleme cu crearea aplicației tale.
+
+<h1 id="data">Date</h1>
+Ai fi auzit, probabil, în viața ta de cuvântul date. Datele pot însemna o mulțime de lucruri, dar în informatică, datele sunt informațiile de care aplicația are nevoie pentru a lucra. Pentru a înțelege mai bine acest lucru, să ne amintim de unele aplicații și unele informații de care acestea au nevoie pentru a funcționa.
+
+<p align="center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image10.png" width="45" height="45" align="bottom" border="0" /></p>
+<p style="text-align: center;"><strong>WhatsApp</strong></p>
+Aceatsă aplicație socială poate transmite mesaje și apeluri. Datele de care are nevoie sunt:
+<ul>
+	<li>Numele tău de utilizator</li>
+	<li>Nume de utilizator a prietenilor</li>
+	<li>Mesage pe care dorești să le expediezi</li>
+	<li>Timpul</li>
+	<li>Locația</li>
+</ul>
+<p align="center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image32.jpg" width="48" height="46" align="bottom" border="0" /></p>
+
+<p style="text-align: center;"><strong>Angry Birds</strong></p>
+În această aplicație tragi cu păsări în porci pentru a-i învinge. Datele de care are nevoie sunt:
+<ul>
+	<li>Scorul tău</li>
+	<li>Valoarea, în puncte, a fiecărui obiect </li>
+	<li>Ce nivele ai trecut</li>
+	<li>Câte păsări primești în fiecare nivel</li>
+</ul>
+<p align="center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/cropped-R-fullcolor-1.png" width="46" height="44" align="bottom" border="0" /></p>
+<p style="text-align: center;">><strong>Slideshow Challenge App</strong></p>
+Tu ai creat această aplicație în Provocare – Cod 1. Datele de care ai nevoie sunt:
+<ul>
+ 	<li>Imaginile tale preferate</li>
+</ul>
+Programatorul trebuie să creeze modalități pentru ca aplicația să primească toate informațiile de care are nevoie. Ține minte, computerele nu pot face nimic pe cont propriu, fără instrucțiuni. Iată câteva moduri în care aplicațiile din App Inventor pot obține date pentru a le utiliza:
+<ol>
+	<li>Programatorul introduce informația în:
+	
+		<ul>
+		 	<li>Aplicația ta slideshow, tu (programatorul) ai întrodus imaginile preferate.</li>
+		 	<li>În Angry Birds, programatorul a întrodus câte păsări va primi jucătorul la fiecare nivel.</li>
+		</ul>
+	</li>	
+	<li>Utilizatorul introduce informația:</td>
+	
+		<ul>
+		 	<li>În WhatsApp, se cere ca utilizatorul să spună aplicației ce și cui dorește să transmită.</li>
+		</ul>
+	</li>
+	<li>Aplicația se conectează la altceva pentru a primi informații:
+	
+		<ul>
+		 	<li>WhatsApp se conectează la telefonul tău pentru a afla timpul pentru a ști la ce oră ai trimis mesajul.</li>
+		</ul>
+	</li>	
+	
+</ol>	
+Uneori, o aplicație va salva informațiile întroduse de utilizator. De exemplu, WhatsApp salvează istoricul mesajelor care îți permite să vezi ultimul mesaj trimis unui prieten. Pentru a face acest lucru, programatorul folosește o bază de date, despre care vei învăța în această lecție. Veti afla mai multe despre cum să te conectezi la alte locuri pentru a obține informații mai târziu.
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3>Exercițiu de Gândire</h3>
+	Dacă ai folosi o aplicație care te-ar ajuta să găsești cel mai apropiat magazine alimentar, de ce date, după părerea ta, va avea nevoie aplicația?
+
+</div>
+<h1 id="types">Tipuri de Date </h1>
+După cum ai văzut în secțiunea de mai sus, datele pot face multe lucruri! Pentru ca computerele să înțeleagă mai ușor ce au de făcut cu datele primite,  acestea sunt aranjate în categorii. Ele se numesc tipuri de date. Limbajele de programare  gravitează în jurul a trei tipuri majore de date: numere, siruri, și boolean. App Inventor îți mai permite să utilizezi tipuri de date mai complexe, cum ar fi culori și imagini. Nu e nevoie să faci nimic cu tipuri de date despre care vei afla mai multe în această secțiune, dar e bine să le păstrezi în minte pentru codificările ulterioare.
+<h3>Numere</h3>
+Acest tip de date este exact ceea ce gândești! În App Inventor,  poți folosi numere făcând clic pe Math în blocuri.
+<br>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image30.png" width="712" height="40" />
+<br>
+Vei folosi blocurile Math de fiecare dată când vei avea nevoie de numere. Iată câteva exemple când ai putea utiliza acest tip de date în aplicația ta.
+<ul>
+ 	<li>Pentru a calcula scorul unui jucător într-un joc</li>
+ 	<li>Pentru a calcula de câte ori un utilizator a încercat să se autentifice</li>
+ 	<li>Pentru a calcula de câte ori dorești ca aplicația să facă ceva </li>
+ 	<li>Pentru a verifica vârsta utilizatorului</li>
+</ul>
+Află mai multe despre toate lucrurile pe care le poți face cu blocuri de matematica pe site-ul MIT:
+ <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/math.html" target="_blank">Math blocks</a>
+<h3>Șiruri</h3>
+Acest tip de date este un text. În App Inventor, poți crea un șir mergând la Text in Blocks. Iată câteva blocuri de texte pe care le poți utiliza.<br>
+<i> <img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image20.png" width="815" height="100" /> </i>
+<br>
+Ar trebui să utilizezi șirul de fiecare dată când dorești să adaugi un câmp de text la codul tău. Iată câteva exemple când ai putea folosi un tip de date șir în aplicația ta.
+<ul>
+ 	<li>Pentru a permite utilizatorului să introducă o parolă sau nume de utilizator</li>
+ 	<li>Pentru a face ca aplicația să comunice prin cuvinte cu utilizatorul</li>
+ 	<li>Pentru a afișa un mesaj sau o alertă utilizatorului</li>
+ 	<li>Pentru a programa aplicația să deschidă un ecran nou, dându-i nume de ecran</li>
+</ul>
+Înainte de avansa,  verifică  site-ul web al MIT pentru a vedea ce poți face cu text: <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/text.html#string" target="_blank">Text blocks</a>
+<h3>Booleane</h3>
+Un boolean poate fi una dintre cele două valori: adevărat sau fals. Adevărat înseamnă de fapt "da" și fals înseamnă "nu". Pentru a obține un boolean, mergi la  logica în funcțiile incorporate și apucă unul dintre aceste blocuri:
+<br>
+ <img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image27.png" width="347" height="39" />
+<br>
+Deocamdată, nu ai decât să păstrezi în minte tupul boolean. Vom studia mai detaliat despre boolean și logica în <a href="http://www.technovationchallenge.org/curriculum/code-3/" target="_blank" rel="noopener">Cod 3: Logica, Cicluri și Condiții.</a>
+<h1 id="variables">Variabile</h1>
+Una dintre cele mai importante concepte în programare este o variabilă. O variabilă este un nume pentru un fragment de date, valoarea căreia poate fi schimbată. E ușor de reținut:  o variabilă poate varia sau schimba în valoare. Există o mulțime de informații care sunt importante pentru tine în fiecare zi, valoarea cărora se schimbă. Aici sunt cateva exemple:
+<ul>
+ 	<li>Vârsta ta</li>
+ 	<li>Înălțimea ta</li>
+ 	<li>Locația ta</li>
+ 	<li>Data de azi</li>
+</ul>
+Pentru a înțelege mai bine variabilele și cum să le folosești în App Inventor, vezi un exemplu. Imaginează-ți că creezi un joc în care utilizatorul poate câștiga și pierde puncte. Dorești ca  jucătorul să-și vadă scorul într-o casetă de text. La începutul jocului, jucatorul are zero puncte, deci ai adăugat un bloc ca acesta la joc:
+<br>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image16.png" width="316" height="56" />
+<br>
+Jucătorul vede zero, în caseta de text care conține scorul. Cu toate acestea, scorul se va schimba în timpul jocului. De fiecare dată, când jucătorul câștigă sau pierde puncte, trebuie să actualizezi caseta de text. Când jucătorul  obține mai multe puncte, adaugă un bloc ca aceasta.
+<br>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image22.png" width="326" height="43" />
+<br>
+Aceasta funcționează, dar cum facem când jucătorul mai câștigă 10 puncte? Va trebui să actualizezi textul din nou pentru a spune 20. Ce se întâmplă când jucătorul pierde puncte? Va trebui să schimbi scorul în 15. Și dacă jucătorul câștigă puncte din nou? În așa fel, poți foarte repede deveni derutat.
+În cadrul unor scenarii de acest fel, poți crea o variabilă pentru a urmări scorul jucătorului. Poți crea un scor numit variabilă care are întotdeauna valoarea scorului curent al jucătorului. În timp ce se joacă jocul, poți adăuga și scădea puncte de la scor și nu va trebui să ai grijă să duci evidența scoruluil. Iată cum ar funcționa în App Inventor. În primul rând, vei apuca acest bloc din secțiunea variabile.
+<br>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image13.png" width="245" height="65" />
+<br>
+Acest bloc îi spune aplicației că va exista o variabilă și îți cere să-i dai variabilei un nume și o valoare. Iată cum ar arăta blocul pentru un joc în care scorul jucătorului a început de la zero
+<br>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image28.png" width="284" height="51" />
+<br>
+Cu acest bloc, îi spui aplicației că va exista un fragment de date numit scor care își va schimba valoarea în timpul jocului. De fiecare dată când aplicația pornește, se va crea o variabilă numită scor și se va seta la zero. Acum poți să faci ceea ce se numește "setare" și "obține" variabila de scor. "Obține" îți va permite să vezi valoarea punctajului. Iată cum i-ai spune aplicației să afișeze scorul într-un textbox.
+<br>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image17.png" width="476" height="45" />
+<br>
+“Setare” îți permite să dai o nouă valoare pentru scorul utilizatorului. Poți spune aplicației să facă acest lucru de fiecare dată când jucătorul câștigă puncte.
+<br>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image19.png" width="508" height="61" />
+<br>
+Aceasta îi spune aplicației să schimbe valoarea punctajului la orice este acum plus zece. În cazul în care scorul curent este zero, noul scor ar fi 10. În cazul în care scorul curent este de 25, noul scor ar fi 35. Acum nu trebuie să ai grijă să reînoiești  scorul de fiecare dată când jucătorul câștigă sau pierde puncte. Aplicația va lua doar scorul curent și va adauga 10 la acesta.
+
+Dacă încă nu ești sigură despre utilizarea variabilelor, să știi că e firesc! Ele sunt foarte greu de înțeles și cea mai bună metodă de a le înțelege este prin utilizarea lor. Tu le vei folosi în provocarea de programare, la sfârșitul acestei secțiuni și, din nou, în următoarele câteva lecții de programare.
+
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3> Exercițiu de Gândire</h3>
+	Alege una dintre aplicațiile preferate și identifică cel puțin trei locuri unde consideri că creatorii aplicației au utilizat variabile.
+
+</div>
+<h2 id="localglobal">Variabile Locale și Globale</h2>
+Posibil că ai fi observat în secțiunea de mai sus că blocul variabilei e zis "global". Există două tipuri de variabile, variabile locale și variabile globale. Atunci când creezi variabile, va trebui să te gândești dacă dorești să utilizezi variabila în mai multe locuri în codul tău, cum ar fi variabila de scor de mai sus, sau dacă dorești să o folosești într-un singur loc.
+
+Variabilele globale pot fi folosite oriunde. Așa cum ai văzut mai sus, a fost nevoie ca variabila scor să fie utilizată de mai multe ori. A fost nevoie să-l folosești atunci când jucătorul a câștigat puncte, atunci când jucatorul a pierdut puncte, și pentru a o afișa în caseta de text. O altă utilzare ar fi fost, de asemenea, pentru tabelul de scor înalt. Nu poți refolosi un nume atunci când utilizezi o variabilă globală. Dacă ai făcut asta, aplicația ta nu va ști ce variabilă să folosească. Din fericire, App Inventor nu-ți va permite să creezi două variabile cu același nume. Dacă nu ești sigură ce tip de variabilă să folosești, utilizează variabila globală.
+<br>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image15.gif" />
+<br>
+Variabilele locale pot fi folosite numai la un singur loc în cod. Dacă  ai nevoie de o variabilă pentru a urmări ceva într-un singur loc, folosește  o variabilă locală. Vei putea folosi variabila locală doar în interiorul blocului "variabila locală" și App Inventor nu-ți va permite să o utilizezi în afara ei. Spre deosebire de variabilele globale, poți să reutilizezi numele variabilelor locale.
+<br>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image34.gif" />
+<br>
+În provocarea de programare, vei vedea exemple când se utilizează variabile globale și când cele locale. Pentru a afla mai multe despre variabilele globale și locale vezi site-ul MIT: <a href="http://appinventor.mit.edu/explore/ai2/support/concepts/variables.html" target="_blank">Variabile Globale și Locale.</a>
+
+<h1 id="lists">Liste</h1>
+În lume este atâta informație, că poate ușor să te zăpăcească! Din fericire, avem modalități de organizare a datelor, astfel încât să le putem găsi și utiliza cu ușurință. Poți să te gândești la careva exemple despre modul în care organizezi informațiile și obiectele din viața ta? Iată câteva exemple despre ce ai putea face pentru a organiza lucrurile:
+<ul>
+ 	<li>Introdu numărul de telefon al unui prieten în lista de contacte</li>
+ 	<li>Pune creioanele într-un penar</li>
+ 	<li>Pune hainele în dulap </li>
+</ul>
+Programatorii folosesc liste pentru a organiza date în programele lor. Listele pot conține mai multe fragmente de date și e ușor sî obții date din ele. Posibil să fi alcătuit mai înainte o listă de lucruri de făcut sau o listă de cumpărături, listele în programare sunt asemănătoare. În App Inventor, poți merge la blocuri și selecta "liste". Iată cum arată ea:
+<br>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/MakeaList.png" alt="makealist" width="160" height="70" />
+ <img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/ItemList.png" alt="itemlist" width="254" height="122" />
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Number-List.png" alt="number-list" width="194" height="119" />
+<br>
+Listele sunt foarte utile pentru a deține o mulțime de informații. Fiecare lucru într-o listă are un indice, un număr care îți spune unde acesta se află în listă. Primul element dintr-o listă va avea un indice de 1, al doilea element dintr-o listă va avea un indice de 2 și așa mai departe. Iată un exemplu:
+<br>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image33.png" alt="fruit list" width="60%" />
+<br>
+Iată cum aplicația vede această informație:
+
+<b>Lista Nume: Fructe</b>
+<ul>
+ 	<li>Mere (Indice = 1)</li>
+ 	<li>Banane (Indice = 2)</li>
+ 	<li>Portocale (Indice = 3)</li>
+</ul>
+Poți obține un lucru dintr-o listă în loc de a folosi întreaga listă. Dacă ai dori să pui doar șirul "banane", într-un textbox în locul întregii liste, ar trebui să-i spui aplicației să se uite la indicele 2 în această listă. Iată cum ai pune "banane", într-un textbox folosind App Inventor, din lista prezentată mai sus:
+<br>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image25.png" width="516" height="60" />
+<br>
+De asemenea, poți să adaugi, să eliminezi și să înlocuiești lucrurile în liste. Să presupunem că ai uitat să adaugi "kiwi" și "struguri" în lista de fructe. Ai putea să le adaugi în felul următor:
+<br>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image37.png" alt="add to list" width="60%" />
+<br>
+Acum aplicația ta va vedea lista astfel:
+
+<b>Lista Nume: Fructe</b>
+<ul>
+ 	<li>Mere (Indice = 1)</li>
+ 	<li>Banane (Indice = 2)</li>
+ 	<li>Portocale (Indice = 3)</li>
+ 	<li>Kiwi (Indice = 4)</li>
+ 	<li>Struguri (Indice = 5)</li>
+</ul>
+Se recomandă să folosești liste de fiecare dată când ai mai multe bucăți de informații pe care dorești să le incluzi sub același nume variabil. De exemplu, dacă vrei să afișezii primele cele mai înalte zece scoruri pentru un joc, ai putea face zece variabile cu nume, cum ar fi HighScore1, HighScore2, HighScore3 și așa mai departe până când ajungi la HighScore10.
+O modalitate mai simplă de a face acest lucru ar fi să creezi o listă numită HighScores care conține cele zece scoruri mari și apoi să le afișezi, utilizând indicii lor. Utilizarea unei liste ți-ar permite, de asemenea, să înlocuiești  și să adaugi mai ușor mai multe scoruri mari și ți-ar economisi o mulțime de timp!
+
+<br>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image05.png" alt="highscore1" width="316" height="214" />
+<br>
+стає:
+<br>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image31.png" alt="highscore2" width="60%" />
+<br>
+Verifică site-ul MIT pentru mai multe informații pe   <u><a href="http://appinventor.mit.edu/explore/ai2/support/blocks/lists.html#string">liste</a></u>
+
+Notă: În multe limbaje de programare, listele sunt numite matrici. și indicii încep de la 0, nu de la 1. Ai grijă să verifici regulile atunci când vei învăța un nou limbaj de programare!
+
+<h1 id="databases">Baze de Date</h1>
+Variabilele sunt foarte bune pentru stocarea informațiilor în timp ce utilizatorul folosește aplicația, însă cum ar fi dacă ți-ai dori să stochezi informații în porțiunea de timp în care utilizatorul deschide și închide aplicația? Poți face acest lucru folosind o bază de date. Bazele de date pot stoca informații pentru o utilizare ulterioară, chiar și atunci când aplicația este închisă! Poți asocia baze de date cu un loc pentru a stoca informații pe care o vei redeștepta mai târziu. Iată câteva exemple de baze de date pe care le poți utiliza în fiecare zi:
+<ul>
+ 	<li>Lista de contact - păstrezi numerele de telefoane a prietenilor, astfel ca să le poți folosi mai târziu</li>
+ 	<li>Aplicația de transmitere a mesajelor – majoritatea aplicațiilor de acest gen păstrează automat mesajele vechi ca să le poți citi încă o dată mai târziu</li>
+ 	<li>Carnet – îți notezi lucruri și le citești mai târziu</li>
+</ul>
+<h3>TinyDB</h3>
+În App Inventor, componenta TinyDB îți permite să salvezi date pe telefonul utilizatorului  care vor fi acolo de fiecare data când el/ea se va conecta la aplicația ta. Este important de știut că TinyDB îți permite să stochezi date doar la nivel local. Aceasta înseamnă că doi utilizatori nu pot partaja date cu aceeași TinyDB. Atunci când un utilizator stochează date în TinyDB, acestea vor fi disponibile numai pe telefonul ei, și nicidecum pe telefonul altcuiva. Vei invața cum să partajezi informații între telefoane în <a href="http://www.technovationchallenge.org/curriculum/code-4/" target="_blank" rel="noopener">Cod 4: Using Mobile Features and Connecting to the Web.</a>
+
+Pentru a utiliza TinyDB, trage-l pe ecran în partea de designer a App Inventor. Îl poți găsi în meniul de stocare. Acesta va apărea ca o componentă de bază non vizibilă și va arăta astfel:
+<br>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image36.png" alt="TinyDB" width="25%" />
+<br>
+Poti vorbi cu TinyDB prin efectuarea de apeluri către acesta. Atunci când faci un apel, poți stoca lucruri și poți lua lucrurile de acolo. Stocarea de date în TinyDB se face dându-i o etichetă. Eticheta este un nume pe care îl vei folosi pentru a prelua datele. Este foarte asemănător cu un nume de variabilă. Dacă folosești același nume de etichetă pentru a stoca date de două ori, baza de date va suprascrie, sau șterge, datele vechi cu noile date. Acest lucru poate fi util când ai nevoie să actualizezi ceea ce este în baza de date, dar să ai grijă niciodată să nu repeți numele etichetei altfel! Iată câteva exemple despre cum să efectuezi apeluri către TinyDB:
+<br>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image04.png" alt="TinyDB store global fruits" width="60%" />
+ <img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Screen-Shot-2016-09-23-at-3.24.29-PM.png" alt="screen-shot-2016-09-23-at-3-24-29-pm" />
+<br>
+<p>Primul bloc arată cum se păstrează valorile în TinyDB. În acest caz, am păstrat lista noastră de fructe de mai devreme, cu eticheta "Alimente". Al doilea bloc arată modul cum să extragi lista de fructe din baza de date. Eticheta trebuie să fie scrisă exact așa cum a fost atunci când datele au fost stocate, inclusiv cu majuscule.</p>
+<p>Pentru a înțelege acest lucru mai bine, să mergem printr-un exemplu. Să presupunem că ai nevoie să stochezi trei informații într-o bază de date pentru utilizare ulterioară. Una dintre ele este lista noastră de fructe din ultima secțiune, alta e vârsta ta, iar a treia - o listă de lucruri de făcut. Faci trei apeluri la baza de date, ca în exemplu:</p>
+
+
+&nbsp;
+<table width="936" cellspacing="0" cellpadding="7">
+<tbody>
+<tr valign="top">
+	<td bgcolor="#ffffff" width="33%"><img class="" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image04.png" alt="TinyDB store global fruits" width="284" height="64" /></td>
+	<td bgcolor="#ffffff" width="33%"><img class="" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image00-1.png" alt="Tiny DB my age" width="300" height="81" /></td>
+	<td bgcolor="#ffffff" width="33%"><img class="" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image24.png" alt="TinyDB store favorites list" width="294" height="78" /></td>
+
+Acum ai trei intrări în baza ta de date, și ele arată așa:
+Nume Etichetă: “Alimente”
+Date:
+
+<ul>
+ 	<li>“Mere” (indice = 1)</li>
+ 	<li>“Bananane” (indice =2)</li>
+ 	<li>“Portocale” (indice = 3)</li>
+</ul>
+</td>
+<td bgcolor="#ffffff" width="34%"><img class="" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image00-1.png" alt="Tiny DB my age" width="300" height="81" /></td>
+</tr>
+<tr>
+	<td>
+TNume Etichetă: “VârstaMea”
+Date:
+ <ul>
+ 	<li>16</li>
+ </ul>
+ </td>	
+</tr>
+<tr>
+
+<td bgcolor="#ffffff" width="33%"><img class="" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image24.png" alt="TinyDB store favorites list" width="294" height="78" /></td>
+</tr>
+<tr>
+<td>
+Nume Etichetă: “Favorit”
+Date:
+
+<ul>
+ 	<li>“Învăț cum să codific” (indice = 1)</li>
+ 	<li>“Visitez Familia” (indice = 2)</li>
+ 	<li>“Ascult Muzică” (indice =3)</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+Acum, când vei dori să recuperezi lista lucrurilor de făcut, vei face un apel ca acesta:
+<br>
+<p><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image26.png" alt="TinyDB favorites value not tagged" width="371" height="98" /></p>
+<br>
+<p>Atunci când vei utiliza acest bloc vei primi "Învăț cum să Codific Vizitez Familia Ascult Muzică". Să presupunem  acum că dorești să preiai vârsta, deci vei face un apel ca acesta:</p>
+<br>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image12.png" alt="TinyDB my age value tag if not there" width="351" height="96" />
+<br>
+Când utilizezi acest bloc, obții doar un șir gol: "  ". Acest lucru se întâmplă pentru că eticheta "vârstamea" nu există în baza de date! Cu toate acestea, eticheta "VârstaMea" există. Din moment ce baza de date nu a recunoscut eticheta, aceasta te-a întors înapoi pentru a-ți arăta blocul de lângă "valueIfTagNotThere", care este un șir gol. Poți face ca acest șir să spună orice vrei. Poți chiar să-l faci un mesaj de eroare către utilizatorul tău.
+
+Dacă creezi o aplicație cu mai multe ecrane (cum ar fi aplicația slideshow), componentele și variabilele nu vor fi în măsură să vorbească unul cu altul între fiecare ecran. Va fi nevoie să folosești un TinyDB pentru a transfera informații de la un ecran al aplicației la altul. Accesează această pagină pentru mai multe informații: <a href="http://appinventor.mit.edu/explore/ai2/concepts.html#Screens" target="_blank">MIT Screens</a>
+
+Felicitări!  Ai finalizat tot conținutul în această secțiune! Au fost multe informații, așa că e în regulă dacă nu înțelegi totul chiar acum. Poți oricând reveni la această secțiune pentru referințe, atunci când creezi aplicația. Codul Provocarea este menit să includă tot ceea ce ai invățat până acum, așa că încearcă!
+
+<h1 id="challenge">Provocare - Cod 2: Crează o Listă de Lucruri de Făcut</h1>
+Descriere: Crează o listă de lucruri de făcut, care permite utilizatorilor să introducă și să elimineze itemi. Aplicația ar trebui să-și amintească de itemi de fiecare dată când utilizatorul deschide aplicația. Posibil vei dori să înveți cum să folosești un  <a href="http://ai2.appinventor.mit.edu/reference/components/userinterface.html#ListView" target="_blank">ListView</a> (vizualizare listă) înainte de a încerca provocarea!
+
+Depune tot efortul în această provocare și încearcă să te descurci pe cont propriu, fără a citi instrucțiunile. Nu uita, aceste instrucțiuni prezintă doar un mod de rezolvare a provocării! Mai poți, de asemenea,  descărca aplicația noastră exemplu în Magazinul Play Google. Succes la programare!
+&nbsp;
+<p style="text-align: center;"><strong><a href="http://www.technovationchallenge.org/curriculum/code-2-challenge/" target="_blank">VEZI INSTRUCȚIUNILE</a></strong></p>
+<p style="text-align: center;"><strong><a href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.ToDoList&amp;hl=en" target="_blank">DESCARCĂ  EXEMPLU APP </a></strong></p>
+&nbsp;
+<div style="background-color: #006667; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h1 id="reflect" style="color: white;">Reflectează</h1>
+	În această lecție, am reușit mult! Ai invatat despre diferitele tipuri de date și moduri diferite de a le stoca și de a le organiza. Iată câteva întrebări de reflecție pentru a discuta cu mentorul tau:
+
+	<p><strong>Q1:</strong> În ce fel informația învățată în această lecție schimbă modul în care vezi aplicațiile pe care le utilizezi în fiecare zi?</p>
+
+	<p><strong>Q2:</strong> Care sunt unele lucruri din această lecție care crezi că vor fi utile în crearea aplicației tale?</p>
+
+	În această secțiune ai învățat următoarele cuvinte cheie:
+	<ul>
+	 	<li>Date - Informații pe care le folosește aplicația</li>
+	 	<li>Tip de Date – Felul de clasificare a datelor</li>
+	 	<li>Număr – Tip de date care este un număr</li>
+	 	<li>Șir – Tip de date care este text</li>
+	 	<li>Boolean – Tip de date care este adevărat sau fals</li>
+	 	<li>Variabilă -  Un nume pentru un fragment de date care poate să se schimbe</li>
+	 	<li>Variabilă Globală- O variabilă care poate fi utilizată în oricare punct în codul tău</li>
+	 	<li>Variabilă Locală - O variabilă care se folosește doar într-o secțiune anumită a codului</li>
+	 	<li>List – Un mod de organizare a multiplelor fragmente de date</li>
+	 	<li>Indice de List - Un număr care reprezintă unde se află datele într-o listă</li>
+	 	<li>Bază de Date – Un loc de stocare și organizare a informației</li>
+	</ul>
+	<h1><span style="color: #ffffff;">Resurse Adiționale</span></h1>
+	Iată câteva resurse suplimentare despre baze de date. Le poți folosi acum sau când vei avea nevoie de ajutor în crearea aplicației! 	
+	<ul>
+	 	<li><a style="color: #eae46f;" href="https://drive.google.com/a/iridescentlearning.org/file/d/0B3rEYL3DkWfAd003UmM2cl9ITDg/view" target="_blank">TinyDB101</a></li>
+	 	<li><a style="color: #eae46f;" href="https://drive.google.com/a/iridescentlearning.org/file/d/0B3rEYL3DkWfAZUVQVGxPZzdXTXc/view" target="_blank">TinyDB102</a></li>
+	</ul>
+</div>

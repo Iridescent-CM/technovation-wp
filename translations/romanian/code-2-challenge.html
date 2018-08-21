@@ -1,0 +1,140 @@
+<h1>Provocare - Cod 2</h1>
+<h1><strong>Crează o Listă de Lucruri de Făcut </strong> </h1>
+<ul>
+ 	<li><a href="#design">Proiectarea ecranului</a></li>
+ 	<li><a href="#blocks">Adăugare de lucruri pe listă </a></li>
+ 	<li><a href="#check1">Punct de Verificare #1</a></li>
+ 	<li><a href="#delete">Anularea întrărilor </a></li>
+ 	<li><a href="#check2">Punct de Verificare #2</a></li>
+ 	<li><a href="#reset">Butonul Pauză </a></li>
+ 	<li><a href="#check3">Punct de verificare #3</a></li>
+ 	<li><a href="#tinyDB">Programarea TinyDB</a></li>
+ 	<li><a href="#final">Punct Final de Verificare</a></li>
+</ul>
+<h3><strong>Descriere</strong></h3>
+Crează o listă de lucruri de făcut, care permite utilizatorilor să introducă și să elimineze itemi. Aplicația ta ar trebui să-și amintească itemii de fiecare dată când utilizatorul deschide aplicația. Posibil vei dori să înveți cum să folosești un  <a href="http://ai2.appinventor.mit.edu/reference/components/userinterface.html#ListView" target="_blank">ListView</a> (vizualizare listă) înainte de a încerca provocarea!!
+
+Vezi exemplul nostru de aplicație aici:  <a href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.ToDoList" target="_blank">Technovation Provocare #2</a>
+
+Depune tot efortul în această provocare și încearcă să te descurci pe cont propriu, fără a citi instrucțiunile. Nu uita, aceste instrucțiuni prezintă doar un mod de rezolvare a provocării. Succes la programare!
+
+<h3 id="design"><strong>Proiectarea Ecranului</strong></h3>
+Noi am creat o aplicație care permite utilizatorului să adauge lucruri pe listă, să ia lucrurile de pe listă, să salveze lista, și să reseteze lista. Toate acestea necesită ca pe ecran să fie trei butoane: unul pentru a introduce elemente în listă, unul pentru a salva itemii utilizatorului pentru data viitoare, și un buton de resetare, care va șterge lista.
+
+<ol>
+ 	<li>Adaugă o etichetă pe ecran pentru a spune utilizatorului ce să facă.</li>
+ 	<li>Adaugă un textbox în care utilizatorul va putea întroduce itemii din lista de făcut.</li>
+ 	<li>Adaugă un buton pe care utilizatorul va face clic odată intrat în itemii din lista de făcut.
+<ol>
+ 	<li style="font-weight: 400;" type="a">Noi am redenumit acest buton "Enter", astfel încât să ne putem aminti ce funcție are atunci când vom programa blocurile noastre!</li>
+</ol>
+</li>
+	<li>Adaugă ListView pe ecranul tău. Iată cum utilizatorul va vedea lista  de lucruri de făcut.
+		<ol>
+			<li style="font-weight: 400;">	Noi am stabilit înălțimea și lățimea  după ‘Fill Parent’ dar tu ar trebui să-ți proiectezi ecranul după placul tău.</li>
+			<li style="font-weight: 400;">Fă clic aici pentru a învăța mai multe despre cum să folosești   <a href="http://ai2.appinventor.mit.edu/reference/components/userinterface.html#ListView" target="_blank">ListView</a> </li>
+		</ol>	
+ 	</li>
+
+ 	<li style="font-weight: 400;" >Adaugă pe ecranul tau un  buton de salvare pentru a păstra lista de lucruri de făcut într-o bază de date și un buton de resetare pentru a elimina lista.  
+ 		<ol>
+ 			<li style="font-weight: 400;">Noi am redenumit aceste butoane ‘Save’ și ‘Reset’.</li>
+ 		</ol>	
+
+ 	<li>Opțional: Noi am adăugat două aranjamente orizontale pentru a organiza configurația noastră, dar tu poți organiza ecranul oricum dorești</li>
+
+</ol>
+
+<img style="border: 1px solid #cccccc;" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image07-1024x552.png" alt="steps 1-6" width="1024" height="552" />
+<ol start="7">
+ 	<li style="font-weight: 400;">Adaugă un TinyDB din meniul de stocare. Atunci când îl vei trage pe ecran, acesta va apărea ca o ‘componentă non-vizibilă’.</li>
+</ol>
+<img style="border: 1px solid #cccccc;" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image06-1024x555.png" alt="step 7" width="1024" height="555" />
+
+&nbsp;
+<h3 id="blocks"><strong>Adăugare de lucruri pe listă</strong> </h3>
+Aplicația noastră afișează intrări pe care utilizatorul le întroduce prin stocarea datelor într-o listă de variabilă și apoi prin afișarea lor folosind ListView. Noi am făcut aceasta prin crearea unei liste de variabile numită elemente. Atunci când utilizatorul nostru apasă butonul enter, noi adăugăm tot ce este în textbox la elementele din listă și le afișăm în ListView.
+<ol>
+ 	<li style="font-weight: 400;">1.	Crează o variabilă numită elemente care va conține toate datele din lista de făcut. Lansează variabila ca o listă goală, deoarece utilizatorul nu a introdus încă nici un fel de date.</li>
+ 	<li style="font-weight: 400;">2.	Apucă blocul <strong> button.click</strong> pentru butonul tău enter.</li>
+ 	<li style="font-weight: 400;">3.	Ia blocul <strong>add items to list </strong>(adaugă elemente la listă) din <strong>Liste.</strong> Pune-l inăuntru la handlerul de evenimente <strong>enter.click.</strong></li>
+ 	<li style="font-weight: 400;">4.	Pune elemente pentru nume de listă și <strong>TextBox1.Text</strong> ca element care trebuie adăgat la listă.</li>
+ 	<li style="font-weight: 400;">5.	Apucă blocul set ListView1.Elements to și pune-l sub blocul<strong> add items to list.</strong></li>
+ 	<li style="font-weight: 400;">6.	Adaugă elementele  variabile la blocul set<strong> ListView1.Elements</strong> to.</li>
+ 	<li style="font-weight: 400;">7.	Opțional: Pentru a face aplicația noastră mai simplă în utilizare, noi am ascuns tastatura noastră atunci când utilizatorul a apăsat butonul enter. Pentru a face acest lucru, fă clic pe TextBox1 și apucă blocul<strong> TextBox1.HideKeyboard</strong>.</li>
+</ol>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image08-1024x438.png" alt="blocks steps 1-7" width="898" height="236" />
+
+<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px">
+	<h3 id="check1"><strong>Punct de Verificare #1</strong> </h3>
+	Verifică dacă ceea ce ai construit până acum funcționează! Conectează telefonul tău sau emulatorul și testează aplicația. Atunci când întroduci ceva în caseta de text și apeși butonul enter textul ar trebui să apară mai jos în ListView. Dacă aplicația nu funcționează, întoarce-te și caută erorile pe care trebuie să le repari înainte de a trece mai departe. Apelează la ajutorul mentorului sau coechipierilor tăi pentru a solicita ajutor.
+</div>
+
+<h3 id="delete"><strong>Anularea Intrărilor din Listă</strong></h3>
+Utilizatorii noștri pot șterge ceva din lista de lucruri de făcut odată ce au terminat sarcina sau nu o mai doresc acolo, făcând clic pe ea în ListView.
+Am făcut acest lucru prin crearea unei variabile numite indice. Aceasta este o variabilă locală, deoarece am avut nevoie de ea într-un singur loc în cod. Am stabilit indicele de variabilă să fie cel selectat de utilizator în ListView. Apoi am folosit indice pentru a-i spune aplicației ce să elimineze din elementele listei. După care ListView este actualizat, deoarece lista de elemente s-a modificat.
+
+<ol>
+ 	<li style="font-weight: 400;">Apucă blocul  <strong>ListView1.AfterPicking</strong>.</li>
+ 	<li>Crează o variabilă locală numită indice și setează orice cu ce vrei să începi. Noi am setat la zero.</li>
+ 	<li>Ia blocul de variabilă  <strong>set ‘name’ to </strong>și setează-l la indicele variabilei.</li>
+ 	<li style="font-weight: 400;">Atașază blocul care spune <strong> index is list, thing, list.</strong></li>
+ 	<li style="font-weight: 400;">Atribuie <strong>thing</strong> să fie <strong>ListView1.Selection</strong> și <strong>list</strong> să fie lista de elemente.</li>
+ 	<li>Apucă <strong>remove list item block</strong> și pune-l înăuntrul blocului tău de variabile locale.</li>
+ 	<li>Setează variabilele tale de elemente să fie <strong> lista</strong> și variabilele de indicii să fie <strong>indice</strong>”.</li>
+ 	<li>Pune blocul set<strong> ListView1.Elements </strong> to dedesuptul blocului de variabile portocaliu și conectează la el variabilele de elemente. .</li>
+</ol>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Blocks2.png" alt="blocks2" width="2276" height="753" />
+
+<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px">
+	<h3 id="check2"><b>Punctul de Verificare #2</b></h3>
+	E timpul să verifici dacă aplicația ta funcționează! Conectează telefonul tău sau emulatorul și testează. Acum, la utilizarea aplicației ar trebui să poți atinge eleméntele pe care le-ai introdus în lista de lucruri de făcut pentru a le șterge. Dacă aplicația nu merge,  întoace-te înapoi și verifică codul. Încearcă să urmărești niște tutoriale ListView sau aplelează la mentor sau coechipierii tăi pentru a le cere ajutor!
+</div>
+
+<h3 id="reset"><strong>Programarea butonului reset </strong> </h3>
+Pentru ca aplicația noastră să fie mai simplă în utilizare, am adaugat un buton de resetare care șterge toate intrările din lista de lucruri de făcut. Am programat ca butonul nostru de resetare să schimbe elementele listei înapoi la o listă goală atunci când utilizatorul va apăsa pe acest buton. Apoi, am actualizat ListView pentru a afișa conținuturile noi goale a listei de elemente.
+<ol>
+ 	<li style="font-weight: 400;">Apucă  blocul <strong> when button.click</strong> pentru butonul tău de resetare.</li>
+ 	<li style="font-weight: 400;">Ia blocul de variabile <strong> set ‘name’ to</strong> și selectează lista ta de elemente</em></li>
+ 	<li style="font-weight: 400;">Atașază un bloc<strong>create empty list</strong>”.</li>
+ 	<li style="font-weight: 400;">Apucă blocul set <strong>ListView1.Elements</strong> to și atașază blocul get items variable (ia variabilele de elemente).</li>
+</ol>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image02-1-1024x297.png" alt="Reset steps 1-4" width="678" height="197" />
+
+<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px">
+	<h3 id="check3"><strong>Punct de Verificare #3</strong> </h3>
+	Asigură-te că butonul reset funcționează! Conectează telefonul tău sau emulatorul și testează. După ce ai întrodus ceva în lista de lucruri de făcut, ar trebui să poți reseta, apăsând pe buton, pentru a goli lista. Apelează la mentor sau coechipierii tăi pentru a le cere ajutor!
+</div>
+
+<h3 id="tinyDB"><strong>Programarea TinyDB</strong> </h3>
+Atunci când utilizatorul nostru închide aplicația, lista de lucruri de făcut  este salvată pentru data viitoare. Am programat ca butonul nostru "save" să apeleze la baza de date (TinyDB) și să salveze lista de articole. Baza de date memorează lista utilizatorului exact cum este în acel moment și o păstrează acolo pentru data viitoare.
+<ol>
+ 	<li>Apucă blocul<strong> when button.Click</strong> pentru butonul tău ‘save’.</li>
+ 	<li>Adaugă blocul  “<strong>call TinyDB1.StoreValue</strong>”.</li>
+ 	<li>Adaugă un nume de etichetă.</li>
+ 	<li>Adaugă variabila de elemente la"<strong>valueToStore</strong>".</li>
+</ol>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image01-1024x315.png" alt="TinyDB steps 1-4" width="809" height="249" />
+<br>
+La pornire, aplicația noastră verifică baza de date pentru a vedea dacă există orice liste salvate anterior. Pentru a face acest lucru, am folosit blocul “<strong>when Screen1.Initialize</strong>”. care va funcționa când va porni Screen1. Am setat lista noastră de elemente la orice se găsește în baza de date sub numele de eichetă "ListData". În cazul în care nu există date stocate, i-am spus aplicației noastre să creeze o listă goală, sau listă de lucruri de făcut goală. După care, aplicațiia va afișa ce se află în variabila de elemente, care acum sunt fie date stocate fie o listă goală.
+<ol>
+ 	<li>Apucă blocul  “<strong>when Screen1.Initialize</strong>”.</li>
+ 	<li>Apucă blocul <strong>set ‘variable name’ to </strong>și setează variabila să fie lista ta de elemente.</li>
+ 	<li>Apelează la baza de date folosind blocul  “<strong>call TinyDB1.GetValue</strong>”.</li>
+ 	<li>Întrodu numele de etichetă pe care l-ai folosit pentru a salva lista pentru etichetă. </li>
+ 	<li>Pune blocul <strong>create empty list</strong>” la <strong> “valueIfTagNotThere”.</strong></li>
+ 	<li>Apucă blocul <strong>set ListView1.Elements to</strong> și atașază-l la variabilele de elemente.</li>
+</ol>
+
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image18-1024x321.png" alt="TinyDB steps 1-6" width="986" height="309" />
+
+<div style="background-color:#28a880; color:white; padding:25px; margin-top:25px; margin-bottom:25px">
+	<h3 id="final"><strong>Punct Final de Verificare</strong></h3>
+	E timpul să verifici dacă aplicația ta funcționează! Pornește aplicația și întrodu ceva în lista de făcut. Apasă butonul ‘save’, închide toate aplicațiile de ghidare din telefon sau emulator. Deschide aplicația și verifică dacă s-au salvat întrările. Dacă nu,  întoace-te înapoi și verifică dacă nu ai erori în cod. Urmărește ca numele de etichetă să corespundă întocmai, inclusiv majusculele.  Dacă totul funcționează, provocarea ți-a reușit! Felicitări!
+
+	Ești încă blocată? Descarcă codul nostru sursă. Aici sunt  <strong><a style="color: #eae46f;" href="http://appinventor.mit.edu/explore/ai2/share.html" target="_blank" style="color:#eae46f">instrucțiuni</a> </strong>cum să le descarci și să le folosești. .
+
+	<a href="https://drive.google.com/file/d/0B9HV58UviqU_a2lTVFdUb0hGbGM/view?usp=sharing" target="_blank" style="color:#eae46f"><strong>
+	DESCARCĂ COD SURSĂ
+	</strong></a>
+</div>
