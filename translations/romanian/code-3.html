@@ -1,4 +1,3 @@
-<h1><span style="font-weight: 400">Cod 3: Logică, Repetiție, și Condiții</span></h1>
 <ul>
  	<li><a href="#conditions">Condiții</a></li>
  	<li><a href="#ifelse">Instrucțiuni If/Else</a></li>
@@ -17,10 +16,10 @@
 <h3><strong>Obiective de Învățare:</strong>:</h3>
 În această lecție, vei
 <ul>
- 	<li>●	Învăța despre instrucțiuni condiționale și cum să le scrii</li>
- 	<li>●	Învăța cum să foloseștii operatorii de logică din codul tău</li>
- 	<li>●	Învăța cum să folosești ciclurile for și while </li>
- 	<li>●	Crea o aplicație care caută o bază de date</li>
+ 	<li>● Învăța despre instrucțiuni condiționale și cum să le scrii</li>
+ 	<li>● Învăța cum să foloseștii operatorii de logică din codul tău</li>
+ 	<li>● Învăța cum să folosești ciclurile for și while</li>
+ 	<li>● Crea o aplicație care caută o bază de date</li>
 </ul>
 Înainte de a începe această lecție, să trecem în revistă câteva concepte din lecțiile de programare anterioare de care vei avea nevoie:
 <ul>
@@ -29,61 +28,54 @@
  	<li>Handlere de Evenimente spun aplicației ce să facă atunci când se întâmplă ceva.</li>
  	<li>Variabilele sunt nume pentru fragmente de date care se pot schimba.</li>
 </ul>
-Încearcă acest joc distractiv <a href="https://www.madewithcode.com/projects/robots" target="_blank">Made With Code Robot</a> înainte de a începe această secțiune. El te va ajuta să te familiarizezi cu conceptele pe care le vei învăța. Dacă nu te pricepi la toate cele cinci niveluri acum, încearcă să revii la el după ce vei fi terminat această secțiune!
-
+Încearcă acest joc distractiv <a href="https://www.madewithcode.com/projects/robots" target="_blank" rel="noopener">Made With Code Robot</a> înainte de a începe această secțiune. El te va ajuta să te familiarizezi cu conceptele pe care le vei învăța. Dacă nu te pricepi la toate cele cinci niveluri acum, încearcă să revii la el după ce vei fi terminat această secțiune!
 <h2 id="conditions"><strong>Condiții</strong></h2>
-Până acum ai folosit handlere de evenimente de multe ori! În ultimele două provocări de programare, atunci când utilizatorul a apăsat un buton, aplicația a făcut ceva. De exemplu, în aplicația pe care ai făcut-o în<a href = "https://technovationchallenge.org/curriculum/code-2-challenge/" target = "_blank"> Provocare – Cod 2</a>,  butonul enter a adăugat elemente la o listă de lucruri de făcut. Evenimentul a fost utilizatorul, apăsând “enter” și aplicația a gestionat prin adăugarea unui text al utilizatorului la lista de lucruri de făcut. Codul pentru aplicația ta a lucrat în felul următor:<br>
+Până acum ai folosit handlere de evenimente de multe ori! În ultimele două provocări de programare, atunci când utilizatorul a apăsat un buton, aplicația a făcut ceva. De exemplu, în aplicația pe care ai făcut-o în<a href="https://technovationchallenge.org/curriculum/code-2-challenge/" target="_blank" rel="noopener"> Provocare – Cod 2</a>, butonul enter a adăugat elemente la o listă de lucruri de făcut. Evenimentul a fost utilizatorul, apăsând “enter” și aplicația a gestionat prin adăugarea unui text al utilizatorului la lista de lucruri de făcut. Codul pentru aplicația ta a lucrat în felul următor:
 
-<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Enter-Pressed1-533x1024.png" alt="enter-pressed1" width="99" height="189" /><br>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Enter-Pressed1-533x1024.png" alt="enter-pressed1" width="99" height="189" />
 
 Este posibil să fi observat în exemplul aplicației noastre sau în propria aplicație a listei lucrurilor de făcut, că utilizatorul poate adăuga o casetă goală în listă. Datorită acestui fapt, utilizatorul ar putea avea o listă foarte lungă cu nimic în ea!
 
 Să admitem că nu ai vrea ca utilizatorul să poată adăuga o cutie goală la listă. Așa că, de fiecare dată când utilizatorul apasă enter, scrii codul pentru a întreba aplicația ta "a introdus utilizatorul text"? Dacă răspunsul este afirmativ, atunci aplicația adaugă textul la lista lucrurilor de făcut. În cazul în care răspunsul este nu, atunci aplicația nu va adăuga textul. Acum codul tau arată aproximativ așa:
-<br>
+
 <img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Enter-Pressed2-352x1024.png" alt="enter-pressed2" width="142" height="411" />
-<br>
+
 În cazul acesta, "do this" înseamnă "adaugă text", și "do that" înseamnă "nu adăuga nimic". Aceasta este o modalitate foarte bună de a remedia problema, dar nu uita că computerele nu pot gândi de sine stătător, deci nu le poți pune întrebări în mod direct, cum ai întreba o persoană.
 
-În programare, atunci când dorești să-i pui aplicației o întrebare, o programezi pentru a verifica o condiție. O condiție este ceva ce un computer determină să fie adevărat sau fals. Adevărat corespunde cu răspunsul da și fals corespunde răspunsului nu. Îi poți spune aplicației să facă lucruri diferite, în funcție dacă condiția este adevărată sau falsă. Iată cum ai întreba aplicația dacă utilizatorul a introdus text,  utilizând o condiție:
+În programare, atunci când dorești să-i pui aplicației o întrebare, o programezi pentru a verifica o condiție. O condiție este ceva ce un computer determină să fie adevărat sau fals. Adevărat corespunde cu răspunsul da și fals corespunde răspunsului nu. Îi poți spune aplicației să facă lucruri diferite, în funcție dacă condiția este adevărată sau falsă. Iată cum ai întreba aplicația dacă utilizatorul a introdus text, utilizând o condiție:
 
-<br>
-<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Enter-Pressed3-343x1024.png" alt="enter-pressed3" width="152" height="455" /><br>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Enter-Pressed3-343x1024.png" alt="enter-pressed3" width="152" height="455" />
 
-Îți amintești de tipul de date Boolean din Codul 2 <a href="http://technovationchallenge.org/curriculum/programacion-2-datos-y-variables/?lang=es" target = "_blank">Cod 2: Date and Variabile?</a> Booleane sunt un tip de date care pot fi adevărate sau false. Atunci când aplicația evaluează o condiție, aceasta emite un boolean!
-
-
-<h2><strong>Instrucțiuni Condiționale</strong> </h2>
-<h5 id="ifelse">Instrucțiuni If/Else </h5>
-Deci, acum știi ce este o condiție, dar cum o utilizezi în programare? În programare, ceri ca calculatorul să evalueze condițiile scriind instrucțiuni condiționale. Instrucțiunile condiționale sunt modul în care computerele pot lua decizii. Instrucțiunile condiționale au întotdeauna o parte If, care îi spune aplicației ce să facă atunci când condiția este adevărată. De asemenea, instrucțiunile condiționale au, de regulă, o parte else, care îi spune aplicației ce să facă atunci când condiția este falsă. Dacă omiți partea else, atunci aplicația nu va face nimic atunci când condiția este falsă. Acum codul pentru butonul enter ar arăta aproximativ așa: <br>
+Îți amintești de tipul de date Boolean din Codul 2 <a href="http://technovationchallenge.org/curriculum/programacion-2-datos-y-variables/?lang=es" target="_blank" rel="noopener">Cod 2: Date and Variabile?</a> Booleane sunt un tip de date care pot fi adevărate sau false. Atunci când aplicația evaluează o condiție, aceasta emite un boolean!
+<h2><strong>Instrucțiuni Condiționale</strong></h2>
+<h5 id="ifelse">Instrucțiuni If/Else</h5>
+Deci, acum știi ce este o condiție, dar cum o utilizezi în programare? În programare, ceri ca calculatorul să evalueze condițiile scriind instrucțiuni condiționale. Instrucțiunile condiționale sunt modul în care computerele pot lua decizii. Instrucțiunile condiționale au întotdeauna o parte If, care îi spune aplicației ce să facă atunci când condiția este adevărată. De asemenea, instrucțiunile condiționale au, de regulă, o parte else, care îi spune aplicației ce să facă atunci când condiția este falsă. Dacă omiți partea else, atunci aplicația nu va face nimic atunci când condiția este falsă. Acum codul pentru butonul enter ar arăta aproximativ așa:
 
 <img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Enter-Pressed4-550x1024.png" alt="enter-pressed4" width="262" height="488" />
-<br>
-Here is what conditional statements look like in App Inventor:
-<br>
-<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Screen-Shot-2016-11-01-at-12.05.58-PM.png" alt="screen-shot-2016-11-01-at-12-05-58-pm" width="254" height="161" />
-<br>
-Iată cum funcționează aceste blocuri. Ai pus o condiție la if. Ai pus codul pentru ceea ce aplicația ta ar trebui să facă în cazul în care condiția este adevărată lângă then și ceea ce dorești ca aplicația să facă dacă condiția este falsă lângă else. Dacă condiția este adevărată, va rula doar codul de lângă then și  codul de lângă else va fi ignorat. Dacă condiția  este falsă, codul de lângă then va fi ignorat, iar codul de lângă else va rula. Această idee poate fi exprimată mai simplu așa "Dacă (If) această condiție este adevărată, atunci fă acest lucru, altfel (else) fă acest lucru".
 
-Să ne întoarcem la exemplul folosit din <a href="http://technovationchallenge.org/curriculum/programacion-2-datos-y-variables/?lang=es" target = "_blank">Provocare - Cod 2.</a> Așa arată condiționalele completate.
-<br>
+Here is what conditional statements look like in App Inventor:
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Screen-Shot-2016-11-01-at-12.05.58-PM.png" alt="screen-shot-2016-11-01-at-12-05-58-pm" width="254" height="161" />
+
+Iată cum funcționează aceste blocuri. Ai pus o condiție la if. Ai pus codul pentru ceea ce aplicația ta ar trebui să facă în cazul în care condiția este adevărată lângă then și ceea ce dorești ca aplicația să facă dacă condiția este falsă lângă else. Dacă condiția este adevărată, va rula doar codul de lângă then și codul de lângă else va fi ignorat. Dacă condiția este falsă, codul de lângă then va fi ignorat, iar codul de lângă else va rula. Această idee poate fi exprimată mai simplu așa "Dacă (If) această condiție este adevărată, atunci fă acest lucru, altfel (else) fă acest lucru".
+
+Să ne întoarcem la exemplul folosit din <a href="http://technovationchallenge.org/curriculum/programacion-2-datos-y-variables/?lang=es" target="_blank" rel="noopener">Provocare - Cod 2.</a> Așa arată condiționalele completate.
 
 <img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/if-statement.png" alt="if-statement" width="463" height="243" />
-<br>
-Aici, atunci când utilizatorul face clic pe butonul "enter" aplicația va evalua această condiție: "lungimea șirului introdus în caseta de text nu este egală cu zero". Dacă această condiție este adevărată (lungimea șirului nu este egal cu zero), aceasta înseamnă că utilizatorul a introdus text, astfel încât aplicația va adăuga text la o listă. În cazul în care condiția este falsă (lungimea șirului este egală cu zero), atunci aplicația ignoră tot codul care se află lângă then și trece la else, care notifică utilizatorul "Introduceți un text!".
 
+Aici, atunci când utilizatorul face clic pe butonul "enter" aplicația va evalua această condiție: "lungimea șirului introdus în caseta de text nu este egală cu zero". Dacă această condiție este adevărată (lungimea șirului nu este egal cu zero), aceasta înseamnă că utilizatorul a introdus text, astfel încât aplicația va adăuga text la o listă. În cazul în care condiția este falsă (lungimea șirului este egală cu zero), atunci aplicația ignoră tot codul care se află lângă then și trece la else, care notifică utilizatorul "Introduceți un text!".
 <div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
-	<h3 id="act1"><strong>Activitate 1</strong></h3>
-	Te poți gândi la niște instrucțiuni condiționale pe care le utilizezi pentru a lua decizii în fiecare zi? Iată câteva exemple:
-	<ul>
-	 	<li>Dacă plouă, apoi să iei o umbrelă cu tine</li>
-	 	<li>Dacă ți-I foame, apoi ia o gustare, altfel așteaptă până mai târziu</li>
-	 	<li>Dacă este frig afara, apoi adă o jachetă</li>
-	 	<li>Dacă ești bolnav, atunci du-te la doctor, altfel mergi la școală</li>
-	 	<li>Dacă telefonul este descărcat, atunci încarcă-l</li>
-	 	
-	</ul>
+<h3 id="act1"><strong>Activitate 1</strong></h3>
+Te poți gândi la niște instrucțiuni condiționale pe care le utilizezi pentru a lua decizii în fiecare zi? Iată câteva exemple:
+<ul>
+ 	<li>Dacă plouă, apoi să iei o umbrelă cu tine</li>
+ 	<li>Dacă ți-I foame, apoi ia o gustare, altfel așteaptă până mai târziu</li>
+ 	<li>Dacă este frig afara, apoi adă o jachetă</li>
+ 	<li>Dacă ești bolnav, atunci du-te la doctor, altfel mergi la școală</li>
+ 	<li>Dacă telefonul este descărcat, atunci încarcă-l</li>
+</ul>
 </div>
-<h5 id="elseif">Instrucțiuni Else If </h5>
+<h5 id="elseif">Instrucțiuni Else If</h5>
 Până în prezent, ai învățat cum să scrii instrucțiuni condiționale care să evalueze o condiție și să aibă două rezultate posibile. În această secțiune vei învăța cum să scrii instrucțiuni condiționale care să evalueze mai mult de o condiție și să aibă mai mult de două rezultate posibile.
 Else if iți permite să adaugi o altă condiție pentru instrucțiunea ta condițională. Această a doua condiție va fi evaluată după prima condiție și numai în cazul în care prima condiție este falsă. Dacă condiția a doua este de asemenea falsă, atunci aplicația va returna la else sau nu va face nimic. In diagrama de mai jos, condițiile sunt albastre și rezultatele posibile sunt în violet.
 <table>
@@ -109,67 +101,61 @@ Iată cum vor arăta blocurile în App Inventor:
 </table>
 Prima ta condiție merge la if, și a doua condiție merge la else if. Să vedem un exemplu:
 Proiectezi o aplicație care este destinată numai pentru utilizatori adolescenți cu vârsta cuprinsă între 13-18 ani si dorești ca aplicația să permită utilizatorilor să afle dacă aceștea sunt prea mici sau prea vârstnici pentru a utiliza aplicația. Ai trei rezultate posibile:
-
 <ol>
  	<li>Utilizatorul este prea tânăr</li>
  	<li>Utilizatorul este prea bătrân</li>
  	<li>Utilizatorul este de varstă potrivită</li>
 </ol>
-Îl faci pe utilizator să introducă vârsta lui în aplicație și o păstrezi  într-o variabilă numită "vârstă". Iată cum ai putea folosi instrucțiunile if / else if / else pentru a verifica vârsta utilizatorului.
-<br>
+Îl faci pe utilizator să introducă vârsta lui în aplicație și o păstrezi într-o variabilă numită "vârstă". Iată cum ai putea folosi instrucțiunile if / else if / else pentru a verifica vârsta utilizatorului.
+
 <img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image08-1-1024x457.png" alt="if/else else/if response blocks" width="633" height="283" />
-<br>
+
 Prima condiție verifică dacă utilizatorul este mai tânăr de 13 ani. În cazul în care ea/el este mai tânăr, atunci aplicația atenționează că ea/el este prea tânăr(ă). Dacă ea/el nu este mai tânăr(ă), aplicația verifică dacă ea/el este mai în vârstă de 18 ani. Dacă da, atunci aplicația atenționează că ea/el este prea bătrân(ă). Dacă nu este, atunci aplicația spune că varsta e potrivită.
 Poți adăuga, de fapt, oricâte condiții dorești la instrucțiunile condiționale, folosind else if, dar este foarte important să reții ordinea în care aplicația evaluează condițiile. Codul va începe întotdeauna cu prima condiție și apoi va continua, în ordine, până când va constata o condiție care este adevărată. Atunci când va constata o condiție care este adevărată, ea va efectua codul de sub ea. În cazul în care nici una dintre condiții nu sunt adevărate, se va efectua codul din partea else.
 Iată câteva lucruri de reținut atunci când se utilizează instrucțiunile if/else/else if:
-
 <ul>
  	<li>Poți testa cât mai multe condiții, după cum dorești</li>
  	<li>Instrucțiunea funcționează de sus în jos, așa că pune condiția pe care dorești să fie testată prima în partea de sus a instrucțiunii</li>
- 	<li>Codul de sub prima instrucțiune evaluată ca adevărat va fi singurul cod care va fi îndeplinit. Pentru mai multe informații despre condiționale, consultați site-ul MIT <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/control.html" target = "_blank">aici.</a></li>
+ 	<li>Codul de sub prima instrucțiune evaluată ca adevărat va fi singurul cod care va fi îndeplinit. Pentru mai multe informații despre condiționale, consultați site-ul MIT <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/control.html" target="_blank" rel="noopener">aici.</a></li>
 </ul>
-
 <div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
-	<h3 id="act2"><strong>Activitate 2</strong></h3>
-	Identificarea condițiilor pe care ar trebui să le evalueze aplicația poate fi dificil! Uneori știi ce vrei să facă aplicația, dar poate fi greu să știi condițiile pentru verificare. Să practicăm scrierea unor condiții pe care aplicațiile le verifică la utilizarea lor. Iată un exemplu pentru început! Încearcă să propui mai multe exemple.
+<h3 id="act2"><strong>Activitate 2</strong></h3>
+Identificarea condițiilor pe care ar trebui să le evalueze aplicația poate fi dificil! Uneori știi ce vrei să facă aplicația, dar poate fi greu să știi condițiile pentru verificare. Să practicăm scrierea unor condiții pe care aplicațiile le verifică la utilizarea lor. Iată un exemplu pentru început! Încearcă să propui mai multe exemple.
 
-	Conectându-te la un cont media social:
-	<ul>
-	 	<ul>
-	 		<li>Condiții de verificat:
-			 	<li>Numele de utilizator este corect</li>
-			 	<li>Parola este corectă</li>
-			 	<li>Utilizatorul nu a încercat să se conecteze mai mult de cinci ori</li>
-			 </li>
-		</ul>	 	
-	</ul>
-	O altă dificultate în scrierea instrucțiunilor condiționale este traducerea condiției pe care o ai în minte în ceva care va fi  înțeles de aplicație. In exemplul de mai sus, am verificat vârsta unui utilizator, mai întâi prin crearea unei variabile care ar fi egală cu vârsta utilizatorului. Nu este sufucientă doar intuiția în crearea condițiilor, mai e nevoie și de practică! Aici sunt întrebări care te vor ghida când vei încearcă să creezi o condiție corectă:
-	<ol>
-	 	<li>Condiția ta depinde de informația introdusă de utilizator?</li>
-	 	<li>Ai nevoie sa configurezi niște variabile?
-	<ol type="a">
-	 	<li>Dacă da, ce tip? Este un număr, o listă, un șir?</li>
-	</ol>
-	</li>
-	 	<li>Poți folosi în condiția ta operatori de matematică așa ca mai puțin de (<) , mai mult de (>), egal cu (=), nu este egal cu (≠)?</li>
-	 	<li>Ai nevoie să compari valoarea la ceva cu valoarea în o bază de date?</li>
-	 	<li>Ai nevoie să compari valoarea la ceva cu date din altă parte, de exemplu un website? (Despre aceasta vom discuta mai mult în <a href = "https://technovationchallenge.org/curriculum/code-4/" target = "_blank">Cod 4</a>)</li>
-	 	<li>Pe ce tip de date se bazează condiția ta? Vezi careva operații pentru aceste date care te vor ajuta?
-	<ol type="a">
-	 	<li>Ex: Compararea a două șiruri, aflarea lungimii unui șir, adăugarea elementelor la o listă, compararea a două liste, etc.</li>
-	 	<li>Încearcă să răsfoiești operațiile în App Inventor pentru a vedea dacă acesta te poate ajuta. </li>
-	</ol>
-	</li>
-	</ol>
-	
-
+Conectându-te la un cont media social:
+<ul>
+ 	<li style="list-style-type: none;">
+<ul>
+ 	<li>Condiții de verificat:</li>
+ 	<li>Numele de utilizator este corect</li>
+ 	<li>Parola este corectă</li>
+ 	<li>Utilizatorul nu a încercat să se conecteze mai mult de cinci ori</li>
+</ul>
+</li>
+</ul>
+O altă dificultate în scrierea instrucțiunilor condiționale este traducerea condiției pe care o ai în minte în ceva care va fi înțeles de aplicație. In exemplul de mai sus, am verificat vârsta unui utilizator, mai întâi prin crearea unei variabile care ar fi egală cu vârsta utilizatorului. Nu este sufucientă doar intuiția în crearea condițiilor, mai e nevoie și de practică! Aici sunt întrebări care te vor ghida când vei încearcă să creezi o condiție corectă:
+<ol>
+ 	<li>Condiția ta depinde de informația introdusă de utilizator?</li>
+ 	<li>Ai nevoie sa configurezi niște variabile?
+<ol type="a">
+ 	<li>Dacă da, ce tip? Este un număr, o listă, un șir?</li>
+</ol>
+</li>
+ 	<li>Poți folosi în condiția ta operatori de matematică așa ca mai puțin de (&lt;) , mai mult de (&gt;), egal cu (=), nu este egal cu (≠)?</li>
+ 	<li>Ai nevoie să compari valoarea la ceva cu valoarea în o bază de date?</li>
+ 	<li>Ai nevoie să compari valoarea la ceva cu date din altă parte, de exemplu un website? (Despre aceasta vom discuta mai mult în <a href="https://technovationchallenge.org/curriculum/code-4/" target="_blank" rel="noopener">Cod 4</a>)</li>
+ 	<li>Pe ce tip de date se bazează condiția ta? Vezi careva operații pentru aceste date care te vor ajuta?
+<ol type="a">
+ 	<li>Ex: Compararea a două șiruri, aflarea lungimii unui șir, adăugarea elementelor la o listă, compararea a două liste, etc.</li>
+ 	<li>Încearcă să răsfoiești operațiile în App Inventor pentru a vedea dacă acesta te poate ajuta.</li>
+</ol>
+</li>
+</ol>
 </div>
 <h2 id="andop"><strong>Logica</strong></h2>
 Până în prezent, ai învățat cum să programezi aplicația ta să facă lucruri diferite, folosind instrucțiuni condiționale. Vei putea aborda o mulțime de probleme noi, dacă vei cunoaște câtiva operatori logici. Operatorii logici iau intrările multiple Boolean și le simplifica într-o singur output Boolean. Pentru că aplicația ta vede condițiile ca adevărat sau fals, poți utiliza condițiile ca intrări pentru operatori logici. Există trei mari operatori logici pe care îi vei învăța în această secțiune: and (și), or (sau), și not (not). Deși pot părea ciudat, vei vedea exemple mai jos, cum operatorii logici te pot ajuta să-ți construiești aplicația.
-
-<h5> <strong>Operator AND</strong></h5>
+<h5><strong>Operator AND</strong></h5>
 Pentru ca operatorul and să rezulte în adevărat (true), toate intrările sale trebuie să fie adevărate. Dacă oricare dintre condițiile de intrare este falsă, codul va evalua întreaga instrucțiune ca fiind falsă. Aici sunt toate rezultatele posibile atunci când se utilizează funcția and.
-
 <p style="text-align: center;">Adevărat and (și) Adevărat = Adevărat</p>
 <p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image34.png" alt="true/true blocks" width="318" height="62" /></p>
 <p style="text-align: center;">Adevărat and (și) Fals = Fals</p>
@@ -178,37 +164,36 @@ Pentru ca operatorul and să rezulte în adevărat (true), toate intrările sale
 <p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image38.png" alt="false/true blocks" width="331" height="60" /></p>
 <p style="text-align: center;">Fals and (și) Fals = Fals</p>
 <p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image07-1.png" alt="false/false blocks" width="353" height="66" /></p>
-Iată cum poți folosi and în o instrucțiune condițională: <br>
+Iată cum poți folosi and în o instrucțiune condițională:
 <img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Condition3-1024x608.png" alt="condition3" width="407" height="242" />
-<br>
-Notă: Modul de utilizare a operatorului and este diferit de else if pentru că ambele condiții sunt evaluate în acelaș timp, și nu una după alta. De asemenea, ca aplicația să vadă condiția ca adevărată, ambele trebuie să fie adevărate. 
 
+Notă: Modul de utilizare a operatorului and este diferit de else if pentru că ambele condiții sunt evaluate în acelaș timp, și nu una după alta. De asemenea, ca aplicația să vadă condiția ca adevărată, ambele trebuie să fie adevărate.
 <div style="background-color: #00abad; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
-	<h5><strong><span style="color: #ffffff;">Exemple</span></strong></h5>
-	Se recomandă să folosești and când ai nevoie ca două condiții să fie adevărate pentru ca ceva să se întâmple.  Iată câteva exemple de a folosi and în aplicația ta!
-	<ul>
-	 	<li>Logare la media social:
-	<ul>
-	 	<li>Dacă (nume utilizator e corect) și (parola e corectă) → atunci permite utilizatorului să se conecteze</li>
-	</ul>
-	</li>
-	 	<li>Câștigarea unui joc
-	<ul>
-	 	<li>Dacă (jucătorul termină nivelul) și (timpul nu este epuizat) → atunci utilizatorul câștigă</li>
-	</ul>
-	</li>
-	 	<li>Găsirea unui magazin alimentar:
-	<ul>
-	 	<li>Dacă (magazinul este deschis) și (magazinul este aproape de utilizator) → apoi arată în rezultatele căutării</li>
-	</ul>
-	</li>
-	 	<li>Postare imagini:
-	<ul>
-	 	<li>Dacă (utilizatorul a selectat o imagine) și (utilizatorul a untrodus titlu) → atunci permite utilizatorului să posteze imaginea</li>
-	</ul>
-	</li>
-	</ul>
-	Te poți gândi la mai mule exemple?
+<h5><strong><span style="color: #ffffff;">Exemple</span></strong></h5>
+Se recomandă să folosești and când ai nevoie ca două condiții să fie adevărate pentru ca ceva să se întâmple. Iată câteva exemple de a folosi and în aplicația ta!
+<ul>
+ 	<li>Logare la media social:
+<ul>
+ 	<li>Dacă (nume utilizator e corect) și (parola e corectă) → atunci permite utilizatorului să se conecteze</li>
+</ul>
+</li>
+ 	<li>Câștigarea unui joc
+<ul>
+ 	<li>Dacă (jucătorul termină nivelul) și (timpul nu este epuizat) → atunci utilizatorul câștigă</li>
+</ul>
+</li>
+ 	<li>Găsirea unui magazin alimentar:
+<ul>
+ 	<li>Dacă (magazinul este deschis) și (magazinul este aproape de utilizator) → apoi arată în rezultatele căutării</li>
+</ul>
+</li>
+ 	<li>Postare imagini:
+<ul>
+ 	<li>Dacă (utilizatorul a selectat o imagine) și (utilizatorul a untrodus titlu) → atunci permite utilizatorului să posteze imaginea</li>
+</ul>
+</li>
+</ul>
+Te poți gândi la mai mule exemple?
 
 </div>
 <h5 id="orop"><strong>Operator or</strong></h5>
@@ -221,40 +206,34 @@ Pentru ca operatorul or (sau) să dea rezultat adevărat, e nevoie să fie adev�
 <p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image26-1.png" alt="false or true blocks" width="299" height="63" /></p>
 <p style="text-align: center;">Fals or (sau) Fals = Fals</p>
 <p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image49.png" alt="false or false blocks" width="313" height="61" /></p>
+Iată cum poți folosi or în o instrucțiune condițională:
 
-Iată cum poți folosi or în o instrucțiune condițională: 
-<br>
 <img class="aligncenter" src="http://technovationchallenge.org/wp-content/uploads/2016/09/Condition4-3.png" alt="" width="408" height="239" />
-<br>
-Notă: Operatorul or poate părea asemănător cu else if. Operatorul or, însă, este diferit, pentru că ambele condiții sunt evaluate concomitent, și nu una după alta. Este mai bine să folosești operatorul or când ai două condiții care ar trebui să aibă același rezultat dacă acestea sunt adevărate.
 
+Notă: Operatorul or poate părea asemănător cu else if. Operatorul or, însă, este diferit, pentru că ambele condiții sunt evaluate concomitent, și nu una după alta. Este mai bine să folosești operatorul or când ai două condiții care ar trebui să aibă același rezultat dacă acestea sunt adevărate.
 <div style="background-color: #00abad; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
 
-	<strong>Exemple</strong>
-	<ul>
-	 	<li>Pierdere într-un joc:
-	<ul>
-	 	<li>(dacă timpul expiră) sau (jucătorul pierde toate viețile) → atunci jucătorul pierde</li>
-	</ul>
-	</li>
-	 	<li>Afișarea rezultatelor căutării
-	<ul>
-	 	<li>(dacă titlul corespunde) sau (descrierea corespunde) → afișează în rezultatele căutării</li>
-	</ul>
-	</li>
-	 	<li>Recomandare a filme video utilizatorului
-	<ul>
-	 	<li>(dacă utilizatorul l-a vizionat în trecut) sau (este asemănător cu ce-i place utilizatorului) → recomandă utilizatorului</li>
-	</ul>
-	</li>
-	</ul>
-	
-
+<strong>Exemple</strong>
+<ul>
+ 	<li>Pierdere într-un joc:
+<ul>
+ 	<li>(dacă timpul expiră) sau (jucătorul pierde toate viețile) → atunci jucătorul pierde</li>
+</ul>
+</li>
+ 	<li>Afișarea rezultatelor căutării
+<ul>
+ 	<li>(dacă titlul corespunde) sau (descrierea corespunde) → afișează în rezultatele căutării</li>
+</ul>
+</li>
+ 	<li>Recomandare a filme video utilizatorului
+<ul>
+ 	<li>(dacă utilizatorul l-a vizionat în trecut) sau (este asemănător cu ce-i place utilizatorului) → recomandă utilizatorului</li>
+</ul>
+</li>
+</ul>
 </div>
-
-<h5 id="notop"> <strong>Operator not</strong></h5>
+<h5 id="notop"><strong>Operator not</strong></h5>
 Operatorul not este unul ușor! Operatorul not comută valoarea unui boolean să fie opusul a ceea ce este.
-
 <p style="text-align: center;">nu adevărat = fals</p>
 <p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image13-1.png" alt="not true blocks" width="167" height="52" /></p>
 <p style="text-align: center;">nu fals = adevărat</p>
@@ -263,44 +242,44 @@ Uneori e mai ușor să scrii o condiție care face ca aplicația să verifice op
 <p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Condition5-1024x825.png" alt="condition5" width="283" height="228" /></p>
 
 <div style="background-color: #00abad; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
-	<h5><strong><span style="color: #ffffff;">Exemplu</span></strong></h5>
-	<ul>
-	 	<li>Vrei să verifici dacă există text într-o casetă de text, dar este mai ușor să verifici dacă caseta e goală decât să vezi dacă există ceva acolo. Utilizezi operatorul not astfel încât să poți verifica dacă caseta de text nu este goală.
-	<ul>
-	 	<li>Dacă not (textbox = “ ”) → fă asta</li>
-	</ul>
-	</li>
-	 	<li>Vrei să excluzi din rezultatele căutărilor informația despre căței, ai grijă ca cuvântul cățel să nu fie acolo, folosind operatorul not.
-	<ul>
-	 	<li>Dacă not (articol conține cuvânt cățel) → arată rezultate</li>
-	</ul>
-	</li>
-	 	<li>Poți combina operatorii logici să facă mai multe lucruri. Iată cum ai putea afișa rezultatele căutării care au cuvântul pisicuță  și nu au cuvântul cățel.
-	<ul>
-	 	<li>Dacă not (articol conține cuvânt cățel) și (articol conține cuvânt pisicuță) → arată rezultate</li>
-	</ul>
-	</li>
-	</ul>
+<h5><strong><span style="color: #ffffff;">Exemplu</span></strong></h5>
+<ul>
+ 	<li>Vrei să verifici dacă există text într-o casetă de text, dar este mai ușor să verifici dacă caseta e goală decât să vezi dacă există ceva acolo. Utilizezi operatorul not astfel încât să poți verifica dacă caseta de text nu este goală.
+<ul>
+ 	<li>Dacă not (textbox = “ ”) → fă asta</li>
+</ul>
+</li>
+ 	<li>Vrei să excluzi din rezultatele căutărilor informația despre căței, ai grijă ca cuvântul cățel să nu fie acolo, folosind operatorul not.
+<ul>
+ 	<li>Dacă not (articol conține cuvânt cățel) → arată rezultate</li>
+</ul>
+</li>
+ 	<li>Poți combina operatorii logici să facă mai multe lucruri. Iată cum ai putea afișa rezultatele căutării care au cuvântul pisicuță și nu au cuvântul cățel.
+<ul>
+ 	<li>Dacă not (articol conține cuvânt cățel) și (articol conține cuvânt pisicuță) → arată rezultate</li>
+</ul>
+</li>
+</ul>
 </div>
 <div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
-	<h3 id="act3">Activitate 3</h3>
-	Știi că poți utiliza and, or sau not într-o căutare Google? Aceasta este o modalitate bună de a restrânge sau extinde rezultatele căutării atunci când cauți ceva. Încearcă! Asigură-te că tastezi "AND", "OR" sau "NU" cu majuscule. Vezi exemplele de mai jos:
+<h3 id="act3">Activitate 3</h3>
+Știi că poți utiliza and, or sau not într-o căutare Google? Aceasta este o modalitate bună de a restrânge sau extinde rezultatele căutării atunci când cauți ceva. Încearcă! Asigură-te că tastezi "AND", "OR" sau "NU" cu majuscule. Vezi exemplele de mai jos:
 
-	Căutând 2017 AND Technovation afișază rezultate care conțin atât 2017 cât și Technovation:
-     <br>
-	<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image45.png" alt="image45" width="482" height="331" />
-     <br>
-	Căutând 2017 OR Technovation afișează rezultate care conțin fie 2017 fieTechnovation:
-	<br>
-	<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image25-1.png" alt="image25" width="481" height="313" />
-	<br>
+Căutând 2017 AND Technovation afișază rezultate care conțin atât 2017 cât și Technovation:
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image45.png" alt="image45" width="482" height="331" />
+
+Căutând 2017 OR Technovation afișează rezultate care conțin fie 2017 fieTechnovation:
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image25-1.png" alt="image25" width="481" height="313" />
+
 </div>
 <h2 id="forloop"><strong>Cicluri de execuție</strong></h2>
 Calculatoarele sunt foarte bune la îndeplinirea aceluași lucru în repetate rânduri și îl fac foarte rapid și fără greșeli! Poți profita de acest lucru prin utilizarea de cicluri de execuție (instrucțiuni repetitive). Un ciclu este un bloc de cod care se va repeta de nenumărate ori.
 
 Sunt două tipuri de cicluri de execuție, cicluri while și for. Ciclurile while vor continua să facă ceva până când o condiție setată nu mai este adevărată, și ciclurile for vor face ceva un anumit număr de ori.
 
-Ciclurile For 
+Ciclurile For
 
 Ciclurilee for vor repeta un bloc de cod un anumit număr de ori. Sunt numite cicluri for datorită faptului că îi poți spune aplicației de câte ori (for how many times) să repete codul. Se poate exprima mai bine rolul ciclurilor for dacă, de exemplu, îi vei spune aplicației, "repetă aceasta de 14 ori" sau " repetă acest lucru de 5 ori".
 
@@ -308,106 +287,95 @@ Ciclurile for folosesc o variabilă, numită contor, pentru a număra de câte o
 
 În App Inventor, ciclurile for arată astfel:
 
-<br>
 <img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image21.png" alt="for loop block" width="276" height="153" />
-<br>
-Partea care zice number (număr) este contorul. Pentru moment, contorul e numit număr, dar tu poți schimba asta. Numărul va începe de la 1 și se va opri când va fi egal cu 5. De fiecare dată când codul din interiorul ciclului se repetă, numărul crește cu 1.Deci, aceast ciclu va repeta codul în interiorul lui de 5 ori.  Acum, aceast ciclu nu face nimic, deoarece partea Do (Fă) este goală. Să urmărim un exemplu.
-<br>
+
+Partea care zice number (număr) este contorul. Pentru moment, contorul e numit număr, dar tu poți schimba asta. Numărul va începe de la 1 și se va opri când va fi egal cu 5. De fiecare dată când codul din interiorul ciclului se repetă, numărul crește cu 1.Deci, aceast ciclu va repeta codul în interiorul lui de 5 ori. Acum, aceast ciclu nu face nimic, deoarece partea Do (Fă) este goală. Să urmărim un exemplu.
+
 <img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image41-1024x449.png" alt="image41" width="431" height="189" />
-<br>
+
 Noi nu am schimbat variabila număr deloc, dar am adăugat unele coduri la partea Fă a cilulu. De fiecare dată când se execută aceast ciclu, aplicația va alerta utilizatorul "salut", astfel încât utilizatorul va fi alertat de 5 ori. Aici este modul în care aplicația va rula prin aceast ciclu de execuție:
-<br>
+
 <img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Screen-Shot-2016-11-01-at-2.00.15-PM.png" alt="screen-shot-2016-11-01-at-2-00-15-pm" width="448" height="414" />
-<br>
-Aceast ciclu ar fi util dacă ai dori să alertezi utilizatorul "hello" de 5 ori. Acest lucru nu pare a fi foarte util, deoarece nu este greu de a pune într-un rând 5 blocuri de notificare care spun "salut". Dar dacă ai vrea să semnalezi utilizatorul "Hello" de 100 de ori? Ar fi mult mai ușor să faci acest lucru cu ajutorul ciclului de execuție,  decât să pui 100 de blocuri într-un rând!
+
+Aceast ciclu ar fi util dacă ai dori să alertezi utilizatorul "hello" de 5 ori. Acest lucru nu pare a fi foarte util, deoarece nu este greu de a pune într-un rând 5 blocuri de notificare care spun "salut". Dar dacă ai vrea să semnalezi utilizatorul "Hello" de 100 de ori? Ar fi mult mai ușor să faci acest lucru cu ajutorul ciclului de execuție, decât să pui 100 de blocuri într-un rând!
 
 O altă modalitate în care ciclurile for pot fi utile este prin utilizarea variabilei de contor din cod. De fiecare dată când ciclul rulează, variabila contor va avea o valoare diferită, iar acest lucru poate fi foarte util. Iată un exemplu.
-<br>
 
 <img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image27-1-1024x402.png" alt="image27" width="464" height="182" />
-<br>
-În acast ciclu for  noi folosim numărul variabilei in cod și îl atașăm la cuvântul " salut ". De fiecare dată,  numărul crește cu 1, deci aplicația va continua să imprime lucruri diferite la fiecare rulare.  Iată cum va lucra aplicația prin aceast ciclu:
-<br>
-<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Screen-Shot-2016-11-01-at-2.04.17-PM.png" alt="screen-shot-2016-11-01-at-2-04-17-pm" width="445" height="381" />
 
-<h5 id="foreach"> <strong>циклCiclul For Each </strong></h5>
+În acast ciclu for noi folosim numărul variabilei in cod și îl atașăm la cuvântul " salut ". De fiecare dată, numărul crește cu 1, deci aplicația va continua să imprime lucruri diferite la fiecare rulare. Iată cum va lucra aplicația prin aceast ciclu:
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/Screen-Shot-2016-11-01-at-2.04.17-PM.png" alt="screen-shot-2016-11-01-at-2-04-17-pm" width="445" height="381" />
+<h5 id="foreach"><strong>циклCiclul For Each </strong></h5>
 Un alt model util al ciclului for, pe care îl poți folosi în App Inventor este acesta:
-<br>
+
 <img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image16-1.png" alt="image16" width="219" height="88" />
-<br>
+
 Aici, variabila contor se numește element și este deja setată să repete for numărul de elemente dintr-o listă. Aceste cicluri pot fi foarte utile ori de câte ori ai nevoie să faci ceva cu o listă. Iată un exemplu.
 
 Să presupunem că ai avut o listă de numere și ți-ai dorit să adaugi fiecare număr în interiorul listei și să-l păstrezi într-o variabilă numită sumă. Iată cum vei face acest lucru cu un ciclu for each.
-<br>
 
 <img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/listofnumbers.png" alt="listofnumbers" width="404" height="94" />
-<br>
+
 <b><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/numberlist.png" alt="numberlist" width="500" height="106" /></b>
-<br>
+
 De fiecare dată când ciclul se execută, suma variabilă va primi un element din numberList adăugat la acesta. Ciclul de execuție se va opri automat după ce toate numerele din listă vor fi adăugate!
-Notă: Presupunem ca să fi observat că variabilele contor din această secțiune sunt asemănătoare cu variabilele locale despre care ai învățat în <a href="http://www.technovationchallenge.org/curriculum/code-2/" target = "_blank"> Codul 2</a>! Să știi că ai dreptate! La fel ca variabile locale, le poți utiliza numai în interiorul ciclului.
-
-
+Notă: Presupunem ca să fi observat că variabilele contor din această secțiune sunt asemănătoare cu variabilele locale despre care ai învățat în <a href="http://www.technovationchallenge.org/curriculum/code-2/" target="_blank" rel="noopener"> Codul 2</a>! Să știi că ai dreptate! La fel ca variabile locale, le poți utiliza numai în interiorul ciclului.
 <h5 id="whileloop"><strong>Ciclul While </strong></h5>
-Ciclurile while sunt cicluri care vor continua să meargă până când condiția nu mai este valabilă (adevărată). Sunt numite cicluri while pentru că codul va fi executat repetitiv atâta timp cât condiția este adevărată.  Condițiile ciclului while ar putea fi exprimate cam așa “în timp ce asta se întâmplă, repetă aceasta” sau “atâta timp cât asta rămîne neschimbat, repetă aceasta”.
-
+Ciclurile while sunt cicluri care vor continua să meargă până când condiția nu mai este valabilă (adevărată). Sunt numite cicluri while pentru că codul va fi executat repetitiv atâta timp cât condiția este adevărată. Condițiile ciclului while ar putea fi exprimate cam așa “în timp ce asta se întâmplă, repetă aceasta” sau “atâta timp cât asta rămîne neschimbat, repetă aceasta”.
 <div style="background-color: #00abad; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
-	<h5><strong><span style="color: #ffffff;">Exemple</span></strong></h5>
-	Organizezi o petrecere și vrei ca muzica să răsune necontenit până nu vor pleca toți invitații. Ai putea descrie petrecerea similar cu acest ciclu:
-	<ul>
-	 	<li>While (oameni la petrecere > 0)</li>
-	 	<li>fă:  muzica să cânte</li>
-	</ul>
-	Să presupunem că ai dori ca muzica să înceteze să cânte dacă trece de miezul nopții. Poți programa ciclul while să înceteze ciclul în baza mai multor condiții folosind logica. Acum poți descrie petrecerea ta ca aceast ciclu.
-	<ul>
-	 	<li>While (oameni la petrecere > 0) or (timp < miezul nopții)</li>
-	 	<li>fă: muzica să cânte</li>
-	</ul>
-	În acest caz muzica va înceta de îndată ce vor pleca toți invitații sau dacă trece de miezul nopții. 
-
+<h5><strong><span style="color: #ffffff;">Exemple</span></strong></h5>
+Organizezi o petrecere și vrei ca muzica să răsune necontenit până nu vor pleca toți invitații. Ai putea descrie petrecerea similar cu acest ciclu:
+<ul>
+ 	<li>While (oameni la petrecere &gt; 0)</li>
+ 	<li>fă: muzica să cânte</li>
+</ul>
+Să presupunem că ai dori ca muzica să înceteze să cânte dacă trece de miezul nopții. Poți programa ciclul while să înceteze ciclul în baza mai multor condiții folosind logica. Acum poți descrie petrecerea ta ca aceast ciclu.
+<ul>
+ 	<li>While (oameni la petrecere &gt; 0) or (timp &lt; miezul nopții)</li>
+ 	<li>fă: muzica să cânte</li>
+</ul>
+În acest caz muzica va înceta de îndată ce vor pleca toți invitații sau dacă trece de miezul nopții.
 
 </div>
-
 Pentru a folosi un ciclu while e nevoie să configurezi cu o condiție care începe ca adevărată. Dacă prima condiție este una falsă, atunci ciclul nu va funcționa. Ciclul va verifica condiția de fiecare data când se repetă pentru a se asigura că condiția mai este adevărată.
-<br>
-<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/StartLoop-Arrow3-436x1024.png" alt="startloop-arrow3" width="169" height="397" />
-<br>
-Iată cum arată un ciclu while în App Inventor:
-<br>
-<img class="aligncenter" src="http://www.technovationchallenge.org/wp- content/uploads/2016/09/image35.png" alt="while loop block" width="159" height="105" />
-<br>
-Cu ciclul while poți comite erori! Dacă alegi o condiție care nu va fi falsă niciodată, atunci ciclul tău nu va finisa niciodată. Un astfel de ciclu se numește ciclu infinit. Iată un exemplu:
-<br>
-<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image52.png" alt="image52" width="389" height="156" />
-<br>
-Deoarece 1 va fi întotdeauna egal cu 1 această condiție nu poate fi falsă niciodată! La executarea acestui cod în App Inventor,  telefonul nostru va înțepeni și nu vom putea face nimic. Posibil vei primi un mesaj, care va spune că App Inventor Companion App a încetat să funcționeze.
 
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/StartLoop-Arrow3-436x1024.png" alt="startloop-arrow3" width="169" height="397" />
+
+Iată cum arată un ciclu while în App Inventor:
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image35.png" alt="while loop block" width="159" height="105" />
+
+Cu ciclul while poți comite erori! Dacă alegi o condiție care nu va fi falsă niciodată, atunci ciclul tău nu va finisa niciodată. Un astfel de ciclu se numește ciclu infinit. Iată un exemplu:
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/09/image52.png" alt="image52" width="389" height="156" />
+
+Deoarece 1 va fi întotdeauna egal cu 1 această condiție nu poate fi falsă niciodată! La executarea acestui cod în App Inventor, telefonul nostru va înțepeni și nu vom putea face nimic. Posibil vei primi un mesaj, care va spune că App Inventor Companion App a încetat să funcționeze.
 <h2 id="codechal">Provocare - Cod 3: Caută o Bază de Date</h2>
 Crează o aplicație care permite utilizatorului să caute o bază de date de informații și să vizualizeze rezultatele acestora. Baza de date ar trebui să conțină nume și descrieri ale unor oameni celebri, locuri, filme, muzică, evenimente sau orice altceva dorești. Ai grijă să ai cel puțin trei intrări în baza de date.
 Încearcă să înțelegi cum să finalizezi Provocarea de Programare de sine stătător, înainte de a vedea instrucțiunile. Instrucțiunile arată doar o modalitate în care această provocare poate fi rezolvată.
-
-<p style="text-align: center;"><strong><a href="http://www.technovationchallenge.org/curriculum/code-3-challenge/" target="_blank">
+<p style="text-align: center;"><strong><a href="http://www.technovationchallenge.org/curriculum/provocare-cod-3/?lang=ro" target="_blank" rel="noopener">
 VEZI INSTRUCȚIUNILE
 </a></strong></p>
-<p style="text-align: center;"><a href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.DatabaseSearch" target="_blank">
+<p style="text-align: center;"><a href="https://play.google.com/store/apps/details?id=appinventor.ai_alliec.DatabaseSearch" target="_blank" rel="noopener">
 <strong> DESCARCĂ EXEMPLE APP</strong>
 </a></p>
 
 <div style="background-color: #006667; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
-	<h2><strong><span style="color: #ffffff;">Reflecție</span></strong></h2>
-	Felicitări cu ocazia finalizării acestei lecții! A fost o lecție cu conținut voluminos, însă toate îți vor fi de folos atunci când vei crea aplicația proprie! Să nu iuți că poți repeta cele învățate oricând simți necesitatea.
+<h2><strong><span style="color: #ffffff;">Reflecție</span></strong></h2>
+Felicitări cu ocazia finalizării acestei lecții! A fost o lecție cu conținut voluminos, însă toate îți vor fi de folos atunci când vei crea aplicația proprie! Să nu iuți că poți repeta cele învățate oricând simți necesitatea.
 
-	Revizuire de cuvinte-cheie:
-	<ul>
-	 	<li>Booleane – tip de date care pot fi adevărate sau false</li>
-	 	<li>Condiții – lucruri pe care aplicația le evaluează ca fiind adevărate sau false</li>
-	 	<li>Instrucțiuni Condiționale – spun aplicației ce să facă după evaluarea condițiilor</li>
-	 	<li>Operator AND - evaluează ca adevărat dacă toate intrările sunt adevărate</li>
-	 	<li>Operator OR – evaluează  ca adevărat dacă una din întrări este adevărată</li>
-	 	<li>Operator NOT - evaluează ca opus al intrării</li>
-	 	<li>Ciclu – un  bloc de cod repetitiv</li>
-	 	<li>Ciclul For - repetă un bloc de cod un număr anumit de elemente</li>
-	 	<li>Ciclul For Each - repetă un bloc de cod pentru numărul de elemente într-o listă </li>
-	 	<li>Ciclul While - repetă un bloc de cod atâta timp cât o condiție este adevărată </li>
-	</ul>
+Revizuire de cuvinte-cheie:
+<ul>
+ 	<li>Booleane – tip de date care pot fi adevărate sau false</li>
+ 	<li>Condiții – lucruri pe care aplicația le evaluează ca fiind adevărate sau false</li>
+ 	<li>Instrucțiuni Condiționale – spun aplicației ce să facă după evaluarea condițiilor</li>
+ 	<li>Operator AND - evaluează ca adevărat dacă toate intrările sunt adevărate</li>
+ 	<li>Operator OR – evaluează ca adevărat dacă una din întrări este adevărată</li>
+ 	<li>Operator NOT - evaluează ca opus al intrării</li>
+ 	<li>Ciclu – un bloc de cod repetitiv</li>
+ 	<li>Ciclul For - repetă un bloc de cod un număr anumit de elemente</li>
+ 	<li>Ciclul For Each - repetă un bloc de cod pentru numărul de elemente într-o listă</li>
+ 	<li>Ciclul While - repetă un bloc de cod atâta timp cât o condiție este adevărată</li>
+</ul>
 </div>
