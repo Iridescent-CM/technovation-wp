@@ -9,14 +9,14 @@
  	<li><a href="#reflect">Düşünün</a></li>
 </ul>
 Bu modülde geliştireceğiniz pazarlama planı sadece Kıdemli Bölüm ekipleri tarafından sunulmak için gereklidir. Ancak, (Genç Bölümü) Junior Division takımlarının bu ünitedeki faaliyetleri de gerçekleştirmelerini şiddetle tavsiye ediyoruz.
-<h2><b>Öğrenme Objektifleri:</b></h2>
+<h2><strong>Öğrenme Objektifleri:</strong>></h2>
 Bu modülde öğrenecekleriniz...
 <ul>
- 	<li>Pazarlama planı ne için kullanılır?</li>
- 	<li>Pazarlama planının bölümleri</li>
- 	<li>Pazarlama planı nasıl geliştirilir?</li>
+ 	<li style="font-weight: 400">Pazarlama planı ne için kullanılır?</li>
+ 	<li style="font-weight: 400">Pazarlama planının bölümleri</li>
+ 	<li style="font-weight: 400">Pazarlama planı nasıl geliştirilir?</li>
 </ul>
-<h3>Pazarlama Planının Bölümleri</h3>
+<h3 id="parts"><strong>Pazarlama Planının Bölümleri</strong></h3>
 Bir<strong> pazarlama planı</strong>, bir şirketin yıl için pazarlama, marka ve reklamcılık çabalarını açıklayan bir belgedir. Pazarlama planı, iş planına sıkı sıkıya bağlıdır, çünkü asıl amaç gelir elde etmek amacıyla iş planını desteklemektir. Çoğu durumda, bu marka oluşturmak ve farklı iletişim türleri aracılığıyla ürünün farkındalığını arttırmak anlamına gelir. Bir pazarlama planı olmadan, bir işletme kolayca başarısız olabilir çünkü potansiyel müşteriler ürün hakkında ve hayatını daha iyi hale getirmek için neler yaptığını bilmezler. Onlara nasıl satış yapacağınızı geliştirmek için kime sattığınızı anlamalısınız.
 
 Birçok pazarlama planı türü vardır. Bazıları <a href="https://en.wikipedia.org/wiki/Marketing_plan" target="_blank" rel="noopener">son derece detaylı</a> ya da bazıları çok basittir, ancak pazarlama planının üç ana bölümüne sadık kalacağız:
@@ -27,10 +27,13 @@ Birçok pazarlama planı türü vardır. Bazıları <a href="https://en.wikiped
 </ul>
 Pazarlama planınızı geliştirdikçe, Market Planınızda topladığınız bazı bilgilere ihtiyacınız olacak, bu yüzden bunu yakınınızda bulundurun.
 
-<strong>“Ne yapılması gerektiğini bilmek, korkudan uzaklaştırır.”</strong>
-
--Rosa Parks
-<h5>Pazarlama Hedefleri</h5>
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<blockquote>
+		<p style="text-align: center">“Ne yapılması gerektiğini bilmek, korkudan uzaklaştırır.”</p>
+	</blockquote>
+	<p style="text-align: right">-Rosa Parks</p>
+</div>
+<h3 id="goals"><strong>Pazarlama Hedefleri</h3>
 Pazarlama planınızın ayrıntılarına dalmadan önce, gerçekleştirmek istediğiniz şeyleri tanımlamanız gerekir. Hedefleriniz oldukça geniş olmalı, ancak işinizi desteklemenin yollarını belirlemenize yardımcı olacak kadar spesifik olmalıdır. Bu hedefler, pazarlama planınızın, iş planınızın hedefleriyle eşleşmesi gereken <a href="https://www.entrepreneur.com/article/234204" target="_blank" rel="noopener">yapı taşlarıdır.</a>
 <p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Ayrıca, pazar araştırmanızda öğrendiklerinize de geri dönmelisiniz. Rakiplerinizin ne yaptığını ve ne tür bir pazara gireceğinizi bilmek, hedeflerinizin ne olacağına karar vermenize yardımcı olabilir. Pazarlama hedeflerini ve stratejilerini (çalışmakta olan ve çalışmayan) öğrenmek veya başka bir yöne gitmek isteyebilirsiniz.
 
@@ -42,36 +45,34 @@ Pazarlama Hedefi İpuçları:
 </ul>
 Yeni bir mobil uygulama başlatan biri için birkaç hedefe örnek:
 <ul>
- 	<li id="tw-target-text" class="tw-data-text tw-ta tw-text-small"><span lang="tr">İndirme sayısını artırın (veya yeni müşteri sayısı)
-</span></li>
- 	<li class="tw-data-text tw-ta tw-text-small"><span lang="tr">Ürünlerin müşteri bilincini artırma
-</span></li>
- 	<li class="tw-data-text tw-ta tw-text-small"><span lang="tr">E-postalarda veya çevrimiçi kampanyalarda <a href="http://kb.mailchimp.com/reports/about-open-and-click-rates" target="_blank" rel="noopener">açık ve/veya tıklama oranlarını </a>artırın
-</span></li>
- 	<li class="tw-data-text tw-ta tw-text-small"><span lang="tr">Sosyal medyadaki beğeni sayısını artırın
-</span></li>
- 	<li class="tw-data-text tw-ta tw-text-small"><span lang="tr">Resim, isim tanıma, itibar geliştirin
-</span></li>
+ 	<li id="tw-target-text" class="tw-data-text tw-ta tw-text-small"><span lang="tr">İndirme sayısını artırın (veya yeni müşteri sayısı)</span></li>
+ 	<li class="tw-data-text tw-ta tw-text-small"><span lang="tr">Ürünlerin müşteri bilincini artırma</span></li>
+ 	<li class="tw-data-text tw-ta tw-text-small"><span lang="tr">E-postalarda veya çevrimiçi kampanyalarda <a href="http://kb.mailchimp.com/reports/about-open-and-click-rates" target="_blank" rel="noopener">açık ve/veya tıklama oranlarını </a>artırın</span></li>
+ 	<li class="tw-data-text tw-ta tw-text-small"><span lang="tr">Sosyal medyadaki beğeni sayısını artırın</span></li>
+ 	<li class="tw-data-text tw-ta tw-text-small"><span lang="tr">Resim, isim tanıma, itibar geliştirin</span></li>
  	<li class="tw-data-text tw-ta tw-text-small"><span lang="tr">Geliri, müşteri sayısını veya üyeyi artırın</span></li>
 </ul>
-<h3><b>Aktivite: Hedefleriniz için Beyin Fırtınası</b></h3>
-Elde etmek istediğiniz hedefleri beyin fırtınası yapmak için bir takım olarak çalışın. Hedeflerinizi değerlendirmek için ne kullanacağınızı düşünün. Bir hedefe ulaşılıp ulaşılmadığının belirlenmesinin en kolay yolu<b><a href="http://hubpages.com/education/How-to-Calculate-Growth-Rate" target="_blank" rel="noopener"> büyüme oranı</a></b>. Büyüme oranları tipik olarak, zaman içinde ölçmekte olduğunuz değişkenin yüzde artışı (veya azalması) ile hesaplanır. Bu tür değerlendirme, büyüme oranını iki sayıyı karşılaştırmaktan daha kolay bir şekilde gösterebilir. Ayrıca, elde etmek istediğiniz bir değeri atamak ve belirli bir süre içinde elde etmek için bir hedef belirlemek isteyeceksiniz. Örneğin:
-<ul>
- 	<li>Ayda en az 100 uygulama indirmesi</li>
- 	<li>Posta başına en az 10 beğeni alma</li>
- 	<li>Haftada 100 $ satışa ulaşma</li>
-</ul>
-Birkaç hedefe beyin fırtınası yaptıktan sonra, toplamda 2-3 hedefe kadar daraltmak için birlikte çalışın. Hedeflerinizin gerçekçi olduğundan emin olmalısınız, böylece onlara ulaşamayacağınız takdirde onları cesaretlendirmeyeceğiniz kadar yüksek bir seviyeye gelmeden elde edebilirsiniz. Eğer takılırsanız ya da hedefleriniz konusunda emin değilseniz, siz ve ekibinizin kendinize sormak isteyebileceği birkaç soru vardır:
-<ul>
- 	<li>Bu hedefe ulaşmak için bir yöntem geliştirebilir miyiz?</li>
- 	<li>Sayılar, zaman çerçevesi ve maliyetler pratik mi görünüyor?</li>
- 	<li>Yarışmam mı yoksa başka şirketlerle mi benzer şeyler yaptı?</li>
- 	<li>Bu hedefler değerlendirme için takip edilebilir mi?</li>
-</ul>
-<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Yukarıdaki soruların 2'den fazlasına hayır dediyseniz, pazarlama hedeflerinizi yeniden değerlendirmek isteyebilirsiniz. Bu sayıları değiştirebilir veya büyük bir hedefi daha yönetilebilir parçalara bölebilir. İşinizi büyütmek ve yeteneklerinizi genişletmek ve net ve eyleme geçebilmek için hedeflerinize ihtiyaç duymak istiyorsanız bunu yapmak istersiniz. </span></p>
-<p class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Unutmayın, hiç kimse bir oturuşta tam bir pasta yemeye çalışmıyor! Her seferinde bir parça yiyorlar. Kendiniz için belirlediğiniz hedeflere ulaştıktan sonra, bir sonraki bölüme, pazarlama stratejisine geçmeye hazırsınız.</span></p>
 
-<h3>Pazarlama Stratejisi</h3>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3 id = "act1"><b>Aktivite: Hedefleriniz için Beyin Fırtınası</b></h3>
+	Elde etmek istediğiniz hedefleri beyin fırtınası yapmak için bir takım olarak çalışın. Hedeflerinizi değerlendirmek için ne kullanacağınızı düşünün. Bir hedefe ulaşılıp ulaşılmadığının belirlenmesinin en kolay yolu<b><span style="color: #eae46f;"><a style="color: #eae46f;" href="http://hubpages.com/education/How-to-Calculate-Growth-Rate" target="_blank" rel="noopener"> büyüme oranı</a></span></b>. Büyüme oranları tipik olarak, zaman içinde ölçmekte olduğunuz değişkenin yüzde artışı (veya azalması) ile hesaplanır. Bu tür değerlendirme, büyüme oranını iki sayıyı karşılaştırmaktan daha kolay bir şekilde gösterebilir. Ayrıca, elde etmek istediğiniz bir değeri atamak ve belirli bir süre içinde elde etmek için bir hedef belirlemek isteyeceksiniz. Örneğin:
+	<ul>
+	 	<li>Ayda en az 100 uygulama indirmesi</li>
+	 	<li>Posta başına en az 10 beğeni alma</li>
+	 	<li>Haftada 100 $ satışa ulaşma</li>
+	</ul>
+	Birkaç hedefe beyin fırtınası yaptıktan sonra, toplamda 2-3 hedefe kadar daraltmak için birlikte çalışın. Hedeflerinizin gerçekçi olduğundan emin olmalısınız, böylece onlara ulaşamayacağınız takdirde onları cesaretlendirmeyeceğiniz kadar yüksek bir seviyeye gelmeden elde edebilirsiniz. Eğer takılırsanız ya da hedefleriniz konusunda emin değilseniz, siz ve ekibinizin kendinize sormak isteyebileceği birkaç soru vardır:
+	<ul>
+	 	<li>Bu hedefe ulaşmak için bir yöntem geliştirebilir miyiz?</li>
+	 	<li>Sayılar, zaman çerçevesi ve maliyetler pratik mi görünüyor?</li>
+	 	<li>Yarışmam mı yoksa başka şirketlerle mi benzer şeyler yaptı?</li>
+	 	<li>Bu hedefler değerlendirme için takip edilebilir mi?</li>
+	</ul>
+	<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Yukarıdaki soruların 2'den fazlasına hayır dediyseniz, pazarlama hedeflerinizi yeniden değerlendirmek isteyebilirsiniz. Bu sayıları değiştirebilir veya büyük bir hedefi daha yönetilebilir parçalara bölebilir. İşinizi büyütmek ve yeteneklerinizi genişletmek ve net ve eyleme geçebilmek için hedeflerinize ihtiyaç duymak istiyorsanız bunu yapmak istersiniz. </span></p>
+	<p class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Unutmayın, hiç kimse bir oturuşta tam bir pasta yemeye çalışmıyor! Her seferinde bir parça yiyorlar. Kendiniz için belirlediğiniz hedeflere ulaştıktan sonra, bir sonraki bölüme, pazarlama stratejisine geçmeye hazırsınız.</span></p>
+</div>
+
+<h3 id="strat"><strong>Pazarlama Stratejisi</strong></h3>
 Pazarlama söz konusu olduğunda kullanabileceğiniz birçok farklı strateji türü vardır, ancak 4P’lere: (product, price, promotion, and place)<strong> ürün, fiyat, promosyon ve yer</strong> olarak bağlıyız. Her biriyle başa çıkacağız ve muhtemelen pazarlama ve iş dünyasının birlikte nerede çalıştığını farkedeceksiniz.
 
 <strong>Ürün</strong>
@@ -85,61 +86,75 @@ Tüketicinin bir ürün için ödeme yapması bekleniyor. Bu, para kazanmayla il
 <strong>Tanıtım</strong>
 
 Uygulamanızı iyi bilinen yapmak istediğiniz yer! Geliştirdiğiniz uygulama türüne bağlı olarak, daha fazla müşteri edinmek için farklı promosyon türlerini kullanabilirsiniz. Farklı promosyon türleri farklı tutarlara mal olur, bu nedenle promosyon seçeneklerini göz önünde bulundurarak iş planınızı ve bütçenizi referans gösterdiğinizden emin olun.
+
 <p id="tw-target-text" class="tw-data-text tw-ta tw-text-medium" dir="ltr"><span lang="tr">İşte bazı promosyon stratejileri:</span></p>
-<p dir="ltr">İndirimler: Ürününüzü kullanan müşterilere, genellikle müşteri tabanını büyütmek için kullanılan kuponlar, freebe'ler veya indirimler verir. Harika bir seçenek, <a href="http://www.people.hbs.edu/cmarquis/Inside_the_Buy_One_Give_One_Model.pdf" target="_blank" rel="noopener">bir tane satın al-bir tane ver</a> kullanıcı tabanınızı artırmak için hayırsever ve kullanılabilecek bir satın alma olanıdır!</p>
-<p dir="ltr">Medya reklamcılığı: büyük miktarda insana teşvik etmek için kullanılan <a href="https://www.entrepreneur.com/article/203246" target="_blank" rel="noopener">radyo</a>, <a href="http://www.wordstream.com/online-advertising" target="_blank" rel="noopener">online</a>(çevrimiçi), basılı veya televizyon</p>
-<p dir="ltr">Sosyal Medya: <a href="https://www.facebook.com/business/products/ads" target="_blank" rel="noopener">Facebook</a>, <a href="https://business.instagram.com/advertising" target="_blank" rel="noopener">Instagram</a>, <a href="https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html" target="_blank" rel="noopener">Twitter</a>, <a href="http://wallaroomedia.com/snapchat-advertising-cost/" target="_blank" rel="noopener">Snapchat</a>, veya <a href="https://www.youtube.com/yt/advertise/" target="_blank" rel="noopener">YouTube</a>, çok sayıda insana da tanıtım yapmak için kullanılabilir ve belirli kitlelere hedeflenebilir.</p>
-<p dir="ltr"><a href="https://www.google.com/adwords/?subid=us-en-ns-g-aw-c-dyn!o2" target="_blank" rel="noopener">Google Adwords</a>: Tüketicilerin belirli anahtar kelimeleri aradığında ürününüz için ödeme yapmak</p>
-<p dir="ltr"><a href="https://en.wikipedia.org/wiki/Viral_phenomenon" target="_blank" rel="noopener">Viral medya</a>: Sosyal medyada isim ve marka bilinirliği kazandıran akılda kalıcı videolar veya fotoğraflar yapmak</p>
-<p dir="ltr">Ağ: Uygulamanızı tanıtmak için yerel bağlantılarınızı kullanın. Ayrıca e-posta kullanmayı da deneyebilirsiniz. Uygulamanız adına konuşmak için önemli bir rakam ya da etkileyiciyi bilmek çok yardımcı olabilir.</p>
+<ul>
+	<li><p dir="ltr">İndirimler: Ürününüzü kullanan müşterilere, genellikle müşteri tabanını büyütmek için kullanılan kuponlar, freebe'ler veya indirimler verir. Harika bir seçenek, <a href="http://www.people.hbs.edu/cmarquis/Inside_the_Buy_One_Give_One_Model.pdf" target="_blank" rel="noopener">bir tane satın al-bir tane ver</a> kullanıcı tabanınızı artırmak için hayırsever ve kullanılabilecek bir satın alma olanıdır!</p></li>
+	<li><p dir="ltr">Medya reklamcılığı: büyük miktarda insana teşvik etmek için kullanılan <a href="https://www.entrepreneur.com/article/203246" target="_blank" rel="noopener">radyo</a>, <a href="http://www.wordstream.com/online-advertising" target="_blank" rel="noopener">online</a>(çevrimiçi), basılı veya televizyon</p></li>
+	<li><p dir="ltr">Sosyal Medya: <a href="https://www.facebook.com/business/products/ads" target="_blank" rel="noopener">Facebook</a>, <a href="https://business.instagram.com/advertising" target="_blank" rel="noopener">Instagram</a>, <a href="https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html" target="_blank" rel="noopener">Twitter</a>, <a href="http://wallaroomedia.com/snapchat-advertising-cost/" target="_blank" rel="noopener">Snapchat</a>, veya <a href="https://www.youtube.com/yt/advertise/" target="_blank" rel="noopener">YouTube</a>, çok sayıda insana da tanıtım yapmak için kullanılabilir ve belirli kitlelere hedeflenebilir.</p></li>
+	<li><p dir="ltr"><a href="https://www.google.com/adwords/?subid=us-en-ns-g-aw-c-dyn!o2" target="_blank" rel="noopener">Google Adwords</a>: Tüketicilerin belirli anahtar kelimeleri aradığında ürününüz için ödeme yapmak</p></li>
+	<li><p dir="ltr"><a href="https://en.wikipedia.org/wiki/Viral_phenomenon" target="_blank" rel="noopener">Viral medya</a>: Sosyal medyada isim ve marka bilinirliği kazandıran akılda kalıcı videolar veya fotoğraflar yapmak</p></li>
+	<li><p dir="ltr">Ağ: Uygulamanızı tanıtmak için yerel bağlantılarınızı kullanın. Ayrıca e-posta kullanmayı da deneyebilirsiniz. Uygulamanız adına konuşmak için önemli bir rakam ya da etkileyiciyi bilmek çok yardımcı olabilir.</p></li>
+</ul>	
 <p dir="ltr"><strong>Yer</strong> (dağıtım)</p>
 <p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Bu, müşterilerinizin ürününüze erişeceği yere dayanır. Bir mobil uygulama olduğundan, genellikle Google Play veya Apple Store ile sınırlıdır. Bununla birlikte, uygulamanızın sanal mağazalarda güçlü bir açıklama yazarak, müşterinizin ilişkilendireceği anahtar kelimeleri kullanarak ve yararlı ekran görüntüleriyle harika görünmesini sağlayabilirsiniz. Dağıtımınıza eklemenin bir başka yolu, uygulamanızı desteklemek için çevrimiçi (online) bir web sitesi geliştirmektir.</span></p>
-<p dir="ltr">Doğru müşterileri çekmek için kullanmak istediğiniz anahtar kelimeleri bulmak üzere <a href="http://www.iridescent.staging.wpengine.com/curriculum/business2/" target="_blank" rel="noopener">Market Araştırması'na</a> başvurmak isteyebilirsiniz ve açıklamanızı, uygulamanızın tasvir edilmesini istediğiniz şekilde yazmak için<a href="http://www.iridescent.staging.wpengine.com/curriculum/market-1/" target="_blank" rel="noopener"> markanıza</a> başvurmak isteyebilirsiniz.</p>
+
+<p dir="ltr">Doğru müşterileri çekmek için kullanmak istediğiniz anahtar kelimeleri bulmak üzere <a href="http://www.technovationchallenge.org/curriculum/business-2/" target="_blank" rel="noopener">Market Araştırması'na</a> başvurmak isteyebilirsiniz ve açıklamanızı, uygulamanızın tasvir edilmesini istediğiniz şekilde yazmak için<a href="http://www.technovationchallenge.org/curriculum/market-1/" target="_blank" rel="noopener"> markanıza</a> başvurmak isteyebilirsiniz.</p>
 <p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Pazarlama stratejileri hakkında daha fazla bilgi için aşağıdaki ek kaynaklara göz atabilirsiniz:</span></p>
-<p dir="ltr"><a href="http://cultbranding.com/ceo/52-types-of-marketing-strategies/">Kült Markalaşma: 52 Pazarlama Stratejisi Türleri</a></p>
-<p dir="ltr"><a href="http://blog.hubspot.com/blog/tabid/6307/bid/33857/10-Businesses-We-Admire-for-Brilliant-Global-Marketing.aspx#sm.000nzcgmn13g3cyixhl2b0zx4ukp8">HubSpot: Parlak Küresel Pazarlama Stratejileri İle 13 İşletme </a></p>
-<p dir="ltr"><a href="http://creativealgorithms.com/blog/category/tags/applying-4ps-marketing-apps">Yaratıcı Algoritmalar: Pazarlama Uygulamalarına 4P Uygulanması</a></p>
-<p dir="ltr"><a href="http://www.bluecaribu.com/mobile-app-marketing/">Blue Caribu: Mobil Uygulama Pazarlaması Üzerine İnfografik</a></p>
-<p dir="ltr"><strong>"Odaklanın, hayallerinizin peşinden gidin ve hedeflerinize doğru ilerlemeye devam edin."</strong></p>
-<p dir="ltr">-LL Cool J</p>
-
-<h3>Pazarlama Değerlendirmesi</h3>
-Pazarlama planınızın ilerleyişini kontrol etmek için, <strong>metrikler</strong> denen hedeflerinizi izlemenin yollarını düşünmek istersiniz. Ölçmek istediğiniz metrikler, elde etmeye çalıştığınız farklı hedeflere bağlı olacaktır. Örneğin, uygulama indirme işlemlerini takip etmek isterseniz, uygulamanızı yüklemeyi seçerseniz kullanabileceğiniz <a href="https://support.google.com/googleplay/android-developer/answer/139628?co=GENIE.Platform%3DDesktop&amp;hl=en" target="_blank" rel="noopener">Google Play</a> ve <a href="https://developer.apple.com/app-store/app-analytics/" target="_blank" rel="noopener">Apple Store</a>'da yerleşik özellikler bulunur. İlk kodlama sorunu için oluşturduğumuz uygulamadan Google Play Geliştirici Konsolumuza göz atın! Uygulamamızı kaç kullanıcının yüklediğini, kaç kişinin kaldırıldığını ve uygulamanın hangi ülkede indirileceğini bile görebiliriz.
-
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/Screen-Shot-2016-11-17-at-3.46.36-PM.png" alt="ekran-görüntülemesi-2016-11-17-at-3-46-36-pm" width="952" height="697" />
-
-Uygulamamız 3 ay boyunca yalnızca Google Play Store'da bulunuyor. Bu nedenle, bu süre boyunca 11 indirmenin olduğunu görebiliyoruz. Görüyoruz ki, Eylül ayında 2 tane indirdiğimiz birkaç tane var ve biz zaten Kasım için 6'ya kadar çıktık! Ayrıca, 1 kullanıcının uygulamayı kaldırdığını da görebiliriz. Biraz daha aşağı kaydırırsak, kaç kişinin uygulamamızı incelediğini ve bize bir derecelendirme olarak verdikleri bilgileri görebiliriz.
-
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/Screen-Shot-2016-11-17-at-4.33.03-PM.png" alt="ekran-görüntülemesi-2016-11-17-at-4-33-03-pm" width="908" height="307" />
-
-Toplamda 6 oy aldık ve uygulamamız Eylül ayında bir kez, ardından Kasım ayında 5 kez daha değerlendirildi. Ayrıca, derecelendirmelerin kaç tane yıldız için olduğunu da görebiliriz.
-
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/Screen-Shot-2016-11-17-at-3.48.10-PM.png" alt="ekran-görüntülemesi-2016-11-17-at-3-48-10-pm" width="722" height="261" />
-<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Uygulamamızın başarılı olup olmadığını öğrenmek için bu verilerin tümü bizim için gerçekten yararlıdır! Sosyal medya uygulamaları pazarlama konusunda çok yardımcı olabilir ve kendi oluştururken kullanmak yerine kullanabileceğiniz kendi <a href="https://www.brandwatch.com/2013/08/top-10-free-social-media-monitoring-tools/" target="_blank" rel="noopener">takip etme araçlarına</a> sahiptir. Kullanılacak en popüler ve esnek uygulamalardan biri, izlemek istediğiniz şey, izlemeyi nasıl izlemek ve bilgilerin görüntülenme şekliyle size birçok seçenek sunan <a href="https://www.google.com/analytics/web/#home/" target="_blank" rel="noopener">Google Analitikler</a>'tir. Başlamak biraz zor olabilir, bu yüzden size yardımcı olabilecek birkaç kılavuz ekledik:</span></p>
-<a href="https://www.youtube.com/watch?v=SMMPhmY8BrY">Google Analytics: Mobil Uygulama Analizi Temelleri</a>
-
-<a href="https://moz.com/blog/absolute-beginners-guide-to-google-analytics">Moz: Google Analytics'e Mutlak Başlangıç ​​Kılavuzu</a>
-
-<a href="http://www.socialmediaexaminer.com/google-analytics-basics/">Sosyal Medya İncelemesi: Google Analytics'in Kullanımı - Başlarken</a>
-
- Kissmetrics: Google Analytics'ten En İyi Şekilde Yararlanma 50 Kaynak
-<h3>Düşünün</h3>
-Tebrikler, pazarlama planınızla işiniz bitti! Yaptıklarını gözden geçirelim:
-<ol>
- 	<li>Pazarlama hedeflerinizi belirleyin</li>
- 	<li>Hedeflerinize ulaşmak için stratejiler oluşturuldu</li>
- 	<li>Gelişiminizi takip etmenin ve değerlendirmenin bir yolunu bulmak</li>
-</ol>
-<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Pazarlama planınızı kesinleştirdiğinizden emin olun; kısa bir raporda yazmak bile isteyebilirsiniz. Daha fazla şey öğrendikçe ve işiniz büyüdükçe pazarlama planınızı her zaman geri alabilir ve geliştirebilirsiniz. Unutmayın, pazar araştırmanız aracılığıyla hedef müşterinize nasıl satış yapacağınızı ve pazarlama planınızı bu <a href="http://smallbusiness.chron.com/differences-between-marketing-research-marketing-strategy-1408.html" target="_blank" rel="noopener">bilgiler sayesinde</a> nasıl geliştireceğinizi anladığınızdan emin olun. Bazen pazar araştırmasına geri dönüp gözden geçirebilir veya daha fazla araştırma yapman gerekebilir. Pazarlama planınız, ürününüz (veya özellikleri), tüketicilerin markanızı ve hatta bütçelerini görüntüleme şekli gibi başka birçok faktörün değişmesine neden olabilir. Esnek olmanız ve planlarınızı yapabileceğiniz en iyi şekilde değiştirmeniz size kalmıştır.</span></p>
-
-<h5>Kıdemli Bölüm (Senior Division)</h5>
-<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Göndereceğiniz iş planınızın bir parçası olarak bir pazarlama planına ihtiyacınız olacaktır. Ekibiniz işi birlikte yapabilir veya bir ekip üyesine devredebilir. Ekibinizin dışındaki birinin size geri bildirim verebilecek bir akıl hocası (mentor) veya öğretmen gibi baktığından emin olun. Yatırımcılar, pazarlamanın kötü olması nedeniyle büyük ürünler bile başarısız olabileceğinden, pazarlamacılar pazarlamaya çok önem veriyorlar.</span></p>
-
-<h5><b>Ek Kaynaklar:</b></h5>
 <ul>
- 	<li style="font-weight: 400"><a href="https://www.entrepreneur.com/article/43018" target="_blank" rel="noopener">Girişimci: Bir pazarlama planı nasıl oluşturulur</a></li>
- 	<li style="font-weight: 400"><a href="https://www.youtube.com/watch?v=N3XX1QekLc4" target="_blank" rel="noopener">Küçük işiniz için bir pazarlama planı oluşturmak için hızlı bir yol gösterici</a></li>
- 	<li style="font-weight: 400"><a href="https://www.entrepreneur.com/article/234204" target="_blank" rel="noopener">Girişimci: Market hedeflerinizi bu şekilde ortaya çıkarırsınız</a></li>
- 	<li style="font-weight: 400"><a href="http://www.apptamin.com/blog/app-marketing-strategy/#marketing-within" target="_blank" rel="noopener">Apptamin: iOS Pazarlama Strateji Yol Göstericisi</a></li>
- 	<li style="font-weight: 400"><a href="https://blog.kissmetrics.com/how-to-market-your-mobile-app/" target="_blank" rel="noopener">Kissmetrics: Mobil Uygulamanızı bu şekilde markete taşırsınız</a></li>
+	<li><p dir="ltr"><a href="http://cultbranding.com/ceo/52-types-of-marketing-strategies/" target="_blank" rel="noopener">Kült Markalaşma: 52 Pazarlama Stratejisi Türleri</a></p></li>
+	<li><p dir="ltr"><a href="http://blog.hubspot.com/blog/tabid/6307/bid/33857/10-Businesses-We-Admire-for-Brilliant-Global-Marketing.aspx#sm.000nzcgmn13g3cyixhl2b0zx4ukp8" target="_blank" rel="noopener">HubSpot: Parlak Küresel Pazarlama Stratejileri İle 13 İşletme </a></p></li>
+	<li><p dir="ltr"><a href="http://creativealgorithms.com/blog/category/tags/applying-4ps-marketing-apps" target="_blank" rel="noopener">Yaratıcı Algoritmalar: Pazarlama Uygulamalarına 4P Uygulanması</a></p></li>
+	<li><p dir="ltr"><a href="http://www.bluecaribu.com/mobile-app-marketing/" target="_blank" rel="noopener">Blue Caribu: Mobil Uygulama Pazarlaması Üzerine İnfografik</a></p></li>
 </ul>
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<blockquote>
+		<p style="text-align: center"><strong>"Odaklanın, hayallerinizin peşinden gidin ve hedeflerinize doğru ilerlemeye devam edin."</strong></p>
+	</blockquote>	
+	<p style="text-align: right">-LL Cool J</p>
+</div>
+<h3 id="assess" style="text-align: left"><strong>Pazarlama Değerlendirmesi</strong></h3>
+Pazarlama planınızın ilerleyişini kontrol etmek için, <strong>metrikler</strong> denen hedeflerinizi izlemenin yollarını düşünmek istersiniz. Ölçmek istediğiniz metrikler, elde etmeye çalıştığınız farklı hedeflere bağlı olacaktır. Örneğin, uygulama indirme işlemlerini takip etmek isterseniz, uygulamanızı yüklemeyi seçerseniz kullanabileceğiniz <a href="https://support.google.com/googleplay/android-developer/answer/139628?co=GENIE.Platform%3DDesktop&amp;hl=en" target="_blank" rel="noopener">Google Play</a> ve <a href="https://developer.apple.com/app-store/app-analytics/" target="_blank" rel="noopener">Apple Store</a>'da yerleşik özellikler bulunur. İlk kodlama sorunu için oluşturduğumuz uygulamadan Google Play Geliştirici Konsolumuza göz atın! Uygulamamızı kaç kullanıcının yüklediğini, kaç kişinin kaldırıldığını ve uygulamanın hangi ülkede indirileceğini bile görebiliriz.
+<br>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Screen-Shot-2016-11-17-at-3.46.36-PM.png" alt="screen-shot-2016-11-17-at-3-46-36-pm" width="952" height="697" />
+<br>
+Uygulamamız 3 ay boyunca yalnızca Google Play Store'da bulunuyor. Bu nedenle, bu süre boyunca 11 indirmenin olduğunu görebiliyoruz. Görüyoruz ki, Eylül ayında 2 tane indirdiğimiz birkaç tane var ve biz zaten Kasım için 6'ya kadar çıktık! Ayrıca, 1 kullanıcının uygulamayı kaldırdığını da görebiliriz. Biraz daha aşağı kaydırırsak, kaç kişinin uygulamamızı incelediğini ve bize bir derecelendirme olarak verdikleri bilgileri görebiliriz.
+<br>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Screen-Shot-2016-11-17-at-4.33.03-PM.png" alt="screen-shot-2016-11-17-at-4-33-03-pm" width="908" height="307" />
+<br>
+Toplamda 6 oy aldık ve uygulamamız Eylül ayında bir kez, ardından Kasım ayında 5 kez daha değerlendirildi. Ayrıca, derecelendirmelerin kaç tane yıldız için olduğunu da görebiliriz.
+<br>
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Screen-Shot-2016-11-17-at-3.48.10-PM.png" alt="screen-shot-2016-11-17-at-3-48-10-pm" width="722" height="261" />
+<br>
+<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Uygulamamızın başarılı olup olmadığını öğrenmek için bu verilerin tümü bizim için gerçekten yararlıdır! Sosyal medya uygulamaları pazarlama konusunda çok yardımcı olabilir ve kendi oluştururken kullanmak yerine kullanabileceğiniz kendi <a href="https://www.brandwatch.com/2013/08/top-10-free-social-media-monitoring-tools/" target="_blank" rel="noopener">takip etme araçlarına</a> sahiptir. Kullanılacak en popüler ve esnek uygulamalardan biri, izlemek istediğiniz şey, izlemeyi nasıl izlemek ve bilgilerin görüntülenme şekliyle size birçok seçenek sunan <a href="https://www.google.com/analytics/web/#home/" target="_blank" rel="noopener">Google Analitikler</a>'tir. Başlamak biraz zor olabilir, bu yüzden size yardımcı olabilecek birkaç kılavuz ekledik:</span></p>
+<ul>
+	<li style="font-weight: 400"><a href="https://www.youtube.com/watch?v=SMMPhmY8BrY" target="_blank" rel="noopener">Google Analytics: Mobil Uygulama Analizi Temelleri</a></li>
+
+	<li style="font-weight: 400"><a href="https://moz.com/blog/absolute-beginners-guide-to-google-analytics" target="_blank" rel="noopener">Moz: Google Analytics'e Mutlak Başlangıç ​​Kılavuzu</a></li>
+
+	<li style="font-weight: 400"><a href="http://www.socialmediaexaminer.com/google-analytics-basics/" target="_blank" rel="noopener">Sosyal Medya İncelemesi: Google Analytics'in Kullanımı - Başlarken</a></li>
+	<li style="font-weight: 400"><a href="https://blog.kissmetrics.com/50-resources-for-getting-the-most-out-of-google-analytics/" target="_blank" rel="noopener"> Kissmetrics: Google Analytics'ten En İyi Şekilde Yararlanma 50 Kaynak</a></li>
+</ul>
+ 
+<div style="background-color: #006667; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;"> 
+	<h3 id="reflect"><span style="color: #ffffff;"><strong>Düşünün</strong></span></h3>
+	Tebrikler, pazarlama planınızla işiniz bitti! Yaptıklarını gözden geçirelim:
+	<ol>
+	 	<li>Pazarlama hedeflerinizi belirleyin</li>
+	 	<li>Hedeflerinize ulaşmak için stratejiler oluşturuldu</li>
+	 	<li>Gelişiminizi takip etmenin ve değerlendirmenin bir yolunu bulmak</li>
+	</ol>
+	<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Pazarlama planınızı kesinleştirdiğinizden emin olun; kısa bir raporda yazmak bile isteyebilirsiniz. Daha fazla şey öğrendikçe ve işiniz büyüdükçe pazarlama planınızı her zaman geri alabilir ve geliştirebilirsiniz. Unutmayın, pazar araştırmanız aracılığıyla hedef müşterinize nasıl satış yapacağınızı ve pazarlama planınızı bu <span style="color: #eae46f;"><a style="color: #eae46f;" href="http://smallbusiness.chron.com/differences-between-marketing-research-marketing-strategy-1408.html" target="_blank" rel="noopener">bilgiler sayesinde</a></span> nasıl geliştireceğinizi anladığınızdan emin olun. Bazen pazar araştırmasına geri dönüp gözden geçirebilir veya daha fazla araştırma yapman gerekebilir. Pazarlama planınız, ürününüz (veya özellikleri), tüketicilerin markanızı ve hatta bütçelerini görüntüleme şekli gibi başka birçok faktörün değişmesine neden olabilir. Esnek olmanız ve planlarınızı yapabileceğiniz en iyi şekilde değiştirmeniz size kalmıştır.</span></p>
+
+	<h5>Kıdemli Bölüm (Senior Division)</h5>
+	<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Göndereceğiniz iş planınızın bir parçası olarak bir pazarlama planına ihtiyacınız olacaktır. Ekibiniz işi birlikte yapabilir veya bir ekip üyesine devredebilir. Ekibinizin dışındaki birinin size geri bildirim verebilecek bir akıl hocası (mentor) veya öğretmen gibi baktığından emin olun. Yatırımcılar, pazarlamanın kötü olması nedeniyle büyük ürünler bile başarısız olabileceğinden, pazarlamacılar pazarlamaya çok önem veriyorlar.</span></p>
+
+	<h5> <span style="color: #ffffff;"><strong>Ek Kaynaklar:</strong></span></h5>
+	<ul>
+	 	<li style="font-weight: 400"> <span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.entrepreneur.com/article/43018" target="_blank" rel="noopener">Girişimci: Bir pazarlama planı nasıl oluşturulur</a></span></li>
+	 	<li style="font-weight: 400"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.youtube.com/watch?v=N3XX1QekLc4" target="_blank" rel="noopener">Küçük işiniz için bir pazarlama planı oluşturmak için hızlı bir yol gösterici</a></span></li>
+	 	<li style="font-weight: 400"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.entrepreneur.com/article/234204" target="_blank" rel="noopener">Girişimci: Market hedeflerinizi bu şekilde ortaya çıkarırsınız</a></span></li>
+	 	<li style="font-weight: 400"><span style="color: #eae46f;"><a style="color: #eae46f;" href="http://www.apptamin.com/blog/app-marketing-strategy/#marketing-within" target="_blank" rel="noopener">Apptamin: iOS Pazarlama Strateji Yol Göstericisi</a></span></li>
+	 	<li style="font-weight: 400"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://blog.kissmetrics.com/how-to-market-your-mobile-app/" target="_blank" rel="noopener">Kissmetrics: Mobil Uygulamanızı bu şekilde markete taşırsınız</a></span></li>
+	</ul>
+</div>
