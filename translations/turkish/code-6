@@ -15,12 +15,13 @@ Bu ünitede öğrenecekleriniz:
  	<li style="font-weight: 400">Kodunuzu nasıl planlayacağınız</li>
  	<li style="font-weight: 400">Proje ve zamanınızı planlamanın yolları</li>
 </ul>
-<h3><b>Kodunuzu Planlamak</b></h3>
-<a href="http://www.iridescent.staging.wpengine.com/curriculum/code-5/" target="_blank" rel="noopener">Kod 5</a> 'te uygulamanızın nasıl görüneceğini ve kullanıcıların uygulamada nasıl etkileşime geçeceğini planladınız. Şimdiki bölümde kodunuzu planlarken size yardımcı olacak iki tekniği öğrenecek ve uygulamanızın nasıl çalışacağı hakkında fikir sahibi olacaksınız. Kodunuzu yazmadan önce planlamak çok önemlidir çünkü bu şekilde önceden bilmediğiniz bir kodu öğrenmeniz gerekip gerekmediğini anlayabilir ve başlamadan önce kodun nasıl çalışacağı hakkında fikir sahibi olabilirsiniz!
-<h5>Pseudokod</h5>
+<h3><strong>Kodunuzu Planlamak</strong></h3>
+<a href="http://www.technovationchallenge.org/curriculum/code-5/" target="blank">Kod 5</a> 'te uygulamanızın nasıl görüneceğini ve kullanıcıların uygulamada nasıl etkileşime geçeceğini planladınız. Şimdiki bölümde kodunuzu planlarken size yardımcı olacak iki tekniği öğrenecek ve uygulamanızın nasıl çalışacağı hakkında fikir sahibi olacaksınız. Kodunuzu yazmadan önce planlamak çok önemlidir çünkü bu şekilde önceden bilmediğiniz bir kodu öğrenmeniz gerekip gerekmediğini anlayabilir ve başlamadan önce kodun nasıl çalışacağı hakkında fikir sahibi olabilirsiniz!
+
+<h3 id="pseudo">Pseudokod</h3>
 <b>Pseudokod </b>yazmak planlama aşamasının çok önemli bir bölümüdür.  Pseudokod uygulamanın fonksiyonunu açıklamak amaçlı biraz kodla beraber sade bir dil kullanır. Koşul, döngü veya ListView ve button benzeri istediğiniz herhangi bir App Inventor bileşenini kısaca bildiğiniz kodlama terimlerini kullanmalısınız. Pseudokod yazmanın çok kuralı yoktur ancak amacı programlamaya başlamadan önce uygulamanızın çalışma şekli konusunda fikir edinmektir.
 
-<a href="http://www.iridescent.staging.wpengine.com/curriculum/code-3/" target="_blank" rel="noopener">Kod 3</a>'ten bir örneğe bakalım. Bu uygulamada kullanıcı bir bilimkadınları veri tabanını arayabilir. Uygulama, isimleri ListView şeklinde sunar ve kullanıcı bir bilimci seçerek onun hakkında bilgi edinebilir.
+<a href="http://www.technovationchallenge.org/curriculum/code-3/" target="_blank" rel="noopener">Kod 3</a>'ten bir örneğe bakalım. Bu uygulamada kullanıcı bir bilimkadınları veri tabanını arayabilir. Uygulama, isimleri ListView şeklinde sunar ve kullanıcı bir bilimci seçerek onun hakkında bilgi edinebilir.
 
 <i>Arama Butonu</i>
 <ul>
@@ -49,61 +50,76 @@ Bu ünitede öğrenecekleriniz:
  	<li style="font-weight: 400">Uygulşama <b>TinyDB</b>'den bilimci isim ve açıklamasını alır.</li>
  	<li style="font-weight: 400">Uygulama bilimci isim ve açıklamasını yansıtır</li>
 </ul>
-<h3>Aktivite</h3>
-Uygulamada iki tane olay kontrolcü (event handler) için pseudocode yaz. Bir olay kontrolcünün uygulamada nasıl çalışacağını düşünürken zorluk çekiyorsanız, mentör veya takım arkadaşlarınızdan yardım alabilirsiniz.
 
-Kendinize sorabileceğiniz sorular:
-<ul>
- 	<li style="font-weight: 400">Bu kodu başlatan olay nedir?</li>
- 	<li style="font-weight: 400">Uygulamanız herhangi bir depolanmış bilgiye ihtiyaç duyacak mı?
-<ul>
- 	<li style="font-weight: 400">Eğer duyacaksa, bu veriler nerede depolanacak?</li>
-</ul>
-</li>
- 	<li style="font-weight: 400">Uygulamanız herhangi bir değişken kullanacak mı? Eğer kullanacaksa, değişkenleri isimlendirmek takip etmenizi kolaylaştıracak ve size yardımcı olacaktır.</li>
-</ul>
-<h3><b>Akış Şeması</b></h3>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3 id="activity1">Aktivite</h3>
+	Uygulamada iki tane olay kontrolcü (event handler) için pseudocode yaz. Bir olay kontrolcünün uygulamada nasıl çalışacağını düşünürken zorluk çekiyorsanız, mentör veya takım arkadaşlarınızdan yardım alabilirsiniz.
+
+	Kendinize sorabileceğiniz sorular:
+	<ul>
+	 	<li style="font-weight: 400">Bu kodu başlatan olay nedir?</li>
+	 	<li style="font-weight: 400">Uygulamanız herhangi bir depolanmış bilgiye ihtiyaç duyacak mı?
+	<ul>
+	 	<li style="font-weight: 400">Eğer duyacaksa, bu veriler nerede depolanacak?</li>
+	</ul>
+	</li>
+	 	<li style="font-weight: 400">Uygulamanız herhangi bir değişken kullanacak mı? Eğer kullanacaksa, değişkenleri isimlendirmek takip etmenizi kolaylaştıracak ve size yardımcı olacaktır.</li>
+	</ul>
+</div>	
+<h3 id="flow"><strong>Akış Şeması</strong></h3>
 Bir <b>akış şeması </b>bir algoritmayı temsil eden bir diagramdır. Şekiller ve oklar kullanarak verilerin programda nasıl hareket ettiğini gösterir. Her zaman yukarıdan aşağıya doğru okunur. Programcılar verilere olabilecek farklı şeyleri temsil etmesi için farklı şekiller kullanırlar. Biri insanın neden karnının ağrıdığını anlamak için yazılan bir algoritma örneği:
+<br>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/flowchart-1.png" alt="flowchart-1" width="426" height="434" />
+&nbsp;
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/flowchart-1.png" alt="flowchart-1" width="426" height="434" />
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/terminal.png" alt="terminal" width="139" height="41" />
+<br>
+<p style="text-align: left;">Yukarıdaki örnekte algoritmanın nerede başlayıp nerede bittiğini göstermek için bir <b>oval</b> kullanılmıştır. Örnekte algoritmanın bitebileceği üç farklı yer gösterilmiştir. Kişi ya yemek yemelidir, ya dinlenmelidir, ya da bir doktorla görüşmelidir. Bunlar <b>terminal </b>olarak adlandırılır.</p>
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/terminal.png" alt="terminal" width="139" height="41" />
+&nbsp;
 
-Yukarıdaki örnekte algoritmanın nerede başlayıp nerede bittiğini göstermek için bir <b>oval</b> kullanılmıştır. Örnekte algoritmanın bitebileceği üç farklı yer gösterilmiştir. Kişi ya yemek yemelidir, ya dinlenmelidir, ya da bir doktorla görüşmelidir. Bunlar <b>terminal </b>olarak adlandırılır.
+<p style="text-align: center;"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/decision.png" alt="decision" width="139" height="76" /></p>
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/decision.png" alt="decision" width="139" height="76" />
+&nbsp;
 <p style="text-align: left">Bir <b>elmas </b>bir <b>karar</b>'ın nerede alınacağını gösterir.   "Yolda çatallar" gibidir. Bu, bir koşulun herhangi bir durumda doğru ya da yanlış olma kararı vermesidir. Bir karardan iki ok çıkmalıdır, biri <b>doğru </b>ve biri de <b>yanlış </b>için. Yukarıdaki örnekte okların elmastan nasıl çıktığına dikkat edin, biri aşağıdan diğeri de yandan çıkmaktadır.</p>
 Başka bir akış şeması örneği:
+<br>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/flowchart-2-1.png" alt="flowchart-2" width="124" height="281" />
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/flowchart-2-1.png" alt="flowchart-2" width="124" height="281" />
+&nbsp;
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/process.png" alt="process" width="139" height="41" />
-
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/process.png" alt="process" width="139" height="41" />
+<br>
 Bu diagram <b>süreci</b> temsil eden bir <b>dikdörtgen</b> kullanır. Bir süreç kodunuzun yaptığı herhangi bir şeydir. Bir kullanıcıyı uyarmak, bir şey söylemek için bir isim koymak veya iki sayıyı eklemek bu şeylere örnektir.
 
-Bu akış şeması bir <strong>beyaz döngü </strong>gösterir. Durum ve süreç, (bu durumda bir girişe erişim) durum memnun edilene kadar tekrar edecektir.  <a href="http://www.iridescent.staging.wpengine.com/curriculum/code-3/" target="_blank" rel="noopener">Kod 3</a>'te öğrendiğiniz bir çeşit döngü de <strong>sürece göngüsü</strong>'dür. <strong>Sürece göngüsü</strong>'ndeki durum <strong>sayıcı</strong>'nın yeterli yüksekliğe gelip gelmediğini kontrol etmektir. Beklenen duruma ulaşılana kadar bu süreç tekrarlayarak devam eder.
+Bu akış şeması bir <strong>beyaz döngü </strong>gösterir. Durum ve süreç, (bu durumda bir girişe erişim) durum memnun edilene kadar tekrar edecektir.  <a href="http://www.technovationchallenge.org/curriculum/code-3/" target = "_blank"><strong>Kod 3</strong></a>'te öğrendiğiniz bir çeşit döngü de <strong>sürece göngüsü</strong>'dür. <strong>Sürece göngüsü</strong>'ndeki durum <strong>sayıcı</strong>'nın yeterli yüksekliğe gelip gelmediğini kontrol etmektir. Beklenen duruma ulaşılana kadar bu süreç tekrarlayarak devam eder.
+<br>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/flowchart-3-1.png" alt="flowchart-3" width="424" height="314" />
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/flowchart-3-1.png" alt="flowchart-3" width="424" height="314" />
+&nbsp;
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/input-1.png" alt="input" width="145" height="41" />
-
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/input-1.png" alt="input" width="145" height="41" />
+<br>
 Bilmeniz gereken son şekil <b>paralelogram </b>olarak adlandırılır. Bu şekli herhangi bir kullanıcı veya websitesinden bilgi almanız gerektiğinde kullanmanız gerekmektedir. Paralelogram <b>giriş</b>'ler içindir.
-<h3>Aktivite</h3>
-Bu aktivitede pseudokodunuzu bir akış şemasına çevireceksiniz. Yukarıdaki aktivite için yazdığınız pseudokodu kullanarak aşağıdaki yönergeyi takip edin.
-<ol>
- 	<li><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/Artboard-16outline.png" alt="terminal oval" width="112" height="36" />
-Olay kontrolcü (event handler)'ınızın başına ve sonuna oval yerleştiriniz. Bu terminal olarak adlandırılır. Bir akış şemasının genelde birden fazla çıkışı varıdır. Yukarıdaki arama butonu örneğinde, olay kontrolcü <strong>listview </strong>ile arama sonuçlarını göstererek ya da herhangi bir eşleşme olmadığını belirterek biter.</li>
- 	<li><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/decision_1outline.png" alt="conditional diamond" width="112" height="36" />
-Kararın alınması gereken yere bir elmas koyunuz. Bu, uygulamanın herhangi bir durumda durumun doğru veya yanlış olduğuna karar verdiği bir zamandır. Koşulların birden fazla mümkün sonuca çıkabileceğini unutmayın.</li>
- 	<li><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/Artboard-28outline.png" alt="input" width="112" height="36" />
-Kodun giriş noktalarına veya bilgi aldığınız herhangi bir yere birer paralelogram ekleyin. Bu yer bir kullanıcı ya da websitesi olabilir.</li>
- 	<li><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/process_1outline.png" width="112" height="36" /><span id="alttext-container"><img id="alttext-image" width="16" height="16" align="left" /><span id="alttext"></span></span>
-Her sürecin etrafına birer dikdörtgen koyun. Bu, uygulamanızın yukarıdaki kategorilerden biriyle uyuşmadığı zamanlardır. Mesela bir listeye madde eklemek veya kullanıcıya haber vermek bu duruma örnek gösterilebilir.</li>
- 	<li><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/arrow_1outline.png" alt="arrow" height="36" />
-Her şeyi oklarla birleştirin! Koşul ve döngülere ok çizerken nasıl çizdiğinize dikkat edin ve ihtiyacınız olduğu takdirde yukarıdaki örneklerden yardım alın.</li>
-</ol>
-Akış şemalarınızdan birinin fotografını çekin ve fazladan bir <strong>puan</strong> almak için sunumunuza ekleyin! Tamamen doğru olup olmamasını dert etmeyin, bütün amaç yeni bir şey deneyip planlamanıza yardımcı olmaktır! Uygulamanın sonunda kodunuz akış şemanızla uyuşmuyorsa sorun değil, şemayı yenilemeniz gerekmemektedir.
-<h3><b>Çift Kodlama</b></h3>
+
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3 id="activity2">Aktivite</h3>
+	Bu aktivitede pseudokodunuzu bir akış şemasına çevireceksiniz. Yukarıdaki aktivite için yazdığınız pseudokodu kullanarak aşağıdaki yönergeyi takip edin.
+	<ol>
+	 	<li><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/Artboard-16outline.png" alt="terminal oval" width="112" height="36" />
+	Olay kontrolcü (event handler)'ınızın başına ve sonuna oval yerleştiriniz. Bu terminal olarak adlandırılır. Bir akış şemasının genelde birden fazla çıkışı varıdır. Yukarıdaki arama butonu örneğinde, olay kontrolcü <strong>listview </strong>ile arama sonuçlarını göstererek ya da herhangi bir eşleşme olmadığını belirterek biter.</li>
+	 	<li><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/decision_1outline.png" alt="conditional diamond" width="112" height="36" />
+	Kararın alınması gereken yere bir elmas koyunuz. Bu, uygulamanın herhangi bir durumda durumun doğru veya yanlış olduğuna karar verdiği bir zamandır. Koşulların birden fazla mümkün sonuca çıkabileceğini unutmayın.</li>
+	 	<li><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/Artboard-28outline.png" alt="input" width="112" height="36" />
+	Kodun giriş noktalarına veya bilgi aldığınız herhangi bir yere birer paralelogram ekleyin. Bu yer bir kullanıcı ya da websitesi olabilir.</li>
+	 	<li><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/process_1outline.png" width="112" height="36" />
+	Her sürecin etrafına birer dikdörtgen koyun. Bu, uygulamanızın yukarıdaki kategorilerden biriyle uyuşmadığı zamanlardır. Mesela bir listeye madde eklemek veya kullanıcıya haber vermek bu duruma örnek gösterilebilir.</li>
+	 	<li><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/arrow_1outline.png" alt="arrow" height="36" />
+	Her şeyi oklarla birleştirin! Koşul ve döngülere ok çizerken nasıl çizdiğinize dikkat edin ve ihtiyacınız olduğu takdirde yukarıdaki örneklerden yardım alın.</li>
+	</ol>
+	Akış şemalarınızdan birinin fotografını çekin ve fazladan bir <strong>puan</strong> almak için sunumunuza ekleyin! Tamamen doğru olup olmamasını dert etmeyin, bütün amaç yeni bir şey deneyip planlamanıza yardımcı olmaktır! Uygulamanın sonunda kodunuz akış şemanızla uyuşmuyorsa sorun değil, şemayı yenilemeniz gerekmemektedir.
+</div>	
+<h3 id="pair"><strong>Çift Kodlama</strong></h3>
 Çift kodlama, iki programcının bir çalışma alanını ya sırayla ya da aynı anda beraber kullanmasıdır. Bu senaryoda klavye veya dokunmatik ekranda oturan kişi sürücü, diğeri de navigatör olarak adlandırılır. Navigatör, kodlama aşamasına yardımcı olduğu gibi aynı zamanda sürücünün sorularını yanıtlar ve kod'a göz kulak olur, koddaki sorunları bulmaya ve çözmeye çalışır.
 
 Çift kodlamanın avantajları:
@@ -116,26 +132,26 @@ Akış şemalarınızdan birinin fotografını çekin ve fazladan bir <strong>p
 Programlama ipuçları:
 <ul>
  	<li style="font-weight: 400">“İlk önce fikrinizi deneyelim!” Demekten korkmayın. Bazen sürüş yaptığınız zaman, navigasyon cihazınızı ne zaman dinleyeceğinizi bilmeniz gerekir. Amaç, en iyi fikirleri kullanmak ve işbirliği yoluyla onlara ulaşmak ve hataları önlemek.</li>
- 	<li style="font-weight: 400">Deneyimi geliştirmek için <a href="https://www.thoughtworks.com/insights/blog/10-ways-improve-your-pairing-experience">on öneri</a>.</li>
+ 	<li style="font-weight: 400">Deneyimi geliştirmek için <a href="https://www.thoughtworks.com/insights/blog/10-ways-improve-your-pairing-experience" target = "_blank">on öneri</a>.</li>
 </ul>
-<blockquote>
-<p style="text-align: center">“None of us is as smart as all of us."</p>
-</blockquote>
-<p style="text-align: right">–Ken Blanchard, yazar ve yönetim uzmanı</p>
-
-<h3>Zaman Yönetimi</h3>
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<blockquote>
+		<p style="text-align: center">“None of us is as smart as all of us."</p>
+	</blockquote>
+	<p style="text-align: right">–Ken Blanchard, yazar ve yönetim uzmanı</p>
+</div>
+<h3 id="time">Zaman Yönetimi</h3>
 Bu noktada, aşağıdaki gibi sorularınız olabilir:
 <ul>
  	<li>Bu hedefe verimli bir şekilde nasıl çalışılır ve son teslim tarihi nasıl karşılanır?</li>
  	<li>Dijital prototipi kim ve ne zaman test edecek?</li>
  	<li>Göndermek için çalışan bir dijital prototipiniz olduğunda nasıl bilinir?</li>
 </ul>
-<div id="tw-target-text-container" class="gsrt tw-ta-container tw-nfl">
-<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Projenizin programlama bölümünü takip etmenize yardımcı olmak için, yazılım geliştirme sürecinin aşamalarını inceleyelim.</span></p>
 
-<div id="tw-target-text-container" class="gsrt tw-ta-container tw-nfl">
+Projenizin programlama bölümünü takip etmenize yardımcı olmak için, yazılım geliştirme sürecinin aşamalarını inceleyelim.
+
 <ul>
- 	<li id="tw-target-text" class="tw-data-text tw-ta tw-text-small"><span lang="tr">Kullanıcılar, ihtiyaçları ve bir MVP tespit edilmiştir (<a href="http://www.iridescent.staging.wpengine.com/curriculum/code-5/">Kod 5'den</a>)</span></li>
+ 	<li id="tw-target-text" class="tw-data-text tw-ta tw-text-small"><span lang="tr">Kullanıcılar, ihtiyaçları ve bir MVP tespit edilmiştir (<a href="http://www.technovationchallenge.org/curriculum/code-5/" target="_blank" rel="noopener">Kod 5'den</a>)</span></li>
  	<li>Kullanıcıların uygulamanızda kullanacağı eylemler, bir akış şemasıyla eşleştirildi</li>
  	<li>Yazılım oluşturuldu</li>
  	<li>Kullanıcı testi yapılır, hatalar tespit edilir</li>
@@ -154,8 +170,7 @@ Bu noktada, aşağıdaki gibi sorularınız olabilir:
 </ul>
 </li>
 </ul>
-</div>
-</div>
+
 <ul>
  	<li>Görevleri yıkın ve bölün
 <ul>
@@ -166,10 +181,10 @@ Bu noktada, aşağıdaki gibi sorularınız olabilir:
 <ul>
  	<li>Uygulamanızın önce işlevsel olduğundan emin olun ve daha sonra daha iyi görünmek için yapılabilir. Unutmayın, bir dijital prototip gönderiyorsunuz ve hakimler işe yaradığını, işi yaptıklarını ve kullanımı kolay olduğunu bilmekle ilgilenecekler. Tanıtım videonuzu ve iş planınızı kullanarak jürilerin, ekleyeceğiniz yeni özelliklerle ilgili gelecek planlarınızın neler olacağını bilmelerini sağlayın. Şu an MVP'ye odaklanmalısın.</li>
  	<li>
-<div id="tw-target-text-container" class="gsrt tw-ta-container tw-nfl">
+
 <p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Görevlerinizi önceliklendirmek için zor bir zamanınız varsa mentorunuzun size yardımcı olmasını isteyin.</span></p>
 
-</div></li>
+</li>
 </ul>
 </li>
  	<li>Odaklan
@@ -181,15 +196,16 @@ Bu noktada, aşağıdaki gibi sorularınız olabilir:
 </ul>
 </li>
 </ul>
-<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">İşte hakemlerin kullanacağı <a href="/?p=25231">Kod Kontrol Listesi</a>. Bunu uygulamak için uygulamanızda kullandığınız bileşenleri açıklayabilir ve mümkün olan en yüksek puanları aldığınızdan emin olabilirsiniz. Yargılama listesinin bu kısmı 10 puana eşittir ve hakemler aşağıdakileri kullandığınızı görmek isteyecektir: dizeler, sayılar, değişkenler, listeler, döngüler, şartlar, veritabanları ve mobil özellikler. Ayrıca akış şemasının resimlerini, kağıt prototipini ve uygulamanın ekran görüntülerini sağlamak için puan alabilirsiniz.</span></p>
+<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">İşte hakemlerin kullanacağı <a href="http://www.technovationchallenge.org/wp-content/uploads/2017/01/Technical-Checklist-2017.pdf" target = "_blank">Kod Kontrol Listesi</a>. Bunu uygulamak için uygulamanızda kullandığınız bileşenleri açıklayabilir ve mümkün olan en yüksek puanları aldığınızdan emin olabilirsiniz. Yargılama listesinin bu kısmı 10 puana eşittir ve hakemler aşağıdakileri kullandığınızı görmek isteyecektir: dizeler, sayılar, değişkenler, listeler, döngüler, şartlar, veritabanları ve mobil özellikler. Ayrıca akış şemasının resimlerini, kağıt prototipini ve uygulamanın ekran görüntülerini sağlamak için puan alabilirsiniz.</span></p>
 <p dir="ltr">Sürecinizi belgelemek ve her şeyi kaydetmek kesinlikle iyi bir fikirdir. Bir şeyin kaybolması durumunda uygulamanızın farklı sürümleri, akış şemanız veya kağıt prototipiniz gibi şeylere erişebileceksiniz, böylece zaman kaybetmeyeceksiniz. Bunu, mentorunuzla daha açık bir şekilde belirtmek için karşılaştığınız engelleri tartışırken de kullanabilirsiniz.</p>
 
-<h1>Değerlendirin</h1>
-<div id="tw-target-text-container" class="gsrt tw-ta-container tw-nfl">
-<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Tebrikler! Uygulamanızı oluşturmaya giderken, Technovation'a sunmaya hazırsınız. Uygulamanızı kodlarken kendinize çok fazla takıldığını görürseniz, hata ayıklama hakkında ipuçları için bir sonraki kodlama birimine göz atın. Dijital prototipinizle bol şanslar ve Technovation'da bizler bu kadar ileri gittiğiniz için heyecanlıyız!</span></p>
+<div style="background-color: #00abad; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h1 id="reflect"><span style="color: #ffffff;"><strong>Değerlendirin</strong></span></h1>
+	
+	<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Tebrikler! Uygulamanızı oluşturmaya giderken, Technovation'a sunmaya hazırsınız. Uygulamanızı kodlarken kendinize çok fazla takıldığını görürseniz, hata ayıklama hakkında ipuçları için bir sonraki kodlama birimine göz atın. Dijital prototipinizle bol şanslar ve Technovation'da bizler bu kadar ileri gittiğiniz için heyecanlıyız!</span></p>
 
-<h3>Ek Kaynaklar</h3>
-<ul>
- 	<li style="font-weight: 400"><a href="http://ai2.appinventor.mit.edu/reference/other/testing.html" target="_blank" rel="noopener">MIT Test etme Dokumantasyonu</a></li>
-</ul>
+	<h3><span style="color: #ffffff;"><strong>Ek Kaynaklar</strong></span></h3>
+	<ul>
+	 	<li style="font-weight: 400"><a style="color: #eae46f;" href="http://ai2.appinventor.mit.edu/reference/other/testing.html" target="_blank" rel="noopener">MIT Test etme Dokumantasyonu</a></li>
+	</ul>
 </div>
