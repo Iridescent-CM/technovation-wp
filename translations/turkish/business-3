@@ -9,15 +9,15 @@
  	<li><a href="#create">İş Modeli Yarat</a></li>
  	<li><a href="#reflect">Sonuç</a></li>
 </ul>
-<h2>Kazanımlar</h2>
+<h2><strong>Kazanımlar</strong></h2>
 Bu ünitede öğrenecekleriniz...
 <ul>
  	<li style="font-weight: 400;">Gelir modeli geliştirmek</li>
  	<li style="font-weight: 400;">Çalıştırma giderlerini hesaplamak</li>
  	<li>Elde edilecek karı hesaplamak</li>
 </ul>
-<h3>İş Modeli Nasıl Oluşturulur?</h3>
-Firmalar projelerini sürdürebilecek paraya sahip olduğunda ve gelir elde ettiklerinde başarılı olurlar. Bunun için, bir iş modeli oluşturmanız gerekecektir. Bu model nasıl kar elde edeceğinizi, yani başarılı olacağınızı gösterecektir. İş modelinin iş planından farkı, iş planında projenizi nasıl başlattığınız hakkında detaylı bilgiler de olmasıdır. İş modelinizi yaparken projenizin devamlılığını sağlayacak çeşitli aktivitelerin, kaynakların, malzemelerin tüm giderlerini hesaplayıp sonrasında nasıl kar edeceğinizi düşünmeniz gerekmektedir. Bir iş kurmanın farklı yöntemleri vardır, <a href="http://www.iridescent.staging.wpengine.com/curriculum/business-1/" target="_blank" rel="noopener">Business 1</a> bölümünde gördüğünüz gibi:  kar amacı gütmeyen şirketler, kar amaçlı şirketler, sosyal girişimler ve diğerleri. İş modelinizi oluştururken firmanızın hangi kategoriye gireceğine karar vermelisiniz. Unutmayın, hangi tür firma olursanız olun, süreklilik için gelir elde etmeniz gerekmektedir.
+<h3 id="learn"><strong>İş Modeli Nasıl Oluşturulur?</strong></h3>
+Firmalar projelerini sürdürebilecek paraya sahip olduğunda ve gelir elde ettiklerinde başarılı olurlar. Bunun için, bir iş modeli oluşturmanız gerekecektir. Bu model nasıl kar elde edeceğinizi, yani başarılı olacağınızı gösterecektir. İş modelinin iş planından farkı, iş planında projenizi nasıl başlattığınız hakkında detaylı bilgiler de olmasıdır. İş modelinizi yaparken projenizin devamlılığını sağlayacak çeşitli aktivitelerin, kaynakların, malzemelerin tüm giderlerini hesaplayıp sonrasında nasıl kar edeceğinizi düşünmeniz gerekmektedir. Bir iş kurmanın farklı yöntemleri vardır, <a href="http://www.technovationchallenge.org/curriculum/business-1/" target="_blank" rel="noopener">Business 1</a> bölümünde gördüğünüz gibi:  kar amacı gütmeyen şirketler, kar amaçlı şirketler, sosyal girişimler ve diğerleri. İş modelinizi oluştururken firmanızın hangi kategoriye gireceğine karar vermelisiniz. Unutmayın, hangi tür firma olursanız olun, süreklilik için gelir elde etmeniz gerekmektedir.
 
 Bir iş modelinin bir çok farklı bölümü vardır fakat biz burada 4 ana bölümü işleyeceğiz:
 <ul>
@@ -31,12 +31,13 @@ Bir iş modelinin bir çok farklı bölümü vardır fakat biz burada 4 ana böl
 </li>
  	<li style="list-style-type: none;"></li>
 </ul>
-<h4>Başlangıç Desteği</h4>
+<h4 id="startcap"><strong>Başlangıç Desteği</strong></h4>
 Çok iyi bir proje fikriniz ve firmanız var! Şimdi destek elde edip işinizi başlatma zamanı!
 
 Firmanıza ve projenize destek olacak yatırımcılar bulabilirsiniz. Buna aynı zamanda "bağış toplama" adı verilmektedir. Yatırımcılar projenize ve size para verecek, siz de sonucunda işinizi başlatmak için sermaye bulmuş olacaksınız. İşinizi başlattıktan sonra yatırımcılarınız size maddi destek verdikleri için verdikleri parayı (genelde daha fazlasını) geri isteyebilir, veya firmanıza ortak olmayı talep edebilir.  Buna Yatırımın Getirisi denir.
 
-Aşağıda başlangıç parası elde etmek için bazı yöntemler bulabilirsiniz:
+<a href="http://www.techrepublic.com/article/funding-your-startup-crowdfunding-vs-angel-investment-vs-vc/" target="_blank">
+Aşağıda başlangıç parası elde etmek için bazı yöntemler bulabilirsiniz:</a>
 <ul>
  	<li style="font-weight: 400;"><b>Kitlesel Fon</b> -Büyük bir kitle küçük miktarlarda bağışta bulunarak ihtiyacınız olan paraya ulaşmanızı sağlar. Uzun süreçli hedefler için pek faydalı olmasa da geniş bir Sosyal Medya ağınız varsa bu yönteme başvurabilirsiniz.
 <ul>
@@ -55,27 +56,29 @@ Aşağıda başlangıç parası elde etmek için bazı yöntemler bulabilirsiniz
 </li>
 </ul>
 Tüm yatırımcılar bir süre sonra geri kazanç bekleyerek ile risk almaktadırlar. Yatırımlarının ilk amacı budur. İşinize yatırım yaparak işinizle birlikte gelişmek isterler, ama geri dönüşte kazanç elde etmedikleri zamanlar da olur. Planınızı oluştururken yatırımcıların rolü veya nasıl kitlesel fon oluşturacağınızı da düşünebilirsiniz ama unutmayın, bu kısım isteğe bağlıdır!
-<h3>Düşünce Egzersizi</h3>
-<strong>Yemek Standı Örneği</strong>
 
-Örnek olarak seyyar satıcı olmayı düşünelim. Kendi yemek standınızı başlatmak için bir paraya ihtiyacınız olacaktır. Ailenizden yatırım yapmasını isteyebilirsiniz. Ailenizden para istediğinizde aşağıdaki soruların cevaplarını merak edeceklerdir:
-<ul>
- 	<li>Ne kadar paraya ihtiyaç duyuyorsunuz?</li>
- 	<li>Verilen para ile ne satın alacaksınız?</li>
- 	<li>İşiniz başarılı olunca bizim kazancımız ne olacak?</li>
-</ul>
-Yatırımcılarınızla görüşürken size sorulabilecek soruları cevaplamaya hazır olmalısınız. Örnek olarak yatırımcılar ne kadar paraya ihtiyacınız olduğunu, parayla ne yapacağınızı ve karşılık olarak ne alacaklarını sorabilirler. İş modelinizin en önemli görevi bu soruları cevaplandırmaktır. Yani oluşturacağınız model bu soruları cevaplandırmalıdır.
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3>Düşünce Egzersizi</h3>
+	<strong>Yemek Standı Örneği</strong>
 
-Gelir Modeli oluşturmaya bu soruları cevaplayarak başlayabiliriz!
-<h4>Giderler</h4>
+	Örnek olarak seyyar satıcı olmayı düşünelim. Kendi yemek standınızı başlatmak için bir paraya ihtiyacınız olacaktır. Ailenizden yatırım yapmasını isteyebilirsiniz. Ailenizden para istediğinizde aşağıdaki soruların cevaplarını merak edeceklerdir:
+	<ul>
+	 	<li>Ne kadar paraya ihtiyaç duyuyorsunuz?</li>
+	 	<li>Verilen para ile ne satın alacaksınız?</li>
+	 	<li>İşiniz başarılı olunca bizim kazancımız ne olacak?</li>
+	</ul>
+	Yatırımcılarınızla görüşürken size sorulabilecek soruları cevaplamaya hazır olmalısınız. Örnek olarak yatırımcılar ne kadar paraya ihtiyacınız olduğunu, parayla ne yapacağınızı ve karşılık olarak ne alacaklarını sorabilirler. İş modelinizin en önemli görevi bu soruları cevaplandırmaktır. Yani oluşturacağınız model bu soruları cevaplandırmalıdır.
+
+	Gelir Modeli oluşturmaya bu soruları cevaplayarak başlayabiliriz!
+</div>	
+<h4 id="op">Giderler</h4>
 Gelirleri hesaplamadan önce giderleri hesaplamalısınız. Burada işinizi ilerletebilmeniz için gerekli olan masrafları hesaplayacaksınız. Bu giderlere "Çalıştırma Giderleri" denir. Bir çok çeşit gider buna dahildir. Uygulamanızı geliştirirken uygulama mağazası'na çıkarma ücreti veya uygulamanızın içindeki satışların ücretleri gibi değişkenleri hesaplamanız gerekecektir.
 
 Aşağıdan ücretsiz alıştırma kağıdımızı indirebilirsiniz. Listedeki her şeye ihtiyaç duymuyor olabilirsiniz; mesela ofis alanınız ücretsiz olarak kullandığınız bir yer olabilir.
 
-<a role="button" href="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/BusinessUnitModule3-OperatingCosts-Worksheet.pdf" target="_blank" rel="noopener">
-Çalışma Kağıdını İndir
-</a>
-<h4>Gelir Modeli</h4>
+<a href="http://www.technovationchallenge.org/wp-content/uploads/2016/11/BusinessUnitModule3-OperatingCosts-Worksheet.pdf" target="_blank">Çalışma Kağıdını İndir</a>
+
+<h4 id="rev"><strong>Gelir Modeli</strong></h4>
 Gelir modeli firmanızın nasıl gelir elde edeceğini göstermektedir. Şirketler bir ürün satarak veya hizmet vererek gelir elde eder. Geliriniz ile giderlerinizi karşıladığınızda elinizde kalan para elde ettiğiniz <strong>kar</strong> olur.
 <p style="text-align: center;"><strong>[Gelirler] - [Giderler] = [Kar]</strong></p>
 Gelir modeli oluşturmanın bir çok yolu vardır, aşağıda ise mobil uygulamalar için olanlara örnekler verilmiştir:
@@ -84,22 +87,22 @@ Gelir modeli oluşturmanın bir çok yolu vardır, aşağıda ise mobil uygulama
 <p style="text-align: center;"><strong>Tek Sefer Ücreti</strong></p>
 <p style="text-align: center;">Ücretli bir uygulama yaparak, sadece indirirken kullanıcından bir ücret alın</p>
 <p style="text-align: center;">Örnekler:</p>
-<p style="text-align: center;"><a href="http://www.swype.com/" target="_blank" rel="noopener"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image00-1-150x150.png" alt="Swype Keyboard" width="72" height="72" /></a></p>
-<p style="text-align: center;"><a href="https://minecraft.net/en/" target="_blank" rel="noopener"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image03-2-150x150.png" alt="Mincraft" width="72" height="72" /></a></p>
-<p style="text-align: center;"><a href="https://play.google.com/store/apps/details?id=com.wb.headsup&amp;hl=en" target="_blank" rel="noopener"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image07-150x150.png" alt="Heads Up!" width="72" height="72" /></a></p>
+<p style="text-align: center;"><a href="http://www.swype.com/" target="_blank" rel="noopener"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image00-1-150x150.png" alt="Swype Keyboard" width="72" height="72" /></a></p>
+<p style="text-align: center;"><a href="https://minecraft.net/en/" target="_blank" rel="noopener"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image03-2-150x150.png" alt="Mincraft" width="72" height="72" /></a></p>
+<p style="text-align: center;"><a href="https://play.google.com/store/apps/details?id=com.wb.headsup&amp;hl=en" target="_blank" rel="noopener"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image07-150x150.png" alt="Heads Up!" width="72" height="72" /></a></p>
 <p style="text-align: center;"><b>Uygulama İçi Harcamalar ve Abonelikler</b></p>
 <p style="text-align: center;">Ek hizmetler ve ürünler satmak. Bir diğer adı 'freemium'( free= bedava. premium= ayrıcalık. bedava ayrıcalıklı),bu yöntem ile ücretsiz uygulamalarda ek ücret ile gelişmiş özellikler satılır.</p>
 <p style="text-align: center;">Örnekler:</p>
-<p style="text-align: center;"><a href="https://www.airbnb.com/mobile" target="_blank" rel="noopener"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image04-150x150.png" alt="airbnb" width="72" height="72" /></a></p>
-<p style="text-align: center;"><a href="http://www.pokemongo.com/" target="_blank" rel="noopener"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image08.png" alt="Pokemon GO" width="72" height="72" /></a></p>
-<p style="text-align: center;"><a href="https://www.spotify.com/us/" target="_blank" rel="noopener"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/Spotify_Icon_RGB_Green-150x150.png" alt="Spotify" width="72" height="72" /></a></p>
+<p style="text-align: center;"><a href="https://www.airbnb.com/mobile" target="_blank" rel="noopener"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image04-150x150.png" alt="airbnb" width="72" height="72" /></a></p>
+<p style="text-align: center;"><a href="http://www.pokemongo.com/" target="_blank" rel="noopener"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image08.png" alt="Pokemon GO" width="72" height="72" /></a></p>
+<p style="text-align: center;"><a href="https://www.spotify.com/us/" target="_blank" rel="noopener"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Spotify_Icon_RGB_Green-150x150.png" alt="Spotify" width="72" height="72" /></a></p>
 <p style="text-align: center;"><b>Uygulama içi Reklamlar</b></p>
 <p style="text-align: center;">Uygulamanın içinde (genelde tepede veya ekranda beliren) reklamlara yer vermek.</p>
 <p style="text-align: center;">Örnekler:</p>
-<p style="text-align: center;"><a href="https://www.facebook.com/mobile/" target="_blank" rel="noopener"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/FB-fLogo-Blue.png" alt="facebook" width="72" height="72" /></a></p>
-<p style="text-align: center;"><a href="https://www.yelp.com/mobile" target="_blank" rel="noopener"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/yelp-iOS-150x150.png" alt="Yelp" width="72" height="72" /></a></p>
-<p style="text-align: center;"><a href="https://play.google.com/store/apps/details?id=com.estoty.game2048&amp;hl=en" target="_blank" rel="noopener"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image05-1-150x150.png" alt="2048" width="72" height="72" /></a></p>
-In order to get started and make some of these revenue calculations, you’ll have to refer back to the consumer research you did in the <a href="http://www.iridescent.staging.wpengine.com/curriculum/business-2/" target="_blank" rel="noopener">Market Research</a> unit. Think about the kind of users you’ll have and decide whether or not they would pay additional money for the features you are developing for your app. Will you want to create revenue through selling the app, selling ad space, in-app purchases, or a combination of these?
+<p style="text-align: center;"><a href="https://www.facebook.com/mobile/" target="_blank" rel="noopener"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/FB-fLogo-Blue.png" alt="facebook" width="72" height="72" /></a></p>
+<p style="text-align: center;"><a href="https://www.yelp.com/mobile" target="_blank" rel="noopener"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/yelp-iOS-150x150.png" alt="Yelp" width="72" height="72" /></a></p>
+<p style="text-align: center;"><a href="https://play.google.com/store/apps/details?id=com.estoty.game2048&amp;hl=en" target="_blank" rel="noopener"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image05-1-150x150.png" alt="2048" width="72" height="72" /></a></p>
+In order to get started and make some of these revenue calculations, you’ll have to refer back to the consumer research you did in the <a href="http://www.technovationchallenge.org/curriculum/business-2/" target="_blank">Market Research</a> unit. Think about the kind of users you’ll have and decide whether or not they would pay additional money for the features you are developing for your app. Will you want to create revenue through selling the app, selling ad space, in-app purchases, or a combination of these?
 
 When developing your revenue model, you’ll also want to include the pricing of the things you are asking for. How much is your app worth to your target customer (i.e. demand or appeal)? Or the ad space? Or each of the in-app purchases? How much do competitors charge for their app? Work with your team to decide what works best for your app. You can also refer back to the competitor analysis you did in the Market Research unit to help you answer some of these questions.
 
@@ -110,23 +113,27 @@ Try to think about all of the complex situations that might happen when you have
 And if it’s a little confusing, let’s review what we learned with our food cart example.
 
 Here’s a video on the different types of revenue streams if you are interested to learn more!
-<h3>Düşünce Egzersizi</h3>
-<strong>Yemek Standı Örneği</strong>
+<br>
+<iframe src="https://www.youtube.com/embed/5BB1M0iVM6E" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3><strong>Düşünce Egzersizi</strong></h3>
+	<strong>Yemek Standı Örneği</strong>
 
-Nasıl kar elde edeceğinize karar vermelisiniz
-<ul>
- 	<li style="font-weight: 400;"><strong>Ücretli Uygulama Modeli:</strong> Her yemeği belirli sabit bir fiyata satışa sunun.</li>
- 	<li style="font-weight: 400;"><b>Uygulama İçi Harcamalar: </b>Ücretsiz yemek dağıtın, fakat büyük tabaklar ve soslar için ek ücret talep edin.</li>
- 	<li style="font-weight: 400;"><b>Uygulama İçi Reklamlar: </b>Ücretsiz yemek dağıtın, fakat tabaklar ve sos paketlerine reklam alın.</li>
-</ul>
-Hizmet veya ürününüzü doğru ücretlendirmeniz için yardımcı kaynaklar:
-<ul>
- 	<li style="font-weight: 400;"><a href="https://www.sequoiacap.com/article/pricing-your-product/" target="_blank" rel="noopener">Sequoia Capital: Uygulamanızı Ücretlendirmek </a></li>
- 	<li style="font-weight: 400;"><a href="http://mashable.com/2011/08/17/price-mobile-app/" target="_blank" rel="noopener">Mashable: Uygulamanıza doğru ücreti verin</a></li>
- 	<li style="font-weight: 400;"><a href="http://ibrainbursts.blogspot.com/2012/03/android-revenue-model.html" target="_blank" rel="noopener">iBrainBursts: Google Android gelir modeli</a></li>
- 	<li style="font-weight: 400;"><a href="https://www.quora.com/What-are-some-of-the-most-successful-mobile-apps-revenue-models" target="_blank" rel="noopener">Quora: En başarılı Mobil uygulama gelir modelleri</a></li>
-</ul>
-<h4>Kar Projeksiyonu</h4>
+	Nasıl kar elde edeceğinize karar vermelisiniz
+	<ul>
+	 	<li style="font-weight: 400;"><strong>Ücretli Uygulama Modeli:</strong> Her yemeği belirli sabit bir fiyata satışa sunun.</li>
+	 	<li style="font-weight: 400;"><b>Uygulama İçi Harcamalar: </b>Ücretsiz yemek dağıtın, fakat büyük tabaklar ve soslar için ek ücret talep edin.</li>
+	 	<li style="font-weight: 400;"><b>Uygulama İçi Reklamlar: </b>Ücretsiz yemek dağıtın, fakat tabaklar ve sos paketlerine reklam alın.</li>
+	</ul>
+	Hizmet veya ürününüzü doğru ücretlendirmeniz için yardımcı kaynaklar:
+	<ul>
+	 	<li style="font-weight: 400;"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.sequoiacap.com/article/pricing-your-product/" target="_blank" rel="noopener">Sequoia Capital: Uygulamanızı Ücretlendirmek </a></span></li>
+	 	<li style="font-weight: 400;"><span style="color: #eae46f;"><a style="color: #eae46f;" href="http://mashable.com/2011/08/17/price-mobile-app/" target="_blank" rel="noopener">Mashable: Uygulamanıza doğru ücreti verin</a></span></li>
+	 	<li style="font-weight: 400;"><span style="color: #eae46f;"><a style="color: #eae46f;" href="http://ibrainbursts.blogspot.com/2012/03/android-revenue-model.html" target="_blank" rel="noopener">iBrainBursts: Google Android gelir modeli</a></span></li>
+	 	<li style="font-weight: 400;"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.quora.com/What-are-some-of-the-most-successful-mobile-apps-revenue-models" target="_blank" rel="noopener">Quora: En başarılı Mobil uygulama gelir modelleri</a></span></li>
+	</ul>
+</div>	
+<h3 id="pp"><strong>Kar Projeksiyonu</strong></h3>
 İş modelinizin son bölümüne geldik. Öncelikle "kar projeksiyonu" kelimesinin ne anlama geldiğini anlayalım. <strong>Kar </strong>giderlerinizi karşıladıktan sonra elinizde kalacak olan paradır. <b>Projeksiyon</b> bir süre sonra elinizde ne olacağının mantıklı ve hesaplama bazlı bir tahminidir. Genellikle, gelir modelinizdeki hesaplamalarınızın toplamından giderleri çıkararak kar projeksiyonu yapabilirsiniz. Hatırlatma olarak formülü tekrar aşağğı ekledik:
 <p style="text-align: center;"><strong>[Gelir] - [Gider] = [Kar]</strong></p>
 Kar amacı gütmeyen şirketler kar elde etmezler, sadece giderlerini karşılayacak gelire sahip olurlar. Eğer kar elde ederlerse bunu şirketleri için yatırıma çevirirler.
@@ -139,33 +146,36 @@ Yardımcı Kaynaklar:
  	<li style="font-weight: 400;"><a href="http://timberry.bplans.com/5-ways-to-make-your-financial-projections-realistic.html" target="_blank" rel="noopener">BPlans: Gerçekçi kar projeksiyonu yapmanın 5 yolu</a></li>
  	<li style="font-weight: 400;"><a href="https://www.entrepreneur.com/article/76418" target="_blank" rel="noopener">Entrepreneur: Gelir ve Gelişim nasıl öngörülür?</a></li>
 </ul>
-<h3>İş Modeli Oluştur</h3>
+
+<h3 id="create"><strong>İş Modeli Oluştur</strong></h3>
 Şimdi başlangıç desteği, gelir modeli, ve giderlerinizi kullanarak bir iş modeli oluşturabilirsiniz. Hatırlatma olarak aşağıya tekrar kar hesaplama formülünü ekledik.
 <p style="text-align: center;"><strong>[Gelir] - [Gider] = [Kar]</strong></p>
 Aşağıdan ücretsiz çalışma kağıdımızı indirebilirsiniz.
 
-<a role="button" href="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/BusinessUnitModule3-BusinessModel-Worksheet.pdf" target="_blank" rel="noopener">
-Alıştırma Kağıdını Yükle</a>
-<h3>Sonuç</h3>
-İş modeliniz hazır. Tebrikler! Bu ünitede bir çok yeni kavramla tanıştınız, şimdi kısa bir tekrar yapalım:
-<ul>
- 	<li style="font-weight: 400;"><b>Başlangıç Desteği (Başlangıç Parası):</b> İşinizi başlatmanız için ihtiyaç duyduğunuz para</li>
- 	<li><strong>Gelir:</strong> Hizmet veya ürün karşılığındaki kazancınız</li>
- 	<li style="font-weight: 400;"><b>Gelir Modeli: </b>Vereceğiniz hizmet karşılığında elde edeceğiniz kazanç</li>
- 	<li style="font-weight: 400;"><b>Çalıştırma Giderleri:</b> Firmanızı yönetirken ödemeniz gereken sabit ve değişken giderler. Değişmeksizin ödeyeceğiniz giderler "sabit ücret" ve çeşitli faktörlere bağımlı olarak değişken giderlere "değişken ücret"tir.</li>
- 	<li style="font-weight: 400;"><b>Kar: </b>Giderlerinizi ödedikten sonra elinizde kalan para</li>
-</ul>
-Girişimcilikten bahsedince, önünüze cevap bile veremeyeceğiniz sorular gelebilir.Bazen mantıklı bir şekilde tahminler yürüterek doğru yolda ilerleyebilirsiniz. İş modelinizi tamamldıktan sonra kendinize şu soruları sorun:
-<ul>
- 	<li style="font-weight: 400;">Şirket ve projenizin başarılı olması için neye ihtiyacınız var?</li>
- 	<li style="font-weight: 400;">İşinizi başlatıp gelir elde etmek için ne kadar paraya ihtiyacınız var?</li>
- 	<li style="font-weight: 400;">Kar projeksiyonu amacı ile uygulamanıza ek özellikler eklemeyi düşündünüz mü?</li>
- 	<li style="font-weight: 400;">Neden bu gelir modelini seçtiniz?</li>
- 	<li style="font-weight: 400;">Projenizi nasıl geliştirmeyi düşünüyorsunuz?</li>
-</ul>
-Artık iş modeliniz kullanıma hazır! Bir sonraki bölümde bu modeli kullanarak bir iş planı oluşturmayı öğreneceksiniz.
-<h3>Ek Kaynaklar</h3>
-<ul>
- 	<li style="font-weight: 400;"><a href="http://theapplabb.com/hello-world/" target="_blank" rel="noopener">Uygulama Laboratuvarı: Hangi Gelir Modelini Tercih Etmeliyim?</a></li>
- 	<li style="font-weight: 400;"><a href="https://analyticsacademy.withgoogle.com/course/4/unit/1/lesson/3" target="_blank" rel="noopener">Analytics Academy: Google ile uygulama gelir modelleri.</a></li>
-</ul>
+<a href="http://www.technovationchallenge.org/wp-content/uploads/2016/11/BusinessUnitModule3-BusinessModel-Worksheet.pdf" target="_blank">Alıştırma Kağıdını Yükle</a>
+
+<div style="background-color: #066677; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3 id="reflect"><span style="color: #ffffff;"><strong>Sonuç</strong></span></h3>
+	İş modeliniz hazır. Tebrikler! Bu ünitede bir çok yeni kavramla tanıştınız, şimdi kısa bir tekrar yapalım:
+	<ul>
+	 	<li style="font-weight: 400;"><b>Başlangıç Desteği (Başlangıç Parası):</b> İşinizi başlatmanız için ihtiyaç duyduğunuz para</li>
+	 	<li><strong>Gelir:</strong> Hizmet veya ürün karşılığındaki kazancınız</li>
+	 	<li style="font-weight: 400;"><b>Gelir Modeli: </b>Vereceğiniz hizmet karşılığında elde edeceğiniz kazanç</li>
+	 	<li style="font-weight: 400;"><b>Çalıştırma Giderleri:</b> Firmanızı yönetirken ödemeniz gereken sabit ve değişken giderler. Değişmeksizin ödeyeceğiniz giderler "sabit ücret" ve çeşitli faktörlere bağımlı olarak değişken giderlere "değişken ücret"tir.</li>
+	 	<li style="font-weight: 400;"><b>Kar: </b>Giderlerinizi ödedikten sonra elinizde kalan para</li>
+	</ul>
+	Girişimcilikten bahsedince, önünüze cevap bile veremeyeceğiniz sorular gelebilir.Bazen mantıklı bir şekilde tahminler yürüterek doğru yolda ilerleyebilirsiniz. İş modelinizi tamamldıktan sonra kendinize şu soruları sorun:
+	<ul>
+	 	<li style="font-weight: 400;">Şirket ve projenizin başarılı olması için neye ihtiyacınız var?</li>
+	 	<li style="font-weight: 400;">İşinizi başlatıp gelir elde etmek için ne kadar paraya ihtiyacınız var?</li>
+	 	<li style="font-weight: 400;">Kar projeksiyonu amacı ile uygulamanıza ek özellikler eklemeyi düşündünüz mü?</li>
+	 	<li style="font-weight: 400;">Neden bu gelir modelini seçtiniz?</li>
+	 	<li style="font-weight: 400;">Projenizi nasıl geliştirmeyi düşünüyorsunuz?</li>
+	</ul>
+	Artık iş modeliniz kullanıma hazır! Bir sonraki bölümde bu modeli kullanarak bir iş planı oluşturmayı öğreneceksiniz.
+	<h3><span style="color: #ffffff;"><strong>Ek Kaynaklar</strong></span></h3>
+	<ul>
+	 	<li style="font-weight: 400;"><a style="color: #eae46f;" href="http://theapplabb.com/hello-world/" target="_blank" rel="noopener">Uygulama Laboratuvarı: Hangi Gelir Modelini Tercih Etmeliyim?</a></li>
+	 	<li style="font-weight: 400;"><a style="color: #eae46f;" href="https://analyticsacademy.withgoogle.com/course/4/unit/1/lesson/3" target="_blank" rel="noopener">Analytics Academy: Google ile uygulama gelir modelleri.</a></li>
+	</ul>
+</div>
