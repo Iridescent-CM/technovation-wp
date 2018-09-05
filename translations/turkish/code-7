@@ -1,5 +1,3 @@
-<h1>Kod 7</h1>
-<h2>Uygulamanızda Hataları Ayıklama</h2>
 <ul>
  	<li><a href="#tips">Hata ayıklama ipuçları</a></li>
  	<li><a href="#testdata">Test Verileri Kullanmak</a></li>
@@ -12,124 +10,103 @@
 <h3><strong>Öğrenme Objektifleri</strong></h3>
 Bu ünitede, öğrenecekleriniz...
 <ul>
- 	<li style="font-weight: 400">Uygulamanızda hata ayıklamak için ipuçları</li>
+ 	<li style="font-weight: 400;">Uygulamanızda hata ayıklamak için ipuçları</li>
 </ul>
 <h3 id="tips"><strong>Hata Ayıklama İpuçları</strong></h3>
 <p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Fikirlerinizi aldınız ve bunları kodlara çevirdiniz. Ama hatalarla karşılaşıyorsunuz. Aah!</span></p>
-<p>Yazılıma çok güveniyoruz ki artık onsuz yaşamı hayal edemeyiz. Birçok açıdan yazılım hayatımızı kolaylaştırdı: e-posta yazdık, Facebook'ta arkadaşlarla sohbet ettik, oyun oynadık ve Google'da bilgi aradık. Yazılım hemen hemen her yerdedir, bu yüzden onu kullandığımızı bile bilmiyoruz, örneğin otomobillerde, trafik ışıklarında, televizyonlarda, çamaşır makinelerinde ve işitme cihazlarında. Her zaman işlev görmesini beklediğimiz yazılımları kullanıyoruz!</p>
+Yazılıma çok güveniyoruz ki artık onsuz yaşamı hayal edemeyiz. Birçok açıdan yazılım hayatımızı kolaylaştırdı: e-posta yazdık, Facebook'ta arkadaşlarla sohbet ettik, oyun oynadık ve Google'da bilgi aradık. Yazılım hemen hemen her yerdedir, bu yüzden onu kullandığımızı bile bilmiyoruz, örneğin otomobillerde, trafik ışıklarında, televizyonlarda, çamaşır makinelerinde ve işitme cihazlarında. Her zaman işlev görmesini beklediğimiz yazılımları kullanıyoruz!
 
-<p>Öyleyse neden olmuyor? Başlangıçta hata yapıyoruz? Göründüğü gibi, yazma yazılımı her zaman kolay değildir. Yazılım fiziksel bir ürün değildir, bu yüzden doğru olup olmadığını görmek için ona bakamayız.</p>
+Öyleyse neden olmuyor? Başlangıçta hata yapıyoruz? Göründüğü gibi, yazma yazılımı her zaman kolay değildir. Yazılım fiziksel bir ürün değildir, bu yüzden doğru olup olmadığını görmek için ona bakamayız.
 
-<p><strong>Hata ayıklama</strong>, kodlayıcıların kodlarının neden çalışmadığını anlamak için kullandıkları işlemin adıdır. Kod Mücadelelerini yaptığınızda, kodunuzun üzerinden geri dönmenizi ve bir hata yaptığınızı anlamaya zorlayan bir şeye rastlamış olabilirsiniz. Bu, hata ayıklamanın özüdür ve bu sonraki bölüm, hata ayıklama işleminin sizin için nasıl yapıldığına ilişkin ipuçları sağlayacaktır.</p>
+<strong>Hata ayıklama</strong>, kodlayıcıların kodlarının neden çalışmadığını anlamak için kullandıkları işlemin adıdır. Kod Mücadelelerini yaptığınızda, kodunuzun üzerinden geri dönmenizi ve bir hata yaptığınızı anlamaya zorlayan bir şeye rastlamış olabilirsiniz. Bu, hata ayıklamanın özüdür ve bu sonraki bölüm, hata ayıklama işleminin sizin için nasıl yapıldığına ilişkin ipuçları sağlayacaktır.
 
-<p>Bazen bir şeyi nasıl kodlayacağınızı biliyor olabilirsiniz, ancak bunu yapmak için hala çok uzun bir zaman alacaksınız! Büyük kodlayıcılar, tam olarak ne yaptığını bildiklerinde bile hata yaparlar, bu yüzden neyin yanlış gittiğinden emin olmamanız için size yardımcı olabilecek bir hata ayıklama teknikleri araç kutusu oluşturmak önemlidir. Herkesin kodlarını hata ayıklamak için farklı bir yöntemi vardır ve biraz egzersiz yaptıktan sonra sizinkileri öğreneceksiniz. Hata ayıklama genellikle kodlamanın en çok zaman harcayan kısmı olabilir, bu yüzden buna çok zaman ayırmak çok önemlidir!</p>
+Bazen bir şeyi nasıl kodlayacağınızı biliyor olabilirsiniz, ancak bunu yapmak için hala çok uzun bir zaman alacaksınız! Büyük kodlayıcılar, tam olarak ne yaptığını bildiklerinde bile hata yaparlar, bu yüzden neyin yanlış gittiğinden emin olmamanız için size yardımcı olabilecek bir hata ayıklama teknikleri araç kutusu oluşturmak önemlidir. Herkesin kodlarını hata ayıklamak için farklı bir yöntemi vardır ve biraz egzersiz yaptıktan sonra sizinkileri öğreneceksiniz. Hata ayıklama genellikle kodlamanın en çok zaman harcayan kısmı olabilir, bu yüzden buna çok zaman ayırmak çok önemlidir!
 
-<p>Kodunuzda karşılaşabileceğiniz bazı hatalar hakkında bilgi edinmek için bu videoya göz atın ve App Inventor'un bunları nasıl belirlemenize yardımcı olduğunu öğrenin!</p>
+Kodunuzda karşılaşabileceğiniz bazı hatalar hakkında bilgi edinmek için bu videoya göz atın ve App Inventor'un bunları nasıl belirlemenize yardımcı olduğunu öğrenin!
 
 <center><iframe src="https://www.youtube.com/embed/IlFAwSj-YsQ" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></center>&nbsp;
 
-Hata ayıklama yaparken App Inventor'a özgü sorularınız varsa, <a href="https://groups.google.com/forum/#!forum/mitappinventortest" target = "_blank">buraya katılabileceğiniz</a> bir App Inventor Forum var ve ardından sorunuzu gönderin. Daha büyük olan App Inventor topluluğu sorulara genellikle oldukça yardımcı ve duyarlı olsa da, sorunuzu önceden sorup sormadığınızı ve yanıtlanıp yanıtlamadığını görmek için önce forumda arama yapmayı deneyin. Bu size zaman kazandıracak.
-
+Hata ayıklama yaparken App Inventor'a özgü sorularınız varsa, <a href="https://groups.google.com/forum/#!forum/mitappinventortest" target="_blank" rel="noopener">buraya katılabileceğiniz</a> bir App Inventor Forum var ve ardından sorunuzu gönderin. Daha büyük olan App Inventor topluluğu sorulara genellikle oldukça yardımcı ve duyarlı olsa da, sorunuzu önceden sorup sormadığınızı ve yanıtlanıp yanıtlamadığını görmek için önce forumda arama yapmayı deneyin. Bu size zaman kazandıracak.
 <h5 id="testdata"><strong>Test Verilerini Kullanmak</strong></h5>
-<p>Uygulamanızda kullanabileceğiniz çok fazla karmaşık veri varsa, <strong>test verilerini</strong> kullanmanıza yardımcı olabilir. Test verileri, yalnızca uygulamanızı test etmek ve doğru çalıştığından emin olmak için kullanacağınız daha basit bir veri kümesidir.</p>
+Uygulamanızda kullanabileceğiniz çok fazla karmaşık veri varsa, <strong>test verilerini</strong> kullanmanıza yardımcı olabilir. Test verileri, yalnızca uygulamanızı test etmek ve doğru çalıştığından emin olmak için kullanacağınız daha basit bir veri kümesidir.
 
-<p>Örnek olarak, kullanıcıya en yakın restoranın nerede olduğunu gösteren bir uygulama yaptığınızı varsayalım. Restoranlar, konum verileri ve telefon numaralarının isimlerini saklamak için füzyon tablolarını kullanmak istiyorsunuz. Uygulamanızı oluşturmaya başlamak için, uygulamanızı kodlamaya başlamak için füzyon tablolarınızda hazır bir restoran listesinin olması gerekmez. Bir veya iki test restoranını yerleştirebilir ve gerçek verileri eklemeden önce uygulamanızı çalıştırabilirsiniz.</p>
-
+Örnek olarak, kullanıcıya en yakın restoranın nerede olduğunu gösteren bir uygulama yaptığınızı varsayalım. Restoranlar, konum verileri ve telefon numaralarının isimlerini saklamak için füzyon tablolarını kullanmak istiyorsunuz. Uygulamanızı oluşturmaya başlamak için, uygulamanızı kodlamaya başlamak için füzyon tablolarınızda hazır bir restoran listesinin olması gerekmez. Bir veya iki test restoranını yerleştirebilir ve gerçek verileri eklemeden önce uygulamanızı çalıştırabilirsiniz.
 <div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
-	<blockquote>
-		<p style="text-align: center">“Bunu ararken kodunuzda bir hata bulmak için yeterince zor; Kodunuzun hatasız olduğunu varsaydığınızda daha da zorlaşır. ”</p>
-	</blockquote>
-	<p id="tw-target-text" class="tw-data-text tw-ta tw-text-medium" dir="ltr" style="text-align: right"><span lang="tr">–Steve McConnell, yazılım mühendisliği uzmanı ve yazarı</span></p>
+<blockquote>
+<p style="text-align: center;">“Bunu ararken kodunuzda bir hata bulmak için yeterince zor; Kodunuzun hatasız olduğunu varsaydığınızda daha da zorlaşır. ”</p>
+</blockquote>
+<p id="tw-target-text" class="tw-data-text tw-ta tw-text-medium" dir="ltr" style="text-align: right;"><span lang="tr">–Steve McConnell, yazılım mühendisliği uzmanı ve yazarı</span></p>
 
 </div>
-
 <h5 id="notifer">Bildiriciyi kullanmak</h5>
 Uygulamanızın takıldığını ve neden emin olmadığınıza karar verelim! Kodunuzun nerede kırıldığını belirlemek için bildiriciyi kullanabilirsiniz. Uygulamanıza bir notifier koymak için kullanıcı arayüzü paletinden sürükleyin. Bunun gibi görünmeyen bir bileşen olarak görünecektir:
-<br>
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image00-1.png" alt="image00" width="289" height="120" /></a>
 
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image00-1.png" alt="image00" width="289" height="120" />
 <p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Ardından, uygulamanızın nerede takıldığını söylemek için bu uyarıları kullanabilirsiniz. Örneğin, bir prosedür gerçekleştirmek için uygulamanızda bir if ifadesi kullandığınızı varsayalım. Spikerden <strong>1. Seçenek</strong>'i seçtiğinizde, <strong>Prosedür1</strong>'in gerçekleşmesini beklersiniz. Ancak uygulamanızı test ettiğinizde hiçbir şey olmuyor! İşte kodunuz şöyle gözüküyor:</span></p>
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image17.png" alt="image17" width="635" height="285" />
-
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image17.png" alt="image17" width="635" height="285" />
 <p dir="ltr">Sorunun <strong>Procedure1</strong> ile mi, yoksa ayarlamış olduğunuz koşullu ifadeyle mi ilgili olduğundan emin değilsiniz. Sorununuz, spinnerdaki elemanlarla da olabilir! Kontrol etmek için pek çok şey vardır, bu nedenle notifier, seçeneklerinizi daraltmanıza ve hatanın nerede olduğunu belirlemenize yardımcı olabilir. Şartlı ifadenizin her bölümüne şu şekilde bir uyarı eklersiniz:</p>
-
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image19.png" alt="image19" width="662" height="452" />
-
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image19.png" alt="image19" width="662" height="452" />
 <p dir="ltr">Uygulamanızı şimdi test ettiğinizde, “Bu uygulama hiçbir şey yapmıyor” diyen bir uyarı alırsınız. Artık sorunun, <strong>Prosedür 1</strong> ile değil, koşullu ifadenizle olduğunu biliyorsunuz. Koşullu ifade, <strong>if</strong> bölümünün yerine <strong>else</strong> bölümündeki kodu yürütmektedir. Şimdi koşullu ifadenizi kontrol edebilir ve herhangi bir yazım hatası olup olmadığını veya çeviricinizdeki öğelerle ilgili bir hata olup olmadığını görebilirsiniz.</p>
 <p dir="ltr">Uygulamayı test ettiyseniz ve “Bu uygulama option1 yapıyor” diyen bir uyarı aldıysanız, koşullu ifadenin doğru şekilde çalıştığını ve <strong>Prosedür1</strong> ile yapılması gerekenleri yapmamanın bir hata olduğunu bileceksiniz. Daha sonra kodu <strong>Prosedür1</strong>'de kontrol edebilirsiniz. Bu test yöntemi yararlı olabildiğinde bazı diğer senaryolar:</p>
 
-
 <ul>
- 	<li style="font-weight: 400">Bir takılma ile ilgili sorunları çözmek için
- 		<br>
-	<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/ForLoop.png" alt="forloop" width="395" height="160" /></li>
+ 	<li style="font-weight: 400;">Bir takılma ile ilgili sorunları çözmek için<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/ForLoop.png" alt="forloop" width="395" height="160" /></li>
 </ul>
 <ul>
- 	<li style="font-weight: 400">Bir ekranın yüklenip yüklenmediğini veya takılıp takılmadığını test etmek için
- 		<br>
-	<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/ScreenInitalize.png" alt="screeninitalize" width="355" height="111" /></li>
+ 	<li style="font-weight: 400;">Bir ekranın yüklenip yüklenmediğini veya takılıp takılmadığını test etmek için<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/ScreenInitalize.png" alt="screeninitalize" width="355" height="111" /></li>
 </ul>
-<h5 id="collapse"><strong>Çöken ve Engelleyen Bloklar</h5>
+<h5 id="collapse"><strong>Çöken ve Engelleyen Bloklar</strong></h5>
 Size yardımcı olabilecek iki şey, kullanmadığınız blokları devre dışı bırakmak ve daraltmaktır. Bir engellemeyi sağ tıklarsanız App Inventor size bir bloğu daraltma veya devre dışı bırakma seçeneğini sunar:
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image11.png" alt="image11" width="442" height="216" />
-
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image11.png" alt="image11" width="442" height="216" />
 <p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Bloğu çökerterek, ekranınızdaki bu şekilde bir bar olacak şekilde sıkıştırır: </span><img class="" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image16.png" alt="image16" width="236" height="40" /></p>
-
-
 <p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Bu, ekranınızda çok fazla kodunuz olduğunda ve üzerinde çalışmadığınız belirli bölümlerini görmeniz gerekmediğinde yardımcı olabilir. Bloğunuzu tekrar genişletmek için üzerlerine sağ tıklamalısınız.</span></p>
-<p dir="ltr"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image04.png" alt="image04" width="397" height="178" /></p>
+<p dir="ltr"><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image04.png" alt="image04" width="397" height="178" /></p>
 <p dir="ltr">Blokları da devre dışı bırakabilirsiniz. Bu onları ekranınızda tutacak ancak herhangi bir şey yapmasını engelleyecektir. Bu, çalışmayan bir kod parçanız varsa ve uygulamanızı onsuz test etmek istiyorsanız çok yararlı olabilir. Bunu yalnızca test amacıyla kullandığınız bir bildirim bloğunuz varsa, ancak bunu henüz silmek istemiyorsanız da yapabilirsiniz. Engelli bloklar işte şöyle görünürler:</p>
-<p dir="ltr"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image18.png" alt="image18" width="415" height="143" /></p>
-
+<p dir="ltr"><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image18.png" alt="image18" width="415" height="143" /></p>
 <p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Bloklarınızı tekrar etkinleştirmek için, üzerlerine sağ tıklayın ve “Bloku Etkinleştir” e tıklayın.</span></p>
-<p dir="ltr"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image12-1.png" alt="image12" width="433" height="200" /></p>
+<p dir="ltr"><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image12-1.png" alt="image12" width="433" height="200" /></p>
 
 <h5 id="comments"><strong>Yorumlar</strong></h5>
 İyi programcılar genellikle kodlarında yorum yaptıklarını açıklarlar. Yorumlar, diğer insanlar takım arkadaşlarınız, mentorlar ve hakimler gibi kodunuza bakarken yardımcı olabilir. Yorumlar, kodunuza daha sonra geri dönüp bunun hangi bölümlerini yaptığını unuttuysanız da yardımcı olabilir. App Inventor'a bir yorum eklemek için, bloklara sağ tıklayın ve “yorum ekle (add comment'i)” yi seçin:
-<br>
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image11.png" alt="image11" width="387" height="189" />
+
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image11.png" alt="image11" width="387" height="189" />
 
 Bundan sonra bloğun köşesinde mavi bir soru işareti görünecek ve metin ekleyebilirsiniz. Soru işaretini tıklayarak yorumu görüntüleyebilirsiniz.
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image14.png" alt="image14" width="423" height="226" />
-
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image14.png" alt="image14" width="423" height="226" />
 <div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
-	<blockquote>
-		<p style="text-align: center">“Teknolojiyi yaratmayı öğrenerek, kızlar serbestçe konuşmayı da öğreniyorlar."</p>
-	</blockquote>
-	<p style="text-align: right">–Regina Agyare, Soronko Solutions'un bulucusu</p>
+<blockquote>
+<p style="text-align: center;">“Teknolojiyi yaratmayı öğrenerek, kızlar serbestçe konuşmayı da öğreniyorlar."</p>
+</blockquote>
+<p style="text-align: right;">–Regina Agyare, Soronko Solutions'un bulucusu</p>
+
 </div>
-
 <h3 id="version">Sürüm / Versiyon Kontrolü</h3>
+Uygulamanızın oluşturduğu ve çalıştığınız bir bölümünüz olduğunu varsayalım. Uygulamanızın ikinci bir bölümünü oluşturup test ettiğinizde, her şey işe yarayan kısmı da dahil olmak üzere çalışmayı durdurdu! Eklediğiniz blokları silmeyi deneyin, ancak tüm uygulamanız hala çalışmıyor! Şimdi neyin yanlış gittiğinden emin değilsiniz ve "geri al" düğmesine sahip olmanızı dilerim.
 
-<p>Uygulamanızın oluşturduğu ve çalıştığınız bir bölümünüz olduğunu varsayalım. Uygulamanızın ikinci bir bölümünü oluşturup test ettiğinizde, her şey işe yarayan kısmı da dahil olmak üzere çalışmayı durdurdu! Eklediğiniz blokları silmeyi deneyin, ancak tüm uygulamanız hala çalışmıyor! Şimdi neyin yanlış gittiğinden emin değilsiniz ve "geri al" düğmesine sahip olmanızı dilerim.</p>
+Bunun gibi senaryolardan kaçınmak için uygulamanızın farklı <strong>sürümlerini</strong> oluşturmaya yardımcı olabilirsiniz. Bu farklı sürümler kodunuzu tam olarak kaydedecektir, böylece daha sonra bir hata yaparsanız ve nasıl düzelteceğinizi bilmiyorsanız, kaydettiğiniz son çalışma sürümüne geri dönebilirsiniz. Uygulamanızın özelliklerine göre denemeler yapıyorsanız ve bunları saklamak isteyip istemediğinizden emin değilseniz, sürüm kontrolünü de kullanabilirsiniz. Uygulama Inventor'da farklı sürümleri kaydetmek için “farklı kaydet” ve “kontrol noktası” kullanarak iki yol vardır.
 
-<p>Bunun gibi senaryolardan kaçınmak için uygulamanızın farklı <strong>sürümlerini</strong> oluşturmaya yardımcı olabilirsiniz. Bu farklı sürümler kodunuzu tam olarak kaydedecektir, böylece daha sonra bir hata yaparsanız ve nasıl düzelteceğinizi bilmiyorsanız, kaydettiğiniz son çalışma sürümüne geri dönebilirsiniz. Uygulamanızın özelliklerine göre denemeler yapıyorsanız ve bunları saklamak isteyip istemediğinizden emin değilseniz, sürüm kontrolünü de kullanabilirsiniz. Uygulama Inventor'da farklı sürümleri kaydetmek için “farklı kaydet” ve “kontrol noktası” kullanarak iki yol vardır.</p>
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image13.png" alt="save as" width="452" height="316" />
+<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">“Projeyi farklı kaydet” seçeneği, çalıştığınız kodun bir kopyasını oluşturmanızı ve yeni bir adla kaydetmenizi sağlar.</span></p>
+Örneğin, üzerinde çalıştığınız projeye “test” denir. Üzerinde çalıştığınız projeyi “test_version2” olarak kaydedebilir ve buna kod eklemeye devam edebilirsiniz. Bir şeyi karıştırırsanız, “test” adı verilen projenize geri dönebilirsiniz.
 
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image13.png" alt="save as" width="452" height="316" />
-
-<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">“Projeyi farklı kaydet” seçeneği, çalıştığınız kodun bir kopyasını oluşturmanızı ve yeni bir adla kaydetmenizi sağlar.
-
-Örneğin, üzerinde çalıştığınız projeye “test” denir. Üzerinde çalıştığınız projeyi “test_version2” olarak kaydedebilir ve buna kod eklemeye devam edebilirsiniz. Bir şeyi karıştırırsanız, “test” adı verilen projenize geri dönebilirsiniz.</span></p>
-<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image09.png" alt="checkpoint" width="1000" height="700" />
-
+<img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/image09.png" alt="checkpoint" width="481" height="337" />
 <p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">“Kontrol noktası” seçeneği, kodunuzu yeni bir adla olduğu gibi kaydetmenizi sağlar.</span></p>
 <p dir="ltr">Örneğin, üzerinde çalıştığınız projeye “test” dediğimizi düşünelim. Checkpoint mevcut kodunuzu “test_checkpoint1” adı verilen bir proje olarak kaydedecektir. Sonra çalışmaya devam edebilirsiniz ve bir şeyleri mahvederseniz, “test_checkpoint1” adlı projeye geri dönebilirsiniz.</p>
 <p dir="ltr">App Inventor'da sürüm tasarrufu hakkında daha fazla bilgi edinmek için bu videoyu izleyin.</p>
+
 <center>
 <iframe src="https://www.youtube.com/embed/HNM5Mxf7eZU" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></center>
-
 <div style="background-color: #006667; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
-	<h1 id="reflect" style="color: #ffffff;"><strong>Değerlendirin</strong></h1>
+<h1 id="reflect" style="color: #ffffff;"><strong>Değerlendirin</strong></h1>
+<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Tebrikler! Neredeyse Technovation'a sunulmaya hazır bir uygulama oluşturuyorsunuz. Bunu şimdiye kadar yaptığınız için heyecan duyuyoruz ve ekibiniz için çok zor olduğunu biliyoruz.</span></p>
+<p dir="ltr">Bir uygulamayı veya kodu ilk kez oluşturduysanız, şüphesiz çok şey öğrendiniz ve sinir bozukluğunuzu ortadan kaldırmış olursunuz. Bazı takımlar bile, başlamalarını zorlaştıran dil engellerini ve kısıtlamalarını aştı.</p>
+<p dir="ltr">Sizinle gurur duyuyoruz ve umarım siz de kendinizle gurur duyuyorsunuzdur. Çok çalıştınız,  pes etmediniz ve birbirinizden öğrendiniz. Bizler için bir ilham kaynağı ve daha fazlasısınız.</p>
 
-	<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Tebrikler! Neredeyse Technovation'a sunulmaya hazır bir uygulama oluşturuyorsunuz. Bunu şimdiye kadar yaptığınız için heyecan duyuyoruz ve ekibiniz için çok zor olduğunu biliyoruz.</span></p>
-	<p dir="ltr">Bir uygulamayı veya kodu ilk kez oluşturduysanız, şüphesiz çok şey öğrendiniz ve sinir bozukluğunuzu ortadan kaldırmış olursunuz. Bazı takımlar bile, başlamalarını zorlaştıran dil engellerini ve kısıtlamalarını aştı.</p>
-	<p dir="ltr">Sizinle gurur duyuyoruz ve umarım siz de kendinizle gurur duyuyorsunuzdur. Çok çalıştınız,  pes etmediniz ve birbirinizden öğrendiniz. Bizler için bir ilham kaynağı ve daha fazlasısınız.</p>
-
-	<h3 style="color: #ffffff;"><strong>Ek Kaynaklar</h3>
-	<ul>
-	 	<li style="font-weight: 400"><a style="color: #eae46f;" href="http://ai2.appinventor.mit.edu/reference/other/testing.html" target="_blank" rel="noopener">MIT Test Etme Dokümanı</a></li>
-	 	<li style="font-weight: 400">Hata ayıklamada yardımcı olabilecek bir video daha: <a style="color: #eae46f;" href="https://www.youtube.com/watch?v=itCnknI5PlY" target="_blank" rel="noopener">Hata ayıklama videosu</a></li>
-	</ul>
+<h3 style="color: #ffffff;"><strong>Ek Kaynaklar</strong></h3>
+<ul>
+ 	<li style="font-weight: 400;"><a style="color: #eae46f;" href="http://ai2.appinventor.mit.edu/reference/other/testing.html" target="_blank" rel="noopener">MIT Test Etme Dokümanı</a></li>
+ 	<li style="font-weight: 400;">Hata ayıklamada yardımcı olabilecek bir video daha: <a style="color: #eae46f;" href="https://www.youtube.com/watch?v=itCnknI5PlY" target="_blank" rel="noopener">Hata ayıklama videosu</a></li>
+</ul>
 </div>
