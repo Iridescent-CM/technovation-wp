@@ -1,6 +1,8 @@
-<h1>İş 4</h1>
-<h2>İş Planı</h2>
-Bu birim sadece bir iş planı sunacak olan Kıdemli Bölüm takımları (Senior Division teams) için gereklidir. Ancak, Junior Division ekipleri, iş geliştirme konusunda daha iyi bir anlayış elde etmek için bu üniteyi takip etmeleri konusunda teşvik edilmektedir.
+<h1><span style="font-weight: 400">İş 4</span></h1>
+<h2><span style="font-weight: 400">İş Planı</span></h2>
+<div style="background-color: #006540; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;"><em><span style="font-weight: 400">
+	Bu birim sadece bir iş planı sunacak olan Kıdemli Bölüm takımları (Senior Division teams) için gereklidir. Ancak, Junior Division ekipleri, iş geliştirme konusunda daha iyi bir anlayış elde etmek için bu üniteyi takip etmeleri konusunda teşvik edilmektedir.
+</span></em></div>
 <ul>
  	<li><a href="#how">Bir iş planı nasıl oluşturulur</a></li>
  	<li><a href="#anat">Bir iş planının anatomisi</a></li>
@@ -15,30 +17,32 @@ Bu birim sadece bir iş planı sunacak olan Kıdemli Bölüm takımları (Senior
  	<li><a href="#reflect">Değerlendirin</a></li>
 </ul>
 <em>Bu modül, Gençler Bölümü için zorunlu değildir, ancak bir işletme kurma hakkında daha fazla bilgi edinmek isteyen genç takımlar bunu okumalıdır. Sadece Kıdemli Bölüm ekipleri bir iş planı sunmalıdır.</em>
-<h2>Öğrenme Objektifleri</h2>
-Bu modülde, öğrenecekleriniz:...
+<h3><strong>Öğrenme Objektifleri</strong></h3>
+<span style="font-weight: 400">Bu modülde, öğrenecekleriniz:...</span>
 <ul>
- 	<li>Bir iş planını ne oluşturur</li>
- 	<li>Bir iş planı nasıl oluşturulur</li>
+ 	<li style="font-weight: 400">Bir iş planını ne oluşturur</li>
+ 	<li style="font-weight: 400">Bir iş planı nasıl oluşturulur</li>
 </ul>
-<h3>Bir İş Planı Nasıl Oluşturulur</h3>
-Bir çok şey başardınız! Şimdi, yaptıklarınızın üzerinden geçelim:
+<h3 id="how"><strong>Bir İş Planı Nasıl Oluşturulur</strong></h3>
+<span style="font-weight: 400">Bir çok şey başardınız! Şimdi, yaptıklarınızın üzerinden geçelim:</span>
 <ul>
- 	<li id="tw-target-text" class="tw-data-text tw-ta tw-text-small"><span lang="tr">İşletmelerde farklı işletme türleri hakkında bilgi edinildi İş 1 </span></li>
- 	<li class="tw-data-text tw-ta tw-text-small"><span lang="tr">Araştırması gerçekleştirdi ve İş 2'de </span>bir rapor oluşturdu</li>
- 	<li class="tw-data-text tw-ta tw-text-small">İş 3'te bir iş modeli geliştirdi</li>
+ 	<li style="font-weight: 400" id="tw-target-text" class="tw-data-text tw-ta tw-text-small"><span lang="tr">İşletmelerde farklı işletme türleri hakkında bilgi edinildi İş 1 </span></li>
+ 	<li style="font-weight: 400" class="tw-data-text tw-ta tw-text-small"><span lang="tr">Araştırması gerçekleştirdi ve İş 2'de </span>bir rapor oluşturdu</li>
+ 	<li style="font-weight: 400" class="tw-data-text tw-ta tw-text-small">İş 3'te bir iş modeli geliştirdi</li>
 </ul>
-Bir <strong>iş planı</strong> oluşturarak tüm bu zor işleri kullanacaksınız. Son birimde, para kazanmak ve ürününüzü satmak için gelişmekte olan yollarla uğraşan iş modelleri hakkında bilgi sahibi oldunuz. Bununla birlikte, bir iş planı farklıdır, tüm şirketinizi başlangıçtan nasıl yöneteceğinizle ilgili bir tekliftir. Bir <strong>iş planı</strong> şirketiniz, hedefleriniz ve hedeflerinizi gerçekleştirmek için bir plan hakkında önemli bilgilere sahip resmi bir belgedir. Bunu, diğer İş Birimlerinde zaten öğrendiğiniz şeylerin çoğunu içeren kapsamlı bir belge olarak düşünebilirsiniz - hepsini bir araya getiriyorsunuz! Başka bir deyişle, işinizi nasıl kuracağınız, işinizin önemli kısımlarını nasıl anladığınız ve neden iş kurduğunuzu açıklayan bir dizi talimattır. Plan, mobil uygulamanız hakkında bir hikaye anlatıyor:
+<p><span style="font-weight: 400">Bir <strong>iş planı</strong> oluşturarak tüm bu zor işleri kullanacaksınız. Son birimde, para kazanmak ve ürününüzü satmak için gelişmekte olan yollarla uğraşan iş modelleri hakkında bilgi sahibi oldunuz. Bununla birlikte, bir iş planı farklıdır, tüm şirketinizi başlangıçtan nasıl yöneteceğinizle ilgili bir tekliftir. Bir <strong>iş planı</strong> şirketiniz, hedefleriniz ve hedeflerinizi gerçekleştirmek için bir plan hakkında önemli bilgilere sahip resmi bir belgedir. Bunu, diğer İş Birimlerinde zaten öğrendiğiniz şeylerin çoğunu içeren kapsamlı bir belge olarak düşünebilirsiniz - hepsini bir araya getiriyorsunuz! Başka bir deyişle, işinizi nasıl kuracağınız, işinizin önemli kısımlarını nasıl anladığınız ve neden iş kurduğunuzu açıklayan bir dizi talimattır. Plan, mobil uygulamanız hakkında bir hikaye anlatıyor:</span></p>
 <ul>
- 	<li>Fikir nasıl başladı</li>
- 	<li>Bir fikir nasıl bir ürün haline geldi?</li>
- 	<li>Ürün için gelecekteki görünüm</li>
+ 	<li style="font-weight: 400">Fikir nasıl başladı</li>
+ 	<li style="font-weight: 400">Bir fikir nasıl bir ürün haline geldi?</li>
+ 	<li style="font-weight: 400">Ürün için gelecekteki görünüm</li>
 </ul>
-Bir iş planının ne hakkında olduğu hakkında daha fazla bilgi edinmek için bu videoya bir göz atın.
+<span style="font-weight: 400">Bir iş planının ne hakkında olduğu hakkında daha fazla bilgi edinmek için bu videoya bir göz atın.</span>
 
-&nbsp;
-<h3>Bir İş Planının Anatomisi</h3>
-Bir iş planı olmadan, bir iş kurmak zordur. Herhangi bir plan olmadan bir ev inşa etmek gibi. Bir plan, işiniz için rolleri, sorumlulukları ve geleceği özetlemektedir. Bunu basitleştirmek için, göndermeniz gereken iş planının bileşenlerini gözden geçireceğiz. Bu bölümde, aşağıdakileri öğreneceksiniz:
+<center>
+<iframe src="https://www.youtube.com/embed/PDWvcsTloJo" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></center>&nbsp;
+
+<h3 id="anat"><strong>Bir İş Planının Anatomisi</strong></h3>
+<p><span style="font-weight: 400">Bir iş planı olmadan, bir iş kurmak zordur. Herhangi bir plan olmadan bir ev inşa etmek gibi. Bir plan, işiniz için rolleri, sorumlulukları ve geleceği özetlemektedir. Bunu basitleştirmek için, göndermeniz gereken iş planının bileşenlerini gözden geçireceğiz. Bu bölümde, aşağıdakileri öğreneceksiniz:</span></p>
 <ul>
  	<li><strong>Yönetici özeti</strong> - İşletmenizin kısa ve özlü bir açıklaması.</li>
  	<li><strong>Şirket açıklaması</strong> - Ne yaptığınız, işletmenizin diğerlerinden nasıl farklı olduğu ve işletmenizin hizmet verdiği bilgiler.</li>
@@ -47,9 +51,9 @@ Bir iş planı olmadan, bir iş kurmak zordur. Herhangi bir plan olmadan bir ev 
  	<li><strong>Strateji ve uygulama</strong> - Burada, işletmenizin nasıl çalışacağını veya çalışacağını ve ürün ve / veya hizmetlerinizi pazara nasıl sunacağınızı açıklayacaksınız. Bu, Marka ve İş Modelinizden alınacaktır.</li>
  	<li><strong>Finansal plan ve projeksiyonlar</strong> - nasıl para harcayacağınızı, para kazanacağınızı ve geleceğe yönelik parayı nasıl kullanacağınızın özeti, iş modelinizden geliştirdiğiniz bilgiler.</li>
 </ul>
-Bu ünite boyunca, kendi işinizi oluştururken size yardımcı olacak diğer iş planlarının örneklerini kullanabilirsiniz. Her birinin farklı olması ve kendi işinize özgü bir tane geliştirmeniz gerektiğinden, doğrudan başkalarının planlarından yararlanmamaya dikkat edin!
+<p><span style="font-weight: 400">Bu ünite boyunca, kendi işinizi oluştururken size yardımcı olacak diğer iş planlarının örneklerini kullanabilirsiniz. Her birinin farklı olması ve kendi işinize özgü bir tane geliştirmeniz gerektiğinden, doğrudan başkalarının planlarından yararlanmamaya dikkat edin!</span></p>
 
-<em>Hatırlatma: Bu modül, Gençler Bölümü (junior division) için zorunlu değildir, ancak bir işletme kurma hakkında daha fazla bilgi edinmek isteyen genç takımlar bunu okumalıdır. Sadece Kıdemli Bölüm ekipleri bir iş planı sunmalıdır.</em>
+<p><span style="font-weight: 400"><em>Hatırlatma: Bu modül, Gençler Bölümü (junior division) için zorunlu değildir, ancak bir işletme kurma hakkında daha fazla bilgi edinmek isteyen genç takımlar bunu okumalıdır. Sadece Kıdemli Bölüm ekipleri bir iş planı sunmalıdır.</em></span></p>
 <h5>Technovation Takım Örnekleri</h5>
 <ul>
  	<li style="font-weight: 400;"><a href="https://drive.google.com/file/d/0B3rEYL3DkWfAT3BsVlhLaUxoZ0U/view" target="_blank" rel="noopener">Takım AMEKA</a> SafeGuard Driving</li>
@@ -65,159 +69,135 @@ Bu ünite boyunca, kendi işinizi oluştururken size yardımcı olacak diğer i�
  	<li style="font-weight: 400;"><a href="http://www.bplans.com/coffeehouse_business_plan/executive_summary_fc.php" target="_blank" rel="noopener">Coffeehouse</a></li>
  	<li style="font-weight: 400;"><a href="http://www.bplans.com/agriculture_farm_business_plan/strategy_and_implementation_summary_fc.php" target="_blank" rel="noopener">Agriculture Farm</a></li>
 </ul>
-<blockquote>“Başkalarının sınırlı hayal gücü yüzünden kendinizi asla sınırlamayın, sınırlı hayal gücünüz yüzünden başkalarını asla sınırlamayın.”</blockquote>
-<p style="text-align: right;">–Mae Jemison, Mühendis, fizikçi ve NASA astronotu</p>
 
-<h3>Yönetici Özeti</h3>
-Yönetici Özeti ilk bölüm olmalıdır. İş planınıza genel bir bakış ve 1 sayfadan fazla olmamalıdır. Bu, ilk izlenimi verecek, bu yüzden iyi yazılmış olması gerekiyor. Okuyucuyu işletmenizle ilgilenmek ve daha fazla bilgi edinmek istiyorsunuz. Bunu bir film için bir fragman gibi düşünebilirsiniz - okuyucunun işinizin ne olduğu hakkında bir fikir vermesi, aynı zamanda okumaya devam etmeleri için onları ikna etmesi gerekir.
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<blockquote>“Başkalarının sınırlı hayal gücü yüzünden kendinizi asla sınırlamayın, sınırlı hayal gücünüz yüzünden başkalarını asla sınırlamayın.”</blockquote>
+	<p style="text-align: right;">–Mae Jemison, Mühendis, fizikçi ve NASA astronotu</p>
+</div>
+<h3 id="summ"><strong>Yönetici Özeti</strong></h3>
+<p><span style="font-weight: 400">Yönetici Özeti ilk bölüm olmalıdır. İş planınıza genel bir bakış ve 1 sayfadan fazla olmamalıdır. Bu, ilk izlenimi verecek, bu yüzden iyi yazılmış olması gerekiyor. Okuyucuyu işletmenizle ilgilenmek ve daha fazla bilgi edinmek istiyorsunuz. Bunu bir film için bir fragman gibi düşünebilirsiniz - okuyucunun işinizin ne olduğu hakkında bir fikir vermesi, aynı zamanda okumaya devam etmeleri için onları ikna etmesi gerekir.</span></p>
 
-Bu bölüm ilk sırada olmasına rağmen, <strong>en son yazmayı düşünmelisiniz!</strong> Bu şekilde, iş planınızın tüm detaylarını biliyorsunuz ve düşüncelerinizi iyi bir şekilde özetleyebiliyorsunuz. Standart bir iş planı için Yönetici Özeti şunları içermelidir:
+<p><span style="font-weight: 400">Bu bölüm ilk sırada olmasına rağmen, <strong>en son yazmayı düşünmelisiniz!</strong> Bu şekilde, iş planınızın tüm detaylarını biliyorsunuz ve düşüncelerinizi iyi bir şekilde özetleyebiliyorsunuz. Standart bir iş planı için Yönetici Özeti şunları içermelidir:</span></p>
 <ul>
- 	<li>İşletmenizin adı ve yeri</li>
- 	<li>Sunulan ürünler ve / veya hizmetler (mobil uygulama)</li>
- 	<li>İş planınızın amacı (yatırımcıları güvenli hale getirmek, bir uygulamayı başlatmak vb.)</li>
+ 	<li style="font-weight: 400">İşletmenizin adı ve yeri</li>
+ 	<li style="font-weight: 400">Sunulan ürünler ve / veya hizmetler (mobil uygulama)</li>
+ 	<li style="font-weight: 400">İş planınızın amacı (yatırımcıları güvenli hale getirmek, bir uygulamayı başlatmak vb.)</li>
 </ul>
 Ek yardıma ihtiyacınız varsa, burada önerilen bazı kaynaklar:
+<ul>
+	<li style="font-weight: 400"><a href="http://articles.bplans.com/writing-an-executive-summary/" target="_blank" rel="noopener">BPlans: Yönetici Özeti Nasıl Yazılır </a></li>
 
-<a href="http://articles.bplans.com/writing-an-executive-summary/">BPlans: Yönetici Özeti Nasıl Yazılır </a>
+	<li style="font-weight: 400"><a href="http://hbswk.hbs.edu/archive/3660.html" target="_blank" rel="noopener">Harvard Business School: Güçlü Bir Yönetici Özeti Oluşturma</a></li>
 
-<a href="http://hbswk.hbs.edu/archive/3660.html">Harvard Business School: Güçlü Bir Yönetici Özeti Oluşturma</a>
-
-<a href="http://www.umuc.edu/writingcenter/writingresources/exec_summaries.cfm"> Maryland Üniversitesi: Yazılı Yönetici Özetleri</a>
-<h3>Şirket Açıklaması</h3>
+	<li style="font-weight: 400"><a href="http://www.umuc.edu/writingcenter/writingresources/exec_summaries.cfm" target="_blank" rel="noopener"> Maryland Üniversitesi: Yazılı Yönetici Özetleri</a></li>
+</ul>	
+<h3 id="desc"><strong>Şirket Açıklaması</strong></h3>
 Şirket Tanımı, şirketinizin genel bakışını, şirketinizin nasıl çalıştığını ve çalıştığı (faaliyet gösterdiği) ve hedeflerinizin neler olduğunu açıklayan bir genel bakış. Yönetici Özeti'nin bir detayıdır ve daha fazla ayrıntı ve açıklama sağlar. Şunları kapsamalıdır:
 <ul>
- 	<li>İş türü (kâr amaçlı, sosyal girişim, kâr amacı gütmeyen kuruluş vb.)</li>
- 	<li>Şirketinizin misyon beyanı</li>
- 	<li>İşletmenizdeki önemli insanlar ve oynadıkları roller</li>
- 	<li>Ürününüzün / hizmetinizin ve pazarınızın kimler olduğuna genel bakış</li>
- 	<li>İşletmenizin nasıl oluşturulduğuna dair kısa bir geçmiş</li>
- 	<li>İş planının geri kalanında ve gelecekteki hedeflerinizdeki bilgilere dayanarak, gelecekteki başarmak istediğiniz şeylerin bir taslağı.</li>
+ 	<li style="font-weight: 400">İş türü (kâr amaçlı, sosyal girişim, kâr amacı gütmeyen kuruluş vb.)</li>
+ 	<li style="font-weight: 400">Şirketinizin misyon beyanı</li>
+ 	<li style="font-weight: 400">İşletmenizdeki önemli insanlar ve oynadıkları roller</li>
+ 	<li style="font-weight: 400">Ürününüzün / hizmetinizin ve pazarınızın kimler olduğuna genel bakış</li>
+ 	<li style="font-weight: 400">İşletmenizin nasıl oluşturulduğuna dair kısa bir geçmiş</li>
+ 	<li style="font-weight: 400">İş planının geri kalanında ve gelecekteki hedeflerinizdeki bilgilere dayanarak, gelecekteki başarmak istediğiniz şeylerin bir taslağı.</li>
 </ul>
-<div class="oSioSc">
-<div id="tw-target">
-<div id="tw-target-text-container" class="gsrt tw-ta-container tw-nfl">
-<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Ek yardıma ihtiyacınız varsa, burada önerilen bazı kaynaklar:</span></p>
-<p dir="ltr"><a href="https://articles.bplans.com/write-company-overview/">BPlans: Şirket Açıklaması Nasıl Yazılır</a></p>
-<p dir="ltr"><a href="https://www.thebalancesmb.com/how-to-write-a-company-description-2951558">Denge: Şirket Açıklaması Nasıl Yazılır</a></p>
 
-<h3>Ürünler/Servisler</h3>
+<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Ek yardıma ihtiyacınız varsa, burada önerilen bazı kaynaklar:</span></p>
+<p dir="ltr"><a href="https://articles.bplans.com/write-company-overview/" target="_blank" rel="noopener">BPlans: Şirket Açıklaması Nasıl Yazılır</a></p>
+<p dir="ltr"><a href="https://www.thebalancesmb.com/how-to-write-a-company-description-2951558" target="_blank" rel="noopener">Denge: Şirket Açıklaması Nasıl Yazılır</a></p>
+
+<h3 id="prod"><strong>Ürünler/Servisler</strong></h3>
 Ürünler / Hizmetler bölümünde, neyi sattığınızı açıkça belirtmeli ve müşterinin yararına odaklanmalısınız. Mobil uygulamanızın nasıl geliştirildiği ile ilgili ayrıntıları eklemek istersiniz - üzerinde çalıştığınız biri varsa veya mobil uygulamayı kendiniz oluşturuyorsanız. Burada, mobil uygulamanızın resimlerini veya ekran görüntülerini eklemeyi veya mobil uygulamanızın nasıl çalışacağına ilişkin diyagramları eklemeyi düşünmelisiniz. Genel olarak, bu bölüm şunları içermelidir:
 <ul>
- 	<li>Ürününüzün / hizmetinizin ayrıntılı bir açıklamasını, müşteriye özel faydaları vurgulayarak
+ 	<li style="font-weight: 400">Ürününüzün / hizmetinizin ayrıntılı bir açıklamasını, müşteriye özel faydaları vurgulayarak
 <ul>
- 	<li>Bunu betimlemek için görseller veya resimler kullanmayı deneyin. Uygulamanın ekran görüntüleri yardımcı olabilir. Göster, sadece söyleme!</li>
+ 	<li style="font-weight: 400">Bunu betimlemek için görseller veya resimler kullanmayı deneyin. Uygulamanın ekran görüntüleri yardımcı olabilir. Göster, sadece söyleme!</li>
 </ul>
 </li>
- 	<li>Ürününüzün / hizmetinizin rekabete göre nasıl avantajları olduğuna dair bir açıklama</li>
- 	<li>Ürün geliştirme geliştirme ürününün şu anki aşamasındadır ve pazara sunulmak için ne kadar hazırdır?</li>
- 	<li>Yeni ürün / hizmetlere yol açabilecek araştırma geliştirme faaliyetleri</li>
+ 	<li style="font-weight: 400">Ürününüzün / hizmetinizin rekabete göre nasıl avantajları olduğuna dair bir açıklama</li>
+ 	<li style="font-weight: 400">Ürün geliştirme geliştirme ürününün şu anki aşamasındadır ve pazara sunulmak için ne kadar hazırdır?</li>
+ 	<li style="font-weight: 400">Yeni ürün / hizmetlere yol açabilecek araştırma geliştirme faaliyetleri</li>
 </ul>
-<div class="oSioSc">
-<div id="tw-target">
-<div id="tw-target-text-container" class="gsrt tw-ta-container tw-nfl">
-<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Ek yardıma ihtiyacınız varsa, burada önerilen bazı kaynaklar:</span></p>
-<p dir="ltr"><a href="http://smallbusiness.chron.com/describe-companys-products-services-39987.html">Houston Chronicle: Şirketinizin Ürün ve Hizmetlerini Nasıl Açıklarsınız?</a></p>
-<p dir="ltr"><a href="http://www.inc.com/jeff-haden/how-to-write-a-great-business-plan-products-and-services.html">Inc: Büyük Bir İş Planı Nasıl Yazılır: Ürünler ve Hizmetler</a></p>
 
-</div>
-</div>
-</div>
-<h3>Market Analizi</h3>
+<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Ek yardıma ihtiyacınız varsa, burada önerilen bazı kaynaklar:</span></p>
+<p dir="ltr"><a href="http://smallbusiness.chron.com/describe-companys-products-services-39987.html" target="_blank" rel="noopener">Houston Chronicle: Şirketinizin Ürün ve Hizmetlerini Nasıl Açıklarsınız?</a></p>
+<p dir="ltr"><a href="http://www.inc.com/jeff-haden/how-to-write-a-great-business-plan-products-and-services.html" target="_blank" rel="noopener">Inc: Büyük Bir İş Planı Nasıl Yazılır: Ürünler ve Hizmetler</a></p>
+
+
+<h3 id="market"><strong>Market Analizi</strong></h3>
 Market Araştırma'sında yaptığınız tüm ödevleri burada göstereceksiniz. Mobil uygulamanız için tasarlanan pazarla ilgili neler öğrendiğinizi ve bunun nasıl bir performans göstereceğini düşündüğünüz sonuçları özetlemek istersiniz. Pazar analiziniz şunları içermelidir:
 <ul>
- 	<li>Pazarın tanımı
-<ul>
- 	<li>Anahtar rakipler kimlerdir?</li>
- 	<li>Mobil uygulamanızın neden ve nasıl performans göstereceğini düşünüyorsunuz?</li>
-</ul>
-</li>
- 	<li>Müşteri araştırması
-<ul>
- 	<li>Market boyu</li>
- 	<li>Demografik</li>
-</ul>
-</li>
- 	<li>Rakip analizi
-<ul>
- 	<li>Rakip güçlü ve zayıf yönleri</li>
- 	<li>Uygulamanız bu rakiplere karşı nasıl duracak?</li>
-</ul>
-</li>
+ 	<li style="font-weight: 400">Pazarın tanımı
+	<ul>
+	 	<li style="font-weight: 400">Anahtar rakipler kimlerdir?</li>
+	 	<li style="font-weight: 400">Mobil uygulamanızın neden ve nasıl performans göstereceğini düşünüyorsunuz?</li>
+	</ul>
+	</li>
+	<li style="font-weight: 400">Müşteri araştırması
+	<ul>
+	 	<li style="font-weight: 400">Market boyu</li>
+	 	<li style="font-weight: 400">Demografik</li>
+	</ul>
+	</li>
+	 <li style="font-weight: 400">Rakip analizi
+	<ul>
+	 	<li style="font-weight: 400">Rakip güçlü ve zayıf yönleri</li>
+	 	<li style="font-weight: 400">Uygulamanız bu rakiplere karşı nasıl duracak?</li>
+	</ul>
+	</li>
 </ul>
 Ek yardıma ihtiyacınız varsa, burada önerilen bazı kaynaklar:
+<ul>
+	<li><a href="https://www.sba.gov/starting-business/write-your-business-plan/market-analysis" target="_blank" rel="noopener">Küçük İşletme Yönetimi: Pazar Analizinize Neler Dahil Edilir?</a></li>
 
-<a href="https://www.sba.gov/starting-business/write-your-business-plan/market-analysis">Küçük İşletme Yönetimi: Pazar Analizinize Neler Dahil Edilir?</a>
+	<li><a href="http://articles.bplans.com/how-to-write-a-market-analysis/" target="_blank" rel="noopener">BPlans: Bir Pazar Analizi Nasıl Yazılır</a></li>
 
-<a href="http://articles.bplans.com/how-to-write-a-market-analysis/">BPlans: Bir Pazar Analizi Nasıl Yazılır</a>
-
-<a href="https://www.thebalancesmb.com/small-business-plans-writing-the-market-analysis-section-1794229">Denge: Pazar Analizi Bölümünü Yazmak</a>
-
-&nbsp;
-<blockquote>"Nereye gittiğini bilmiyorsan başka bir yere varacaksın."</blockquote>
-<p style="text-align: right;">–Yogi Berra, Beyzbol Menejeri ve Oyuncusu</p>
+	<li><a href="https://www.thebalancesmb.com/small-business-plans-writing-the-market-analysis-section-1794229" target="_blank" rel="noopener">Denge: Pazar Analizi Bölümünü Yazmak</a></li>
+</ul>
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<blockquote>"Nereye gittiğini bilmiyorsan başka bir yere varacaksın."</blockquote>
+	<p style="text-align: right;">–Yogi Berra, Beyzbol Menejeri ve Oyuncusu</p>
 
 </div>
-</div>
-</div>
-<div class="oSioSc">
-<div id="tw-target">
-<div id="tw-target-text-container" class="gsrt tw-ta-container tw-nfl">
-<h3>Strateji &amp; Uygulama</h3>
-<div class="tw-swapa">
-<div class="DHcWmd"></div>
-</div>
-<div class="oSioSc">
-<div id="tw-target">
-<div id="tw-target-text-container" class="gsrt tw-ta-container tw-nfl">
+
+<h3 id="strat"><strong>Strateji &amp; Uygulama</strong></h3>
+
 <p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Bu bölümde, yapmak istediğiniz ilk şey pazarlama stratejinizi ve uygulamanızı potansiyel müşterilere nasıl tanıtacağınızı açıklamaktır. Ayrıca, uygulamanın ne kadarına mal olacağını, müşterilerin uygulamanızla ilgili nasıl duyacaklarını ve müşterilerin uygulamanızı nasıl satın alacağı ve alacağı gibi ayrıntıları da eklemek istersiniz. Temel olarak, ürününüze nasıl göstereceğinizi, kullanıcıları nasıl satın alacağınızı nasıl açıklayacağınızı ve kullanıcıların uygulamanızı satın aldığında neler olacağını açıklamak istersiniz. Bunu açıklamak için şunlara ihtiyacınız olacak:</span></p>
 
 <ul>
- 	<li>Hedef müşterilere nasıl ulaşacağınız ve pazara nasıl gireceğinize dair bir açıklama</li>
- 	<li>Fiyatlandırma, promosyonlar ve uygulamanın dağıtımı hakkında ayrıntılar</li>
- 	<li>Uygulamanın müşteriye teslim edildiğinde uygulamaya ne zaman üretileceğinden şirketin nasıl işleyeceğine dair bir açıklama</li>
- 	<li>Şu anda sahip olduğunuz veya ihtiyaç duyacağınız çalışanların sayısı ve türleri hakkında bilgi</li>
+ 	<li style="font-weight: 400">Hedef müşterilere nasıl ulaşacağınız ve pazara nasıl gireceğinize dair bir açıklama</li>
+ 	<li style="font-weight: 400">Fiyatlandırma, promosyonlar ve uygulamanın dağıtımı hakkında ayrıntılar</li>
+ 	<li style="font-weight: 400">Uygulamanın müşteriye teslim edildiğinde uygulamaya ne zaman üretileceğinden şirketin nasıl işleyeceğine dair bir açıklama</li>
+ 	<li style="font-weight: 400">Şu anda sahip olduğunuz veya ihtiyaç duyacağınız çalışanların sayısı ve türleri hakkında bilgi</li>
 </ul>
-Ek yardıma ihtiyacınız varsa, burada önerilen bazı kaynaklar:
-<div id="tw-source"></div>
-<div class="oSioSc">
-<div id="tw-target">
-<div id="tw-target-text-container" class="gsrt tw-ta-container tw-nfl">
-<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><a href="https://www.cf-sn.ca/business/business_plans_pre_feb_2014/implementation.php"><span lang="tr">Topluluk Vadeli İşlemleri: Uygulama Planı ve Zaman Çizelgesi </span></a></p>
-<p class="tw-data-text tw-ta tw-text-small" dir="ltr"><a href="http://onstrategyhq.com/resources/strategic-implementation/"><span lang="tr">Strateji Karargahı: Stratejik Uygulama</span></a></p>
+<span style="font-weight: 400">Ek yardıma ihtiyacınız varsa, burada önerilen bazı kaynaklar:</span>
+	<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><a href="https://www.cf-sn.ca/business/business_plans_pre_feb_2014/implementation.php" target="_blank" rel="noopener"><span lang="tr">Topluluk Vadeli İşlemleri: Uygulama Planı ve Zaman Çizelgesi </span></a></p>
+	<p class="tw-data-text tw-ta tw-text-small" dir="ltr"><a href="http://onstrategyhq.com/resources/strategic-implementation/" target="_blank" rel="noopener"><span lang="tr">Strateji Karargahı: Stratejik Uygulama</span></a></p>
 
-<h3>Organizasyon ve Yönetim Takımı</h3>
+<h3 id="team"><strong>Organizasyon ve Yönetim Takımı</strong></h3>
 Artık şirketinizdeki tüm önemli kişileri tanımlamak isteyeceksiniz. Bu, işinizde kimin neyi yaptığını açıklayacak ve ekibinize neden sahip olduğunuzu haklı çıkaracaktır. Şirketinizin her bölümünün veya departmanının ayrıntılı bir açıklamasını ve neler yaptığını öğrenin. Bunları da varsa, herhangi bir danışman için arka plan ve muhakeme ekleyin. Ekibiniz küçükse, şirketinizde oynadıkları tüm önemli rolleri gösterebilirsiniz. Sağlamak isteyeceksiniz:
 <ul>
- 	<li>Sahipleri, isimleri, şirkete dahil olma derecesi ve arka planlarını ve yeteneklerini listeleyen bir biyografi dahil olmak üzere sahipler hakkında bilgi</li>
- 	<li>Yönetim ekibinizin adları, konumları, ana sorumlulukları ve geçmiş deneyimleri (her takım üyesinin iş ve uygulama için neler yapması gerektiği) dahil olmak üzere profilleri
+ 	<li style="font-weight: 400">Sahipleri, isimleri, şirkete dahil olma derecesi ve arka planlarını ve yeteneklerini listeleyen bir biyografi dahil olmak üzere sahipler hakkında bilgi</li>
+ 	<li style="font-weight: 400">Yönetim ekibinizin adları, konumları, ana sorumlulukları ve geçmiş deneyimleri (her takım üyesinin iş ve uygulama için neler yapması gerektiği) dahil olmak üzere profilleri
 <ul>
- 	<li>Ekip üyeleriniz için Genel Müdür (CEO) veya Baş Teknik Sorumlusu (CTO) gibi iş ünvanları alabilirsiniz. Chief Idea Maker gibi onunla de aptallaşabilirsiniz! İşte <a href="https://en.wikipedia.org/wiki/List_of_corporate_titles" target="_blank" rel="noopener">bazı</a> örnekler.</li>
+ 	<li style="font-weight: 400">Ekip üyeleriniz için Genel Müdür (CEO) veya Baş Teknik Sorumlusu (CTO) gibi iş ünvanları alabilirsiniz. Chief Idea Maker gibi onunla de aptallaşabilirsiniz! İşte <a href="https://en.wikipedia.org/wiki/List_of_corporate_titles" target="_blank" rel="noopener">bazı</a> örnekler.</li>
 </ul>
 </li>
- 	<li>Mentor (ler) iniz gibi herhangi bir danışman listesi.</li>
+ 	<li style="font-weight: 400">Mentor (ler) iniz gibi herhangi bir danışman listesi.</li>
 </ul>
-<div id="tw-source"></div>
-<div class="oSioSc">
-<div id="tw-target">
-<div id="tw-target-text-container" class="gsrt tw-ta-container tw-nfl">
+
 <p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Ek yardıma ihtiyacınız varsa, burada önerilen bazı kaynaklar:</span></p>
 
-</div>
-</div>
-</div>
 <ul>
- 	<li><a href="https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan">Küçük İşletme: Organizasyon ve Yönetim</a></li>
- 	<li><a href="http://us.accion.org/business-resources/articles-videos/business-plan-section-3-organization-and-management"> Akıl: İş Planı Bölüm 3: Organizasyon ve Yönetim</a></li>
- 	<li><a href="https://www.thebalancesmb.com/business-plan-organization-and-management-section-1794228"> Denge: Organizasyon ve Yönetim Bölümü</a></li>
+ 	<li><a href="https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan" target="_blank" rel="noopener">Küçük İşletme: Organizasyon ve Yönetim</a></li>
+ 	<li><a href="http://us.accion.org/business-resources/articles-videos/business-plan-section-3-organization-and-management" target="_blank" rel="noopener"> Akıl: İş Planı Bölüm 3: Organizasyon ve Yönetim</a></li>
+ 	<li><a href="https://www.thebalancesmb.com/business-plan-organization-and-management-section-1794228" target="_blank" rel="noopener"> Denge: Organizasyon ve Yönetim Bölümü</a></li>
 </ul>
-<h3>Finansal Plan ve Projeksiyonlar</h3>
-<div class="oSioSc">
-<div id="tw-target">
-<div id="tw-target-text-container" class="gsrt tw-ta-container tw-nfl" style="text-align: left;">
-<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Son bölümünüz için, iş planınızda tanımladığınız tüm şeylere nasıl ulaşacağınız konusunda bir parasal açıklama yapmalısınız - bu, <a href="http://www.iridescent.staging.wpengine.com/curriculum/business3/" target="_blank" rel="noopener">İş Modeli</a>'nden geliyor. Bu, her şeyi birbirine bağlayan önemli bir parçadır. Planınızın başarılabilir olduğunu ve işletmenizin başarılı olacağının gösterilmesi gerekir, çünkü bu bir işe başlamak için çok uğraşır! Bilgileri basit bir biçimde göstermek için tabloları ve grafikleri kullanın. Planınızın ana bölümleri:</span></p>
+<h3 id="proj"><strong>Finansal Plan ve Projeksiyonlar</strong></h3>
 
-<div id="tw-target-text-container" class="gsrt tw-ta-container tw-nfl">
+<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Son bölümünüz için, iş planınızda tanımladığınız tüm şeylere nasıl ulaşacağınız konusunda bir parasal açıklama yapmalısınız - bu, <a href="http://www.technovationchallenge.org/curriculum/business-3/" target="_blank" rel="noopener">İş Modeli</a>'nden geliyor. Bu, her şeyi birbirine bağlayan önemli bir parçadır. Planınızın başarılabilir olduğunu ve işletmenizin başarılı olacağının gösterilmesi gerekir, çünkü bu bir işe başlamak için çok uğraşır! Bilgileri basit bir biçimde göstermek için tabloları ve grafikleri kullanın. Planınızın ana bölümleri:</span></p>
+
+
 <ul>
  	<li id="tw-target-text" class="tw-data-text tw-ta tw-text-small"><span lang="tr">Şimdi ne kadar paran var ve nasıl kullanacaksın?</span></li>
  	<li class="tw-data-text tw-ta tw-text-small">Ne kadar paraya ihtiyacınız olacak ve hangi hedefleri belirlediniz?
@@ -227,56 +207,47 @@ Artık şirketinizdeki tüm önemli kişileri tanımlamak isteyeceksiniz. Bu, i�
 </li>
  	<li class="tw-data-text tw-ta tw-text-small"> Önümüzdeki 3-5 yılda ne kadar para kazanmayı planlıyorsunuz ve nasıl (kar projeksiyonu)</li>
 </ul>
-Takılırsanız mentorlarınızdan yardım isteyin! Onlara soru sorduğunuzdan ve geri bildirim gönderdiğinizden emin olun. Size yardımcı olmak için buradalar.
+<span style="font-weight: 400">Takılırsanız mentorlarınızdan yardım isteyin! Onlara soru sorduğunuzdan ve geri bildirim gönderdiğinizden emin olun. Size yardımcı olmak için buradalar.</span>
 
-Ek yardıma ihtiyacınız varsa, burada önerilen bazı kaynaklar:
+<span style="font-weight: 400">Ek yardıma ihtiyacınız varsa, burada önerilen bazı kaynaklar:</span>
 
-</div>
-<ul>
- 	<li><a href="http://www.inc.com/guides/business-plan-financial-section.html">Inc: Bir iş planının mali bölümü nasıl yazılır</a></li>
- 	<li><a href="https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan">Küçük İşletme: Finansal Projeksiyonlar</a></li>
- 	<li><a href="https://www.entrepreneur.com/article/220653">Girişimci: Her İş Planı İhtiyaçları Üç Finansal Sanırım</a></li>
-</ul>
-<h3>Bir İş Planı Oluşturun</h3>
-Artık bir iş planının tüm farklı bölümlerini biliyorsunuz, hepsini bir araya getirmeye başlamak zorunda kalacaksınız! Bu büyük bir belgedir, bu yüzden ekibinizle birlikte çalışıp danışman oluşturursanız yardımcı olacaktır. Çalışmayı farklı bölümlere ayırın, böylece her takım üyesi yardımcı olabilir. Ne öğrendiğimizi tekrar özetleyelim:
-
-<span lang="tr">Tüm farklı parçaları bir araya getirdiğinizde, iş planınızı sonuçlandırmak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olmak için aşağıdaki kontrol listesini kullanmayı deneyin.</span>
-
-<a role="button" href="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/BusinessPlanChecklist.pdf" target="_blank" rel="noopener">İş Planı Kontrol Listesi</a>
-<h3>Değerlendirin</h3>
-Bir iş planı yazmak, özellikle de hala bir öğrenciyseniz, <strong>büyük</strong> bir başarıdır! Heyecan olsun, hemen göndermeye hazırsınız!
-
-Danışmanınız veya ekibiniz iş planını bir grup olarak inceledikten sonra, geri bildirimlerini dahil ettiğinizden emin olun. Farklı insanların bakış açılarını elde etmenize yardımcı olur, çünkü bu, farklı insan türlerinin okuyabileceği bir belgedir. İş planınızı grup olarak okuyun ve tüm farklı bölümleri birleştirdiğinizi onaylamak için<a href="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/12/BusinessPlanChecklist.pdf" target="_blank" rel="noopener"> kontrol listesini</a> kullanarak iş planınızı tamamlayın.
-<div class="oSioSc">
-<div id="tw-target">
-<div id="tw-target-text-container" class="gsrt tw-ta-container tw-nfl">
-<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Ekibinizle bu iş planı üzerinde çalışırken, şunları düşünün:</span></p>
 
 <ul>
- 	<li>Takım olarak çalışmanın zorlukları nelerdi?</li>
- 	<li>Bu belge üzerinde takım olarak çalışmakla ilgili iyi şeyler nelerdi?</li>
+ 	<li><a href="http://www.inc.com/guides/business-plan-financial-section.html" target="_blank" rel="noopener">Inc: Bir iş planının mali bölümü nasıl yazılır</a></li>
+ 	<li><a href="https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan" target="_blank" rel="noopener">Küçük İşletme: Finansal Projeksiyonlar</a></li>
+ 	<li><a href="https://www.entrepreneur.com/article/220653" target="_blank" rel="noopener">Girişimci: Her İş Planı İhtiyaçları Üç Finansal Sanırım</a></li>
 </ul>
-<h3><b>Ek Kaynaklar</b></h3>
-<a href="https://www.entrepreneur.com/article/247574">Girişimci: İş Planları: Adım Adım Bir Rehber</a>
 
-<a href="https://www.sba.gov/starting-business/write-your-business-plan">Küçük İşletme: İş Planınızı Yazın</a>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3 id="create"><strong>Bir İş Planı Oluşturun</strong></h3>
+	Artık bir iş planının tüm farklı bölümlerini biliyorsunuz, hepsini bir araya getirmeye başlamak zorunda kalacaksınız! Bu büyük bir belgedir, bu yüzden ekibinizle birlikte çalışıp danışman oluşturursanız yardımcı olacaktır. Çalışmayı farklı bölümlere ayırın, böylece her takım üyesi yardımcı olabilir. Ne öğrendiğimizi tekrar özetleyelim:
 
-<a href="https://smallbusiness.chron.com/importance-purpose-business-plan-760.html">Chron: Bir İş Planının Önemi ve Amacı Nedir?</a>
+	<center>
+		<iframe src="https://www.youtube.com/embed/SMr_uLZV-eM" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></center>&nbsp;
+	<span lang="tr">Tüm farklı parçaları bir araya getirdiğinizde, iş planınızı sonuçlandırmak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olmak için aşağıdaki kontrol listesini kullanmayı deneyin.</span>
 
-<a href="https://www.entrepreneur.com/article/38308">Girişimci: İş Planının Unsurları</a>
+	<span style="color: #eae46f;"><a style="color: #eae46f;" role="button" href="http://www.technovationchallenge.org/wp-content/uploads/2016/12/BusinessPlanChecklist.pdf" target="_blank" rel="noopener">İş Planı Kontrol Listesi</a></span>
+</div>	
+<div style="background-color: #066677; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3 id="reflect"><span style="color: #ffffff;"><strong>Değerlendirin</strong></span></h3>
+	Bir iş planı yazmak, özellikle de hala bir öğrenciyseniz, <strong>büyük</strong> bir başarıdır! Heyecan olsun, hemen göndermeye hazırsınız!
 
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+	Danışmanınız veya ekibiniz iş planını bir grup olarak inceledikten sonra, geri bildirimlerini dahil ettiğinizden emin olun. Farklı insanların bakış açılarını elde etmenize yardımcı olur, çünkü bu, farklı insan türlerinin okuyabileceği bir belgedir. İş planınızı grup olarak okuyun ve tüm farklı bölümleri birleştirdiğinizi onaylamak için<span style="color: #eae46f;"><a style="color: #eae46f;" href="http://www.technovationchallenge.org/wp-content/uploads/2016/12/BusinessPlanChecklist.pdf" target="_blank" rel="noopener"> kontrol listesini</a></span> kullanarak iş planınızı tamamlayın.
+	
+	<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Ekibinizle bu iş planı üzerinde çalışırken, şunları düşünün:</span></p>
+
+	<ul>
+	 	<li>Takım olarak çalışmanın zorlukları nelerdi?</li>
+	 	<li>Bu belge üzerinde takım olarak çalışmakla ilgili iyi şeyler nelerdi?</li>
+	</ul>
+	<h3><span style="color: #ffffff;"><strong>Ek Kaynaklar</strong></h3>
+	<ul>	
+		<li style="font-weight: 400"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.entrepreneur.com/article/247574" target="_blank" rel="noopener">Girişimci: İş Planları: Adım Adım Bir Rehber</a></span></li>
+
+		<li style="font-weight: 400"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.sba.gov/starting-business/write-your-business-plan" target="_blank" rel="noopener">Küçük İşletme: İş Planınızı Yazın</a></span></li>
+
+		<li style="font-weight: 400"><span style="color: #eae46f;"><a style="color: #eae46f;" href="http://smallbusiness.chron.com/importance-purpose-business-plan-760.html" target="_blank" rel="noopener">Chron: Bir İş Planının Önemi ve Amacı Nedir?</a></span></li>
+
+		<li style="font-weight: 400"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.entrepreneur.com/article/38308" target="_blank" rel="noopener">Girişimci: İş Planının Unsurları</a></span></li>
+	</ul>	
+</div> 
