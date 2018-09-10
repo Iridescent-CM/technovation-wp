@@ -13,73 +13,76 @@
  	<li><a href="#reflect">Özet</a></li>
  	<li><a href="#bonus">Bonus: Programcılar için renk</a></li>
 </ul>
-<h2><b>Kazanımlar</b></h2>
+<h2><strong>Kazanımlar</strong>></h2>
 Bu modülde;
 <ul>
  	<li>Logolar, yazı tipleri ve renkleri</li>
  	<li>Renk seti ve yazı tipi seçmeyi</li>
  	<li>Logo yaratmayı öğreneceksiniz.</li>
 </ul>
-<h3>Renk</h3>
+<h3 id="color"><strong>Renk</strong></h3>
 Bundan önceki derslerde bir şirket adı oluşturdunuz, artık sıra şirketinize bir görüntü oluşturmada! Şirketinizin görüntüsü şirketinizin logosunu, renklerini ve yazı tiplerini içerir. Bunları sabit tumak başkaları sizi bunlarla tanıyacağından çok önemlidir. Başlamak için renkler ve anlamlarını konuşalım.
 
 Sizin en sevdiğiniz bir renk olabilir ama bu renk her zaman sizin şirketinizi en iyi yansıtan renk olmayabilir. Renklerin duyguları olduğunu ve insanlara belirli hisler verdiğini biliyor muydunuz? Bu duygular kişiden kişiye değişebilir ama şirketinizi tasarlarken bu renkleri de göz önünde bulundurmak önemli. Bu ünitede Amerika'daki renk tercihleri hakkında konuşacağız. Bu renklerin anlamı ülkeden ülkeye yani kültürden kültüre değişebileceği için kendi ülkenize hitaben bir çalışma yaparken kendi ülkenizin kaynaklarından renk anlamlarına bakabilirsiniz. Aşağıda bazı örnekler var:
 <table>
-<tbody>
-<tr>
-<td style="text-align: center;color: #ffffff" bgcolor="red">KIRMIZI</td>
-<td>Tutku, Agresif, Önemli, Devrim</td>
-</tr>
-<tr>
-<td style="text-align: center;color: #ffffff" bgcolor="orange">TURUNCU</td>
-<td>Neşeli, Enerjik, Ucuz, Coşkulu</td>
-</tr>
-<tr>
-<td style="text-align: center" bgcolor="yellow">SARI</td>
-<td>Mutlu, Arkadaş canlısı, Uyarı, Bilgelik</td>
-</tr>
-<tr>
-<td style="text-align: center;color: #ffffff" bgcolor="green">YEŞİL</td>
-<td>Doğal, Sabit, Refah, Dürüst</td>
-</tr>
-<tr>
-<td style="text-align: center;color: #ffffff" bgcolor="blue">MAVİ</td>
-<td>Sakin, Güvenilir, Davet edici, Sadakat</td>
-</tr>
-<tr>
-<td style="text-align: center;color: #ffffff" bgcolor="purple">PURPLE</td>
-<td>Lüks, Gizemli, Romantik, İlham</td>
-</tr>
-<tr>
-<td style="text-align: center;color: #ffffff" bgcolor="brown">BROWN</td>
-<td>Dünya, Sağlam, Kırsal</td>
-</tr>
-<tr>
-<td style="text-align: center;color: #ffffff" bgcolor="black">BLACK</td>
-<td>Güçlü, Sofistike, Sinirli, Formal</td>
-</tr>
-<tr>
-<td style="text-align: center" bgcolor="WHITE">WHITE</td>
-<td>Temiz, Erdemli, Sağlıklı, Masum</td>
-</tr>
-<tr>
-<td style="text-align: center;color: #ffffff" bgcolor="gray">GRAY</td>
-<td>Doğal, Formal, Kasvetli, Tevazü</td>
-</tr>
-</tbody>
+	<tbody>
+		<tr>
+			<td style="text-align: center;color: #ffffff" bgcolor="red">KIRMIZI</td>
+			<td>Tutku, Agresif, Önemli, Devrim</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;color: #ffffff" bgcolor="orange">TURUNCU</td>
+			<td>Neşeli, Enerjik, Ucuz, Coşkulu</td>
+		</tr>
+		<tr>
+			<td style="text-align: center" bgcolor="yellow">SARI</td>
+			<td>Mutlu, Arkadaş canlısı, Uyarı, Bilgelik</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;color: #ffffff" bgcolor="green">YEŞİL</td>
+			<td>Doğal, Sabit, Refah, Dürüst</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;color: #ffffff" bgcolor="blue">MAVİ</td>
+			<td>Sakin, Güvenilir, Davet edici, Sadakat</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;color: #ffffff" bgcolor="purple">PURPLE</td>
+			<td>Lüks, Gizemli, Romantik, İlham</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;color: #ffffff" bgcolor="brown">BROWN</td>
+			<td>Dünya, Sağlam, Kırsal</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;color: #ffffff" bgcolor="black">BLACK</td>
+			<td>Güçlü, Sofistike, Sinirli, Formal</td>
+		</tr>
+		<tr>
+			<td style="text-align: center" bgcolor="WHITE">WHITE</td>
+			<td>Temiz, Erdemli, Sağlıklı, Masum</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;color: #ffffff" bgcolor="gray">GRAY</td>
+			<td>Doğal, Formal, Kasvetli, Tevazü</td>
+		</tr>
+	</tbody>
 </table>
-Aşağıdaki videoyu izleyerek renk psikolojisi hakkında daha çok bilgi edinebilirsiniz:
+<p>Aşağıdaki videoyu izleyerek renk psikolojisi hakkında daha çok bilgi edinebilirsiniz:</p>
 
+<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/r9gYdD-REI0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></p>
+<p>Doğru renkleri seçmek markanızın "kişiliği"nde çok önemli! Markanızın hangi özelliklere sahip olduğunu bildiğinize göre artık bu özelliklere uygun renkleri seçebilirsiniz.</p>
 
-Doğru renkleri seçmek markanızın "kişiliği"nde çok önemli! Markanızın hangi özelliklere sahip olduğunu bildiğinize göre artık bu özelliklere uygun renkleri seçebilirsiniz.
-<h3><b>Aktivite: Renk Seç</b></h3>
-Takımınızla beraber yukarıdaki tablodan sizin markanızı temsil edebilecek renkleri seçin. Örneğin, insanların markanızı yeni ve heyecanlı bir şey olarak görmesini istiyorsanız turuncu rengini seçebilirsiniz.
-<h5>Renk Setleri</h5>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px, margin-bottom:25px;">
+	<h3 id="act1"><strong>Aktivite: Renk Seç</strong></h3>
+	Takımınızla beraber yukarıdaki tablodan sizin markanızı temsil edebilecek renkleri seçin. Örneğin, insanların markanızı yeni ve heyecanlı bir şey olarak görmesini istiyorsanız turuncu rengini seçebilirsiniz.
+</div>
+<h4 id="colorschemes"><strong>Renk Setleri</strong></h4>
 Artık bir renk seçtiniz! Tebrikler! Ama daha logonuzu yapmaya başlamayın. Renkler tek başlarına yetmez, renklerin arkadaşlara ihtiyaçları vardır.  Sizin için bazı tavsiyelerimiz var.
 
 Başlamak için bir renk çarkına göz atalım:
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/COLOR-WHEEL@4x-2-1024x1024.png" alt="color-wheel4x" width="429" height="429" />
+<p class="western" align="center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/COLOR-WHEEL@4x-2-1024x1024.png" alt="color-wheel4x" width="429" height="429" /></p>
 
 Bu renk çarkında 3 sütun var:
 <ul>
@@ -95,179 +98,207 @@ Bu kararları verirken seçtiğiniz rengin diğer renklerle nasıl gideceğini d
 
 <b>Zıt renk kombinasyonları: </b>Renk çarkında tam zıt yönlerdeki renk çiftleridir. Bunlar en canlı renk kombinasyonları olabilirler. Bunlar çok fazla kullanıldıklarında yorucu olabilir ama istediğiniz noktalara dikkat çekerken çok işinize yararlar.
 
-<img class="aligncenter" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/comp@2x-1.png" alt="comp2x" width="50%" />
+<p class="western"><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/comp@2x-1.png" alt="comp2x" width="50%" /></p>
 
 <b>Ayrılmış zıt renk kombinasyonları: </b>Bunlar zıt renk kombinasyonlarına benzerler ama canlılığı ve yoruculuğu azaltmak için zıt renkler yerine bu renklerden biri bir yandaki renk ile yer değişir. Örnekler:
 
-<img class="aligncenter" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/slip-comp@2x.png" alt="slip-comp2x" width="50%" />
+&nbsp;
+<p style="text-align: center;"><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/slip-comp@2x.png" alt="slip-comp2x" width="50%" /></p>
+&nbsp;
 
 <b>Benzer renk kombinasyonları: </b>Bunlar renk çarkında yan nyana bulunan renklerdir. Bunları kullanırken markanızın öne çıkması için yeterince kontrast kullandığınıza emin olun.
 
-<img class="aligncenter" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/analogous@2x.png" alt="analogous2x" width="50%" />
+<p style="text-align: center;"><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/analogous@2x.png" alt="analogous2x" width="50%" /></p>
+&nbsp;
 
-<b>Üçlü renk kombinasyonları: </b>Renk çarkında eşit mesafede bulunan üç renkten oluşurlar. Bu kombinasyonlar çok enerjik olabilir.
+<strong>Üçlü renk kombinasyonları: </strong>>Renk çarkında eşit mesafede bulunan üç renkten oluşurlar. Bu kombinasyonlar çok enerjik olabilir.
 
-<img class="aligncenter" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/triadic@2x.png" alt="triadic2x" width="50%" />
-<h3>Aktivite: Renk seti seçin</h3>
-Takım arkadaşlarınızla bir renk seti seçin. Bir önceki aktivitede seçtiğiniz renge farklı kombinasyonları uygulayın ve istediğinizi seçin. Farklı ton ve gölgeleri (tint ve shade) denediğinize emin olun. Bunu yaparken renklerin anlamlarını da göz önünde bulundurun. Aşağıdaki kaynaklar renk seti seçmenizde yardımcı olabilir.
-<ul>
- 	<li style="font-weight: 400"><a href="https://www.sessions.edu/color-calculator/" target="_blank" rel="noopener">Sessions color calculator</a></li>
- 	<li style="font-weight: 400"><a href="https://coolors.co/" target="_blank" rel="noopener">Coolors</a></li>
- 	<li style="font-weight: 400"><a href="http://www.palettable.io/FFFFFF" target="_blank" rel="noopener">Palattable</a></li>
-</ul>
-App Inventor'da bulunmayan renkleri seçtiyseniz endişelenmeyin, App Inventor'da yeni renkler oluşturmanın yönergeleri aşağıda.
+<p style="text-align: center;"><img class="aligncenter" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/triadic@2x.png" alt="triadic2x" width="50%" /></p>
 
-İpucu: Takıldınız mı? Bir fotoğrafla başlayın! Markanızı ifade eden bir şeyin fotoğrafını çekin. Bu fotoğraf bir yer, obje veya herhangi bir şey olabilir! Bu <a href="https://designschool.canva.com/blog/100-color-combinations/" target="_blank" rel="noopener">sitede</a> çok güzel örnekler var!
-<h3>Yazı Tipleri</h3>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px, margin-bottom:25px;">
+	<h3 id="act2"><strong>Aktivite: Renk seti seçin</strong></h3>
+	Takım arkadaşlarınızla bir renk seti seçin. Bir önceki aktivitede seçtiğiniz renge farklı kombinasyonları uygulayın ve istediğinizi seçin. Farklı ton ve gölgeleri (tint ve shade) denediğinize emin olun. Bunu yaparken renklerin anlamlarını da göz önünde bulundurun. Aşağıdaki kaynaklar renk seti seçmenizde yardımcı olabilir.
+	<ul>
+	 	<li style="font-weight: 400"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.sessions.edu/color-calculator/" target="_blank" rel="noopener">Sessions color calculator</a></span></li>
+	 	<li style="font-weight: 400"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://coolors.co/" target="_blank" rel="noopener">Coolors</a></span></li>
+	 	<li style="font-weight: 400"><span style="color: #eae46f;"><a style="color: #eae46f;" href="http://www.palettable.io/FFFFFF" target="_blank" rel="noopener">Palattable</a></span></li>
+	</ul>
+	App Inventor'da bulunmayan renkleri seçtiyseniz endişelenmeyin, App Inventor'da yeni renkler oluşturmanın yönergeleri aşağıda.
+
+	İpucu: Takıldınız mı? Bir fotoğrafla başlayın! Markanızı ifade eden bir şeyin fotoğrafını çekin. Bu fotoğraf bir yer, obje veya herhangi bir şey olabilir! Bu <span style="color: #eae46f;"><a style="color: #eae46f;" href="https://designschool.canva.com/blog/100-color-combinations/" target="_blank" rel="noopener">sitede</a></span> çok güzel örnekler var!
+</div>	
+<h3 id="fonts">Yazı Tipleri</h3>
 Markanızın görsel materyallerini oluştururken doğru yazı tipini . seçmek nde çok önemlidir. Bizim vereceğimiz örnekler latin alfabesine tamamen uyumludur (inhilizce, fransızca, ispanyolca vb.) ama bunların bazıları latin alfabesi olmayan alfabelerde sorun çıkarabilir (arap, hint, çin vb.).
 
 Renkler gibi yazı tipleri de markanızın karakterini belirler. Her yazi tipinin bir geçmişi ve karakteri vardır. İnsanlar bu yazı tipini gördüğünde geçmişiyle özdeştirir ve anlamlandırır. Bu nedenle bunlar hakkında bilgi sahibi olmak önemlidir. Bu derste bunların üzerinden geçeceğiz. Aşağıdaki yazı tipleri?
 
-<a href="https://fonts.google.com/specimen/Merriweather" target="_blank" rel="noopener"><img style="margin: 1%" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/Merriweather-Serif@2x.png" alt="merriweather-serif2x" width="50" /></a>
-<a href="https://fonts.google.com/specimen/PT+Serif" target="_blank" rel="noopener"><img style="margin: 1%" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/PT-Serif@2x.png" alt="pt-serif2x" width="58" height="67" /></a>
-<a href="https://typekit.com/fonts/ff-tisa" target="_blank" rel="noopener"><img style="margin: 1%" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/Tisa-Serif@2x.png" alt="tisa-serif2x" width="43" height="70" /></a>
-<p style="text-align: center"> These red marks on these letters are called <b>serifs</b>, and fonts that have them are called <b>serif fonts</b>. It's fun to think of those extra marks as being little feet!</p>
+<table class=" aligncenter">
+<tbody>
+<tr>
+<td width="50%"><strong>Serif</strong></td>
+<td width="50%"><strong>Sans-Serif</strong></td>
+</tr>
+<tr>
 
+	<td><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Merriweather-Serif@2x.png" alt="merriweather-serif2x" width="50" /></td>
+	<td> <a href="https://fonts.google.com/specimen/Merriweather+Sans" target="_blank"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Merriweather-Sans@2x.png" alt="merriweather-sans2x" width="40" /></a></td>
+</tr>
+<tr>
+	<td><a href="https://fonts.google.com/specimen/PT+Serif" target="_blank"><img style="margin: 1%;" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/PT-Serif@2x.png" alt="pt-serif2x" width="58" height="67" /></a></td>
+	<td><a href="https://fonts.google.com/specimen/PT+Sans" target="_blank"><img style="margin: 1%;" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/PT-Sans@2x.png" alt="pt-sans2x" width="46" height="67" /></a></td>
+</tr>
+<tr>
+	<td><a href="https://typekit.com/fonts/ff-tisa" target="_blank"><img style="margin: 1%;" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Tisa-Serif@2x.png" alt="tisa-serif2x" width="43" height="70" /></a></td>
+<td><a href="https://typekit.com/fonts/ff-tisa-sans" target="_blank"><img style="margin: 1%;" src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Tisa-Sans@2x.png" alt="tisa-sans2x" width="44" /></a></td>
+</tr>
+</tbody>
+</table>
 
-<a href="https://fonts.google.com/specimen/Merriweather+Sans" target="_blank" rel="noopener"><img style="margin: 1%" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/Merriweather-Sans@2x.png" alt="merriweather-sans2x" width="40" /></a>
-<a href="https://fonts.google.com/specimen/PT+Sans" target="_blank" rel="noopener"><img style="margin: 1%" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/PT-Sans@2x.png" alt="pt-sans2x" width="46" height="67" /></a>
-<a href="https://typekit.com/fonts/ff-tisa-sans" target="_blank" rel="noopener"><img style="margin: 1%" src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/Tisa-Sans@2x.png" alt="tisa-sans2x" width="44" /></a>
+<p style="text-align: center"> The red marks on these letters are called <b>serifs</b>, and fonts that have them are called <b>serif fonts</b>. It's fun to think of those extra marks as being little feet!</p>
+
 <p style="text-align: center"> Fonts that don't have serifs are called <b>sans-serifs</b>.</p>
 
 <h5>Serif Yazı Tipleri</h5>
 Serif yazı tiplerinin sonundaki ekstra çizgiler farklı Serif yazı tiplerinde farklıdır. <a href="https://www.prepressure.com/images/fonts_sample_times_new_roman_regular.png" target="_blank" rel="noopener">Times New Roman</a> gibi bazılarının ek çizgileri çok küçükken <a href="http://www.creativebeacon.com/wp-content/uploads/2012/08/Screen-shot-2012-08-27-at-10.23.55-AM.png" target="_blank" rel="noopener">bazılarının </a>daha büyüktür. Bilgisayarınızdaki yazı tiplerini inceleyin ve serif olanları ayırt etmeye çalışın.
 
 Bu yazı tipleri kullanıcının üstünde tarihi ve formal bir efekt yaratırlar. İlk çıkan yazı tiplerinden biri <a href="https://www.sitepoint.com/the-blackletter-typeface-a-long-and-colored-history/" target="_blank" rel="noopener">blackletter</a> adlı bir serif yazı tipiydi. Bu yazı tiplerinden birini seçerseniz kendisiyle beraber tarihini ve formalitesini getireceğini bilmelisiniz. Fakat diğer serif yazı tiplerine göre daha yeni çıkan <a href="https://fonts.google.com/?category=Serif&amp;query=slab" target="_blank" rel="noopener">slab-serifs</a> adlı bir kategori var ve bu kategori sans serif yazı tipleriyle benzerlik gösteriyor.
-<h5>Sans-Serif Fonts</h5>
+
+<h4 style="text-align: left;">Sans-Serif Fonts</h4>
 Sans Serif yazı tipleri daha güncel bir yazı tipidir. Bunlar gençliği ve yeni düşünceleri andırırlar. Bu yazı tipleri ilk olarak modern reklamcılığın ihtiyaçlarını karşılamak için yapıldı. Sizin de genel olarak yazı tipinizi bunlar arasından seçeceğinizi düşünüyoruz. Bilgisayarınızdaki Sans serif yazı tiplerine göz atın ve beğendiklerinizi inceleyin.
 
+<p class="western" style="text-align: center;"><iframe src="https://www.youtube.com/embed/wOgIkxAfJsk" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></p>
 Daha çok bilgi edinmek isterseniz aşağıdaki kaynakları kullanabilirsiniz:
-<p style="text-align: center"></p>
+<ul style="text-align: center">
 
-<ul>
- 	<li><a href="https://www.fonts.com/content/learning/fontology/level-1/type-anatomy/type-classifications" target="_blank" rel="noopener">Types of type</a></li>
- 	<li><a href="http://practicaltypography.com/font-recommendations.html" target="_blank" rel="noopener">Butterick's font recommendations</a></li>
+ 	<li style="text-align: left;"><a href="https://www.fonts.com/content/learning/fontology/level-1/type-anatomy/type-classifications" target="_blank" rel="noopener">Types of type</a></li>
+ 	<li style="text-align: left;"><a href="http://practicaltypography.com/font-recommendations.html" target="_blank" rel="noopener">Butterick's font recommendations</a></li>
+
 </ul>
-<h3>Aktivite: Yazı Tipinizi/ Tiplerinizi Seçin</h3>
-Şimdi bir yazı tipi seçmeye hazırlanın! Uygulamanızdaa en iyi yazı tipini seçmek için size bir kaç tavsiye...
-<ol>
- 	<li>Yazı tipleri hakkında çok bilginiz olmasa bile hangi yazı tiplerinin markanızı temsil edip etmediğini görüntüsüne bakarak ayırt edebilirsiniz. Bunu yazı tiplerini doğal hallerinde yazarak temsil ettiği şeyleri düşünün. Mesela <a href="http://ufonts.com/fonts/impact.html" target="_blank" rel="noopener">Impact</a> gibi kalın ve boşluklu yazı fontları bağırma etkisi yaratabilir. Ama <a href="https://fonts.google.com/specimen/Syncopate" target="_blank" rel="noopener">Syncopate </a>gibi ince bir yazı tipi sofistike bir fısıltı hissi yaratabilir. Uygulamanıza uyabilecek bazı yazı tiplerinin listesini yapın ama bunu yaparken kişisel düşüncülerinizi kenara bırakmayı unutmayın.</li>
- 	<li>Şimdi seçtiğiniz yazı tiplerini test etme zamanı. Seçtiğiniz yazı tiplerini farklı boyutlarda deneyin ve okunabilir olduğundan emin olun. En iyi çalışan ve uyan yazı tipini seçin. Bu sizin ana yazı tipiniz olacak ve logonuz gibi bir sürü yerde yer alacak.</li>
- 	<li>Uygulamanızın içindeki yazı tiplerini seçerken çok seçici olmalısınız. Bazı tavsiyeler:
-<ol>
- 	<li>Bazen serif yazı tipleri sans-serif tipleriyle çok uyumlu olabilirler.</li>
- 	<li>Zıtlık güzeldir. Sürekli benzer olan fontları beraber kullanmak yerine farklı fontları beraber kullanmayı deneyin.</li>
- 	<li>Yazı tipinin nasıl "konuştuğuna" dikkat edin.</li>
- 	<li>Okunurluğu göz ardı etmeyin.</li>
- 	<li>Ana yazı tipinizin yanında deneyin.</li>
- 	<li>App Inevntor'daki font çeşitlerinden biri olduğuna emin olun.</li>
-</ol>
-</li>
-</ol>
-Yardıma mı ihtiyacınız var? Aşağıda ziyaret edebileceğiniz bazı kaynaklar var:
-<ul>
- 	<li style="font-weight: 400"><a href="https://www.canva.com/font-combinations/" target="_blank" rel="noopener">Canva Font Combinations</a> yazı tiplerini test etmek için</li>
- 	<li style="font-weight: 400"><a href="https://fonts.google.com/" target="_blank" rel="noopener">Google Fonts</a> bedava yazı tipleri bulmak için</li>
- 	<li style="font-weight: 400"><a href="http://practicaltypography.com/" target="_blank" rel="noopener">Butterick's Practical Typography</a> daha çok bilgi için</li>
- 	<li style="font-weight: 400"><a href="http://thinkingwithtype.com/" target="_blank" rel="noopener">Thinking with Type</a> daha çok bilgi için</li>
-</ul>
-Bir veya iki yazı tipine karar verdikten sonra bu fontları bilgisayarınıza yükleyin. Talimatlar:
-<ul>
- 	<li><a href="https://www.youtube.com/watch?v=rnFfbk8J940" target="_blank" rel="noopener">Windows 10</a></li>
- 	<li><a href="https://www.youtube.com/watch?v=vY0wJzWyxRI" target="_blank" rel="noopener">Mac OS X</a></li>
-</ul>
-<h3>Logo</h3>
-Artık bir renk ve yazı tipi seçtiğinize göre logonuzu yapmaya başlayabilirsiniz. Bir logo bir şirketin simgesidir. Bu logo şirketin namacını ve tarzını en iyi şekilde ifade etmelidir. Logolar sembollerin ve yazıların karışımında oluşur. Kulağa zor gelebilir ama oldukça kolay. Haydi işe başlayalım!
-<table>
+
+<div style="background-color: #28a880; color: white; padding: 25px; text-align: center;">
+	<h3 id="act3"><strong>Aktivite: Yazı Tipinizi/ Tiplerinizi Seçin</strong></h3>
+	Şimdi bir yazı tipi seçmeye hazırlanın! Uygulamanızdaa en iyi yazı tipini seçmek için size bir kaç tavsiye...
+	<ol>
+	 	<li style="font-weight: 400;">Yazı tipleri hakkında çok bilginiz olmasa bile hangi yazı tiplerinin markanızı temsil edip etmediğini görüntüsüne bakarak ayırt edebilirsiniz. Bunu yazı tiplerini doğal hallerinde yazarak temsil ettiği şeyleri düşünün. Mesela <span style="color: #eae46f;"><a style="color: #eae46f;" href="http://ufonts.com/fonts/impact.html" target="_blank" rel="noopener">Impact</a></span> gibi kalın ve boşluklu yazı fontları bağırma etkisi yaratabilir. Ama <span style="color: #eae46f;"><a style="color: #eae46f;" href="https://fonts.google.com/specimen/Syncopate" target="_blank" rel="noopener">Syncopate </a></span> gibi ince bir yazı tipi sofistike bir fısıltı hissi yaratabilir. Uygulamanıza uyabilecek bazı yazı tiplerinin listesini yapın ama bunu yaparken kişisel düşüncülerinizi kenara bırakmayı unutmayın.</li>
+	 	<li style="font-weight: 400;" >Şimdi seçtiğiniz yazı tiplerini test etme zamanı. Seçtiğiniz yazı tiplerini farklı boyutlarda deneyin ve okunabilir olduğundan emin olun. En iyi çalışan ve uyan yazı tipini seçin. Bu sizin ana yazı tipiniz olacak ve logonuz gibi bir sürü yerde yer alacak.</li>
+	 	<li style="font-weight: 400;">Uygulamanızın içindeki yazı tiplerini seçerken çok seçici olmalısınız. Bazı tavsiyeler:
+	<ol>
+	 	<li style="font-weight: 400">Bazen serif yazı tipleri sans-serif tipleriyle çok uyumlu olabilirler.</li>
+	 	<li style="font-weight: 400">Zıtlık güzeldir. Sürekli benzer olan fontları beraber kullanmak yerine farklı fontları beraber kullanmayı deneyin.</li>
+	 	<li style="font-weight: 400">Yazı tipinin nasıl "konuştuğuna" dikkat edin.</li>
+	 	<li style="font-weight: 400">Okunurluğu göz ardı etmeyin.</li>
+	 	<li style="font-weight: 400">Ana yazı tipinizin yanında deneyin.</li>
+	 	<li style="font-weight: 400">App Inevntor'daki font çeşitlerinden biri olduğuna emin olun.</li>
+	</ol>
+	</li>
+	</ol>
+	Yardıma mı ihtiyacınız var? Aşağıda ziyaret edebileceğiniz bazı kaynaklar var:
+	<ul>
+	 	<li style="font-weight: 400"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.canva.com/font-combinations/" target="_blank" rel="noopener">Canva Font Combinations</a></span> yazı tiplerini test etmek için</li>
+	 	<li style="font-weight: 400"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://fonts.google.com/" target="_blank" rel="noopener">Google Fonts</a></span> bedava yazı tipleri bulmak için</li>
+	 	<li style="font-weight: 400"><span style="color: #eae46f;"><a style="color: #eae46f;" href="http://practicaltypography.com/" target="_blank" rel="noopener">Butterick's Practical Typography</a></span> daha çok bilgi için</li>
+	 	<li style="font-weight: 400"><span style="color: #eae46f;"><a style="color: #eae46f;" href="http://thinkingwithtype.com/" target="_blank" rel="noopener">Thinking with Type</a></span> daha çok bilgi için</li>
+	</ul>
+	Bir veya iki yazı tipine karar verdikten sonra bu fontları bilgisayarınıza yükleyin. Talimatlar:
+	<ul>
+	 	<li><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.youtube.com/watch?v=rnFfbk8J940" target="_blank" rel="noopener">Windows 10</a></span></li>
+	 	<li><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.youtube.com/watch?v=vY0wJzWyxRI" target="_blank" rel="noopener">Mac OS X</a></span></li>
+	</ul>
+</div>	
+<h3 id="logo" style="text-align: left;"><strong>Logo</strong></h3>
+<p class="western" style="text-align: left;">Artık bir renk ve yazı tipi seçtiğinize göre logonuzu yapmaya başlayabilirsiniz. Bir logo bir şirketin simgesidir. Bu logo şirketin namacını ve tarzını en iyi şekilde ifade etmelidir. Logolar sembollerin ve yazıların karışımında oluşur. Kulağa zor gelebilir ama oldukça kolay. Haydi işe başlayalım!</p>
+<table class=" aligncenter" width="936" cellspacing="0" cellpadding="7">
 <tbody>
 <tr>
-<td style="color: white" bgcolor="#53042d"><b>Çeşit</b></td>
-<td style="color: white" bgcolor="#53042d"><b>Örnek</b></td>
-<td style="color: white" bgcolor="#53042d"><b>Technovation Takım Örnekleri</b></td>
+<td style="color: white" bgcolor="#53042d"><p align="center"><b>Çeşit</b></p></td>
+<td style="color: white" bgcolor="#53042d"><p align="center"><b>Örnek</b></p></td>
+<td style="color: white" bgcolor="#53042d"><p align="center"><b>Technovation Takım Örnekleri</b></p></td>
 </tr>
 <tr>
 <td style="color: white;vertical-align: middle" bgcolor="#903d54"><b>Kelime izi</b></td>
-<td style="vertical-align: middle"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image13.png" alt="facebook" width="234" height="187" /></td>
-<td style="text-align: center;vertical-align: middle"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image08-1.png" alt="image08" width="92" height="97" />
+<td style="vertical-align: middle"><p align="center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image13.png" alt="facebook" width="234" height="187" /></p></td>
+<td style="text-align: center;vertical-align: middle"><p align="center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image08-1.png" alt="image08" width="92" height="97" /></p>
 
-Loc8 don8 by team California Coders 2016</td>
+<p align="center"><span style="font-size: small;">Loc8 don8 by team California Coders 2016</span></p></td>
 </tr>
 <tr>
 <td style="color: white;vertical-align: middle" bgcolor="#903d54"><b>Sembol</b></td>
-<td style="vertical-align: middle">Artboard<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/Artboard-1@2x.png" alt="artboard-12x" width="106" height="124" /></td>
-<td style="text-align: center;vertical-align: middle"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image12.png" alt="image12" width="136" height="105" />
+<td style="vertical-align: middle">Artboard<p align="center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Artboard-1@2x.png" alt="artboard-12x" width="106" height="124" /></p></td>
+<td style="text-align: center;vertical-align: middle"><p align="center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image12.png" alt="image12" width="136" height="105" /></p>
 
-Degreebee app by team CRException 2016</td>
+<p align="center"><span style="font-size: small;">Degreebee app by team CRException 2016</span></p></td>
 </tr>
 <tr>
 <td style="color: white;vertical-align: middle" bgcolor="#903d54"><b>Kombinasyon</b></td>
-<td style="text-align: center;vertical-align: middle"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image04-1.png" alt="image04" width="135" height="112" /></td>
-<td style="text-align: center"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image07-1.png" alt="image07" width="152" height="155" />
+<td style="text-align: center;vertical-align: middle"><p align="center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image04-1.png" alt="image04" width="135" height="112" /></p></td>
+<td style="text-align: center"><p align="center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image07-1.png" alt="image07" width="152" height="155" /></p>
 
-cAppAble by team X-Women in 2015</td>
+<p align="center"><span style="font-size: small;">cAppAble by team X-Women in 2015</span></p></td>
 </tr>
 </tbody>
 </table>
-Şimdi bu logolara dayanarak kendinizi en iyi ifade edecek logoyu düşünmeye başlayın. Hangileri sizi sosyal medyada daha iyi gösteriyor? Veya posterlerde? Veya hangisi daha tanınır bir logo? Logoları başarılı yapan şey ne?
-<h3>Aktivite: Logo beyin fırtınası</h3>
-Bu aktivite için takımınızdaki herkesin kalem ve küçük kağıtlara ihtiyacı var.
-<ol>
- 	<li> Çözmeye çalıştığınız problemi sembolize eden şeyleri düşünün ve çizin. Bunu yaparken çözümünüzü göz ardı etmeyin.</li>
- 	<li>Her takım üyesi 15 dakikada bir skeç çizmeli. Bu tablodaki herhangi bir türden olabilir (kelime izi, kombinasyon, sembol). Çok düşünmeden çizin ve neler olacağını görün.</li>
- 	<li>15 dakika sonra takımızdan bir çok skeç çıkacak. Eğer çıkmaza birinci adımı tekrarlayın.
-<ul>
- 	<li>Daha sonra skeçlerinizin üstünden geçin. Logoları göz önünde bulundurarak beraber 5 logo daha çizin. Logolarınızı sade tutmak isteyebilirsiniz.</li>
- 	<li>Uygulamanızın ne kadar ilerleyeceğini düşünün.</li>
- 	<li>Logolar bir şirketin kişiliğini yansıtır.</li>
- 	<li>"İnsanlar bu logoyu görünce ne düşünmeli?" sorusunu sorun kendinize.</li>
- 	<li>En sonda bilgisayarınızda ortak bir logo çizin. <a href="https://logo.squarespace.com/"><span class="s2"> Bu siteden </span></a>yararlanabilirsiniz.</li>
- 	<li>
-<ul class="ul1">
- 	<li style="list-style-type: none"></li>
-</ul>
-<p class="p1">İşiniz bitince yazı tipinizi, renginizi ve logonuzu mentorunuza gönderin.</p>
-<p class="p2"></p>
-<p class="p2"></p>
+<p>Şimdi bu logolara dayanarak kendinizi en iyi ifade edecek logoyu düşünmeye başlayın. Hangileri sizi sosyal medyada daha iyi gösteriyor? Veya posterlerde? Veya hangisi daha tanınır bir logo? Logoları başarılı yapan şey ne?</p>
 
-<h3>Uygulamanıza Uygulama</h3>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px; text-align: center;">
+	<h3 id="act4" style="text-align: left;"><strong>Aktivite: Logo beyin fırtınası</strong></h3>
+	<p style="text-align: left;">Bu aktivite için takımınızdaki herkesin kalem ve küçük kağıtlara ihtiyacı var.</p>
+	<ol style="text-align: left;">
+	 	<li> Çözmeye çalıştığınız problemi sembolize eden şeyleri düşünün ve çizin. Bunu yaparken çözümünüzü göz ardı etmeyin.</li>
+	 	<li>Her takım üyesi 15 dakikada bir skeç çizmeli. Bu tablodaki herhangi bir türden olabilir (kelime izi, kombinasyon, sembol). Çok düşünmeden çizin ve neler olacağını görün.</li>
+	 	<li>15 dakika sonra takımızdan bir çok skeç çıkacak. Eğer çıkmaza birinci adımı tekrarlayın.
+			<ul>
+			 	<li>Daha sonra skeçlerinizin üstünden geçin. Logoları göz önünde bulundurarak beraber 5 logo daha çizin. Logolarınızı sade tutmak isteyebilirsiniz.</li>
+			 	<li>Uygulamanızın ne kadar ilerleyeceğini düşünün.</li>
+			 	<li>Logolar bir şirketin kişiliğini yansıtır.</li>
+			 	<li>"İnsanlar bu logoyu görünce ne düşünmeli?" sorusunu sorun kendinize.</li>
+			 	<li>En sonda bilgisayarınızda ortak bir logo çizin. <span style="color: #eae46f;"><a style="color: #eae46f;" href="https://logo.squarespace.com/" target="_blank" rel="noopener"><span class="s2"> Bu siteden </span></a>yararlanabilirsiniz.</span></li>
+			 	
+			</ul>
+		</li>
+	</ol>
+	<p class="p1">İşiniz bitince yazı tipinizi, renginizi ve logonuzu mentorunuza gönderin.</p>
+</div>	
+	
+
+<h3 id="apply" style="text-align: center;">Uygulamanıza Uygulama</h3>
 <p class="p1">Artık yazı tipiniz, renkleriniz ve logonuz hazır olduğuna göre uygulamanız üzerinde farklı yerlerde deneyin.</p>
 <p class="p1"><b>App Inventor'da Renk Ekleme Taktikleri</b></p>
-<p class="p1">Seçtiğiniz renkler App Inventorda yoksa endişelenmeyin. Kendi renginizi App Inventor'da yaratmayı <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/colors.html"><span class="s2">burdan </span></a>öğrenebilirsiniz. Bunu yapmak için rengin RGB değerlerine ihtiyacınız olacak. Bunun için <a href="http://www.rapidtables.com/web/color/RGB_Color.htm"><span class="s2">RGB Color Finder </span></a>sitesini kullanabilirsiniz.</p>
+<p class="p1">Seçtiğiniz renkler App Inventorda yoksa endişelenmeyin. Kendi renginizi App Inventor'da yaratmayı <a href="http://appinventor.mit.edu/explore/ai2/support/blocks/colors.html" target="_blank" rel="noopener"><span class="s2">burdan </span></a>öğrenebilirsiniz. Bunu yapmak için rengin RGB değerlerine ihtiyacınız olacak. Bunun için <a href="http://www.rapidtables.com/web/color/RGB_Color.htm" target="_blank" rel="noopener"><span class="s2">RGB Color Finder </span></a>sitesini kullanabilirsiniz.</p>
 <p class="p1">App Inventor'da farklı renkler yaratma yollarından diğer biri:</p>
 <p class="p1"><b>App Inventor'a Yazı Tipleri Ekleme</b></p>
-</li>
-</ul>
-</li>
-</ol>
+
 App Inventorda yeni bir yazı tipi eklemek için yazı eklemek yerine yazıyı başka bir yere yazıp fotoğrafını çekip App Inventor'a yükleyebilirsiniz.
 
-<img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image05-heading_0000_Heading.png" alt="image05-heading_0000_heading" width="223" height="65" />
+<img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Screen-Shot-2016-11-09-at-4.27.53-PM.png" alt="screen-shot-2016-11-09-at-4-27-53-pm" width="538" height="283" />
+
 <p style="text-align: center">Yukarıdaki yazı bir resim</p>
-<p style="text-align: center"><img src="http://www.iridescent.staging.wpengine.com/wp-content/uploads/2016/11/image05-edit.png" alt="image05-edit" width="337" height="600" /></p>
+<p style="text-align: center"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/image18.png" alt="image18" width="108" height="56" /></p>
 
-<h3>Özet</h3>
-Markanızın görüntü elementlerini yaptınız. Tebrikler!
+<div style="background-color: #006667; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px; text-align: center;">
+	<h3 id="reflect" style="color: #ffffff; text-align: left;">Özet</h3>
+	<p class="western" style="text-align: left;">Markanızın görüntü elementlerini yaptınız. Tebrikler!</p>
 
-Logo, font ve renklerinizi başkalarına gösterin ve düşüncelerini alın. Eğer negatif geri dönüşler alırsanız neyi nasıl değiştirebileceğinizi tartışın.
+	<p class="western" style="text-align: left;">Logo, font ve renklerinizi başkalarına gösterin ve düşüncelerini alın. Eğer negatif geri dönüşler alırsanız neyi nasıl değiştirebileceğinizi tartışın.</p>
 
-<b>Ek Kaynaklar:</b>
-<ul>
- 	<li style="font-weight: 400"><a href="https://designschool.canva.com/tutorials/building-brand-kit/" target="_blank" rel="noopener">Canva Branding Kit Tutorial</a></li>
- 	<li style="font-weight: 400"><a href="http://www.awwwards.com/99-creative-logo-designs-for-inspiration.html" target="_blank" rel="noopener">Inspiration for Logos</a>
-<ul>
- 	<li style="font-weight: 400"><a href="https://dribbble.com/search?q=logo" target="_blank" rel="noopener">Dribbble, search results for “logo”</a></li>
- 	<li style="font-weight: 400"><a href="https://www.behance.net/search?content=projects&amp;sort=appreciations&amp;time=week&amp;search=logo" target="_blank" rel="noopener">Behance, search results for “logo”</a></li>
- 	<li style="font-weight: 400"><a href="http://qz.com/461040/how-to-design-an-enduring-logo-lessons-from-ibm-and-paul-rand/" target="_blank" rel="noopener">Learn about the history of the IBM logo</a></li>
- 	<li style="font-weight: 400"><a href="https://www.youtube.com/watch?v=x3jTSB2ez-g" target="_blank" rel="noopener">Learn more about the process and history of logo design</a></li>
-</ul>
-</li>
-</ul>
-<h3>Bonus Bölüm</h3>
-<h5>Programcılar için kod</h5>
+	<span style="font-size: medium;"><strong>Ek Kaynaklar:</strong>
+	<ul>
+	 	<li style="font-weight: 400"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://designschool.canva.com/tutorials/building-brand-kit/" target="_blank" rel="noopener">Canva Branding Kit Tutorial</a></span></li>
+	 	<li style="font-weight: 400"><span style="color: #eae46f;"><a style="color: #eae46f;" href="http://www.awwwards.com/99-creative-logo-designs-for-inspiration.html" target="_blank" rel="noopener">Inspiration for Logos</a></span>
+	<ul>
+	 	<li style="font-weight: 400"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://dribbble.com/search?q=logo" target="_blank" rel="noopener">Dribbble, search results for “logo”</a></span></li>
+	 	<li style="font-weight: 400"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.behance.net/search?content=projects&amp;sort=appreciations&amp;time=week&amp;search=logo" target="_blank" rel="noopener">Behance, search results for “logo”</a></span></li>
+	 	<li style="font-weight: 400"><span style="color: #eae46f;"><a style="color: #eae46f;" href="http://qz.com/461040/how-to-design-an-enduring-logo-lessons-from-ibm-and-paul-rand/" target="_blank" rel="noopener">Learn about the history of the IBM logo</a></span></li>
+	 	<li style="font-weight: 400"><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.youtube.com/watch?v=x3jTSB2ez-g" target="_blank" rel="noopener">Learn more about the process and history of logo design</a></span></li>
+	</ul>
+	</li>
+	</ul>
+</div>	
+<h3 id="bonus">Bonus Bölüm</h3>
+<h5 style="text-align: left;">Programcılar için kod</h5>
 Bilgisayarlara "açık yeşil" dediğimizde anlamıyorlar. Bu nedenle RGB (kırmızı, yeşil , mavi) değerlerine ihtiyacınız var.
 
 RGB değerleri sayılarla renkleri temsil ederler. İlk değer kırmızı miktarını, ikinci yeşil miktarını üçüncü ise mavi miktarını verir. Bu sayılar 255 ve 0 arasında olabilir.
-<table>
+<table class=" aligncenter">
 <tbody>
 <tr>
 <td style="color: white" bgcolor="black" width="33%">
@@ -322,4 +353,4 @@ RGB değerleri sayılarla renkleri temsil ederler. İlk değer kırmızı miktar
 </td>
 </tr>
 </tbody>
-</table>
+</table> 
