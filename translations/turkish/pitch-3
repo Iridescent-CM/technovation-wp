@@ -1,5 +1,3 @@
-<h1>Pitch 3</h1>
-<h1>Sunum ve Canlı Pitch Etkinlikleri</h1>
 <ul>
  	<li><a href="#why">Neden pitch</a></li>
  	<li><a href="#act1">Aktivite </a></li>
@@ -11,22 +9,18 @@
 </ul>
 <p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Hatırlatma: Devam etmeden önce ekibinizin canlı bir pitch etkinliğinde olup olmayacağı hakkında sorularınız varsa mentorunuzla görüştüğünüzden emin olun. Eğer öyleyseniz, o zaman, bu alanda uzmanlardan ve eski Technovation finalist takımlarından sizin için topladığımız önerilerin, bu etkinlikte başarıya giden sahneyi belirlemenize yardımcı olacağını umuyoruz!</span></p>
 
-<h3 id="why"><strong>><b>Öğrenme Objektifleri / Hedefleri</b></h3>
+<h3 id="why"><strong><b>Öğrenme Objektifleri / Hedefleri</b></strong></h3>
 Bu modülde, yapacaklarınız:
 <ul>
- 	<li style="font-weight: 400">Pitchinizi nasıl hazılayacağınızı öğreneceksiniz</li>
- 	<li style="font-weight: 400">Pitchiniz için bir sunum hazırlayacaksınız</li>
- 	<li style="font-weight: 400">Hatırlanacak bir pitch için yeni teknikler keşfedeceksiniz</li>
- 	<li style="font-weight: 400">Jurilerin takımınıza soracakları sorulara efektif bir şekilde cevap vermeyi öğreneceksiniz</li>
+ 	<li style="font-weight: 400;">Pitchinizi nasıl hazılayacağınızı öğreneceksiniz</li>
+ 	<li style="font-weight: 400;">Pitchiniz için bir sunum hazırlayacaksınız</li>
+ 	<li style="font-weight: 400;">Hatırlanacak bir pitch için yeni teknikler keşfedeceksiniz</li>
+ 	<li style="font-weight: 400;">Jurilerin takımınıza soracakları sorulara efektif bir şekilde cevap vermeyi öğreneceksiniz</li>
 </ul>
-<p>Tebrikler, kaynak kodunuzu, perde ve demo videolarınızı ve diğer Technovation Challenge çıktılarını teslim ettiniz. Bölgesel bir pitch etkinliğine sahip bir yerde yaşıyorsanız, ekibiniz mobil uygulamanızı yargılamanın ilk turunda bir hakem heyetine sunacaktır. Bölgesel pitch etkinliğinizden bir takım yargılamanın yarı final turuna kadar devam edecek, bu yüzden hakemlere ikna edici bir adım atmanız önemlidir.</p>
+Tebrikler, kaynak kodunuzu, perde ve demo videolarınızı ve diğer Technovation Challenge çıktılarını teslim ettiniz. Bölgesel bir pitch etkinliğine sahip bir yerde yaşıyorsanız, ekibiniz mobil uygulamanızı yargılamanın ilk turunda bir hakem heyetine sunacaktır. Bölgesel pitch etkinliğinizden bir takım yargılamanın yarı final turuna kadar devam edecek, bu yüzden hakemlere ikna edici bir adım atmanız önemlidir.
 <h3>Neden Pitch?</h3>
-<p>Bir pitch'in genel amacı, yatırımcıların ikinci bir toplantıyı istemeleri için yeterince ilgi duymalarıdır. Bir şekilde, pitch, bir perde, bir film için kısa bir fragman gibidir ve bu özellik tüm önemli özelliklerin altını çizer ve size uzun metrajlı filmi görmeye ilham vermeniz için merakınızı arttırır.</p>
-
-
+Bir pitch'in genel amacı, yatırımcıların ikinci bir toplantıyı istemeleri için yeterince ilgi duymalarıdır. Bir şekilde, pitch, bir perde, bir film için kısa bir fragman gibidir ve bu özellik tüm önemli özelliklerin altını çizer ve size uzun metrajlı filmi görmeye ilham vermeniz için merakınızı arttırır.
 <p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Canlı pitchiniz, picthinizin videosu için olduğu gibi dört dakikaya kadar sürecek, ancak canlı yayının farklı bir dizi beceriye ihtiyacı olacaktır. Pitchiniz, yargıçlarla kısa bir soru ve cevap oturumunu takip edecek. T</span><span lang="tr">akımınız canlı yayınınızla birlikte gitmek için bir dizi slayt oluşturmasını kesinlikle öneririz. Görüntülü bir slayt destesi, sunumunuzu daha unutulmaz kılacak ve ekibinizin öne çıkmasına yardımcı olacaktır. Ayrıca, hakemlerin Soru-Cevap zamanlarında her bir takımla ne zaman sorabilecekleri sorularını nasıl yanıtlayacağınızı da bilmeniz gerekecektir.</span></p>
-
-
 <strong>Bir slayt gösterisi (veya slayt destesi) bir pitch sırasında kullanılacak standart bir araçtır.</strong> Pitch destesi, genellikle <a href="https://office.live.com/start/PowerPoint.aspx" target="_blank" rel="noopener">PowerPoint</a>, <a href="http://www.apple.com/keynote/" target="_blank" rel="noopener">Keynote</a>, <a href="https://www.google.com/slides/about/" target="_blank" rel="noopener">Google slides</a>, veya <a href="https://prezi.com" target="_blank" rel="noopener">Prezi</a>, ile oluşturulan kısa bir sunum olup, potansiyel yatırımcılar veya müşterilerle yapılan toplantılar sırasında iş planınıza hızlı bir genel bakış sağlamak için kullanılır. Slayt destenizin ne kadar olması gerektiğine ve nelere odaklanmanız gerektiğini merak ediyor musunuz? İşte bazı öneriler.
 <h5>10/20/30 Kuralı</h5>
 <a href="http://guykawasaki.com/the_102030_rule/" target="_blank" rel="noopener">10/20/30 Kuralı,</a> oldukça basittir ve şöyle gerçekleşir: Sunumun en fazla 10 slayt olması, 20 dakikadan fazla olmaması (sizin durumunuzda 4 dakika olacaktır) ve yazı tipinin 30'dan küçük olmaması gerekir, böylece insanlar kolayca slaytları okuyabilir.
@@ -44,158 +38,134 @@ Guy Kawasaki'nin risk kapitalistlerinin ilgilendiğini düşündüğü<a href="h
  	<li><strong>Rekabet Analizi.</strong> Rakibinizin kim olduğu ve uygulamanızın kendisinden nasıl farklı olduğunun tam bir görünümünü sağlayın.</li>
  	<li><strong>İzdüşümler ve taşları.</strong> Gençlik kısmı (junior division) için, uygulamanın yayınlanması ve iyileştirilmesi için dönüm noktalarınızın ne olacağına odaklanabilirsiniz. Üst bölüm için hem finansal projeksiyonlara (3 yıllık projeksiyona sahip olmaya çalışın) hem de üretim aşamalarına odaklanın. Ayrıca, uygulamanızla güncel olduğunuz başarılarınızı, gelecekteki ihtiyaçlarınızın yakınında ve yükseltmeye çalıştığınız parayı ne kadar ve nasıl kullanacağınızı da paylaşabilirsiniz. Mesajınızı son bir kez almak için bu son slaydı kullanın.</li>
 </ul>
-
 <p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Pitch desteleri hakkında daha fazla bilgi için,<a href="https://pitchdeck.improvepresentation.com/what-is-a-pitch-deck" target="blank"> buna bir göz atın</a>.</span></p>
 
 <div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
-	<h3 id="act1">Aktivite</h3>
+<h3 id="act1">Aktivite</h3>
+<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Tanıtım ve demo videolarınızı gözden geçirerek ve sunumunuzda çalışmaya başlamadan önce hakemlere ulaşmak istediğiniz şeyleri not alarak başlayabilirsiniz. </span></p>
+<p class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Ardından, iki 2016 Technovation finalist canlı perdesini görüntülemenizi ve sunumlarına göz atmanızı öneririz. Bunları düşünün:</span></p>
 
-	<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Tanıtım ve demo videolarınızı gözden geçirerek ve sunumunuzda çalışmaya başlamadan önce hakemlere ulaşmak istediğiniz şeyleri not alarak başlayabilirsiniz. </span></p>
-	<p class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Ardından, iki 2016 Technovation finalist canlı perdesini görüntülemenizi ve sunumlarına göz atmanızı öneririz. Bunları düşünün:</span></p>
+<ul>
+ 	<li>Bu canlı pitchler'de her ikisinde de ne ön plana çıktı?</li>
+ 	<li>Pitchlerini sunmak için hangi teknikleri kullandılar?</li>
+ 	<li>Slaytları hakkında etkili olan nedir?</li>
+ 	<li>Sunumunuzda, slayt içeriği ve teslimat açısından farklı ne yaparsınız?</li>
+</ul>
+<a style="color: #eae46f;" href="https://play.google.com/store/apps/details?id=appinventor.ai_Lilia_Arceli.OOL&amp;hl=en" target="_blank" rel="noopener">OOL, <strong>Takım A</strong> 2016</a>
 
-	<ul>
-	 	<li>Bu canlı pitchler'de her ikisinde de ne ön plana çıktı?</li>
-	 	<li>Pitchlerini sunmak için hangi teknikleri kullandılar?</li>
-	 	<li>Slaytları hakkında etkili olan nedir?</li>
-	 	<li>Sunumunuzda, slayt içeriği ve teslimat açısından farklı ne yaparsınız?</li>
-	</ul>
+OOL, gönüllüleri en çok yardıma ihtiyaç duyan yerel örgütlerle birleştirir. İşte<span style="color: #eae46f;"><a style="color: #eae46f;" href="http://www.technovationchallenge.org/wp-content/uploads/2016/12/5.-OOL_FINAL.pptx.pdf" target="_blank" rel="noopener"> sunum destesi</a></span>.
 
-	 <a style="color: #eae46f;" href="https://play.google.com/store/apps/details?id=appinventor.ai_Lilia_Arceli.OOL&amp;hl=en" target="_blank" rel="noopener">OOL, <strong>Takım A</strong> 2016</a>
+<a style="color: #eae46f;" href="https://play.google.com/store/apps/details?id=appinventor.ai_jenniferneda.generalDonations&amp;hl=en" target="_blank" rel="noopener"> <b>California Coders</b>Loc8Don8, 2016</a>
 
-	OOL, gönüllüleri en çok yardıma ihtiyaç duyan yerel örgütlerle birleştirir. İşte<span style="color: #eae46f;"><a style="color: #eae46f;" href="http://www.technovationchallenge.org/wp-content/uploads/2016/12/5.-OOL_FINAL.pptx.pdf" target="_blank" rel="noopener"> sunum destesi</a></span>.
+Loc8Don8, çeşitli materyaller için bağış merkezleri bulma sürecini basitleştirir. İşte onların <a style="color: #eae46f;" href="http://www.technovationchallenge.org/wp-content/uploads/2016/12/loc8don8-WORLD-PITCH-SLIDES.pdf" target="_blank" rel="noopener"> sunumu</a>.
 
-	 <a style="color: #eae46f;" href="https://play.google.com/store/apps/details?id=appinventor.ai_jenniferneda.generalDonations&amp;hl=en" target="_blank" rel="noopener"> <b>California Coders</b>Loc8Don8, 2016</a>
-
-	Loc8Don8, çeşitli materyaller için bağış merkezleri bulma sürecini basitleştirir. İşte onların <a style="color: #eae46f;" href="http://www.technovationchallenge.org/wp-content/uploads/2016/12/loc8don8-WORLD-PITCH-SLIDES.pdf" target="_blank" rel="noopener"> sunumu</a>.
-</div>	
-
-<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
-	<blockquote>
-		<p style="text-align: center">“Bir girişimci, dünyayı değiştirmek için hepsini riske atmaya istekli biridir. Genel Müdür olmasanız bile girişimci-düşünceli olabilirsiniz. "</p>
-	</blockquote>
-	<p style="text-align: right">-Nathan Gold, <a href="http://www.democoach.com" target="_blank" rel="noopener">Demo Koçu</a></p>
 </div>
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+<blockquote>
+<p style="text-align: center;">“Bir girişimci, dünyayı değiştirmek için hepsini riske atmaya istekli biridir. Genel Müdür olmasanız bile girişimci-düşünceli olabilirsiniz. "</p>
+</blockquote>
+<p style="text-align: right;">-Nathan Gold, <a href="http://www.democoach.com" target="_blank" rel="noopener">Demo Koçu</a></p>
 
-
+</div>
 <h3 id="deliver">Hatırlanacak bir Pitch Sunun</h3>
-
 <p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr"><a href="http://www.democoach.com" target="_blank" rel="noopener">Nathan Gold </a>, 15.000'den fazla sunum gerçekleştirdi ve Unutulmaz Ürün Demosunu Verme hakkında bir kitap yazdı. Yüksek bahis fırsatları ve finansmanı için dünyanın dört bir yanındaki insanlara koçluk yaptı ve Dünya Pitch Etkinliğine hazırlanırken 2016 yılında Technovation finalist takımlarımıza antrenman için gönüllü oldu. Ekiplerimize tavsiyelerinden bazıları buradaydı.</span></p>
-
 İlk ve en önemlisi, yargıçlar diğer takımların sahalarını dinleyeceklerinden ve pitchiniz, takımınızından alacakları en önemli mesaj olduğu için öne çıkmaya çalışmanız gerekecektir.
 <h5><span lang="tr">Bağlayıcı bir Açılış</span></h5>
 Öne çıkmanın bir yolu, pitchinizi nasıl açtığınızdır. Açılışınızda deneyebileceğiniz birkaç farklı teknik var:
 <ul>
-	<li><span lang="tr"><strong>Soru.</strong> Bu etkilidir, ancak açık sorular sormaya çalışmayın. İzleyicilere, onları düşünmelerini sağlayacak bir soru sormaya çalışın.</span></li>
-	<li><strong>Hayal etmek.</strong> Örneğin, “Mars'ta oturduğunuz ve Dünya'ya baktığınız bir an için hayal edin…” Dikkatli olun. “Hayal gücünü” i kullanmak güzel, ancak aşırı derecede kullanmamaya çalışın.</li>
-
-	<li><strong>İstatistikler.</strong> Eğer izleyicinizin düşünmesini sağlayan sorunu çözmeye çalıştığınız bir istatistikle başlıyorsanız, dikkatlerini çekebilirsiniz. Ama yeni ve ilginç olan bilgiyi bulmaya çalışın ya da insanların daha önce duymadıkları bazı bilgileri kullanarak merak edeceksiniz.</li>
-
-	<li><strong>Alıntı.</strong> İzleyicilerinize sunacağınız bir noktayı saklamak için ünlü veya ünlü olmayan biri tarafından iyi bir fiyat teklifi kullanabilirsiniz.</li>
-
-	<li><strong>Öykü.</strong> Bu, bir izleyici kitlesiyle etkileşimde bulunmanın çok etkili bir yoludur. İnsanlar doğal hikaye anlatıcılarıdır. İnsanlar hikayelerle ilgilidir, hatırlar ve onları tekrar söyler. Uygulamanızla çözmeye çalıştığınız sorunu gösteren bir hikaye var mı? Bu problemi çözmek için neden bir takım olarak tutkulusunuz? Mermi noktalarını kullanmaktan kaçının ve bunun yerine görüntüleri kullanın.</li>
-
-	<li><strong>Değer önerisi.</strong> Kullanıcılarınızın uygulamanızı kullandıklarında elde edecekleri avantaj nedir? Bazen değer teklifinizle başlamak, insanların katılımını sağlamak için iyi bir yoldur. Çok temelde, “Biz, X yaparak Y'ye Z yaparak yardımcı oluruz” demek isteyeceksiniz. Siz, yardım etmek istediğiniz kişiyle X'i doldurun, Y onlar için ne yaptığınızı, ve siz, Z'yi, nasıl yaptığınızla doldurun.</li>
+ 	<li><span lang="tr"><strong>Soru.</strong> Bu etkilidir, ancak açık sorular sormaya çalışmayın. İzleyicilere, onları düşünmelerini sağlayacak bir soru sormaya çalışın.</span></li>
+ 	<li><strong>Hayal etmek.</strong> Örneğin, “Mars'ta oturduğunuz ve Dünya'ya baktığınız bir an için hayal edin…” Dikkatli olun. “Hayal gücünü” i kullanmak güzel, ancak aşırı derecede kullanmamaya çalışın.</li>
+ 	<li><strong>İstatistikler.</strong> Eğer izleyicinizin düşünmesini sağlayan sorunu çözmeye çalıştığınız bir istatistikle başlıyorsanız, dikkatlerini çekebilirsiniz. Ama yeni ve ilginç olan bilgiyi bulmaya çalışın ya da insanların daha önce duymadıkları bazı bilgileri kullanarak merak edeceksiniz.</li>
+ 	<li><strong>Alıntı.</strong> İzleyicilerinize sunacağınız bir noktayı saklamak için ünlü veya ünlü olmayan biri tarafından iyi bir fiyat teklifi kullanabilirsiniz.</li>
+ 	<li><strong>Öykü.</strong> Bu, bir izleyici kitlesiyle etkileşimde bulunmanın çok etkili bir yoludur. İnsanlar doğal hikaye anlatıcılarıdır. İnsanlar hikayelerle ilgilidir, hatırlar ve onları tekrar söyler. Uygulamanızla çözmeye çalıştığınız sorunu gösteren bir hikaye var mı? Bu problemi çözmek için neden bir takım olarak tutkulusunuz? Mermi noktalarını kullanmaktan kaçının ve bunun yerine görüntüleri kullanın.</li>
+ 	<li><strong>Değer önerisi.</strong> Kullanıcılarınızın uygulamanızı kullandıklarında elde edecekleri avantaj nedir? Bazen değer teklifinizle başlamak, insanların katılımını sağlamak için iyi bir yoldur. Çok temelde, “Biz, X yaparak Y'ye Z yaparak yardımcı oluruz” demek isteyeceksiniz. Siz, yardım etmek istediğiniz kişiyle X'i doldurun, Y onlar için ne yaptığınızı, ve siz, Z'yi, nasıl yaptığınızla doldurun.</li>
 </ul>
-
 <p dir="ltr"><em><strong>İpucu! </strong></em>Değer önerinizden bahsetmeye geldiğinde, muhtemelen düşündüğünüzden daha büyük bir şey yaptığınızı fark edin! Bunun ne olduğunu hızlı bir şekilde özetlemenin bir yolunu bulun.</p>
-
-
 <a href="http://www.wordstream.com/blog/ws/2016/04/27/value-proposition-examples" target="_blank" rel="noopener">Burada</a> daha fazla örneği inceleyebilirsiniz, ya da Nathan’ın web seminerini 2016’dan Technovation ile<a href="https://drive.google.com/file/d/0B3rEYL3DkWfAOTNpZURfa3hZT28/view?usp=sharing" target="_blank" rel="noopener"> buradan</a> izleyebilirsiniz.
-
-
-
 <h3 id="create"><strong>İlk Sunumunuzu Yaratın</strong></h3>
 <h5><strong>İlk Taslağınızı Yapın</strong></h5>
-<p>Sunumunuzun ilk taslağını yapın. PowerPoint, Keynote, Google Slaytlar veya Prezi'yi kullanabilirsiniz. Başladığınızda biçimlendirme hakkında endişelenme. Başlamak için slaytlarınızdaki beyaz arka plan ve siyah yazı ile başlayabilirsiniz. İlk versiyona ait bilgilerden başka hiçbir şeye yakalanmayın. İyi görünmesini sağlamak için çok fazla zaman harcayabilirsiniz, ve mesaj veya bilgiyi değiştirmek için çok geç olmuş olabilir.</p>
+Sunumunuzun ilk taslağını yapın. PowerPoint, Keynote, Google Slaytlar veya Prezi'yi kullanabilirsiniz. Başladığınızda biçimlendirme hakkında endişelenme. Başlamak için slaytlarınızdaki beyaz arka plan ve siyah yazı ile başlayabilirsiniz. İlk versiyona ait bilgilerden başka hiçbir şeye yakalanmayın. İyi görünmesini sağlamak için çok fazla zaman harcayabilirsiniz, ve mesaj veya bilgiyi değiştirmek için çok geç olmuş olabilir.
 
-<p>Zaman sınırınızı göz önünde bulundurmayı unutmayın. Ortalama kişi dakikada 120-140 kelime konuşuyor. Sunum sırasında ne söylemek istediğinizi yazmayı deneyebilir ve 560 kelimeyi geçerse, 4 dakikalık sınırınızı aşma riskiyle karşı karşıya kalabilirsiniz. Fikrinizi kendi çıplak temellerine kadar kaynatmayı ve hedef kitlenizin ilgisini çekmeye odaklanmayı unutmayın.</p>
-
+Zaman sınırınızı göz önünde bulundurmayı unutmayın. Ortalama kişi dakikada 120-140 kelime konuşuyor. Sunum sırasında ne söylemek istediğinizi yazmayı deneyebilir ve 560 kelimeyi geçerse, 4 dakikalık sınırınızı aşma riskiyle karşı karşıya kalabilirsiniz. Fikrinizi kendi çıplak temellerine kadar kaynatmayı ve hedef kitlenizin ilgisini çekmeye odaklanmayı unutmayın.
 <h5>İlk taslağınızı hazırlayın</h5>
-<p>İkinci taslağınız için mesajınızı güçlendirecek grafikler ve alıntılar ekleyin ve sunumunuzun görsel öğelerine odaklanmaya başlayın. Bilgi ayarlandıktan sonra temalar, görüntüler, renkler vb. Uygulamanızı gösteren görselleri bulun ve hikayenizi anlatmaya yardımcı olun.</p>
+İkinci taslağınız için mesajınızı güçlendirecek grafikler ve alıntılar ekleyin ve sunumunuzun görsel öğelerine odaklanmaya başlayın. Bilgi ayarlandıktan sonra temalar, görüntüler, renkler vb. Uygulamanızı gösteren görselleri bulun ve hikayenizi anlatmaya yardımcı olun.
 
-<p>Kancayı ya da açıklığınızı düzeltin. Sununuzun ilk 10 saniyesi gerçekten önemlidir, çünkü insanlar öykünüzün veya sunumunuzun geri kalanını dinleyip dinlemeyeceklerine karar verdiklerinde. Hikayenizi ilk birkaç saniyede göstermeye yardımcı olmak için görüntüleri kullanmak isteyeceksiniz.</p>
+Kancayı ya da açıklığınızı düzeltin. Sununuzun ilk 10 saniyesi gerçekten önemlidir, çünkü insanlar öykünüzün veya sunumunuzun geri kalanını dinleyip dinlemeyeceklerine karar verdiklerinde. Hikayenizi ilk birkaç saniyede göstermeye yardımcı olmak için görüntüleri kullanmak isteyeceksiniz.
 
-<p>Sağdaki slaydın ikinci taslağına karşı bilginin soldaki slaydın ilk taslağına nasıl bakabileceğine dair bir örnek var.</p>
+Sağdaki slaydın ikinci taslağına karşı bilginin soldaki slaydın ilk taslağına nasıl bakabileceğine dair bir örnek var.
 
-<a href="https://blog.hubspot.com/marketing/mary-meeker-ugly-presentation-redesign" target="_blank" rel="noopener"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/BusinessWeekMaryMeekers.jpg" alt="businessweekmarymeekers" width="650" height="243" /></a><br>
+<a href="https://blog.hubspot.com/marketing/mary-meeker-ugly-presentation-redesign" target="_blank" rel="noopener"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/BusinessWeekMaryMeekers.jpg" alt="businessweekmarymeekers" width="650" height="243" /></a>
 
 İyi şanslar! Görsellere odaklanan diğer bazı sunum kaynakları ve birkaç deneme için bazı pitch destelerinin neye benzediğini göstererek size ilham vermek için:
 <ul>
-	<li><a href="https://www.slideshare.net/EmilandDC/7-tips-to-create-visual-presentations" target = "_blank">Görsel sunumlar oluşturma konusunda 7 ipucu </a></li>
-	<li><a href="https://www.cbinsights.com/research/billion-dollar-startup-pitch-decks/" target = "_blank">CB Insights: 7 Startup'ın Erken Pitch Destesi</a></li>
+ 	<li><a href="https://www.slideshare.net/EmilandDC/7-tips-to-create-visual-presentations" target="_blank" rel="noopener">Görsel sunumlar oluşturma konusunda 7 ipucu </a></li>
+ 	<li><a href="https://www.cbinsights.com/research/billion-dollar-startup-pitch-decks/" target="_blank" rel="noopener">CB Insights: 7 Startup'ın Erken Pitch Destesi</a></li>
 </ul>
-
 <h5>Prova Yapın</h5>
-
 <p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Pitch destenizin ikinci bir taslağını oluşturdunuz ve denemeye hazırsınız. Farklı kitlelerin önünde prova yapmak ve prova yapmak vaktidir. Mentorunuza koşarak başlayabilirsiniz.</span></p>
 <p dir="ltr">Ekibiniz sanal bir akıl hocasıyla çalışıyorsa endişelenmeyin. <a href="https://hangouts.google.com" target="_blank" rel="noopener">Google Hangout</a> veya <a href="https://www.skype.com" target="_blank" rel="noopener">Skype</a> gibi videoyla prova yapabilirsiniz.</p>
-
 <p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">İşte pratik yapabileceğiniz ve kullanabileceğiniz bazı teknikler:</span></p>
 
 <ul>
- 	<li style="font-weight: 400">Dik durun, omuzlarınızı rahatlatın ve derin bir nefes alın.</li>
- 	<li style="font-weight: 400">Kitlenize doğru bakın ve sunumunuz boyunca göz teması sağlamaya çalışın. Periyodik olarak notalara bakmanız gerekebilir, ancak kelime için kelimeleri okumadan kaçının.</li>
- 	<li style="font-weight: 400">Ellerini önünde tut, doğal olarak. Önemli noktaları yaparken, vurgulamak için ellerinizi kullanın, görsel yardımları işaretleyin veya anahtar noktalarla zaman içinde hafifçe kaldırın ve düşürün.</li>
- 	<li style="font-weight: 400">Rahat bir sunum yaptıktan sonra canlı prova gününüzde giydiğiniz kıyafetleri giydikten sonra bir giysi provasını yapın.</li>
+ 	<li style="font-weight: 400;">Dik durun, omuzlarınızı rahatlatın ve derin bir nefes alın.</li>
+ 	<li style="font-weight: 400;">Kitlenize doğru bakın ve sunumunuz boyunca göz teması sağlamaya çalışın. Periyodik olarak notalara bakmanız gerekebilir, ancak kelime için kelimeleri okumadan kaçının.</li>
+ 	<li style="font-weight: 400;">Ellerini önünde tut, doğal olarak. Önemli noktaları yaparken, vurgulamak için ellerinizi kullanın, görsel yardımları işaretleyin veya anahtar noktalarla zaman içinde hafifçe kaldırın ve düşürün.</li>
+ 	<li style="font-weight: 400;">Rahat bir sunum yaptıktan sonra canlı prova gününüzde giydiğiniz kıyafetleri giydikten sonra bir giysi provasını yapın.</li>
 </ul>
 Kitlenizin size sorular sormasını sağlayın, böylece hakimler ekibinize ne tür sorular sorabileceğine dair bir fikir edinirsiniz. Her seferinde geri bildirim isteyin ve perdenizi başka bir kitleye uygulamadan önce bunu dahil edin.
-
 <div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
-	<blockquote>“Canlı pitch'e hazırlanmak için, güven inşa etmek için çok şey yapmanın en önemli olduğunu düşünüyorum. Dünya Pitch ve Allison'a giden haftalar boyunca bir yaz programındaydım ve pitch'imizi birlikte çalışmak için Google Hangouts'u kullanırdık. Bu, ekiplerin toplantı zamanlarını düzenlemede zorluklar yaşarsa iyi bir seçenek. Ayrıca uygulamayı ve tüm işlevlerini açık bir şekilde tanımlamak önemlidir. Böylece hakemler bunun neden yeni / özel / heyecan verici olduğunu gerçekten anlayabilirler. ”</blockquote>
-	<p style="text-align: right">–Jennifer John, 2016 Technovation Finalisti</p>
-</div>
+<blockquote>“Canlı pitch'e hazırlanmak için, güven inşa etmek için çok şey yapmanın en önemli olduğunu düşünüyorum. Dünya Pitch ve Allison'a giden haftalar boyunca bir yaz programındaydım ve pitch'imizi birlikte çalışmak için Google Hangouts'u kullanırdık. Bu, ekiplerin toplantı zamanlarını düzenlemede zorluklar yaşarsa iyi bir seçenek. Ayrıca uygulamayı ve tüm işlevlerini açık bir şekilde tanımlamak önemlidir. Böylece hakemler bunun neden yeni / özel / heyecan verici olduğunu gerçekten anlayabilirler. ”</blockquote>
+<p style="text-align: right;">–Jennifer John, 2016 Technovation Finalisti</p>
 
+</div>
 <h3 id="QA">Sorulara Cevap Verme (S&amp;C)</h3>
 Sahadaki bu resmi olmayan Soru-Cevap bölümü, hangi takımın bir sonraki yarışma turuna çıkacağını düşündüklerinde hakemlerinize etki edebilir. Bunun için hazırlıklı olmak isteyeceksiniz ve asmak isteyeceksiniz. Nathan Gold'dan daha fazla ipucu.
 <ul>
- 	<li style="font-weight: 400"><strong>Kontrolü koru.</strong> Unutma, takımın kontrol altında! Takımınızın sorulara boğulmasına izin vermeyin. Takımdaki bir kimsenin takımda kimin belirli soruları cevaplayacağına karar vermesi muhtemelen iyi bir fikirdir. Ekibin bir ya da iki tanesi prototip üzerinde mi çalıştı? O zaman, bu tür bir soruyu cevaplayanlardan olduklarından emin olun. Logo ile başka biri mi geldi? Bu kişinin logo hakkındaki bir soruyu yanıtlamasına izin verin. Herhangi bir cevap yaklaşık 30 saniyeden uzun olmamalıdır. Yavaşlayın, derin bir nefes alın ve yanıt vermeden önce duraklatın. Bu, yanıt verdiğinden emin olduğunuzu gösterecektir.</li>
- 	<li style="font-weight: 400"><strong>Dinleyin.</strong> Çok fazla zaman, insanlar zaten insanların ne isteyeceğini biliyorlar, ya da sorulana dikkat etmiyorlar. Yanlış soruya bu şekilde cevap vermeyi riske atabilirsin. Sadece cevaplamak istediğiniz soruya cevap vermeyin. Soru hakkında emin değilseniz, doğru olduğundan emin olmak için her zaman tekrarlayabilirsiniz. Ayrıca, daha önce defalarca duymuş olsanız bile, soruyu soran kişiye müdahale etmeyin.</li>
- 	<li style="font-weight: 400"><strong>Savunma yapmayın.</strong> Biri size sunumunuzda yer aldığını bildiğiniz bir soru sorsa bile, lütfen kibarca yanıtlayın. Hakimler birçok sunumu dinliyor ve tüm bilgileri alamıyor olabilirler. Yargıçların söylediği bir şeye katılmıyorsanız, “Evet, ama…” yerine “Evet, ve…” diyerek cevap verebilirsiniz. “Evet, ama…” diyerek cevap vermek, düşmanca bir durum yaratır ve az önce söyledim. Sorularını dinlediğinizde onlara cevap verdiğinizde onlara saygı duyduğunuzda onlara saygı gösterin. Dans etmek istiyorsun, savaşmak değil, değil mi? İnsanların size nasıl tepki gösterdiği konusunda büyük bir fark göreceksiniz.</li>
- 	<li style="font-weight: 400"><strong>Zorlu sorulara cevap verin.</strong> Bir soruya cevap veremediğiniz zamanlar olabilir. Hemen cevabı bilmediğinizi belirtmek ister, ancak bildiğiniz bir şeye köprü inşa etmelisiniz. İşte bazı örnekler:
-	<ul>
-	 	<li style="font-weight: 400">Bilmiyorum, ancak sana anlatabileceğim şey:…</li>
-	 	<li style="font-weight: 400">Bilmiyorum. Bunu perspektife koyalım:…</li>
-	 	<li style="font-weight: 400">Bilmiyorum. Bunu hatırlamak önemlidir:…</li>
-	 	<li style="font-weight: 400">Bilmiyorum. Vurgulamak istediğim şey:…</li>
-	 	<li style="font-weight: 400">Bilmiyorum. İşte anahtar nokta:…</li>
-	 	<li style="font-weight: 400">Bilmiyorum. Asıl önemli olan şey:…</li>
-	 	<li style="font-weight: 400">Bilmiyorum ama en önemli konu:…</li>
-	 	<li style="font-weight: 400">Bilmiyorum. Ve ilginç bir soru ise:…</li>
-	</ul>
-	</li>
- 	<li style="font-weight: 400"><span lang="tr"><strong>Aklınızı kullanın.</strong> Bir soruya ve eleştirilere nasıl yanıt verirsiniz. Örneğin, bir hakem çok genel bir şey söylüyorsa, “Bence ürününüz çok pahalı.” Diyebilirsiniz. “Çok pahalı olduğunu düşündüğünüzü takdir ediyorum. Onu neyle karşılaştırıyorsunuz? ”Ne karşılaştırdıklarını duyarsanız, bu yoruma daha iyi cevap verebilirsiniz. </span></li>
- 	<li style="font-weight: 400"><span lang="tr"><strong>Soruları tahmin edin.</strong> Alacağınızı düşündüğünüz tüm soruların bir listesini yapın. Kendinizin veya ekibinizin video kaydını yanıtlayabilir ve daha sonra iyi yanıt verdiğinizi veya farklı bir şekilde neler yapabileceğinizi düşündüğünüzü düşünerek tartışabilirsiniz. İşte yatırımcıların Nathan Gold'un <a href="http://www.democoach.com/questions" target="_blank" rel="noopener">web sitesinde</a> bir araya getirdiği perdelerde sordukları en büyük soruların 40'ı.</span></li>
+ 	<li style="font-weight: 400;"><strong>Kontrolü koru.</strong> Unutma, takımın kontrol altında! Takımınızın sorulara boğulmasına izin vermeyin. Takımdaki bir kimsenin takımda kimin belirli soruları cevaplayacağına karar vermesi muhtemelen iyi bir fikirdir. Ekibin bir ya da iki tanesi prototip üzerinde mi çalıştı? O zaman, bu tür bir soruyu cevaplayanlardan olduklarından emin olun. Logo ile başka biri mi geldi? Bu kişinin logo hakkındaki bir soruyu yanıtlamasına izin verin. Herhangi bir cevap yaklaşık 30 saniyeden uzun olmamalıdır. Yavaşlayın, derin bir nefes alın ve yanıt vermeden önce duraklatın. Bu, yanıt verdiğinden emin olduğunuzu gösterecektir.</li>
+ 	<li style="font-weight: 400;"><strong>Dinleyin.</strong> Çok fazla zaman, insanlar zaten insanların ne isteyeceğini biliyorlar, ya da sorulana dikkat etmiyorlar. Yanlış soruya bu şekilde cevap vermeyi riske atabilirsin. Sadece cevaplamak istediğiniz soruya cevap vermeyin. Soru hakkında emin değilseniz, doğru olduğundan emin olmak için her zaman tekrarlayabilirsiniz. Ayrıca, daha önce defalarca duymuş olsanız bile, soruyu soran kişiye müdahale etmeyin.</li>
+ 	<li style="font-weight: 400;"><strong>Savunma yapmayın.</strong> Biri size sunumunuzda yer aldığını bildiğiniz bir soru sorsa bile, lütfen kibarca yanıtlayın. Hakimler birçok sunumu dinliyor ve tüm bilgileri alamıyor olabilirler. Yargıçların söylediği bir şeye katılmıyorsanız, “Evet, ama…” yerine “Evet, ve…” diyerek cevap verebilirsiniz. “Evet, ama…” diyerek cevap vermek, düşmanca bir durum yaratır ve az önce söyledim. Sorularını dinlediğinizde onlara cevap verdiğinizde onlara saygı duyduğunuzda onlara saygı gösterin. Dans etmek istiyorsun, savaşmak değil, değil mi? İnsanların size nasıl tepki gösterdiği konusunda büyük bir fark göreceksiniz.</li>
+ 	<li style="font-weight: 400;"><strong>Zorlu sorulara cevap verin.</strong> Bir soruya cevap veremediğiniz zamanlar olabilir. Hemen cevabı bilmediğinizi belirtmek ister, ancak bildiğiniz bir şeye köprü inşa etmelisiniz. İşte bazı örnekler:
+<ul>
+ 	<li style="font-weight: 400;">Bilmiyorum, ancak sana anlatabileceğim şey:…</li>
+ 	<li style="font-weight: 400;">Bilmiyorum. Bunu perspektife koyalım:…</li>
+ 	<li style="font-weight: 400;">Bilmiyorum. Bunu hatırlamak önemlidir:…</li>
+ 	<li style="font-weight: 400;">Bilmiyorum. Vurgulamak istediğim şey:…</li>
+ 	<li style="font-weight: 400;">Bilmiyorum. İşte anahtar nokta:…</li>
+ 	<li style="font-weight: 400;">Bilmiyorum. Asıl önemli olan şey:…</li>
+ 	<li style="font-weight: 400;">Bilmiyorum ama en önemli konu:…</li>
+ 	<li style="font-weight: 400;">Bilmiyorum. Ve ilginç bir soru ise:…</li>
+</ul>
+</li>
+ 	<li style="font-weight: 400;"><span lang="tr"><strong>Aklınızı kullanın.</strong> Bir soruya ve eleştirilere nasıl yanıt verirsiniz. Örneğin, bir hakem çok genel bir şey söylüyorsa, “Bence ürününüz çok pahalı.” Diyebilirsiniz. “Çok pahalı olduğunu düşündüğünüzü takdir ediyorum. Onu neyle karşılaştırıyorsunuz? ”Ne karşılaştırdıklarını duyarsanız, bu yoruma daha iyi cevap verebilirsiniz. </span></li>
+ 	<li style="font-weight: 400;"><span lang="tr"><strong>Soruları tahmin edin.</strong> Alacağınızı düşündüğünüz tüm soruların bir listesini yapın. Kendinizin veya ekibinizin video kaydını yanıtlayabilir ve daha sonra iyi yanıt verdiğinizi veya farklı bir şekilde neler yapabileceğinizi düşündüğünüzü düşünerek tartışabilirsiniz. İşte yatırımcıların Nathan Gold'un <a href="http://www.democoach.com/questions" target="_blank" rel="noopener">web sitesinde</a> bir araya getirdiği perdelerde sordukları en büyük soruların 40'ı.</span></li>
 </ul>
 <h3 id="attitude">Tutum/Davranış Kontrolü</h3>
 Ekibiniz çok çalıştı, anlaşılır bir şekilde yorgunsunuz ve canlı saha etkinliğiniz için biraz endişeli olabilirsiniz. Yapıcı geri bildirim ve sorularla nasıl başa çıkacağınızı düşündünüz mü?
 
 Aldığınız soruları işlemek için zaman ayırın ve zaman ayırın. Tam olarak dinleyebilmeniz, anında tepkinizi kontrol edebilmeniz ve farklı cevap verme yöntemlerini uygulayabilmenizle, durumu kontrol edebileceksiniz. Bazı soruları veya geri bildirimleri de eleştiri olarak yorumlayabilirsiniz. İşte bu konuda daha fazla<a href="https://www.themuse.com/advice/taking-constructive-criticism-like-a-champ" target="_blank" rel="noopener"> bilgi</a>.
-
 <p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Saha etkinliğinde, takımınız yarışma için yargılamanın bir sonraki aşamasına ilerlemek için seçilecek ya da olmayacaktır. Her iki senaryoya nasıl cevap verebileceğinizi düşünmek için bir dakikanızı ayıralım.</span></p>
+Eğer takımınız bir spor karşılaşması için okulda kaybettiyse ve diğer takım kazanmayı kapıştıysa? Bu durumda sizce nasıl hissedilirdi? Çok iyi değil, değil mi?
 
-<p>Eğer takımınız bir spor karşılaşması için okulda kaybettiyse ve diğer takım kazanmayı kapıştıysa? Bu durumda sizce nasıl hissedilirdi? Çok iyi değil, değil mi?</p>
+Ekibiniz kaybolduysa, oyun sahasından fırtın mı yoksa ikinci bir yer kupasını kabul etmeyi reddeder misiniz? Bu an için kızgın olmak iyi hissetse bile, daha uzun süreli, olumsuz etkilere sahip olabilir. Sizce bu etkilerden bazıları neler olabilir?
 
-<p>Ekibiniz kaybolduysa, oyun sahasından fırtın mı yoksa ikinci bir yer kupasını kabul etmeyi reddeder misiniz? Bu an için kızgın olmak iyi hissetse bile, daha uzun süreli, olumsuz etkilere sahip olabilir. Sizce bu etkilerden bazıları neler olabilir?</p>
+Ekibinizin kazanıp kazanmadığı veya kaybetmediği, umarız ki, başardığınız tüm şeyleri gözden kaçırmazsınız! Pek çok kişi, topluluklarındaki bir sorunu çözmek için bir mobil uygulama programladıklarını söyleyemez! Tüm bu nedenlerle kafanızı yüksek tutabilir ve yarışmalar, akıl hocalarınız, aileniz ve arkadaşlarınız gibi sizi desteklemek için sahada düzenlenen tüm insanlara teşekkür edebilirsiniz.
 
-<p>Ekibinizin kazanıp kazanmadığı veya kaybetmediği, umarız ki, başardığınız tüm şeyleri gözden kaçırmazsınız! Pek çok kişi, topluluklarındaki bir sorunu çözmek için bir mobil uygulama programladıklarını söyleyemez! Tüm bu nedenlerle kafanızı yüksek tutabilir ve yarışmalar, akıl hocalarınız, aileniz ve arkadaşlarınız gibi sizi desteklemek için sahada düzenlenen tüm insanlara teşekkür edebilirsiniz.</p>
-
-<p>İşte <a href="http://lifehacker.com/how-to-avoid-being-a-sore-loser-at-competitive-games-1711492385" target="_blank" rel="noopener">kazanma ve kaybetme </a>ile başa çıkma konusunda daha fazla ipucu.</p>
-
+İşte <a href="http://lifehacker.com/how-to-avoid-being-a-sore-loser-at-competitive-games-1711492385" target="_blank" rel="noopener">kazanma ve kaybetme </a>ile başa çıkma konusunda daha fazla ipucu.
 <div style="background-color: #006667; color: #ffffff; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
-	<h3 id="reflect" style="color: #ffffff;"><strong>Değerlendirin</h3>
-	Henüz atış için heyecanlanıyor musunuz? Bizde öyle umuyoruz! Bir sunum oluşturdunuz, prova yaptınız, ekibinizin sorulabileceği soruları düşündünüz ve hemen hemen hazırsınız. Şimdi ve ekibinizin canlı yayınladığı zaman göz önünde bulundurmak isteyebileceğiniz bazı sorular:
-	<ul>
-	 	<li style="font-weight: 400">Saha güvertenizin perde video ve demo videonuzdan farkı nedir?</li>
-	 	<li style="font-weight: 400">Çözümünüzü ve ekibinizi öne çıkaran nedir? Neden bu problemi çözme konusunda tutkulu musunuz?</li>
-	 	<li style="font-weight: 400">Bu yolda ne öğrendiniz ve bunun için ekibinize kim teşekkür edebilir? Her son dakikada bir adım atmak için harcayabiliyor olsanız bile, birbirinizi kutlamak için zaman ayırmanızı umuyoruz.</li>
-	 	<li style="font-weight: 400">Saha etkinliğine kimi davet edersiniz?</li>
-	</ul>
-	<h3 style="color: white;"><strong>Ek Kaynaklar</strong>></h3>
-	<ul>
-	 	<li style="font-weight: 400">Nathan Gold (Demo Koçu)</li>
-	 	<li><a style="color: #eae46f;" href="https://drive.google.com/file/d/0B3rEYL3DkWfAc1pfWlBHa1BqQWc/view" target="_blank" rel="noopener">Technovation ile</a> <a style="color: #eae46f;" href="https://drive.google.com/file/d/0B3rEYL3DkWfAc1pfWlBHa1BqQWc/view" target="_blank" rel="noopener">2016 webinar Technovation </a> güçlü sunumlar vermek ve soruların yanıtlamak hakkında</li>
-	 	<li>Nathan Gold'dan <a style="color: #eae46f;" href="http://www.democoach.com/hidden-gems/" target="_blank" rel="noopener">Kaynak Önerileri</a></li>
-	 	<li><a style="color: #eae46f;" href="https://www.youtube.com/watch?v=51TLge2peLc" target="_blank" rel="noopener">Guy Kawasaki video'su</a></li>
-	 	<li>Simon Sinek <a style="color: #eae46f;" href="https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action" target="_blank" rel="noopener"> Güçlü Liderler nasıl Harekete geçmek için ilham verirler</a></li>
-	</ul>
+<h3 id="reflect" style="color: #ffffff;"><strong>Değerlendirin</strong></h3>
+Henüz atış için heyecanlanıyor musunuz? Bizde öyle umuyoruz! Bir sunum oluşturdunuz, prova yaptınız, ekibinizin sorulabileceği soruları düşündünüz ve hemen hemen hazırsınız. Şimdi ve ekibinizin canlı yayınladığı zaman göz önünde bulundurmak isteyebileceğiniz bazı sorular:
+<ul>
+ 	<li style="font-weight: 400;">Saha güvertenizin perde video ve demo videonuzdan farkı nedir?</li>
+ 	<li style="font-weight: 400;">Çözümünüzü ve ekibinizi öne çıkaran nedir? Neden bu problemi çözme konusunda tutkulu musunuz?</li>
+ 	<li style="font-weight: 400;">Bu yolda ne öğrendiniz ve bunun için ekibinize kim teşekkür edebilir? Her son dakikada bir adım atmak için harcayabiliyor olsanız bile, birbirinizi kutlamak için zaman ayırmanızı umuyoruz.</li>
+ 	<li style="font-weight: 400;">Saha etkinliğine kimi davet edersiniz?</li>
+</ul>
+<h3 style="color: white;"><strong>Ek Kaynaklar</strong></h3>
+<ul>
+ 	<li style="font-weight: 400;">Nathan Gold (Demo Koçu)</li>
+ 	<li><a style="color: #eae46f;" href="https://drive.google.com/file/d/0B3rEYL3DkWfAc1pfWlBHa1BqQWc/view" target="_blank" rel="noopener">Technovation ile</a> <a style="color: #eae46f;" href="https://drive.google.com/file/d/0B3rEYL3DkWfAc1pfWlBHa1BqQWc/view" target="_blank" rel="noopener">2016 webinar Technovation </a> güçlü sunumlar vermek ve soruların yanıtlamak hakkında</li>
+ 	<li>Nathan Gold'dan <a style="color: #eae46f;" href="http://www.democoach.com/hidden-gems/" target="_blank" rel="noopener">Kaynak Önerileri</a></li>
+ 	<li><a style="color: #eae46f;" href="https://www.youtube.com/watch?v=51TLge2peLc" target="_blank" rel="noopener">Guy Kawasaki video'su</a></li>
+ 	<li>Simon Sinek <a style="color: #eae46f;" href="https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action" target="_blank" rel="noopener"> Güçlü Liderler nasıl Harekete geçmek için ilham verirler</a></li>
+</ul>
 </div>
