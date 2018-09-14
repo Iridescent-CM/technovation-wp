@@ -8,142 +8,139 @@
  	<li><a href="#prod">Videoyu oluştur</a></li>
  	<li><a href="#reflect">Özet</a></li>
 </ul>
-<h2><b>Kazanımlar:</b></h2>
+<h2><strong>Kazanımlar:</strong>></h2>
 Bu derste
 <ul>
- 	<li>iyi bir demo video yapmayı,</li>
- 	<li>demo videoyu planlamayı</li>
- 	<li>demo video yaparken dikkat edilmesi gerekenleri öğreneceksiniz.</li>
+ 	<li style="font-weight: 400">iyi bir demo video yapmayı,</li>
+ 	<li style="font-weight: 400">demo videoyu planlamayı</li>
+ 	<li style="font-weight: 400">demo video yaparken dikkat edilmesi gerekenleri öğreneceksiniz.</li>
 </ul>
-<h3>Demo video nedir?</h3>
+<h3 id="demo">Demo video nedir?</h3>
 Bir demo video, ürün tanıtımdır; mobil uygulamanızı ve oluşturduğunuz tüm harika özelliklerini gösterirsiniz! Demo video, izleyicinin uygulamayı bir kullanıcı gibi yaşamalarına izin vermeli, böylece uygulamanın nasıl çalıştığını, nasıl kullanabileceklerini ve nasıl yardımcı olabileceğini anlıyorlar. Onları uygulamayı nasıl kullanacağınız konusunda gezmek isteyeceksiniz, böylece kendilerini kullanmaya başlayabilirler!
-<blockquote>“Fikirler kolaydır, uygulaması zordur.”</blockquote>
-<p style="text-align: right">-Guy Kawasaki, Amerikalı pazarlama uzmanı, yazar ve Silikon Vadisi girişim sermayesi</p>
 
-<h3>Demo Video Gereklilikleri</h3>
-Tanıtım (demo) videonuzu yapmaya başlamadan önce, üzerinde yargılanacağınız çıktıları inceleyelim:
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<blockquote>
+	<p style="text-align: center">“Fikirler kolaydır, uygulaması zordur.”</p>
+	</blockquote>
+	<p style="text-align: right">-Guy Kawasaki, Amerikalı pazarlama uzmanı, yazar ve Silikon Vadisi girişim sermayesi</p>
+</div>
+<h3 id="req"><strong>Demo Video Gereklilikleri</strong></h3>
+<p>Tanıtım (demo) videonuzu yapmaya başlamadan önce, üzerinde yargılanacağınız çıktıları inceleyelim:</p>
 <ul>
- 	<li><strong>Video 2 dakikaya kadar sürebilir.</strong> Bir demo video kısa olmalı, hatta videodan daha kısa olmalıdır. Tek başına durabilmeli ve öncelikle uygulamadaki özelliklere odaklanabilmelidir.</li>
- 	<li><strong>Uygulamanızın işlevselliğini açıkça gösterin.</strong> Burada istediğiniz kadar yaratıcı alabilirsiniz! Hikayenizi anlatmak için çeşitli yöntemler kullanın. Bazı örnekler: skeçler, slayt sunumları, kullanıcılardan referanslar veya röportajlar. Ne hakkında konuştuğunuzu açıkça göstermek için videoya biraz metin, ok veya resim eklemek isteyebilirsiniz.</li>
- 	<li><strong>Uygulamanızın benzersiz özelliklerini vurgulayın.</strong> Geliştirdiğin tüm harika şeyleri göster. Bu özellikler kalabalığın arasından sıyrılmanıza yardımcı olacak! Onları özgün bir şekilde gösterebilirseniz, bu daha bile iyidir!</li>
- 	<li><strong>Kullanıcı arayüzüne odaklanın.</strong> Uygulamanızın nasıl çalıştığını ve bir kullanıcının uygulamayı nasıl deneyimleyeceğini anlamak için birçok hakem bu videoyu kullanacaktır. Bu nedenle, uygulamanızın topluluğunuzdaki sorunu nasıl ve neden çözeceğini göstermek önemlidir.
-<ul>
- 	<li>Kullanıcının ekrandan ekran üzerinde nasıl gezindiğini gösterin. Hakemler, herhangi bir hata olmadığını ve kullanıcının uygulamayı nasıl kullanacağını ve içinden nasıl hareket edeceğini bulmakta zorlanacağını görmek isteyecektir.</li>
+ 	<li style="font-weight: 400"><strong>Video 2 dakikaya kadar sürebilir.</strong> Bir demo video kısa olmalı, hatta videodan daha kısa olmalıdır. Tek başına durabilmeli ve öncelikle uygulamadaki özelliklere odaklanabilmelidir.</li>
+ 	<li style="font-weight: 400"><strong>Uygulamanızın işlevselliğini açıkça gösterin.</strong> Burada istediğiniz kadar yaratıcı alabilirsiniz! Hikayenizi anlatmak için çeşitli yöntemler kullanın. Bazı örnekler: skeçler, slayt sunumları, kullanıcılardan referanslar veya röportajlar. Ne hakkında konuştuğunuzu açıkça göstermek için videoya biraz metin, ok veya resim eklemek isteyebilirsiniz.</li>
+ 	<li style="font-weight: 400"><strong>Uygulamanızın benzersiz özelliklerini vurgulayın.</strong> Geliştirdiğin tüm harika şeyleri göster. Bu özellikler kalabalığın arasından sıyrılmanıza yardımcı olacak! Onları özgün bir şekilde gösterebilirseniz, bu daha bile iyidir!</li>
+ 	<li style="font-weight: 400"><strong>Kullanıcı arayüzüne odaklanın.</strong> Uygulamanızın nasıl çalıştığını ve bir kullanıcının uygulamayı nasıl deneyimleyeceğini anlamak için birçok hakem bu videoyu kullanacaktır. Bu nedenle, uygulamanızın topluluğunuzdaki sorunu nasıl ve neden çözeceğini göstermek önemlidir.
+	<ul>
+	 	<li style="font-weight: 400">Kullanıcının ekrandan ekran üzerinde nasıl gezindiğini gösterin. Hakemler, herhangi bir hata olmadığını ve kullanıcının uygulamayı nasıl kullanacağını ve içinden nasıl hareket edeceğini bulmakta zorlanacağını görmek isteyecektir.</li>
+	</ul>
+	</li>
+	 <li style="font-weight: 400"><strong>Video, YouTube veya Vimeo'ya yüklenmelidir.</strong> Gönderiminiz Tecrübe gönderme platformundaki bir bağlantı üzerinden hakimlere erişilebilir olmalıdır. Yüklenmeli ve bağlantı paylaşılmalı; YouTube veya Vimeo kullanmanızı öneririz, ancak videoya hakimler için erişilebilir olduğu sürece diğer uygulamaları kullanabilirsiniz. Videoyu <a href="https://support.google.com/youtube/answer/157177?co=GENIE.Platform%3DDesktop&amp;hl=enhttps://support.google.com/youtube/answer/157177#unlisted" target="_blank">özel veya listelenmemiş</a> yapabilirsiniz, böylece yalnızca videonun URL'sine sahip olan kullanıcılar bunu görebilir.</li>
 </ul>
-</li>
- 	<li><strong>Video, YouTube veya Vimeo'ya yüklenmelidir.</strong> Gönderiminiz Tecrübe gönderme platformundaki bir bağlantı üzerinden hakimlere erişilebilir olmalıdır. Yüklenmeli ve bağlantı paylaşılmalı; YouTube veya Vimeo kullanmanızı öneririz, ancak videoya hakimler için erişilebilir olduğu sürece diğer uygulamaları kullanabilirsiniz. Videoyu <a href="https://support.google.com/youtube/answer/157177?co=GENIE.Platform%3DDesktop&amp;hl=enhttps://support.google.com/youtube/answer/157177#unlisted">özel veya listelenmemiş</a> yapabilirsiniz, böylece yalnızca videonun URL'sine sahip olan kullanıcılar bunu görebilir.</li>
-</ul>
-<h3>Aktivite</h3>
-Bir demo videonun ne olduğu hakkında daha iyi bir fikir edinmek için, aşağıdaki önceki Technovation sezonlarından birkaç video ekledik. Onları seyrederken, neye benzediğini not edin ve kendi demo videonuza dahil etmek istersiniz! Örnekleri izlerken dikkate almanız gereken bazı sorular:
-<ul>
- 	<li>Videonuz nasıl başlamalı?</li>
- 	<li>Videonuz nasıl bitmeli?</li>
- 	<li>Hangi özellikleri vurgulamak gerekir?</li>
- 	<li>Mesajınızı iletmek için hangi yöntemleri kullanmalısınız?</li>
-</ul>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3 id="act">Aktivite</h3>
+	<p>Bir demo videonun ne olduğu hakkında daha iyi bir fikir edinmek için, aşağıdaki önceki Technovation sezonlarından birkaç video ekledik. Onları seyrederken, neye benzediğini not edin ve kendi demo videonuza dahil etmek istersiniz! Örnekleri izlerken dikkate almanız gereken bazı sorular:</p>
+	<ul>
+		<li style="list-style-type: none">
+		<ul>
+		 	<li>Videonuz nasıl başlamalı?</li>
+		 	<li>Videonuz nasıl bitmeli?</li>
+		 	<li>Hangi özellikleri vurgulamak gerekir?</li>
+		 	<li>Mesajınızı iletmek için hangi yöntemleri kullanmalısınız?</li>
+		</ul>
+		</li> 	
+	</ul>
 
+	<p><a style="color: #eae46f;" href="https://www.youtube.com/watch?v=KpZ1b_NBxAU" target="_blank" rel="noopener"><strong>Team AMEKA</strong>> Güvenli Sürüş (Safe Guard Driving), 2015</a></p>
 
-<b>Team AMEKA</b> Güvenli Sürüş (Safe Guard Driving), 2015
+	<p>Bu, uygulamanın girildiği yer olan, sıkıcı çekimi hızlandıran, uygulamanın işlevselliğini açıklamak için daha fazla zaman tanınmasına izin veren, uygulamanın ayrıntılı bir yolunu sunar.</p>
+	<p><a style="color: #eae46f;" href="https://www.youtube.com/watch?v=UfnOQ_Lorcs" target="_blank" rel="noopener"><strong>Northgate STEM Unwind, 2014</strong></a></p>
+	<p>Bu video, özelliklerini sadece görseller ve çok az yazılı açıklama kullanarak açıklıyor. Bu, ekibiniz kullanıcılar ve hakimler için dil engelleri konusunda endişe duyuyorsa iyi olur.</p>
 
-Bu, uygulamanın girildiği yer olan, sıkıcı çekimi hızlandıran, uygulamanın işlevselliğini açıklamak için daha fazla zaman tanınmasına izin veren, uygulamanın ayrıntılı bir yolunu sunar.
+	<p><a style="color: #eae46f;" href="https://www.youtube.com/watch?v=rLQCo3dO-38" target="_blank" rel="noopener"><strong>.comPote</strong>> Active Citizen, 2016</a></p>
 
+	<p>Anlatım özlü ve video tüm uygulama özelliklerini etkin bir şekilde kapsamaktadır.</p>
+</div>	
 
+<h3 id="outline"><strong>Demo Videonuzun Taslağını Çıkarın</strong></h3>
 
-<b>Northgate STEM Unwind, 2014</b>
-
-Bu video, özelliklerini sadece görseller ve çok az yazılı açıklama kullanarak açıklıyor. Bu, ekibiniz kullanıcılar ve hakimler için dil engelleri konusunda endişe duyuyorsa iyi olur.
-
-
-
-<b>.comPote</b> Active Citizen, 2016
-
-Anlatım özlü ve video tüm uygulama özelliklerini etkin bir şekilde kapsamaktadır.
-<h3>Demo Videonuzun Taslağını Çıkarın</h3>
-<div id="tw-target-text-container" class="gsrt tw-ta-container tw-nfl">
 <p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Şimdi bazı örnekler gördünüz ve uygulamanızın özelliklerini nasıl açıklamak istediğinizi düşünmeye başladığınızda, tüm parçaları bir araya getirmeye başlama zamanı! Her şeyde olduğu gibi, videonuzu üretmeye başlamak için dalış yapmadan önce bir plan yapmak en iyisidir. Planlama sürecini yönetilebilir adımlara bölmek için aşağıdaki adımları izleyin ve kendinizi hem hakemlere hem de kullanıcılara vuracak harika bir tanıtım videosu yapmak için hazırlayın!</span></p>
 
 <h5>Adım 1: Film Şeridi.</h5>
-<p class="tw-data-text tw-ta tw-text-small" lang="tr">İyi bir demo videosu çekmek için, video veya storyboard oluşturarak video görüntülemenizde kullandığınız benzer bir yaklaşımı kullanabilirsiniz. Nasıl yürüyeceğinizi ve uygulama özelliklerinizi nasıl göstereceğinize karar verin. <a href="https://www.storyboardthat.com/storyboard-creator">Storyboard Creator uygulamasını</a> kullanarak deneyebilir veya kendi yönteminizi kullanabilirsiniz. Siz ve ekibiniz için en uygun olanı yapın! İşte <a href="https://www.groovehq.com/attachments/blog/product-explainer-video/Groove_Storyboard_V1.pdf">Groove HQ</a>'dan bir örnek.</p>
+<p class="tw-data-text tw-ta tw-text-small" lang="tr">İyi bir demo videosu çekmek için, video veya storyboard oluşturarak video görüntülemenizde kullandığınız benzer bir yaklaşımı kullanabilirsiniz. Nasıl yürüyeceğinizi ve uygulama özelliklerinizi nasıl göstereceğinize karar verin. <a href="https://www.storyboardthat.com/storyboard-creator" target = "_blank">Storyboard Creator uygulamasını</a> kullanarak deneyebilir veya kendi yönteminizi kullanabilirsiniz. Siz ve ekibiniz için en uygun olanı yapın! İşte <a href="https://www.groovehq.com/attachments/blog/product-explainer-video/Groove_Storyboard_V1.pdf" target = "_blank">Groove HQ</a>'dan bir örnek.</p>
 
 <ul>
  	<li><strong>Uygulamayı tanıtın. Sorunu çözmeye çalıştığınız sorunu ve uygulamanızın bunu nasıl çözdüğünü hızlı bir şekilde gösterin. Bunu sadece 1-2 cümlede yapmayı deneyin!</strong></li>
  	<li><strong>Uygulamanızın sağladığı çözümü tanıtın. Ürününüzün (uygulamanızın) neler yaptığını açıklayın. Son ürünü, yaptığınız tüm kodlamalardan sonra göstermelisiniz.</strong></li>
  	<li><strong>Çalıştığını kanıtlayın.</strong> Uygulamanızın işlevsel olduğunu ve nasıl çalıştığına dair bir tanıtım sağladığını gösterin. Uygulamanın özelliklerini kullanarak, bir kullanıcının yapacağı gibi işlevlerini ve avantajlarını açıklayın.
-<ul>
- 	<li>Uygulamanız tamamlanmamışsa, sorun değil! Yapabildiğin kadar göster. Ayrıca, bir sonraki inşada neleri planladığınızı ya da gelecekteki özelliklerinizi planlamanızı ve neye benzeyebileceğini gösterebilirsiniz.</li>
-</ul>
-</li>
+	<ul>
+	 	<li>Uygulamanız tamamlanmamışsa, sorun değil! Yapabildiğin kadar göster. Ayrıca, bir sonraki inşada neleri planladığınızı ya da gelecekteki özelliklerinizi planlamanızı ve neye benzeyebileceğini gösterebilirsiniz.</li>
+	</ul>
+	</li>
 </ul>
 <h5>Adım 2: Senaryonuzu yazın.</h5>
 Hikaye tahtanızı / taslağınızı bir kılavuz olarak kullanarak daha fazla bilgi ekleyin. Ne söyleyeceğinizi, nasıl söyleyeceğinizi ve ekranda nelerin gösterileceğini yazınız. Bu doküman, demo videonuzun geri kalanı için temel referans olacaktır. Unutmayın, senaryo daha fazla uygulama özelliği geliştirdikçe değişebilir!
-<div class="oSioSc">
-<div id="tw-target">
-<div id="tw-target-text-container" class="gsrt tw-ta-container tw-nfl">
+
 <p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr"><em><strong>İpucu!</strong></em>Bazı takımlar saha ve demo videoları için İngilizce dışındaki bir dilde daha rahat konuşurlar. Bunu yapabilirsin, ancak yargıçların anlaması için videonuza İngilizce altyazılar eklemelisiniz.</span></p>
 
-<h3>Demo Videonuzu Yapın</h3>
-</div>
-</div>
-</div>
-</div>
-<div id="tw-target-text-container" class="gsrt tw-ta-container tw-nfl">
+<h3 id="prod">Demo Videonuzu Yapın</h3>
+
 <p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Artık planladığınız her şeye sahip olduğunuza göre, kollarınızı döndürme ve videoyu yapmaya başlama zamanı! Planınızı hayata geçirmek için aşağıdaki adımları izleyin.</span></p>
 
 <h5>Adım 1: Videonuzu çekin.</h5>
-Videonuzda göstermeyi planladığınız şeyi, ekran görüntüleri, ekran kaydı, gösteri veya bir kombinasyon olup olmadığını kaydedin.
-<div class="oSioSc">
-<div id="tw-target">
-<div id="tw-target-text-container" class="gsrt tw-ta-container tw-nfl">
+<p>Videonuzda göstermeyi planladığınız şeyi, ekran görüntüleri, ekran kaydı, gösteri veya bir kombinasyon olup olmadığını kaydedin.</p>
+
 <ul>
  	<li id="tw-target-text" class="tw-data-text tw-ta tw-text-small"><span lang="tr"><strong>Ekran görüntüleri: </strong>Uygulamanın telefonda nasıl görüneceğini gösteren statik (hareketli olmayan) resimler. Görüntülerin yüksek çözünürlükte olduğundan ve görüntüleyicinin göstermeye çalıştığınız şeyi kolayca görebildiğinden emin olun.</span>
-<ul>
- 	<li style="font-weight: 400"><a href="https://www.smashingmagazine.com/2015/03/create-effective-app-screenshots-for-app-page/" target="_blank" rel="noopener">Smashing Magazine: Efektif bir Uygulama nasıl Yaratılır App Store sayfanız için ekran görüntüleri</a></li>
- 	<li style="font-weight: 400"><a href="https://appradar.com/5-best-practice-tips-for-app-screenshots/" target="_blank" rel="noopener">App Radar: Uygulamaların ekran görüntülemeleri için 5 tane en iyi pratik ipuçları</a></li>
- 	<li id="tw-target-text-container" class="gsrt tw-ta-container tw-nfl">
-<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr"><em><strong>İpucu!</strong></em> Görüntüleyicinin görmesini istediğiniz özellikleri vurgulamayı veya ana hatlarını belirlemeyi veya ekrana yakınlaştırma yapmayı deneyin. İzleyicinin hangi tuşlara bastığını görebildiğinden emin olun.</span></p>
-</li>
-</ul>
-</li>
+	<ul>
+	 	<li style="font-weight: 400"><a href="https://www.smashingmagazine.com/2015/03/create-effective-app-screenshots-for-app-page/" target="_blank" rel="noopener">Smashing Magazine: Efektif bir Uygulama nasıl Yaratılır App Store sayfanız için ekran görüntüleri</a></li>
+	 	<li style="font-weight: 400"><a href="https://appradar.com/5-best-practice-tips-for-app-screenshots/" target="_blank" rel="noopener">App Radar: Uygulamaların ekran görüntülemeleri için 5 tane en iyi pratik ipuçları</a></li>
+	 	<li id="tw-target-text-container" class="gsrt tw-ta-container tw-nfl">
+		<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr"><em><strong>İpucu!</strong></em> Görüntüleyicinin görmesini istediğiniz özellikleri vurgulamayı veya ana hatlarını belirlemeyi veya ekrana yakınlaştırma yapmayı deneyin. İzleyicinin hangi tuşlara bastığını görebildiğinden emin olun.</span></p>
+	</li>
+	</ul>
+	</li>
  	<li><strong>Ekran kaydı:</strong> Genellikle anlatı olan farklı uygulama işlevlerinin video kaydı. Ekran kayıtları <a href="http://screencast-o-matic.com/home" target="_blank" rel="noopener">Screencast-o-matic</a> ile ya da sadece bir kamerada filme çekilerek uygulamadaki eylemi gösterebilir.
-<ul>
- 	<li><a href="http://www.apptamin.com/blog/screen-recorder-for-android/" target="_blank" rel="noopener">Apptamin: Android'inizin ekranında nasıl video kaydı yapılır?</a></li>
- 	<li><a href="http://www.apptamin.com/blog/capture-iphone-ipad-screen-video/" target="_blank" rel="noopener">Apptamin: Bir iPhone veya iPad'de nasıl ekran görüntüsü kayıt edilir ve saklanır?</a></li>
- 	<li>
-<p class="tw-data-text tw-ta tw-text-small" lang="tr">İpucu!  Görüntüleyicinin bakmasını istediğiniz şeyi işaret etmek için bir parmağın veya bir okun kullanılmasına yardımcı olabilir; Ekran gerçekten meşgulse, görüntüleyen kişi dikkatini dağıtabilir.</p>
-</li>
+	<ul>
+	 	<li><a href="http://www.apptamin.com/blog/screen-recorder-for-android/" target="_blank" rel="noopener">Apptamin: Android'inizin ekranında nasıl video kaydı yapılır?</a></li>
+	 	<li><a href="http://www.apptamin.com/blog/capture-iphone-ipad-screen-video/" target="_blank" rel="noopener">Apptamin: Bir iPhone veya iPad'de nasıl ekran görüntüsü kayıt edilir ve saklanır?</a></li>
+	 	<li>
+		<p class="tw-data-text tw-ta tw-text-small" lang="tr">İpucu!  Görüntüleyicinin bakmasını istediğiniz şeyi işaret etmek için bir parmağın veya bir okun kullanılmasına yardımcı olabilir; Ekran gerçekten meşgulse, görüntüleyen kişi dikkatini dağıtabilir.</p>
+	</li>
+	</ul>
+	</li>
 </ul>
-</li>
-</ul>
+<center>
+<iframe src="https://www.youtube.com/embed/H7sYy46O4G8" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></center></li>
 <ul>
- 	<li></li>
+ 	
  	<li><strong>Gösteri:</strong>  Uygulamanın hayatta nasıl kullanıldığını göstermek için kısa skeç; bazı ekran kayıtlarını da içerebilir. Daha yaratıcı ve hikaye anlatmaya dayanır.
-<ul>
- 	<li>
-<div id="tw-target-text-container" class="gsrt tw-ta-container tw-nfl">
-<div id="tw-target-text-container" class="gsrt tw-ta-container tw-nfl">
-<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr"><em><strong>İpucu!</strong></em>Videonuzu kontrol edin ve her şeyin odakta olduğunu ve görmenin kolay olduğundan emin olun. Değilse, daha iyi çekimler için kameranızı kontrol etmeyi ve yeniden oynatmayı deneyin. Çok sayıda geri çekimi filme çekmekten çekinmeyin - bunu doğru yapmak zaman alır!</span></p>
+	<ul>
+	 	<li>
 
-</div>
-</div></li>
-</ul>
-</li>
-</ul>
+		<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr"><em><strong>İpucu!</strong></em>Videonuzu kontrol edin ve her şeyin odakta olduğunu ve görmenin kolay olduğundan emin olun. Değilse, daha iyi çekimler için kameranızı kontrol etmeyi ve yeniden oynatmayı deneyin. Çok sayıda geri çekimi filme çekmekten çekinmeyin - bunu doğru yapmak zaman alır!</span></p>
 
+	</li>
+	</ul>
+	</li>
+</ul>
+<center>
+<iframe src="https://www.youtube.com/embed/3ZRRpyYcI_A" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></center>
 
 <h5>Adım 2: Seslendirmenizi kaydedin</h5>
 <em>Opsiyonel</em>
-<div id="tw-target-text-container" class="gsrt tw-ta-container tw-nfl">
+
 <p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Anlatım, uygulamanızı tanımlamanıza yardımcı olacak video söz konusu olduğunda yararlı olabilir. Ancak, birçok video anlatımdan ve hatta çok az metinden bile habersiz! Karar vermek size kalmış. Seslendirme yapmayı tercih ederseniz, gerçekten iyi bir mikrofon kullandığınızdan emin olun, böylece ses nettir. Ya da, gerçekten sessiz bir yerde bir telefonda bir kaydedici uygulamasını kullanmayı deneyebilirsiniz (dolaplar iyi çalışır)!</span></p>
 <p dir="ltr"><i>İpucu:Eğer başka bir dilde ses ile anlamanız zor oluyorsa, o zaman ekranınıza altyazılar eklemeyi düşünebilirsiniz</i></p>
 
 <h5>Adım 3: Videoyu birlikte düzenleyin</h5>
-Tüm ekran görüntülerinizi, kamera görüntülerinizi, görsellerinizi, seslerinizi vb. toplayın. Şimdi sıra tüm yaptıklarınızı bir araya getirmekte! Videonuzu oluşturmak için kullanabileceğiniz bir çok araç var.
+<p>Tüm ekran görüntülerinizi, kamera görüntülerinizi, görsellerinizi, seslerinizi vb. toplayın. Şimdi sıra tüm yaptıklarınızı bir araya getirmekte! Videonuzu oluşturmak için kullanabileceğiniz bir çok araç var.</p>
 <h5>Adım 4: Gözden geçir, düzenle ve tekrarla</h5>
-You put your video together and now it’s time to refine it. Remember that this video is important to judging, since it is a product demonstration to show the judges how your app can be useful. Keep in mind what kind of messages you are trying to convey and how you want your message to be received by your audience.
+<p>You put your video together and now it’s time to refine it. Remember that this video is important to judging, since it is a product demonstration to show the judges how your app can be useful. Keep in mind what kind of messages you are trying to convey and how you want your message to be received by your audience.</p>
 <p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Hakimler farklı geçmişlere sahip olduğundan ve mesajınızı anlayabilmeniz için farklı kişilerden yararlanabilmeniz için, mentorunuzu veya ekibinizin dışındaki herhangi birisini ikinci bir görüş için isteyebilirsiniz. Ayrıca, demoyu izledikten ve demo videonun kullanıcı olarak deneyimledikleriyle eşleşip eşleşmediğini görmek için uygulamayı deneyebilirsiniz. demo videoda yer almayan eksik parçalar hakkında geri bildirim isteyin. Daha fazla yardım için, aşağıdaki Ek Kaynaklara başvurabilirsiniz.</span></p>
 
 <h5>Adım 5: Videonuzu gönderilmek üzere yükleyin.</h5>
-<div id="tw-target-text-container" class="gsrt tw-ta-container tw-nfl">
+
 <p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Videonuzu sonlandırdıktan sonra, sıkı çalışmanızı yükleyin! Saha videosu gibi, istediğiniz herhangi bir uygulama üzerinden yükleme yapabilirsiniz, ancak YouTube veya Vimeo tercih edilir. İşte size yardımcı olabilecek birkaç kılavuz:</span></p>
 
 <pre class="tw-data-text tw-ta tw-text-small"><a href="https://support.google.com/youtube/answer/57407?hl=en" target="_blank" rel="noopener"><b>YouTube'a nasıl yüklersiniz</b></a></pre>
@@ -154,29 +151,23 @@ You put your video together and now it’s time to refine it. Remember that this
 <ul>
  	<li><a href="https://vimeo.com/42647970" target="_blank" rel="noopener">Öğretici Video</a></li>
 </ul>
-<h3>Değerlendirin</h3>
-<div id="tw-target-text-container" class="gsrt tw-ta-container tw-nfl">
-<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">İyi iş çıkardınız! Uygulamanız için bir demo video oluşturmayı bitirdiniz. Bu kolay değil, gerçekten gurur duymalısın! Demo uygulaması, potansiyel kullanıcıların veya yatırımcıların ürününüzünüzü anlamasına izin verilmesi söz konusu olduğunda gerçekten yararlıdır. Bu videoyu, yalnızca bir fikirden gerçek bir uygulamaya kadar, neyi başardığınızı göstermek için kullanabilirsiniz.</span></p>
 
-<div id="tw-target-text-container" class="gsrt tw-ta-container tw-nfl">
-<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Demo videonuzu nasıl oluşturabildiğinize baktığınızda, şunları düşünün:</span></p>
+<div style="background-color: #066677; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3 id="reflect"><span style="color: #ffffff;"><strong>Değerlendirin</strong></span></h3>
 
-<ul>
- 	<li id="tw-target-text" class="tw-data-text tw-ta tw-text-small"><span lang="tr">Uygulamanızı nasıl göstereceğinizi düşünmek zor muydu?</span></li>
- 	<li class="tw-data-text tw-ta tw-text-small">Videonuz, özetlediğinizde veya storyboard (film şeridi) oluşturduğunuzda mı değişti? Nasıl değişti ve neden</li>
- 	<li class="tw-data-text tw-ta tw-text-small">Tanıtım videonuzu geliştirmede size en çok kim yardımcı oldu? Onlara teşekkür ettiğinizden emin olun!</li>
-</ul>
-<h5><b>Ek Kaynaklar:</b></h5>
-<ul>
- 	<li><a href="https://software.intel.com/en-us/blogs/2012/05/31/prepare-for-success-how-to-create-a-great-software-demo-video" target="_blank" rel="noopener">Intel: Bir yazılım demo videosu nasıl yaratılır</a></li>
- 	<li><a href="http://www.mindtheproduct.com/2015/02/make-product-demo-stands/" target="_blank" rel="noopener">Mind the Product: Öne çıkan bir ürün demosu nasıl yapılır</a></li>
- 	<li><a href="https://www.process.st/product-demo-video/" target="_blank" rel="noopener">Process.St: Yeni bir başlayan (acemi) olarak nasıl ilk ürün demo videosu yaratılır</a></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+	<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">İyi iş çıkardınız! Uygulamanız için bir demo video oluşturmayı bitirdiniz. Bu kolay değil, gerçekten gurur duymalısın! Demo uygulaması, potansiyel kullanıcıların veya yatırımcıların ürününüzünüzü anlamasına izin verilmesi söz konusu olduğunda gerçekten yararlıdır. Bu videoyu, yalnızca bir fikirden gerçek bir uygulamaya kadar, neyi başardığınızı göstermek için kullanabilirsiniz.</span></p>
+
+	<p id="tw-target-text" class="tw-data-text tw-ta tw-text-small" dir="ltr"><span lang="tr">Demo videonuzu nasıl oluşturabildiğinize baktığınızda, şunları düşünün:</span></p>
+
+	<ul>
+	 	<li id="tw-target-text" class="tw-data-text tw-ta tw-text-small"><span lang="tr">Uygulamanızı nasıl göstereceğinizi düşünmek zor muydu?</span></li>
+	 	<li class="tw-data-text tw-ta tw-text-small">Videonuz, özetlediğinizde veya storyboard (film şeridi) oluşturduğunuzda mı değişti? Nasıl değişti ve neden</li>
+	 	<li class="tw-data-text tw-ta tw-text-small">Tanıtım videonuzu geliştirmede size en çok kim yardımcı oldu? Onlara teşekkür ettiğinizden emin olun!</li>
+	</ul>
+	<h3><span style="color: #ffffff;"><strong>Ek Kaynaklar:</strong></span></h3>
+	<ul>
+	 	<li><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://software.intel.com/en-us/blogs/2012/05/31/prepare-for-success-how-to-create-a-great-software-demo-video" target="_blank" rel="noopener">Intel: Bir yazılım demo videosu nasıl yaratılır</a></span></li>
+	 	<li><span style="color: #eae46f;"><a style="color: #eae46f;" href="http://www.mindtheproduct.com/2015/02/make-product-demo-stands/" target="_blank" rel="noopener">Mind the Product: Öne çıkan bir ürün demosu nasıl yapılır</a></span></li>
+	 	<li><span style="color: #eae46f;"><a style="color: #eae46f;" href="https://www.process.st/product-demo-video/" target="_blank" rel="noopener">Process.St: Yeni bir başlayan (acemi) olarak nasıl ilk ürün demo videosu yaratılır</a></span></li>
+	</ul>
 </div>
