@@ -1,0 +1,211 @@
+<h1>Unidade de pitch 3</h1>
+<h1>Eventos do pitch ao vivo (P)</h1>
+<ul>
+ 	<li><a href="#why">Warum einen Pitch vortragen?</a></li>
+ 	<li><a href="#act1">Aktivität</a></li>
+ 	<li><a href="#deliver">Halte einen Pitch der in Erinnerung bleibt</a></li>
+ 	<li><a href="#create">Erstelle deine Präsentation</a></li>
+ 	<li><a href="#QA">Umgang mit Fragen</a></li>
+ 	<li><a href="#attitude">Achte auf dein Auftreten</a></li>
+ 	<li><a href="#reflect">Reflexion</a></li>
+</ul>
+
+Nesta unidade, vocês...
+<ul>
+ 	<li style="font-weight: 400">Aprenderão a se preparar para o pitch ao vivo</li>
+ 	<li style="font-weight: 400">Criarão uma apresentação para o pitch </li>
+ 	<li style="font-weight: 400">Descobrirão técnicas para apresentar um pitch memorável</li>
+ 	<li style="font-weight: 400">Aprenderão a responder as perguntas dos jurados de maneira eficaz</li>
+</ul>
+<p>Parabéns! Até aqui, vocês já entregaram o código-fonte, vídeos de pitch e demo, além de outros elementos importantes do Desafio Technovation. Caso vocês morem em uma área que sediará eventos regionais de pitch, sua equipe apresentará o aplicativo a um painel de jurados na primeira rodada de avaliação. Apenas uma equipe em cada evento regional de pitch vai para a semi-final, então é importante apresentar um pitch convincente para os jurados!</p>
+<p>Antes de continuar, verifiquem com o mentor caso não saibam se a equipe apresentará ou não em um evento de pitch ao vivo. Se forem apresentar, esperamos que nossas sugestões de especialistas da área e de equipes finalistas do Technovation em outros anos ajudarão vocês a ter sucesso no palco do evento! </p>
+&nbsp;
+<h3 id="why"><strong>Aprender</strong></h3>
+O propósito essencial de um pitch é interessar investidores a ponto de buscarem uma segunda reunião com vocês. De certa forma, um pitch é como um trailer de filme, que destaca o que é essencial e deixa uma pessoa curiosa a ponto de querer ver o filme todo.
+
+O pitch ao vivo terá até quatro minutos de duração, assim como o vídeo, embora exija outras habilidades. Ele será seguido de uma breve discussão e uma rodada de perguntas (Q&A) com os jurados. Recomendamos que sua equipe prepare slides para o pitch ao vivo, pois eles ajudam a tornar sua apresentação mais memorável. Também será necessário aprender como reagir a perguntas que os jurados façam.
+
+<b>Uma apresentação de slides (ou deck de slides) é uma ferramenta comum para usar durante um pitch. Um deck de pitch  </b>é uma apresentação curta criada normalmente no PowerPoint, Keynote, ou <a href="https://prezi.com" target="_blank" rel="noopener">Prezi</a> e é usada para dar uma visão geral sobre o plano de negócios durante reuniões com investidores ou clientes em potencial. Vocês estão em dúvida sobre qual o tamanho ideal de uma apresentação de slides para um pitch e onde vocês devem se focar? Aqui estão algumas sugestões.
+<h5><strong>A regra 10/20/30</strong></h5>
+<a href="http://guykawasaki.com/the_102030_rule/" target="_blank" rel="noopener">A regra 10/20/30 </a> é simples e funciona assim: A apresentação não deve ter mais que 10 slides, não deve demorar mais que 20 minutos (mas no caso de vocês serão apenas 4 minutos) e não pode ter fonte com tamanho menor que 30, para ser facilmente legível.
+
+Essa regra foi criada por  <a href="http://guykawasaki.com/guy-kawasaki/" target="_blank" rel="noopener">Guy Kawasaki</a> especialista em marketing e investidor em capital de risco, que também trabalho para a Apple como evangelista. Ele popularizou o termo "evangelista" nas áreas de marketing e tecnologia e já ouviu o pitch de centenas de empreendedores.
+
+Vocês podem estar pensando em colocar o máximo de informação possível no pitch por causa do curto tempo, certo? Bem, na verdade, não! O ponto de ter um número impossivelmente pequeno de slides é forçar vocês a se focarem apenas nas informações essenciais.
+
+Vejam a seguir os  <a href="http://guykawasaki.com/the-only-10-slides-you-need-in-your-pitch/" target="_blank" rel="noopener">dez tópicos</a>, que Guy Kawasaki considera interessante para investidores de capital de risco (1 slide por tópico):
+<ul>
+ 	<li style="font-weight: 400"><strong>1.	Slide de título - </strong> Inclui a logo do aplicativo, o nome da equipe, a missão e os nomes das integrantes da equipe </li>
+ 	<li style="font-weight: 400"><strong>2.	Problema/Oportunidade -</strong> Descreve o problema e a solução. Tentem apresentar isso através de imagens e não muitos textos. Lembrem-se da exposição do problema da <a href = "https://technovationchallenge.org/curriculum/ideation/" target="_blank">unidade de ideação.</a></li>
+ 	<li style="font-weight: 400"><strong>3.	Proposta de valor - </strong> Explica por que a solução da sua equipe é exclusiva e ajuda a aliviar o problema </em></li>
+ 	<li style="font-weight: 400"><strong>4.	Tecnologia -</strong> Descreve a tecnologia usada pelo aplicativo e seus recursos. </li>
+ 	<li style="font-weight: 400"><strong>5.	Modelo de negócios (*apenas divisão sênior) - </strong> Quem são os usuários e como eles pagarão pelo aplicativo?</li>
+ 	<li style="font-weight: 400"><strong>6.	Plano de marketing - </strong>Como o cliente será alcançado e como vocês divulgarão o aplicativo?</li>
+ 	<li style="font-weight: 400"><strong>7.	Análise da concorrência -  </strong>Fornece uma visão completa da concorrência e como seu aplicativo se difere dos outros</li>
+ 	<li style="font-weight: 400"><strong>8.	Equipe -  </strong>Descreve quem fez o que na equipe e quem ajudou vocês </li>
+ 	<li style="font-weight: 400"><strong>9.	Projeções e marcos - </strong>Para a divisão júnior, é possível focar em quais serão os marcos para a criação da tecnologia e melhorias para o futuro. Para a divisão sênior, o foco deve ser nas projeções financeiras (cerca de três anos de projeção) e os marcos de produção </li>
+ 	<li style="font-weight: 400"><strong>	Status e linha do tempo -</strong> Mostra as conquistas, em que ponto da produção do aplicativo vocês estão, necessidades futuras e como utilizarão o dinheiro que querem que seja investido. Quanto dinheiro querem que seja investido? Usem este slide para expressar sua mensagem uma última vez</li>
+</ul>
+<p style="text-align: left;">Para saber mais informações sobre decks de pitch, acessem:  <a href="https://pitchdeck.improvepresentation.com/what-is-a-pitch-deck" target="blank">ImprovePresentation: O que é um deck de pitch? </a>.</p>
+
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3 id="act1">Atividade</h3>
+	<p>Comecem a revisar os vídeos de pitch, o vídeo demo e as storyboards criadas. Façam anotações sobre a mensagem que vocês querem passar para os jurados, antes mesmo de começar a trabalhar na apresentação.</p>
+
+	<p>Depois, recomendamos que assistam os pitches ao vivo de duas equipes finalistas do Technovation 2016 e suas apresentações:
+	Conheçam Lilia Lobato Martinez de Zapopan, México. Seu aplicativo se chama OOL e conecta voluntários com organizações locais que precisem de ajuda. Este é seu pitch e sua apresentação </p>
+
+	 <a style="color: #eae46f;" href="https://www.youtube.com/watch?v=JxUvdUVA3D4" target="_blank" rel="noopener"> <b>Team A</b> OOL , 2016</a>
+
+	 <span style="color: #eae46f;"><a style="color: #eae46f;" href="http://www.technovationchallenge.org/wp-content/uploads/2016/12/5.-OOL_FINAL.pptx.pdf" target="_blank" rel="noopener">Präsentation</a></span>.
+
+	<p>Conheçam Jennifer e Allison Johns, de Redwood City, Califórnia, EUA. Seu aplicativo se chama
+	 <a style="color: #eae46f;" href="https://play.google.com/store/apps/details?id=appinventor.ai_jenniferneda.generalDonations&amp;hl=en" target="_blank" rel="noopener"><b>California Coders</b> Loc8Don8 , 2016</a>e simplifica o processo de encontrar centros de doação para uma variedade de materiais.
+	Este é seu pitch e sua apresentação <a style="color: #eae46f;" href = "https://www.youtube.com/watch?v=TqSNr9pbJP4" target = "_blank">https://www.youtube.com/watch?v=TqSNr9pbJP4</a>
+	 <a style="color: #eae46f;" href="http://www.technovationchallenge.org/wp-content/uploads/2016/12/loc8don8-WORLD-PITCH-SLIDES.pdf" target="_blank" rel="noopener">Präsentation</a>.</p>
+
+	<p>Perguntas a considerar:
+		<ul>
+			<li>Qual foi o destaque nos dois pitches ao vivo? </li>
+			<li>Quais técnicas foram usadas nos pitches? </li>
+			<li>O que foi eficaz nos slides? </li>
+			<li>O que mudariam na sua apresentação, quanto a conteúdo de slide e apresentação? </li>
+		</ul>
+</div>
+
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<blockquote>
+	<p style="text-align: center">"Um empreendedor é aquele que arriscaria tudo para mudar o mundo. Você pode ter uma mente de empreendedor, mesmo que não seja um CEO " </p>
+	</blockquote>
+	<p style="text-align: right">–Nathan Gold, <a href="http://www.democoach.com" target="_blank" rel="noopener">The Demo Coach</a></p>
+</div>
+
+<h3 id="deliver">Como apresentar um pitch memorável</h3>
+<p><a href="http://www.democoach.com" target="_blank" rel="noopener">Nathan Gold</a> já fez mais de 15 mil apresentações e foi coautor de um livro sobre como fazer demonstrações memoráveis de produtos.  Ele treinou pessoas em todo o mundo para que conseguissem financiamento e oportunidades valiosas. Ele também se voluntariou para treinar as equipes finalistas do Technovation em 2016 quando elas estavam se preparando para o Evento de Pitch Mundial. Ele deu os seguintes conselhos às equipes.</p>
+
+<p>Em primeiro lugar, vocês precisam buscar se diferenciar, pois os jurados ouvirão pitches de muitas outras equipes, e o pitch é a primeira coisa a ser analisada. </p>
+
+<h5>A abertura, ou o gancho</h5>
+Uma maneira de se destacar é na forma de começar o pitch. Aqui estão algumas técnicas que vocês podem testar para começar:
+<ul>
+ 	<li style="font-weight: 400"><strong>Pergunta.</strong> Essa é eficaz, mas busquem não fazer perguntas óbvias. Busquem fazer uma pergunta que deixe seu público pensando.</li>
+ 	<li style="font-weight: 400"><strong>Imaginação.</strong> Por exemplo: "Imagine que você está em Marte olhando para a Terra...". Tenham cuidado com essa. Usar "Imaginação" é legal, mas tentem não abusar. </li>
+ 	<li style="font-weight: 400"><strong>Estatísticas. </strong>Se começarem com uma estatística relacionada com o problema que querem resolver e fizerem o público pensar, vocês podem chamar a atenção dos jurados. Busquem informações novas e interessantes, ou algo que as pessoas ainda não tenham ouvido falar e que desperte curiosidade. </li>
+ 	<li style="font-weight: 400"><strong>Citação.</strong> Uma boa citação de alguém famoso, ou nem tanto, pode ajudar a resumir um ponto para seu público. </li>
+ 	<li style="font-weight: 400"><strong>História.</strong>Essa é uma maneira realmente eficaz de envolver uma plateia. Os seres humanos são contadores de histórias. As pessoas se envolvem com histórias, se lembram delas e as contam novamente. Uma história pode ilustrar o problema que vocês querem resolver? Por que sua equipe quer resolver esse problema com tanto afinco? Evitem tópicos e usem mais imagens. </li>
+ 	<li style="font-weight: 400"><strong>Proposta de valor. </strong> Que benefícios seus usuários terão ao usar seu aplicativo? Às vezes, começar com a proposta de valor é uma boa maneira de engajar as pessoas. Basicamente, vocês diriam: "Queremos ajudar X a fazer Y, fazendo Z". Nesse caso, X é quem vocês querem ajudar, Y é o que vocês fazem por eles e Z é como vocês fazem isso. </li>
+</ul>
+<em><strong>Tipp!</strong> </em>Dica: Quando falarem sobre sua proposta de valor, lembrem-se de que vocês provavelmente estão fazendo algo maior do que imaginam! Encontrem uma maneira de resumir isso. Para exemplos eficazes de proposta de valor, vejam:
+ <a href="http://www.wordstream.com/blog/ws/2016/04/27/value-proposition-examples" target="_blank" rel="noopener">Wordstream: Exemplos de proposta de valor </a>, Para saber mais informações, vocês podem assistir ao webinar do Nathan para o Technovation 2016  <a href="https://drive.google.com/file/d/0B3rEYL3DkWfAOTNpZURfa3hZT28/view?usp=sharing" target="_blank" rel="noopener">aqui.</a>
+
+<h3 id="create"><strong>Criar</strong></h3>
+Façam um rascunho da apresentação. Vocês podem usar <a href = "https://www.google.com/slides/about/" target="_blank">Google Slides</a>, <a href = "https://products.office.com/en-us/powerpoint" target="_blank">PowerPoint</a>, <a href = "https://www.apple.com/keynote/" target="_blank">Keynote</a>, <a href = "https://www.canva.com/create/presentations/" target="_blank">Canva</a> ou <a href = "https://prezi.com/" target="_blank"> Prezi</a>. Outras diretrizes:
+<h5><strong>Primeiro rascunho</strong></h5>
+<p>Não se preocupem com a formatação neste primeiro momento. Vocês podem começar com um fundo branco e fonte preta. Não se preocupem com nada além das informações nesta primeira versão. Vocês podem gastar muito tempo tentando deixar a apresentação bonita, só para depois perceber que algo na mensagem ou no conteúdo precisa ser alterado. </p>
+
+<p>Este é um exemplo sobre como as informações podem ficar no primeiro rascunho, à esquerda, e no segundo, à direita.</p>
+<p><a href="https://blog.hubspot.com/marketing/mary-meeker-ugly-presentation-redesign" target="_blank" rel="noopener"><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/12/BusinessWeekMaryMeekers.jpg" alt="businessweekmarymeekers" width="650" height="243" /></a></p>
+
+<p>As pessoas falam, em média, de 120 a 140 palavras por minuto. Vocês podem tentar transcrever tudo que dirão na apresentação e, caso exceda 560 palavras, é provável que vocês passarão do limite de tempo. Lembrem-se de resumir a ideia toda aos pontos essenciais e se focar em prender o interesse da plateia.</p>
+
+<h5><strong>Criar o segundo rascunho</strong></h5>
+<p>Para o segundo rascunho, adicionem gráficos e citações para reforçar a mensagem e comecem a se focar nos elementos visuais da apresentação. Temas, imagens, cores etc., devem ser pensados depois de definir as informações. Encontrem imagens que mostrem seu aplicativo e ajudem a contar sua história.</p>
+
+<h5><strong>Refinar o gancho ou a abertura</strong></h5>
+
+<p>Os primeiros 10 segundos de sua apresentação são realmente importantes porque é neles que as pessoas decidem se realmente ouvirão o resto da apresentação ou da história. Imagens ajudam a comunicar a história nesses primeiros segundos.</p>
+
+<p>Boa sorte! Estes são alguns recursos de apresentação que se focam em efeitos visuais e alguns decks de pitch de algumas startups, para inspirar vocês:</p>
+
+<ul>
+ 	<li><a href="http://www.slideshare.net/EmilandDC/7-tips-to-create-visual-presentations" target="_blank" rel="noopener">Emiland: 7 dicas para criar apresentações visuais</a></li>
+ 	<li><a href="https://www.cbinsights.com/blog/billion-dollar-startup-pitch-decks/" target="_blank" rel="noopener">CB Insights: Decks de pitch iniciais de 7 startups</a></li>
+</ul>
+
+
+
+<h5><strong>Aplicar</strong></h5>
+Após criar o segundo rascunho do deck de pitch, é hora de testar. É importante ensaiar e praticar o pitch na frente de públicos diferentes. Comecem pelo mentor.
+
+Estas são algumas técnicas para praticar:
+<ul>
+ 	<li style="font-weight: 400">Mantenham a postura ereta, relaxem os ombros e respirem fundo. Aqui estão algumas <a href = "https://www.lifehack.org/articles/work/6-tricks-successful-businessmen-use-project-confidence.html" target = "_blank"> dicas</a> para projetar confiança. </li>
+ 	<li style="font-weight: 400">Olhem a plateia com seriedade e mantenham contato visual durante toda a apresentação. Pode ser necessário olhar as anotações de vez em quando, mas não leiam palavra por palavra</li>
+ 	<li style="font-weight: 400">Segurem naturalmente as mãos à frente do corpo. Ao falar pontos importantes, usem as mãos para dar ênfase, como apontando para as imagens e abaixando-as em pontos importantes</li>
+ 	<li style="font-weight: 400">Experimentem as roupas que usarão no dia para ficarem confortáveis no evento de pitch ao vivo </li>
+ 	<li>Projetem a voz. Vocês podem usar o abdômen e o diafragma para isso, é só "respirar pela barriga". Aqui estão algumas <a herf = "https://blog.udemy.com/how-to-project-your-voice/" target = "_blank">dicas</a></li>
+</ul>
+Certifiquem-se praticar a resposta de algumas perguntas, para terem ideias do que pode ser perguntado à equipe. Sempre peçam feedback e incorporem o que foi falado antes de praticar com outro público.
+
+&nbsp;
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<blockquote>"Eu acho que a coisa mais importante na preparação para o pitch ao vivo é a confiança. Eu estava em um programa de verão nas semanas anteriores ao Evento de Pitch Mundial, e a Allison e eu usamos o Google Hangouts para praticar juntas, o que é uma boa ideia para equipes que têm dificuldade de se encontrar. Também é importante descrever o aplicativo e suas funções com clareza, para que os jurados realmente entendam o que ele tem de novo/especial/emocionante."</blockquote>
+	<p style="text-align: right">–Alguns exemplos da Jennifer Johns, da equipe California Coders</p>
+</div>
+
+<h3 id="QA"><strong>Como responder perguntas -Q&amp;A</strong></h3>
+A rodada de perguntas informal (Q&amp;A) do pitch pode influenciar os jurados a considerar qual equipe passa para a próxima etapa da avaliação. É bom vocês se prepararem para isso e buscarem o melhor resultado. Algumas dicas do Nathan Gold.
+<ul>
+ 	<li style="font-weight: 400"><strong>Mantenham controle.</strong> Lembrem-se, sua equipe tem o controle! Não deixem que a equipe se sinta intimidada por perguntas. É uma boa ideia deixar alguma integrante encarregada de decidir quem responderá cada pergunta. Vocês podem fazer um brainstorm de possíveis perguntas e respostas, além de decidir quem responderá cada uma. Quem trabalhou no protótipo? Certifiquem-se de que serão essas que responderão perguntas relacionadas a isso. Quem inventou a logo? Deixem que essa pessoa responda perguntas sobre a logo. As respostas não devem ter mais que 30 segundos. Deem uma pequena pausa e respirem fundo antes de responder. Isso demonstra confiança na resposta.</li>
+ 	<li style="font-weight: 400"><strong>Mantenham controle.</strong> Lembrem-se, sua equipe tem o controle! Não deixem que a equipe se sinta intimidada por perguntas. É uma boa ideia deixar alguma integrante encarregada de decidir quem responderá cada pergunta. Vocês podem fazer um brainstorm de possíveis perguntas e respostas, além de decidir quem responderá cada uma. Quem trabalhou no protótipo? Certifiquem-se de que serão essas que responderão perguntas relacionadas a isso. Quem inventou a logo? Deixem que essa pessoa responda perguntas sobre a logo. As respostas não devem ter mais que 30 segundos. Deem uma pequena pausa e respirem fundo antes de responder. Isso demonstra confiança na resposta.</li>
+ 	<li style="font-weight: 400"><strong>Não fiquem na defensiva.</strong> Mesmo que alguém faça uma pergunta que vocês souberem que foi apresentada antes, respondam de maneira educada. Os jurados devem ter ouvido muitas apresentações e podem não conseguir absorver todas as informações. Se não concordarem com algo dito por eles, vocês podem responder com "Sim, e...", ao invés de "Sim, mas...". Usar o "mas" cria uma situação de adversidade e nega o que o jurado acabou de dizer. Sejam respeitosas ao escutar a pergunta e demonstrem que querem respondê-la. Vocês verão muitas diferenças na maneira como as pessoas reagem. </li>
+ 	<li style="font-weight: 400"><strong>Como responder perguntas difíceis.</strong> Muitas vezes, vocês podem não saber a resposta de uma pergunta. Não tem problema dizer que vocês não sabem a resposta neste momento, mas busquem fazer uma conexão com aquilo que vocês sabem. Alguns exemplos:
+	<ul>
+	 	<li style="font-weight: 400">Eu não sei. Entretanto, sei que…</li>
+	 	<li style="font-weight: 400">Eu não sei. Colocando isso em perspectiva...</li>
+	 	<li style="font-weight: 400">Eu não sei. É importante lembrar que...</li>
+	 	<li style="font-weight: 400">Eu não sei. O que quero enfatizar é...</li>
+	 	<li style="font-weight: 400">Eu não sei. O ponto importante é...</li>
+	 	<li style="font-weight: 400">Eu não sei. O que realmente importa é...</li>
+	 	<li style="font-weight: 400">Eu não sei, mas a questão importante é…</li>
+	 	<li style="font-weight: 400">Eu não sei. E uma pergunta interessante é...</li>
+	</ul>
+	</li>
+	 <li style="font-weight: 400"><strong>Cuidado ao responder perguntas e comentários.</strong> Por exemplo, se um jurado disser algo muito abrangente, como: "Achei o produto muito caro." Vocês podem responder, “Entendo que ache ele caro demais, mas com o que você está comparando?” Ao ouvir ao que eles estão comparando, vocês podem responder melhor ao comentário.</li>
+	 <li style="font-weight: 400"><strong>	Façam uma lista das perguntas que podem ser feitas.</strong> Vocês podem gravar um vídeo da equipe respondendo essas perguntas para depois assistirem e discutirem se responderam bem ou se poderiam fazer algo diferente. Aqui está uma lista que o Nathan Gold montou das 40 perguntas mais feitas durante pitches:  <a href="http://www.democoach.com/questions" target="_blank" rel="noopener">http://www.democoach.com/questions</a>.</li>
+</ul>
+<h3 id="attitude"><strong>Atitudes no ensaio e durante o evento ao vivo</strong></h3>
+<p>Sua equipe trabalhou muito e devem estar muito cansadas, além de preocupadas com o evento ao vivo. Já pensaram sobre como lidarão com feedback construtivo e com as perguntas? </p>
+
+<p>Lembrem-se de pausar um momento e processar as perguntas feitas. Se pararem um instante para ouvir as perguntas e pensarem em maneiras diferentes de reagir, vocês conseguirão controlar a situação. É possível interpretar algumas perguntas ou feedback como críticas. Aqui estão mais informações sobre isso:  <a href="https://www.themuse.com/advice/taking-constructive-criticism-like-a-champ" target="_blank" rel="noopener">The Muse: Como receber críticas construtivas como um vencedor</a> Lembrem-se de que essas perguntas têm a intenção de melhorar o aplicativo e o negócio. Pensem nos jurados como mentores que querem ajudar vocês a alcançarem o sucesso.  </p>
+
+<p>Durante o evento de pitch ao vivo, sua equipe será ou não selecionada para passar para a próxima fase. Vamos pensar sobre como vocês reagirão a esses cenários.  </p>
+
+<p>E se seu time da escola de algum esporte perdesse em uma competição e a outra equipe se gabasse pela vitória? Como vocês se sentiriam? Não muito bem, certo? </p>
+
+<p>Se o time perdesse, vocês sairiam correndo do campo ou recusariam uma medalha de prata? Por mais se seja bom no momento sentir aquela raiva, isso pode ter efeitos negativos a longo prazo. Já pensaram nesses efeitos? </p>
+
+<p>Ganhando ou perdendo, esperamos que sua equipe não perca de vista todas as suas realizações! Não são todos que podem dizer que programaram um aplicativo mobile para resolver os problemas da comunidade! Mantenham as cabeças erguidas com essas razões em mente e agradeçam a todos que estarão lá no dia do evento pelo suporte, como os jurados, mentores, família e amigos.  </p>
+
+<p>Mais dicas sobre como lidar com vitórias e derrotas: <a herf = "https://lifehacker.com/how-to-avoid-being-a-sore-loser-at-competitive-games-1711492385">Lifehacker: Como evitar ser mau perdedor em jogos competitivos</a></p>
+
+<h5><strong>Check-in do mentor</strong></h5>
+
+<p>Você e sua equipe já passaram por muitas coisas juntos e agora você pode ajudá-las a ensaiar seus pitches. Algumas equipes acham que não precisam de uma apresentação de slides ou que não precisam ensaiar, porque já fizeram muita coisa. Equipes que apresentaram sem um deck de slides nunca têm o mesmo impacto que as equipes que usam um deck de slides, pois imagens ajudam bastante a transmitir ideias de maneira eficaz, especialmente acompanhadas de uma presença de palco forte. Encoraje as meninas a criar uma apresentação, mesmo que não estejam propensas a isso. Mostre a importância disso.</p>
+
+<p>Você deve supervisionar o conteúdo dos slides e a apresentação do pitch. Veja a <a href = "https://guykawasaki.com/the-only-10-slides-you-need-in-your-pitch/" target = "_blank">regra 10/20/30  de Guy Kawasaki e suas sugestões para o conteúdo do pitch </a> se você precisar de ajuda. Faça perguntas para a equipe praticar respondê-las, além de praticar como reagir caso não saibam as respostas. </p>
+
+<p>Sua equipe pode se chatear com o feedback construtivo ou as perguntas e interpretá-las como críticas. Elas trabalharam bastante, estão exaustas. Além disso, estão ansiosas com o evento ao vivo. Essa é sua chance de ajudá-las a aprender como lidar com feedback construtivo, a pausar para processar perguntas, entender reações imediatas e praticar formas de reagir. Você pode mostrar como levou em consideração o feedback delas e usou isso para melhorar o aplicativo. </p>
+
+<p>Durante o evento, sua equipe pode reagir negativamente se não forem selecionadas para avançar para a próxima fase de avaliação da competição. Esse é um ótimo momento para discutir essas possibilidades com a equipe. Você pode perguntar a elas o que consideram um comportamento adequado tanto na vitória quanto na derrota. É legal se gabar se vencerem? Não! Elas podem sair da sala ou recusarem o certificado de realização se perderem? Não mesmo. É bom discutir com a equipe o que esse comportamento pode causar. Mesmo que elas se sintam bem na hora, isso pode ter efeitos negativos a longo prazo. </p>
+
+<p>Pense na sua própria história. Há algum exemplo de quando reagiu de forma positiva e negativa a derrotas e vitórias? Essa também poder ser uma boa hora para lembras as garotas sobre tudo que já aprenderam com o programa. </p>
+
+
+<div style="background-color: #006667; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3 id="reflect" style="color: white;"><strong>Reflexão</strong></h3>
+	Vocês estão animadas com o evento do pitch? Esperamos que sim! Vocês criaram uma apresentação, ensaiaram, pensaram em perguntas e estão prontas para subirem no palco. Algumas questões para sua equipe considerar antes de apresentar ao vivo:
+	<ul>
+	 	<li style="font-weight: 400">Como o deck de pitch se diferencia do vídeo de pitch e do vídeo demo?</li>
+	 	<li style="font-weight: 400">O que faz sua solução e sua equipe se destacarem? Por que querem resolver esse problema com tanto afinco? </li>
+	 	<li style="font-weight: 400">O que aprenderam e quem devem agradecer por isso? Mesmo que estejam passando todo segundo aprimorando o pitch, esperamos que também celebrem suas conquistas.</li>
+	 	<li style="font-weight: 400">Quem vocês convidarão para o evento do pitch? </li>
+	</ul>
+	<h3 style="color: white;"><strong>Recursos adicionais </strong></h3>
+	<ul>
+	 	<li>Webinar de Nathan Gold (The Demo Coach) do Technovation 2016 sobre como apresentar com firmeza e reagir a perguntas:  <a style="color: #eae46f;" href="https://drive.google.com/file/d/0B3rEYL3DkWfAc1pfWlBHa1BqQWc/view" target="_blank" rel="noopener">https://drive.google.com/file/d/0B3rEYL3DkWfAc1pfWlBHa1BqQWc/view?usp=sharing  </a> </li>
+	 	<li>Recursos sugeridos por Nathan Gold: <a style="color: #eae46f;" href="http://www.democoach.com/hidden-gems/" target="_blank" rel="noopener">Recursos sugeridos por Nathan Gold: Joias escondidas</a> </li>
+	 	<li><a style="color: #eae46f;" href="https://www.youtube.com/watch?v=51TLge2peLc" target="_blank" rel="noopener">Vídeo do Guy Kawasaki: </a></li>
+	 	<li><a style="color: #eae46f;" href="https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action" target="_blank" rel="noopener">TED: Simon Sinek - Como grandes líderes inspiram ação</a></li>
+	</ul>
+</div>
