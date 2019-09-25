@@ -1,205 +1,210 @@
 <h1>Pitch 1</h1>
 <h1>Create a Pitch Story and Video</h1>
 <ul>
-<li><a href="#what">რა არის Pitch?<br />
-</a></li>
-<li><a href="#act1">Inspiration</a></li>
-<li><a href="#story">Pitch through Storytelling</a></li>
-<li><a href="#act2">Storyboard</a></li>
-<li><a href="#pvid">Create a Pitch Video</a></li>
-<li><a href="#script">Write your Script</a></li>
-<li><a href="#practice">Practice</a></li>
-<li><a href="#film">Film your Video</a></li>
-<li><a href="#edit">Edit your Video</a></li>
-<li><a href="#upload">Upload your Video</a></li>
-<li><a href="#reflect">Reflect</a></li>
+	<li><a href="#what">რა არის Pitch?<br /></a></li>
+	<li><a href="#act1">Inspiration</a></li>
+	<li><a href="#story">Pitch through Storytelling</a></li>
+	<li><a href="#act2">Storyboard</a></li>
+	<li><a href="#pvid">Create a Pitch Video</a></li>
+	<li><a href="#script">Write your Script</a></li>
+	<li><a href="#practice">Practice</a></li>
+	<li><a href="#film">Film your Video</a></li>
+	<li><a href="#edit">Edit your Video</a></li>
+	<li><a href="#upload">Upload your Video</a></li>
+	<li><a href="#reflect">Reflect</a></li>
 </ul>
 <h2><b>სასწავლო ამოცანები:</b></h2>
 <p>ამ მოდულში, თქვენ შეისწავლით...</p>
 <ul>
-<li>თუ რა ძირითადი ნაწილებისგან შედგება Pitch ანუ სპეციალური რეკლამა</li>
-<li>როგორ შექმნათ ამ სპეცილური რეკლმის სიუჟეტი</li>
-<li>რჩევებს და უნარებს, თუ როგორ გადაიღოთ თქვენი სარეკლამო ვიდეო</li>
+	<li>თუ რა ძირითადი ნაწილებისგან შედგება Pitch ანუ სპეციალური რეკლამა</li>
+	<li>როგორ შექმნათ ამ სპეცილური რეკლმის სიუჟეტი</li>
+	<li>რჩევებს და უნარებს, თუ როგორ გადაიღოთ თქვენი სარეკლამო ვიდეო</li>
 </ul>
-<h3>რა არის Pitch?</h3>
+<h3 id="what">რა არის Pitch?</h3>
 <p><strong>Pitch</strong> არის საუბრის ისეთი ფორმა, რომელიც გულისხმობს ვინმეს დაყოლიებას და დარწმუნებას რაღაცის საყიდლად ან მისაღებად. ეს შეიძლება იყოს წარმოდგენილი ვიდეო, სიტყვიერი, სლაიდების ან თუნდაც წერილობითი ნაშრომის სახით. Technovation-ში, ყველა გუნდმა უნდა წარადგინოს Pitch ანუ სარეკლამო ვიდეო, როგორც დავალების ნაწილი. ზოგიერთმა მონაწილემ შეიძლება ცოცხალად შეასრულოს მისი წარდგენა! გააფრთხილეთ თქვენი მენტორი თუ ცოცხლად წარდგენა გადაწყვიტეთ. საერთო ჯამში, თქვენმა სარეკლამო წარდგენამ უნდა გადმოსცეს ის ამბავი, თუ როგორ დაიწყო თქვენი იდეა და თანდათაობით როგორ გადაიზარდა იგი ბიზნესში.</p>
 <p>pitch-რეკლამის მიზანია ხალხი დაარწმუნოს და თანხა დააბანდოს თქვენს აპლიკაციაში და კომპანიაში. ხოლო <strong>დემო-ვიდეოს</strong> მიზანია თქვენი აპლიკაციის ფუნქციების სადემონსტრაციო და გამჭვირვალე ჩვენება. თქვენ გექნებათ <strong>4</strong> წუთი, რათა შექმნათ თქვენი აპლიკაციის ქეიზი სარეკლამო ვიდეოში. ამ ვიდეოში აუცილებლად უნდა <strong>გასცეთ</strong> <strong>5 W + H</strong> ანუ 5 კითხვით სიტყვას პასუხი: ვინ, რა, როდის, სად, რატომ და როგორ. ამ 5 შეკიხვაზე პასუხის გაცემა საჭირო ინფორმაციას მოგცემთ, რომელიც ხალხის დარწმუნებაში დაგეხმარებათ და გარანტიას მოგცემთ, რომ თქვენი აპლიკაცია წარმატებული იქნება. არ შეგეშინდეთ და<br />
 გამოიყნეთ თქვენი შემოქმედებითი უნარი, რათა სხვებისგან განსაკუთრებული გახადოთ თქვენი აპლიკაცია!</p>
 <p>დაბრუნდით უკან <a href="/?p=16828" target="_blank" rel="noopener">Ideation Unit</a> ნაწილზე და გაიხსენეთ როგორ განავითარეთ თქვენი აპლიკაციის იდეა. ამ ინფორმაციის გამოყენება დაგჭირდებათ ამ ვიდეოში. თქვენი სარეკლამო ვიდეო უნდა პასუხობდეს <a href="/?p=16828#whatisproblemstatement" target="_blank" rel="noopener">4 problem statement questions</a> შეკითხვას და უფრო ეფექტური, რომ გახდეს რამდენიმე ელემენტის დამატებაც მოგიწევთ. აქ მოცემულია pitch რეკლამის რამდენიმე მნიშვნელოვანი ნაწილი <a href="http://articles.bplans.com/the-7-key-components-of-a-perfect-elevator-pitch/" target="_blank" rel="noopener">key parts</a>:</p>
 <ul>
-<li style="font-weight: 400;"><b>პრობლემა:</b> განსაზღვრეთ პრობლემა და საზოგადოება. დაურთეთ ამ პრობლემის გამომწვევი გარკვეული მიზეზები და დამაჯერებლად ახსენით გადაჭრის გზები. თქვენ უნდა შეგეძლოთ ამ პრობლების აღწერა ერთ ან ორ წინადადებაში.</li>
-<li style="font-weight: 400;"><b>გამოსავალი:</b> აღწერეთ ამ პრობლემიდან გამოსვლის თქვენეული გზა, რომელსაც აპლიკაციის აშუალებით სთავაზობთ.</li>
-<li style="font-weight: 400;"><b>სამიზნე ბაზარი:</b> განსაზღვრეთ, თუ ვის ეხება ეს პრობლემა და მოიძიეთ ინფორმაცია თქვენს მიზნობრივ ბაზარზე (ანუ სამიზნე მომხმარებელზე). მოგიწევთ, ზოგიერთი ფაქტის და ციფრების, დართვა რომელიც საბაზრო კვლევის ნაწილში მოიძიეთ და მოაგროვეთ <a href="http://www.technovationchallenge.org/curriculum/business2/" target="_blank" rel="noopener">Market Research</a>.</li>
-<li style="font-weight: 400;"><b>კონკურენცია:</b> ახსენით თუ რატომ არის თქვენი აპლიკაცია ამ პრობლემის მოგვარების საუკეთესო გზა სხვა საშუალბებთან შედარებით. თუ არ არსებობს პირდაპირი კონკურენტები, ახსენით როგორ და რატომ მოაგვარებს თქვენი აპლიკაცია ამ პრობლემას. აღწერეთ თქვენი კონკურენტების ანალიზი <a href="http://www.technovationchallenge.org/curriculum/business2/#comanalysis" target="_blank" rel="noopener">competitor analysis</a>.</li>
-<li style="font-weight: 400;"><b>გუნდი:</b> რეკლამაში უნდა ისაუბროთ თქვენი გუნდის და გუნდის წევრების შესახებ. ვინ აწარმოებს ამ ბიზნესს და რა როლს თამაშობს თითოეული გუნდის წევრი. შეიძლება კიდევ განვმარტოთ, თუ რატომ არის გუნდი მონდომებული ამ კონკრეტული პრობლემის გადაჭრის შესახებ. სასურვლია მაყურებელმა იცოდეს, ვინ დგას ამ ყველა, დიდი სამუშაოს უკან და რა აძლევთ ასეთ მოტივაციას!</li>
-<li style="font-weight: 400;"><strong>ფინანსები და ეტაპები:</strong> მოკლედ განიხილეთ თქვენი ბიზნეს მოდელი <a href="http://www.technovationchallenge.org/curriculum/business3/" target="_blank" rel="noopener">business model</a> და ისაუბრეთ თქვენი მომავალი ნაბიჯების შესახებ თუ როგორ გეგმავთ შემოსავლის მიღებას თქვენი ბიზნესის წყალობით. თუ თქვენი ბიზნესი არაკომერციულია, განმარტეთ როგორ და რატომ აირჩიეთ ეს მიდგომა.</li>
+	<li style="font-weight: 400;"><b>პრობლემა:</b> განსაზღვრეთ პრობლემა და საზოგადოება. დაურთეთ ამ პრობლემის გამომწვევი გარკვეული მიზეზები და დამაჯერებლად ახსენით გადაჭრის გზები. თქვენ უნდა შეგეძლოთ ამ პრობლების აღწერა ერთ ან ორ წინადადებაში.</li>
+	<li style="font-weight: 400;"><b>გამოსავალი:</b> აღწერეთ ამ პრობლემიდან გამოსვლის თქვენეული გზა, რომელსაც აპლიკაციის აშუალებით სთავაზობთ.</li>
+	<li style="font-weight: 400;"><b>სამიზნე ბაზარი:</b> განსაზღვრეთ, თუ ვის ეხება ეს პრობლემა და მოიძიეთ ინფორმაცია თქვენს მიზნობრივ ბაზარზე (ანუ სამიზნე მომხმარებელზე). მოგიწევთ, ზოგიერთი ფაქტის და ციფრების, დართვა რომელიც საბაზრო კვლევის ნაწილში მოიძიეთ და მოაგროვეთ <a href="http://www.technovationchallenge.org/curriculum/business-2/" target="_blank" rel="noopener">Market Research</a>.</li>
+	<li style="font-weight: 400;"><b>კონკურენცია:</b> ახსენით თუ რატომ არის თქვენი აპლიკაცია ამ პრობლემის მოგვარების საუკეთესო გზა სხვა საშუალბებთან შედარებით. თუ არ არსებობს პირდაპირი კონკურენტები, ახსენით როგორ და რატომ მოაგვარებს თქვენი აპლიკაცია ამ პრობლემას. აღწერეთ თქვენი კონკურენტების ანალიზი <a href="http://www.technovationchallenge.org/curriculum/business-2/#comanalysis" target="_blank" rel="noopener">competitor analysis</a>.</li>
+	<li style="font-weight: 400;"><b>გუნდი:</b> რეკლამაში უნდა ისაუბროთ თქვენი გუნდის და გუნდის წევრების შესახებ. ვინ აწარმოებს ამ ბიზნესს და რა როლს თამაშობს თითოეული გუნდის წევრი. შეიძლება კიდევ განვმარტოთ, თუ რატომ არის გუნდი მონდომებული ამ კონკრეტული პრობლემის გადაჭრის შესახებ. სასურვლია მაყურებელმა იცოდეს, ვინ დგას ამ ყველა, დიდი სამუშაოს უკან და რა აძლევთ ასეთ მოტივაციას!</li>
+	<li style="font-weight: 400;"><strong>ფინანსები და ეტაპები:</strong> მოკლედ განიხილეთ თქვენი ბიზნეს მოდელი <a href="http://www.technovationchallenge.org/curriculum/business-3/" target="_blank" rel="noopener">business model</a> და ისაუბრეთ თქვენი მომავალი ნაბიჯების შესახებ თუ როგორ გეგმავთ შემოსავლის მიღებას თქვენი ბიზნესის წყალობით. თუ თქვენი ბიზნესი არაკომერციულია, განმარტეთ როგორ და რატომ აირჩიეთ ეს მიდგომა.</li>
 </ul>
-<h3><b></b>აქტივობა: მოძებნეთ თქვენი ინსპირაციის წყარო</h3>
-<p>Below are pitch videos from past Technovation seasons that can help you get started. As you watch them, think about what you like and how you’d incorporate that into your videos. Ask the following questions:</p>
-<ol>
-<li style="font-weight: 400;">What makes their pitch stand out?</li>
-<li style="font-weight: 400;">Do they use visuals? Are they well used?</li>
-<li style="font-weight: 400;">Is their message strong? Is it clear?</li>
-<li style="font-weight: 400;">Does the team seem knowledgeable? Have they done their homework?</li>
-<li style="font-weight: 400;">Do they clearly explain why their app solves their problem?</li>
-<li style="font-weight: 400;">Does the team portray confidence? How?</li>
-<li style="font-weight: 400;">Does the team make you believe their business will succeed based on their video?</li>
-<li style="font-weight: 400;">Was their video easy to understand and clearly organized? Why?</li>
-</ol>
-<h3></h3>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3 id="act1"><b></b>აქტივობა: მოძებნეთ თქვენი ინსპირაციის წყარო</h3>
+	<p>Below are pitch videos from past Technovation seasons that can help you get started. As you watch them, think about what you like and how you’d incorporate that into your videos. Ask the following questions:</p>
+	<ol>
+		<li style="font-weight: 400;">What makes their pitch stand out?</li>
+		<li style="font-weight: 400;">Do they use visuals? Are they well used?</li>
+		<li style="font-weight: 400;">Is their message strong? Is it clear?</li>
+		<li style="font-weight: 400;">Does the team seem knowledgeable? Have they done their homework?</li>
+		<li style="font-weight: 400;">Do they clearly explain why their app solves their problem?</li>
+		<li style="font-weight: 400;">Does the team portray confidence? How?</li>
+		<li style="font-weight: 400;">Does the team make you believe their business will succeed based on their video?</li>
+		<li style="font-weight: 400;">Was their video easy to understand and clearly organized? Why?</li>
+	</ol>
+</div>	
+
 <p><iframe style="width: 100%; height: 180px;" src="https://www.youtube.com/embed/evOgwXoi7oU" width="300" height="150" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
-<p><b>California Coders</b> Loc8 Don8, 2016<br />
-Clearly defined problem and solution</p>
+<p><b>California Coders</b> Loc8 Don8, 2016<br />Clearly defined problem and solution</p>
+
 <p><iframe style="width: 100%; height: 180px;" src="https://www.youtube.com/embed/5f_Jn0MGeEY" width="300" height="150" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
-<p><b>Northgate STEM</b> Unwind, 2014<br />
-Well organized and clear and clear argument that is easy to understand</p>
+<p><b>Northgate STEM</b> Unwind, 2014<br />Well organized and clear and clear argument that is easy to understand</p>
+
 <p><iframe style="width: 100%; height: 180px;" src="https://www.youtube.com/embed/x04BdQIc4ZY" width="300" height="150" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
-<p><b>Dharavi</b> Girls for Change, 2015<br />
-Compelling story and illustration of the problem</p>
+<p><b>Dharavi</b> Girls for Change, 2015<br />Compelling story and illustration of the problem</p>
+
 <p><iframe style="width: 100%; height: 180px;" src="https://www.youtube.com/embed/Qmg1PBICJ64" width="300" height="150" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
-<p><b>Nightingale</b> Arrive, 2013<br />
-Great narration and explanation of how the app works</p>
+<p><b>Nightingale</b> Arrive, 2013<br />Great narration and explanation of how the app works</p>
+
 <p><iframe style="width: 100%; height: 180px;" src="https://www.youtube.com/embed/1cnLiSySizw" width="300" height="150" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
-<p><b>Team Ștefănești</b> Apă Pură, 2014<br />
-Great intro, smart use of graphics and subtitles</p>
+<p><b>Team Ștefănești</b> Apă Pură, 2014<br />Great intro, smart use of graphics and subtitles</p>
+
 <p><iframe style="width: 100%; height: 180px;" src="https://www.youtube.com/embed/KAgw_GcCCxs" width="300" height="150" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
-<p><b>Team Charis</b> Discardious, 2015<br />
-Clear enunciation and passion, speaking directly to viewer</p>
-<h3>Pitch through Storytelling</h3>
+<p><b>Team Charis</b> Discardious, 2015<br />Clear enunciation and passion, speaking directly to viewer</p>
+
+<h3 id="story">Pitch through Storytelling</h3>
 <p>In order to develop a strong pitch, you will want to tell a story. People respond and grasp a story more easily than a straightforward explanation with figures and numbers. Sometimes it takes showmanship to get your point across. <b>Storytelling</b> is something that gives targeted messaging and emotional power behind your business. Telling great stories relies on eliciting emotions and gives technical information in an elegant way. Here’s a video provided by Accenture that can help you understand what storytelling is:</p>
-<p><center><br />
+<p><center>
 <iframe src="https://www.youtube.com/embed/SshglHDKQCc" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></center></p>
-<blockquote>
-<p style="text-align: center;">"Investors invest in stories, not businesses"</p>
-</blockquote>
-<p style="text-align: right;">–Babak Nivi, Venture Hacks/AngelList</p>
-<h3><b></b>Activity: Storyboard</h3>
-<p>A storyboard helps develop a strong argument for your app and makes sure you can tell a compelling story in order to convince potential investors to fund your app. It's a tool to help organize your story, just like an outline for a long essay. This will help you organize your thoughts, develop your pitch deck and even your pitch video! The following activity was developed by <a href="https://www.quora.com/profile/Brendan-Baker/Posts/Startups-How-to-Storyboard-your-Pitch-Deck-in-10-Steps" target="_blank" rel="noopener">Brendan Baker</a>.</p>
-<p>This activity will require your team to collaborate and brainstorm, so get a space you can work in together with a whiteboard, a large piece of paper, or use <a href="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Technocation-storyboard.pdf" target="_blank" rel="noopener">this printout</a>. If you are remote from the rest of your team, try an online collaboration tool, like <a href="https://support.google.com/docs/answer/179740?hl=en" target="_blank" rel="noopener">Google Drawings</a> or try a few <a href="http://www.creativebloq.com/design/online-collaboration-tools-912855" target="_blank" rel="noopener">other options</a>. Here’s a <a href="https://www.storyboardthat.com/storyboard-creator" target="_blank" rel="noopener">storyboarding app</a> that can also help! Just be sure to set up your template similar to what is shown on <a href="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Technocation-storyboard.pdf" target="_blank" rel="noopener">this printout</a>.</p>
-<ol>
-<li style="list-style-type: none;">
-<ol>
-<li style="list-style-type: none;">
-<ol>
-<li>First you’re going to brainstorm all your ideas in these categories:
-<ul>
-<li style="font-weight: 400;"><strong>Core story:</strong> overview of the story you want to tell. It should be summarized in a short sentence or two</li>
-<li style="font-weight: 400;"><strong>Highlights:</strong> 3-5 strong selling points points about your business, so you can show off the cool functions or abilities of your app</li>
-<li style="font-weight: 400;"><strong>Hesitations:</strong> 3-5 items that investors might worry about if they were to invest in your business, and why your app is still the best solution</li>
-<li style="font-weight: 400;"><strong>Notes:</strong> any other things that will add to your story</li>
-</ul>
-<p>List all of your thoughts! Write down all the knowledge you have about your app. Fill out the right side of the page as much as you can using the guidelines below. And don’t worry, you can always add to this part later.</li>
-<li style="font-weight: 400;">To start on your slides, you’ll write a title on top of each box. These slides will cover general topics, like the <a href="http://guykawasaki.com/the_102030_rule/" target="_blank" rel="noopener">ones below</a> described by <a href="http://guykawasaki.com/guy-kawasaki/" target="_blank" rel="noopener">Guy Kawaski</a>, a marketing specialist and venture capitalist. You can always reorder the slides to improve the flow of your story!
-<ul>
-<li style="font-weight: 400;"><b>Problem</b> - identify the issue and make it easy to understand</li>
-<li style="font-weight: 400;"><b>Your solution</b> - demonstrate how you will solve the problem you highlighted (Hint: your app!)</li>
-<li style="font-weight: 400;"><b>Business model</b> - explain how your business will make money</li>
-<li style="font-weight: 400;"><b>Underlying magic/technology</b> - describe the features and functions of your app you developed</li>
-<li style="font-weight: 400;"><b>Marketing and sales</b> - define who your customer is and how you will sell to them</li>
-<li style="font-weight: 400;"><b>Competition</b> - show who are the people you are up against and how you are a better option</li>
-<li style="font-weight: 400;"><b>Team</b> - showcase the people you work with</li>
-<li style="font-weight: 400;"><b>Projections and milestones</b> - give an overview of what you’ve done, what you plan to do, and highlight major things you’ve accomplished</li>
-<li style="font-weight: 400;"><b>Status and timeline</b> - report the latest updates and what you plan to do in the future</li>
-<li style="font-weight: 400;"><b>Summary and call to action</b> - review of what you told everyone and what you want the audience do next</li>
-</ul>
-</li>
-<li>Once you’re satisfied with the order of your slides, move on to draft each of the slide messages. This information will go at the bottom of the boxes. This is the main take away message you want the audience to know after they see this slide. If you need to move the slides around to make sure the flow of the story makes sense, go ahead and switch things up!</li>
-<li>Now you’ll want to add content to the slides that will communicate your message clearly. When you develop these slides, remember that the end goal of this storyboarding will be a video. Your slides do not have to end up being just a presentation deck. Your video can include skits, demonstrations, figures, or even interviews. Get creative in how you want you convey your message!</li>
-</ol>
-</li>
-</ol>
-</li>
-</ol>
-<p>You also can draw rough diagrams or images of what figures you want to add. You want to tell the most concise story possible. By the end your slides should start filling up like this example from Brendan Baker:</p>
-<p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/BBaker-storyboard.jpeg" alt="Brendan Baker example storyboard" width="774" height="600" /></p>
-<ol>
-<li style="list-style-type: none;">
-<ol start="5">
-<li style="font-weight: 400;" value="5">Take a look at all the storyboard slides you created and make sure they are easy to understand for a wide audience. You’ll want to be self-critical—don’t keep anything that doesn’t add to your story or your slides’ message. Ask yourself:
-<ul>
-<li>Does it make sense?</li>
-<li>How does it flow?</li>
-<li>Is the core story being delivered?</li>
-<li>Are the hesitations and highlights told in an elegant way?</li>
-<li>Do the different ways of messaging tell the story in the best possible way?</li>
-</ul>
-</li>
-<li>Ask a mentor or someone outside of your team to give you feedback on everything: your flow, the different ways are messaging information, and if it is telling the story you want. You’ll be presenting to a lot of people with different backgrounds, so asking people with different opinions can help you appeal to a wide audience. Remove anything that is unnecessary or extra.</li>
-</ol>
-</li>
-</ol>
-<p>When you are satisfied with your storyboard, you are ready to get started on filming your video! For more tips and tricks on developing a strong pitch, you can check out the additional resources in the <a href="#reflect">reflect section</a> below.</p>
-<h3>Create a Pitch Video</h3>
+<div style="background-color: #421b41; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<blockquote>
+	<p style="text-align: center;">"Investors invest in stories, not businesses"</p>
+	</blockquote>
+	<p style="text-align: right;">–Babak Nivi, Venture Hacks/AngelList</p>
+</div>
+<div style="background-color: #28a880; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">	
+	<h3 id="act2"><strong>Activity: Storyboard</strong></h3>
+	<p>A storyboard helps develop a strong argument for your app and makes sure you can tell a compelling story in order to convince potential investors to fund your app. It's a tool to help organize your story, just like an outline for a long essay. This will help you organize your thoughts, develop your pitch deck and even your pitch video! The following activity was developed by <a style="color: #eae46f;" href="https://www.quora.com/profile/Brendan-Baker/Posts/Startups-How-to-Storyboard-your-Pitch-Deck-in-10-Steps" target="_blank" rel="noopener">Brendan Baker</a>.</p>
+	<p>This activity will require your team to collaborate and brainstorm, so get a space you can work in together with a whiteboard, a large piece of paper, or use <a style="color: #eae46f;" href="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Technocation-storyboard.pdf" target="_blank" rel="noopener">this printout</a>. If you are remote from the rest of your team, try an online collaboration tool, like <a style="color: #eae46f;" href="https://support.google.com/docs/answer/179740?hl=en" target="_blank" rel="noopener">Google Drawings</a> or try a few <a style="color: #eae46f;" href="http://www.creativebloq.com/design/online-collaboration-tools-912855" target="_blank" rel="noopener">other options</a>. Here’s a <a style="color: #eae46f;" href="https://www.storyboardthat.com/storyboard-creator" target="_blank" rel="noopener">storyboarding app</a> that can also help! Just be sure to set up your template similar to what is shown on <a style="color: #eae46f;" href="http://www.technovationchallenge.org/wp-content/uploads/2016/11/Technocation-storyboard.pdf" target="_blank" rel="noopener">this printout</a>.</p>
+	<ol>
+		<li style="list-style-type: none;">
+		<ol>
+			<li style="list-style-type: none;">
+			<ol>
+				<li>First you’re going to brainstorm all your ideas in these categories:
+				<ul>
+					<li style="font-weight: 400;"><strong>Core story:</strong> overview of the story you want to tell. It should be summarized in a short sentence or two</li>
+					<li style="font-weight: 400;"><strong>Highlights:</strong> 3-5 strong selling points points about your business, so you can show off the cool functions or abilities of your app</li>
+					<li style="font-weight: 400;"><strong>Hesitations:</strong> 3-5 items that investors might worry about if they were to invest in your business, and why your app is still the best solution</li>
+					<li style="font-weight: 400;"><strong>Notes:</strong> any other things that will add to your story</li>
+				</ul>
+				List all of your thoughts! Write down all the knowledge you have about your app. Fill out the right side of the page as much as you can using the guidelines below. And don’t worry, you can always add to this part later.</li>
+				<li style="font-weight: 400;">To start on your slides, you’ll write a title on top of each box. These slides will cover general topics, like the <a style="color: #eae46f;" href="http://guykawasaki.com/the_102030_rule/" target="_blank" rel="noopener">ones below</a> described by <a style="color: #eae46f;" href="http://guykawasaki.com/guy-kawasaki/" target="_blank" rel="noopener">Guy Kawaski</a>, a marketing specialist and venture capitalist. You can always reorder the slides to improve the flow of your story!
+				<ul>
+					<li style="font-weight: 400;"><b>Problem</b> - identify the issue and make it easy to understand</li>
+					<li style="font-weight: 400;"><b>Your solution</b> - demonstrate how you will solve the problem you highlighted (Hint: your app!)</li>
+					<li style="font-weight: 400;"><b>Business model</b> - explain how your business will make money</li>
+					<li style="font-weight: 400;"><b>Underlying magic/technology</b> - describe the features and functions of your app you developed</li>
+					<li style="font-weight: 400;"><b>Marketing and sales</b> - define who your customer is and how you will sell to them</li>
+					<li style="font-weight: 400;"><b>Competition</b> - show who are the people you are up against and how you are a better option</li>
+					<li style="font-weight: 400;"><b>Team</b> - showcase the people you work with</li>
+					<li style="font-weight: 400;"><b>Projections and milestones</b> - give an overview of what you’ve done, what you plan to do, and highlight major things you’ve accomplished</li>
+					<li style="font-weight: 400;"><b>Status and timeline</b> - report the latest updates and what you plan to do in the future</li>
+					<li style="font-weight: 400;"><b>Summary and call to action</b> - review of what you told everyone and what you want the audience do next</li>
+				</ul>
+				</li>
+				<li>Once you’re satisfied with the order of your slides, move on to draft each of the slide messages. This information will go at the bottom of the boxes. This is the main take away message you want the audience to know after they see this slide. If you need to move the slides around to make sure the flow of the story makes sense, go ahead and switch things up!</li>
+				<li>Now you’ll want to add content to the slides that will communicate your message clearly. When you develop these slides, remember that the end goal of this storyboarding will be a video. Your slides do not have to end up being just a presentation deck. Your video can include skits, demonstrations, figures, or even interviews. Get creative in how you want you convey your message!</li>
+			</ol>
+			</li>
+		</ol>
+		</li>
+	</ol>
+	<p>You also can draw rough diagrams or images of what figures you want to add. You want to tell the most concise story possible. By the end your slides should start filling up like this example from Brendan Baker:</p>
+	<p><img src="http://www.technovationchallenge.org/wp-content/uploads/2016/11/BBaker-storyboard.jpeg" alt="Brendan Baker example storyboard" width="774" height="600" /></p>
+	<ol>
+		<li style="list-style-type: none;">
+			<ol start="5">
+			<li style="font-weight: 400;" value="5">Take a look at all the storyboard slides you created and make sure they are easy to understand for a wide audience. You’ll want to be self-critical—don’t keep anything that doesn’t add to your story or your slides’ message. Ask yourself:
+			<ul>
+				<li>Does it make sense?</li>
+				<li>How does it flow?</li>
+				<li>Is the core story being delivered?</li>
+				<li>Are the hesitations and highlights told in an elegant way?</li>
+				<li>Do the different ways of messaging tell the story in the best possible way?</li>
+			</ul>
+			</li>
+			<li>Ask a mentor or someone outside of your team to give you feedback on everything: your flow, the different ways are messaging information, and if it is telling the story you want. You’ll be presenting to a lot of people with different backgrounds, so asking people with different opinions can help you appeal to a wide audience. Remove anything that is unnecessary or extra.</li>
+		</ol>
+		</li>
+	</ol>
+	<p>When you are satisfied with your storyboard, you are ready to get started on filming your video! For more tips and tricks on developing a strong pitch, you can check out the additional resources in the <a style="color: #eae46f;" href="#reflect">reflect section</a> below.</p>
+</div>
+<h3 id="pvid">Create a Pitch Video</h3>
 <p>Once you’ve created your storyboard, you are ready to bring your story to life! Teams who are doing online submissions can develop a pitch video using the directions below.</p>
 <p>To get started on your pitch video, you’ll want to first review the pitch video requirements below so you get an idea of what your end product should look like. You might even also want to go back and take a look at some past teams’ submissions to get a better idea of what was submitted before.</p>
 <h5>Pitch Video Requirements</h5>
 <ul>
-<li style="font-weight: 400;"><b>All members of the team are encouraged to speak.</b> Everyone should participate in the filming of this video, so judges can get to know all the team members and their role in the business.</li>
-<li style="font-weight: 400;"><b>Video can be up to 4 minutes long. </b>Pitch videos should be short and straight to the point, but be able to carry its message across.</li>
+	<li style="font-weight: 400;"><b>All members of the team are encouraged to speak.</b> Everyone should participate in the filming of this video, so judges can get to know all the team members and their role in the business.</li>
+	<li style="font-weight: 400;"><b>Video can be up to 4 minutes long. </b>Pitch videos should be short and straight to the point, but be able to carry its message across.</li>
 </ul>
 <ul>
-<li style="font-weight: 400;"><b>Information can be presented in any format the team wants.</b> You can get as creative as you want here! You can use a variety of methods to tell your story. Some examples are: skits, slide presentations, testimonials from users, or interviews.</li>
+	<li style="font-weight: 400;"><b>Information can be presented in any format the team wants.</b> You can get as creative as you want here! You can use a variety of methods to tell your story. Some examples are: skits, slide presentations, testimonials from users, or interviews.</li>
 </ul>
 <ul>
-<li style="font-weight: 400;"><b>Cite images and information. </b>Make sure to ask for consent or give acknowledgment to the person who created it. You can learn more about copyright, fair use, and public domain <a href="http://www.whoishostingthis.com/resources/student-copyright/" target="_blank" rel="noopener">here</a>. If there are people who will be acting in your video, or if you are taking footage in your neighborhood and people are in the footage, please have them sign a release form. Here is a <a href="https://docs.google.com/document/d/1AYfW98JA8kGV92TIq3QCNpZ_uG6DN2uGYzziN4J6Nts/edit?usp=sharing" target="_blank" rel="noopener">template</a> for a photo or video release form that you can use. <a href="https://commons.wikimedia.org/wiki/Main_Page" target="_blank" rel="noopener">Wikimedia Commons</a> is a good place to start when looking for images you can use.</li>
+	<li style="font-weight: 400;"><b>Cite images and information. </b>Make sure to ask for consent or give acknowledgment to the person who created it. You can learn more about copyright, fair use, and public domain <a href="http://www.whoishostingthis.com/resources/student-copyright/" target="_blank" rel="noopener">here</a>. If there are people who will be acting in your video, or if you are taking footage in your neighborhood and people are in the footage, please have them sign a release form. Here is a <a href="https://docs.google.com/document/d/1AYfW98JA8kGV92TIq3QCNpZ_uG6DN2uGYzziN4J6Nts/edit?usp=sharing" target="_blank" rel="noopener">template</a> for a photo or video release form that you can use. <a href="https://commons.wikimedia.org/wiki/Main_Page" target="_blank" rel="noopener">Wikimedia Commons</a> is a good place to start when looking for images you can use.</li>
 </ul>
 <ul>
-<li style="font-weight: 400;"><b>The video must be uploaded to YouTube or Vimeo.</b> Your submission should be accessible to the judges through a link on the Technovation submission platform. It should be uploaded and the link should be shared; we recommend using YouTube or Vimeo, but you can use other applications as long as it can be accessible to the public.</li>
+	<li style="font-weight: 400;"><b>The video must be uploaded to YouTube or Vimeo.</b> Your submission should be accessible to the judges through a link on the Technovation submission platform. It should be uploaded and the link should be shared; we recommend using YouTube or Vimeo, but you can use other applications as long as it can be accessible to the public.</li>
 </ul>
-<h5> <b>Write your script</b></h5>
+<h5 id="script"> <strong>Write your script</strong></h5>
 <p>Now that you know your video requirements, you can begin working on the pitch script. You can use your storyboard as an outline and start writing on your script. You can always modify and change your storyboard as you develop your script further.</p>
 <p>Scripts generally have three main parts:</p>
 <ol>
-<li><b>Hook:</b> You will want to have a strong opening, something that is attention grabbing that makes you pay attention. Is there a story you can tell that illustrates the problem you are trying to solve with your app? Why are you passionate as a team about solving this problem?</li>
-<li><b>Problem &amp; Solution: </b>Present the problem and your solution. Don’t just tell us, but give information to support the problem and solution so it is convincing to the viewer.</li>
-<li><b>Call to Action:</b> You presented an exciting project that you have been working hard on, and what’s next? Let the viewer know what you are planning on doing next, or ask the viewer to do something at the end of your video-- whether it’s invest in your business or join your team.</li>
+	<li><b>Hook:</b> You will want to have a strong opening, something that is attention grabbing that makes you pay attention. Is there a story you can tell that illustrates the problem you are trying to solve with your app? Why are you passionate as a team about solving this problem?</li>
+	<li><b>Problem &amp; Solution: </b>Present the problem and your solution. Don’t just tell us, but give information to support the problem and solution so it is convincing to the viewer.</li>
+	<li><b>Call to Action:</b> You presented an exciting project that you have been working hard on, and what’s next? Let the viewer know what you are planning on doing next, or ask the viewer to do something at the end of your video-- whether it’s invest in your business or join your team.</li>
 </ol>
 <p>Once you have a draft of your script, review it and refine it. You might even want a mentor or someone to help you take a look at it. It has to be understood by a wide audience.</p>
-<h5>Practice, practice, practice!</h5>
+<h5 id="practice">Practice, practice, practice!</h5>
 <p>Rehearse your pitch!</p>
 <p>Practice with your teammates and different audiences to get feedback. You want your audience to see you as as knowledgeable, confident, and capable so they can trust that your company is set up for success. You don’t want to memorize your script word for word, since that can come off pretty stale. Here are some presentation tips for you as you practice:</p>
 <ul>
-<li style="font-weight: 400;">Speak clearly and confidently</li>
-<li style="font-weight: 400;">Make eye contact with the viewer or camera</li>
-<li style="font-weight: 400;">Don’t use filler words like "um”, “so”, or  “like"; try pausing or taking a breath instead.</li>
-<li style="font-weight: 400;">Use open body language, large gestures (more<a href="http://www.huffingtonpost.com/tara-chklovski/how-do-you-become-a-bette_b_5037226.html" target="_blank" rel="noopener"> tips on body language</a>)</li>
-<li style="font-weight: 400;">SMILE! Be proud of your work</li>
+	<li style="font-weight: 400;">Speak clearly and confidently</li>
+	<li style="font-weight: 400;">Make eye contact with the viewer or camera</li>
+	<li style="font-weight: 400;">Don’t use filler words like "um”, “so”, or  “like"; try pausing or taking a breath instead.</li>
+	<li style="font-weight: 400;">Use open body language, large gestures (more<a href="http://www.huffingtonpost.com/tara-chklovski/how-do-you-become-a-bette_b_5037226.html" target="_blank" rel="noopener"> tips on body language</a>)</li>
+	<li style="font-weight: 400;">SMILE! Be proud of your work</li>
 </ul>
 <p>You can also practice with some of the activities provided by Accenture below.</p>
 <ul>
-<li style="font-weight: 400;"><a href="https://docs.google.com/document/d/1ctllwBybTqrzBfjoKjPVgnolhGLq9NVzAwDivEbfQUY/edit?usp=sharing" target="_blank" rel="noopener">Pitching Rubric</a> (Provided by Accenture)</li>
-<li style="font-weight: 400;"><a href="https://docs.google.com/document/d/1CBXHlA7FCjekQ54tZjis5x98Y8buEwIW3zlCcT9RlGM/edit?usp=sharing" target="_blank" rel="noopener">Pitching Activities</a> (Provided by Accenture)</li>
+	<li style="font-weight: 400;"><a href="https://docs.google.com/document/d/1ctllwBybTqrzBfjoKjPVgnolhGLq9NVzAwDivEbfQUY/edit?usp=sharing" target="_blank" rel="noopener">Pitching Rubric</a> (Provided by Accenture)</li>
+	<li style="font-weight: 400;"><a href="https://docs.google.com/document/d/1CBXHlA7FCjekQ54tZjis5x98Y8buEwIW3zlCcT9RlGM/edit?usp=sharing" target="_blank" rel="noopener">Pitching Activities</a> (Provided by Accenture)</li>
 </ul>
-<h5>Film your video</h5>
+<h5 id="film">Film your video</h5>
 <p>Once you and your team are comfortable with your script and know it well, you’re ready to film! For this part, you’ll need to get access to a video camera or video recording device, an audio-recording device, and a computer to edit your video.</p>
 <p>When you film your video, keep in mind a few presentation tips:</p>
 <ul>
-<li style="font-weight: 400;">Make sure everyone is loud and clear. <a href="http://www.thesunchronicle.com/video_class/importance-of-good-audio/article_b353e69c-9424-11e3-98e7-001a4bcf887a.html" target="_blank" rel="noopener">Good audio</a> is critical to understanding your pitch. Make sure there is minimum background noise.</li>
-<li style="font-weight: 400;">You can use cue cards to help convey parts of your script and to maintain eye contact with the camera or your audience. Here is more <a href="http://www.write-out-loud.com/cue-cards.html" target="_blank" rel="noopener">information</a>.</li>
-<li style="font-weight: 400;">Make eye contact with the camera, imagine there’s an audience watching you as you present</li>
-<li style="font-weight: 400;">Don’t chew gum or candy when speaking.</li>
-<li style="font-weight: 400;">Dress for success! Make sure your outfits are appropriate. Avoid wearing busy patterns, since they can look confusing on camera.</li>
-<li style="font-weight: 400;">Pause or feel free to retake some shots-- you don’t have always to do it in one take. You can always edit later.</li>
+	<li style="font-weight: 400;">Make sure everyone is loud and clear. <a href="http://www.thesunchronicle.com/video_class/importance-of-good-audio/article_b353e69c-9424-11e3-98e7-001a4bcf887a.html" target="_blank" rel="noopener">Good audio</a> is critical to understanding your pitch. Make sure there is minimum background noise.</li>
+	<li style="font-weight: 400;">You can use cue cards to help convey parts of your script and to maintain eye contact with the camera or your audience. Here is more <a href="http://www.write-out-loud.com/cue-cards.html" target="_blank" rel="noopener">information</a>.</li>
+	<li style="font-weight: 400;">Make eye contact with the camera, imagine there’s an audience watching you as you present</li>
+	<li style="font-weight: 400;">Don’t chew gum or candy when speaking.</li>
+	<li style="font-weight: 400;">Dress for success! Make sure your outfits are appropriate. Avoid wearing busy patterns, since they can look confusing on camera.</li>
+	<li style="font-weight: 400;">Pause or feel free to retake some shots-- you don’t have always to do it in one take. You can always edit later.</li>
 </ul>
 <p>Videography tips:</p>
 <ul>
-<li style="font-weight: 400;">Shoot using plenty of light so the subject is well lit. Make sure not to film with bright a window or light source behind your subject. This will backlight your subject, turning them into a silhouette on film!</li>
-<li style="font-weight: 400;">Keep your camera or phone stable using either a tripod or flat surface.</li>
-<li style="font-weight: 400;">Shoot videos in landscape mode instead of vertical.</li>
-<li style="font-weight: 400;">Choose backgrounds carefully to not be too distracting (ex: placing items behind someone that would appear coming out of their head in the video).</li>
+	<li style="font-weight: 400;">Shoot using plenty of light so the subject is well lit. Make sure not to film with bright a window or light source behind your subject. This will backlight your subject, turning them into a silhouette on film!</li>
+	<li style="font-weight: 400;">Keep your camera or phone stable using either a tripod or flat surface.</li>
+	<li style="font-weight: 400;">Shoot videos in landscape mode instead of vertical.</li>
+	<li style="font-weight: 400;">Choose backgrounds carefully to not be too distracting (ex: placing items behind someone that would appear coming out of their head in the video).</li>
 </ul>
 <p>Think about where you might want to edit to add visuals or use <a href="http://www.izzyvideo.com/voice-over/" target="_blank" rel="noopener">voiceovers</a> to finalize your video.</p>
-<h5>Edit your video</h5>
+<h5 id="edit">Edit your video</h5>
 <p>There are different techniques you can use to create your pitch video. Video editing can take a very long time and will take a lot of edits until you get to your final product. It will help to give yourself a lot of time for this step. You’ll want to revisit this and revise it until you are satisfied with the final product. Remember, the pitch video is one of the most important messages that your judges will take from your project.</p>
 <p><b>Video Editing Resources</b></p>
 <ul>
-<li style="font-weight: 400;"><a href="https://support.google.com/youtube/answer/183851?hl=en" target="_blank" rel="noopener">Youtube Video Editor</a></li>
-<li style="font-weight: 400;"><a href="http://blog.ted.com/10-tips-for-editing-video/" target="_blank" rel="noopener">TED: 10 tips for editing video</a></li>
-<li style="font-weight: 400;"><a href="http://lifehacker.com/5785558/the-basics-of-video-editing-the-complete-guide" target="_blank" rel="noopener">Lifehacker: The Basics of Video Editing: The Complete Guide</a></li>
-<li style="font-weight: 400;"><a href="https://www.youtube.com/watch?v=E_avNkrUVbc" target="_blank" rel="noopener">Bitpod: How to make pitch and proposal videos</a></li>
-<li style="font-weight: 400;"><a href="https://go.indiegogo.com/blog/2010/12/6-tips-for-a-good-pitch-video.html" target="_blank" rel="noopener">Indiegogo: Tips on Strong Video Pitches</a></li>
+	<li style="font-weight: 400;"><a href="https://support.google.com/youtube/answer/183851?hl=en" target="_blank" rel="noopener">Youtube Video Editor</a></li>
+	<li style="font-weight: 400;"><a href="http://blog.ted.com/10-tips-for-editing-video/" target="_blank" rel="noopener">TED: 10 tips for editing video</a></li>
+	<li style="font-weight: 400;"><a href="http://lifehacker.com/5785558/the-basics-of-video-editing-the-complete-guide" target="_blank" rel="noopener">Lifehacker: The Basics of Video Editing: The Complete Guide</a></li>
+	<li style="font-weight: 400;"><a href="https://www.youtube.com/watch?v=E_avNkrUVbc" target="_blank" rel="noopener">Bitpod: How to make pitch and proposal videos</a></li>
+	<li style="font-weight: 400;"><a href="https://go.indiegogo.com/blog/2010/12/6-tips-for-a-good-pitch-video.html" target="_blank" rel="noopener">Indiegogo: Tips on Strong Video Pitches</a></li>
 </ul>
-<h5>Upload your video</h5>
+<h5 id="upload">Upload your video</h5>
 <p>Now that you’re done with your video, you are ready to share it with the world!</p>
 <p>You can upload in through any kind of application you’d like, but YouTube or Vimeo is preferred. Here are guides that can help:</p>
 <p><iframe style="width: 100%; height: 280px;" src="https://www.youtube.com/embed/Hlxqk0iHp5w" width="300" height="150" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
@@ -208,21 +213,22 @@ Clear enunciation and passion, speaking directly to viewer</p>
 <p><iframe style="width: 100%; height: 280px;" src="https://player.vimeo.com/video/42647970" width="300" height="150" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 <p>&nbsp;</p>
 <p><a href="https://vimeo.com/help/faq/uploading-to-vimeo/uploading-basics" target="_blank" rel="noopener">How to upload onto Vimeo</a></p>
-<p>&nbsp;</p>
-<h3>Reflect</h3>
-<p>Congratulations, you've created a storyboard and pitch for your app! You were able to develop a story, film a video, and produce an awesome pitch video. What an accomplishment! Celebrate with your team and give yourselves some time to think about all the challenges you were able to overcome. Consider the following:</p>
-<ul>
-<li style="font-weight: 400;">Was it difficult to come up with your storyboard?</li>
-<li style="font-weight: 400;">Did the video come out the way you imagined? Why or why not?</li>
-<li style="font-weight: 400;">What challenges did you face while filming? Or editing?</li>
-</ul>
-<p>Make sure to upload your video link to the Technovation submission platform.</p>
-<p>Here are some additional resources if you're looking for more tips:</p>
-<h5><b>Additional Resources:</b></h5>
-<ul>
-<li style="font-weight: 400;"><a href="http://articles.bplans.com/9-things-that-take-a-pitch-from-good-to-great/" target="_blank" rel="noopener">BPlans: 9 Things That Take a Pitch From Good to Great</a></li>
-<li style="font-weight: 400;"><a href="http://articles.bplans.com/the-7-key-components-of-a-perfect-elevator-pitch/" target="_blank" rel="noopener">BPlans: 7 Key Components of a Perfect Elevator Pitch</a></li>
-<li style="font-weight: 400;"><a href="https://www.youtube.com/watch?v=l-8EQPpA4DM" target="_blank" rel="noopener">The Art of Start - by Guy Kawasaki</a></li>
-<li style="font-weight: 400;"><a href="http://www.forbes.com/sites/theyec/2015/04/22/how-to-craft-the-ultimate-60-second-startup-pitch/#bd62f242e84c" target="_blank" rel="noopener">Entrepreneur: How To Craft The Ultimate 60-Second Startup Pitch</a></li>
-<li style="font-weight: 400;"><a href="http://www.businessinsider.com/the-best-startup-pitches-of-all-time-2012-11?op=1" target="_blank" rel="noopener">Business Insider: Best Startup Pitches of All Time</a></li>
-</ul>
+<div style="background-color: #066677; color: white; padding: 25px; margin-top: 25px; margin-bottom: 25px;">
+	<h3 id = "reflect"><span style="color: #ffffff;"><strong>Reflect</strong></h3>
+	<p>Congratulations, you've created a storyboard and pitch for your app! You were able to develop a story, film a video, and produce an awesome pitch video. What an accomplishment! Celebrate with your team and give yourselves some time to think about all the challenges you were able to overcome. Consider the following:</p>
+	<ul>
+		<li style="font-weight: 400;">Was it difficult to come up with your storyboard?</li>
+		<li style="font-weight: 400;">Did the video come out the way you imagined? Why or why not?</li>
+		<li style="font-weight: 400;">What challenges did you face while filming? Or editing?</li>
+	</ul>
+	<p>Make sure to upload your video link to the Technovation submission platform.</p>
+	<p>Here are some additional resources if you're looking for more tips:</p>
+	<h5><span style="color: #ffffff;"><strong>Additional Resources:</strong></span> </h5>
+	<ul>
+		<li style="font-weight: 400;"><a style="color: #eae46f;" href="http://articles.bplans.com/9-things-that-take-a-pitch-from-good-to-great/" target="_blank" rel="noopener">BPlans: 9 Things That Take a Pitch From Good to Great</a></li>
+		<li style="font-weight: 400;"><a style="color: #eae46f;" href="http://articles.bplans.com/the-7-key-components-of-a-perfect-elevator-pitch/" target="_blank" rel="noopener">BPlans: 7 Key Components of a Perfect Elevator Pitch</a></li>
+		<li style="font-weight: 400;"><a style="color: #eae46f;" href="https://www.youtube.com/watch?v=l-8EQPpA4DM" target="_blank" rel="noopener">The Art of Start - by Guy Kawasaki</a></li>
+		<li style="font-weight: 400;"><a style="color: #eae46f;" href="http://www.forbes.com/sites/theyec/2015/04/22/how-to-craft-the-ultimate-60-second-startup-pitch/#bd62f242e84c" target="_blank" rel="noopener">Entrepreneur: How To Craft The Ultimate 60-Second Startup Pitch</a></li>
+		<li style="font-weight: 400;"><a style="color: #eae46f;" href="http://www.businessinsider.com/the-best-startup-pitches-of-all-time-2012-11?op=1" target="_blank" rel="noopener">Business Insider: Best Startup Pitches of All Time</a></li>
+	</ul>
+</div>
