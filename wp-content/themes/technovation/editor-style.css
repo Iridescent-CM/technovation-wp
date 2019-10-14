@@ -69,6 +69,11 @@
   src: url("fonts/Poppins-LightItalic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic; }
+@font-face {
+  font-family: "Rubik Mono One";
+  src: url("fonts/RubikMonoOne-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -177,7 +182,7 @@ h4,
 h5,
 h6 {
   color: #6e466b;
-  font-family: "Eagle"; }
+  font-family: "Rubik Mono One"; }
 
 /* line 22, sass/editor-style.scss */
 h1 {
@@ -254,7 +259,7 @@ i {
 /* line 79, sass/editor-style.scss */
 blockquote {
   color: #01aaac;
-  font-family: Eagle, Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
+  font-family: Rubik Mono One, Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
   font-size: 1.5rem; }
 
 /* line 84, sass/editor-style.scss */

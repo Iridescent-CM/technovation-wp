@@ -396,9 +396,9 @@ body .fl-post-feed-meta {
     font-size: 1.875rem;
   }
   .fl-post-news-post:first-child a.fl-post-news-more {
-    font-family: Eagle, Impact, Haettenschweiler, "Franklin Gothic Bold",
-      Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black",
-      sans-serif;
+    font-family: Rubik Mono One, Impact, Haettenschweiler,
+      "Franklin Gothic Bold", Charcoal, "Helvetica Inserat",
+      "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
     text-transform: uppercase;
   }
 }
