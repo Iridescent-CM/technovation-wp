@@ -1074,14 +1074,14 @@ html.mm-opening .mm-slideout {
   font-family: "Rubik Mono One"; }
 /* line 75, sass/_content.scss */
 .entry-content h2 {
-  font-size: 1.688rem;
-  margin: 1.688rem 0 1.125rem;
+  font-size: 1.875rem;
+  margin: 1.875rem 0 1rem;
   font-family: "Poppins";
   font-weight: bold; }
 /* line 81, sass/_content.scss */
 .entry-content h3 {
   font-size: 1.5rem;
-  margin: 1.5rem 0 1rem;
+  margin: 1.5rem 0 0.75rem;
   font-family: "Poppins";
   font-weight: normal; }
 /* line 87, sass/_content.scss */
@@ -1092,8 +1092,8 @@ html.mm-opening .mm-slideout {
   font-weight: bold; }
 /* line 93, sass/_content.scss */
 .entry-content h5 {
-  font-size: 1rem;
-  margin: 1rem 0 0.667rem; }
+  font-size: 0.875rem;
+  margin: 0.875rem 0 0.667rem; }
 /* line 97, sass/_content.scss */
 .entry-content h6 {
   font-size: 0.75rem;
