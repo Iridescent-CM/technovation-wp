@@ -104,15 +104,14 @@ FLBuilder::register_module('TechnovationTimeline', array(
 						'label'			=> 'Color Scheme',
 						'default'		=> 'purple',
 						'options'		=> array(
+							'thblue'		=> __('Theme Blue', 'technovation'),
 							'green'			=> __('Green', 'technovation'),
-							'red'				=> __('Red', 'technovation'),
-							'purple'		=> __('Purple', 'technovation'),
-							'blue'			=> __('Blue', 'technovation'),
-							'yellow'		=> __('Yellow', 'technovation'),
-							'ltgray'		=> __('Light Gray', 'technovation'),
-							'dkgray'		=> __('Dark Gray', 'technovation'),
-							'black'			=> __('Black', 'technovation'),
-							'white'			=> __('White', 'technovation')
+							'magenta'		=> __('Magenta', 'technovation'),
+							'gold'			=> __('Gold', 'technovation'),
+							'ltgray'	  => __('Light Gray', 'technovation'),
+							'dkblue'		=> __('Dark Blue', 'technovation'),
+							'white'			=> __('White', 'technovation'),
+							'black'			=> __('Black', 'technovation')
 						)
 					)
 				)
