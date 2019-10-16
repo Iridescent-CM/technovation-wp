@@ -1,68 +1,70 @@
 .image-button {
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-	background-size: cover;
-	border-bottom: 10px solid transparent;
-	display: inline-block;
-	padding: 2.5em 3em;
-	text-align: center;
-	transition: border-color 300ms;
-	white-space: nowrap;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 10px solid transparent;
+  display: inline-block;
+  padding: 2.5em 3em;
+  text-align: center;
+  transition: border-color 300ms;
+  white-space: nowrap;
 }
 
 .image-button.green:hover,
 .image-button.green.selected {
-	border-color: #28a880;
+  border-color: #43b02a;
 }
 
-.image-button.red:hover,
-.image-button.red.selected {
-	border-color: #7d324d;
+.image-button.thblue:hover,
+.image-button.thblue.selected {
+  border-color: #0076cf;
 }
 
-.image-button.purple:hover,
-.image-button.purple.selected {
-	border-color: #6e466b;
+.image-button.magenta:hover,
+.image-button.magenta.selected {
+  border-color: #ec0089;
 }
 
-.image-button.blue:hover,
-.image-button.blue.selected {
-	border-color: #01aaac;
+.image-button.brblue:hover,
+.image-button.brblue.selected {
+  border-color: #5be2e7;
 }
 
-.image-button.yellow:hover,
-.image-button.yellow.selected {
-	border-color: #e9e46f;
+.image-button.gold:hover,
+.image-button.gold.selected {
+  border-color: #ffb81c;
 }
 
 .image-button.ltgray:hover,
 .image-button.ltgray.selected {
-	border-color: #cccccc;
+  border-color: #cccccc;
 }
 
-.image-button.dkgray:hover,
-.image-button.dkgray.selected {
-	border-color: #444444;
+.image-button.dkblue:hover,
+.image-button.dkblue.selected {
+  border-color: #041e42;
 }
 
 .image-button.white:hover,
 .image-button.white.selected {
-	border-color: #ffffff;
+  border-color: #ffffff;
 }
 
 .image-button-wrap.image-button-left {
-	text-align: left;
+  text-align: left;
 }
 
 .image-button-wrap.image-button-right {
-	text-align: right;
+  text-align: right;
 }
 
 .image-button-wrap.image-button-center {
-	text-align: center;
+  text-align: center;
 }
 
-.image-button-wrap.image-button-right .image-button
-.image-button-wrap.image-button-left .image-button {
-	text-align: center;
+.image-button-wrap.image-button-right
+  .image-button
+  .image-button-wrap.image-button-left
+  .image-button {
+  text-align: center;
 }
