@@ -7,29 +7,28 @@ Description: Custom theme created for Iridescent Learning
 Version: 1.0.0
 */
 
-@import 'compass';
-@import 'breakpoint';
-@import 'modular-scale';
-@import 'vars';
+@import "compass";
+@import "breakpoint";
+// @import 'modular-scale';
+@import "vars";
 
+@import "webfonts";
 
-@import 'webfonts';
+@import "reset";
 
-@import 'reset';
+@import "global";
 
-@import 'global';
+@import "header";
 
-@import 'header';
+@import "footer";
 
-@import 'footer';
+@import "mmenu";
 
-@import 'mmenu';
+@import "content";
+@import "content-press";
 
-@import 'content';
-@import 'content-press';
+@import "bb";
 
-@import 'bb';
+@import "forms";
 
-@import 'forms';
-
-@import 'mwc';
+@import "mwc";

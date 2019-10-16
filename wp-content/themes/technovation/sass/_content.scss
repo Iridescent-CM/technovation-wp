@@ -1,335 +1,356 @@
 #print-button {
-	bottom: 1em;
-	position: absolute;
-	right: 1em;
-	text-decoration: none;
-	z-index: 1;
-	@media print {
-		display: none;
-	}
+  bottom: 1em;
+  position: absolute;
+  right: 1em;
+  text-decoration: none;
+  z-index: 1;
+  @media print {
+    display: none;
+  }
 }
 
 .post,
 .search-results .page {
-	background: white;
-	margin-bottom: 2rem;
-	padding: 1rem;
-	@include breakpoint($tablet) {
-		padding: 2rem;
-	}
-	&::after {
-		clear: both;
-		content: '';
-		display: table;
-	}
+  background: white;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  @include breakpoint($tablet) {
+    padding: 2rem;
+  }
+  &::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
 }
 
 .search-results .content-area {
-	margin: 2rem 0;
+  margin: 2rem 0;
 }
 
 .search-results .entry-header a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .entry-thumb {
-	margin-bottom: 1rem;
-	@include breakpoint($tablet) {
-		margin-bottom: 2rem;
-	}
-	img {
-		display: block;
-	}
+  margin-bottom: 1rem;
+  @include breakpoint($tablet) {
+    margin-bottom: 2rem;
+  }
+  img {
+    display: block;
+  }
 }
 
 .entry-title {
-	color: $clr-2;
-	font-family: $font-title;
-	font-size: 2.25rem;
-	margin-bottom: 1rem;
-	a {
-		color: inherit;
-		text-decoration: none;
-		@include transition(color 300ms);
-		&:hover,
-		&:focus {
-			color: $clr-1;
-		}
-	}
+  color: $clr-2;
+  font-family: $font-title;
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
+  a {
+    color: inherit;
+    text-decoration: none;
+    @include transition(color 300ms);
+    &:hover,
+    &:focus {
+      color: $clr-1;
+    }
+  }
 }
 
 .entry-content {
-	h1, h2, h3, h4, h5, h6 {
-		color: $clr-3;
-		font-family: 'Eagle';
-	}
-	h1 {
-		font-size: 2.25rem;
-		margin: 2.25rem 0 1.5rem;
-	}
-	h2 {
-		font-size: 1.688rem;
-		margin: 1.688rem 0 1.125rem;
-	}
-	h3 {
-		font-size: 1.5rem;
-		margin: 1.5rem 0 1rem;
-	}
-	h4 {
-		font-size: 1.125rem;
-		margin: 1.125rem 0 0.75rem;
-	}
-	h5 {
-		font-size: 1rem;
-		margin: 1rem 0 0.667rem;
-	}
-	h6 {
-		font-size:0.75rem;
-		margin: 0.75rem 0 0.5rem;
-	}
-	p {
-		line-height: 1.5;
-		margin: 0 0 1rem 0;
-	}
-	ol {
-		list-style-type: decimal;
-	}
-	ul {
-		list-style-type: disc;
-	}
-	ul, ol {
-		margin: 0 0 1rem 2rem;
-		ul, ol {
-			margin-bottom: 0;
-		}
-	}
-	li {
-		line-height: 1.5;
-		margin-bottom: 0.25rem;
-		&:last-child {
-			margin-bottom: 0;
-		}
-	}
-	strong, b {
-		font-weight: bold;
-	}
-	em, i {
-		font-style: italic;
-	}
-	i.fa {
-		font-style: normal;
-	}
-	blockquote {
-		color: $clr-4;
-		font-family: $font-title;
-		font-size: 1.5rem;
-	}
-	cite {
-		font-style: italic;
-	}
-	table {
-		border: 1px solid $clr-5;
-		border-collapse: collapse;
-		margin: 1rem 0;
-		th, td {
-			border: 1px solid $clr-5;
-			padding: 0.667rem;
-		}
-		th {
-			color: $clr-6-lt;
-			font-family: $font-light;
-		}
-	}
-	dl {
-		margin: 1rem 0;
-		dt {
-			color: $clr-6-dk;
-			font-family: $font-semibold;
-			margin: 0 0 0.5rem 0;
-		}
-		dd {
-			line-height: 1.5;
-			margin: 0.5rem 1rem;
-		}
-	}
-	address {
-		margin: 1rem 0;
-	}
-	a {
-		color: $clr-4;
-		font-family: $font-semibold;
-		text-decoration: none;
-		@include transition(color, 300ms);
-		&:hover,
-		&:focus {
-			color: $clr-2;
-		}
-	}
-	abbr, acronym {
-		border-bottom: 1px dotted $clr-6-lt;
-	}
-	big {
-		font-size: 1.5em;
-	}
-	code, kbd,  pre, tt, var {
-		font-family: 'Courier New', Courier, monospace;
-	}
-	pre {
-		margin: 1rem 0;
-	}
-	q {
-		font-style: italic;
-	}
-	sub {
-		font-size: 0.75rem;
-		position: relative;
-		top: 0.296rem;
-	}
-	sup {
-		font-size: 0.75rem;
-		position: relative;
-		top: -0.333rem;
-	}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $clr-3;
+  }
+  h1 {
+    font-size: 2.25rem;
+    margin: 2.25rem 0 1.5rem;
+    font-family: "Rubik Mono One";
+  }
+  h2 {
+    font-size: 1.875rem;
+    margin: 1.875rem 0 1rem;
+    font-family: "Poppins";
+    font-weight: bold;
+  }
+  h3 {
+    font-size: 1.5rem;
+    margin: 1.5rem 0 0.75rem;
+    font-family: "Poppins";
+    font-weight: normal;
+  }
+  h4 {
+    font-size: 1.125rem;
+    margin: 1.125rem 0 0.75rem;
+    font-family: "Poppins";
+    font-weight: bold;
+  }
+  h5 {
+    font-size: 0.875rem;
+    margin: 0.875rem 0 0.667rem;
+  }
+  h6 {
+    font-size: 0.75rem;
+    margin: 0.75rem 0 0.5rem;
+  }
+  p {
+    line-height: 1.5;
+    margin: 0 0 1rem 0;
+  }
+  ol {
+    list-style-type: decimal;
+  }
+  ul {
+    list-style-type: disc;
+  }
+  ul,
+  ol {
+    margin: 0 0 1rem 2rem;
+    ul,
+    ol {
+      margin-bottom: 0;
+    }
+  }
+  li {
+    line-height: 1.5;
+    margin-bottom: 0.25rem;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  strong,
+  b {
+    font-weight: bold;
+  }
+  em,
+  i {
+    font-style: italic;
+  }
+  i.fa {
+    font-style: normal;
+  }
+  blockquote {
+    color: $clr-4;
+    font-family: $font-title;
+    font-size: 1.5rem;
+  }
+  cite {
+    font-style: italic;
+  }
+  table {
+    border: 1px solid $clr-5;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    th,
+    td {
+      border: 1px solid $clr-5;
+      padding: 0.667rem;
+    }
+    th {
+      color: $clr-6-lt;
+      font-family: $font-light;
+    }
+  }
+  dl {
+    margin: 1rem 0;
+    dt {
+      color: $clr-6-dk;
+      font-family: $font-semibold;
+      margin: 0 0 0.5rem 0;
+    }
+    dd {
+      line-height: 1.5;
+      margin: 0.5rem 1rem;
+    }
+  }
+  address {
+    margin: 1rem 0;
+  }
+  a {
+    color: $clr-4;
+    font-family: $font-semibold;
+    text-decoration: none;
+    @include transition(color, 300ms);
+    &:hover,
+    &:focus {
+      color: $clr-2;
+    }
+  }
+  abbr,
+  acronym {
+    border-bottom: 1px dotted $clr-6-lt;
+  }
+  big {
+    font-size: 1.5em;
+  }
+  code,
+  kbd,
+  pre,
+  tt,
+  var {
+    font-family: "Courier New", Courier, monospace;
+  }
+  pre {
+    margin: 1rem 0;
+  }
+  q {
+    font-style: italic;
+  }
+  sub {
+    font-size: 0.75rem;
+    position: relative;
+    top: 0.296rem;
+  }
+  sup {
+    font-size: 0.75rem;
+    position: relative;
+    top: -0.333rem;
+  }
 }
 
 .wp-caption {
-	max-width: 100%;
-	padding-bottom: 1rem;
-	&.alignnone {
-		margin: 1rem 0;
-	}
-	.wp-caption-text {
-		color: $clr-6-lt;
-		font-family: $font-light;
-		line-height: 1.5;
-		margin: 0.333rem 0 0;
-	}
+  max-width: 100%;
+  padding-bottom: 1rem;
+  &.alignnone {
+    margin: 1rem 0;
+  }
+  .wp-caption-text {
+    color: $clr-6-lt;
+    font-family: $font-light;
+    line-height: 1.5;
+    margin: 0.333rem 0 0;
+  }
 }
 
 .alignleft {
-	float: left;
-	margin: 0 1rem 0.5rem 0;
+  float: left;
+  margin: 0 1rem 0.5rem 0;
 }
 
 .alignright {
-	float: right;
-	margin: 0 0 0.5rem 1rem;
+  float: right;
+  margin: 0 0 0.5rem 1rem;
 }
 
 .aligncenter {
-	display: block;
-	margin: 1rem auto;
-	text-align: center;
+  display: block;
+  margin: 1rem auto;
+  text-align: center;
 }
 
 .gallery {
-	@include display-flex;
-	@include flex-wrap(wrap);
-	margin-left: -1rem;
-	.gallery-item {
-		@include box-sizing(border-box);
-		margin-bottom: 2rem;
-		padding-left: 1rem;
-		text-align: center;
-	}
-	.wp-caption-text {
-		color: $clr-6-lt;
-		font-family: $font-light;
-		line-height: 1.5;
-		margin: 0.333rem 0 0;
-	}
+  @include display-flex;
+  @include flex-wrap(wrap);
+  margin-left: -1rem;
+  .gallery-item {
+    @include box-sizing(border-box);
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    text-align: center;
+  }
+  .wp-caption-text {
+    color: $clr-6-lt;
+    font-family: $font-light;
+    line-height: 1.5;
+    margin: 0.333rem 0 0;
+  }
 }
 
 @for $col from 1 through 9 {
-	.gallery-columns-#{$col} .gallery-item {
-		width: 100%/$col;
-	}
+  .gallery-columns-#{$col} .gallery-item {
+    width: 100% / $col;
+  }
 }
 
 .wp-audio-shortcode {
-	margin: 1rem 0;
+  margin: 1rem 0;
 }
 
 .entry-footer {
-	clear: both;
-	.edit-link {
-		margin: 2rem 0 0 0;
-		max-width: 100%;
-		padding: 0;
-		a {
-			background-color: $clr-1;
-			color: white;
-			font-family: $font-title;
-			display: inline-block;
-			padding: 0.5rem 1rem;
-			text-decoration: none;
-			text-transform: uppercase;
-			@include transition(background-color 300ms);
-			&:hover,
-			&:focus {
-				background-color: $clr-1-dk;
-			}
-		}
-	}
+  clear: both;
+  .edit-link {
+    margin: 2rem 0 0 0;
+    max-width: 100%;
+    padding: 0;
+    a {
+      background-color: $clr-1;
+      color: white;
+      font-family: $font-title;
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      text-transform: uppercase;
+      @include transition(background-color 300ms);
+      &:hover,
+      &:focus {
+        background-color: $clr-1-dk;
+      }
+    }
+  }
 }
 
 .fl-builder .entry-footer {
-	background-color: $clr-7;
-	.edit-link {
-		@include box-sizing(border-box);
-		display: block;
-		margin: 0 auto;
-		max-width: 1200px;
-		padding: 1rem 2rem;
-	}
+  background-color: $clr-7;
+  .edit-link {
+    @include box-sizing(border-box);
+    display: block;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 1rem 2rem;
+  }
 }
 
 .page-links {
-	margin: 2rem 0;
-	& > span {
-		border: 1px solid transparent;
-		display: inline-block;
-		padding: 0.25rem;
-	}
-	a {
-		background: white;
-		border: 1px solid $clr-1;
-		display: inline-block;
-		padding: 0.25rem 0.5rem;
-		text-decoration: none;
-		@include transform(all 300ms);
-		&:hover {
-			background: $clr-1;
-			color: white;
-		}
-		& + a {
-			margin-left: 0.1rem;
-		}
-	}
+  margin: 2rem 0;
+  & > span {
+    border: 1px solid transparent;
+    display: inline-block;
+    padding: 0.25rem;
+  }
+  a {
+    background: white;
+    border: 1px solid $clr-1;
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    text-decoration: none;
+    @include transform(all 300ms);
+    &:hover {
+      background: $clr-1;
+      color: white;
+    }
+    & + a {
+      margin-left: 0.1rem;
+    }
+  }
 }
 
 .navigation.pagination {
-	margin: 2rem 0;
-	text-align: center;
-	a.page-numbers {
-		@include transition(all 300ms);
-		&:hover {
-			background: $clr-1;
-			color: white;
-		}
-	}
-	.page-numbers {
-		background: white;
-		color: $clr-1;
-		display: inline-block;
-		height: 1rem;
-		min-width: 1rem;
-		padding: 0.5rem;
-		text-align: center;
-		text-decoration: none;
-		&.current {
-			background-color: $clr-1;
-			color: white;
-		}
-	}
+  margin: 2rem 0;
+  text-align: center;
+  a.page-numbers {
+    @include transition(all 300ms);
+    &:hover {
+      background: $clr-1;
+      color: white;
+    }
+  }
+  .page-numbers {
+    background: white;
+    color: $clr-1;
+    display: inline-block;
+    height: 1rem;
+    min-width: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    &.current {
+      background-color: $clr-1;
+      color: white;
+    }
+  }
 }

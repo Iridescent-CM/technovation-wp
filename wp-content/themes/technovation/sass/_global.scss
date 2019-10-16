@@ -1,37 +1,37 @@
 .site {
-	@include display-flex;
-	@include flex-direction(column);
-	min-height: 100vh;
+  @include display-flex;
+  @include flex-direction(column);
+  min-height: 100vh;
 }
 
 .site-content {
-	@include flex-grow(1);
+  @include flex-grow(1);
 }
 
 body {
-	background: $clr-5-lt;
-	color: $clr-6;
-	font-family: 'Source Sans';
+  background: $clr-5-lt;
+  color: $clr-6;
+  font-family: "Poppins";
 }
 
 .screen-reader-text {
-	clip: rect(1px, 1px, 1px, 1px);
-	height: 1px;
-	overflow: hidden;
-	position: absolute !important;
-	width: 1px;
-	&:focus {
-		clip: auto !important;
-		display: block;
-		height: auto;
-		left: 5px;
-		top: 5px;
-		width: auto;
-		z-index: 100000; /* Above WP toolbar. */
-	}
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute !important;
+  width: 1px;
+  &:focus {
+    clip: auto !important;
+    display: block;
+    height: auto;
+    left: 5px;
+    top: 5px;
+    width: auto;
+    z-index: 100000; /* Above WP toolbar. */
+  }
 }
 
 img {
-	height: auto;
-	max-width: 100%;
+  height: auto;
+  max-width: 100%;
 }
