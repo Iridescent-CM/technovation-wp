@@ -35,12 +35,25 @@
 			$bg_color = '041e42';
 			$bg_hover_color = '364b67';
 			break;
-		case 'white':
+		case 'grwhite':
+			$bg_color = 'ffffff';
+			$bg_hover_color = 'ebebeb';
+			$text_color = '43b02a';
+			$text_hover_color = '358c21';
+			break;
+		case 'thblwhite':
+			$bg_color = 'ffffff';
+			$bg_hover_color = 'ebebeb';
+			$text_color = '0076cf';
+			$text_hover_color = '005da5';
+			break;
+		case 'dkblwhite':
 			$bg_color = 'ffffff';
 			$bg_hover_color = 'ebebeb';
 			$text_color = '041e42';
-			$text_hover_color = '364b67';
-	}
+			$text_hover_color = '031834';
+			break;
+		}
 
 	$border_color = $bg_color;;
 ?>
@@ -60,7 +73,7 @@
 	font-size: <?php echo $settings->font_size; ?>px;
 	line-height: 1;
 	padding: 0.75em 1.5em;
-	text-transform: uppercase;
+	text-transform: none;
 }
 
 .fl-builder-content .fl-node-<?php echo $id; ?> a.fl-button,
