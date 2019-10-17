@@ -13,66 +13,59 @@
 
 
 	switch ($settings->color_scheme) {
+		case 'thblue':
+		$timeline_color = '#ec0089';
+		$text_color = '#ffffff';
+		$highlight_color = '#ffb81c';
+		$zebra_odd = '#0076cf';
+		$zebra_even = '#005da5';
+		break;
 	case 'green':
-		$timeline_color = '#895e85';
+		$timeline_color = '#ec0089';
 		$text_color = '#ffffff';
-		$highlight_color = '#e9e46f';
-		$zebra_odd = '#59bf93';
-		$zebra_even = '#42a87d';
+		$highlight_color = '#ffb81c';
+		$zebra_odd = '#43b02a';
+		$zebra_even = '#358c21';
 		break;
-	case 'red':
-		$timeline_color = '#28a880';
+	case 'magenta':
+		$timeline_color = '#0076cf';
 		$text_color = '#ffffff';
-		$highlight_color = '#e9e46f';
-		$zebra_odd = '#903d53';
-		$zebra_even = '#802f49';
+		$highlight_color = '#ffb81c';
+		$zebra_odd = '#ec0089';
+		$zebra_even = '#bc006e';
 		break;
-	case 'purple':
-		$timeline_color = '#28a880';
-		$text_color = '#ffffff';
-		$highlight_color = '#e9e46f';
-		$zebra_odd = '#895e85';
-		$zebra_even = '#764c73';
-		break;
-	case 'blue':
-		$timeline_color = '#7d324d';
-		$text_color = '#ffffff';
-		$highlight_color = '#e9e46f';
-		$zebra_odd = '#4cc1c6';
-		$zebra_even = '#39a9ae';
-		break;
-	case 'yellow':
+	case 'gold':
 		$timeline_color = '#6e466b';
-		$text_color = '#444444';
-		$highlight_color = '#01aaac';
-		$zebra_odd = '#ffffff';
-		$zebra_even = '#f0f0c7';
+		$text_color = '#041e42';
+		$highlight_color = '#0076cf';
+		$zebra_odd = '#ffb81c';
+		$zebra_even = '#cc9216';
 		break;
 	case 'ltgray':
 		$timeline_color = '#7d324d';
-		$text_color = '#444444';
-		$highlight_color = '#e9e46f';
+		$text_color = '#041e42';
+		$highlight_color = '#ffb81c';
 		$zebra_odd = '#ebebeb';
 		$zebra_even = '#d2d2d2';
 		break;
-	case 'dkgray':
-		$timeline_color = 'e9e46f';
+	case 'dkblue':
+		$timeline_color = 'ffb81c';
 		$text_color = '#ffffff';
-		$highlight_color = '#01aaac';
-		$zebra_odd = '#666666';
-		$zebra_even = '#585858';
+		$highlight_color = '#0076cf';
+		$zebra_odd = '#041e42';
+		$zebra_even = '#364b67';
 		break;
 	case 'black':
 		$timeline_color = '28a880';
 		$text_color = '#ffffff';
-		$highlight_color = '#e9e46f';
+		$highlight_color = '#ffb81c';
 		$zebra_odd = '#444444';
 		$zebra_even = '#333333';
 		break;
 	case 'white':
 		$timeline_color = '28a880';
-		$text_color = '#444444';
-		$highlight_color = '#01aaac';
+		$text_color = '#041e42';
+		$highlight_color = '#0076cf';
 		$zebra_odd = '#ebebeb';
 		$zebra_even = '#f4f4f4';
 		break;

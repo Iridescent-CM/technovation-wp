@@ -95,13 +95,13 @@ FLBuilder::register_module('TechnovationImageButtons', array(
 						'label'					=> __('Color', 'fl-builder'),
 						'default'				=> 'green',
 						'options'				=> array(
+							'thblue'				=> __('Theme Blue', 'fl-builder'),
 							'green'					=> __('Green', 'fl-builder'),
-							'red'						=> __('Red', 'fl-builder'),
-							'purple'				=> __('Purple', 'fl-builder'),
-							'blue'					=> __('Blue', 'fl-builder'),
-							'yellow'				=> __('Yellow', 'fl-builder'),
-							'ltgray'				=> __('Light Gray', 'fl-builder'),
-							'dkgray'				=> __('Dark Gray', 'fl-builder'),
+							'magenta'				=> __('Magenta', 'fl-builder'),
+							'brblue'				=> __('Bright Blue', 'fl-builder'),
+							'gold'					=> __('Gold', 'fl-builder'),
+							'ltgray'	  		=> __('Light Gray', 'fl-builder'),
+							'dkblue'				=> __('Dark Blue', 'fl-builder'),
 							'white'					=> __('White', 'fl-builder')
 						)
 					),

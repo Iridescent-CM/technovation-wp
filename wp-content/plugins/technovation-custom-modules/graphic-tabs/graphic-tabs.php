@@ -73,15 +73,15 @@ FLBuilder::register_settings_form('tab_items_form', array(
 							'label'					=> __('Tab Color', 'fl-builder'),
 							'default'				=> 'green',
 							'options'				=> array(
+								'thblue'				=> __('Theme Blue', 'technovation'),
 								'green'					=> __('Green', 'technovation'),
-								'red'						=> __('Red', 'technovation'),
-								'purple'				=> __('Purple', 'technovation'),
-								'blue'					=> __('Blue', 'technovation'),
-								'yellow'				=> __('Yellow', 'technovation'),
+								'magenta'				=> __('Magenta', 'technovation'),
+								'brblue'				=> __('Bright Blue', 'technovation'),
+								'gold'					=> __('Gold', 'technovation'),
 								'ltgray'				=> __('Light Gray', 'technovation'),
-								'dkgray'				=> __('Dark Gray', 'technovation'),
+								'dkblue'				=> __('Dark Blue', 'technovation'),
 								'white'					=> __('White', 'technovation'),
-								'black'					=> __('Black', 'technovation'),
+								'black'					=> __('Black', 'technovation')
 							)
 						)
 					)

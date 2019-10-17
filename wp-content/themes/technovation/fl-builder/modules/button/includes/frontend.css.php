@@ -3,43 +3,43 @@
 	$text_hover_color = 'ffffff';
 
 	switch ($settings->btn_color) {
+		case 'thblue':
+			$bg_color = '0076cf';
+			$bg_hover_color = '005da5';
+			break;
 		case 'green':
-			$bg_color = '28a880';
-			$bg_hover_color = '00643f';
+			$bg_color = '43b02a';
+			$bg_hover_color = '358c21';
 			break;
-		case 'red':
-			$bg_color = '7d324d';
-			$bg_hover_color = '52082d';
+		case 'magenta':
+			$bg_color = 'ec0089';
+			$bg_hover_color = 'bc006e';
 			break;
-		case 'purple':
-			$bg_color = '6e466b';
-			$bg_hover_color = '411b41';
+		case 'brblue':
+			$bg_color = '5be2e7';
+			$bg_hover_color = '48b4b8';
 			break;
-		case 'blue':
-			$bg_color = '01aaac';
-			$bg_hover_color = '016667';
-			break;
-		case 'yellow':
-			$bg_color = 'e9e46f';
-			$bg_hover_color = 'c1c320';
-			$text_color = '444444';
-			$text_hover_color = '323232';
+		case 'gold':
+			$bg_color = 'ffb81c';
+			$bg_hover_color = 'cc9216';
+			$text_color = '041e42';
+			$text_hover_color = '031834';
 			break;
 		case 'ltgray':
 			$bg_color = 'cccccc';
 			$bg_hover_color = '878787';
-			$text_color = '444444';
-			$text_hover_color = '323232';
+			$text_color = '041e42';
+			$text_hover_color = '031834';
 			break;
-		case 'dkgray':
-			$bg_color = '444444';
-			$bg_hover_color = '323232';
+		case 'dkblue':
+			$bg_color = '041e42';
+			$bg_hover_color = '364b67';
 			break;
 		case 'white':
 			$bg_color = 'ffffff';
 			$bg_hover_color = 'ebebeb';
-			$text_color = '444444';
-			$text_hover_color = '444444';
+			$text_color = '041e42';
+			$text_hover_color = '364b67';
 	}
 
 	$border_color = $bg_color;;

@@ -1,11 +1,11 @@
 /* Colors ------------------------------------ */
+/* energetic blue */
 /* green */
-/* red */
-/* purple */
-/* blue */
-/* light gray */
-/* dark gray */
-/* yellow */
+/* magenta */
+/* bright blue */
+/* white */
+/* dark blue */
+/* gold */
 /* Fonts ------------------------------------- */
 /* Break Points ------------------------------ */
 /* Site maximim width */
@@ -143,8 +143,8 @@ table {
 
 /* line 11, sass/_global.scss */
 body {
-  background: #ebebeb;
-  color: #444444;
+  background: #ffffff;
+  color: #041e42;
   font-family: "Poppins"; }
 
 /* line 17, sass/_global.scss */
@@ -181,7 +181,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #6e466b; }
+  color: #ec0089; }
 
 /* line 21, sass/editor-style.scss */
 h1 {
@@ -264,7 +264,7 @@ i {
 
 /* line 85, sass/editor-style.scss */
 blockquote {
-  color: #01aaac;
+  color: #5be2e7;
   font-family: Rubik Mono One, Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
   font-size: 1.5rem; }
 
@@ -274,17 +274,17 @@ cite {
 
 /* line 93, sass/editor-style.scss */
 table {
-  border: 1px solid #cccccc;
+  border: 1px solid #ffffff;
   border-collapse: collapse;
   margin: 1rem 0; }
   /* line 97, sass/editor-style.scss */
   table th,
   table td {
-    border: 1px solid #cccccc;
+    border: 1px solid #ffffff;
     padding: 0.667rem; }
   /* line 102, sass/editor-style.scss */
   table th {
-    color: #666666;
+    color: #364b67;
     font-family: "Poppins Light", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif; }
 
 /* line 107, sass/editor-style.scss */
@@ -292,7 +292,7 @@ dl {
   margin: 1rem 0; }
   /* line 109, sass/editor-style.scss */
   dl dt {
-    color: #323232;
+    color: #031834;
     font-family: "Poppins Semibold", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
     margin: 0 0 0.5rem 0; }
   /* line 114, sass/editor-style.scss */
@@ -306,7 +306,7 @@ address {
 
 /* line 122, sass/editor-style.scss */
 a {
-  color: #01aaac;
+  color: #5be2e7;
   font-family: "Poppins Semibold", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
   text-decoration: none;
   -moz-transition: color, 300ms;
@@ -315,12 +315,12 @@ a {
   transition: color, 300ms; }
   /* line 127, sass/editor-style.scss */
   a:hover, a:focus {
-    color: #7d324d; }
+    color: #43b02a; }
 
 /* line 132, sass/editor-style.scss */
 abbr,
 acronym {
-  border-bottom: 1px dotted #666666; }
+  border-bottom: 1px dotted #364b67; }
 
 /* line 136, sass/editor-style.scss */
 big {
@@ -363,7 +363,7 @@ sup {
     margin: 1rem 0; }
   /* line 169, sass/editor-style.scss */
   .wp-caption .wp-caption-text {
-    color: #666666;
+    color: #364b67;
     font-family: "Poppins Light", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
     line-height: 1.5;
     margin: 0.333rem 0 0; }
@@ -401,7 +401,7 @@ sup {
     text-align: center; }
   /* line 203, sass/editor-style.scss */
   .gallery .wp-caption-text {
-    color: #666666;
+    color: #364b67;
     font-family: "Poppins Light", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
     line-height: 1.5;
     margin: 0.333rem 0 0; }
