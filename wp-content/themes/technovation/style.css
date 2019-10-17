@@ -250,34 +250,33 @@ img {
     /* line 52, sass/_header.scss */
     .main-navigation li.button a,
     .secondary-navigation li.button a {
-      border: 1px solid #ffb81c;
-      -moz-border-radius: 1rem;
-      -webkit-border-radius: 1rem;
-      border-radius: 1rem;
-      color: #ffb81c;
+      border: 1px solid #0076cf;
+      background: #0076cf;
+      color: #ffffff;
+      font-family: Rubik Mono One, Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
       padding: 0.5rem 1rem;
       -moz-transition: all 300ms;
       -o-transition: all 300ms;
       -webkit-transition: all 300ms;
       transition: all 300ms; }
-      /* line 58, sass/_header.scss */
+      /* line 59, sass/_header.scss */
       .main-navigation li.button a span,
       .secondary-navigation li.button a span {
         border-bottom: 0 none; }
-      /* line 61, sass/_header.scss */
+      /* line 62, sass/_header.scss */
       .main-navigation li.button a:hover, .main-navigation li.button a:focus,
       .secondary-navigation li.button a:hover,
       .secondary-navigation li.button a:focus {
-        background: #ffb81c;
-        border-color: #cc9216;
-        color: #031834; }
-    /* line 70, sass/_header.scss */
+        background: none;
+        border-color: #0076cf;
+        color: #0076cf; }
+    /* line 71, sass/_header.scss */
     .main-navigation li.current_page_item span,
     .secondary-navigation li.current_page_item span {
       border-bottom: 1px dotted white;
       display: block;
       padding-bottom: 0.1rem; }
-  /* line 77, sass/_header.scss */
+  /* line 78, sass/_header.scss */
   .main-navigation a,
   .secondary-navigation a {
     display: block;
@@ -288,18 +287,18 @@ img {
     -o-transition: color 300ms;
     -webkit-transition: color 300ms;
     transition: color 300ms; }
-    /* line 83, sass/_header.scss */
+    /* line 84, sass/_header.scss */
     .main-navigation a:hover, .main-navigation a:focus,
     .secondary-navigation a:hover,
     .secondary-navigation a:focus {
       color: #ffb81c; }
 
 @media (min-width: 1000px) {
-  /* line 90, sass/_header.scss */
+  /* line 91, sass/_header.scss */
   .nav-toggle {
     display: none; } }
 
-/* line 96, sass/_header.scss */
+/* line 97, sass/_header.scss */
 .page-image-header {
   background-color: #43b02a;
   background-position: 50% 50%;
@@ -313,7 +312,7 @@ img {
   justify-content: center;
   min-height: 37.5rem; }
 
-/* line 109, sass/_header.scss */
+/* line 110, sass/_header.scss */
 .page-image-title {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -325,11 +324,11 @@ img {
   padding: 0 1rem;
   text-align: center; }
   @media (min-width: 600px) {
-    /* line 109, sass/_header.scss */
+    /* line 110, sass/_header.scss */
     .page-image-title {
       font-size: 4rem; } }
   @media (min-width: 800px) {
-    /* line 109, sass/_header.scss */
+    /* line 110, sass/_header.scss */
     .page-image-title {
       font-size: 6rem;
       padding: 0 2rem; } }
