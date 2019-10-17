@@ -1,46 +1,52 @@
 .tagged-box {
-	position: relative;
+  position: relative;
 }
 
 .tagged-box-tag {
-	left: 0;
-	padding: 0.25rem 1rem;
-	position: absolute;
-	top: 1.7rem;
-	white-space: nowrap;
+  left: 0;
+  padding: 0.25rem 1rem;
+  position: absolute;
+  top: 1.7rem;
+  white-space: nowrap;
 }
 
 .tagged-box-tag::after {
-	border-bottom: 1rem solid transparent;
-	border-left: 1rem solid;
-	border-top: 1rem solid transparent;
-	content: '';
-	position: absolute;
-	right: -1rem;
-	top: 0;
+  border-bottom: 1rem solid transparent;
+  border-left: 1rem solid;
+  border-top: 1rem solid transparent;
+  content: "";
+  position: absolute;
+  right: -1rem;
+  top: 0;
 }
 
 .tagged-box-content {
-	margin-left: 3rem;
-	padding: 2rem;
-	padding-left: 3rem;
+  margin-left: 3rem;
+  padding: 2rem;
+  padding-left: 3rem;
 }
 
 .tagged-box-content *:last-child {
-	margin-bottom: 0;
-	padding: bottom;
+  margin-bottom: 0;
+  padding: bottom;
 }
 
 .entry-content h3.tagged-box-tag {
-	margin: 0;
+  font-family: "Rubik Mono One", Impact, Haettenschweiler,
+    "Franklin Gothic Bold", Charcoal, "Helvetica Inserat",
+    "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
+  margin: 0;
 }
 
 .fl-col-group-equal-height .fl-module-tagged-boxes,
 .fl-col-group-equal-height .fl-module-tagged-boxes .fl-module-content,
-.fl-col-group-equal-height .fl-module-tagged-boxes .fl-module-content .tagged-box {
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	flex-grow: 1;
+.fl-col-group-equal-height
+  .fl-module-tagged-boxes
+  .fl-module-content
+  .tagged-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-grow: 1;
 }
