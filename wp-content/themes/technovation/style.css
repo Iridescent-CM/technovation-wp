@@ -283,7 +283,7 @@ img {
     display: block;
     padding: 0 0.5rem;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: none;
     -moz-transition: color 300ms;
     -o-transition: color 300ms;
     -webkit-transition: color 300ms;
