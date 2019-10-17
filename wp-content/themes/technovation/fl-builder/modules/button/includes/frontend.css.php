@@ -56,9 +56,7 @@
 		border: 1px solid #<?php echo $border_color; ?>;
 		color: #<?php echo $border_color; ?>;
 	<?php } ?>
-	border-radius: <?php echo $settings->font_size*2 ?>px;
-		-moz-border-radius: <?php echo $settings->font_size*2 ?>px;
-		-webkit-border-radius: <?php echo $settings->font_size*2 ?>px;
+
 	font-size: <?php echo $settings->font_size; ?>px;
 	line-height: 1;
 	padding: 0.75em 1.5em;
