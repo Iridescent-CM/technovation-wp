@@ -112,10 +112,12 @@ FLBuilder::register_module('FLButtonModule', array(
 							'green'				=> __('Green', 'fl-builder'),
 							'magenta'			=> __('Magenta', 'fl-builder'),
 							'brblue'			=> __('Bright Blue', 'f	l-builder'),
-							'ltgray'			=> __('Light Gray', 'fl-builder'),
-							'dkblue'			=> __('Dark Blue', 'fl-builder'),
 							'gold'				=> __('Gold', 'fl-builder'),
-							'white'				=> __('White', 'fl-builder'),
+							'dkblue'			=> __('Dark Blue', 'fl-builder'),
+							'ltgray'			=> __('Light Gray', 'fl-builder'),
+							'grwhite'			=> __('White w/ Green Text', 'fl-builder'),
+							'thblwhite'		=> __('White w/ Theme Blue Text', 'fl-builder'),
+							'dkblwhite'		=> __('White w/ Dark Blue Text', 'fl-builder'),
 						)
 					),
 					'style'         => array(
