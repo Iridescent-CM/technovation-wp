@@ -217,7 +217,7 @@ img {
   z-index: 1; }
   /* line 11, sass/_header.scss */
   .site-header.scrolled {
-    background-color: #68bf54;
+    background-color: #43b02a;
     font-size: 0.9rem;
     padding: 0.25rem 1rem; }
   /* line 16, sass/_header.scss */
@@ -263,6 +263,7 @@ img {
     .main-navigation li.button a,
     .secondary-navigation li.button a {
       border: 1px solid #0076cf;
+      border-radius: 6px;
       background: #0076cf;
       color: #ffffff;
       font-family: Rubik Mono One, Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
@@ -271,24 +272,17 @@ img {
       -o-transition: all 300ms;
       -webkit-transition: all 300ms;
       transition: all 300ms; }
-      /* line 59, sass/_header.scss */
+      /* line 60, sass/_header.scss */
       .main-navigation li.button a span,
       .secondary-navigation li.button a span {
         border-bottom: 0 none; }
-      /* line 62, sass/_header.scss */
-      .main-navigation li.button a:hover, .main-navigation li.button a:focus,
-      .secondary-navigation li.button a:hover,
-      .secondary-navigation li.button a:focus {
-        background: none;
-        border-color: #0076cf;
-        color: #0076cf; }
-    /* line 71, sass/_header.scss */
+    /* line 66, sass/_header.scss */
     .main-navigation li.current_page_item span,
     .secondary-navigation li.current_page_item span {
       border-bottom: 1px dotted white;
       display: block;
       padding-bottom: 0.1rem; }
-  /* line 78, sass/_header.scss */
+  /* line 73, sass/_header.scss */
   .main-navigation a,
   .secondary-navigation a {
     display: block;
@@ -299,18 +293,18 @@ img {
     -o-transition: color 300ms;
     -webkit-transition: color 300ms;
     transition: color 300ms; }
-    /* line 84, sass/_header.scss */
+    /* line 79, sass/_header.scss */
     .main-navigation a:hover, .main-navigation a:focus,
     .secondary-navigation a:hover,
     .secondary-navigation a:focus {
-      color: #ffb81c; }
+      color: #041e42; }
 
 @media (min-width: 1000px) {
-  /* line 91, sass/_header.scss */
+  /* line 86, sass/_header.scss */
   .nav-toggle {
     display: none; } }
 
-/* line 97, sass/_header.scss */
+/* line 92, sass/_header.scss */
 .page-image-header {
   background-color: #43b02a;
   background-position: 50% 50%;
@@ -324,7 +318,7 @@ img {
   justify-content: center;
   min-height: 37.5rem; }
 
-/* line 110, sass/_header.scss */
+/* line 105, sass/_header.scss */
 .page-image-title {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -336,11 +330,11 @@ img {
   padding: 0 1rem;
   text-align: center; }
   @media (min-width: 600px) {
-    /* line 110, sass/_header.scss */
+    /* line 105, sass/_header.scss */
     .page-image-title {
       font-size: 4rem; } }
   @media (min-width: 800px) {
-    /* line 110, sass/_header.scss */
+    /* line 105, sass/_header.scss */
     .page-image-title {
       font-size: 6rem;
       padding: 0 2rem; } }
