@@ -16,7 +16,7 @@
 			$bg_hover_color = 'bc006e';
 			break;
 		case 'brblue':
-			$bg_color = '5be2e7';
+			$bg_color = '5BC2E7';
 			$bg_hover_color = '48b4b8';
 			break;
 		case 'gold':
