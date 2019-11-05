@@ -52,11 +52,11 @@
 
 .curriculum-item:nth-child(4n) .curriculum-heading,
 .entry-content .curriculum-item:nth-child(4n) .curriculum-heading {
-  background: #5be2e7;
+  background: #5BC2E7;
 }
 
 .curriculum-item:nth-child(4n) .curriculum-heading::after {
-  border-left-color: #5be2e7;
+  border-left-color: #5BC2E7;
 }
 
 .curriculum-item:nth-child(4n-1) .curriculum-heading,
@@ -200,7 +200,7 @@
 .curriculum-modules a.market,
 .entry-content .curriculum-modules a.market,
 .curriculum-modules span.market {
-  background-color: #5be2e7;
+  background-color: #5bc2e7;
 }
 
 .curriculum-modules a.market:hover,

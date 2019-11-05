@@ -264,7 +264,7 @@ i {
 
 /* line 85, sass/editor-style.scss */
 blockquote {
-  color: #5be2e7;
+  color: #5bc2e7;
   font-family: Rubik Mono One, Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
   font-size: 1.5rem; }
 
@@ -306,7 +306,7 @@ address {
 
 /* line 122, sass/editor-style.scss */
 a {
-  color: #5be2e7;
+  color: #5bc2e7;
   font-family: "Poppins Semibold", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
   text-decoration: none;
   -moz-transition: color, 300ms;

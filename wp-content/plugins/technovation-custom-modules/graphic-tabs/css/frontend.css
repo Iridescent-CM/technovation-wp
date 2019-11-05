@@ -61,7 +61,7 @@ ul.graphic-tabs-tabs li.graphic-tab-brblue:focus,
 .entry-content ul.graphic-tabs-tabs li.graphic-tab-brblue:focus,
 ul.graphic-tabs-tabs li.graphic-tab-brblue.current,
 .entry-content ul.graphic-tabs-tabs li.graphic-tab-brblue.current {
-  border-bottom-color: #5be2e7;
+  border-bottom-color: #5bc2e7;
 }
 
 ul.graphic-tabs-tabs li.graphic-tab-gold:hover,
@@ -126,7 +126,7 @@ ul.graphic-tabs-tabs li.graphic-tab-magenta a,
 
 ul.graphic-tabs-tabs li.graphic-tab-brblue a,
 .entry-content ul.graphic-tabs-tabs li.graphic-tab-brblue a {
-  background-color: #5be2e7;
+  background-color: #5bc2e7;
 }
 
 ul.graphic-tabs-tabs li.graphic-tab-gold a,
@@ -238,7 +238,7 @@ ul.graphic-tabs-tabs li a,
 .more-info-brblue .graphic-tab-text-area h4,
 .more-info-brblue .graphic-tab-text-area h5,
 .more-info-brblue .graphic-tab-text-area h6 {
-  color: #5be2e7;
+  color: #5bc2e7;
 }
 
 .more-info-gold .graphic-tab-text-area h1,
@@ -362,7 +362,7 @@ ul.graphic-tabs-tabs li a,
     color: white;
   }
   .graphic-tab-image-box.graphic-tab-image-brblue {
-    background: #5be2e7;
+    background: #5bc2e7;
     color: white;
   }
   .entry-content .graphic-tab-image-box.graphic-tab-image-brblue h1,
