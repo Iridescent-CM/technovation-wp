@@ -61,10 +61,14 @@ add_action( 'after_setup_theme', 'technovation_content_width', 0 );
  * Enqueue scripts and styles
  */
 function technovation_scripts() {
-	//this style sheet is for the eagle header font and is not longer needed
-	// wp_enqueue_style( 'eagle', '//cloud.webtype.com/css/fea72f17-6c81-4c13-9e34-58b54a440d85.css' );
 
-	wp_enqueue_style( 'technovation-style', get_stylesheet_uri());
+	//sets the version to the timestamp of the stylesheet
+	$theme = wp_get_theme();
+	$ver = $theme->get( 'Version' );
+	$themecsspath = get_stylesheet_directory() . '/style.css';
+	$style_ver = filemtime( $themecsspath );
+	wp_enqueue_style( 'technovation-style', get_stylesheet_uri(),array(),$style_ver );
+
 
 	wp_enqueue_style( 'font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' );
 
